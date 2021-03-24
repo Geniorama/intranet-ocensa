@@ -1,0 +1,105 @@
+// Typography
+h1, h2
+    font-family: 'cabin-bold', sans-serif
+
+h3, h4, h5, h6
+    font-family: 'roboto-bold', sans-serif
+
+p, span
+    font-family: 'roboto-c-regular', sans-serif
+
+// Custom Bootstrap
+.btn
+    font-family: 'cabin-bold', sans-serif
+    border-radius: 50px
+    font-size: .9em
+    line-height: 1em
+
+.btn-primary
+    background-color: $green_co
+    border-color: $green_co
+    &:hover
+        background-color: white
+        border-color: white
+        color: $green_co
+
+.btn-secondary
+    background-color: #707070
+    border-color: #707070
+    &:hover
+        background-color: $green_co
+        border-color: $green_co
+        color: white
+
+// Help Classes
+.oc-bg
+    &-yellow
+        background-color: $yellow_co
+    &-green
+        background-color: $green_co
+    &-blue
+        background-color: $blue_co
+    &-gray
+        background-color: $gray_co
+
+// Custom Slick
+.oc-slick-theme
+    position: relative
+    padding: 1em 3em
+    .oc-slick-arrow
+        background-color: white
+        border: 1px solid #C8D1D6
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        padding: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        position: absolute
+        z-index: 2
+        top: calc( 50% - 15px )
+        outline: none
+        &:hover
+            background-color: $green_co
+            path
+                stroke: white
+        &__prev
+            left: 0
+        &__next
+            right: 0
+        svg
+            width: 8px
+            height: auto
+    .slick-dots
+        list-style: none
+        padding: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        box-sizing: border-box
+        margin: 0
+        li
+            width: 10px
+            height: 10px
+            background-color: white
+            border-radius: 50%
+            margin: 7px
+            box-sizing: border-box
+            cursor: pointer
+            &.slick-active
+                background-color: $green_co
+        button
+            display: none
+
+// Example SVG
+#Layer_1
+    width: 40px
+    &:hover
+        .st0
+            fill: red
+        .st1
+            fill: green
+
+
+    
