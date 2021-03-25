@@ -47,6 +47,9 @@ import "./img/menu-principal/icon-como-vamos.svg";
 import "./img/menu-principal/icon-ayuda.svg";
 import "./img/menu-principal/logo_ocensa_logosimbolo.png";
 
+import "./img/foto-prueba-slide.jpg";
+import "./img/icon-slide-calendario.svg";
+import "./img/foto-prueba-perfil.jpg";
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
@@ -85,3 +88,29 @@ $('.oc-menu-principal__top__cerrar').click(function(e) {
     e.preventDefault()
     $('.oc-menu-principal').removeClass('menu-open')
 })
+$('.oc-slick-dashboard').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    dots: true
+})
+
+
+
+function progressBar(barClass) {
+    let items = document.querySelectorAll(barClass)
+    for(let item of items){
+        let progress = item.dataset.progress
+        item.style.width = `${progress}%`
+        item.textContent = `${progress}%`
+    }
+}
+
+progressBar('.oc-progress')
