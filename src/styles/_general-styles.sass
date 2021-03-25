@@ -42,6 +42,9 @@ p, span
     &-gray
         background-color: $gray_co
 
+.oc-box-shadow
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
+
 // Custom Slick
 .oc-slick-theme
     position: relative
@@ -68,6 +71,13 @@ p, span
             left: 0
         &__next
             right: 0
+        &.slick-disabled
+            opacity: .5
+            cursor: not-allowed
+            path
+                stroke: #ccc
+            &:hover
+                background-color: white
         svg
             width: 8px
             height: auto
