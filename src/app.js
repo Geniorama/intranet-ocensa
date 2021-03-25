@@ -32,6 +32,7 @@ import "./img/header/icon_logout.svg";
 import "./img/header/arrow-widgets.svg";
 import "./img/header/lupa_buscador.svg";
 import "./img/caja-widgets/widget-1-correo.svg";
+import "./img/caja-widgets/widget-2-agenda.svg";
 import "./img/caja-widgets/widget-3-grupos.svg";
 import "./img/caja-widgets/widget-4-enlaces_rapidos.svg";
 import "./img/caja-widgets/widget-5-mis_apps.svg";
