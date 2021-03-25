@@ -115,3 +115,18 @@ function progressBar(barClass) {
 }
 
 progressBar('.oc-progress')
+
+$('.oc-btn-menu-lateral').mouseenter(function(){
+    $(this).find('#Line_68').attr('x2', '5.47')
+    $(this).find('#Line_329').attr('x1', '10.47')
+    $(this).find('#Line_330').attr('x1', '7.64')
+    $(this).find('#Line_327').attr('x1', '6.37')
+})
+
+$('.oc-btn-menu-lateral').mouseleave(function(){
+    $(this).find('#Line_68').attr('x2', '10.47')
+    $(this).find('#Line_329').attr('x1', '13.47')
+    $(this).find('#Line_330').attr('x1', '2.64')
+    $(this).find('#Line_327').attr('x1', '10.47')
+})
+
