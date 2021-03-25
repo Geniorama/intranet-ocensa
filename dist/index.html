@@ -1,1 +1,474 @@
-<script src="js/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<link href="css/app.css" rel="stylesheet"></head>
+
+<body>
+    <div id="app">
+        <header class="oc-header">
+            <div class="oc-header__cont row">
+                <div class="oc-header__logo">
+                    <img src="img/logo_ocensa_logo.png" alt="">
+                </div>
+                <div class="oc-header__items">
+                    <a href="#" class="oc-header__logout">
+                        <img src="img/icon_logout.svg" alt=""><span>Logout</span>
+                    </a>
+                    <div class="oc-header__widgets">
+                        <div class="oc-header__widgets-info">
+                            <span>Mis WIDGETS</span>
+                            <img src="img/arrow-widgets.svg" alt="">
+                        </div>
+                        <div class="oc-header__widgets-cont">
+                            <div class="oc-header__widgets-item">
+                                <button class="oc-header__widgets-edit">Editar</button>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-correo oc-header__widgets-cont-img">
+                                    <img src="img/widget-1-correo.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Correo</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-agenda oc-header__widgets-cont-img">
+                                    <img src="img/widget-2-agenda.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Agenda</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-grupos oc-header__widgets-cont-img">
+                                    <img src="img/widget-3-grupos.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Grupos</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-enlaces oc-header__widgets-cont-img">
+                                    <img src="img/widget-4-enlaces_rapidos.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Enlaces rápidos</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-apps oc-header__widgets-cont-img">
+                                    <img src="img/widget-5-mis_apps.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Mis aplicaciones</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-indicadores oc-header__widgets-cont-img">
+                                    <img src="img/widget-6-indicadores.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Indicadores</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-noticias oc-header__widgets-cont-img">
+                                    <img src="img/widget-7-noticias.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Noticias</p>
+                            </div>
+                            <!--Item--> 
+                            <div class="oc-header__widgets-item">
+                                <div class="oc-header__widgets-agenda-calendario oc-header__widgets-cont-img">
+                                    <img src="img/widget-8-agenda_calendario.svg" alt="">
+                                </div>
+                                <p class="oc-header__widgets-desc">Agenda/Calendario</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oc-search-bar">
+                <div class="input-group oc-search-bar__cont">
+                    <button type="button" class="btn btn-primary oc-search-bar__btn">
+                        <img src="img/lupa_buscador.svg" alt="">
+                    </button>
+                    <div class="form-outline oc-search-bar__input">
+                        <input type="search" id="form1" class="form-control"
+                            placeholder="Encuentra aquí lo que estas buscando">
+                    </div>
+                </div>
+            </div>
+        </header>
+<aside class="oc-menu-lateral oc-bg-blue text-center p-1 py-4 d-flex flex-column align-items-center">
+    <button class="oc-btn-menu-lateral oc-btn-open-menu">
+        <svg version="1.1" id="icon-menu-lateral" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #FFFFFF;
+                }
+
+                .st1 {
+                    fill: #00CD00;
+                }
+
+                .st2 {
+                    fill: #008100;
+                }
+
+                .st3 {
+                    fill: #009A43;
+                }
+
+                .st4 {
+                    fill: #EFEF00;
+                }
+
+                .st5 {
+                    fill: none;
+                }
+            </style>
+            <g id="Group_3195" transform="translate(5281 -49)">
+                <g id="Group_5343" transform="translate(-5303.096 -0.815)">
+                    <g id="Line_64">
+                        <path class="st0" d="M39.2,66.9H26.1c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h13.2c1.3,0,2.4,1.1,2.4,2.4
+                    C41.6,65.8,40.5,66.9,39.2,66.9z" />
+                    </g>
+                    <g id="Line_65">
+                        <path class="st0" d="M26.1,66.9c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7c0-0.1,0-0.3,0.1-0.5c0-0.2,0.1-0.3,0.1-0.4
+                    c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.1,0.2-0.2,0.3-0.4c0.9-0.9,2.5-0.9,3.3,0c0.4,0.4,0.7,1,0.7,1.7c0,0.6-0.2,1.2-0.7,1.7
+                    C27.3,66.6,26.7,66.9,26.1,66.9z" />
+                    </g>
+                    <g id="Line_66">
+                        <path class="st1" d="M43.9,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h7.9c1.3,0,2.4,1.1,2.4,2.4
+                    C46.3,65.8,45.2,66.9,43.9,66.9z" />
+                    </g>
+                    <g id="Line_64-2">
+                        <path class="st2" d="M39.2,66.9H26.1c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h13.2c1.3,0,2.4,1.1,2.4,2.4
+                    C41.6,65.8,40.5,66.9,39.2,66.9z" />
+                    </g>
+                    <g id="Line_65-2">
+                        <path class="st0" d="M26.1,66.9c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7c0-0.1,0-0.3,0.1-0.5c0-0.2,0.1-0.3,0.1-0.4
+                    c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.1,0.2-0.2,0.3-0.4c0.9-0.9,2.5-0.9,3.3,0c0.4,0.4,0.7,1,0.7,1.7c0,0.6-0.2,1.2-0.7,1.7
+                    C27.3,66.6,26.7,66.9,26.1,66.9z" />
+                    </g>
+                    <g id="Line_66-2">
+                        <path class="st1" d="M47.3,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h11.3c1.3,0,2.4,1.1,2.4,2.4
+                    C49.7,65.8,48.6,66.9,47.3,66.9z" />
+                    </g>
+                    <g id="Line_68">
+                        <path class="st0"
+                            d="M47.3,57.2H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,57.2,47.3,57.2z" />
+                    </g>
+                    <g id="Line_69">
+                        <path class="st0"
+                            d="M36.6,57.2H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,57.2,36.6,57.2z" />
+                    </g>
+                    <g id="Line_68-2">
+                        <path class="st0"
+                            d="M47.3,57.2H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,57.2,47.3,57.2z" />
+                    </g>
+                    <g id="Line_69-2">
+                        <path class="st3"
+                            d="M36.6,57.2H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,57.2,36.6,57.2z" />
+                    </g>
+                    <g id="Line_326">
+                        <path class="st0"
+                            d="M36.6,77H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,77,36.6,77z" />
+                    </g>
+                    <g id="Line_327">
+                        <path class="st0"
+                            d="M47.3,77H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,77,47.3,77z" />
+                    </g>
+                    <g id="Line_328">
+                        <path class="st0"
+                            d="M32.8,77h-6.6c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h6.6c1.3,0,2.4,1.1,2.4,2.4S34.1,77,32.8,77z" />
+                    </g>
+                    <g id="Line_329">
+                        <path class="st4"
+                            d="M47.3,77H32.8c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h14.5c1.3,0,2.4,1.1,2.4,2.4S48.6,77,47.3,77z" />
+                    </g>
+                    <g id="Line_330">
+                        <path class="st0" d="M39.6,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h3.6c1.3,0,2.4,1.1,2.4,2.4
+                    C42,65.8,40.9,66.9,39.6,66.9z" />
+                    </g>
+                </g>
+                <g id="Rectangle_1199">
+                    <rect x="-5281" y="49" class="st5" width="30" height="30" />
+                </g>
+            </g>
+        </svg>
+
+        <span>menú</span>
+    </button>
+
+    <a href="#" class="oc-menu-lateral__avatar my-4 mt-5">
+        <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+    </a>
+
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <img src="img/menu-perfil-0-inicio.svg" alt="">
+
+                <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <span class="label-notify">
+                    1
+                </span>
+                <img src="img/menu-perfil-1-correo.svg" alt="">
+
+                <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <span class="label-notify">
+                    7
+                </span>
+                <img src="img/menu-perfil-2-mensajes.svg" alt="">
+
+                <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <span class="label-notify">
+                    7
+                </span>
+                <img src="img/menu-perfil-3-reuniones.svg" alt="">
+                <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <span class="label-notify">
+                    7
+                </span>
+                <img src="img/menu-perfil-4-grupos.svg" alt="">
+                <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+            </a>
+        </li>
+    </ul>
+</aside>
+<div class="oc-menu-principal p-4">
+    <div class="oc-menu-principal__top d-flex align-items-center">
+        <button class="oc-menu-principal__top__cerrar">
+            <svg version="1.1" id="icon-cerrar" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27px" height="27px"
+                viewBox="0 0 27 27" style="enable-background:new 0 0 27 27;" xml:space="preserve">
+                <style type="text/css">
+                    #icon-cerrar .st0 {
+                        opacity: 0.4;
+                        enable-background: new;
+                    }
+
+                    #icon-cerrar .st1 {
+                        fill: #FFFFFF;
+                    }
+
+                    #icon-cerrar .st2 {
+                        opacity: 0.7;
+                        enable-background: new;
+                    }
+
+                    #icon-cerrar .st3 {
+                        fill: none;
+                    }
+                </style>
+                <g id="Group_9817" transform="translate(4481 -29)">
+                    <g id="Group_9816" transform="translate(-0.201 -0.23)">
+                        <g id="Group_9815" transform="translate(-7066.168)">
+                            <g id="Line_64" class="st0">
+                                <path class="st1" d="M2591.4,52.6c-0.6,0-1.2-0.2-1.7-0.7c-0.9-0.9-0.9-2.4,0-3.3l9.3-9.3c0.9-0.9,2.4-0.9,3.3,0
+					c0.9,0.9,0.9,2.4,0,3.3l-9.3,9.3C2592.6,52.3,2592,52.6,2591.4,52.6z" />
+                            </g>
+                            <g id="Line_65">
+                                <path class="st1" d="M2591.4,52.6c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7c0-0.6,0.3-1.2,0.7-1.7c0.9-0.9,2.5-0.9,3.3,0
+					c0.4,0.4,0.7,1,0.7,1.7c0,0.6-0.2,1.2-0.7,1.7C2592.6,52.3,2592,52.6,2591.4,52.6z" />
+                            </g>
+                            <g id="Line_66-2">
+                                <path class="st1" d="M2598.9,45.1c-0.6,0-1.2-0.2-1.7-0.7c-0.9-0.9-0.9-2.4,0-3.3l7.5-7.5c0.9-0.9,2.4-0.9,3.3,0
+					c0.9,0.9,0.9,2.4,0,3.3l-7.5,7.5C2600.1,44.9,2599.5,45.1,2598.9,45.1z" />
+                            </g>
+                        </g>
+                        <g id="Group_432" transform="translate(-7066.168)">
+                            <g id="Line_64-2" class="st0">
+                                <path class="st1" d="M2600.7,46.9c-0.6,0-1.2-0.2-1.7-0.7l-9.3-9.3c-0.9-0.9-0.9-2.4,0-3.3c0.9-0.9,2.4-0.9,3.3,0l9.3,9.3
+					c0.9,0.9,0.9,2.4,0,3.3C2601.9,46.7,2601.3,46.9,2600.7,46.9z" />
+                            </g>
+                            <g id="Line_65-2">
+                                <path class="st1" d="M2591.4,37.6c-0.2,0-0.3,0-0.5,0c-0.2,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.3-0.1-0.4-0.2
+					c-0.1-0.1-0.2-0.2-0.4-0.3c-0.4-0.4-0.7-1.1-0.7-1.7c0-0.2,0-0.3,0-0.5c0-0.2,0.1-0.3,0.1-0.4c0.1-0.1,0.1-0.3,0.2-0.4
+					c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.1,0.2-0.2,0.4-0.3c0.1-0.1,0.3-0.2,0.4-0.2c0.1-0.1,0.3-0.1,0.4-0.1c0.8-0.1,1.6,0.1,2.1,0.6
+					c0.1,0.1,0.2,0.2,0.3,0.4c0.1,0.1,0.2,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4c0,0.1,0,0.3,0,0.5c0,0.6-0.2,1.2-0.7,1.7
+					C2592.6,37.3,2592,37.6,2591.4,37.6z" />
+                            </g>
+                            <g id="Line_66-2-2" class="st2">
+                                <path class="st1" d="M2606.4,52.6c-0.6,0-1.2-0.2-1.7-0.7l-7.5-7.5c-0.9-0.9-0.9-2.4,0-3.3c0.9-0.9,2.4-0.9,3.3,0l7.5,7.5
+					c0.9,0.9,0.9,2.4,0,3.3C2607.6,52.3,2607,52.6,2606.4,52.6z" />
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Rectangle_1558">
+                        <rect x="-4481" y="29" class="st3" width="27" height="27" />
+                    </g>
+                </g>
+            </svg>
+
+            <span class="d-block oc-menu-principal__top__cerrar__text">Cerrar</span>
+        </button>
+
+        <img src="img/logo_ocensa_logo2.png" alt="" class="ml-3 ml-md-5 oc-menu-principal__top__brand">
+    </div>
+
+    <section class="oc-menu-principal__bottom mt-5">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="img/icon-nosotros.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Nosotros</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra razón de ser</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra historia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra cultura</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestro Gobierno Corporativo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="img/icon-direcciones.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Direcciones</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Operaciones</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Asuntos legales y Secretaría General</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Organización y talento</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Responsabilidad Integral</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Finanzas</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Auditoría</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Riegos y Cumplimiento</a></li>
+                        <li class="nav-item item-has-child">
+                            <a href="#" class="nav-link d-flex justify-content-between align-items-center">
+                                Gerencias Senior
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481"
+                                    viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273"
+                                        d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355" />
+                                </svg>
+                            </a>
+                            <ul class="nav oc-submenu flex-column pl-3">
+                                <li class="nav-item"><a href="#" class="nav-link">Auditoría</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Riesgos y cumplimiento</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="img/icon-territorio.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Territorio</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Casanare</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Boyacá</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Santander</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Antioquia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Córdoba</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sucre</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="img/icon-como-vamos.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Cómo vamos</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">TBG</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">ONDA (ASE)</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Operaciones</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Financieros</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Ambiental y HSE</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Cultura</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Abastecimiento</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="img/icon-ayuda.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Ayuda</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Tutoriales</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Reportes de actos y condiciones</a></li>
+                        <li class="nav-item item-has-child">
+                            <a href="#" class="nav-link d-flex justify-content-between align-items-center">
+                                Puntos de contacto
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481"
+                                    viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273"
+                                        d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355" />
+                                </svg>
+                            </a>
+                            <ul class="nav oc-submenu flex-column pl-3">
+                                <li class="nav-item"><a href="#" class="nav-link">Línea ética</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">PUC</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Comité de convivencia</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">COPASST</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">PQRS/FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="oc-menu-principal__footer py-4">
+        <div class="row justify-content-center text-center">
+            <div class="col-12 col-md-3">
+                <a href="#">Mapa del sitio</a>
+            </div>
+            <div class="col-12 col-md-3">
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <div class="col-12 col-md-3">
+                <a href="#">Política de protección de datos</a>
+            </div>
+        </div>
+        <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-menu-principal__footer__symbol">
+    </div> 
+</div><main class="oc-content">
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores recusandae quis repudiandae quasi nam laborum, libero aliquid. Dolores, harum? Aut eos labore totam eveniet ullam. Pariatur nihil cupiditate quod.</p>
+    </div>
+</main>
+
+    
+        <footer class="oc-footer oc-bg-green">
+            <h2>footer</h2>
+        </footer>
+    </div>
+<script src="js/bundle.js"></script></body>
+</html>
