@@ -1,0 +1,97 @@
+.oc-header
+    &__cont
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        margin: 0
+    &__logo
+        margin-left: 3em
+        img
+            width: 171.21px
+    &__items
+        display: flex
+        align-items: center
+    &__logout
+        margin-right: 3em
+        &:hover
+            text-decoration: none
+        img
+            width: 22px
+            margin-right: .3em
+        span
+            color: #1D1D1B
+            transition: $tr
+            font-size: 16px
+        &:hover span
+                color: $green_co
+                font-weight: bold
+    &__widgets
+        position: relative
+        &-info
+            background-color: $green_co
+            padding: .5em .7em
+            text-align: center
+            cursor: pointer
+            position: relative
+            z-index: 2
+            span
+                display: block
+                color: #ffffff
+                font-size: 16px
+        &:hover .oc-header__widgets-cont
+            transform: translateY(0%)
+    &__widgets-cont
+        transform: translateY(-120%)
+        position: absolute
+        left: 0
+        top: 65px
+        z-index: 1
+        height: auto
+        background-color: #ffffff
+        width: 100%
+        text-align: center
+        transition: all .5s ease-in-out
+    &__widgets-item
+        margin: .5em 0
+    &__widgets-cont-img
+        width: 43px
+        height: 43px
+        padding: .5em
+        margin: auto
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: 100%
+            height: auto
+            object: cover
+    &__widgets-desc
+        color: #8F9FA9
+        font-size: 11px
+        margin: 0
+    &__widgets-edit
+        background-color: $gray_co
+        color: #ffffff
+        font-size: 11px
+        border-radius: 10px
+        border: none
+        padding: .2em 1.5em
+        font-family: 'cabin-bold'
+    &__widgets-correo
+        background-color: $green-co
+    &__widgets-agenda
+        background-color: $blue_light_co
+    &__widgets-grupos
+        background-color: $green-co
+    &__widgets-enlaces
+        background-color: $gray_co
+    &__widgets-apps
+        background-color: $blue_light_co
+    &__widgets-indicadores
+        background-color: $green-co
+    &__widgets-noticias
+        background-color: $gray_co
+    &__widgets-agenda-calendario
+        background-color: $blue_light_co
+    

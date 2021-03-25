@@ -1,15 +1,12 @@
 #app
     display: grid
     height: calc( 100vh + 200px)
-    grid-template-areas: "aside header" "aside searchBar" "aside content" "footer footer"
-    grid-template-rows: 1.5fr 1fr 12fr 1fr
+    grid-template-areas: "aside header" "aside content" "footer footer"
+    grid-template-rows: auto 12fr 1fr
     grid-template-columns: 80px
 
 .oc-header
     grid-area: header
-
-.oc-search-bar
-    grid-area: searchBar
 
 .oc-menu-lateral
     grid-area: aside

@@ -26,7 +26,17 @@ import "./img/barra-lateral-azul/menu-perfil-1-correo.svg";
 import "./img/barra-lateral-azul/menu-perfil-2-mensajes.svg";
 import "./img/barra-lateral-azul/menu-perfil-3-reuniones.svg";
 import "./img/barra-lateral-azul/menu-perfil-4-grupos.svg";
-
+import "./img/header/logo_ocensa_logo.png";
+import "./img/header/icon_logout.svg";
+import "./img/header/arrow-widgets.svg";
+import "./img/header/lupa_buscador.svg";
+import "./img/caja-widgets/widget-1-correo.svg";
+import "./img/caja-widgets/widget-3-grupos.svg";
+import "./img/caja-widgets/widget-4-enlaces_rapidos.svg";
+import "./img/caja-widgets/widget-5-mis_apps.svg";
+import "./img/caja-widgets/widget-6-indicadores.svg";
+import "./img/caja-widgets/widget-7-noticias.svg";
+import "./img/caja-widgets/widget-8-agenda_calendario.svg";
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
