@@ -13,6 +13,7 @@ import "./fonts/Roboto-Light.ttf";
 import "./fonts/Roboto-Medium.ttf";
 import "./fonts/Roboto-MediumItalic.ttf";
 import "./fonts/Roboto-Regular.ttf";
+import "./fonts/Roboto-Black.ttf";
 
 
 // Modules
@@ -26,6 +27,13 @@ import "./img/barra-lateral-azul/menu-perfil-1-correo.svg";
 import "./img/barra-lateral-azul/menu-perfil-2-mensajes.svg";
 import "./img/barra-lateral-azul/menu-perfil-3-reuniones.svg";
 import "./img/barra-lateral-azul/menu-perfil-4-grupos.svg";
+import "./img/menu-principal/logo_ocensa_logo2.png";
+import "./img/menu-principal/icon-nosotros.svg";
+import "./img/menu-principal/icon-direcciones.svg";
+import "./img/menu-principal/icon-territorio.svg";
+import "./img/menu-principal/icon-como-vamos.svg";
+import "./img/menu-principal/icon-ayuda.svg";
+import "./img/menu-principal/logo_ocensa_logosimbolo.png";
 
 
 $('.oc-slick-example').slick({
@@ -40,4 +48,28 @@ $('.oc-slick-example').slick({
         </svg>
     </button>`,
     dots: true
+})
+
+$('.item-has-child').hover(function() {
+    const item = $(this)
+    const submenu = $(this).find('.oc-submenu')
+
+    submenu.slideToggle('low', function() {
+    if (submenu.css('display') == 'none') {
+        item.removeClass('open')
+    }
+    else {
+        item.addClass('open')
+    }
+  });
+})
+
+$('.oc-btn-open-menu').click(function(e) {
+    e.preventDefault()
+    $('.oc-menu-principal').addClass('menu-open')
+})
+
+$('.oc-menu-principal__top__cerrar').click(function(e) {
+    e.preventDefault()
+    $('.oc-menu-principal').removeClass('menu-open')
 })
