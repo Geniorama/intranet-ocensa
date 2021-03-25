@@ -50,6 +50,9 @@ import "./img/menu-principal/logo_ocensa_logosimbolo.png";
 import "./img/foto-prueba-slide.jpg";
 import "./img/icon-slide-calendario.svg";
 import "./img/foto-prueba-perfil.jpg";
+import "./img/logo_ocensa_logosimbolo.png";
+import "./img/footer/facebook.svg";
+import "./img/footer/youtube.svg";
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
