@@ -20,7 +20,13 @@ import "./styles/app.sass";
 
 
 // Images
-import "./img/header/icon_logout.svg";
+import "./img/barra-lateral-azul/oc-avatar.jpg";
+import "./img/barra-lateral-azul/menu-perfil-0-inicio.svg";
+import "./img/barra-lateral-azul/menu-perfil-1-correo.svg";
+import "./img/barra-lateral-azul/menu-perfil-2-mensajes.svg";
+import "./img/barra-lateral-azul/menu-perfil-3-reuniones.svg";
+import "./img/barra-lateral-azul/menu-perfil-4-grupos.svg";
+
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
