@@ -2,7 +2,6 @@
 import $ from "jquery";
 import 'bootstrap';
 import "./../node_modules/slick-carousel";
-import AOS from 'aos';
 
 
 // Fonts

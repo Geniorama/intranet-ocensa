@@ -9,259 +9,252 @@
 <link href="css/app.css" rel="stylesheet"></head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog pt-5">
+        <div class="modal-content">
+        <div class="modal-body">
+            <form action="" class="justify-content-end d-flex">
+                <label for="oc-search" class="oc-bg-green label-search"><img src="img/lupa_buscador.svg" alt=""></label>
+                <input type="text" placeholder="Encuentra aquí lo que buscas" id="oc-search" class="form-control oc-input-search">
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Buscar</button>
+        </div>
+        </div>
+    </div>
+    </div>
     <div id="app">
         <header class="oc-header">
-            <div class="oc-header__cont row">
-                <div class="oc-header__logo">
-                    <img src="img/logo_ocensa_logo.png" alt="">
-                </div>
-                <div class="oc-header__items">
-                    <a href="#" class="oc-header__logout">
-                        <img src="img/icon_logout.svg" alt=""><span>Logout</span>
-                    </a>
-                    <div class="oc-header__widgets">
-                        <div class="oc-header__widgets-info">
-                            <span>Mis WIDGETS</span>
-                            <img src="img/arrow-widgets.svg" alt="">
+            <div class="oc-header__desktop d-none d-md-block">
+                <div class="oc-header__cont row py-3 py-lg-0">
+                    <div class="oc-header__logo">
+                        <img src="img/logo_ocensa_logo.png" alt="">
+                    </div>
+                    <div class="oc-header__items">
+                        <a href="#" class="oc-header__logout">
+                            <img src="img/icon_logout.svg" alt=""><span>Logout</span>
+                        </a>
+                        <div class="oc-header__widgets d-none d-lg-block">
+                            <div class="oc-header__widgets-info">
+                                <span>Mis WIDGETS</span>
+                                <img src="img/arrow-widgets.svg" alt="">
+                            </div>
+                            <div class="oc-header__widgets-cont">
+                                <div class="oc-header__widgets-item">
+                                    <button class="oc-header__widgets-edit">Editar</button>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-correo oc-header__widgets-cont-img">
+                                        <img src="img/widget-1-correo.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Correo</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-agenda oc-header__widgets-cont-img">
+                                        <img src="img/widget-2-agenda.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Agenda</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-grupos oc-header__widgets-cont-img">
+                                        <img src="img/widget-3-grupos.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Grupos</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-enlaces oc-header__widgets-cont-img">
+                                        <img src="img/widget-4-enlaces_rapidos.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Enlaces rápidos</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-apps oc-header__widgets-cont-img">
+                                        <img src="img/widget-5-mis_apps.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Mis aplicaciones</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-indicadores oc-header__widgets-cont-img">
+                                        <img src="img/widget-6-indicadores.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Indicadores</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-noticias oc-header__widgets-cont-img">
+                                        <img src="img/widget-7-noticias.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Noticias</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-agenda-calendario oc-header__widgets-cont-img">
+                                        <img src="img/widget-8-agenda_calendario.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Agenda/Calendario</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="oc-header__widgets-cont">
-                            <div class="oc-header__widgets-item">
-                                <button class="oc-header__widgets-edit">Editar</button>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-correo oc-header__widgets-cont-img">
-                                    <img src="img/widget-1-correo.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Correo</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-agenda oc-header__widgets-cont-img">
-                                    <img src="img/widget-2-agenda.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Agenda</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-grupos oc-header__widgets-cont-img">
-                                    <img src="img/widget-3-grupos.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Grupos</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-enlaces oc-header__widgets-cont-img">
-                                    <img src="img/widget-4-enlaces_rapidos.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Enlaces rápidos</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-apps oc-header__widgets-cont-img">
-                                    <img src="img/widget-5-mis_apps.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Mis aplicaciones</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-indicadores oc-header__widgets-cont-img">
-                                    <img src="img/widget-6-indicadores.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Indicadores</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-noticias oc-header__widgets-cont-img">
-                                    <img src="img/widget-7-noticias.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Noticias</p>
-                            </div>
-                            <!--Item--> 
-                            <div class="oc-header__widgets-item">
-                                <div class="oc-header__widgets-agenda-calendario oc-header__widgets-cont-img">
-                                    <img src="img/widget-8-agenda_calendario.svg" alt="">
-                                </div>
-                                <p class="oc-header__widgets-desc">Agenda/Calendario</p>
-                            </div>
+                    </div>
+                </div>
+                <div class="oc-search-bar">
+                    <div class="input-group oc-search-bar__cont">
+                        <button type="button" class="btn btn-primary oc-search-bar__btn">
+                            <img src="img/lupa_buscador.svg" alt="">
+                        </button>
+                        <div class="form-outline oc-search-bar__input">
+                            <input type="search" id="form1" class="form-control"
+                                placeholder="Encuentra aquí lo que buscas">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="oc-search-bar">
-                <div class="input-group oc-search-bar__cont">
-                    <button type="button" class="btn btn-primary oc-search-bar__btn">
+
+            <div class="oc-header__mobile d-block d-md-none p-3">
+                <div class="d-flex align-items-center justify-content-between">
+                    <button class="oc-btn-menu-superior oc-btn-open-menu d-flex flex-column">
+                        <img src="img/icon_menu_mobile.svg" alt="">
+
+                        <span>menú</span>
+                    </button>
+                    <div class="oc-header__logo">
+                        <img src="img/logo_ocensa_logo.png" alt="">
+                    </div>
+                    <a href="#" class="oc-header__logout text-center">
+                        <img src="img/icon_logout.svg" alt=""><span class="d-block">Logout</span>
+                    </a>
+                    <button type="button" class="btn btn-primary oc-search-bar__btn" data-toggle="modal" data-target="#searchModal">
                         <img src="img/lupa_buscador.svg" alt="">
                     </button>
-                    <div class="form-outline oc-search-bar__input">
-                        <input type="search" id="form1" class="form-control"
-                            placeholder="Encuentra aquí lo que buscas">
-                    </div>
                 </div>
             </div>
         </header>
-<aside class="oc-menu-lateral oc-bg-blue text-center p-1 py-4 d-flex flex-column align-items-center">
-    <button class="oc-btn-menu-lateral oc-btn-open-menu">
-        <svg version="1.1" id="icon-menu-lateral" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
-            style="enable-background:new 0 0 30 30;" xml:space="preserve">
-            <style type="text/css">
-                .st0 {
-                    fill: #FFFFFF;
-                }
-
-                .st1 {
-                    fill: #00CD00;
-                }
-
-                .st2 {
-                    fill: #008100;
-                }
-
-                .st3 {
-                    fill: #009A43;
-                }
-
-                .st4 {
-                    fill: #EFEF00;
-                }
-
-                .st5 {
-                    fill: none;
-                }
-            </style>
-            <g id="Group_3195" transform="translate(5281 -49)">
-                <g id="Group_5343" transform="translate(-5303.096 -0.815)">
-                    <g id="Line_64">
-                        <path class="st0" d="M39.2,66.9H26.1c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h13.2c1.3,0,2.4,1.1,2.4,2.4
-                    C41.6,65.8,40.5,66.9,39.2,66.9z" />
-                    </g>
-                    <g id="Line_65">
-                        <path class="st0" d="M26.1,66.9c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7c0-0.1,0-0.3,0.1-0.5c0-0.2,0.1-0.3,0.1-0.4
-                    c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.1,0.2-0.2,0.3-0.4c0.9-0.9,2.5-0.9,3.3,0c0.4,0.4,0.7,1,0.7,1.7c0,0.6-0.2,1.2-0.7,1.7
-                    C27.3,66.6,26.7,66.9,26.1,66.9z" />
-                    </g>
-                    <g id="Line_66">
-                        <path class="st1" d="M43.9,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h7.9c1.3,0,2.4,1.1,2.4,2.4
-                    C46.3,65.8,45.2,66.9,43.9,66.9z" />
-                    </g>
-                    <g id="Line_64-2">
-                        <path class="st2" d="M39.2,66.9H26.1c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h13.2c1.3,0,2.4,1.1,2.4,2.4
-                    C41.6,65.8,40.5,66.9,39.2,66.9z" />
-                    </g>
-                    <g id="Line_65-2">
-                        <path class="st0" d="M26.1,66.9c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7c0-0.1,0-0.3,0.1-0.5c0-0.2,0.1-0.3,0.1-0.4
-                    c0.1-0.1,0.1-0.3,0.2-0.4c0.1-0.1,0.2-0.2,0.3-0.4c0.9-0.9,2.5-0.9,3.3,0c0.4,0.4,0.7,1,0.7,1.7c0,0.6-0.2,1.2-0.7,1.7
-                    C27.3,66.6,26.7,66.9,26.1,66.9z" />
-                    </g>
-                    <g id="Line_66-2">
-                        <path class="st1" d="M47.3,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h11.3c1.3,0,2.4,1.1,2.4,2.4
-                    C49.7,65.8,48.6,66.9,47.3,66.9z" />
-                    </g>
-                    <g id="Line_68">
-                        <path class="st0"
-                            d="M47.3,57.2H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,57.2,47.3,57.2z" />
-                    </g>
-                    <g id="Line_69">
-                        <path class="st0"
-                            d="M36.6,57.2H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,57.2,36.6,57.2z" />
-                    </g>
-                    <g id="Line_68-2">
-                        <path class="st0"
-                            d="M47.3,57.2H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,57.2,47.3,57.2z" />
-                    </g>
-                    <g id="Line_69-2">
-                        <path class="st3"
-                            d="M36.6,57.2H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,57.2,36.6,57.2z" />
-                    </g>
-                    <g id="Line_326">
-                        <path class="st0"
-                            d="M36.6,77H26.3c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S37.9,77,36.6,77z" />
-                    </g>
-                    <g id="Line_327">
-                        <path class="st0"
-                            d="M47.3,77H36.9c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h10.4c1.3,0,2.4,1.1,2.4,2.4S48.6,77,47.3,77z" />
-                    </g>
-                    <g id="Line_328">
-                        <path class="st0"
-                            d="M32.8,77h-6.6c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h6.6c1.3,0,2.4,1.1,2.4,2.4S34.1,77,32.8,77z" />
-                    </g>
-                    <g id="Line_329">
-                        <path class="st4"
-                            d="M47.3,77H32.8c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4h14.5c1.3,0,2.4,1.1,2.4,2.4S48.6,77,47.3,77z" />
-                    </g>
-                    <g id="Line_330">
-                        <path class="st0" d="M39.6,66.9H36c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4h3.6c1.3,0,2.4,1.1,2.4,2.4
-                    C42,65.8,40.9,66.9,39.6,66.9z" />
-                    </g>
-                </g>
-                <g id="Rectangle_1199">
-                    <rect x="-5281" y="49" class="st5" width="30" height="30" />
-                </g>
+<aside
+    class="oc-menu-lateral oc-bg-blue text-center py-md-1 py-lg-4 d-flex flex-row flex-lg-column align-items-center">
+    <button class="oc-btn-menu-lateral oc-btn-open-menu order-md-last order-lg-first d-none d-md-block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25.913" height="24.552" viewBox="0 0 25.913 24.552">
+            <g id="menu-icon-svg" data-name="menu-icon-svg" transform="translate(-23.741 -52.461)">
+                <line id="Line_64" data-name="Line 64" x1="13.153" transform="translate(26.096 64.525)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_65" data-name="Line 65" transform="translate(26.096 64.525)" fill="none" stroke="#fff"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_66" data-name="Line 66" x1="7.902" transform="translate(35.994 64.525)" fill="none"
+                    stroke="#00cd00" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_64-2" data-name="Line 64-2" x1="13.153" transform="translate(26.096 64.525)" fill="none"
+                    stroke="#008100" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_65-2" data-name="Line 65-2" transform="translate(26.096 64.525)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_66-2" data-name="Line 66-2" x1="11.306" transform="translate(35.994 64.525)" fill="none"
+                    stroke="#00cd00" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_68" data-name="Line 68" x2="10.37" transform="translate(36.928 54.815)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_69" data-name="Line 69" x2="10.373" transform="translate(26.269 54.815)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_69-2" data-name="Line 69-2" x2="10.373" transform="translate(26.269 54.815)" fill="none"
+                    stroke="#009a43" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_326" data-name="Line 326" x1="10.373" transform="translate(26.269 74.658)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_327" data-name="Line 327" x1="10.47" transform="translate(36.927 74.658)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_328" data-name="Line 328" x1="6.565" transform="translate(26.269 74.658)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_329" data-name="Line 329" x1="13.47" transform="translate(32.834 74.658)" fill="none"
+                    stroke="#efef00" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
+                <line id="Line_330" data-name="Line 330" x1="2.64" transform="translate(35.994 64.525)" fill="none"
+                    stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.709" />
             </g>
         </svg>
 
         <span>menú</span>
     </button>
 
-    <a href="#" class="oc-menu-lateral__avatar my-4 mt-5">
-        <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
-        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
-    </a>
+    <div class="oc-menu-arrow left d-flex align-items-center justify-content-center d-md-none oc-bg-blue">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
+                transform="translate(-178.533 -474.021)" fill="none" stroke="#ffffff" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2.355" />
+        </svg>
+    </div>
 
-    <ul class="nav flex-column">
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <img src="img/menu-perfil-0-inicio.svg" alt="">
+    <nav class="px-2 py-3 p-lg-0">
+        <ul class="nav flex-row flex-lg-column align-items-center mt-lg-4 order-md-first order-lg-last">
+            <li class="nav-item">
+                <a href="#" class="oc-menu-lateral__avatar nav-link">
+                    <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                    <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                </a>
+            </li>
 
-                <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
-            </a>
-        </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img src="img/menu-perfil-0-inicio.svg" alt="">
 
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <span class="label-notify">
-                    1
-                </span>
-                <img src="img/menu-perfil-1-correo.svg" alt="">
+                    <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                </a>
+            </li>
 
-                <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
-            </a>
-        </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="label-notify">
+                        1
+                    </span>
+                    <img src="img/menu-perfil-1-correo.svg" alt="">
 
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <span class="label-notify">
-                    7
-                </span>
-                <img src="img/menu-perfil-2-mensajes.svg" alt="">
+                    <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                </a>
+            </li>
 
-                <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
-            </a>
-        </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="label-notify">
+                        7
+                    </span>
+                    <img src="img/menu-perfil-2-mensajes.svg" alt="">
 
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <span class="label-notify">
-                    7
-                </span>
-                <img src="img/menu-perfil-3-reuniones.svg" alt="">
-                <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
-            </a>
-        </li>
+                    <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                </a>
+            </li>
 
-        <li class="nav-item">
-            <a href="#" class="nav-link">
-                <span class="label-notify">
-                    7
-                </span>
-                <img src="img/menu-perfil-4-grupos.svg" alt="">
-                <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
-            </a>
-        </li>
-    </ul>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="label-notify">
+                        7
+                    </span>
+                    <img src="img/menu-perfil-3-reuniones.svg" alt="">
+                    <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="label-notify">
+                        7
+                    </span>
+                    <img src="img/menu-perfil-4-grupos.svg" alt="">
+                    <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="oc-menu-arrow right d-flex align-items-center justify-content-center d-md-none oc-bg-blue">
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2.355" />
+        </svg>
+    </div>
 </aside>
-<div class="oc-menu-principal p-4">
+<div class="oc-menu-principal px-2 py-4 p-lg-4">
     <div class="oc-menu-principal__top d-flex align-items-center">
         <button class="oc-menu-principal__top__cerrar">
             <svg version="1.1" id="icon-cerrar" xmlns="http://www.w3.org/2000/svg"
@@ -333,9 +326,9 @@
     </div>
 
     <section class="oc-menu-principal__bottom mt-5">
-        <div class="container-fluid px-5">
+        <div class="container-fluid px-3 px-lg-5">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                <div class="col-12 col-lg px-2 px-md-4">
                     <div class="oc-menu-principal__bottom__heading">
                         <img src="img/icon-nosotros.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
                         <h3 class="oc-menu-principal__bottom__heading__title">Nosotros</h3>
@@ -348,7 +341,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                <div class="col-12 col-lg px-2 px-md-4">
                     <div class="oc-menu-principal__bottom__heading">
                         <img src="img/icon-direcciones.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
                         <h3 class="oc-menu-principal__bottom__heading__title">Direcciones</h3>
@@ -380,7 +373,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                <div class="col-12 col-lg px-2 px-md-4">
                     <div class="oc-menu-principal__bottom__heading">
                         <img src="img/icon-territorio.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
                         <h3 class="oc-menu-principal__bottom__heading__title">Territorio</h3>
@@ -395,7 +388,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                <div class="col-12 col-lg px-2 px-md-4">
                     <div class="oc-menu-principal__bottom__heading">
                         <img src="img/icon-como-vamos.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
                         <h3 class="oc-menu-principal__bottom__heading__title">Cómo vamos</h3>
@@ -411,7 +404,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg px-2 px-md-4 px-lg-5">
+                <div class="col-12 col-lg px-2 px-md-4">
                     <div class="oc-menu-principal__bottom__heading">
                         <img src="img/icon-ayuda.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
                         <h3 class="oc-menu-principal__bottom__heading__title">Ayuda</h3>
@@ -445,116 +438,131 @@
         </div>
     </section>
 
-    <div class="oc-menu-principal__footer py-4">
-        <div class="row justify-content-center text-center">
-            <div class="col-12 col-md-3">
+    <div class="oc-menu-principal__footer py-4 px-4 px-lg-0">
+        <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-menu-principal__footer__symbol">
+        <div class="row justify-content-center flex-column flex-lg-row text-left text-lg-center">
+            <div class="col-12 col-lg-3">
                 <a href="#">Mapa del sitio</a>
             </div>
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-lg-3">
                 <a href="#">Términos y condiciones</a>
             </div>
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-lg-3">
                 <a href="#">Política de protección de datos</a>
             </div>
         </div>
-        <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-menu-principal__footer__symbol">
     </div> 
-</div><main class="oc-content">
-    <div class="container mt-5">
+</div><main class="oc-content py-4 py-md-5">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-lg-8 order-last order-lg-first">
                 <div class="oc-slick-theme oc-slick-dashboard">
-                    <div class="item p-1 oc-bg-yellow">
-                        <div class="row oc-slick-dashboard__cont">
-                            <div class="col-12 col-md-7 ">
-                                <img src="img/foto-prueba-slide.jpg" alt="" class="img-fluid oc-slick-dashboard__img">
-                            </div>
-                            <div class="col-12 col-md-5 mt-4 mb-4 pr-5">
-                                <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
-                                <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu salud
-                                    emocional, física y mental.
-                                    Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo la
-                                    siguiente encuesta. </p>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="img/icon-slide-calendario.svg" alt=""
-                                            class="oc-slick-dashboard__img-calendar">
-                                    </div>
-                                    <div>
-                                        <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
-                                        <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
-                                    </div>
+                    <div class="item px-1">
+                        <div class="oc-bg-yellow oc-box-shadow">
+                            <div class="row oc-slick-dashboard__cont">
+                                <div class="col-12 col-md-7 ">
+                                    <img src="img/foto-prueba-slide.jpg" alt=""
+                                        class="img-fluid oc-slick-dashboard__img">
                                 </div>
-                                <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                <div class="col-12 col-md-5 item-content-text">
+                                    <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
+                                    <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu
+                                        salud
+                                        emocional, física y mental.
+                                        Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo
+                                        la
+                                        siguiente encuesta. </p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="img/icon-slide-calendario.svg" alt=""
+                                                class="oc-slick-dashboard__img-calendar">
+                                        </div>
+                                        <div>
+                                            <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
+                                            <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="item  oc-bg-yellow">
-                        <div class="row">
-                            <div class="col-12 col-md-7">
-                                <img src="img/foto-prueba-slide.jpg" alt="" class="img-fluid oc-slick-dashboard__img">
-                            </div>
-                            <div class="col-12 col-md-5 mt-4 mb-4 pr-5">
-                                <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
-                                <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu salud
-                                    emocional, física y mental.
-                                    Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo la
-                                    siguiente encuesta. </p>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="img/icon-slide-calendario.svg" alt=""
-                                            class="oc-slick-dashboard__img-calendar">
-                                    </div>
-                                    <div>
-                                        <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
-                                        <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
-                                    </div>
+                    <div class="item px-1">
+                        <div class="oc-bg-yellow oc-box-shadow">
+                            <div class="row oc-slick-dashboard__cont">
+                                <div class="col-12 col-md-7 ">
+                                    <img src="img/foto-prueba-slide.jpg" alt=""
+                                        class="img-fluid oc-slick-dashboard__img">
                                 </div>
-                                <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                <div class="col-12 col-md-5 item-content-text">
+                                    <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
+                                    <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu
+                                        salud
+                                        emocional, física y mental.
+                                        Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo
+                                        la
+                                        siguiente encuesta. </p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="img/icon-slide-calendario.svg" alt=""
+                                                class="oc-slick-dashboard__img-calendar">
+                                        </div>
+                                        <div>
+                                            <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
+                                            <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="item  oc-bg-yellow">
-                        <div class="row">
-                            <div class="col-12 col-md-7">
-                                <img src="img/foto-prueba-slide.jpg" alt="" class="img-fluid oc-slick-dashboard__img">
-                            </div>
-                            <div class="col-12 col-md-5 mt-4 mb-4 pr-5">
-                                <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
-                                <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu salud
-                                    emocional, física y mental.
-                                    Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo la
-                                    siguiente encuesta. </p>
-                                <div class="d-flex">
-                                    <div>
-                                        <img src="img/icon-slide-calendario.svg" alt=""
-                                            class="oc-slick-dashboard__img-calendar">
-                                    </div>
-                                    <div>
-                                        <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
-                                        <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
-                                    </div>
+                    <div class="item px-1">
+                        <div class="oc-bg-yellow oc-box-shadow">
+                            <div class="row oc-slick-dashboard__cont">
+                                <div class="col-12 col-md-7 ">
+                                    <img src="img/foto-prueba-slide.jpg" alt=""
+                                        class="img-fluid oc-slick-dashboard__img">
                                 </div>
-                                <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                <div class="col-12 col-md-5 item-content-text">
+                                    <h3 class="oc-slick-dashboard__title">Equilibra 2</h3>
+                                    <p class="oc-slick-dashboard__desc">Sigue apoyando el trabajo en casa, frente a tu
+                                        salud
+                                        emocional, física y mental.
+                                        Queremos escuchar tus necesidades. Participa antes del 25 de marzo, respondiendo
+                                        la
+                                        siguiente encuesta. </p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="img/icon-slide-calendario.svg" alt=""
+                                                class="oc-slick-dashboard__img-calendar">
+                                        </div>
+                                        <div>
+                                            <span class="oc-slick-dashboard__title-date d-block">Fecha límite:</span>
+                                            <span class="oc-slick-dashboard__date d-block">25 de marzo 2021</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-3">+ Info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="oc-card-profile p-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-0 order-first order-lg-last">
+                <div class="oc-card-profile p-4 oc-box-shadow">
                     <div class="d-flex align-items-center">
-                        <h3 class="oc-card-profile__name"> Hola Mario Bienvenido</h3>
+                        <h3 class="oc-card-profile__name"> Hola Mario, Bienvenido</h3>
                         <div class="oc-card-profile__photo">
                             <img src="img/foto-prueba-perfil.jpg" alt="" class="oc-card-profile__photo__img">
-                        </div> 
+                        </div>
                     </div>
                     <div>
                         <span class="oc-title-perfil">Mi Perfil completado al:</span>
-                        <div class="oc-progress-bar__container position-relative">
-                            <div class="oc-progress-bar mt-3"></div>
+                        <div class="oc-progress-bar__container position-relative mt-2">
+                            <div class="oc-progress-bar"></div>
                             <div class="oc-progress" data-progress="80">
                                 <span class="oc-progress__text"></span>
                             </div>
@@ -570,10 +578,69 @@
     </div>
 </main>
 
-    
-        <footer class="oc-footer oc-bg-green">
-            <h2>footer</h2>
-        </footer>
+</div><!-- end #app-->
+
+<footer class="oc-footer oc-bg-green py-5 d-none d-lg-block">
+    <div class="row pl-5">
+        <div class="col-12 col-lg-10 oc-footer-left pr-5">
+            <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-footer__logo">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12 col-md-4">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="img/facebook.svg"
+                                    alt=""></a></li>
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="img/youtube.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-8 oc-legal-links">
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item"><a href="">Mapa del sitio</a></li>
+                        <li class="nav-item"><a href="">Terminos y condiciones</a></li>
+                        <li class="nav-item"><a href="">Politicas de proteccion de datos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="oc-copyright mt-4 text-center text-lg-left">© 2021 OCENSA. Todos los derechos reservados</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-2 oc-menu-footer pl-lg-5">
+            <ul class="nav flex-column">
+                <a href="">Nosotros</a>
+                <a href="">Direcciones</a>
+                <a href="">Territorio</a>
+                <a href="">Cómo vamos</a>
+                <a href="">Ayuda</a>
+            </ul>
+        </div>
     </div>
+</footer>
+
+<footer class="oc-footer-resp oc-bg-green d-block d-lg-none">
+    <div class="p-5">
+        <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-footer-resp__logo">
+        <ul class="nav flex-column oc-footer-menu mt-5">
+            <a href="">Nosotros</a>
+            <a href="">Direcciones</a>
+            <a href="">Territorio</a>
+            <a href="">Cómo vamos</a>
+            <a href="">Ayuda</a>
+        </ul>
+        <ul class="nav oc-footer-social mt-5">
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="img/facebook.svg" alt=""></a>
+            </li>
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="img/youtube.svg" alt=""></a>
+            </li>
+        </ul>
+        <ul class="nav flex-column oc-legal-links mt-3">
+            <li class="nav-item"><a href="">Mapa del sitio</a></li>
+            <li class="nav-item"><a href="">Terminos y condiciones</a></li>
+            <li class="nav-item"><a href="">Politicas de proteccion de datos</a></li>
+        </ul>
+        <p class="oc-resp-copyright mt-4">© 2021 OCENSA. Todos los derechos reservados</p>
+    </div>
+</footer>
 <script src="js/bundle.js"></script></body>
+
 </html>
