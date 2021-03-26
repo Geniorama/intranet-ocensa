@@ -72,3 +72,28 @@
             right: 6em
             bottom: 2em
             width: 88px
+
+// Responsive Laptop
+@media (min-width: 1290px) and (max-width: 1440px)
+    .oc-menu-principal
+        &__bottom
+            .nav-item
+                padding: .3em 0 0em 0
+
+// Responsive Tablet
+@media (min-width: 480px) and ( max-width:  769px)
+    .oc-menu-principal
+        overflow-y: scroll
+        width: 50%
+        .col-12
+            margin-top: 2em
+        &__bottom
+            .nav-item
+                padding: .3em 0 .3em 0
+        &__footer
+            position: relative
+            margin-top: 3em
+            &__symbol
+                right: 3em
+                bottom: 7em
+    

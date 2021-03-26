@@ -17,17 +17,6 @@
     #icon-menu-lateral
         width: 30px
         
-    &__avatar
-        transition: $tr
-        &__img
-            width: 44px
-            height: 44px
-            overflow: hidden
-            border-radius: 50%
-            object-fit: cover
-        &:hover
-            text-decoration: none
-            opacity: .6
     &__text
         font-size: .7em
         color: white
@@ -54,5 +43,27 @@
             align-items: center
             font-size: .6em
             font-family: 'roboto-bold', sans-serif
+    &__avatar
+        transition: $tr
+        &__img
+            width: 44px !important
+            height: 44px !important
+            overflow: hidden
+            border-radius: 50%
+            object-fit: cover
+        &:hover
+            text-decoration: none
+            opacity: .6
 
 
+@media (min-width: 480px) and ( max-width: 769px )
+    .oc-menu-lateral
+        justify-content: space-between
+        .nav
+            width: 70%
+            justify-content: space-between
+        .nav-item
+            margin-bottom: 0
+        &__avatar
+            margin: 0 !important
+    
