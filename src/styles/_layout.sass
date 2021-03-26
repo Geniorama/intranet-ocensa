@@ -11,13 +11,15 @@
 .oc-menu-lateral
     grid-area: aside
 
-
 .oc-content
     grid-area: content
     background-color: #ECEFF1
 
-@media (min-width: 480px) and ( max-width: 769px)
+@media ( max-width: 769px)
     #app
         grid-template-areas: "header header" "aside aside" "content content"
         grid-template-rows: auto
-        grid-template-columns: 12fr
+        grid-template-columns: 1fr
+    .oc-menu-lateral
+        nav
+            width: 100%

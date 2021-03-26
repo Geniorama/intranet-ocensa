@@ -96,4 +96,31 @@
             &__symbol
                 right: 3em
                 bottom: 7em
+
+
+// Responsive Tablet
+@media (max-width: 480px)
+    .oc-menu-principal
+        overflow-y: scroll
+        width: 100%
+        z-index: 999
+        .col-12
+            border-bottom: 1px solid #000
+            padding-bottom: 2em
+            margin-top: 2em
+        &__bottom
+            .nav-item
+                padding: .3em 0 .3em 0
+        &__footer
+            position: relative
+            margin-top: 3em
+            .col-12
+                border-bottom: none
+            &__symbol
+                right: 3em
+                bottom: 7em
+        
+    .oc-menu-principal__bottom__heading__icon
+        display: none
+        
     

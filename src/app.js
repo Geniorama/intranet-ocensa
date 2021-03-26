@@ -2,6 +2,7 @@
 import $ from "jquery";
 import 'bootstrap';
 import "./../node_modules/slick-carousel";
+import AOS from 'aos';
 
 
 // Fonts
@@ -53,6 +54,8 @@ import "./img/foto-prueba-perfil.jpg";
 import "./img/logo_ocensa_logosimbolo.png";
 import "./img/footer/facebook.svg";
 import "./img/footer/youtube.svg";
+
+import "./img/header/icon_menu_mobile.svg";
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
@@ -133,3 +136,7 @@ $('.oc-btn-menu-lateral').mouseleave(function(){
     $(this).find('#Line_327').attr('x1', '10.47')
 })
 
+if(screen.width < 480){
+   $('.item-has-child').addClass('open')
+   $('.item-has-child .oc-submenu').show()
+}
