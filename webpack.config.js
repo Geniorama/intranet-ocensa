@@ -26,12 +26,6 @@ module.exports = {
             minify: false
         }),
 
-        new HtmlWebpackPlugin({
-            filename: 'example.html',
-            template: './src/example.handlebars',
-            minify: false
-        }),
-
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
