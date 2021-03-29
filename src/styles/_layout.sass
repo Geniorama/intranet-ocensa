@@ -1,0 +1,25 @@
+#app
+    display: grid
+    min-height: 100vh
+    grid-template-areas: "aside header" "aside content"
+    grid-template-rows: auto 6fr
+    grid-template-columns: 80px
+
+.oc-header
+    grid-area: header
+
+.oc-menu-lateral
+    grid-area: aside
+
+.oc-content
+    grid-area: content
+    background-color: #ECEFF1
+
+@media ( max-width: 769px)
+    #app
+        grid-template-areas: "header header" "aside aside" "content content"
+        grid-template-rows: auto
+        grid-template-columns: 1fr
+    .oc-menu-lateral
+        nav
+            width: 100%

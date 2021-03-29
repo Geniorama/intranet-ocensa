@@ -1,0 +1,126 @@
+.oc-menu-principal
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    background-color: #A6B3BC
+    height: 100vh
+    overflow: hidden
+    transform: translateY(-200%)
+    transition: $tr
+    z-index: 3
+    opacity: 0
+    &.menu-open
+        opacity: 1
+        transform: translateY(0)
+        transition: $tr
+    &__top
+        &__cerrar
+            background-color: transparent
+            border: none
+            &__text
+                color: white
+                font-size: .7em
+        &__brand
+            width: 100%
+            max-width: 200px
+    &__bottom
+        &__heading
+            color: white
+            font-family: 'roboto-black', sans-serif
+        .nav-item
+            border-bottom: 1px solid white
+            padding: 1em 0 .5em 0
+            display: block
+            &:last-child
+                border-bottom: none
+        .nav-link
+            padding-left: 0
+            padding-right: 0
+            font-family: 'roboto-c-regular', sans-serif
+            color: #1D1D1B
+            transition: $tr
+            &:hover
+                color: white
+    .oc-submenu
+        display: none
+        .nav-item
+            border-bottom: none
+            padding: 0
+    .item-has-child
+        &.open
+            .nav-link
+                color: white
+            svg
+                transform: rotate(90deg)
+            .oc-submenu
+                .nav-link
+                    color: #1D1D1B
+                    &:hover
+                        color: white
+    &__footer
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        a
+            color: white
+            font-family: 'roboto-medium', sans-serif
+            font-size: .9em
+        &__symbol
+            position: absolute
+            right: 6em
+            bottom: 2em
+            width: 88px
+
+// Responsive Laptop
+@media (min-width: 1290px) and (max-width: 1440px)
+    .oc-menu-principal
+        &__bottom
+            .nav-item
+                padding: .3em 0 0em 0
+
+// Responsive Tablet
+@media (min-width: 480px) and ( max-width:  769px)
+    .oc-menu-principal
+        overflow-y: scroll
+        width: 50%
+        .col-12
+            margin-top: 2em
+        &__bottom
+            .nav-item
+                padding: .3em 0 .3em 0
+        &__footer
+            position: relative
+            margin-top: 3em
+            &__symbol
+                right: 3em
+                bottom: 7em
+
+
+// Responsive Tablet
+@media (max-width: 480px)
+    .oc-menu-principal
+        overflow-y: scroll
+        width: 100%
+        z-index: 999
+        .col-12
+            border-bottom: 1px solid #000
+            padding-bottom: 2em
+            margin-top: 2em
+        &__bottom
+            .nav-item
+                padding: .3em 0 .3em 0
+        &__footer
+            position: relative
+            margin-top: 3em
+            .col-12
+                border-bottom: none
+            &__symbol
+                right: 3em
+                bottom: 7em
+        
+    .oc-menu-principal__bottom__heading__icon
+        display: none
+        
+    

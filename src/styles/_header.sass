@@ -1,0 +1,144 @@
+.oc-header
+    &__cont
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        margin: 0
+    &__logo
+        margin-left: 3em
+        img
+            width: 171.21px
+    &__items
+        display: flex
+        align-items: center
+    &__logout
+        margin-right: 3em
+        &:hover
+            text-decoration: none
+        img
+            width: 22px
+            margin-right: .3em
+        span
+            color: #1D1D1B
+            transition: $tr
+            font-size: 16px
+        &:hover span
+                color: $green_co
+                font-weight: bold
+    &__widgets
+        position: relative
+        &-info
+            background-color: $green_co
+            padding: .5em .7em
+            text-align: center
+            cursor: pointer
+            position: relative
+            z-index: 2
+            span
+                display: block
+                color: #ffffff
+                font-size: 16px
+        &:hover .oc-header__widgets-cont
+            transform: translateY(0%)
+    &__widgets-cont
+        transform: translateY(-120%)
+        position: absolute
+        left: 0
+        top: 65px
+        z-index: 1
+        max-height: 110vh
+        background-color: #ffffff
+        width: 100%
+        text-align: center
+        transition: all .5s ease-in-out
+    &__widgets-item
+        margin: .5em 0
+    &__widgets-cont-img
+        width: 43px
+        height: 43px
+        padding: .5em
+        margin: auto
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: $tr
+        cursor: pointer
+        &:hover
+            transform: scale(1.1)
+        img
+            width: 100%
+            height: auto
+            object: cover
+    &__widgets-desc
+        color: #8F9FA9
+        font-size: 11px
+        margin: 0
+    &__widgets-edit
+        background-color: $gray_co
+        color: #ffffff
+        font-size: 11px
+        border-radius: 10px
+        border: none
+        padding: .2em 1.5em
+        font-family: 'cabin-bold'
+        transition: $tr
+        &:hover
+            background-color: $green-co
+    &__widgets-correo
+        background-color: $green-co
+    &__widgets-agenda
+        background-color: $blue_light_co
+    &__widgets-grupos
+        background-color: $green-co
+    &__widgets-enlaces
+        background-color: $gray_co
+    &__widgets-apps
+        background-color: $blue_light_co
+    &__widgets-indicadores
+        background-color: $green-co
+    &__widgets-noticias
+        background-color: $gray_co
+    &__widgets-agenda-calendario
+        background-color: $blue_light_co
+
+#searchModal
+    .label-search
+        width: 60px
+        height: 45px
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        img
+            width: 35px
+    .form-control
+        border-radius: 0px !important
+        height: 45px
+    
+@media screen and ( max-width: 480px )
+    .oc-header__mobile
+        .oc-header__logo
+            margin: 0
+            img
+                width: 150px
+        .oc-btn-menu-superior
+            background-color: white
+            border: none
+            width: 45px
+            span
+                color: #28347D
+                font-family: 'roboto-bold', sans-serif
+                font-size: .8em   
+        .oc-search-bar__btn
+            width: 50px
+            height: 50px
+            border-radius: 50%
+            img
+                width: 70%
+
+        .oc-header__logout
+            margin: 0
+    #searchModal
+        .modal-footer
+            border-top: 0px
+            padding-top: 0px 

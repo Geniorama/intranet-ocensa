@@ -1,0 +1,49 @@
+.oc-slick-dashboard
+    padding: 0 !important
+    &__img
+        object-fit: cover
+        min-height: 350px !important
+    &__title
+        font-family: "cabin-bold", sans-serif
+        margin-bottom: 1em
+    &__desc
+        font-family: "roboto-c-regular", sans-serif
+        font-size: 14px
+    &__img-calendar
+        width: 45px
+        padding-right: 10px
+    &__title-date
+        color: white
+        font-size: .8em
+        font-family: "roboto-bold", sans-serif
+    &__date
+        font-size: .8em
+        font-family: "roboto-c-regular", sans-serif
+
+.oc-slick-dashboard
+    .oc-slick-arrow
+        &__prev
+            left: 15px
+        &__next
+            right: 15px
+    .slick-dots
+        position: absolute
+        right: 10px
+        bottom: 15px
+.item-content-text
+    padding: 2em 1em
+    padding-right: 3em
+
+@media screen and ( max-width: 480px )
+    .oc-slick-dashboard__img
+        min-height: 180px !important
+    .oc-slick-dashboard
+        .oc-slick-arrow 
+            top: 18%
+        .slick-dots
+            width: 100%
+            right: 0
+            left: 0
+    .item-content-text
+        padding: 2em
+    

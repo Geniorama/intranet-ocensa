@@ -1,0 +1,103 @@
+.oc-menu-lateral
+    color: white
+    .oc-btn-menu-lateral
+        width: 50px
+        background-color: transparent
+        border: none
+        padding: 0
+        span
+            font-family: 'roboto-bold', sans-serif
+            font-size: .7em
+            color: white
+        #menu-icon-svg
+            transition: $tr
+            line
+                transition: $tr
+        
+    #icon-menu-lateral
+        width: 30px
+        
+    &__text
+        font-size: .7em
+        color: white
+    .nav-item
+        position: relative
+        margin-bottom: 1.5em
+        .nav-link
+            transition: $tr
+            &:hover
+                opacity: .6
+        img
+            height: 37px
+        .label-notify
+            width: 15px
+            height: 15px
+            background-color: $green_co
+            display: inline-flex
+            border-radius: 50%
+            position: absolute
+            right: 14px
+            top: 10px
+            color: white
+            justify-content: center
+            align-items: center
+            font-size: .6em
+            font-family: 'roboto-bold', sans-serif
+    &__avatar
+        transition: $tr
+        &__img
+            width: 44px !important
+            height: 44px !important
+            overflow: hidden
+            border-radius: 50%
+            object-fit: cover
+        &:hover
+            text-decoration: none
+            opacity: .6
+
+
+@media (min-width: 480px) and ( max-width: 769px )
+    .oc-menu-lateral
+        justify-content: space-between
+        .nav
+            width: 70%
+            justify-content: space-between
+        .nav-item
+            margin-bottom: 0
+        &__avatar
+            margin: 0 !important
+    
+@media screen and ( max-width: 480px )
+    .oc-menu-lateral
+        width: 100%
+        position: relative
+        z-index: 1
+        nav
+            overflow-x: scroll
+        .oc-menu-arrow
+            position: absolute
+            top:0
+            height: 100%
+            width: 10px
+            &.left
+                left: 5px
+            &.right
+                right: 5px
+        .nav
+            flex-wrap: nowrap
+        .nav-item
+            margin: 0 
+            margin-right: 2em
+            .oc-menu-lateral__text
+                font-size: 1em
+            .nav-link
+                padding: 0
+                padding-right: 20px
+                padding-left: 10px
+            img
+                display: none
+            .label-notify
+                right: 10px
+                top: 0
+        .oc-menu-lateral__avatar 
+            min-width: 90px

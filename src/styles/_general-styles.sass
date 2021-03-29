@@ -1,3 +1,6 @@
+body, html
+    overflow-x: hidden
+
 // Typography
 h1, h2
     font-family: 'cabin-bold', sans-serif
@@ -22,7 +25,9 @@ p, span
         background-color: white
         border-color: white
         color: $green_co
-
+    &:active
+        background-color: $green_co !important
+        
 .btn-secondary
     background-color: #707070
     border-color: #707070
@@ -41,6 +46,9 @@ p, span
         background-color: $blue_co
     &-gray
         background-color: $gray_co
+
+.oc-box-shadow
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
 
 // Custom Slick
 .oc-slick-theme
@@ -68,6 +76,13 @@ p, span
             left: 0
         &__next
             right: 0
+        &.slick-disabled
+            opacity: .5
+            cursor: not-allowed
+            path
+                stroke: #ccc
+            &:hover
+                background-color: white
         svg
             width: 8px
             height: auto
