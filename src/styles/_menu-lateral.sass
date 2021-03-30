@@ -55,25 +55,14 @@
             text-decoration: none
             opacity: .6
 
-
-@media (min-width: 480px) and ( max-width: 769px )
-    .oc-menu-lateral
-        justify-content: space-between
-        .nav
-            width: 70%
-            justify-content: space-between
-        .nav-item
-            margin-bottom: 0
-        &__avatar
-            margin: 0 !important
-    
-@media screen and ( max-width: 480px )
+@include media-breakpoint-down(sm)
     .oc-menu-lateral
         width: 100%
         position: relative
         z-index: 1
         nav
-            overflow-x: scroll
+            overflow: hidden
+            padding: 0 !important
         .oc-menu-arrow
             position: absolute
             top:0
@@ -85,6 +74,10 @@
                 right: 5px
         .nav
             flex-wrap: nowrap
+            overflow-x: scroll
+            padding: .5em 2em
+            width: 95%
+            margin: auto
         .nav-item
             margin: 0 
             margin-right: 2em
@@ -101,3 +94,4 @@
                 top: 0
         .oc-menu-lateral__avatar 
             min-width: 90px
+    

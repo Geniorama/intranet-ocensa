@@ -7,20 +7,26 @@
     height: 100vh
     overflow: hidden
     transform: translateY(-200%)
-    transition: $tr
+    transition: all 1s
     z-index: 3
     opacity: 0
+    .col-menu
+        position: relative
+        opacity: 0
+        bottom: 50px
+        transition: all 2s
     &.menu-open
         opacity: 1
         transform: translateY(0)
-        transition: $tr
+        transition: 1s
     &__top
         &__cerrar
-            background-color: transparent
-            border: none
+            cursor: pointer
             &__text
                 color: white
                 font-size: .7em
+            .close
+                opacity: 1 !important
         &__brand
             width: 100%
             max-width: 200px
@@ -74,32 +80,15 @@
             width: 88px
 
 // Responsive Laptop
-@media (min-width: 1290px) and (max-width: 1440px)
+@include media-breakpoint-down(lg)
     .oc-menu-principal
         &__bottom
             .nav-item
                 padding: .3em 0 0em 0
 
-// Responsive Tablet
-@media (min-width: 480px) and ( max-width:  769px)
-    .oc-menu-principal
-        overflow-y: scroll
-        width: 50%
-        .col-12
-            margin-top: 2em
-        &__bottom
-            .nav-item
-                padding: .3em 0 .3em 0
-        &__footer
-            position: relative
-            margin-top: 3em
-            &__symbol
-                right: 3em
-                bottom: 7em
-
 
 // Responsive Tablet
-@media (max-width: 480px)
+@include media-breakpoint-down(md)
     .oc-menu-principal
         overflow-y: scroll
         width: 100%
