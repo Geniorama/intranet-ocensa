@@ -17,6 +17,9 @@ p, span
     border-radius: 50px
     font-size: .9em
     line-height: 1em
+    &:focus
+        outline: 0px
+        box-shadow: none
 
 .btn-primary
     background-color: $green_co
@@ -25,7 +28,7 @@ p, span
         background-color: white
         border-color: white
         color: $green_co
-    &:active
+    &:active, &:focus
         background-color: $green_co !important
         
 .btn-secondary
@@ -35,7 +38,10 @@ p, span
         background-color: $green_co
         border-color: $green_co
         color: white
-
+    &:focus
+        background-color: #707070 !important
+        border-color: #707070 !important
+        
 // Help Classes
 .oc-bg
     &-yellow
