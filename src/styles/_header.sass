@@ -34,16 +34,15 @@
             cursor: pointer
             position: relative
             z-index: 2
+            img
+                transition: $tr
             span
                 display: block
                 color: #ffffff
                 font-size: 16px
-        &:hover .oc-header__widgets-cont
-            transform: translateY(0%)
     &__widgets-cont
-        transform: translateY(-120%)
         position: absolute
-        left: 0
+        right: 0
         top: 65px
         z-index: 1
         max-height: 110vh
@@ -51,6 +50,8 @@
         width: 100%
         text-align: center
         transition: all .5s ease-in-out
+        opacity: 0
+        display: none
     &__widgets-item
         margin: .5em 0
     &__widgets-cont-img
@@ -115,7 +116,7 @@
         border-radius: 0px !important
         height: 45px
     
-@media screen and ( max-width: 480px )
+@include media-breakpoint-down(sm)
     .oc-header__mobile
         .oc-header__logo
             margin: 0
