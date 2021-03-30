@@ -84,14 +84,43 @@ $('.item-has-child').hover(function() {
   });
 })
 
-$('.oc-btn-open-menu').click(function(e) {
+$('.button-menu-toggle.open').click(function(e) {
+    e.preventDefault()
+    $('.oc-preload').fadeIn(function() {
+        $('.oc-preload').css('display', 'flex')
+        $('.oc-preload img').css('opacity', '1')
+    })
+
+    $('.oc-menu-principal').addClass('menu-open')
+    setTimeout(function() {
+        $('.oc-preload').fadeOut()
+        setTimeout(function(){ 
+            $('.oc-menu-principal__top__cerrar .button-menu-toggle').addClass('close')
+            $('.oc-menu-principal .col-menu').css('opacity', '1')
+            $('.oc-menu-principal .col-menu').css('bottom', '0')
+        }, 1000);
+    }, 1000)
+    
+})
+
+$('.oc-btn-menu-superior').click(function(e) {
     e.preventDefault()
     $('.oc-menu-principal').addClass('menu-open')
+
+    setTimeout(function(){ 
+        $('.oc-menu-principal__top__cerrar .button-menu-toggle').addClass('close')
+        $('.oc-menu-principal .col-menu').css('opacity', '1')
+        $('.oc-menu-principal .col-menu').css('bottom', '0')
+     }, 1000);
 })
 
 $('.oc-menu-principal__top__cerrar').click(function(e) {
     e.preventDefault()
     $('.oc-menu-principal').removeClass('menu-open')
+    $('.oc-menu-principal__top__cerrar .button-menu-toggle').removeClass('close')
+
+    $('.oc-menu-principal .col-menu').css('opacity', '0')
+    $('.oc-menu-principal .col-menu').css('bottom', '50px')
 })
 $('.oc-slick-dashboard').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
@@ -139,3 +168,15 @@ if(screen.width < 480){
    $('.item-has-child').addClass('open')
    $('.item-has-child .oc-submenu').show()
 }
+
+$('.oc-header__widgets-info').click(function() {
+    $('.oc-header__widgets-cont').fadeToggle('low', function(){
+        if($('.oc-header__widgets-cont').css('display') == 'none'){
+            $('.oc-header__widgets-info img').css('transform', 'rotate(0deg)')
+            $('.oc-header__widgets-cont').css('opacity', '0')
+        } else {
+            $('.oc-header__widgets-info img').css('transform', 'rotate(-180deg)')
+            $('.oc-header__widgets-cont').css('opacity', '1')
+        }
+    })
+})
