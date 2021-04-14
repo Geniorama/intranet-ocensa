@@ -171,6 +171,16 @@ if(screen.width < 480){
    $('.item-has-child .oc-submenu').show()
 }
 
+$('#open-wdg-mobile').click(function(e) {
+    e.preventDefault()
+    $('#box-widget-mobile').fadeIn() 
+})
+
+$('#close-wdg-mobile').click(function(e) {
+    e.preventDefault()
+    $('#box-widget-mobile').fadeOut() 
+})
+
 $('.oc-header__widgets-info').click(function() {
     $('.oc-header__widgets-cont').fadeToggle('low', function(){
         if($('.oc-header__widgets-cont').css('display') == 'none'){

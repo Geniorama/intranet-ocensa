@@ -2,19 +2,30 @@
     max-width: 480px
     width: 100%
     border: 1px solid rgba(#707070,.4 )
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 4
+    height: 100vh
+    display: none
     .box-widget-mobile-cont
         width: 100%
+        height: 100%
+        background: white
         &__top-bar
             padding: 1em
             text-align: center
+            cursor: pointer
             span
                 color: white
         &__widgets
             display: block
             width: 100%
+            height: 80%
             background-color: white
             padding: 1em
             text-align: center
+            overflow-y: scroll
             hr
                 width: 90%
                 color: #505D6C
@@ -22,3 +33,10 @@
                 text-align: center
             &__icons
                 text-align: center
+
+// Box open widget
+#open-wdg-mobile
+    color: white
+    cursor: pointer
+    img
+        transform: rotate(180deg)
