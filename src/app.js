@@ -2,6 +2,7 @@
 import $ from "jquery";
 import 'bootstrap';
 import "./../node_modules/slick-carousel";
+import SmoothScroll from "smooth-scroll";
 
 
 // Fonts
@@ -57,6 +58,8 @@ import "./img/footer/youtube.svg";
 import "./img/header/icon_menu_mobile.svg";
 import "./img/header/icon-encuestas.svg";
 import "./img/header/icon-galeria.svg";
+
+var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
