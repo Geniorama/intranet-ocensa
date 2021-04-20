@@ -26,6 +26,12 @@ module.exports = {
             minify: false
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'noticias.html',
+            template: './src/noticias.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

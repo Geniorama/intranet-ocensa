@@ -58,6 +58,8 @@ import "./img/header/icon_menu_mobile.svg";
 import "./img/header/icon-encuestas.svg";
 import "./img/header/icon-galeria.svg";
 
+import "./img/imag-noticias.jpg";
+
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
         <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
