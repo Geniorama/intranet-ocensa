@@ -58,6 +58,8 @@ import "./img/footer/youtube.svg";
 import "./img/header/icon_menu_mobile.svg";
 import "./img/header/icon-encuestas.svg";
 import "./img/header/icon-galeria.svg";
+import "./img/imag-noticias.jpg";
+import "./img/imag3.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
