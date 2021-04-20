@@ -60,6 +60,9 @@ import "./img/header/icon-encuestas.svg";
 import "./img/header/icon-galeria.svg";
 import "./img/imag-noticias.jpg";
 import "./img/imag3.jpg";
+import "./img/imag4.jpg";
+import "./img/imag2.jpg";
+import "./img/imag1.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
