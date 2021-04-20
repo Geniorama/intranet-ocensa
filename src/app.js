@@ -59,6 +59,7 @@ import "./img/header/icon-encuestas.svg";
 import "./img/header/icon-galeria.svg";
 
 import "./img/imag-noticias.jpg";
+import "./img/imag3.jpg";
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
