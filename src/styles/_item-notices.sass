@@ -43,3 +43,24 @@
                     transition: all .2s
                     &:hover
                         opacity: .7
+
+@include media-breakpoint-down(sm)
+    .oc-item-notices
+        &__cont
+            width: 96%
+            padding: .4em !important
+            overflow: hidden
+            &__img-notice
+                height: 110px
+            &__desc
+                padding: 0 !important
+                h2
+                    font-size: 15px
+                    margin-top: .5em !important
+            &__info-adic
+                span
+                    font-size: 11px
+                .btn-view
+                    a
+                        font-size: 11px
+                        margin-right: 20px

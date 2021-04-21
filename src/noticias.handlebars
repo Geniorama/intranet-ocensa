@@ -7,7 +7,7 @@
 
 {{>partials/menu-principal}}
 
-<main class="oc-content py-4 pb-md-5">
+<main class="oc-content py-4 pb-md-5" id="content-notices">
     <section class="oc-seccion-noticias d-flex flex-column justify-content-center"
         style="background-image: url('./img/imag-noticias.jpg')">
         <div class="container">
@@ -85,16 +85,17 @@
     <nav aria-label="Page navigation example" class="mt-5">
         <ul class="pagination justify-content-center align-items-center">
             <li class="page-item disabled">
-                <a class="page-link next-notice" href="#" tabindex="-1">← Noticias recientes</a>
+                <a class="page-link d-flex align-items-center justify-content-center" href="#" tabindex="-1"><span class="html-arrow">← </span><span class="next-notice d-none d-md-block">Noticias recientes</span></a>
             </li>
             <li class="page-item"><a class="page-link number-page active" href="#">1</a></li>
             <li class="page-item"><a class="page-link number-page" href="#">2</a></li>
             <li class="page-item"><a class="page-link number-page" href="#">3</a></li>
             <li class="page-item">
-                <a class="page-link prev-notice" href="#">Noticias anteriores →</a>
+                <a class="page-link d-flex align-items-center justify-content-center" href="#"><span class="prev-notice d-none d-md-block">Noticias anteriores</span><span class="html-arrow"> →</span></a>
             </li>
         </ul>
     </nav>
+
 
 
 </main>
