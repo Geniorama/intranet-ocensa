@@ -10051,6 +10051,11 @@ h3 {
   font-family: "roboto-black";
   src: url(../fonts/Roboto-Black.ttf);
 }
+/*HELVETICA*/
+@font-face {
+  font-family: "helvetica";
+  src: url(../fonts/HelveticaNeueLTStd-Cn.ttf);
+}
 /*ROBOTO CONDENSED*/
 @font-face {
   font-family: "roboto-c-light";
@@ -10268,7 +10273,7 @@ p, span {
   }
 
   .oc-content {
-    padding-top: 10em !important;
+    padding-top: 7em !important;
     width: 95%;
     position: relative;
     margin-left: 5%;
@@ -10295,6 +10300,7 @@ p, span {
   .oc-content {
     grid-area: content;
     background-color: #ECEFF1;
+    padding-top: 0 !important;
   }
 }
 @media (max-width: 767.98px) {
@@ -10310,6 +10316,7 @@ p, span {
 }
 .oc-menu-lateral {
   color: white;
+  z-index: 2;
 }
 .oc-menu-lateral .oc-btn-menu-lateral {
   width: 50px;
@@ -10896,7 +10903,10 @@ p, span {
 
 .oc-footer {
   position: relative;
-  z-index: 3;
+  z-index: 1;
+}
+.oc-footer .row-footer {
+  padding-left: 7rem !important;
 }
 .oc-footer__logo {
   width: 100px;
@@ -10980,11 +10990,6 @@ p, span {
   font-size: 13px;
 }
 
-@media (min-width: 992px) {
-  .oc-content {
-    padding-right: 4em;
-  }
-}
 @media (max-width: 767.98px) {
   .oc-content {
     width: 100%;
@@ -11200,7 +11205,7 @@ p, span {
   position: fixed;
   top: 50%;
   right: 1em;
-  z-index: 1;
+  z-index: 2;
 }
 .oc-btn-back-to-top svg {
   width: 60px;
@@ -11234,13 +11239,43 @@ p, span {
 }
 .oc-seccion-noticias-etiquetas button .name-etiqueta {
   color: white;
-  font-size: 10px;
+  font-size: 9px;
   font-family: "roboto-c-bold", sans-serif;
 }
 .oc-seccion-noticias-etiquetas button .number-etiqueta {
   color: #707070;
-  font-size: 10px;
+  font-size: 9px;
   font-family: "roboto-c-bold", sans-serif;
+}
+
+.pagination a {
+  font-family: "roboto-bold", sans-serif !important;
+  font-size: 12px !important;
+}
+.pagination .page-link {
+  border: none;
+}
+.pagination .number-page {
+  background-color: white;
+  color: #C9D2D7;
+  border: solid 1px #C9D2D7;
+  border-radius: 50%;
+  margin: 0.3em;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: all 0.2s;
+}
+.pagination .number-page:hover {
+  background-color: #24A31A !important;
+  color: white;
+  border: none;
+}
+.pagination .prev-notice {
+  color: #042B67;
+}
+.pagination .next-notice {
+  color: #042B67;
 }
 
 .oc-item-notices__cont {
@@ -11249,10 +11284,49 @@ p, span {
 }
 .oc-item-notices__cont__img-notice {
   width: 100%;
-  height: 280px;
+  height: 220px;
 }
 .oc-item-notices__cont__img-notice img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.oc-item-notices__cont__desc button {
+  border: none;
+  background-color: #B4BEC5;
+}
+.oc-item-notices__cont__desc button span {
+  color: white;
+  font-size: 10px;
+  font-family: "roboto-c-bold", sans-serif;
+}
+.oc-item-notices__cont__desc h2 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 23px;
+}
+.oc-item-notices__cont__desc hr {
+  width: 50px;
+  border: solid 2px #19A500;
+  padding: 0;
+  margin: auto;
+  margin-left: 0;
+}
+.oc-item-notices__cont__desc p {
+  font-family: "helvetica", sans-serif;
+  font-size: 16px;
+}
+.oc-item-notices__cont__info-adic span {
+  color: #012969;
+  font-family: "roboto-bold", sans-serif;
+  font-size: 15px;
+}
+.oc-item-notices__cont__info-adic .btn-view a {
+  color: #012969;
+  text-decoration: none;
+  font-family: "roboto-bold", sans-serif;
+  font-size: 15px;
+  transition: all 0.2s;
+}
+.oc-item-notices__cont__info-adic .btn-view a:hover {
+  opacity: 0.7;
 }
