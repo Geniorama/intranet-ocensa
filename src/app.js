@@ -15,6 +15,9 @@ import "./fonts/Roboto-Medium.ttf";
 import "./fonts/Roboto-MediumItalic.ttf";
 import "./fonts/Roboto-Regular.ttf";
 import "./fonts/Roboto-Black.ttf";
+import "./fonts/Merriweather-BoldItalic.ttf";
+import "./fonts/Merriweather-BoldItalic.ttf";
+import "./fonts/HelveticaNeueLTStd-BlkCn.ttf";
 
 
 // Modules
@@ -63,6 +66,13 @@ import "./img/imag3.jpg";
 import "./img/imag4.jpg";
 import "./img/imag2.jpg";
 import "./img/imag1.jpg";
+
+import "./img/like-icon.svg";
+import "./img/comments-icon.svg";
+import "./img/favorite-icon.svg";
+import "./img/share-icon.svg";
+import "./img/img-single-noticias.jpg";
+import "./img/avatar-noticias.png";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

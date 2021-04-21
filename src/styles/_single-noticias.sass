@@ -1,0 +1,200 @@
+.oc-section-noticias
+    &__title
+        background-color: rgba(#B4BEC5, .29)
+        margin-top: 3em
+        padding: 2em 0
+        h2
+            color: #042B67
+            font-size: 45px
+            font-family: 'roboto-c-regular'
+            margin-top: .5em
+.oc-dates-noticias
+    margin-top: 1em
+    &__date
+        margin-right: 1em
+        display: flex
+        align-items: center
+        padding-left: 1em
+        span
+            color: $blue_light_co
+            font-family: 'roboto-c-regular'
+    &__like
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #000000
+            font-family: 'roboto-c-bold'
+    &__comments
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #000000
+            font-family: 'roboto-c-bold'
+    &__share
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #000000
+            font-family: 'roboto-c-bold'
+    &__favorite
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #95A6B1
+            font-family: 'roboto-c-bold'
+    &__img-dest
+        width: 100%
+        height: 460px
+        object-fit: cover
+        margin-top: 3em
+.oc-content-noticias
+    margin-top: 4em
+    &__desc
+        padding-right: 3em
+        p
+            color: #505D6C
+            font-family: 'roboto-c-light'
+            font-family: 'helvetica'
+        .variant-text
+            border-left: 4px solid $blue_light_co
+            padding-left: 2em
+            font-family: 'merriwearher-italic-bold'
+        img
+            width: 100%
+            height: auto
+        h3
+            font-family: 'roboto-c-bold'
+            color: #012969
+            font-size: 20px
+            margin-top: 2.5em
+    &__sidebar
+        .oc-total-comments
+            span
+                color: #012969
+                font-family: 'roboto-c-bold'
+        .oc-form-comments
+            margin-top: 1em
+            form
+                margin: 0
+            textarea
+                width: 100%
+                background-color: rgba(#E4E4E4, .19)
+                border: 1px solid rgba(#707070, .19)
+                height: 100px
+                padding-left: .5em
+                &:focus
+                    outline: none
+            input
+                width: 100%
+                background-color: $blue_light_co
+                color: white
+                font-family: 'roboto-c-bold'
+                border: none
+                height: 30px
+                transition: $tr
+                &:hover
+                    background-color: $green_co
+        .oc-publish-comments
+            border: 1px solid rgba(#707070, .19)
+            height: 325px
+            overflow: auto
+            &::-webkit-scrollbar
+                -webkit-appearance: none
+                background-color: #EAEAEA
+            &::-webkit-scrollbar:vertical
+                width: 5px
+            &::-webkit-scrollbar-button:increment
+                display: none
+            &::-webkit-scrollbar-button
+                display: none
+            &::-webkit-scrollbar:horizontal
+                height: 10px
+            &::-webkit-scrollbar-thumb
+                background-color: $blue_light_co
+                border-radius: 20px
+            .oc-commentary-item
+                padding: 0 1em
+                display: flex
+                margin-top: .6em
+            &__avatar
+                margin-right: .2em
+                width: 50px
+                img
+                    width: 49px
+                    height: 49px
+                    object-fit: cover
+                    border-radius: 50%
+            &__info
+                .oc-commentary
+                    background-color: #ECEFF1
+                    border-radius: 15px
+                    padding: .6em
+                    .name-author
+                        font-family: 'roboto-c-regular'
+                        font-size: 13px
+                        margin: 0
+                    .desc-commentary
+                        font-family: 'roboto-c-light'
+                        font-size: 14px
+                        margin: 0
+                .oc-info-commentary
+                    margin-top: .3em
+                    display: flex
+                    align-items: center
+                    .oc-date
+                        margin-right: 1em
+                        span
+                            color: #000000
+                            font-family: 'roboto-c-regular'
+                            font-size: 13px
+                    .oc-like
+                        cursor: pointer
+                        margin-right: 1em
+                        display: flex
+                        align-items: center
+                        img
+                            margin-right: .2em
+                        span
+                            color: #000000
+                            font-family: 'roboto-c-bold'
+                            font-size: 15px
+                    .oc-reply
+                        cursor: pointer
+                        margin-right: 1em
+                        span
+                            color: #95A6B1
+                            font-family: 'roboto-c-regular'
+                            font-size: 13px
+        .oc-tags
+            margin-top: 1.5em
+            h4
+                color:#012969
+                font-size: 18px
+            .oc-cont-tags
+                border: 1px solid rgba(#707070, .19)
+                padding: .6em
+                button
+                    background-color: #B4BEC5
+                    border: none
+                    color: white
+                    font-size: 9px
+                    font-family: 'roboto-c-bold'
+                    transition: $tr
+                    &:hover
+                        background-color: black
