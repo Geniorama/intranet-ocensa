@@ -18,7 +18,7 @@ import "./fonts/Roboto-Black.ttf";
 import "./fonts/Merriweather-BoldItalic.ttf";
 import "./fonts/Merriweather-Italic.ttf";
 import "./fonts/HelveticaNeueLTStd-BlkCn.ttf";
-import "./fonts/HelveticaLt.ttf";
+import "./fonts/helvetica_light.ttf";
 
 
 // Modules
