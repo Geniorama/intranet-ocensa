@@ -16,8 +16,9 @@ import "./fonts/Roboto-MediumItalic.ttf";
 import "./fonts/Roboto-Regular.ttf";
 import "./fonts/Roboto-Black.ttf";
 import "./fonts/Merriweather-BoldItalic.ttf";
-import "./fonts/Merriweather-BoldItalic.ttf";
+import "./fonts/Merriweather-Italic.ttf";
 import "./fonts/HelveticaNeueLTStd-BlkCn.ttf";
+import "./fonts/HelveticaLt.ttf";
 
 
 // Modules
@@ -217,3 +218,12 @@ $('input[type=radio]').click(function(){
     }
     this.previous = this.checked;
 });
+
+// Tags
+$('.oc-seccion-noticias-etiquetas button').click(function(e) {
+    if($(this).hasClass('tag-selected')){
+        $(this).removeClass('tag-selected')
+    } else {
+        $(this).addClass('tag-selected')
+    }
+})

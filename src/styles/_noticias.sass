@@ -7,6 +7,7 @@
     background-position: center center
     background-size: cover
     background-repeat: no-repeat
+    background-color: $green_co
     &__subheader
         h2
             color: white
@@ -17,19 +18,19 @@
             height: 70px
 
 .oc-seccion-noticias-etiquetas
-    .selected
-        background-color: black !important
     button
         background-color: #B4BEC5
         border: none
         margin-top: .5em
         transition: all .4s
+        display: inline-flex
         &:hover
             background-color: black
         .name-etiqueta
             color: white
             font-size: 10px
             font-family: 'roboto-c-bold', sans-serif
+            letter-spacing: 1px
         .number-etiqueta
             color: #707070
             font-size: 10px
@@ -37,27 +38,41 @@
         .btn-cerrar
             color: #7A8A95
             margin-left: .5em
-            line-height: 0
+            display: none
+            line-height: 1em
+        &.tag-selected
+            background-color: black
+            .number-etiqueta
+                display: none
+            .btn-cerrar
+                display: block
 
 .pagination
     a
         font-family: 'roboto-bold', sans-serif !important
         font-size: 12px !important
         color: #042B67
-    .page-link
-        border: none
-        background-color: transparent !important
     .page-item
         .html-arrow
-            font-size: 25px
-            margin: .5em
-            color: #24A31A 
+            font-size: 20px
+            line-height: 0px
+            color: #24A31A
+            margin: 0px 10px
+            margin-bottom: 5px
+            transition: $tr
+            box-sizing: border-box
         .prev-notice
             font-family: 'roboto-bold', sans-serif !important
             color: #042B67
         .next-notice
             font-family: 'roboto-bold', sans-serif !important
             color: #042B67
+    .page-link
+        border: none
+        background-color: transparent !important
+        &:hover
+           .html-arrow
+               font-size: 30px
     .number-page
         background-color: white
         color: #C9D2D7
@@ -72,3 +87,11 @@
             background-color: #24A31A !important
             color: white
             border: none
+    .disabled
+        a
+            span
+                color: #C9D2D7 !important
+
+@include media-breakpoint-down(md)
+    .oc-seccion-noticias
+        background-image: none !important

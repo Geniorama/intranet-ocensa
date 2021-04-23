@@ -10,6 +10,16 @@
             margin-top: .5em
 .oc-dates-noticias
     margin-top: 1em
+    svg
+        width: 30px
+        &:hover
+            path
+                fill: #005FC8
+            circle, line
+                stroke: #005FC8
+                fill: #005FC8
+            #Path_8817
+                fill: white
     &__date
         margin-right: 1em
         display: flex
@@ -63,23 +73,28 @@
         height: 460px
         object-fit: cover
         margin-top: 3em
+    span
+        font-family: 'roboto-medium'
 .oc-content-noticias
     margin-top: 4em
     &__desc
         padding-right: 3em
         p
             color: #505D6C
-            font-family: 'roboto-c-light'
-            font-family: 'helvetica'
+            font-family: 'helvetica-light', sans-serif
+            line-height: 1.8em
+            font-size: 16px
         .variant-text
             border-left: 4px solid $blue_light_co
             padding-left: 2em
-            font-family: 'merriwearher-italic-bold'
+            font-family: 'merriwearher-italic'
+            margin: 2em 0
+            font-size: 17px
         img
             width: 100%
             height: auto
         h3
-            font-family: 'roboto-c-bold'
+            font-family: 'roboto-bold'
             color: #012969
             font-size: 20px
             margin-top: 2.5em
@@ -198,7 +213,7 @@
                     transition: $tr
                     &:hover
                         background-color: black
-@media (max-width: 575.98px)
+@include media-breakpoint-down(md)
     .oc-single-noticias
         background-color: $green_co !important
         background-image: none !important
@@ -214,7 +229,8 @@
             height: auto
             img
                 width: 100%
-                height: auto
+                min-height: 250px
+                object-fit: cover
     .oc-content-noticias
         &__desc
             padding: 1em
@@ -222,3 +238,6 @@
         height: auto !important
         border: none !important
         margin-top: 1em
+    .oc-section-noticias__title
+        h2
+            font-size: 30px
