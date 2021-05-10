@@ -76,6 +76,8 @@ import "./img/img-single-noticias.jpg";
 import "./img/avatar-noticias.png";
 import "./img/footer/instagram.svg";
 import "./img/footer/twitter.svg";
+import "./img/footer/icon-download.svg";
+import "./img/search/img-profile-search.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
