@@ -1,0 +1,71 @@
+.oc-item-notices
+    &__cont
+        width: 80%
+        border: solid 1px #E4E4E4
+        &__img-notice
+            width: 100%
+            height: 220px
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+        &__desc
+            button
+                border: none
+                background-color: #B4BEC5
+                span
+                    color: white
+                    font-size: 10px
+                    font-family: 'roboto-c-bold', sans-serif
+            h2
+                font-family: 'roboto-regular', sans-serif
+                font-size: 23px
+            hr
+                width: 50px
+                border: solid 2px #19A500
+                padding: 0
+                margin: auto
+                margin-left: 0
+            p
+                font-family: 'helvetica-light', sans-serif
+                font-size: 16px
+                color: #505D6C
+        &__info-adic
+            span
+                color: #012969
+                font-family: 'roboto-bold', sans-serif
+                font-size: 15px
+            .btn-view
+                a
+                    color: #012969
+                    text-decoration: none
+                    font-family: 'roboto-bold', sans-serif
+                    font-size: 15px
+                    transition: all .2s
+                    &:hover
+                        opacity: .7
+
+@include media-breakpoint-down(sm)
+    .oc-item-notices
+        &__cont
+            width: 96%
+            padding: .4em !important
+            overflow: hidden
+            &__img-notice
+                height: 110px
+            &__desc
+                padding: 0 !important
+                h2
+                    font-size: 15px
+                    margin-top: .5em !important
+                    margin-bottom: 3px
+                    padding-right: 13px
+                hr
+                    margin-bottom: 5px
+            &__info-adic
+                span
+                    font-size: 11px
+                .btn-view
+                    a
+                        font-size: 11px
+                        margin-right: 20px

@@ -78,6 +78,11 @@ import "./img/footer/instagram.svg";
 import "./img/footer/twitter.svg";
 import "./img/footer/icon-download.svg";
 import "./img/search/img-profile-search.jpg";
+import "./img/search/img-notice-search.jpg";
+import "./img/search/img-docs-search.jpg";
+import "./img/search/img-img-search.jpg";
+import "./img/search/img-video-search.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
