@@ -1,0 +1,38 @@
+.oc-menu-search
+    border-bottom: 1px solid #96A6B0
+    .nav
+        .nav-link
+            font-family: 'roboto-regular', sans-serif
+            color: #042B67
+            display: flex
+            align-items: center
+            transition: $tr
+            position: relative
+            padding-bottom: 1em
+            min-width: 100px
+            text-align: center
+            justify-content: center
+            margin: 0 1em
+            &::before
+                content: ''
+                width: 0px
+                height: 3px
+                background-color: $green_co
+                position: absolute
+                bottom: 0
+                left: 50%
+                transition: $tr
+            svg
+                width: 15px
+                margin-right: 10px
+                transition: $tr
+                path, line, rect, ellipse, circle
+                    transition: $tr
+            &:hover, &.active
+                color: $green_co
+                svg
+                    path, line, rect, ellipse, circle
+                        stroke: $green_co
+                &::before
+                    width: 50px
+                    left: calc( 50% - 25px)

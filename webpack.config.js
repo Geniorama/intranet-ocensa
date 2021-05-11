@@ -38,6 +38,12 @@ module.exports = {
             minify: false
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'search-results.html',
+            template: './src/search-results.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
