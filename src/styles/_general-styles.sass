@@ -70,7 +70,60 @@ p, span
     &-vertical
         &::-webkit-scrollbar
             width: 5px
-
+.oc-btn-view
+    color: #012969
+    text-decoration: none
+    font-family: 'roboto-regular', sans-serif
+    font-size: 15px
+    transition: $tr
+    &__arrow
+        margin-left: 5px
+        position: relative
+        transition: $tr
+        height: 14px
+        &::before
+            content: ''
+            position: absolute
+            width: 0px
+            height: 2px
+            top: calc(50% - 1px)
+            right: 20px
+            background-color: $green_co
+            transition: $tr
+        svg
+            width: 20px
+            height: 14px
+    &:hover
+        color: $green_co
+        text-decoration: none
+        .oc-btn-view__arrow
+            margin-left: 25px
+            &::before
+                width: 20px
+.oc-btn-download
+    margin-right: 5px
+    svg
+        width: 25px
+        height: 25px
+    &:hover
+        svg
+            path
+                stroke: $green_co
+            circle
+                stroke: $green_co
+.oc-category
+    transition: $tr
+    text-transform: uppercase
+    font-family: 'roboto-c-bold'
+    letter-spacing: 1px
+    background-color: #B4BEC5
+    color: white
+    font-size: 9px
+    padding: 5px
+    &:hover
+        background-color: black
+        text-decoration: none
+        color: white
 // Custom Slick
 .oc-slick-theme
     position: relative
