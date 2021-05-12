@@ -55,12 +55,14 @@
                 margin-left: .5em
                 position: relative
                 transition: $tr
+                img
+                    width: 20px
                 &::before
                     content: ''
                     position: absolute
                     width: 0px
                     height: 2px
-                    top: 46%
+                    top: calc(50% - 1px)
                     right: 20px
                     background-color: white
                     transition: $tr
