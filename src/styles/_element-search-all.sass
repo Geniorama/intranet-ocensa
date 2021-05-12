@@ -17,3 +17,15 @@
         &:hover
             color: $green_co
             opacity: 1 !important
+
+@include media-breakpoint-down(sm)
+    .search
+        .oc-item-notices
+            &__cont
+                &__desc
+                    padding: 15px !important
+                    margin-bottom: -25px
+                    h2
+                        line-break: anywhere
+                    p
+                        line-break: anywhere
