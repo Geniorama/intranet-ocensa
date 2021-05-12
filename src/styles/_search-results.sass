@@ -36,3 +36,59 @@
                 &::before
                     width: 50px
                     left: calc( 50% - 25px)
+.oc-panels
+    padding: 6em 7em 5em 7em
+    &__btn
+        text-align: center
+        margin-top: 2em
+        a
+            background-color: $green-co
+            color: white
+            display: inline-flex
+            height: 36px
+            align-items: center
+            padding: 0 1.5em
+            border-radius: 20px
+            transition: $tr
+            font-family: 'roboto-bold'
+            span
+                margin-left: .5em
+                position: relative
+                transition: $tr
+                &::before
+                    content: ''
+                    position: absolute
+                    width: 0px
+                    height: 2px
+                    top: 46%
+                    right: 20px
+                    background-color: white
+                    transition: $tr
+            &:hover
+                text-decoration: none
+            &:hover span
+                margin-left: 1.7em
+            &:hover span::before
+                width: 20px
+    &__title-item
+        display: flex
+        margin-top: 3em
+        margin-bottom: 1em
+        .oc-icon
+            margin-right: 1em
+        .oc-title
+            h3
+                font-size: 22px
+                font-family: 'roboto-regular'
+                color: #042B67
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    bottom: -5px
+                    width: 40px
+                    height: 3px
+                    background-color: $green-co
+                
+            

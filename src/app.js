@@ -83,6 +83,13 @@ import "./img/search/img-docs-search.jpg";
 import "./img/search/img-img-search.jpg";
 import "./img/search/img-video-search.jpg";
 
+import "./img/search/btn-panels.svg";
+import "./img/search/panel-profile.svg";
+import "./img/search/panel-noticias.svg";
+import "./img/search/panel-documentos.svg";
+import "./img/search/panel-imagenes.svg";
+import "./img/search/panel-video.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -235,4 +242,25 @@ $('.oc-seccion-noticias-etiquetas button').click(function(e) {
     } else {
         $(this).addClass('tag-selected')
     }
+});
+
+
+// Tabs search results
+$('.oc-panels__item').hide();
+$('.oc-panels__item:first').show();
+
+$('.oc-tabs__item').click(function(e){
+    e.preventDefault()
+
+    var _href = $(this).attr("href");
+
+    $('.oc-tabs__item').removeClass('active');
+    $(this).addClass('active');
+    
+    $(".oc-panels__item").hide();
+    $(_href).fadeIn();
+
+    let anchor = document.querySelector('#top');
+    scroll.animateScroll(anchor);
+
 })
