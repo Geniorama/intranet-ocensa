@@ -254,13 +254,32 @@ $('.oc-tabs__item').click(function(e){
 
     var _href = $(this).attr("href");
 
-    $('.oc-tabs__item').removeClass('active');
-    $(this).addClass('active');
-    
-    $(".oc-panels__item").hide();
-    $(_href).fadeIn();
+    if($(this).hasClass('oc-panels__btn-02')){
+        let href_2 = $('.oc-menu-search .oc-tabs__item').attr('href')
 
-    let anchor = document.querySelector('#top');
-    scroll.animateScroll(anchor);
+        $('.oc-menu-search .oc-tabs__item').removeClass('active')
 
-})
+        $('.oc-menu-search .oc-tabs__item[href="'+ _href +'"]').addClass('active')
+
+        $(".oc-panels__item").hide();
+        $(_href).fadeIn();
+
+        let anchor = document.querySelector('#top');
+        scroll.animateScroll(anchor);
+        
+    } else {
+        $('.oc-tabs__item').removeClass('active');
+        $(this).addClass('active');
+        
+        $(".oc-panels__item").hide();
+        $(_href).fadeIn();
+
+        let anchor = document.querySelector('#top');
+        scroll.animateScroll(anchor);
+
+    }
+});
+
+$('#oc-panels__btn-all').click(function(){
+    $('#oc-tabs__item-all').addClass('active');
+});
