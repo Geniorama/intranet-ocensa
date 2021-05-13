@@ -1,4 +1,7 @@
 .oc-img-search
+    .oc-img-item
+        background-color: white
+        box-sizing: border-box
     &__img
         width: 100%
         height: 177px
@@ -30,3 +33,15 @@
         .img-download
             width: 20px
             height: 20px
+
+@include media-breakpoint-down(md)
+    .oc-img-search
+        &__desc
+            padding: 1em
+        &__aux-desc
+            padding: 1em
+
+@include media-breakpoint-down(sm)
+    .oc-img-search
+        .oc-img-item
+            margin-bottom: 1em

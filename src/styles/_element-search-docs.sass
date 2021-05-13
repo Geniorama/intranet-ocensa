@@ -2,6 +2,7 @@
     &__cont
         width: 100%
         border: solid 1px #E4E4E4
+        background-color: white
         &__img-notice
             width: 100%
             height: 220px
@@ -10,16 +11,7 @@
                 height: 100%
                 object-fit: cover
         &__desc
-            button
-                border: none
-                background-color: #B4BEC5
-                transition: $tr
-                &:hover
-                    background-color: black
-                span
-                    color: white
-                    font-size: 10px
-                    font-family: 'roboto-c-bold', sans-serif
+            position: relative
             .oc-link-title-search
                 h2
                     font-size: 23px
@@ -34,19 +26,10 @@
                 font-size: 16px
                 color: $blue_co
         &__info-adic
-            span
-                color: $blue_co
-                font-family: 'roboto-bold', sans-serif
-                font-size: 15px
-            .btn-view
-                a
-                    color: $blue_co
-                    text-decoration: none
-                    font-family: 'roboto-bold', sans-serif
-                    font-size: 15px
-                    transition: all .2s
-                    &:hover
-                        opacity: .7
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
 
 @include media-breakpoint-down(sm)
     .oc-item-docs
@@ -55,9 +38,8 @@
             padding: .4em !important
             overflow: hidden
             &__img-notice
-                height: 110px
+                height: 177px
             &__desc
-                padding: 0 !important
                 h2
                     font-size: 15px
                     margin-top: .5em !important
@@ -66,9 +48,6 @@
                 hr
                     margin-bottom: 5px
             &__info-adic
-                span
-                    font-size: 11px
-                .btn-view
-                    a
-                        font-size: 11px
-                        margin-right: 20px
+                position: relative
+                padding: 0 2em
+                padding-left: 0 !important
