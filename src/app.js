@@ -91,6 +91,22 @@ import "./img/search/panel-imagenes.svg";
 import "./img/search/panel-video.svg";
 import "./img/nosotros/icon1-section2.svg";
 
+import "./img/nosotros/timeline-01.jpg";
+import "./img/nosotros/timeline-02.jpg";
+import "./img/nosotros/timeline-03.jpg";
+import "./img/nosotros/timeline-04.jpg";
+import "./img/nosotros/timeline-05.jpg";
+import "./img/nosotros/timeline-06.jpg";
+import "./img/nosotros/timeline-07.jpg";
+import "./img/nosotros/timeline-08.jpg";
+import "./img/nosotros/timeline-09.jpg";
+import "./img/nosotros/timeline-10.jpg";
+import "./img/nosotros/timeline-11.jpg";
+import "./img/nosotros/timeline-12.jpg";
+import "./img/nosotros/timeline-13.svg";
+import "./img/nosotros/timeline-14.svg";
+import "./img/nosotros/timeline-15.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

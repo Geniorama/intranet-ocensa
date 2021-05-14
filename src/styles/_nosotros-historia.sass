@@ -1,0 +1,143 @@
+.oc-padding-nosotros
+    padding: 5em 6em
+    .oc-text-cursive
+        font-family: 'roboto-bold-italic'
+        color: $gray_co
+    .oc-dates-style2
+        margin-top: 2em
+    p
+        color: $gray_co
+        font-family: 'roboto-light'
+.oc-history
+    &__timeline
+        padding: 2em 12em
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            left: 108px
+            top: 2.5em
+            background-color: $green_co
+            width: 2px
+            height: 100%
+        .oc-margin-time
+            margin-top: 5em
+    &__title-p
+        position: relative
+        h3
+            color: #012869
+            font-size: 22px
+            font-family: 'roboto-medium'
+        span
+            position: absolute
+            left: -130px
+            top: -4px
+            background-color: $green-co
+            color: white
+            width: 90px
+            height: 32px
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 21px
+            font-family: 'roboto-bold'
+    &__cont-img
+        margin-top: 2em
+        position: relative
+        img
+            width: 100%
+            height: auto
+        h3
+            color: #24A31A
+            font-size: 20px
+            font-family: 'roboto-medium'
+            margin-bottom: 1em
+    &__caption-img
+        position: absolute
+        top: 40%
+        right: -100px
+        width: 282px
+        height: auto
+        background-color: $green-co
+        color: white
+        padding: 1em
+        text-align: right
+        p
+            color: white
+            text-align: right
+            font-family: 'roboto-c-bold'
+            font-size: 17px
+            margin: 0
+        span
+            font-size: 14px
+            font-family: 'roboto-c-italic'
+    &__img-ref
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .oc-dates-style2
+            margin: 0
+    &__ref
+        font-size: 13px
+        span
+            color: $green_co
+            font-family: 'roboto-c-bold'
+        a
+            color: $gray_co
+            font-family: 'roboto-c-italic'
+            transition: $tr
+            &:hover
+                text-decoration: none
+                color: $green-co
+    &__map
+        h3
+            text-align: center
+            background-color: rgba(#C9C9C9, .1 )
+            margin-bottom: 0
+            padding: 1em
+    &__text-list
+        padding-left: 1em
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            width: 8px
+            height: 8px
+            border: 2px solid $green_co
+            border-radius: 50%
+            top: 5px
+            left: 0
+    &__card
+        background-color: rgba(#CCCCCC, .1)
+        padding: 2em
+        text-align: center
+        margin-top: 2em
+        h5
+            background-color: $green_co
+            display: inline-flex
+            color: white
+            border-radius: 20px
+            font-family: 'lato-bold-italic'
+            padding: .2em 2em
+            font-size: 20px
+            margin: 0
+        .subtitle
+            display: inline-flex
+            font-size: 20px
+            font-family: 'lato-italic'
+            color: $blue_co
+            margin-bottom: 1.5em
+        .number
+            display: block
+            font-family: 'roboto-regular'
+            font-size: 50px
+            color: $blue_co
+            line-height: 1em
+        .desc
+            font-family: 'roboto-regular'
+            color: $blue_co
+            font-size: 20px
+        img
+            display: block
+            margin: auto
+            margin-bottom: 1em
