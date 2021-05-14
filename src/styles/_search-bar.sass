@@ -17,3 +17,52 @@
             height: 50px
             border-radius: 0
             font-family: 'roboto-c-regular'
+
+.oc-box-search
+    height: 85px
+    width: 100%
+    position: absolute
+    right: 0px
+    top: 0px
+    overflow: hidden
+    transform: translateX(100%)
+    transition: all 2s
+    .form-group
+        background-color: white
+        display: flex
+        border-radius: 50px
+        padding: 3px
+        .form-control
+            border-radius: 50px
+            border: none
+            outline: none
+            font-family: 'roboto-regular'
+            font-size: 17px
+            width: 0px
+            transition: all 4s
+            &:focus
+                outline: none
+                box-shadow: none
+    &__button-submit
+        background-color: $blue_co
+        border-radius: 50px
+        color: white
+        border: none
+        font-family: 'roboto-regular', sans-serif
+        font-size: 13px
+        padding: .5em
+    &__icon-close
+        background-color: transparent
+        border: none
+        outline: none
+        transform: translateX(200%)
+        opacity: 0
+        transition: all 2s
+    &.expand-box
+        width: 100%
+        transform: translateX(0%)
+        .form-control
+            width: 100%
+        .oc-box-search__icon-close
+            opacity: 1
+            transform: translateX(0%)

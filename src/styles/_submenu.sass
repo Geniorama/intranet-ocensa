@@ -1,0 +1,42 @@
+.oc-submenu-gen
+    border: 1px solid #96A6B0
+    border-left: 0px
+    border-right: 0px
+    background-color: white
+    &__nav
+        height: 50px
+    &__button-menu-lateral
+        border: none
+        width: 75px
+        padding: 10px 0
+        height: 50px
+    .nav-link
+        font-family: 'roboto-regular'
+        font-size: 13px
+        color: $blue_co
+        position: relative
+        padding: 0px 1em
+        padding-bottom: 5px
+        min-width: 90px
+        text-align: center
+        &::before
+            content: ''
+            width: 0px
+            height: 3px
+            background-color: $green_co
+            position: absolute
+            bottom: 0
+            left: 50%
+            transition: $tr
+        &:hover, &.active
+            color: $green_co
+            font-family: 'roboto-bold', sans-serif
+            &::before
+                width: 30px
+                left: calc( 50% - 15px)
+    &__cont-nav
+        .nav
+            flex-wrap: nowrap
+            overflow-x: scroll
+            width: 226px
+            padding: .9em 0

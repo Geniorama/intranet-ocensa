@@ -1,6 +1,7 @@
 .oc-menu-lateral
     color: white
     z-index: 2
+    display: flex
     .oc-btn-menu-lateral
         width: 50px
         background-color: transparent
@@ -56,11 +57,20 @@
             text-decoration: none
             opacity: .6
 
+@include media-breakpoint-down(md)
+    .oc-menu-lateral
+        height: 100%
+
 @include media-breakpoint-down(sm)
     .oc-menu-lateral
-        width: 100%
-        position: relative
-        z-index: 1
+        width: 75px
+        position: absolute
+        left: 0
+        height: auto
+        top: 50px
+        z-index: 3
+        padding: 1em 0
+        display: none
         nav
             overflow: hidden
             padding: 0 !important
@@ -75,23 +85,14 @@
                 right: 5px
         .nav
             flex-wrap: nowrap
-            overflow-x: scroll
-            padding: .5em 2em
-            width: 95%
             margin: auto
         .nav-item
-            margin: 0 
-            margin-right: 2em
-            .oc-menu-lateral__text
-                font-size: 1em
+            margin: 0
+            margin-bottom: 1em 
             .nav-link
                 padding: 0
-                padding-right: 20px
-                padding-left: 10px
-            img
-                display: none
             .label-notify
-                right: 10px
+                right: 25px
                 top: 0
         .oc-menu-lateral__avatar 
             min-width: 90px

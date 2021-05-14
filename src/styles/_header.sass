@@ -1,4 +1,6 @@
 .oc-header
+    background-color: white
+    transition: $tr
     &__cont
         justify-content: space-between
         align-items: center
@@ -108,21 +110,17 @@
         background-color: $blue_light_co
     &__widgets-otro
         background-color: #BEBEBE
-
-#searchModal
-    .label-search
-        width: 60px
-        height: 45px
-        display: inline-flex
-        justify-content: center
-        align-items: center
-        img
-            width: 35px
-    .form-control
-        border-radius: 0px !important
-        height: 45px
     
 @include media-breakpoint-down(sm)
+    .oc-header
+        position: relative
+        &.header-fixed
+            position: fixed
+            top: 0
+            left: 0
+            right: 0
+            z-index: 3
+            animation: tr-header-fixed 1s
     .oc-header__mobile
         .oc-header__logo
             margin: 0
@@ -140,12 +138,41 @@
             width: 50px
             height: 50px
             border-radius: 50%
+            overflow: hidden
+            border: none
+            background-color: $green_co
+            outline: none !important
+            box-shadow: none !important
+            transition: all 1s ease-in-out
+            &:active
+                outline: none !important
+                box-shadow: none !important
+            &:hover
+                background-color: $green_co
             img
                 width: 70%
+                transition: all 3s
+            &.expand-bar
+                transform: scale(2) translateX(40px)
+                // animation: buttonSearch .5s
+                // background-color: transparent
+                img
+                    transform: translateX(200%)
 
         .oc-header__logout
             margin: 0
-    #searchModal
-        .modal-footer
-            border-top: 0px
-            padding-top: 0px 
+    @keyframes tr-header-fixed
+        0%
+            transform: translateY(-100%)
+            
+        100%
+            transform: translateY(0%)
+    
+    @keyframes buttonSearch
+        0%
+            border-radius: 50px
+        50%
+            border-radius: 0px
+        100%
+            border-radius: 50px
+            

@@ -9,25 +9,25 @@
 </head>
 
 <body>
-    <!-- Modal -->
-    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog pt-5">
-        <div class="modal-content">
-        <div class="modal-body">
-            <form action="" class="justify-content-end d-flex">
-                <label for="oc-search" class="oc-bg-green label-search"><img src="img/lupa_buscador.svg" alt=""></label>
-                <input type="text" placeholder="Encuentra aquí lo que buscas" id="oc-search" class="form-control oc-input-search">
-            </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Buscar</button>
-        </div>
-        </div>
-    </div>
-    </div>
     <div id="app">
         <header class="oc-header">
+            <div class="oc-box-search oc-bg-green d-flex align-items-center d-md-none">
+                <form action="" class="d-flex justify-content-between px-4 py-2 align-items-center m-auto w-100">
+                    <div class="form-group position-relative m-0">
+                        <button class="oc-box-search__button-submit" type="submit">Buscar</button>
+                        <input type="search" name="" id="" class="form-control" placeholder="lorem ipsum">
+                    </div>
+
+                    <button type="button" class="oc-box-search__icon-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13.888" height="13.888" viewBox="0 0 13.888 13.888">
+                        <g id="Grupo_13195" data-name="Grupo 13195" transform="translate(-340.213 -38.406)">
+                            <path id="Trazado_11444" data-name="Trazado 11444" d="M3992.92,39.113l12.474,12.474" transform="translate(-3652)" fill="none" stroke="#fff" stroke-width="2"/>
+                            <path id="Trazado_11445" data-name="Trazado 11445" d="M3992.92,39.113l12.474,12.474" transform="translate(392.507 -3953.807) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+                        </g>
+                        </svg>
+                    </button>
+                </form>
+            </div>
             <div class="oc-header__desktop d-none d-md-block">
                 <div class="oc-header__cont row py-3 py-lg-0">
                     <div class="oc-header__logo">
@@ -133,9 +133,11 @@
                     <a href="#" class="oc-header__logout text-center">
                         <img src="img/icon_logout.svg" alt=""><span class="d-block">Logout</span>
                     </a>
-                    <button type="button" class="btn btn-primary oc-search-bar__btn" data-toggle="modal" data-target="#searchModal">
+                    <button type="button" class="btn oc-search-bar__btn">
                         <img src="img/lupa_buscador.svg" alt="">
                     </button>
                 </div>
             </div>
+
+            {{>submenu}}
         </header>
