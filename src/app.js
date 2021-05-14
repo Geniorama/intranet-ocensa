@@ -90,7 +90,10 @@ import "./img/search/panel-documentos.svg";
 import "./img/search/panel-imagenes.svg";
 import "./img/search/panel-video.svg";
 import "./img/nosotros/icon1-section2.svg";
-
+import "./img/nosotros/img-gris.jpg";
+import "./img/nosotros/img-covenas.jpg";
+import "./img/nosotros/icon-nosotros2.svg";
+import "./img/nosotros/img-miraflores.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
