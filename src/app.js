@@ -107,6 +107,15 @@ import "./img/nosotros/timeline-13.svg";
 import "./img/nosotros/timeline-14.svg";
 import "./img/nosotros/timeline-15.jpg";
 
+import "./img/nosotros/razon-01.svg";
+import "./img/nosotros/razon-02.jpg";
+import "./img/nosotros/razon-03.svg";
+import "./img/nosotros/razon-04.jpg";
+import "./img/nosotros/razon-05.svg";
+import "./img/nosotros/razon-06.svg";
+import "./img/nosotros/razon-07.svg";
+import "./img/nosotros/razon-08.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
