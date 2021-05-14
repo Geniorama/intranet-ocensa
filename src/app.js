@@ -89,6 +89,7 @@ import "./img/search/panel-noticias.svg";
 import "./img/search/panel-documentos.svg";
 import "./img/search/panel-imagenes.svg";
 import "./img/search/panel-video.svg";
+import "./img/nosotros/icon1-section2.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');

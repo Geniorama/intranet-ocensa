@@ -204,8 +204,117 @@ p, span
         .st1
             fill: green
 
+//Nosotros
+    //Titulos
+.oc-title-style2
+    &__img-icon
+        width: 50px
+        height: 70px
+    &__title-section
+        margin-top: .5em
+        font-size: 35px
+        font-family: 'roboto-regular', sans-serif
+        color: $blue_co
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            width: 75px
+            height: 3px
+            background-color: $green_co
+            bottom: -10px
+            left: 0
+
+    //Iconos
+.oc-dates-style2
+    margin-top: 1em
+    svg
+        width: 30px
+        &:hover
+            path
+                fill: #005FC8
+            circle, line
+                stroke: #005FC8
+                fill: #005FC8
+            #Path_8817
+                fill: white
+    &__date
+        margin-right: 1em
+        display: flex
+        align-items: center
+        padding-left: 1em
+        span
+            color: $blue_light_co
+            font-family: 'roboto-c-regular'
+    &__like
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #000000
+            font-family: 'roboto-c-bold'
+    &__share
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #000000
+            font-family: 'roboto-c-bold'
+    &__favorite
+        cursor: pointer
+        margin-right: 1em
+        display: flex
+        align-items: center
+        img
+            margin-right: .2em
+        span
+            color: #95A6B1
+            font-family: 'roboto-c-bold'
+    &__img-dest
+        width: 100%
+        height: 460px
+        object-fit: cover
+        margin-top: 3em
+    span
+        font-family: 'roboto-medium'
+
 
 @include media-breakpoint-down(sm)
     .oc-link-title-search
         h2
             font-size: 19px !important
+
+// Hedaer nosotros
+.oc-img-header
+    position: relative
+    &__img
+        width: 100%
+        height: 74vh
+        object-fit: cover
+    &__caption
+        position: absolute
+        top: 20%
+        left: 6em
+        width: 500px
+    &__title-p
+        color: $green-co
+        font-size: 55px
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            background-color: $green_co
+            bottom: 0
+            left: 0
+            width: 85px
+            height: 4px
+    &__title-s
+        color: white
+        font-size: 85px
+        line-height: 1em
