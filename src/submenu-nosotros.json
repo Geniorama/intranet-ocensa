@@ -1,0 +1,18 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Nuestra razón de ser",
+            "dataTarget": "#nuestra-razon-de-ser"
+        },
+
+        {
+            "menuName": "Historia",
+            "dataTarget": "#historia"
+        },
+
+        {
+            "menuName": "Cultura",
+            "dataTarget": "#cultura"
+        }
+    ]
+}
