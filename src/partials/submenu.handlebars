@@ -1,6 +1,6 @@
-<div class="oc-submenu-gen position-relative d-md-none">
+<div class="oc-submenu-gen position-relative">
     <nav class="d-flex align-items-center oc-submenu-gen__nav">
-        <button class="oc-submenu-gen__button-menu-lateral oc-bg-blue">
+        <button class="oc-submenu-gen__button-menu-lateral oc-bg-blue d-md-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                 <g id="Grupo_13060" data-name="Grupo 13060" transform="translate(289.5 -89.5)">
                     <g id="Grupo_13059" data-name="Grupo 13059" transform="translate(1 0.378)">
@@ -21,7 +21,7 @@
         </button>
 
         <div class="oc-submenu-gen__cont-nav d-flex align-items-center px-3">
-            <div class="oc-menu-arrow left">
+            <div class="oc-menu-arrow left d-md-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
                     <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
                         transform="translate(-178.533 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
@@ -30,24 +30,16 @@
             </div>
 
             <ul class="nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active">Item lorem</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Item</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Item</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Item</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Item</a>
-                </li>
+                {{#each submenuData}}
+                    <li class="nav-item">
+                        <a href="{{this.dataTarget}}" class="nav-link oc-tabs__item {{#if this.menuIcon}} {{this.menuIcon}} {{/if}}">
+                            <span class="nav-link__text">{{this.menuName}}</span>
+                        </a>
+                    </li>
+                {{/each}}
             </ul>
 
-            <div class="oc-menu-arrow right">
+            <div class="oc-menu-arrow right d-md-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
                     <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
                         transform="translate(-819.464 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"

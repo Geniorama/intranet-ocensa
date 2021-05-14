@@ -40,3 +40,33 @@
             overflow-x: scroll
             width: 226px
             padding: .9em 0
+
+@include media-breakpoint-up(md)
+    .oc-submenu-gen
+        width: 100%
+        &__nav
+            height: auto
+        &__cont-nav
+            width: 100%
+            .nav
+                width: 100%
+                overflow: initial
+                justify-content: center
+                padding-bottom: 0
+                .nav-link
+                    padding-bottom: 1em
+                    margin: 0 2em
+                    font-size: 15px
+                    transition: $tr
+                    svg
+                        width: 20px
+                        margin-right: 5px
+                        path, line, rect, ellipse, circle
+                            transition: $tr
+                    &:hover
+                        &::before
+                            width: 80px
+                            left: calc( 50% - 40px)
+                        svg
+                            path, line, rect, ellipse, circle
+                                stroke: $green_co

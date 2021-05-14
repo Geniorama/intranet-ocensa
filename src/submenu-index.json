@@ -1,0 +1,18 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Item menu 1",
+            "dataTarget": "#"
+        },
+
+        {
+            "menuName": "Item menu 2",
+            "dataTarget": "#"
+        },
+
+        {
+            "menuName": "Item menu 3",
+            "dataTarget": "#cultura"
+        }
+    ]
+}

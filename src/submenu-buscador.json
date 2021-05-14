@@ -1,0 +1,33 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Perfiles",
+            "dataTarget": "#perfiles",
+            "menuIcon": "profile"
+        },
+
+        {
+            "menuName": "Noticias",
+            "dataTarget": "#noticias",
+            "menuIcon": "notice"
+        },
+
+        {
+            "menuName": "Documentos",
+            "dataTarget": "#documentos",
+            "menuIcon": "doc"
+        },
+
+        {
+            "menuName": "Imágenes",
+            "dataTarget": "#imagenes",
+            "menuIcon": "image"
+        },
+
+        {
+            "menuName": "Videos",
+            "dataTarget": "#videos",
+            "menuIcon": "video"
+        }
+    ]
+}

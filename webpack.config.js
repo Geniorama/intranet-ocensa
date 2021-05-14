@@ -41,13 +41,15 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'search-results.html',
             template: './src/search-results.handlebars',
-            minify: false
+            minify: false,
+            templateParameters: require('./src/submenu-buscador.json')
         }),
 
         new HtmlWebpackPlugin({
             filename: 'nosotros.html',
             template: './src/nosotros.handlebars',
-            minify: false
+            minify: false,
+            templateParameters: require('./src/submenu-nosotros.json')
         }),
 
         // CSS
