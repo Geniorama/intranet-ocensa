@@ -33,7 +33,7 @@
                 {{#each submenuData}}
                     <li class="nav-item">
                         <a href="{{this.dataTarget}}" class="nav-link oc-tabs__item {{#if this.menuIcon}} {{this.menuIcon}} {{/if}}">
-                            {{this.menuName}}
+                            <span class="nav-link__text">{{this.menuName}}</span>
                         </a>
                     </li>
                 {{/each}}
