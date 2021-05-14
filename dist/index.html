@@ -10,25 +10,25 @@
 <link href="css/app.css" rel="stylesheet"></head>
 
 <body>
-    <!-- Modal -->
-    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog pt-5">
-        <div class="modal-content">
-        <div class="modal-body">
-            <form action="" class="justify-content-end d-flex">
-                <label for="oc-search" class="oc-bg-green label-search"><img src="img/lupa_buscador.svg" alt=""></label>
-                <input type="text" placeholder="Encuentra aquí lo que buscas" id="oc-search" class="form-control oc-input-search">
-            </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Buscar</button>
-        </div>
-        </div>
-    </div>
-    </div>
     <div id="app">
         <header class="oc-header">
+            <div class="oc-box-search oc-bg-green d-flex align-items-center d-md-none">
+                <form action="" class="d-flex justify-content-between px-4 py-2 align-items-center m-auto w-100">
+                    <div class="form-group position-relative m-0">
+                        <button class="oc-box-search__button-submit" type="submit">Buscar</button>
+                        <input type="search" name="" id="" class="form-control" placeholder="lorem ipsum">
+                    </div>
+
+                    <button type="button" class="oc-box-search__icon-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13.888" height="13.888" viewBox="0 0 13.888 13.888">
+                        <g id="Grupo_13195" data-name="Grupo 13195" transform="translate(-340.213 -38.406)">
+                            <path id="Trazado_11444" data-name="Trazado 11444" d="M3992.92,39.113l12.474,12.474" transform="translate(-3652)" fill="none" stroke="#fff" stroke-width="2"/>
+                            <path id="Trazado_11445" data-name="Trazado 11445" d="M3992.92,39.113l12.474,12.474" transform="translate(392.507 -3953.807) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+                        </g>
+                        </svg>
+                    </button>
+                </form>
+            </div>
             <div class="oc-header__desktop d-none d-md-block">
                 <div class="oc-header__cont row py-3 py-lg-0">
                     <div class="oc-header__logo">
@@ -133,101 +133,224 @@
                     <a href="#" class="oc-header__logout text-center">
                         <img src="img/icon_logout.svg" alt=""><span class="d-block">Logout</span>
                     </a>
-                    <button type="button" class="btn btn-primary oc-search-bar__btn" data-toggle="modal" data-target="#searchModal">
+                    <button type="button" class="btn oc-search-bar__btn">
                         <img src="img/lupa_buscador.svg" alt="">
                     </button>
                 </div>
             </div>
-        </header>
-<aside
-    class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 d-flex flex-row flex-md-column align-items-center">
-    <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
-        <button class="button-menu-toggle m-auto mb-1 open">
-            <span class="line-1 line"></span>
-            <span class="line-2 line"></span>
-            <span class="line-3 line"></span>
-        </button>
 
-        <span>menú</span>
-    </div>
+            <div class="oc-submenu-gen position-relative d-md-none">
+                <nav class="d-flex align-items-center oc-submenu-gen__nav">
+                    <button class="oc-submenu-gen__button-menu-lateral oc-bg-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Grupo_13060" data-name="Grupo 13060" transform="translate(289.5 -89.5)">
+                                <g id="Grupo_13059" data-name="Grupo 13059" transform="translate(1 0.378)">
+                                    <path id="Trazado_5206" data-name="Trazado 5206" d="M0,0V9.671"
+                                        transform="translate(-276.548 108.293) rotate(180)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-width="1.5" />
+                                    <path id="Trazado_6893" data-name="Trazado 6893" d="M-8466.48,3107.907l3.421,3.421-3.421,3.421"
+                                        transform="translate(2834.749 8571.668) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                                </g>
+                                <g id="Elipse_2153" data-name="Elipse 2153" transform="translate(-288 91)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                    <circle cx="12.5" cy="12.5" r="12.5" stroke="none" />
+                                    <circle cx="12.5" cy="12.5" r="13.25" fill="none" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+            
+                    <div class="oc-submenu-gen__cont-nav d-flex align-items-center px-3">
+                        <div class="oc-menu-arrow left">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
+                                    transform="translate(-178.533 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1" />
+                            </svg>
+                        </div>
+            
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Item lorem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Item</a>
+                            </li>
+                        </ul>
+            
+                        <div class="oc-menu-arrow right">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                    transform="translate(-819.464 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="1" />
+                            </svg>
+                        </div>
+                    </div>
+                    
+                </nav>
+                <aside
+                    class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 flex-column align-items-center">
+                    <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
+                        <button class="button-menu-toggle m-auto mb-1 open">
+                            <span class="line-1 line"></span>
+                            <span class="line-2 line"></span>
+                            <span class="line-3 line"></span>
+                        </button>
+                
+                        <span>menú</span>
+                    </div>
+                
+                
+                    <nav class="px-2 py-3 p-lg-0">
+                        <ul class="nav flex-column align-items-center mt-lg-4">
+                            <li class="nav-item">
+                                <a href="#" class="oc-menu-lateral__avatar nav-link">
+                                    <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                                    <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                                </a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <img src="img/menu-perfil-0-inicio.svg" alt="">
+                
+                                    <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                                </a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <span class="label-notify">
+                                        1
+                                    </span>
+                                    <img src="img/menu-perfil-1-correo.svg" alt="">
+                
+                                    <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                                </a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <span class="label-notify">
+                                        7
+                                    </span>
+                                    <img src="img/menu-perfil-2-mensajes.svg" alt="">
+                
+                                    <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                                </a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <span class="label-notify">
+                                        7
+                                    </span>
+                                    <img src="img/menu-perfil-3-reuniones.svg" alt="">
+                                    <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                                </a>
+                            </li>
+                
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <span class="label-notify">
+                                        7
+                                    </span>
+                                    <img src="img/menu-perfil-4-grupos.svg" alt="">
+                                    <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                
+                </aside></div>        </header>
+<div class="d-none d-md-block oc-menu-lateral">
+    <aside
+        class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 flex-column align-items-center">
+        <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
+            <button class="button-menu-toggle m-auto mb-1 open">
+                <span class="line-1 line"></span>
+                <span class="line-2 line"></span>
+                <span class="line-3 line"></span>
+            </button>
+    
+            <span>menú</span>
+        </div>
+    
+    
+        <nav class="px-2 py-3 p-lg-0">
+            <ul class="nav flex-column align-items-center mt-lg-4">
+                <li class="nav-item">
+                    <a href="#" class="oc-menu-lateral__avatar nav-link">
+                        <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="img/menu-perfil-0-inicio.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            1
+                        </span>
+                        <img src="img/menu-perfil-1-correo.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="img/menu-perfil-2-mensajes.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="img/menu-perfil-3-reuniones.svg" alt="">
+                        <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="img/menu-perfil-4-grupos.svg" alt="">
+                        <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
+    </aside></div>
 
-    <div class="oc-menu-arrow left d-flex align-items-center justify-content-center d-md-none oc-bg-blue">
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
-                transform="translate(-178.533 -474.021)" fill="none" stroke="#ffffff" stroke-linecap="round"
-                stroke-linejoin="round" stroke-width="2.355" />
-        </svg>
-    </div>
 
-    <nav class="px-2 py-3 p-lg-0">
-        <ul class="nav flex-row flex-lg-column align-items-center mt-lg-4">
-            <li class="nav-item">
-                <a href="#" class="oc-menu-lateral__avatar nav-link">
-                    <img src="img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
-                    <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <img src="img/menu-perfil-0-inicio.svg" alt="">
-
-                    <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <span class="label-notify">
-                        1
-                    </span>
-                    <img src="img/menu-perfil-1-correo.svg" alt="">
-
-                    <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <span class="label-notify">
-                        7
-                    </span>
-                    <img src="img/menu-perfil-2-mensajes.svg" alt="">
-
-                    <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <span class="label-notify">
-                        7
-                    </span>
-                    <img src="img/menu-perfil-3-reuniones.svg" alt="">
-                    <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <span class="label-notify">
-                        7
-                    </span>
-                    <img src="img/menu-perfil-4-grupos.svg" alt="">
-                    <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="oc-menu-arrow right d-flex align-items-center justify-content-center d-md-none oc-bg-blue">
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
-                transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff" stroke-linecap="round"
-                stroke-linejoin="round" stroke-width="2.355" />
-        </svg>
-    </div>
-</aside>
 <div class="oc-preload">
     <img src="img/logo_ocensa_logosimbolo.png" alt="" class="oc-preload__symbol">
 </div>
