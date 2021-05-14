@@ -1,0 +1,199 @@
+.oc-cultura
+    padding: 5em 7em
+    .oc-dates-style2
+        .row
+            margin: 0
+    p
+        font-family: 'roboto-light'
+    &__intro
+        margin-top: 2em
+.oc-nosotros-cult
+    .oc-nosotros-cultura
+        &__img-cultura
+            width: 100%
+            height: auto
+        &__img-section
+            width: 100%
+            height: 470px
+            object-fit: cover
+            margin-top: 100px
+        &__cont-ic
+            .oc-dates-style2
+                display: flex
+                justify-content: flex-end
+        &__icon-section
+            width: 95px
+            height: 95px
+        &__cont-text
+            margin-top: 150px
+            margin-bottom: 100px
+    .oc-section-desa
+        width: 100%
+        margin-top: 300px
+        padding-top: 300px
+        .img-section-abs
+            width: 80%
+            height: 80%
+            object-fit: cover
+            top:-230px
+            left: 75px
+        .position-partial
+            top: -78px
+            left: 780px
+        .cont-bg-gr
+            padding: 5em
+            margin-top: -30px
+            &__img
+                width: 90px
+                height: 90px
+            &__text
+                color: white
+                font-family: 'roboto-medium', sans-serif
+                font-size: 16px
+    .oc-section-nuest
+        padding: 4em
+        background-color: #F1F4F5
+        .oc-title-style2
+            img
+                width: 85px
+                height: 85px
+        &__list-icons
+            img
+                width: 90px
+                height: 90px
+            span
+                color: #CCCCCC
+            &__1
+                span
+                    &:hover
+                        color: #5AC5C6
+            &__2
+                span
+                    &:hover
+                        color: #2CB673
+            &__3
+                span
+                    &:hover
+                        color: #FFC10E
+            &__4
+                span
+                    &:hover
+                        color: #6A5EAA
+            &__5
+                span
+                    &:hover
+                        color: #7F3F96
+            &__6
+                span
+                    &:hover
+                        color: #E9048B
+            a
+                text-decoration: none
+        .oc-desc-sections
+            border-top: solid 5px #5AC5C6 
+            &__text
+                background-color: white
+                padding: 3em
+                &__title
+                    color: #5AC5C6
+                    font-family: 'roboto-medium', sans-serif
+                    font-size: 25px
+                &__sub-title
+                    color: #5AC5C6
+                    font-family: 'roboto-light',sans-serif
+                    font-size: 20px
+                span
+                    font-family: 'roboto-light'
+                    font-size: 16px
+                li
+                    font-family: 'roboto-light'
+                    font-size: 16px
+            &__img
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover   
+    .oc-last-section
+        margin-top: 100px
+        &__img
+            width: 540px
+            height: 350px
+        &__text-d
+            font-family: 'roboto-light', sans-serif
+            font-size: 16px
+        &__text-aux
+            font-family: 'roboto-bold', sans-serif
+            font-size: 16px       
+        .text-p-left
+            padding-left: 2em !important
+.text-1
+    font-family: 'roboto-light', sans-serif
+    font-size: 16px
+
+.oc-section-desa
+    .oc-dates-style2
+        span
+            color: white
+        svg
+            width: 30px
+            path, circle
+                fill: white
+            circle, line
+                stroke: #fff
+        &__date
+            margin-right: 1em
+            display: flex
+            align-items: center
+            padding-left: 1em
+            span
+                color: white
+                font-family: 'roboto-c-regular'
+        &__like
+            cursor: pointer
+            margin-right: 1em
+            display: flex
+            align-items: center
+            img
+                margin-right: .2em
+            span
+                color: white
+                font-family: 'roboto-c-bold'
+        &__comments
+            cursor: pointer
+            margin-right: 1em
+            display: flex
+            align-items: center
+            img
+                margin-right: .2em
+            span
+                color: white
+                font-family: 'roboto-c-bold'
+        &__share
+            cursor: pointer
+            margin-right: 1em
+            display: flex
+            align-items: center
+            img
+                margin-right: .2em
+            span
+                color: white
+                font-family: 'roboto-c-bold'
+        &__favorite
+            cursor: pointer
+            margin-right: 1em
+            display: flex
+            align-items: center
+            img
+                margin-right: .2em
+            span
+                color: white
+                font-family: 'roboto-c-bold'
+
+@include media-breakpoint-down(sm)
+    .oc-cultura
+        background-color: white
+    .oc-nosotros-cultura
+        flex-wrap: wrap-reverse
+        .oc-dates-style2
+            .row
+                flex-wrap: unset

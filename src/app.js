@@ -116,6 +116,20 @@ import "./img/nosotros/razon-06.svg";
 import "./img/nosotros/razon-07.svg";
 import "./img/nosotros/razon-08.svg";
 
+import "./img/nosotros/img-gris.jpg";
+import "./img/nosotros/img-covenas.jpg";
+import "./img/nosotros/icon-nosotros2.svg";
+import "./img/nosotros/img-miraflores.jpg";
+import "./img/nosotros/img-belleza.jpg";
+import "./img/nosotros/icon1-section3.svg";
+import "./img/nosotros/icon2-section3.svg";
+import "./img/nosotros/list-icon1.svg";
+import "./img/nosotros/list-icon2.svg";
+import "./img/nosotros/list-icon3.svg";
+import "./img/nosotros/list-icon4.svg";
+import "./img/nosotros/list-icon5.svg";
+import "./img/nosotros/list-icon6.svg";
+import "./img/nosotros/img-gris-morado.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -131,7 +145,26 @@ $('.oc-slick-example').slick({
         </svg>
     </button>`,
     dots: true
+
 })
+
+/*
+$('.oc-slick-nuestra-cultura').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    dots: true,
+    arrows: false,
+    slidesToShow: 6,
+});
+*/
 
 $('.item-has-child').hover(function() {
     const item = $(this)
