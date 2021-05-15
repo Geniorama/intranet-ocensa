@@ -305,6 +305,8 @@ $('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
 $('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
+$('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
+
 if(screen.width < 576){
     $(window).scroll(function() {
         if ($(window).scrollTop() > 80) {
