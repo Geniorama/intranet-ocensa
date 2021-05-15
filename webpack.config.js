@@ -23,7 +23,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: './src/index.handlebars',
-            minify: false
+            minify: false,
+            templateParameters: require('./src/submenu-index.json')
         }),
 
         new HtmlWebpackPlugin({

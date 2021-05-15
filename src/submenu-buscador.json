@@ -1,6 +1,11 @@
 {
     "submenuData" : [
         {
+            "menuName": "Todo",
+            "dataTarget": "#todo"
+        },
+
+        {
             "menuName": "Perfiles",
             "dataTarget": "#perfiles",
             "menuIcon": "profile"

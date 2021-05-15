@@ -301,6 +301,10 @@ $('.oc-submenu-gen__button-menu-lateral').click(function(e) {
     $('.oc-submenu-gen .oc-menu-lateral').slideToggle();
 })
 
+$('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
+
+$('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
+
 if(screen.width < 576){
     $(window).scroll(function() {
         if ($(window).scrollTop() > 80) {
@@ -349,11 +353,11 @@ $('.oc-tabs__item').click(function(e){
     var _href = $(this).attr("href");
 
     if($(this).hasClass('oc-panels__btn-02')){
-        let href_2 = $('.oc-menu-search .oc-tabs__item').attr('href')
+        let href_2 = $('.oc-submenu-gen .oc-tabs__item').attr('href')
 
-        $('.oc-menu-search .oc-tabs__item').removeClass('active')
+        $('.oc-submenu-gen .oc-tabs__item').removeClass('active')
 
-        $('.oc-menu-search .oc-tabs__item[href="'+ _href +'"]').addClass('active')
+        $('.oc-submenu-gen .oc-tabs__item[href="'+ _href +'"]').addClass('active')
 
         $(".oc-panels__item").hide();
         $(_href).fadeIn();

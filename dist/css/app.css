@@ -11644,7 +11644,7 @@ p, span {
 
 .oc-btn-back-to-top {
   position: fixed;
-  top: 50%;
+  bottom: 1em;
   right: 1em;
   z-index: 2;
 }
@@ -12397,6 +12397,9 @@ p, span {
   .oc-item-docs__cont__img-notice {
     height: 177px;
   }
+  .oc-item-docs__cont__img-notice img {
+    width: 45%;
+  }
   .oc-item-docs__cont__desc h2 {
     font-size: 15px;
     margin-top: 0.5em !important;
@@ -12605,7 +12608,7 @@ p, span {
 }
 
 .oc-panels {
-  padding: 6em 7em 5em 7em;
+  padding: 6em;
 }
 .oc-panels__btn {
   text-align: center;

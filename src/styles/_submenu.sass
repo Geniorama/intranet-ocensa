@@ -19,6 +19,9 @@
         padding-bottom: 5px
         min-width: 90px
         text-align: center
+        transition: $tr
+        .nav-link__text
+            transition: $tr
         &::before
             content: ''
             width: 0px
@@ -31,6 +34,11 @@
         &:hover, &.active
             color: $green_co
             font-family: 'roboto-bold', sans-serif
+            svg
+                path, line, rect, ellipse, circle
+                    stroke: $green_co
+            .nav-link__text
+                font-weight: bold
             &::before
                 width: 30px
                 left: calc( 50% - 15px)

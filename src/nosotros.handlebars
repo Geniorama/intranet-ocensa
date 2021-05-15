@@ -1,6 +1,6 @@
 {{!-- Ancla --}}
 <div id="top"></div>
-{{>partials/header}}
+{{>partials/header classPage="oc-nosotros"}}
 
 <div class="d-none d-md-block oc-menu-lateral">
     {{>partials/menu-lateral}}
@@ -8,7 +8,9 @@
 
 {{>partials/menu-principal}}
 
-<main class="oc-content py-4 py-md-5">
+<main class="oc-content py-4 py-md-5" id="oc-nosotros">
+    {{>partials/nosotros-razon}}
+    {{>partials/nosotros-historia}}
     {{>partials/nosotros-cultura}}
 </main>
 
