@@ -163,7 +163,7 @@
             &__img
                 img
                     width: 100%
-                    height: 100%
+                    height: 550px
                     object-fit: cover   
     .oc-last-section
         margin-top: 100px
@@ -241,6 +241,113 @@
                 color: white
                 font-family: 'roboto-c-bold'
 
+.oc-panels-cultura
+    &__01
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #5AC5C6
+                    border-radius: 50%
+    &__02
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #2CB673
+                    border-radius: 50%
+                a
+                    background-color: #505D6C
+                    font-size: 12.8px
+                    color: white
+                    padding: .2em 1em
+                    border-radius: 15px
+                    transition: $tr
+                    &:hover
+                        background-color: #2CB673
+                        text-decoration: none
+    &__03
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #FFC10E
+                    border-radius: 50%
+    &__04
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #6A5EAA
+                    border-radius: 50%
+    &__05
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #7F3F96
+                    border-radius: 50%
+    &__06
+        ul
+            list-style: none
+            padding: 0
+            li
+                padding-left: 1em
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 6px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid #E9048B
+                    border-radius: 50%
 .oc-slick-cultura
     .arrow-down
         width: 20px
@@ -252,6 +359,8 @@
     &__item
         .arrow-down
             display: none
+        &:hover
+            text-decoration: none
         span
             line-height: 1em
             margin-bottom: 2em
@@ -262,7 +371,27 @@
         &.active
             .arrow-down
                 display: block
-
+            .oc-vida
+                span
+                    color: #5AC5C6
+            .oc-etic
+                span
+                    color: #2CB673
+            .oc-pasion
+                span
+                    color: #FFC10E
+            .oc-respeto
+                span
+                    color: #6A5EAA
+            .oc-posible
+                span
+                    color: #7F3F96
+            .oc-equipo
+                span
+                    color: #E9048B
+.oc-slick-cultura
+    .oc-slick-arrow
+        border: none
 @include media-breakpoint-down(md)
     .oc-cultura__intro
         flex-wrap: wrap-reverse
@@ -292,3 +421,19 @@
         padding-bottom: 4em
         .oc-cont-01
             margin-bottom: 2em
+    .oc-panels-cultura
+        &.container
+            padding: 0 !important
+        .oc-desc-sections
+            .row
+                flex-wrap: wrap-reverse !important
+    .oc-section-nuest
+        padding: 0 !important
+    .oc-desc-sections__img
+        img
+            height: 360px !important
+    .oc-section-nuest
+        padding: 2em 1em !important
+        background-color: white !important
+    .oc-desc-sections__text
+        padding: 3em 0 !important

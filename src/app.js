@@ -142,6 +142,12 @@ import "./img/nosotros/razon/razon-vision-est.svg";
 import "./img/nosotros/cultura/icon-nosotros-cultura-2.svg";
 import "./img/nosotros/cultura/icon-nosotros-cultura-3.svg";
 
+import "./img/nosotros/cultura-01.jpg";
+import "./img/nosotros/cultura-02.jpg";
+import "./img/nosotros/cultura-03.jpg";
+import "./img/nosotros/cultura-04.jpg";
+import "./img/nosotros/cultura-05.jpg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({
@@ -239,6 +245,33 @@ $('.oc-slick-cultura').slick({
             <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
         </svg>
     </button>`,
+    settings: "unslick",
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+            settings: "unslick"
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 6
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 })
 
 function progressBar(barClass) {
@@ -373,28 +406,45 @@ $('.oc-seccion-noticias-etiquetas button').click(function(e) {
 $('.oc-panels__item').hide();
 $('.oc-panels__item:first').show();
 
+$('.oc-desc-sections').hide();
+$('.oc-desc-sections:first').show();
+$('.oc-slick-cultura .oc-slick-cultura__item:first').addClass('active');
+
 $('.oc-tabs__item').click(function(e){
     e.preventDefault()
 
     var _href = $(this).attr("href");
 
     $('.oc-tabs__item').removeClass('active');
-        $(this).addClass('active');
+    $(this).addClass('active');
 
-        $('.oc-submenu-gen .oc-tabs__item[href="'+ _href +'"]').addClass('active')
+    $('.oc-submenu-gen .oc-tabs__item[href="'+ _href +'"]').addClass('active')
         
-        $(".oc-panels__item").hide();
-        $(_href).fadeIn();
+    $(".oc-panels__item").hide();
+    $(_href).fadeIn();
 
-        let anchor = document.querySelector('#top');
-        scroll.animateScroll(anchor);
+    let anchor = document.querySelector('#top');
+    scroll.animateScroll(anchor);
 
-        $('.oc-slick-cultura').slick('refresh')
+    $('.oc-slick-cultura').slick('refresh')
 
         // Funcion tabs
-        $('.oc-slick-cultura .oc-slick-cultura__item').click(function() {
-            alert('funciona')
-        })
+    $('.oc-slick-cultura .oc-slick-cultura__item').click(function(e) {
+        e.preventDefault()
+
+        var _link = $(this).attr("href");
+
+        $('.oc-slick-cultura .oc-slick-cultura__item').removeClass('active');
+        $(this).addClass('active');
+
+        $(".oc-desc-sections").hide();
+
+        var selectTab = $('.oc-slick-cultura').find('a').attr("href");
+        
+        $(_link).fadeIn();
+
+
+    })
 });
 
 
