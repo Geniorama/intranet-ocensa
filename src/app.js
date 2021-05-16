@@ -387,7 +387,13 @@ $('.oc-tabs__item').click(function(e){
         scroll.animateScroll(anchor);
 
         $('.oc-slick-cultura').slick('refresh')
+
+        // Funcion tabs
+        $('.oc-slick-cultura .oc-slick-cultura__item').click(function() {
+            alert('funciona')
+        })
 });
+
 
 function addIconMenu(iconclass, svgicon){
     $(iconclass).before(svgicon);
