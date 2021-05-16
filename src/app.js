@@ -236,6 +236,33 @@ $('.oc-slick-cultura').slick({
             <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
         </svg>
     </button>`,
+    settings: "unslick",
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+            settings: "unslick"
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 6
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 })
 
 function progressBar(barClass) {
@@ -386,8 +413,19 @@ $('.oc-tabs__item').click(function(e){
         let anchor = document.querySelector('#top');
         scroll.animateScroll(anchor);
 
-        $('.oc-slick-cultura').slick('refresh')
 });
+
+// Tabs nosotros cultura
+$('.oc-desc-sections').hide();
+$('.oc-desc-sections:first').show();
+$('.oc-slick-cultura__item:first').addClass('active');
+
+$('.oc-slick-cultura__item').on('click', function(){
+     
+    alert ('Hola mundo');
+
+
+}); 
 
 function addIconMenu(iconclass, svgicon){
     $(iconclass).before(svgicon);
