@@ -72,7 +72,11 @@
     &__mujer-cont02
         background-color: $green_co
         width: 30%
-        padding: 7em 3em
+        height: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
         .oc-head
             display: flex
             align-items: center
@@ -181,10 +185,17 @@
                 position: absolute
                 top: 0
                 right: -33%
+        &__vision-cont01
+            .oc-title-style2
+                &__title-section
+                    transform: translateY(15px)
 
 @include media-breakpoint-down(md)
     .oc-razon
         background-color: white
+        &__mujer-cont01
+            img
+                height: 340px
     .oc-razon__valor
         display: block
     .oc-razon__valor
@@ -214,11 +225,15 @@
         position: relative
         display: block
         top: 0
+        left: 0
+        height: auto
+        overflow: hidden
         &-cont01
             width: 100%
         &-cont02
             width: 100%
             padding: 2em
+            height: auto
     .oc-razon__statistics
         padding: 0
         margin: 0

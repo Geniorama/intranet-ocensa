@@ -300,7 +300,7 @@ p, span
             bottom: -10px
             left: 0
 
-@include media-breakpoint-up(md)
+@include media-breakpoint-up(lg)
     .oc-title-style2
         position: relative
         &__img-icon
@@ -312,6 +312,9 @@ p, span
             padding-top: 0 !important
     .oc-padding-icon-left
         padding-left: 4em
+
+@include media-breakpoint-up(md)
+
     
             
 
@@ -408,10 +411,12 @@ p, span
         color: white
         font-size: 85px
         line-height: 1em
+
+
 @include media-breakpoint-down(md)
     .oc-img-header
         &__img
-            height: 70vh
+            height: auto
         &__caption
             left: 1.5em
             top: 30%
@@ -420,3 +425,9 @@ p, span
             font-size: 39px
         &__title-s
             font-size: 60px
+
+        
+@include media-breakpoint-down(sm)
+    .oc-img-header
+        &__img
+            height: 70vh

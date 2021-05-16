@@ -165,8 +165,9 @@
                 justify-content: flex-end
             .oc-dates-style2__share
                 margin: 0
-        iframe
-            height: 200px
+        .oc-yt-video
+            iframe
+                height: 200px
     .oc-history__title-p
         h3
             font-size: 19px
@@ -201,3 +202,9 @@
         svg
             width: 15px
             margin-right: .3em
+
+@include media-breakpoint-down(sm)
+    .oc-history__timeline
+        .oc-yt-video
+            iframe
+                height: 130px

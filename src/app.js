@@ -138,6 +138,9 @@ import "./img/footer/ocensa-logosimbolo.svg";
 import "./img/nosotros/flecha-abajo.svg";
 
 import "./img/nosotros/cultura/cultura-icon-6.png";
+import "./img/nosotros/razon/razon-vision-est.svg";
+import "./img/nosotros/cultura/icon-nosotros-cultura-2.svg";
+import "./img/nosotros/cultura/icon-nosotros-cultura-3.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
