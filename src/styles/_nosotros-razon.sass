@@ -4,20 +4,13 @@
         font-family: 'roboto-light'
     &__valor
         padding-top: 5em
-        display: flex
-        align-items: center
     &__valor-cont01
-        width: 40%
-        p
-            padding-right: 4em
         .oc-dates-style2
             margin-top: 2em
             margin-bottom: 3em
             .row
                 margin: 0
     &__valor-cont02
-        width: 60%
-        padding-left: 3em
         img
             width: 100%
     &__reduction
@@ -66,12 +59,16 @@
     &__mujer
         display: flex
         position: absolute
-        top: -14em
-        left: 0
+        top: -250px
+        left: -20%
+        height: 530px
+        width: 100%
     &__mujer-cont01
-        width: 50%
+        width: 70%
         img
             width: 100%
+            height: 100%
+            object-fit: cover
     &__mujer-cont02
         background-color: $green_co
         width: 30%
@@ -176,6 +173,15 @@
         p
             padding-top: 5em
                 
+@include media-breakpoint-up(lg)
+    .oc-razon
+        &__valor-cont02
+            img
+                width: 130%
+                position: absolute
+                top: 0
+                right: -33%
+
 @include media-breakpoint-down(md)
     .oc-razon
         background-color: white

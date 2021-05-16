@@ -104,39 +104,45 @@
                 width: 85px
                 height: 85px
         &__list-icons
-            img
-                width: 90px
-                height: 90px
+            // img
+            //     width: 90px
+            //     height: 90px
             span
                 color: #CCCCCC
+
             &__1
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #5AC5C6
             &__2
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #2CB673
             &__3
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #FFC10E
             &__4
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #6A5EAA
             &__5
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #7F3F96
             &__6
-                span
-                    &:hover
+                cursor: pointer
+                &:hover
+                    span
                         color: #E9048B
             a
                 text-decoration: none
         .oc-desc-sections
-            border-top: solid 5px #5AC5C6 
             &__text
                 background-color: white
                 padding: 3em
@@ -234,6 +240,28 @@
             span
                 color: white
                 font-family: 'roboto-c-bold'
+
+.oc-slick-cultura
+    .arrow-down
+        width: 20px
+    .slick-slide
+        height: auto
+    .oc-cultura-icon
+        margin: auto
+        cursor: pointer
+    &__item
+        .arrow-down
+            display: none
+        span
+            line-height: 1em
+            margin-bottom: 2em
+            font-family: 'lato-bold-italic', sans-serif
+            color: #CCCCCC
+            height: 40px
+            transition: $tr
+        &.active
+            .arrow-down
+                display: block
 
 @include media-breakpoint-down(md)
     .oc-cultura__intro

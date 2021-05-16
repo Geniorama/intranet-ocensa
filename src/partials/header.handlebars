@@ -11,6 +11,8 @@
 <body class="{{classPage}}">
     <div id="app">
         <header class="oc-header">
+
+            {{!-- Caja buscador mobile --}}
             <div class="oc-box-search oc-bg-green d-flex align-items-center d-md-none">
                 <form action="" class="d-flex justify-content-between px-4 py-2 align-items-center m-auto w-100">
                     <div class="form-group position-relative m-0">
@@ -28,10 +30,12 @@
                     </button>
                 </form>
             </div>
+
+            {{!-- Header Desktop --}}
             <div class="oc-header__desktop d-none d-md-block">
                 <div class="oc-header__cont row py-3 py-lg-0">
                     <div class="oc-header__logo">
-                        <img src="img/logo_ocensa_logo.png" alt="">
+                        <img src="img/ocensa-logo-nuevo.svg" alt="">
                     </div>
                     <div class="oc-header__items">
                         <a href="#" class="oc-header__logout">
@@ -121,16 +125,17 @@
                 {{>submenu itemsSubmenu="{{itemsSumenu}}"}}
             </div>
 
+            {{!-- Header Mobile --}}
             <div class="oc-header__mobile d-block d-md-none p-3">
                 <div class="d-flex align-items-center justify-content-between">
                     <button class="oc-btn-menu-superior oc-btn-open-menu d-flex flex-column">
                         {{!-- Icon menu --}}
-                        <img src="img/icon_menu_mobile.svg" alt="">
+                        <img src="img/icon_menu_mobile.svg" alt="" class="m-auto">
 
                         <span>menú</span>
                     </button>
                     <div class="oc-header__logo">
-                        <img src="img/logo_ocensa_logo.png" alt="">
+                        <img src="img/ocensa-logo-nuevo.svg" alt="">
                     </div>
                     <a href="#" class="oc-header__logout text-center">
                         <img src="img/icon_logout.svg" alt=""><span class="d-block">Logout</span>
@@ -141,7 +146,7 @@
                 </div>
             </div>
 
-            <div class="d-md-none">
+            <div class="d-md-none oc-submenu-mobile">
                 {{>submenu itemsSubmenu="{{itemsSumenu}}"}}
             </div>
         </header>

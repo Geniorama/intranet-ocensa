@@ -1,5 +1,5 @@
 // Libs
-import $ from "jquery";
+import $, { each } from "jquery";
 import 'bootstrap';
 import "./../node_modules/slick-carousel";
 import SmoothScroll from "smooth-scroll";
@@ -130,6 +130,14 @@ import "./img/nosotros/list-icon4.svg";
 import "./img/nosotros/list-icon5.svg";
 import "./img/nosotros/list-icon6.svg";
 import "./img/nosotros/img-gris-morado.jpg";
+import "./img/nosotros/razon/imag-razondeser-1.jpg"
+
+import "./img/header/ocensa-logo-nuevo.svg";
+import "./img/header/ocensa-logo-nuevo-blanco.svg";
+import "./img/footer/ocensa-logosimbolo.svg";
+import "./img/nosotros/flecha-abajo.svg";
+
+import "./img/nosotros/cultura/cultura-icon-6.png";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -148,23 +156,6 @@ $('.oc-slick-example').slick({
 
 })
 
-/*
-$('.oc-slick-nuestra-cultura').slick({
-    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
-        </svg>
-    </button>`,
-    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
-        </svg>
-    </button>`,
-    dots: true,
-    arrows: false,
-    slidesToShow: 6,
-});
-*/
 
 $('.item-has-child').hover(function() {
     const item = $(this)
@@ -233,7 +224,19 @@ $('.oc-slick-dashboard').slick({
     infinite: false
 })
 
-
+$('.oc-slick-cultura').slick({
+    slidesToShow: 6,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+})
 
 function progressBar(barClass) {
     let items = document.querySelectorAll(barClass)
@@ -308,6 +311,22 @@ $('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('act
 $('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
 if(screen.width < 576){
+    let desplaceNumber = 0
+    $('.oc-submenu-mobile .nav .nav-link').each(function() {
+        desplaceNumber = desplaceNumber + 100;
+        $(this).attr('data-desplace', desplaceNumber)
+    })
+
+    function desplaceMenu(num){
+        let number = parseInt(num)
+
+        if(number != 100){
+            $('.oc-submenu-gen__cont-nav .nav').animate({
+                scrollLeft: number / 2
+            }, 500)
+        }
+    }
+
     $(window).scroll(function() {
         if ($(window).scrollTop() > 80) {
             $('.oc-header').addClass('header-fixed');
@@ -330,10 +349,12 @@ if(screen.width < 576){
     })
 
     $('.oc-submenu-gen__cont-nav .nav-link').click(function() {
-        $('.oc-submenu-gen__cont-nav .nav-link').removeClass('active')
-        $(this).addClass('active')
-    })
- }
+        $('.oc-submenu-gen__cont-nav .nav-link').removeClass('active');
+        $(this).addClass('active');
+
+        desplaceMenu($(this).attr('data-desplace'));
+    }) 
+}
 
 // Tags
 $('.oc-seccion-noticias-etiquetas button').click(function(e) {
@@ -354,22 +375,10 @@ $('.oc-tabs__item').click(function(e){
 
     var _href = $(this).attr("href");
 
-    if($(this).hasClass('oc-panels__btn-02')){
-        let href_2 = $('.oc-submenu-gen .oc-tabs__item').attr('href')
-
-        $('.oc-submenu-gen .oc-tabs__item').removeClass('active')
+    $('.oc-tabs__item').removeClass('active');
+        $(this).addClass('active');
 
         $('.oc-submenu-gen .oc-tabs__item[href="'+ _href +'"]').addClass('active')
-
-        $(".oc-panels__item").hide();
-        $(_href).fadeIn();
-
-        let anchor = document.querySelector('#top');
-        scroll.animateScroll(anchor);
-        
-    } else {
-        $('.oc-tabs__item').removeClass('active');
-        $(this).addClass('active');
         
         $(".oc-panels__item").hide();
         $(_href).fadeIn();
@@ -377,11 +386,7 @@ $('.oc-tabs__item').click(function(e){
         let anchor = document.querySelector('#top');
         scroll.animateScroll(anchor);
 
-    }
-});
-
-$('#oc-panels__btn-all').click(function(){
-    $('#oc-tabs__item-all').addClass('active');
+        $('.oc-slick-cultura').slick('refresh')
 });
 
 function addIconMenu(iconclass, svgicon){

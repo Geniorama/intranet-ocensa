@@ -1,6 +1,7 @@
 .oc-header
     background-color: white
     transition: $tr
+    z-index: 4
     &__cont
         justify-content: space-between
         align-items: center
@@ -130,6 +131,7 @@
             background-color: white
             border: none
             width: 45px
+            transform: translateX(-8px)
             span
                 color: #28347D
                 font-family: 'roboto-bold', sans-serif
@@ -140,6 +142,8 @@
             border-radius: 50%
             overflow: hidden
             border: none
+            position: relative
+            z-index: 2
             background-color: $green_co
             outline: none !important
             box-shadow: none !important
@@ -151,9 +155,9 @@
                 background-color: $green_co
             img
                 width: 70%
-                transition: all 3s
+                transition: all 1s
             &.expand-bar
-                transform: scale(2) translateX(40px)
+                transform: scale(3) translateX(40px)
                 // animation: buttonSearch .5s
                 // background-color: transparent
                 img

@@ -2,6 +2,8 @@
     border: 1px solid #96A6B0
     border-left: 0px
     border-right: 0px
+    position: relative
+    z-index: 3
     background-color: white
     .oc-menu-arrow
         width: 10px
@@ -56,10 +58,23 @@
             flex-wrap: nowrap
             overflow-x: scroll
             width: 100%
-            max-width: 66vw
+            max-width: 67vw
             padding: .9em 0
 
-@include media-breakpoint-up(md)
+@include media-breakpoint-up(sm)
+    .oc-submenu-gen
+        .oc-menu-lateral
+            display: none
+        .oc-menu-arrow
+            &.right
+                right: 15px
+        &__cont-nav
+            width: 100%
+            .nav
+                max-width: 100%
+                justify-content: center
+
+@include media-breakpoint-up(lg)
     .oc-submenu-gen
         width: 100%
         &__nav
@@ -69,9 +84,9 @@
             .nav
                 width: 100%
                 overflow: initial
-                justify-content: center
                 padding-bottom: 0
                 max-width: 100%
+                transition: $tr
                 .nav-link
                     padding-bottom: 1em
                     margin: 0 2em

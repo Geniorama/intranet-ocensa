@@ -138,6 +138,17 @@ p, span
     font-family: 'roboto-regular', sans-serif
     font-size: 15px
     color: $blue_co
+
+.pagination
+    .number-page
+        display: flex
+        justify-content: center
+        align-items: center
+        line-height: 0
+        &.active
+            background-color: $green_co !important
+            color: white
+            border-color: $green_co
 // Custom Slick
 .oc-slick-theme
     position: relative
@@ -288,6 +299,21 @@ p, span
             background-color: $green_co
             bottom: -10px
             left: 0
+
+@include media-breakpoint-up(md)
+    .oc-title-style2
+        position: relative
+        &__img-icon
+            position: absolute
+            left: -90px
+            top: 0
+    .oc-razon__vision-cont02
+        p
+            padding-top: 0 !important
+    .oc-padding-icon-left
+        padding-left: 4em
+    
+            
 
     //Iconos
 .oc-dates-style2
