@@ -26,7 +26,10 @@
             align-items: center
             .text
                 text-align: center
-                margin-right: 2em  
+                margin-right: 2em
+            .icon
+                width: 80px
+                height: 80px  
             .number
                 font-size: 70px
                 color: $blue_co
@@ -83,7 +86,10 @@
             justify-content: center
             .text
                 text-align: center
-                margin-right: 2em  
+                margin-right: 2em 
+            .icon
+                width: 80px
+                height: 80px 
             .number
                 font-size: 70px
                 color: white
@@ -124,6 +130,10 @@
             display: flex
             align-items: center
             justify-content: center
+            .graphic
+                img
+                    width: 140px
+                    height: 140px
             p
                 color: $blue_co
                 font-size: 20px
@@ -166,7 +176,8 @@
         width: 50%
     &__img
         img
-            width: 100%
+            width: 100% !important
+            height: auto !important
     &__vision
         padding: 5em 0
         display: flex
@@ -219,6 +230,12 @@
         &-cont01
             width: 100%
             margin-bottom: 2em
+            .oc-head
+                justify-content: center
+            .icon
+                justify-content: center
+            .info
+                justify-content: center
         &-cont02
             width: 100%
     .oc-razon__mujer
@@ -258,3 +275,10 @@
             width: 100%
             p
                 padding: 2em 0
+@include media-breakpoint-down(sm)
+.oc-razon
+    &__img
+        text-align: center
+        img
+            width: 300px
+            height: 300px
