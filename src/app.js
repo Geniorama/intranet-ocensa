@@ -454,6 +454,15 @@ function addIconMenu(iconclass, svgicon){
 
 
 if(screen.width > 991.98){
+    // Sticky menu nosotros
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 580) {
+          $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").fadeIn();//.fadeOut();
+        } else {
+            $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").hide();//.fadeIn();
+        }
+    });
+
     // ICON PROFILE
     addIconMenu('.oc-submenu-gen__cont-nav .profile .nav-link__text', `<svg xmlns="http://www.w3.org/2000/svg" width="14.706" height="20.574" viewBox="0 0 14.706 20.574">
     <g id="Grupo_6636" data-name="Grupo 6636" transform="translate(0.75 0.752)">

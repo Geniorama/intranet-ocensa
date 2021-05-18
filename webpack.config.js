@@ -50,7 +50,7 @@ module.exports = {
             filename: 'nosotros.html',
             template: './src/nosotros.handlebars',
             minify: false,
-            templateParameters: require('./src/submenu-nosotros.json')
+            templateParameters: require('./src/submenu-nosotros.json'),
         }),
 
         // CSS
