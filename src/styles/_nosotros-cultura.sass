@@ -12,7 +12,7 @@
         padding-right: 4em
     &__intro-cont02
         img
-            width: 100%
+            width: 75%
     &__icons
         margin-top: 4em
     &__desc-01
@@ -437,3 +437,9 @@
         background-color: white !important
     .oc-desc-sections__text
         padding: 3em 0 !important
+
+@include media-breakpoint-down(sm)
+.oc-desc-sections
+    &__text
+        background-color: #f1f4f5 !important
+        padding: 3em 1em !important

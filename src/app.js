@@ -147,6 +147,17 @@ import "./img/nosotros/cultura-02.jpg";
 import "./img/nosotros/cultura-03.jpg";
 import "./img/nosotros/cultura-04.jpg";
 import "./img/nosotros/cultura-05.jpg";
+import "./img/nosotros/iconos/razon-de-ser-2.svg";
+import "./img/nosotros/iconos/razon-de-ser-3.svg";
+import "./img/nosotros/imagenes/razon-de-ser-torta.png";
+import "./img/nosotros/iconos/historia-1.svg";
+import "./img/nosotros/imagenes/historia-1998.jpg";
+import "./img/nosotros/fotos/historia-2018-foto-descargadero-min.jpg";
+import "./img/nosotros/imagenes/historia-2010-grafica-01.jpg";
+import "./img/nosotros/iconos/cultura-2.svg";
+import "./img/nosotros/iconos/historia_bombeo_barriles.svg";
+import "./img/nosotros/iconos/historia_bombeo_tlu.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
