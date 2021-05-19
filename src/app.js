@@ -157,6 +157,7 @@ import "./img/nosotros/imagenes/historia-2010-grafica-01.jpg";
 import "./img/nosotros/iconos/cultura-2.svg";
 import "./img/nosotros/iconos/historia_bombeo_barriles.svg";
 import "./img/nosotros/iconos/historia_bombeo_tlu.svg";
+import "./img/nosotros/fotos/historia-2010-nace-cenit-min.jpeg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');

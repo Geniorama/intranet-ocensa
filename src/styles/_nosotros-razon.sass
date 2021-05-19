@@ -276,13 +276,16 @@
             p
                 padding: 2em 0
 @include media-breakpoint-down(sm)
-.oc-razon
-    &__img
-        text-align: center
-    .square-img-mobile
-        width: 360px
-        height: 360px
-        img
-            width: 100% !important
-            height: 100% !important
-            object-fit: cover
+    .oc-razon
+        &__img
+            text-align: center
+            width: 100%
+            height: 100vw
+            img
+                width: 100% !important
+                height: 100% !important
+                object-fit: cover
+        .graphic
+            img
+                width: 100px !important
+                height: 100px !important
