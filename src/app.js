@@ -158,6 +158,21 @@ import "./img/nosotros/iconos/cultura-2.svg";
 import "./img/nosotros/iconos/historia_bombeo_barriles.svg";
 import "./img/nosotros/iconos/historia_bombeo_tlu.svg";
 import "./img/nosotros/fotos/historia-2010-nace-cenit-min.jpeg";
+import "./img/nosotros/fotos/1-Nosotros Cultura-4.jpg";
+import "./img/nosotros/fotos/1-Nosotros Cultura-inicio.jpg";
+import "./img/nosotros/fotos/1-Nosotros Historia-inicio.jpg";
+import "./img/nosotros/fotos/1-Nosotros Razón de ser-4.jpg";
+import "./img/nosotros/fotos/1-Nosotros Razón de ser-inicio.jpg";
+
+// Videos
+import "./videos/1-Nosotros Cultura-4.mp4";
+import "./videos/1-Nosotros Cultura-inicio.mp4";
+import "./videos/1-Nosotros Historia-inicio.mp4";
+import "./videos/1-Nosotros Razón de ser-4.mp4";
+import "./videos/1-Nosotros Razón de ser-inicio.mp4";
+
+
+
 
 
 var scroll = new SmoothScroll('a[href*="#"]');

@@ -174,10 +174,6 @@
                         left: 0
     &__part-cont02
         width: 50%
-    &__img
-        img
-            width: 100% !important
-            height: auto !important
     &__vision
         padding: 5em 0
         display: flex
@@ -200,6 +196,16 @@
             .oc-title-style2
                 &__title-section
                     transform: translateY(15px)
+        &__img
+            position: relative
+            height: 500px
+            width: 100%
+            overflow: hidden
+            video
+                width: 100%
+                position: absolute
+                top: -30%
+                left: 0
 
 @include media-breakpoint-down(md)
     .oc-razon
