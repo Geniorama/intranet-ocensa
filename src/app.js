@@ -245,47 +245,6 @@ $('.oc-slick-dashboard').slick({
     infinite: false
 })
 
-$('.oc-slick-cultura').slick({
-    slidesToShow: 6,
-    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
-        </svg>
-    </button>`,
-    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
-        </svg>
-    </button>`,
-    settings: "unslick",
-    responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true,
-            settings: "unslick"
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 6,
-            slidesToScroll: 6
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-})
-
 function progressBar(barClass) {
     let items = document.querySelectorAll(barClass)
     for(let item of items){
@@ -418,9 +377,44 @@ $('.oc-seccion-noticias-etiquetas button').click(function(e) {
 $('.oc-panels__item').hide();
 $('.oc-panels__item:first').show();
 
-$('.oc-desc-sections').hide();
-$('.oc-desc-sections:first').show();
-$('.oc-slick-cultura .oc-slick-cultura__item:first').addClass('active');
+
+// Items cultura panels
+$('.oc-panels-cultura__slick-panel').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.oc-slick-cultura'
+})
+
+$('.oc-slick-cultura').slick({
+    slidesToShow: 6,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    asNavFor: '.oc-panels-cultura__slick-panel',
+    focusOnSelect: true,
+    responsive: [
+        {
+            breakpoint: 769,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+        },
+      ]
+})
+
+$(".oc-slick-cultura").click(function(e) {
+    e.preventDefault();
+})
 
 $('.oc-tabs__item').click(function(e){
     e.preventDefault()
@@ -437,27 +431,26 @@ $('.oc-tabs__item').click(function(e){
 
     let anchor = document.querySelector('#top');
     scroll.animateScroll(anchor);
+    
 
+    $('.oc-panels-cultura__slick-panel').slick('refresh')
     $('.oc-slick-cultura').slick('refresh')
+    
+    
 
-        // Funcion tabs
+    // Funcion tabs
     $('.oc-slick-cultura .oc-slick-cultura__item').click(function(e) {
         e.preventDefault()
-
-        var _link = $(this).attr("href");
 
         $('.oc-slick-cultura .oc-slick-cultura__item').removeClass('active');
         $(this).addClass('active');
 
-        $(".oc-desc-sections").hide();
-
-        var selectTab = $('.oc-slick-cultura').find('a').attr("href");
-        
-        $(_link).fadeIn();
-
-
     })
 });
+
+if(screen.width < 576){
+    $('.oc-slick-cultura .oc-slick-cultura__item').addClass('active');
+}
 
 
 function addIconMenu(iconclass, svgicon){

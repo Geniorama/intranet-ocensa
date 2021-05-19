@@ -392,9 +392,20 @@
                 span
                     color: #E9048B
 .oc-slick-cultura
+    width: 90%
     .oc-slick-arrow
         border: none
+
+.oc-panels-cultura__slick-panel
+    width: 90%
+    .slick-slide
+        height: auto
 @include media-breakpoint-down(md)
+    .oc-slick-cultura
+        width: 90%
+
+    .oc-panels-cultura__slick-panel
+        width: 90%
     .oc-cultura__intro
         flex-wrap: wrap-reverse
         &-cont02
@@ -426,13 +437,13 @@
         .oc-cont-01
             margin-bottom: 2em
     .oc-panels-cultura
-        &.container
-            padding: 0 !important
         .oc-desc-sections
             .row
                 flex-wrap: wrap-reverse !important
     .oc-section-nuest
         padding: 0 !important
+        .oc-slick-theme
+            padding: 2em 0 !important
     .oc-desc-sections__img
         img
             height: 360px !important
@@ -443,7 +454,7 @@
         padding: 3em 0 !important
 
 @include media-breakpoint-down(sm)
-.oc-desc-sections
-    &__text
-        background-color: #f1f4f5 !important
-        padding: 3em 1em !important
+    .oc-desc-sections
+        &__text
+            background-color: #f1f4f5 !important
+            padding: 3em 1em !important

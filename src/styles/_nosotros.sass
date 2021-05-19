@@ -1,7 +1,4 @@
 .oc-nosotros
-    .oc-header__desktop
-        .oc-submenu-gen
-            display: none
     .oc-img-header
         &__title-p
             color: #00CD00
@@ -13,6 +10,12 @@
         z-index: 1
         &__button-menu-lateral
             display: none
+
+@include media-breakpoint-up(lg)
+    .oc-nosotros
+        .oc-header__desktop
+            .oc-submenu-gen
+                display: none
 
 @include media-breakpoint-down(md)
     .oc-nosotros-submenu
