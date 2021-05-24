@@ -171,8 +171,14 @@ import "./videos/1-Nosotros Historia-inicio.mp4";
 import "./videos/1-Nosotros Razón de ser-4.mp4";
 import "./videos/1-Nosotros Razón de ser-inicio.mp4";
 
-
-
+// Mapa  Casanare
+import "./img/casanare/mapa-casanare.png";
+import "./img/casanare/icon-plus.svg";
+import "./img/casanare/point-01.svg";
+import "./img/casanare/icon-location.svg";
+import "./img/casanare/icon-profile.svg";
+import "./img/casanare/icon-water.svg";
+import "./img/casanare/icon-yellow.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
@@ -540,3 +546,9 @@ if(screen.width > 991.98){
     </g>
     </svg>`);
 }
+
+
+// MODALS MAPS
+$('.oc-mapa__location-modals').modal({
+    show: false
+  })
