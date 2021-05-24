@@ -23,6 +23,8 @@ import "./fonts/helvetica_light.ttf";
 
 // Modules
 import "./styles/app.sass";
+import "./modules/WidgetCalendario";
+import "./modules/Estaciones";
 
 
 // Images
@@ -171,6 +173,24 @@ import "./videos/1-Nosotros Historia-inicio.mp4";
 import "./videos/1-Nosotros Razón de ser-4.mp4";
 import "./videos/1-Nosotros Razón de ser-inicio.mp4";
 
+
+// Img widgets
+import "./img/widgets-ocensa/img-widget-calendario/icon-agenda-calendario.svg";
+import "./img/widgets-ocensa/img-widget-calendario/boton-ver-mas.svg";
+import "./img/widgets-ocensa/img-widget-calendario/icon-cerrar-dia.svg";
+import "./img/widgets-ocensa/img-widget-calendario/flecha-ir.svg";
+import "./img/widgets-ocensa/img-widget-calendario/avatar-prof.png";
+import "./img/widgets-ocensa/img-widget-calendario/avatar-prof-2.png";
+import "./img/widgets-ocensa/img-widget-calendario/icon-cerrar-dia.svg";
+import "./img/widgets-ocensa/img-widget-calendario/icon-star.svg";
+import "./img/widgets-ocensa/button-close.svg";
+import "./img/widgets-ocensa/slick-arrow-left.svg";
+import "./img/widgets-ocensa/slick-arrow-right.svg";
+
+// Estaciones
+import "./img/estaciones/cupiagua/fotos-cupiagua/slide-1.png";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/icono_menu-la_estacion.svg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/estacion_almacena.svg";
 
 
 

@@ -1,0 +1,40 @@
+.oc-estaciones
+    background-color: #ECEFF1
+    .oc-widget-principal
+        height: 312px
+        &__title
+            position: relative
+            &__01
+                color: $green_co
+                font-family: 'roboto-bold', sans-serif
+                font-size: 30px
+            &__02
+                color: $blue_co
+                font-family: 'roboto-medium', sans-serif
+                font-size: 45px
+            &::before
+                content: ''
+                position: absolute
+                height: 3px
+                width: 80px
+                background-color: $green_co
+                bottom: 0
+                left: 0
+        .oc-btn-active
+            background-color: $green_co
+            height: 25px
+            &:hover
+                color: white
+                text-decoration: none
+        &__leyend
+            background-color: rgba(#95A6B1 , .2)
+            padding: 2.5em 1em
+            &__text
+                line-height: 0
+                font-size: 20px
+                &__01
+                    font-family: 'roboto-bold', sans-serif
+                    color: $green_co
+                &__02
+                    font-family: 'roboto-medium-italic', sans-serif
+                    color: #505D6C
