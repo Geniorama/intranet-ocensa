@@ -53,6 +53,13 @@ module.exports = {
             templateParameters: require('./src/submenu-nosotros.json'),
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'casanare/casanare.html',
+            template: './src/casanare/casanare.handlebars',
+            minify: false,
+            templateParameters: require('./src/submenu-nosotros.json'),
+        }),
+        
         // Estaciones
         new HtmlWebpackPlugin({
             filename: 'casanare/estacion-cupiagua.html',

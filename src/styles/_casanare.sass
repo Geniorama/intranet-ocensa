@@ -1,0 +1,202 @@
+.oc-mapa
+    height: auto
+    text-align: center
+    &__container
+        position: relative
+        width: 1290px
+        margin: auto
+    &__img
+        width: 100%
+        height: auto
+    &__location-modals
+        position: absolute
+        cursor: pointer
+    &__green
+        .oc-mapa__icon
+            border: 1px solid #00FF4B
+        .oc-mapa__img-plus
+            background-color: #00FF4B
+        .oc-mapa__img-icon
+            background-color: #00FF4B
+    &__orange
+        .oc-mapa__icon
+            border: 1px solid #FF9700
+        .oc-mapa__img-plus
+            background-color: #FF9700
+        .oc-mapa__img-icon
+            background-color: #FF9700
+    &__purple
+        .oc-mapa__icon
+            border: 1px solid #8AA6FF 
+        .oc-mapa__img-plus
+            background-color: #8AA6FF  
+        .oc-mapa__img-icon
+            background-color: #8AA6FF
+    &__blue
+        .oc-mapa__icon
+            border: 1px solid #00FFFF 
+        .oc-mapa__img-plus
+            background-color: #00FFFF  
+        .oc-mapa__img-icon
+            background-color: #00FFFF
+    &__name-point
+        width: 0
+        overflow: hidden
+    &__icon
+        border-radius: 50%
+        width: 30px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        opacity: 1
+        transition: $tr
+    &__img-plus
+        width: 15px
+        height: 15px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+    &__plus
+        width: 9px
+        height: 9px
+    &__name-point
+        display: flex
+        align-items: center
+        background-color: rgba(0, 0, 0, .5)
+        border-radius: 20px
+        position: relative
+        top: -30px
+        transition: $tr
+        width: auto
+        opacity: 0
+        padding-right: .8em
+        span
+            color: white
+            margin-left: .5em
+            font-family: 'roboto-c-regular'
+            font-size: 12px
+        .oc-mapa__more
+            width: 9px
+            height: 9px
+            margin-left: .5em
+    &__img-icon
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: auto
+            height: 18px
+    &__yellow
+        .oc-mapa__name-point-yellow
+            display: flex
+        .oc-mapa__info-item
+            display: flex
+            align-items: center
+            background-color: rgba(0, 0, 0, .5)
+            padding: 0 2.5em 0 1em
+            border-radius: 20px
+            height: 30px
+            img
+                width: 9px
+                height: 9px
+                margin-right: .5em
+            span
+                color: white
+                font-size: 14px
+                font-family: 'roboto-c-regular'
+        .oc-mapa__img-icon
+            height: auto
+            position: relative
+            right: 30px
+            img
+                width: 55px
+                height: auto
+    &__yellow-02
+        .oc-mapa__name-point-yellow
+            display: flex
+        .oc-mapa__info-item
+            display: flex
+            align-items: center
+            background-color: rgba(0, 0, 0, .5)
+            padding: 0 1em 0 2.5em
+            border-radius: 20px
+            height: 30px
+            img
+                width: 9px
+                height: 9px
+                margin-left: .5em
+            span
+                color: white
+                font-size: 14px
+                font-family: 'roboto-c-regular'
+        .oc-mapa__img-icon
+            height: auto
+            position: relative
+            left: 30px
+            img
+                width: 55px
+                height: auto
+    &__location-modals
+        &:hover .oc-mapa__name-point
+            width: 100%
+            opacity: 1
+        &:hover .oc-mapa__icon
+            opacity: 0
+    // POINTS STYLE 01
+    .oc-point-01
+        left: 138px
+        top: 386px
+    .oc-point-02
+        left: 231px
+        top: 440px
+    .oc-point-03
+        left: 280px
+        top: 514px
+    .oc-point-04
+        left: 358px
+        top: 475px
+    .oc-point-05
+        left: 353px
+        top: 372px
+    .oc-point-06
+        left: 567px
+        top: 218px
+    .oc-point-07
+        left: 568px
+        top: 440px
+    .oc-point-08
+        left: 593px
+        top: 638px
+    .oc-point-09
+        left: 643px
+        top: 252px
+    .oc-point-10
+        left: 684px
+        top: 352px
+    .oc-point-11
+        left: 724px
+        top: 733px
+    .oc-point-12
+        left: 803px
+        top: 334px
+    .oc-point-13
+        left: 883px
+        top: 532px
+    .oc-point-14
+        left: 1017px
+        top: 484px
+    // POINTS STYLE 02
+    .oc-point-15
+        left: 161px
+        top: 334px
+    .oc-point-16
+        left: 575px
+        top: 476px
+    .oc-point-17
+        left: 938px
+        top: 403px
