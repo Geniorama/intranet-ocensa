@@ -2,12 +2,18 @@
     position: relative
     padding: 0
     height: 312px
+    .item
+        img
+            width: 100%
     .oc-slick-arrow
         &__prev
             left: 10px
         &__next
             right: 10px
+
+// Wdg La estación
 #wdg-la-estacion
+    height: 412px
     .wdg-la-estacion__item
         img
             width: 65px
@@ -15,3 +21,95 @@
             margin: 0
             font-family: 'roboto-light', sans-serif
             font-size: 14px
+            margin-left: 1em
+            margin-right: 1em
+
+// Wdg Ubicación
+#wdg-ubicacion
+    height: 412px
+    position: relative
+    .row
+        height: 100%
+        width: 100%
+        margin: 0 !important
+    .wdg-banner
+        height: 366px
+        overflow: hidden
+        &__bg
+            background-size: cover
+            background-position: right center
+        &__info
+            p
+                color: white
+                font-family: 'roboto-c-regular', sans-serif
+                font-size: 14px
+                margin-bottom: .3em
+            &__km
+                &.first-child
+                    border-bottom: 1px solid rgba(white , .3)
+                    margin-bottom: 1em
+                img
+                    width: 65px
+                .number
+                    font-family: 'roboto-bold'
+                    font-size: 30px
+                    color: white
+                .km
+                    color: white
+                    margin-top: 10px
+                    font-size: 14.5px
+                .leyend
+                    text-transform: uppercase
+                    color: black
+                    font-family: 'roboto-bold', sans-serif
+                    font-size: 9px
+                    margin-top: .5em
+                    margin-bottom: 1em
+        .oc-btn
+            margin: 0 !important
+            display: block
+            text-align: center
+            height: 20px
+            background-color: white
+            color: $green_co
+            line-height: 15px
+
+            &:hover
+                text-decoration: none
+// wdg-section-03
+#wdg-section-03
+    .oc-widget-template
+        height: 335px
+// Wdg Almacenamiento
+#wdg-almacenamiento
+    font-size: 14px
+    .item-02
+        &__img
+            width: 65px
+        .roboto-bold
+            margin: 0
+            color: #95A6B1
+        .roboto-medium
+            font-size: 24px
+        .badge
+            margin-top: 1em !important
+            font-size: 14px !important
+            border-radius: 7px
+            padding: .5em
+            font-family: 'roboto-bold', sans-serif
+            background-color: #95A6B1 !important
+            color: white
+.line-dashed
+    border: 1px dashed #505D6C
+    width: 60%
+    margin: 1em auto
+    position: relative
+    &::after
+        content: ''
+        width: 9px
+        height: 9px
+        border: 2.5px solid $green_co
+        border-radius: 50%
+        position: absolute
+        right: -9px
+        top: -4.5px

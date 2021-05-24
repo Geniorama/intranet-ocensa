@@ -58,7 +58,7 @@ module.exports = {
             filename: 'casanare/estacion-cupiagua.html',
             template: './src/casanare/estacion-cupiagua.handlebars',
             minify: false,
-            templateParameters: require('./src/submenu-nosotros.json'),
+            templateParameters: require('./src/submenu-casanare.json'),
         }),
 
         // CSS

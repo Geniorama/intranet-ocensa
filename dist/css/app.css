@@ -10109,6 +10109,10 @@ h3 {
 }
 /*LATO*/
 @font-face {
+  font-family: "lato-bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
   font-family: "lato-bold-italic";
   src: url(../fonts/Lato-BoldItalic.ttf);
 }
@@ -10130,6 +10134,18 @@ h3, h4, h5, h6 {
 
 p, span {
   font-family: "roboto-c-regular", sans-serif;
+}
+
+.roboto-regular {
+  font-family: "roboto-regular", sans-serif;
+}
+
+.roboto-medium {
+  font-family: "roboto-medium", sans-serif;
+}
+
+.roboto-bold {
+  font-family: "roboto-bold", sans-serif;
 }
 
 .btn {
@@ -10184,6 +10200,9 @@ p, span {
 }
 .oc-bg-gray-light {
   background-color: #95A6B1;
+}
+.oc-bg-blue-light {
+  background-color: #2B5CDA;
 }
 
 .oc-box-shadow {
@@ -14123,8 +14142,27 @@ p, span {
     height: 100px !important;
   }
 }
-.oc-estaciones {
-  background-color: #ECEFF1;
+.oc-widget-template__top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.oc-widget-template__top-bar__title {
+  display: flex;
+  align-items: center;
+}
+.oc-widget-template__top-bar__title img {
+  width: 47px;
+}
+.oc-widget-template__top-bar__title span {
+  font-family: "cabin-bold", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.oc-widget-template__top-bar__right {
+  display: flex;
+  align-items: center;
 }
 
 .oc-button-close {
@@ -14165,6 +14203,11 @@ p, span {
   margin: 2em;
 }
 
+.oc-card-widget {
+  background-color: white;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
 .oc-slick-widgets.oc-slick-theme .slick-dots {
   position: absolute;
   height: 100%;
@@ -14192,7 +14235,7 @@ p, span {
   display: none;
 }
 
-@media screen and (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .oc-slick-widgets.oc-slick-theme .slick-dots {
     top: unset !important;
     bottom: -30px !important;
@@ -14411,6 +14454,7 @@ p, span {
 
 .oc-slick-calendar {
   position: relative;
+  height: 262px;
 }
 .oc-slick-calendar .slick-list {
   min-height: 259px;
@@ -14664,4 +14708,207 @@ p, span {
   .content-day .oc-content-agenda__item__info {
     max-width: 218px !important;
   }
+}
+.oc-estaciones {
+  background-color: #ECEFF1;
+}
+.oc-estaciones .oc-widget-principal {
+  height: 312px;
+}
+.oc-estaciones .oc-widget-principal__title {
+  position: relative;
+}
+.oc-estaciones .oc-widget-principal__title__01 {
+  color: #19A500;
+  font-family: "roboto-bold", sans-serif;
+  font-size: 30px;
+}
+.oc-estaciones .oc-widget-principal__title__02 {
+  color: #28347D;
+  font-family: "roboto-medium", sans-serif;
+  font-size: 45px;
+}
+.oc-estaciones .oc-widget-principal__title::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 80px;
+  background-color: #19A500;
+  bottom: 0;
+  left: 0;
+}
+.oc-estaciones .oc-widget-principal .oc-btn-active {
+  background-color: #19A500;
+  height: 25px;
+}
+.oc-estaciones .oc-widget-principal .oc-btn-active:hover {
+  color: white;
+  text-decoration: none;
+}
+.oc-estaciones .oc-widget-principal__leyend {
+  background-color: rgba(149, 166, 177, 0.2);
+  padding: 2.5em 1em;
+}
+.oc-estaciones .oc-widget-principal__leyend__text {
+  line-height: 0;
+  font-size: 20px;
+}
+.oc-estaciones .oc-widget-principal__leyend__text__01 {
+  font-family: "roboto-bold", sans-serif;
+  color: #19A500;
+}
+.oc-estaciones .oc-widget-principal__leyend__text__02 {
+  font-family: "roboto-medium-italic", sans-serif;
+  color: #505D6C;
+}
+
+.oc-number-medium {
+  font-family: "roboto-black", sans-serif;
+  font-size: 30px;
+}
+
+.c-blue-light {
+  color: #2B5CDA;
+}
+
+.c-green {
+  color: #19A500;
+}
+
+.c-white {
+  color: white;
+}
+
+.oc-slick-widget__slider {
+  position: relative;
+  padding: 0;
+  height: 312px;
+}
+.oc-slick-widget__slider .item img {
+  width: 100%;
+}
+.oc-slick-widget__slider .oc-slick-arrow__prev {
+  left: 10px;
+}
+.oc-slick-widget__slider .oc-slick-arrow__next {
+  right: 10px;
+}
+
+#wdg-la-estacion {
+  height: 412px;
+}
+#wdg-la-estacion .wdg-la-estacion__item img {
+  width: 65px;
+}
+#wdg-la-estacion .wdg-la-estacion__item p {
+  margin: 0;
+  font-family: "roboto-light", sans-serif;
+  font-size: 14px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#wdg-ubicacion {
+  height: 412px;
+  position: relative;
+}
+#wdg-ubicacion .row {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+}
+#wdg-ubicacion .wdg-banner {
+  height: 366px;
+  overflow: hidden;
+}
+#wdg-ubicacion .wdg-banner__bg {
+  background-size: cover;
+  background-position: right center;
+}
+#wdg-ubicacion .wdg-banner__info p {
+  color: white;
+  font-family: "roboto-c-regular", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0.3em;
+}
+#wdg-ubicacion .wdg-banner__info__km.first-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1em;
+}
+#wdg-ubicacion .wdg-banner__info__km img {
+  width: 65px;
+}
+#wdg-ubicacion .wdg-banner__info__km .number {
+  font-family: "roboto-bold";
+  font-size: 30px;
+  color: white;
+}
+#wdg-ubicacion .wdg-banner__info__km .km {
+  color: white;
+  margin-top: 10px;
+  font-size: 14.5px;
+}
+#wdg-ubicacion .wdg-banner__info__km .leyend {
+  text-transform: uppercase;
+  color: black;
+  font-family: "roboto-bold", sans-serif;
+  font-size: 9px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+#wdg-ubicacion .wdg-banner .oc-btn {
+  margin: 0 !important;
+  display: block;
+  text-align: center;
+  height: 20px;
+  background-color: white;
+  color: #19A500;
+  line-height: 15px;
+}
+#wdg-ubicacion .wdg-banner .oc-btn:hover {
+  text-decoration: none;
+}
+
+#wdg-section-03 .oc-widget-template {
+  height: 335px;
+}
+
+#wdg-almacenamiento {
+  font-size: 14px;
+}
+#wdg-almacenamiento .item-02__img {
+  width: 65px;
+}
+#wdg-almacenamiento .item-02 .roboto-bold {
+  margin: 0;
+  color: #95A6B1;
+}
+#wdg-almacenamiento .item-02 .roboto-medium {
+  font-size: 24px;
+}
+#wdg-almacenamiento .item-02 .badge {
+  margin-top: 1em !important;
+  font-size: 14px !important;
+  border-radius: 7px;
+  padding: 0.5em;
+  font-family: "roboto-bold", sans-serif;
+  background-color: #95A6B1 !important;
+  color: white;
+}
+
+.line-dashed {
+  border: 1px dashed #505D6C;
+  width: 60%;
+  margin: 1em auto;
+  position: relative;
+}
+.line-dashed::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border: 2.5px solid #19A500;
+  border-radius: 50%;
+  position: absolute;
+  right: -9px;
+  top: -4.5px;
 }

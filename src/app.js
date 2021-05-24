@@ -189,11 +189,22 @@ import "./img/widgets-ocensa/slick-arrow-right.svg";
 
 // Estaciones
 import "./img/estaciones/cupiagua/fotos-cupiagua/slide-1.png";
+import "./img/estaciones/cupiagua/fotos-cupiagua/ubicacion.jpg";
 import "./img/estaciones/cupiagua/2-icon-la-estacion/icono_menu-la_estacion.svg";
 import "./img/estaciones/cupiagua/2-icon-la-estacion/estacion_almacena.svg";
-
-
-
+import "./img/estaciones/cupiagua/2-icon-la-estacion/crudo_bombeado.svg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/usado_diluyente.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/6_5_km.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/1_km.svg";
+import "./img/estaciones/cupiagua/4-icon-almacenamiento/icono_menu-almacenamiento.svg";
+import "./img/estaciones/cupiagua/4-icon-almacenamiento/tanques_grandes.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/icono_menu-distancia_linea.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cupiagua.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cusiana.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/line-divider.svg";
+import "./img/estaciones/button-arrow-right.svg";
+import "./img/estaciones/wdg-arrow-down.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/icono_menu-ubicacion.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
