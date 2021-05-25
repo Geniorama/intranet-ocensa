@@ -1,3 +1,12 @@
+.oc-index-casanare
+    .oc-header
+        .oc-header__desktop
+            .oc-submenu-gen
+                display: none
+
+#main-casanare
+    background-color: white !important
+
 .oc-mapa
     height: auto
     text-align: center
@@ -441,6 +450,16 @@
     .oc-mapa
         overflow-x: scroll
         width: 90vw
+    .mobile__stat
+        top: unset
+        left: unset
+        width: 90%
+        margin: auto
+        flex-direction: column
+        margin-top: 2em
+        .oc-mapa__stat-segmentos
+            margin-right: 0
+            margin-bottom: 2em
 @include media-breakpoint-down(sm)
     .oc-mapa
         width: auto

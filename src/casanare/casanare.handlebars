@@ -10,15 +10,17 @@
 {{>../partials/menu-principal}}
 
 <main class="oc-content py-0 py-md-5" id="main-casanare">
-    <section class="py-md-5 py-0">
+    <section class="pb-md-5 py-0">
         {{>../partials/header-estaciones img="/img/dertamento-casanare-sabana.svg" estacion="Casanare"}}
     </section>
-    <section>
-        {{>../partials/intro-territorio}}
+    <section class="cont-intro-territorio">
+        <div class="container">
+            {{>../partials/intro-territorio}}
+        </div>
     </section>
     <section class="oc-mapa oc-mapa-casanare position-relative">
         {{!-- Modal Map --}}
-        
+
         <!-- Modal Departamento Casanare -->
         {{>../modals/casanare/aguazul}}
 
@@ -423,7 +425,7 @@
             </div>
 
             <!--Statitics-->
-            <div class="oc-mapa__stat">
+            <div class="oc-mapa__stat d-none d-md-flex">
                 <div class="oc-mapa__stat-segmentos">
                     <div class="oc-mapa__stat-header">
                         <img src="/img/icon-segmentos.svg" alt="">
@@ -459,24 +461,80 @@
                         <h5>Altura</h5>
                     </div>
                     <div class="oc-mapa__stat-item-altura">
-                        <span class="arrow">></span><p>Cupiagua </p><span class="number">290 </span><span class="date">msnm</span>
+                        <span class="arrow">></span>
+                        <p>Cupiagua </p><span class="number">290 </span><span class="date">msnm</span>
                     </div>
                     <div class="oc-mapa__stat-item-altura">
-                        <span class="arrow">></span><p>Cusiana </p><span class="number">460 </span><span class="date">msnm</span>
+                        <span class="arrow">></span>
+                        <p>Cusiana </p><span class="number">460 </span><span class="date">msnm</span>
                     </div>
                     <div class="oc-mapa__stat-item-altura">
-                        <span class="arrow">></span><p>El Porvenir </p><span class="number">500 </span><span class="date">msnm</span>
+                        <span class="arrow">></span>
+                        <p>El Porvenir </p><span class="number">500 </span><span class="date">msnm</span>
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
+
+    <!--Statitics Mobile-->
+    <div class="oc-mapa__stat position-relative mobile__stat d-md-none">
+        <div class="oc-mapa__stat-segmentos">
+            <div class="oc-mapa__stat-header">
+                <img src="/img/icon-segmentos.svg" alt="">
+                <h5>Segmentos</h5>
+            </div>
+            <div class="oc-mapa__stat-body">
+                <div class="oc-mapa__stat-item-seg">
+                    <div class="oc-tramo">
+                        <p>Tramo</p>
+                        <span>Cupiagua - Cusiana</span>
+                    </div>
+                    <div class="oc-distancia">
+                        <p>Distancia</p>
+                        <span><b>39</b> Kilometros</span>
+                    </div>
+                </div>
+
+                <div class="oc-mapa__stat-item-seg">
+                    <div class="oc-tramo oc-tramo-02">
+                        <p>Tramo</p>
+                        <span>Cusiana - El Porvenir</span>
+                    </div>
+                    <div class="oc-distancia">
+                        <p>Distancia</p>
+                        <span><b>3</b> Kilometros</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oc-mapa__stat-altura">
+            <div class="oc-mapa__stat-header">
+                <img src="/img/icon-segmentos.svg" alt="">
+                <h5>Altura</h5>
+            </div>
+            <div class="oc-mapa__stat-item-altura">
+                <span class="arrow">></span>
+                <p>Cupiagua </p><span class="number">290 </span><span class="date">msnm</span>
+            </div>
+            <div class="oc-mapa__stat-item-altura">
+                <span class="arrow">></span>
+                <p>Cusiana </p><span class="number">460 </span><span class="date">msnm</span>
+            </div>
+            <div class="oc-mapa__stat-item-altura">
+                <span class="arrow">></span>
+                <p>El Porvenir </p><span class="number">500 </span><span class="date">msnm</span>
+            </div>
+        </div>
+    </div>
     <section class="oc-section-galeria">
         {{>../partials/galeria-territorio}}
     </section>
     <section class="oc-section-estamos">
-        {{>../partials/estamos-section}}
+        <div class="container">
+            {{>../partials/estamos-section}}
+        </div>
     </section>
 </main>
 

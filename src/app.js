@@ -186,7 +186,7 @@ import "./img/casanare/dertamento-casanare-sabana.svg";
 import "./img/casanare/Grupo 14507.svg";
 import "./img/casanare/Capa_9.svg";
 import "./img/casanare/Capa 2.svg";
-import "./img/casanare/G0050261.svg";
+import "./img/casanare/galeria-estaciones-1.jpg";
 import "./img/casanare/G0040195.svg";
 import "./img/casanare/Cupiagua 1.jpg";
 import "./img/casanare/capa-3.svg";
@@ -254,16 +254,35 @@ $('.oc-slick-example').slick({
 
 $('.oc-slick-galeria-territorio').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
         </svg>
     </button>`,
     nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
         </svg>
     </button>`,
     slidesToShow: 3,
+    infinite: false,
     responsive: [
         {
           breakpoint: 768,
@@ -457,6 +476,8 @@ $('.oc-submenu-gen__button-menu-lateral').click(function(e) {
 $('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
 $('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
+
+$('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
 $('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 

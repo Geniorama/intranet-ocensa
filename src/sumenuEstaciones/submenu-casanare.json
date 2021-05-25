@@ -1,0 +1,23 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Casanare",
+            "dataTarget": "#"
+        },
+
+        {
+            "menuName": "Estación Cupiagua",
+            "dataTarget": "#estacion-cupiagua"
+        },
+
+        {
+            "menuName": "Estación Cusiana",
+            "dataTarget": "#estacion-cusiana"
+        },
+
+        {
+            "menuName": "Estación El Porvenir",
+            "dataTarget": "#estacion-el-porvenir"
+        }
+    ]
+}

@@ -1,18 +1,20 @@
 .oc-custom-modal-map
-    position: absolute
+    position: fixed
     width: 100%
     height: 100%
     z-index: 1
     display: flex
     justify-content: center
     align-items: center
-    top: 0
+    top: 50px
     left: 0
 
 .oc-est-modal
     background-color: white
-    width: 500px
+    width: 90%
+    max-width: 500px
     position: relative
+    margin: auto
     &__head
         background-color: rgba(#DAE1E8 , .3)
         border-top: 5px solid $green_co
@@ -27,7 +29,7 @@
             &__close-button
                 cursor: pointer
     &__body
-        height: 550px
+        height: 510px
         overflow-y: scroll
         &.oc-scrollbar
             &::-webkit-scrollbar
@@ -95,3 +97,11 @@
                 display: inline-block
                 &:hover
                     text-decoration: none
+
+@include media-breakpoint-down(sm)
+    .oc-est-modal
+        &__body
+            height: 360px
+            &__slider
+                .item
+                    height: 160px

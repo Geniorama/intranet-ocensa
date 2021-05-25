@@ -1,5 +1,3 @@
-.oc-section-galeria
-
 .oc-galeria-territorios
     &__cont-title
         padding: 100px 250px
@@ -33,10 +31,21 @@
         padding: 0 !important
         .oc-slick-arrow
             left: -50px
+            transition: all .1s ease-in-out
+            svg
+                width: 13px
+                path
+                    transition: all .1s ease-in-out
+            &:hover
+                border: 3px solid white
+                svg
+                    path
+                        stroke-width: 3
             &__prev
                 top: 35%
                 border: 1px solid white
                 background-color: transparent
+                transform: rotate(180deg)
                 svg
                     path
                         stroke: white
