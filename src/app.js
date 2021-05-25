@@ -179,11 +179,13 @@ import "./img/casanare/icon-location.svg";
 import "./img/casanare/icon-profile.svg";
 import "./img/casanare/icon-water.svg";
 import "./img/casanare/icon-yellow.svg";
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.svg";
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
 import "./img/estaciones/circle-image-ex.svg";
 
+
+//Casanare - Depto Casanare
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/depto_casanare.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_capital.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_corregimientos.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg";
@@ -191,7 +193,31 @@ import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-i
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_municipios.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_superficie.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/departamento-casanare.jpg";
 
+//Casanare - Estación El Porvenir
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg";
+
+// Casanare - Estación Cuasiana
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cusiana.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-cusiana.jpg";
+
+// Casanare - Estación Cupiagua
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cupiagua.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion_cupiagua.jpg";
+
+// Casanare - Agua azul
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-1-aguazul.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/municipio-Aguazul.jpg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_altitud.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_rural.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_urbana.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_cabecera.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_zona_rural.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_superficie.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_temperatura.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

@@ -14420,6 +14420,7 @@ p, span {
   height: 245px;
 }
 .oc-est-modal__body__slider .item img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -14448,10 +14449,12 @@ p, span {
   background-color: #DAE0E8;
 }
 .oc-est-modal__body__desc {
+  min-height: 217px;
+}
+.oc-est-modal__body__desc p {
   font-size: 15px;
   font-family: "roboto-light", sans-serif;
   color: #505D6C;
-  min-height: 217px;
 }
 .oc-est-modal__body__info-items .item__title {
   font-family: "lato-bold-italic", sans-serif !important;
@@ -14460,10 +14463,17 @@ p, span {
   margin-top: 0.5em;
   margin-bottom: 0;
 }
+.oc-est-modal__body__info-items .item__title .small-text {
+  font-size: 15px;
+  font-family: "lato-bold-italic", sans-serif !important;
+}
 .oc-est-modal__body__info-items .item__sub-title {
   font-family: "lato-bold-italic", sans-serif;
   color: #28347D;
   font-size: 15px;
+}
+.oc-est-modal__body__info-items .item img {
+  width: 65px;
 }
 .oc-est-modal__body__button a {
   background-color: #19A500;
