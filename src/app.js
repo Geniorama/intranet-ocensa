@@ -181,21 +181,20 @@ import "./img/casanare/icon-water.svg";
 import "./img/casanare/icon-yellow.svg";
 import "./img/casanare/imag-mapa-linea-casanare.png";
 import "./img/casanare/icon-segmentos.svg";
-
 import "./img/casanare/Capa 1.svg";
 import "./img/casanare/dertamento-casanare-sabana.svg";
 import "./img/casanare/Grupo 14507.svg";
 import "./img/casanare/Capa_9.svg";
 import "./img/casanare/Capa 2.svg";
 import "./img/casanare/G0050261.svg";
-import "./img/casanare/descargadero_02.svg";
 import "./img/casanare/G0040195.svg";
-import "./img/casanare/Cupiagua 1.svg";
+import "./img/casanare/Cupiagua 1.jpg";
 import "./img/casanare/capa-3.svg";
 import "./img/casanare/Grupo 14876.jpg";
 import "./img/casanare/Grupo 13762.svg";
 import "./img/casanare/Grupo 14876-2.jpg";
 import "./img/casanare/Grupo 14876-3.jpg";
+import "./img/casanare/cusiana-1.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -226,6 +225,24 @@ $('.oc-slick-galeria-territorio').slick({
         </svg>
     </button>`,
     slidesToShow: 3,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            dots: true,
+            slidesToShow: 1
+          }
+        }
+      ]
 
 })
 
@@ -242,7 +259,25 @@ $('.oc-slick-estamos').slick({
     </button>`,
     slidesToShow: 3,
     dots: true,
-    arrows: false
+    arrows: false,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1
+          }
+        }
+      ]
 
 })
 

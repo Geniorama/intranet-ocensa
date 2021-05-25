@@ -50,4 +50,18 @@
 .oc-slick-estamos
     .slick-dots
         li
-            border: 1px solid #C4C4C4 
+            border: 1px solid #C4C4C4
+    .slick-slide
+        height: auto
+
+@include media-breakpoint-down(sm)
+    .oc-estamos-cont
+        padding: 0 !important
+        &__title
+            padding: 50px 0
+            .icon-more
+                display: none
+        .item
+            width: 100%
+            padding: 0
+    
