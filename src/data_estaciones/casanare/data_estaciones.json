@@ -1,0 +1,166 @@
+{
+    "casanare": {
+        "monterrey": {
+            "title": "Municipio de Monterrey",
+            "icon": "/img/municipio-2-monterrey.svg",
+            "slider_img": [
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01"
+            ],
+            "description": "Llegar a Monterrey es despedirse de las extensas sabanas inundables del Casanare para subir al piedemonte llanero, en la vertiente oriental de la cordillera Oriental. El municipio presenta pisos térmicos cálidos y medios en alturas que van desde los 300 a los 2.000 m.s.n.m. Cuenta con importantes ríos para la región como: el Guafal, Los Hoyos y Tacuya, además de numerosos caños y quebradas.<br><br>El afluente clave en la vida de los regiomontunos es el río Túa, con el que prácticamente conviven a unos metros del casco urbano. Entre el 29 de diciembre y el 3 de enero de cada año, en sus playas se celebra el Festival de Verano con deportes de playa y aventura, trabajo de llano y coleo, y la presentación de grupos musicales y folcloristas de la región.<br><br>Por su topografía, en Monterrey no predomina el cultivo de arroz como en el resto de Casanare. Sus actividades económicas más importantes son la ganadería y la agricultura representada en cultivos de café, cacao, caña de azúcar, plátano, yuca, algodón, sorgo y maíz.<br><br>Si bien Monterrey no cuenta con pozos petroleros, sí cuenta con nuestra estación El Porvenir desde la cual se almacenan y transportan diferentes tipos de crudo.",
+            "infoItems": [
+                {
+                    "icon": "",
+                    "title": "879 <span>Km2</span>",
+                    "subtitle": "Superficie"
+                },
+                {
+                    "icon": "",
+                    "title": "5.49 <span>Km2</span>",
+                    "subtitle": "Área urbana"
+                },
+                {
+                    "icon": "",
+                    "title": "874 <span>Km2</span>",
+                    "subtitle": "Área rural"
+                },
+                {
+                    "icon": "",
+                    "title": "17.537 <span>Habitantes</span>",
+                    "subtitle": "(Censo 2018)"
+                },
+                {
+                    "icon": "",
+                    "title": "73.6% <span>Habitantes</span>",
+                    "subtitle": "Cabeceras municipales"
+                },
+                {
+                    "icon": "",
+                    "title": "26.4%",
+                    "subtitle": "Habs. Rural"
+                },
+                {
+                    "icon": "",
+                    "title": "500 <span>m.s.n.m.</span>",
+                    "subtitle": "Altitud"
+                },
+                {
+                    "icon": "",
+                    "title": "27° C",
+                    "subtitle": "Temperatura"
+                }
+            ],
+            "textButton": "Conoce el municipio",
+            "linkButton": "http://www.monterrey-casanare.gov.co/"
+        },
+        "aguazul": {
+            "title": "Municipio de Aguazul",
+            "icon": "/img/municipio-2-aguazul.svg",
+            "slider_img": [
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01"
+            ],
+            "description": "Donde terminan las sabanas y empieza el piedemonte llanero, en la cordillera Oriental, se encuentra Aguazul. Con grandes pendientes y zonas planas irrigadas por tres ríos principales: Cusiana, Únete y Charte, es un municipio joven (fundado en 1954) en el que la ganadería y principalmente la producción arrocera son la base de la actividad económica. Desde 1992 es reconocido como un municipio petrolero, ya que allí se encuentra el campo de Cupiagua, fuente de importantes regalías para la población.<br><br>Todos los años, en la última semana de enero, se celebra el Festival y Reinado Nacional del Arroz en el que se expone la importancia del grano en la región y en la cultura llanera. Llegar es fácil, ya que cuenta con varias rutas de acceso terrestre desde Bogotá (360 Km aprox.) o vía aérea por el aeropuerto de Yopal, a 27 Km de Aguazul.",
+            "infoItems": [
+                {
+                    "icon": "",
+                    "title": "148 <span>Km2</span>",
+                    "subtitle": "Superficie"
+                },
+                {
+                    "icon": "",
+                    "title": "4.23 <span>Km2</span>",
+                    "subtitle": "Área urbana"
+                },
+                {
+                    "icon": "",
+                    "title": "143.77 <span>Km2</span>",
+                    "subtitle": "Área rural"
+                },
+                {
+                    "icon": "",
+                    "title": "36.915 <span>Habitantes</span>",
+                    "subtitle": "(Censo 2018)"
+                },
+                {
+                    "icon": "",
+                    "title": "24.416 <span>Habitantes</span>",
+                    "subtitle": "Cabeceras municipales"
+                },
+                {
+                    "icon": "",
+                    "title": "9.024",
+                    "subtitle": "Habs. Rural"
+                },
+                {
+                    "icon": "",
+                    "title": "290 <span>m.s.n.m.</span>",
+                    "subtitle": "Altitud"
+                },
+                {
+                    "icon": "",
+                    "title": "27° C",
+                    "subtitle": "Temperatura"
+                }
+            ],
+            "textButton": "Conoce el municipio",
+            "linkButton": "http://www.aguazul-casanare.gov.co/"
+        },
+        "tauramena": {
+            "title": "Municipio de Tauramena",
+            "icon": "/img/municipio-2-tauramena.svg",
+            "slider_img": [
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01",
+                "/img/banco-habitat-01"
+            ],
+            "description": "En una gran meseta alargada, con el piedemonte llanero al occidente y en medio de los ríos Caja y Chitamena, se encuentra Tauramena, un municipio petrolero y llanero por excelencia.<br><br>Si bien, la mayoría de sus ingresos proviene de las regalías del campo petrolero de Cusiana, su economía se está diversificando e impulsando actividades agropecuarias. Históricamente ha tenido vocación ganadera, destacándose la producción y comercialización de leche y sus derivados. En la agricultura, grandes extensiones de cultivo de arroz predominan en las sabanas; sin embargo, la agricultura en pequeñas parcelas donde se cosecha plátano, maíz y yuca son importantes para el autoconsumo.<br><br>Un aspecto para destacar en su plan de ordenamiento territorial, es que cuenta con cinco áreas de protección ambiental: bosque protector de fauna y recurso hídrico, microcuencas abastecedoras de acueductos, microcuencas paisajísticas, humedales y reservas naturales.",
+            "infoItems": [
+                {
+                    "icon": "",
+                    "title": "2.607,2 <span>Km2</span>",
+                    "subtitle": "Superficie"
+                },
+                {
+                    "icon": "",
+                    "title": "2.44 <span>Km2</span>",
+                    "subtitle": "Área urbana"
+                },
+                {
+                    "icon": "",
+                    "title": "2.604,75 <span>Km2</span>",
+                    "subtitle": "Área rural"
+                },
+                {
+                    "icon": "",
+                    "title": "23.527 <span>Habitantes</span>",
+                    "subtitle": "(Censo 2018)"
+                },
+                {
+                    "icon": "",
+                    "title": "65% <span>Habitantes</span>",
+                    "subtitle": "Cabeceras municipales"
+                },
+                {
+                    "icon": "",
+                    "title": "35%",
+                    "subtitle": "Habs. Rural"
+                },
+                {
+                    "icon": "",
+                    "title": "460 <span>m.s.n.m.</span>",
+                    "subtitle": "Altitud"
+                },
+                {
+                    "icon": "",
+                    "title": "25.3° C",
+                    "subtitle": "Temperatura"
+                }
+            ],
+            "textButton": "Conoce el municipio",
+            "linkButton": "https://www.tauramena-casanare.gov.co/"
+        }
+    }
+}
