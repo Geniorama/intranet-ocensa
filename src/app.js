@@ -235,6 +235,11 @@ import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-i
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_superficie.svg";
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_temperatura.svg";
 
+// Casanare - Tauramena
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-3-tauramena.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/municipio-tauramena.jpg";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({
@@ -718,7 +723,11 @@ $('.oc-custom-modal-map').hide()
 $('.oc-mapa__location-modals').click(function(e) {
     e.preventDefault(e)
 
-    $('.oc-custom-modal-map').fadeIn()
+    let target = $(this).attr('data-target')
+
+    console.log(target)
+
+    $(target).fadeIn()
     $('.oc-est-modal__body__slider').slick('refresh')
     $('.oc-est-modal__head__right__close-button').click(function(e) {
         $('.oc-custom-modal-map').fadeOut()
