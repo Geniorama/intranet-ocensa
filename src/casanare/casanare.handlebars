@@ -6,9 +6,16 @@
     {{>../partials/menu-lateral}}
 </div>
 
+
 {{>../partials/menu-principal}}
 
 <main class="oc-content py-0 py-md-5" id="main-casanare">
+    <section class="mt-5 py-5">
+        {{>../partials/header-estaciones img="/img/dertamento-casanare-sabana.svg" estacion="Casanare"}}
+    </section>
+    <section>
+        {{>../partials/intro-territorio}}
+    </section>
     <section class="oc-mapa oc-mapa-casanare">
         <div class="oc-mapa__container">
             <img src="/img/mapa-casanare.png" alt="" class="oc-mapa__img">
@@ -458,6 +465,12 @@
             </div>
 
         </div>
+    </section>
+    <section class="oc-section-galeria">
+        {{>../partials/galeria-territorio}}
+    </section>
+    <section class="oc-section-estamos">
+        {{>../partials/estamos-section}}
     </section>
 </main>
 
