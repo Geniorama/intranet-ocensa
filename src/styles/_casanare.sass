@@ -1,6 +1,7 @@
 .oc-mapa
     height: auto
     text-align: center
+    background-color: white
     &__container
         position: relative
         width: 1290px
@@ -435,3 +436,16 @@
     100%
         opacity: 0
         transform: scale(1.5)
+
+@include media-breakpoint-down(md)
+    .oc-mapa
+        overflow-x: scroll
+        width: 90vw
+@include media-breakpoint-down(sm)
+    .oc-mapa
+        width: auto
+        &__name-point
+            opacity: 1
+        &__tooltip
+            span
+                opacity: 1
