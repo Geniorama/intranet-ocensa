@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#19A500;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#EFEF00;stroke-width:1.2;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.1181;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:1.1048;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:1.1272;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#EFEF00;stroke-width:1.1272;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:1.1044;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#EFEF00;stroke-width:1.1044;stroke-miterlimit:10;}
+</style>
+<g id="Capa_2">
+	<g>
+		<g>
+			<path id="Rectángulo_3799_55_" class="st0" d="M30,0L30,0c16.57,0,30,13.43,30,30v0c0,16.57-13.43,30-30,30h0
+				C13.43,60,0,46.57,0,30v0C0,13.43,13.43,0,30,0z"/>
+		</g>
+	</g>
+</g>
+<g id="Capa_1">
+	<g>
+		<g>
+			<g>
+				<rect id="Rectángulo_3799_22_" class="st1" width="60" height="60"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st2" d="M48.52,42.74c1.17,1.06,2.24,2.22,3.19,3.45"/>
+			<path class="st2" d="M34.52,35.93c2.27,0.38,4.52,1.06,6.72,2.05c0.23,0.1,0.45,0.2,0.67,0.31"/>
+			<path class="st2" d="M18.09,38.2c2.16-1.02,4.44-1.76,6.79-2.2"/>
+			<path class="st2" d="M8.29,45.97c0.84-1.06,1.76-2.05,2.73-2.96"/>
+		</g>
+		<g>
+			<polyline class="st2" points="11.32,24.28 11.32,44.84 17.91,44.84 17.91,24.28 			"/>
+			<path class="st2" d="M48.13,32.62h-5.8c-1.46,0-2.65-1.19-2.65-2.65v-7.88c0-1.46,1.19-2.65,2.65-2.65h5.8
+				c1.46,0,2.65,1.19,2.65,2.65v7.88C50.78,31.42,49.59,32.62,48.13,32.62z"/>
+			<path class="st2" d="M17.51,32.62h-5.8c-1.46,0-2.65-1.19-2.65-2.65v-7.88c0-1.46,1.19-2.65,2.65-2.65h5.8
+				c1.46,0,2.65,1.19,2.65,2.65v7.88C20.16,31.42,18.97,32.62,17.51,32.62z"/>
+			<polyline class="st2" points="45.15,27.61 45.15,22.53 43.57,19.67 			"/>
+			<line class="st2" x1="46.93" y1="19.47" x2="45.15" y2="22.53"/>
+			<polyline class="st2" points="42.01,22.9 42.01,44.96 48.33,44.96 48.33,22.9 			"/>
+			<line class="st2" x1="14.64" y1="32.69" x2="14.64" y2="44.71"/>
+			<line class="st2" x1="45.29" y1="32.65" x2="45.29" y2="44.86"/>
+			<circle class="st2" cx="14.49" cy="14.48" r="2.97"/>
+			<line class="st2" x1="17.07" y1="13.64" x2="11.92" y2="13.64"/>
+			<line class="st2" x1="14.55" y1="9.81" x2="14.55" y2="13.64"/>
+			<g>
+				<polyline class="st2" points="26.86,19.71 26.86,26.31 25.41,37.85 34.56,37.85 33.09,26.4 33.09,19.86 				"/>
+				<path class="st2" d="M32.82,32.62h-5.8c-1.46,0-2.65-1.19-2.65-2.65v-7.88c0-1.46,1.19-2.65,2.65-2.65h5.8
+					c1.46,0,2.65,1.19,2.65,2.65v7.88C35.47,31.42,34.28,32.62,32.82,32.62z"/>
+				<polyline class="st2" points="26.73,37.84 26.73,44.81 33.15,44.81 33.15,37.89 				"/>
+				<line class="st2" x1="30.01" y1="38.02" x2="30.01" y2="44.6"/>
+				<line class="st2" x1="26.86" y1="26.31" x2="33.09" y2="26.31"/>
+				<circle class="st3" cx="29.8" cy="14.48" r="2.97"/>
+			</g>
+			<circle class="st2" cx="45.17" cy="14.48" r="2.97"/>
+		</g>
+	</g>
+</g>
+</svg>

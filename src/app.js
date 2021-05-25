@@ -182,6 +182,20 @@ import "./img/casanare/icon-yellow.svg";
 import "./img/casanare/imag-mapa-linea-casanare.png";
 import "./img/casanare/icon-segmentos.svg";
 
+import "./img/casanare/Capa 1.svg";
+import "./img/casanare/dertamento-casanare-sabana.svg";
+import "./img/casanare/Grupo 14507.svg";
+import "./img/casanare/Capa_9.svg";
+import "./img/casanare/Capa 2.svg";
+import "./img/casanare/G0050261.svg";
+import "./img/casanare/descargadero_02.svg";
+import "./img/casanare/G0040195.svg";
+import "./img/casanare/Cupiagua 1.svg";
+import "./img/casanare/capa-3.svg";
+import "./img/casanare/Grupo 14876.jpg";
+import "./img/casanare/Grupo 13762.svg";
+import "./img/casanare/Grupo 14876-2.jpg";
+import "./img/casanare/Grupo 14876-3.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -197,6 +211,38 @@ $('.oc-slick-example').slick({
         </svg>
     </button>`,
     dots: true
+
+})
+
+$('.oc-slick-galeria-territorio').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    slidesToShow: 3,
+
+})
+
+$('.oc-slick-estamos').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    slidesToShow: 3,
+    dots: true,
+    arrows: false
 
 })
 
