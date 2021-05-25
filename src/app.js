@@ -195,6 +195,45 @@ import "./img/casanare/Grupo 13762.svg";
 import "./img/casanare/Grupo 14876-2.jpg";
 import "./img/casanare/Grupo 14876-3.jpg";
 import "./img/casanare/cusiana-1.jpg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
+import "./img/estaciones/circle-image-ex.svg";
+
+
+//Casanare - Depto Casanare
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/depto_casanare.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_capital.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_corregimientos.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes_zona_rural.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_municipios.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_superficie.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/departamento-casanare.jpg";
+
+//Casanare - Estación El Porvenir
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg";
+
+// Casanare - Estación Cuasiana
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cusiana.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-cusiana.jpg";
+
+// Casanare - Estación Cupiagua
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cupiagua.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion_cupiagua.jpg";
+
+// Casanare - Agua azul
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-1-aguazul.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/municipio-Aguazul.jpg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_altitud.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_rural.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_urbana.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_cabecera.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_zona_rural.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_superficie.svg";
+import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_temperatura.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -634,4 +673,36 @@ if(screen.width > 991.98){
 // MODALS MAPS
 $('.oc-mapa__location-modals').modal({
     show: false
-  })
+})
+
+$('.oc-est-modal__body__slider').slick({
+    slidesToShow: 1,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    dots: true,
+    infinite: false
+})
+
+
+$('.oc-custom-modal-map').hide()
+
+$('.oc-mapa__location-modals').click(function(e) {
+    e.preventDefault(e)
+
+    $('.oc-custom-modal-map').fadeIn()
+    $('.oc-est-modal__body__slider').slick('refresh')
+    $('.oc-est-modal__head__right__close-button').click(function(e) {
+        $('.oc-custom-modal-map').fadeOut()
+    })
+})
+
+
+
