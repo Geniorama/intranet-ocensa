@@ -14,12 +14,13 @@
     <section class="oc-mapa oc-mapa-casanare position-relative">
         {{!-- Modal Map --}}
         
-        <div class="oc-custom-modal-map">
+        <!-- Modal Departamento Casanare -->
+        <div class="oc-custom-modal-map" id="dep-casanare">
             <div class="oc-est-modal shadow">
                 <div class="oc-est-modal__head d-flex justify-content-between align-items-center p-3">
                     <div class="oc-est-modal__head__left d-flex align-items-center">
                         <img src="/img/estacion_porvenir.svg" alt="">
-                        <h5 class="m-0 oc-est-modal__head__left__title ml-2">Nombre</h5>
+                        <h5 class="m-0 oc-est-modal__head__left__title ml-2">Departamento de Casanare</h5>
                     </div>
                     <div class="oc-est-modal__head__right">
                         <span class="oc-est-modal__head__right__close-button">
@@ -50,40 +51,60 @@
                     </div>
 
                     <p class="oc-est-modal__body__desc text-left">
-                        Adentrarse en Casanare es llegar a una tierra con extensas sabanas inundables y con importantes
-                        fuentes
-                        hídricas presentes en casi toda su extensión de 44.490 km2. Es la región de la Orinoquía, de la
-                        cultura
-                        llanera y de los incansables atardeceres, se inicia nuestra operación en el campo de Cupiagua y
-                        continua con
-                        las estaciones de Cusiana y El Porvenir. Los invitamos a un recorrido por el territorio donde
-                        nace la
-                        energía que movemos para Colombia.
+                        Adentrarse en Casanare es llegar a una tierra con extensas sabanas inundables y con importantes fuentes hídricas presentes en casi toda su extensión de 44.490 km2. Es la región de la Orinoquía, de la cultura llanera y de los incansables atardeceres, se inicia nuestra operación en el campo de Cupiagua y continua con las estaciones de Cusiana y El Porvenir. Los invitamos a un recorrido por el territorio donde nace la energía que movemos para Colombia.
                     </p>
 
                     <div class="oc-est-modal__body__info-items row text-center">
                         <div class="item col-6 p-0">
-                            <img src="/img/circle-image-ex.svg" alt="" class="item__img">
-                            <h3 class="item__title">Dato 000</h3>
-                            <h5 class="item__sub-title">Lorem, ipsum.</h5>
+                            <img src="/img/icon_ventana_modal_departamento_casanare_capital.svg" alt="" class="item__img">
+                            <h3 class="item__title">Yopal</h3>
+                            <h5 class="item__sub-title">Capital</h5>
+                            <hr>
+                        </div>
+
+                        <div class="item col-6 p-0">
+                            <img src="/img/icon_ventana_modal_departamento_casanare_corregimientos.svg" alt="" class="item__img">
+                            <h3 class="item__title">44.490 <span class="small-text">Km2</span></h3>
+                            <h5 class="item__sub-title">Superficie</h5>
+                            <hr>
+                        </div>
+
+                        <div class="item col-6 p-0">
+                            <img src="/img/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg" alt="" class="item__img">
+                            <h3 class="item__title">19</h3>
+                            <h5 class="item__sub-title">Municipios</h5>
+                            <hr>
+                        </div>
+
+                        <div class="item col-6 p-0">
+                            <img src="/img/icon_ventana_modal_departamento_casanare_corregimientos.svg" alt="" class="item__img">
+                            <h3 class="item__title">11</h3>
+                            <h5 class="item__sub-title">Corregimientos</h5>
                             <hr>
                         </div>
 
                         <div class="item col-6 p-0">
                             <img src="/img/circle-image-ex.svg" alt="" class="item__img">
-                            <h3 class="item__title">Dato 000</h3>
-                            <h5 class="item__sub-title">Lorem, ipsum.</h5>
+                            <h3 class="item__title">420.504</h3>
+                            <h5 class="item__sub-title">Hab. (Censo 2018)</h5>
+                            <hr>
+                        </div>
+
+                        <div class="item col-6 p-0">
+                            <img src="/img/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg" alt="" class="item__img">
+                            <h3 class="item__title">72.7% <span class="small-text">Habitantes</span></h3>
+                            <h5 class="item__sub-title">Cabeceras municipales</h5>
                             <hr>
                         </div>
 
                         <div class="item col-6 p-0">
                             <img src="/img/circle-image-ex.svg" alt="" class="item__img">
-                            <h3 class="item__title">Dato 000</h3>
-                            <h5 class="item__sub-title">Lorem, ipsum.</h5>
+                            <h3 class="item__title">27.3%</h3>
+                            <h5 class="item__sub-title">Habs. Rural</h5>
                         </div>
                     </div>
 
-                    <div class="oc-est-modal__body__button text-center my-4">
+                    <div class="oc-est-modal__body__button text-center my-4 d-none">
                         <a href="#" target="_blank">
                             <span>Conoce la estación</span>
                             <span>
@@ -104,6 +125,8 @@
                 </div>
             </div>
         </div>
+
+
         <div class="oc-mapa__container">
             <img src="/img/mapa-casanare.png" alt="" class="oc-mapa__img">
 
@@ -138,18 +161,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="monterrey" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Comité de seguimiento-->
             <div class="oc-mapa__location-modals oc-point-03 oc-mapa__purple" data-toggle="modal"
                 data-target="#comiteseguimiento">
@@ -164,19 +175,6 @@
                     </div>
                     <span>Comité de seguimiento</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
-                </div>
-            </div>
-
-            <div class="modal fade bd-example-modal-lg" id="comiteseguimiento" tabindex="-1" role="dialog"
-                aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -212,19 +210,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="buenavecindad" tabindex="-1" role="dialog"
-                aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Clima-->
             <div class="oc-mapa__location-modals oc-point-06 oc-mapa__green" data-toggle="modal" data-target="#clima">
                 <div class="oc-mapa__icon">
@@ -238,18 +223,6 @@
                     </div>
                     <span>Clima</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
-                </div>
-            </div>
-
-            <div class="modal fade bd-example-modal-lg" id="clima" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -270,18 +243,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="tauramena" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Hidrografía-->
             <div class="oc-mapa__location-modals oc-point-08 oc-mapa__blue" data-toggle="modal"
                 data-target="#hidrografia">
@@ -299,18 +260,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="hidrografia" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Ecosistemas-->
             <div class="oc-mapa__location-modals oc-point-09 oc-mapa__green" data-toggle="modal"
                 data-target="#ecosistemas">
@@ -325,18 +274,6 @@
                     </div>
                     <span>Ecosistemas</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
-                </div>
-            </div>
-
-            <div class="modal fade bd-example-modal-lg" id="ecosistemas" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -372,19 +309,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="banco-habitat" tabindex="-1" role="dialog"
-                aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Fauna-->
             <div class="oc-mapa__location-modals oc-point-12 oc-mapa__green" data-toggle="modal" data-target="#fauna">
                 <div class="oc-mapa__icon">
@@ -398,18 +322,6 @@
                     </div>
                     <span>Fauna</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
-                </div>
-            </div>
-
-            <div class="modal fade bd-example-modal-lg" id="fauna" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -430,19 +342,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="mujer-desarrollo" tabindex="-1" role="dialog"
-                aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Aguazul-->
             <div class="oc-mapa__location-modals oc-point-14 oc-mapa__orange" data-toggle="modal"
                 data-target="#aguazul">
@@ -457,18 +356,6 @@
                     </div>
                     <span>Aguazul</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
-                </div>
-            </div>
-
-            <div class="modal fade bd-example-modal-lg" id="aguazul" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -501,18 +388,6 @@
                 </div>
             </div>
 
-            <div class="modal fade bd-example-modal-lg" id="cusiana" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!--Cupiagua-->
             <div class="oc-mapa__location-modals oc-point-17 oc-mapa__yellow-02" data-toggle="modal"
                 data-target="#cupiagua">
@@ -526,19 +401,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="modal fade bd-example-modal-lg" id="cupiagua" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        Hola mundo
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 </main>
