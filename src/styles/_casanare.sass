@@ -8,6 +8,11 @@
     &__img
         width: 100%
         height: auto
+    &__line
+        position: absolute
+        top: 39px
+        right: 108px
+        width: 382px
     &__location-modals
         position: absolute
         cursor: pointer
@@ -147,6 +152,27 @@
             opacity: 1
         &:hover .oc-mapa__icon
             opacity: 0
+    &__tooltip
+        position: absolute
+        display: flex
+        flex-flow: column
+        button
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            padding: 0
+            background-color: #00FFFF
+            border: 2px solid #FFFFFF
+            margin: auto
+            cursor: auto !important
+        span
+            color: #58FFFF
+            font-size: 12px
+            font-family: 'roboto-c-italic'
+            opacity: 0
+            transition: $tr
+        &:hover span
+            opacity: 1
     // POINTS STYLE 01
     .oc-point-01
         left: 138px
@@ -200,3 +226,179 @@
     .oc-point-17
         left: 938px
         top: 403px
+    // POINTS STYLE 03
+    .oc-point-18
+        left: 417px
+        top: 417px
+    .oc-point-19
+        left: 447px
+        top: 507px
+    .oc-point-20
+        left: 486px
+        top: 435px
+    .oc-point-21
+        left: 547px
+        top: 385px
+    .oc-point-22
+        left: 680px
+        top: 400px
+    .oc-point-23
+        left: 791px
+        top: 422px
+    .oc-point-24
+        left: 960px
+        top: 560px
+    .oc-point-25
+        left: 946px
+        top: 97px
+        .oc-mapa__icon
+            &:hover
+                opacity: 1
+    
+    // INDICATOR
+    &__indicator
+        position: absolute
+        border: 1px solid #D6DEE1
+        height: 30px
+        border-radius: 20px
+        display: flex
+        padding: 0 .7em
+        top: 87px
+        left: 69px
+        &-item
+            display: flex
+            align-items: center
+            padding: 0 .4em
+        figure
+            width: 10px
+            height: 10px
+            border-radius: 50%
+            margin: 0
+            border: 1px solid #CAD2D8
+            margin-right: .3em
+        span
+            font-size: 12px
+            color: #81939F
+        .oc-indicator-yellow
+            background-color: #FFFF10
+        .oc-indicator-orange
+            background-color: #FF9700
+        .oc-indicator-green
+            background-color: #00FF4B
+        .oc-indicator-blue
+            background-color: #00FFFF
+        .oc-indicator-purple
+            background-color: #8AA6FF
+        
+    // STATISTICS
+    &__stat
+        position: absolute
+        top: 700px
+        left: 0
+        display: flex
+        border: 1px solid #D6DEE1
+        background-color: white
+        border-radius: 20px
+        padding: 1em
+        text-align: left
+        &-segmentos
+            margin-right: 1.5em
+        &-header
+            display: flex
+            background-color: rgba(#95A6B1, .2)
+            border-radius: 20px
+            height: 30px
+            align-items: center
+            margin-bottom: 1em
+            img
+                margin-right: .5em
+                width: 30px
+                height: 30px
+            h5
+                color: #012969
+                font-size: 14px
+                margin: 0
+                font-family: 'roboto-bold'
+        &-item-seg
+            .oc-tramo
+                display: flex
+                border-bottom: 1px solid #95A6B1
+                padding-bottom: .4em
+                padding-left: 1.5em
+                position: relative
+                p
+                    color: #012969
+                    font-size: 12.5
+                    font-family: 'roboto-medium'
+                    width: 80px
+                    margin: 0
+                span
+                    color: #546374
+                    font-size: 12.5
+                &::before
+                    content: '0'
+                    position: absolute
+                    left: 0
+                    top: 15px
+                    background-color: #29A337
+                    width: 17px
+                    height: 17px
+                    border-radius: 50%
+                    color: white
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-family: 'roboto-bold'
+                    font-size: 12px
+            .oc-distancia
+                display: flex
+                align-items: center
+                padding-left: 1.5em
+                p
+                    color: #012969
+                    font-size: 12.5
+                    font-family: 'roboto-medium'
+                    margin: 0
+                    width: 80px
+                b
+                    font-size: 23.5
+                    color: #012969
+                span
+                    color: #546374
+                    font-size: 12.5
+            &:nth-child(1)
+                margin-bottom: .8em
+            .oc-tramo-02
+                &::before
+                    content: '1'
+        &-item-altura
+            display: flex
+            align-items: center
+            border-bottom: 1px solid #95A6B1
+            .arrow
+                width: 17px
+                height: 17px
+                background-color: #29A337
+                border-radius: 50%
+                color: white
+                display: flex
+                justify-content: center
+                align-items: center
+                margin-right: 1em
+            p
+                margin: 0
+                font-size: 12.75
+                color: #012969
+                font-family: 'roboto-medium'
+                width: 80px
+            .number
+                font-size: 23.5
+                font-family: 'roboto-medium'
+                color: #012969
+                margin-right: .5em
+            .date
+                font-size: 12.75
+                font-family: 'roboto-light'
+            &:nth-child(4)
+                border: none
+                

@@ -179,6 +179,8 @@ import "./img/casanare/icon-location.svg";
 import "./img/casanare/icon-profile.svg";
 import "./img/casanare/icon-water.svg";
 import "./img/casanare/icon-yellow.svg";
+import "./img/casanare/imag-mapa-linea-casanare.png";
+import "./img/casanare/icon-segmentos.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
