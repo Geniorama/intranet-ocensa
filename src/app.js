@@ -179,6 +179,8 @@ import "./img/casanare/icon-location.svg";
 import "./img/casanare/icon-profile.svg";
 import "./img/casanare/icon-water.svg";
 import "./img/casanare/icon-yellow.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.svg";
+import "./img/estaciones/circle-image-ex.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
@@ -551,4 +553,98 @@ if(screen.width > 991.98){
 // MODALS MAPS
 $('.oc-mapa__location-modals').modal({
     show: false
-  })
+})
+
+$('.oc-est-modal__body__slider').slick({
+    slidesToShow: 1,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        </svg>
+    </button>`,
+    dots: true,
+    infinite: false
+})
+
+
+const data_estaciones = {
+        casanare:{
+            monterrey:{
+                title: "Municipio de Monterrey",
+                icon: "/img/municipio-2-monterrey.svg",
+                slider_img: ['/img/banco-habitat-01', '/img/banco-habitat-01', '/img/banco-habitat-01'],
+                description: "Llegar a Monterrey es despedirse de las extensas sabanas inundables del Casanare para subir al piedemonte llanero, en la vertiente oriental de la cordillera Oriental. El municipio presenta pisos térmicos cálidos y medios en alturas que van desde los 300 a los 2.000 m.s.n.m. Cuenta con importantes ríos para la región como: el Guafal, Los Hoyos y Tacuya, además de numerosos caños y quebradas.<br><br>El afluente clave en la vida de los regiomontunos es el río Túa, con el que prácticamente conviven a unos metros del casco urbano. Entre el 29 de diciembre y el 3 de enero de cada año, en sus playas se celebra el Festival de Verano con deportes de playa y aventura, trabajo de llano y coleo, y la presentación de grupos musicales y folcloristas de la región.<br><br>Por su topografía, en Monterrey no predomina el cultivo de arroz como en el resto de Casanare. Sus actividades económicas más importantes son la ganadería y la agricultura representada en cultivos de café, cacao, caña de azúcar, plátano, yuca, algodón, sorgo y maíz.<br><br>Si bien Monterrey no cuenta con pozos petroleros, sí cuenta con nuestra estación El Porvenir desde la cual se almacenan y transportan diferentes tipos de crudo.",
+                infoItems: [
+                    {
+                        icon: '',
+                        title: '879 <span>Km2</span>',
+                        subtitle: 'Superficie'
+                    },
+                    {
+                        icon: '',
+                        title: '',
+                        subtitle: ''
+                    }
+                ],
+                textButton: "",
+                linkButton: ""
+            },
+
+            cupiagua:{
+                title: "Municipio de Monterrey",
+                icon: "/img/municipio-2-monterrey.svg",
+                slider_img: ['/img/banco-habitat-01', '/img/banco-habitat-01', '/img/banco-habitat-01'],
+                description: "Llegar a Monterrey es despedirse de las extensas sabanas inundables del Casanare para subir al piedemonte llanero, en la vertiente oriental de la cordillera Oriental. El municipio presenta pisos térmicos cálidos y medios en alturas que van desde los 300 a los 2.000 m.s.n.m. Cuenta con importantes ríos para la región como: el Guafal, Los Hoyos y Tacuya, además de numerosos caños y quebradas.<br><br>El afluente clave en la vida de los regiomontunos es el río Túa, con el que prácticamente conviven a unos metros del casco urbano. Entre el 29 de diciembre y el 3 de enero de cada año, en sus playas se celebra el Festival de Verano con deportes de playa y aventura, trabajo de llano y coleo, y la presentación de grupos musicales y folcloristas de la región.<br><br>Por su topografía, en Monterrey no predomina el cultivo de arroz como en el resto de Casanare. Sus actividades económicas más importantes son la ganadería y la agricultura representada en cultivos de café, cacao, caña de azúcar, plátano, yuca, algodón, sorgo y maíz.<br><br>Si bien Monterrey no cuenta con pozos petroleros, sí cuenta con nuestra estación El Porvenir desde la cual se almacenan y transportan diferentes tipos de crudo.",
+                infoItems: [
+                    {
+                        icon: '',
+                        title: '879 <span>Km2</span>',
+                        subtitle: 'Superficie'
+                    },
+                    {
+                        icon: '',
+                        title: '',
+                        subtitle: ''
+                    }
+                ],
+                textButton: "",
+                linkButton: ""
+            }
+        }
+}
+
+$('.oc-custom-modal-map').hide()
+
+$('.oc-mapa__location-modals').click(function(e) {
+    e.preventDefault(e)
+
+    let data_region = $(this).attr('data-region')
+    let data_city = $(this).attr('data-city')
+
+    let data_object = data_estaciones[data_region][data_city]
+
+    if(data_object.title){
+        $('.oc-est-modal__head__left__title').text(data_object.title)
+    }
+
+    $('.oc-custom-modal-map').fadeIn()
+    $('.oc-est-modal__body__slider').slick('refresh')
+    $('.oc-est-modal__head__right__close-button').click(function(e) {
+        $('.oc-custom-modal-map').fadeOut()
+    })
+})
+// $(window).on('load', function() {
+//     $('#porvenir').modal('show');
+//     $('.oc-est-modal__body__slider').slick('refresh')
+// });
+  
+// $( "#porvenir" ).on('shown.bs.modal', function(){
+//     // alert("I want this to appear after the modal has opened!");
+// });
+
+
