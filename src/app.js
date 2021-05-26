@@ -239,6 +239,37 @@ import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-i
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-3-tauramena.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/municipio-tauramena.jpg";
 
+//Casanare - Monterrey
+import "./img/casanare/monterrey.jpg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg";
+
+//Casanare - Fauna
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/fauna.svg";
+
+//Casanare - Banco de Hábitat
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/habitat_ecosistema.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
+
+//Casanare - Ecosistema
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-01.jpg";
+
+//Casanare - Clima
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/clima.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/Clima-01.jpg";
+
+//Casanare - Hidrografia
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/hidrografia.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/Hidrografia-01a.jpg";
+
+//Casanare - Comunidades Mujer
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/comunidad.svg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-03.jpg";
+
+//Casanare - Comunidades
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-01.jpg";
+
+//Casanare - Comités de Seguimiento
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/comites.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
