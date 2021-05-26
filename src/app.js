@@ -211,6 +211,8 @@ import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_de_transferenc
 import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_booster_electrica_line.svg";
 import "./img/estaciones/cupiagua/7-icon-personal/icono_menu-personal.svg";
 import "./img/estaciones/cupiagua/7-icon-personal/icon-arrow-personal.svg";
+import "./img/estaciones/cupiagua/8-icon-clima/icono_menu-clima.svg";
+import "./img/estaciones/cupiagua/8-icon-clima/clima.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
