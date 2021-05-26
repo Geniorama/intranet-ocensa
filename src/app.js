@@ -205,6 +205,13 @@ import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/line-divider.svg";
 import "./img/estaciones/button-arrow-right.svg";
 import "./img/estaciones/wdg-arrow-down.svg";
 import "./img/estaciones/cupiagua/3-icon-ubicacion/icono_menu-ubicacion.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/dato.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/icono_menu-sistema_bombeo.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_de_transferencia_line.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_booster_electrica_line.svg";
+import "./img/estaciones/cupiagua/7-icon-personal/icono_menu-personal.svg";
+import "./img/estaciones/cupiagua/7-icon-personal/icon-arrow-personal.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
