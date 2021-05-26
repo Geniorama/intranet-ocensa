@@ -213,6 +213,12 @@ import "./img/estaciones/cupiagua/7-icon-personal/icono_menu-personal.svg";
 import "./img/estaciones/cupiagua/7-icon-personal/icon-arrow-personal.svg";
 import "./img/estaciones/cupiagua/8-icon-clima/icono_menu-clima.svg";
 import "./img/estaciones/cupiagua/8-icon-clima/clima.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/icono_menu-como_llegar.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/distancia.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/tiempo_aproximado.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/via_aerea.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/via_terrestre.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/icono-flecha-azul.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
@@ -580,3 +586,9 @@ if(screen.width > 991.98){
     </g>
     </svg>`);
 }
+
+
+$('.oc-slick-clima-card').slick({
+    arrows: false,
+    dots: true
+})

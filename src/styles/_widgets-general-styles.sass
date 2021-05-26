@@ -45,12 +45,82 @@
         height: 100%
         background-color: white
         display: inline-block
+
+.oc-btn
+    border-radius: 30px
+    border: none
+    margin:  .5em
+    margin-top: .8em
+    padding: 3px 10px
+    font-family: 'cabin-bold', sans-serif
+    color: white
+    min-width: 100px
+    height: 20px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    text-decoration: none
+    font-size: 11px
+    &.btn-m-teams
+        width: auto
+        min-width: 0px !important
+        padding: 0 1em
+        background-color: #505D6C
+        display: inline-block
+        margin-left: 10px !important
+        &:hover
+            background-color: #2B5CDA   
+
+.oc-btn-active
+    background-color: #2B5CDA
+    &:hover
+        background-color: #505D6C
+        text-decoration: none
+.oc-btn-inactive
+    background-color: #505D6C
+    opacity: .5
+
 .spacing
     margin: 2em
 
 .oc-card-widget
     background-color: white
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
+
+.oc-box-dato
+    background-color: #F2F2F2
+    border-radius: 10px
+
+.oc-number-medium
+    font-family: 'roboto-black', sans-serif
+    font-size: 30px
+
+.oc-number-large
+    font-family: 'roboto-bold', sans-serif
+    font-size: 70px
+
+.c-blue-light
+    color: #2B5CDA
+.c-green
+    color: $green_co
+.c-white
+    color: white
+
+.line-dashed
+    border: 1px dashed #505D6C
+    width: 60%
+    margin: 1em auto
+    position: relative
+    &::after
+        content: ''
+        width: 9px
+        height: 9px
+        border: 2.5px solid $green_co
+        border-radius: 50%
+        position: absolute
+        right: -9px
+        top: -4.5px
 
 // Slick styles
 .oc-slick-widgets
@@ -78,10 +148,6 @@
             button
                 display: none
 
-
-.oc-box-dato
-    background-color: #F2F2F2
-    border-radius: 10px
 @include media-breakpoint-down(sm)
     .oc-slick-widgets
         &.oc-slick-theme
