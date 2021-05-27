@@ -23,6 +23,8 @@ import "./fonts/helvetica_light.ttf";
 
 // Modules
 import "./styles/app.sass";
+import "./modules/WidgetCalendario";
+import "./modules/Estaciones";
 
 
 // Images
@@ -216,11 +218,11 @@ import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg";
 
 // Casanare - Estación Cuasiana
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cusiana.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cusiana.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-cusiana.jpg";
 
 // Casanare - Estación Cupiagua
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_cupiagua.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cupiagua.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion_cupiagua.jpg";
 
 // Casanare - Agua azul
@@ -254,7 +256,7 @@ import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-01.jpg";
 
 //Casanare - Clima
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/clima.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_clima.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Clima-01.jpg";
 
 //Casanare - Hidrografia
@@ -270,6 +272,53 @@ import "./img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-01.j
 
 //Casanare - Comités de Seguimiento
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/comites.svg";
+
+// Img widgets
+import "./img/widgets-ocensa/img-widget-calendario/icon-agenda-calendario.svg";
+import "./img/widgets-ocensa/img-widget-calendario/boton-ver-mas.svg";
+import "./img/widgets-ocensa/img-widget-calendario/icon-cerrar-dia.svg";
+import "./img/widgets-ocensa/img-widget-calendario/flecha-ir.svg";
+import "./img/widgets-ocensa/img-widget-calendario/avatar-prof.png";
+import "./img/widgets-ocensa/img-widget-calendario/avatar-prof-2.png";
+import "./img/widgets-ocensa/img-widget-calendario/icon-cerrar-dia.svg";
+import "./img/widgets-ocensa/img-widget-calendario/icon-star.svg";
+import "./img/widgets-ocensa/button-close.svg";
+import "./img/widgets-ocensa/slick-arrow-left.svg";
+import "./img/widgets-ocensa/slick-arrow-right.svg";
+
+// Estaciones
+import "./img/estaciones/cupiagua/fotos-cupiagua/slide-1.png";
+import "./img/estaciones/cupiagua/fotos-cupiagua/ubicacion.jpg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/icono_menu-la_estacion.svg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/estacion_almacena.svg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/crudo_bombeado.svg";
+import "./img/estaciones/cupiagua/2-icon-la-estacion/usado_diluyente.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/6_5_km.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/1_km.svg";
+import "./img/estaciones/cupiagua/4-icon-almacenamiento/icono_menu-almacenamiento.svg";
+import "./img/estaciones/cupiagua/4-icon-almacenamiento/tanques_grandes.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/icono_menu-distancia_linea.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cupiagua.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cusiana.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/line-divider.svg";
+import "./img/estaciones/button-arrow-right.svg";
+import "./img/estaciones/wdg-arrow-down.svg";
+import "./img/estaciones/cupiagua/3-icon-ubicacion/icono_menu-ubicacion.svg";
+import "./img/estaciones/cupiagua/5-icon-distancia-de-linea/dato.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/icono_menu-sistema_bombeo.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_de_transferencia_line.svg";
+import "./img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_booster_electrica_line.svg";
+import "./img/estaciones/cupiagua/7-icon-personal/icono_menu-personal.svg";
+import "./img/estaciones/cupiagua/7-icon-personal/icon-arrow-personal.svg";
+import "./img/estaciones/cupiagua/8-icon-clima/icono_menu-clima.svg";
+import "./img/estaciones/cupiagua/8-icon-clima/clima.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/icono_menu-como_llegar.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/distancia.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/tiempo_aproximado.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/via_aerea.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/via_terrestre.svg";
+import "./img/estaciones/cupiagua/9-icon-como-llegar/icono-flecha-azul.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -728,10 +777,6 @@ if(screen.width > 991.98){
 
 
 // MODALS MAPS
-$('.oc-mapa__location-modals').modal({
-    show: false
-})
-
 $('.oc-est-modal__body__slider').slick({
     slidesToShow: 1,
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
@@ -767,3 +812,7 @@ $('.oc-mapa__location-modals').click(function(e) {
 
 
 
+$('.oc-slick-clima-card').slick({
+    arrows: false,
+    dots: true
+})
