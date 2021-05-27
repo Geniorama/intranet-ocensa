@@ -319,6 +319,31 @@ import "./img/estaciones/cupiagua/9-icon-como-llegar/via_aerea.svg";
 import "./img/estaciones/cupiagua/9-icon-como-llegar/via_terrestre.svg";
 import "./img/estaciones/cupiagua/9-icon-como-llegar/icono-flecha-azul.svg";
 
+import "./img/casanare/Cusiana-slide-1.jpg";
+import "./img/casanare/Cusiana-slide-2.jpg";
+import "./img/casanare/Cusiana-slide-3.jpg";
+import "./img/estaciones/cusiana/2-icon-la-estacion/estacion_almacena-1.svg";
+import "./img/estaciones/cusiana/2-icon-la-estacion/crudo_bombeado-1.svg";
+import "./img/estaciones/cusiana/2-icon-la-estacion/recibe_crudo-1.svg";
+import "./img/estaciones/cusiana/2-icon-la-estacion/barriles-1.svg";
+import "./img/casanare/foto-aerea cusiana.jpg";
+import "./img/estaciones/cusiana/3-icon-ubicacion/altitud.svg";
+import "./img/estaciones/cusiana/3-icon-ubicacion/temperatura.svg";
+import "./img/estaciones/cusiana/3-icon-ubicacion/estacion_rio.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/B-tanques_grandes.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/tanque_mediano.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/tanque_pequeno.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/E-barriles.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/C-barriles.svg";
+import "./img/estaciones/cusiana/4-icon-almacenamiento/B-barril.svg";
+import "./img/estaciones/cusiana/camara.svg";
+import "./img/estaciones/cusiana/video.svg";
+import "./img/estaciones/cusiana/5-icon-distancia-de-linea/diametro_tubo.svg";
+import "./img/estaciones/cusiana/5-icon-distancia-de-linea/estacion_cusiana copia.svg";
+import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/6-icon_menu-distancia_linea.svg";
+import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/bombeo-1.svg";
+import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/bombeo-2.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
