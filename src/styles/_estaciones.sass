@@ -50,6 +50,10 @@
                 left: 10px
             &__next
                 right: 10px
+        .slick-dots
+            position: absolute
+            width: 100%
+            bottom: 8px
 
 // Tipos widgets
 
@@ -115,9 +119,18 @@
             background-color: white
             color: $green_co
             line-height: 15px
-
             &:hover
                 text-decoration: none
+            .before-right
+                position: relative
+                &::before
+                    position: absolute
+                    content: ''
+                    height: 1px
+                    width: 10px
+                    background-color: white
+                    top: 50%
+                    right: -10px
 
 .wdg-almacenamiento
     font-size: 14px

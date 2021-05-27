@@ -11,4 +11,6 @@ $('.oc-slick-widget__slider').slick({
             <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
         </svg>
     </button>`,
+    dots: true,
+    infinite: false
 })
