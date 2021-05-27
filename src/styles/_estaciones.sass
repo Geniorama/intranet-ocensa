@@ -22,7 +22,7 @@
                 left: 0
         .oc-btn-active
             background-color: $green_co
-            height: 25px
+            // height: 25px
             &:hover
                 color: white
                 text-decoration: none
@@ -54,6 +54,52 @@
             position: absolute
             width: 100%
             bottom: 8px
+
+.oc-btn
+    transition: $tr
+    svg
+       transition: $tr 
+    .before-right
+        position: relative
+        transition: $tr
+        &::before
+            position: absolute
+            content: ''
+            height: 2px
+            width: 0
+            background-color: white
+            top: calc( 50% - 1px )
+            right: 0px
+            transition: $tr
+    .before-left
+        position: relative
+        transition: $tr
+        &::before
+            position: absolute
+            content: ''
+            height: 2px
+            width: 0
+            background-color: white
+            top: calc( 50% - 1px )
+            left: 0px
+            transition: $tr
+    .before-green
+        &::before
+            background-color: $green_co
+    &:hover
+        .before-right
+            transform: translateX(-10px)
+            padding-left: 10px 
+            &::before
+                width: 10px
+                right: -10px
+        .before-left
+            padding-right: 10px 
+            svg
+                transform: translateX(10px)
+            &::before
+                width: 10px
+                left: 1px
 
 // Tipos widgets
 
@@ -121,16 +167,6 @@
             line-height: 15px
             &:hover
                 text-decoration: none
-            .before-right
-                position: relative
-                &::before
-                    position: absolute
-                    content: ''
-                    height: 1px
-                    width: 10px
-                    background-color: white
-                    top: 50%
-                    right: -10px
 
 .wdg-almacenamiento
     font-size: 14px
