@@ -1,0 +1,137 @@
+.wdg-la-estacion
+    &__cont-text
+        .oc-list-color
+            list-style: none
+            padding-left: 2.2em
+            margin-top: .5em
+            li
+                color: $green_co
+                font-family: 'lato-bold'
+                font-size: 12px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    top: 5px
+                    left: -20px
+                    width: 8px
+                    height: 8px
+                    border: 1px solid $green_co
+                    border-radius: 50%
+        .oc-list-normal
+            list-style: none
+            padding-left: 2.2em
+            margin-top: .5em
+            li
+                color: $gray_co
+                font-family: 'helvetica-light'
+                font-size: 12px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    top: 5px
+                    left: -20px
+                    width: 8px
+                    height: 8px
+                    border: 1px solid $green_co
+                    border-radius: 50%
+        .variant-text-01
+            text-transform: uppercase
+            font-size: 9px !important
+            font-family: 'roboto-bold'
+.oc-card-estacion-porvenir
+    height: 100%
+.wdg-banner__porvenir
+    .wdg-banner__info__km
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+        img
+            width: 50%
+        &__02
+            border: none !important
+    .wdg-banner__info-location
+        width: 50%
+        span
+            line-height: 1em
+.oc-porvenir
+    &__row
+        margin: 0
+    &__almacenamiento-item
+        width: 20%
+        margin-top: 2em
+        .row
+            margin: 0
+        .oc-widget-template__body
+            padding: 0 1em
+            width: 100%
+            border-right: 1px solid rgba(#505D6C, .29 )
+            .item-02__img
+                width: 121px
+                margin-bottom: 1em
+            .item-03__img
+                width: 65px
+                margin-bottom: 1em
+            .c-blue-light
+                line-height: 1.7em
+                margin-bottom: .8em
+    &__almacenamiento-final
+        margin-top: 2em
+        width: 40%
+        padding: 0 1em
+        .row
+            margin: 0
+            background-color: #F2F2F2
+            padding: 1.2em 2em
+            border-radius: 12px
+            align-items: center
+            margin-bottom: 1em
+            p
+                font-size: 15px
+                font-family: 'roboto-c-boldItalic'
+                color: $gray_co
+                padding-left: 1em
+                position: relative
+                margin-bottom: 0
+                flex: auto
+                width: 33%
+                &::before
+                    content: ''
+                    position: absolute
+                    left: 0
+                    top: 4px
+                    width: 10px
+                    height: 10px
+                    border: 2px solid $blue_light_co
+                    border-radius: 50%
+            .oc-porvenir__img-almacenamiento
+                width: 30%
+                text-align: center
+            img
+                width: 65px
+                height: auto
+            .oc-porvenir__data-number
+                text-align: center
+                .number
+                    font-size: 24px
+                    font-family: 'lato-bold'
+                    color: $blue_light_co
+                    display: block
+                .text
+                    font-size: 14px
+                    color: #95A6B1
+                    font-family: 'roboto-bold'
+    &__modal-button
+        text-align: center
+        button
+            background-color: $blue_light_co
+            color: white
+            font-size: 10px
+            font-family: 'cabin-bold'
+            border: none
+            border-radius: 15px
+            padding: .2em 1.5em
+            display: inline-flex
+            align-items: center
+            img
+                margin-left: .5em
+

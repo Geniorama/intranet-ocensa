@@ -68,6 +68,13 @@ module.exports = {
             templateParameters: require('./src/submenu-casanare.json'),
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'casanare/estacion-porvenir.html',
+            template: './src/casanare/estacion-porvenir.handlebars',
+            minify: false,
+            templateParameters: require('./src/submenu-casanare.json'),
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

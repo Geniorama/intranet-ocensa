@@ -3,6 +3,7 @@ import $, { each } from "jquery";
 import 'bootstrap';
 import "./../node_modules/slick-carousel";
 import SmoothScroll from "smooth-scroll";
+import Dragscroll from "dragscroll";
 
 
 // Fonts
@@ -319,6 +320,21 @@ import "./img/estaciones/cupiagua/9-icon-como-llegar/via_aerea.svg";
 import "./img/estaciones/cupiagua/9-icon-como-llegar/via_terrestre.svg";
 import "./img/estaciones/cupiagua/9-icon-como-llegar/icono-flecha-azul.svg";
 
+// ESTACION EL PORVENIR
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-1.png";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-2-min.jpg";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-3-min.jpg";
+import "./img/estaciones/el-porvenir/2-icon-la-estacion/estacion_porvenir.svg";
+import "./img/estaciones/el-porvenir/2-icon-la-estacion/rebombeo.svg";
+import "./img/estaciones/el-porvenir/2-icon-la-estacion/barriles.svg";
+import "./img/estaciones/el-porvenir/3-icon-ubicacion/altitud.svg";
+import "./img/estaciones/el-porvenir/3-icon-ubicacion/temperatura.svg";
+import "./img/estaciones/el-porvenir/3-icon-ubicacion/estacion_rio.svg";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/2.ubicacion.jpg";
+import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla.svg";
+import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg";
+import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg";
+import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon-camara.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
