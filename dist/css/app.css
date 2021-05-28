@@ -13677,7 +13677,7 @@ p, span {
   height: 50px;
 }
 .oc-submenu-gen .nav-link {
-  font-family: "roboto-regular";
+  font-family: "roboto-regular" !important;
   font-size: 13px;
   color: #28347D;
   position: relative;
@@ -13689,6 +13689,7 @@ p, span {
 }
 .oc-submenu-gen .nav-link .nav-link__text {
   transition: all 0.4s;
+  font-family: "roboto-regular" !important;
 }
 .oc-submenu-gen .nav-link::before {
   content: "";
@@ -14727,6 +14728,7 @@ p, span {
 .oc-territorios .oc-cont-text p {
   font-family: "roboto-light", sans-serif;
   font-size: 16px;
+  color: #505D6C;
 }
 
 @media (max-width: 767.98px) {

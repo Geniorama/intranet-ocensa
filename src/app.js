@@ -200,7 +200,7 @@ import "./img/casanare/Grupo 13762.svg";
 import "./img/casanare/Grupo 14876-2.jpg";
 import "./img/casanare/Grupo 14876-3.jpg";
 import "./img/casanare/cusiana-1.jpg";
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_municipio_2_monterrey.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
 import "./img/estaciones/circle-image-ex.svg";
 
@@ -241,7 +241,7 @@ import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-i
 import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_temperatura.svg";
 
 // Casanare - Tauramena
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-3-tauramena.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_municipio_3_tauramena.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/municipio-tauramena.jpg";
 
 //Casanare - Monterrey
@@ -249,14 +249,14 @@ import "./img/casanare/monterrey.jpg";
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg";
 
 //Casanare - Fauna
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/fauna.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_fauna.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-01.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-02.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-03.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-04.jpg";
 
 //Casanare - Banco de Hábitat
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/habitat_ecosistema.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_habitat_ecosistema.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-02.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-03.jpg";
@@ -280,16 +280,17 @@ import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-03.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia casanare-a.jpg";
 
 //Casanare - Comunidades Mujer
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/comunidad.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_comunidad.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-01.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-02.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-03.jpg";
 
 //Casanare - Comunidades
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-01.jpg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-02.jpg";
 
 //Casanare - Comités de Seguimiento
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/comites.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_comites.svg";
 
 // Img widgets
 import "./img/widgets-ocensa/img-widget-calendario/icon-agenda-calendario.svg";
