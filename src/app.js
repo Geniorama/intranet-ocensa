@@ -656,6 +656,10 @@ $('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('act
 
 $('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
+$('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link').removeClass('active')
+
+$('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link[href="#estacion-cupiagua"]').addClass('active')
+
 $('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
 if(screen.width < 576){
