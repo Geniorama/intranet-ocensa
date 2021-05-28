@@ -75,6 +75,14 @@ module.exports = {
             templateParameters: require('./src/submenu-casanare.json'),
         }),
 
+        
+        new HtmlWebpackPlugin({
+            filename: 'casanare/estacion-cusiana.html',
+            template: './src/casanare/estacion-cusiana.handlebars',
+            minify: false,
+            templateParameters: require('./src/submenu-casanare.json'),
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
