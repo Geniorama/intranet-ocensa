@@ -351,6 +351,16 @@ import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_po
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg";
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg";
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon-camara.svg";
+import "./img/estaciones/el-porvenir/7-icon-personal/diego-guzman.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/elkin-orjuela.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/sin-foto-personal.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/hugo-garcia.png";
+import "./img/estaciones/el-porvenir/8-icon-demografico/icon_territorio_el_porvenir_demografico_icono_menu.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-01.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-02.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-03.svg";
+import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_icono_menu.svg";
+import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg"
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -857,4 +867,9 @@ $('.oc-mapa__location-modals').click(function(e) {
 $('.oc-slick-clima-card').slick({
     arrows: false,
     dots: true
+})
+
+$('.wdg-demografico__car').slick({
+    arrows: false,
+    dots: false
 })
