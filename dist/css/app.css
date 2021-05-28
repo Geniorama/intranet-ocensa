@@ -10152,6 +10152,10 @@ p, span {
   font-family: "roboto-light", sans-serif;
 }
 
+.roboto-c-bold-i {
+  font-family: "roboto-c-boldItalic", sans-serif;
+}
+
 .btn {
   font-family: "cabin-bold", sans-serif;
   border-radius: 50px;
@@ -16450,6 +16454,7 @@ p, span {
 .oc-porvenir__modal-button button img {
   margin-left: 0.5em;
 }
+<<<<<<< HEAD
 .oc-porvenir__personal {
   position: relative;
   padding-left: 1em;
@@ -16540,4 +16545,80 @@ p, span {
 
 .wdg-personal-porvenir {
   height: auto !important;
+=======
+
+#main-cas-porvenir #wdg-section-06 .oc-card-widget {
+  height: 332px;
+}
+
+.oc-slick-widget__contratistas__name {
+  color: #505D6C;
+  font-size: 15px;
+}
+.oc-slick-widget__contratistas p {
+  color: #505D6C;
+  font-size: 12px;
+}
+.oc-slick-widget__contratistas .oc-btn {
+  background-color: #505D6C !important;
+}
+.oc-slick-widget__contratistas .oc-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+.oc-slick-widget__contratistas__brand {
+  max-height: 110px !important;
+  max-width: 180px;
+}
+
+.oc-slick-widget__gestion .oc-box-dato {
+  height: 232px;
+}
+.oc-slick-widget__gestion .oc-box-dato img {
+  width: 65px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.oc-slick-widget__gestion .oc-box-dato p {
+  font-size: 14px;
+  color: #505D6C;
+}
+.oc-slick-widget__gestion .oc-box-dato .oc-btn:hover {
+  background-color: #2B5CDA;
+  color: white;
+}
+.oc-slick-widget__gestion .oc-box-dato .roboto-c-bold-i {
+  font-size: 15px;
+}
+.oc-slick-widget__gestion .oc-slick-arrow__next {
+  right: -25px !important;
+}
+.oc-slick-widget__gestion .oc-slick-arrow__prev {
+  left: -25px !important;
+}
+
+.oc-slick-theme_2 {
+  position: relative;
+}
+.oc-slick-theme_2 .slick-slide {
+  height: auto;
+}
+.oc-slick-theme_2 .oc-slick-arrow {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: calc( 50% - 15px );
+  z-index: 2;
+}
+.oc-slick-theme_2 .oc-slick-arrow__next {
+  right: 0;
+}
+.oc-slick-theme_2 .oc-slick-arrow__prev {
+  left: 0;
+}
+.oc-slick-theme_2 .oc-slick-arrow:hover, .oc-slick-theme_2 .oc-slick-arrow.slick-disabled {
+  opacity: 0.6;
+>>>>>>> develop
 }

@@ -408,6 +408,14 @@
             height: 44px
     .slick-slide
         height: auto
+    .oc-slick-theme_2
+        .oc-slick-arrow
+            top: calc( 21% - 15px )
+        .slick-arrow
+            &:hover
+                opacity: 1
+                circle, path
+                    stroke: $blue_light_co
 
 .wdg-onda
     height: 100% !important
@@ -442,3 +450,30 @@
             color: white
         span
             margin-left: .5em
+
+.wdg-seguridad
+    height: auto !important
+    &__item
+        background-color: #F2F2F2
+        border-radius: 12px
+        display: flex
+        align-items: center
+        height: 49px
+        p
+            margin: 0
+            font-size: 15px
+            font-family: 'roboto-bold'
+            color: $gray_co
+            width: 50%
+        .oc-number
+            width: 50%
+            text-align: center
+            font-size: 30px
+            color: $green_co
+            font-family: 'roboto-bold'
+    &__cont-btn
+        text-align: center
+        .oc-btn
+            background-color: $green_co
+            span
+                margin-left: .5em

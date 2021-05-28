@@ -26,6 +26,7 @@ import "./fonts/helvetica_light.ttf";
 import "./styles/app.sass";
 import "./modules/WidgetCalendario";
 import "./modules/Estaciones";
+import "./modules/EstacionesPorvenir";
 
 
 // Images
@@ -216,7 +217,7 @@ import "./img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-i
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/departamento-casanare.jpg";
 
 //Casanare - Estación El Porvenir
-import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/estacion_porvenir.svg";
+import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_porvenir.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg";
 
 // Casanare - Estación Cuasiana
@@ -361,6 +362,20 @@ import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-02.s
 import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-03.svg";
 import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_icono_menu.svg";
 import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg"
+import "./img/estaciones/el-porvenir/12-icon-contrastistas/icon_territorio_el_porvenir_contratistas_icono_menu.svg";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_vise.jpg";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_contratista_massy.png";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_vanti.jpg";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo-cenit.png";
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_stm.jpg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_aireacion_piscinas.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_icono_menu.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_licencia_ambiental.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_plan_manejo_ambiental.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_potencia_135.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas-lluvia.svg";
+import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia.svg";
+import "./img/estaciones/el-porvenir/11-icon-seguridad-hse/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -869,7 +884,3 @@ $('.oc-slick-clima-card').slick({
     dots: true
 })
 
-$('.wdg-demografico__car').slick({
-    arrows: false,
-    dots: false
-})
