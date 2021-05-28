@@ -28,6 +28,7 @@ import "./modules/WidgetCalendario";
 import "./modules/Estaciones";
 import "./modules/EstacionesPorvenir";
 import "./modules/WidgetGaleria";
+import "./modules/PerfilOleoducto";
 
 
 // Images
