@@ -470,6 +470,10 @@ import "./img/perfil-oleoducto-casanare/recorrido-casanare.svg";
 import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
 import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
 import "./img/perfil-oleoducto-casanare/cundinamarca-info.svg";
+//Noticia Mujer Y Desarrollo
+import "./img/casanare/noticias/img-notice-m-1.png";
+import "./img/casanare/noticias/img-notice-m-2.png";
+import "./img/casanare/noticias/img-notice-m-3.png";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
