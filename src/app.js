@@ -352,6 +352,16 @@ import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_po
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg";
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg";
 import "./img/estaciones/el-porvenir/4-icon-almacenamiento/icon-camara.svg";
+import "./img/estaciones/el-porvenir/7-icon-personal/diego-guzman.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/elkin-orjuela.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/sin-foto-personal.png";
+import "./img/estaciones/el-porvenir/7-icon-personal/hugo-garcia.png";
+import "./img/estaciones/el-porvenir/8-icon-demografico/icon_territorio_el_porvenir_demografico_icono_menu.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-01.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-02.svg";
+import "./img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-03.svg";
+import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_icono_menu.svg";
+import "./img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg"
 import "./img/estaciones/el-porvenir/12-icon-contrastistas/icon_territorio_el_porvenir_contratistas_icono_menu.svg";
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_vise.jpg";
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/logo_contratista_massy.png";
@@ -365,6 +375,7 @@ import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_e
 import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_potencia_135.svg";
 import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas-lluvia.svg";
 import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia.svg";
+import "./img/estaciones/el-porvenir/11-icon-seguridad-hse/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -872,3 +883,4 @@ $('.oc-slick-clima-card').slick({
     arrows: false,
     dots: true
 })
+

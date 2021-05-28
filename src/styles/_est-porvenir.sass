@@ -134,5 +134,84 @@
             align-items: center
             img
                 margin-left: .5em
+    &__personal
+        position: relative
+        padding-left: 1em
+        &::before
+            content: ''
+            position: absolute
+            top: 20px
+            left: 0
+            background-color: $blue_light_co
+            width: 2px
+            height: 90%
+        &-item
+            display: flex
+            position: relative
+            margin-bottom: 2em
+            &:last-child
+                margin-bottom: 1em
+            &::before
+                content: ''
+                position: absolute
+                width: 16px
+                height: 2px
+                background-color: $blue_light_co
+                left: -16px
+                top: 19px
+        &-item-02
+            &::after
+                content: ''
+                position: absolute
+                width: 16px
+                height: 75px
+                background-color: white
+                left: -16px
+                top: 21px
+        &-avatar
+            width: 45px
+            height: 45px
+            overflow: hidden
+            border-radius: 50%
+            border: 1px solid $blue_light_co
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+        &-info
+            padding-left: .6em
+            padding-top: .5em
+            width: 75%
+            overflow: hidden
+            h5
+                font-size: 15px
+                font-family: 'roboto-c-regular'
+                margin: 0
+            p
+                font-size: 13px
+                font-family: 'roboto-light'
+                margin: 0
+                line-height: 1.2em
+                color: #2B5CDA
+        &-team
+            margin-top: .7em
+            overflow: scroll
+            &::-webkit-scrollbar
+                display: none
+        &-scroll
+            width: 300px
+            img
+                width: 35px
+                height: 35px
+                border: 1px solid $blue_light_co
+                border-radius: 50%
+                object-fit: cover
+                margin-right: .6em
+.wdg-personal-porvenir
+    height: 100% !important
 
+.wdg-clima-porvenir
+    height: 305px !important
+    .oc-clima-title
+        margin: 0
 @import est-porvenir-06
