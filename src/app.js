@@ -422,6 +422,11 @@ import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point-3.svg";
 import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point-4.svg";
 import "./img/estaciones/cusiana/7-icon-descargadero/tipo_carro_tanques.svg";
 
+//Noticia Mujer Y Desarrollo
+import "./img/casanare/noticias/img-notice-m-1.png";
+import "./img/casanare/noticias/img-notice-m-2.png";
+import "./img/casanare/noticias/img-notice-m-3.png";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({

@@ -88,6 +88,13 @@ module.exports = {
             templateParameters: require('./src/submenu-casanare.json'),
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'casanare/noticia-mujeres-cup.html',
+            template: './src/casanare/noticia-mujeres-cup.handlebars',
+            minify: false,
+            templateParameters: require('./src/submenu-casanare.json'),
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
