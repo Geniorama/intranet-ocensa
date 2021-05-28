@@ -27,6 +27,7 @@ import "./styles/app.sass";
 import "./modules/WidgetCalendario";
 import "./modules/Estaciones";
 import "./modules/EstacionesPorvenir";
+import "./modules/WidgetGaleria";
 
 
 // Images
@@ -411,6 +412,47 @@ import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-download-g
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/flecha-right-verde.svg";
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/profile-send1.jpg";
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-envelope1.svg";
+
+/*
+======== WIDGETS OCENSA =======
+*/
+
+// Widget Galeria
+import "./img/widgets-ocensa/img-widget-galeria/boton/boton–adelante.svg"
+import "./img/widgets-ocensa/img-widget-galeria/boton/boton–atras.svg"
+import "./img/widgets-ocensa/img-widget-galeria/boton/boton–cerrar.svg"
+import "./img/widgets-ocensa/img-widget-galeria/boton/boton–compartir.svg"
+import "./img/widgets-ocensa/img-widget-galeria/boton/boton–publicar.svg"
+
+import "./img/widgets-ocensa/img-widget-galeria/fotos/gallery-img.jpg"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10604.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10606.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10609.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10611.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10613.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10615.png"
+import "./img/widgets-ocensa/img-widget-galeria/fotos/Group 10617.png"
+
+import "./img/widgets-ocensa/img-widget-galeria/imagen/logo_ocensa_logosimbolo.png"
+import "./img/widgets-ocensa/img-widget-galeria/icon/arrow-left-blue.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/arrow-right-blue.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-cerrar_mover.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon–comentario.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-comentario-2.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-compartir.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-compartir-2.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-images.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-video.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-like.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-like-2.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-photo.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon-play-video.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/icon–widget–galeria.svg"
+import "./img/widgets-ocensa/img-widget-galeria/icon/Trazado 9367.svg"
+
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg"
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

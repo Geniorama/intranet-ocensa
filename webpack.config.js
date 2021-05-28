@@ -19,6 +19,10 @@ module.exports = {
         port: 8000
     },
 
+    optimization: {
+        minimize: false,
+    },
+
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
