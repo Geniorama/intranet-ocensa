@@ -412,6 +412,12 @@ import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/flecha-right-ve
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/profile-send1.jpg";
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-envelope1.svg";
 
+// PERFIL ESTACIONES CASANARE
+import "./img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg";
+import "./img/perfil-oleoducto-casanare/recorrido-casanare.svg";
+import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
+import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({

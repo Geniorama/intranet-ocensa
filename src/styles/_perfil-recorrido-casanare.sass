@@ -1,0 +1,290 @@
+.oc-perfil-recorrido
+    margin-top: 52px
+    height: 276px
+    &__title
+        display: flex
+        align-items: center
+        position: absolute
+        top: 30px
+        left: 56px
+        img
+            width: 66px
+            margin-right: 1em
+        h2
+            font-size: 21px
+            color: $blue_co
+            font-family: 'cabin-bold'
+            margin-bottom: 0
+            margin-top: .5em
+
+.oc-recorrido
+    overflow: scroll
+    &::-webkit-scrollbar
+        display: none
+    &__grafica
+        width: 1290px
+        position: relative
+        margin: auto
+        height: 283px
+    &__mapa
+        position: absolute
+        right: 0
+        top: 0
+        #Componente_130_33
+            path, text
+                transition: $tr
+            &:hover path
+                fill: #FFD300
+            &:hover text
+                fill: #000
+                font-size: 9
+        #Componente_128_4
+            path, text
+                transition: $tr
+            &:hover path
+                fill: #FFD300
+            &:hover text
+                fill: #000
+                font-size: 9
+        #Componente_131_4
+            path, text
+                transition: $tr
+            &:hover path
+                fill: #FFD300
+            &:hover text
+                fill: #000
+                font-size: 9
+        #Componente_132_4
+            path, text
+                transition: $tr
+            &:hover path
+                fill: #FFD300
+            &:hover text
+                fill: #000
+                font-size: 9
+        #Componente_133_4
+            path, text
+                transition: $tr
+            &:hover path
+                fill: #FFD300
+            &:hover text
+                fill: #000
+                font-size: 9
+    &__barco
+        width: 55px
+        position: absolute
+        top: 164px
+    &__line
+        left: 65px
+        position: relative
+        margin-top: 90px
+    &__item
+        text-align: center
+        position: absolute
+        cursor: pointer
+    &__target
+        background-color: #95A6B1
+        border: 1px solid white
+        border-radius: 0 0 5px 5px
+        display: inline-block
+        padding: .2em
+        position: relative
+        margin-bottom: .5em
+        opacity: 0
+        transition: $tr
+        &::before
+            content: ''
+            position: absolute
+            background-color: #95A6B1
+            width: 7px
+            height: 7px
+            border-bottom: 1px solid white
+            border-right: 1px solid white
+            bottom: -4px
+            left: 0
+            right: 0
+            margin: auto
+            transform: rotate(45deg)
+    &__number
+        display: block
+        font-size: 13px
+        color: white
+        font-family: 'roboto-medium'
+        line-height: 1em
+        margin-top: .3em
+    &__date
+        display: block
+        font-size: 10px
+        color: white
+        font-family: 'roboto-medium'
+        line-height: 1em
+    &__cont-circle
+        width: 16px
+        height: 16px
+        border: 1px solid transparent
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: auto
+        position: relative
+        transition: $tr
+        &::before
+            content: ''
+            position: absolute
+            width: 1px
+            background-color: #95A6B1
+            top: 17px
+    &__circle
+        width: 10px
+        height: 10px
+        background-color: $yellow_co
+        border-radius: 50%
+        border: 2px solid white
+        margin: 0
+    &__text
+        font-size: 9px
+        font-family: 'roboto-c-bold'
+        color: $blue_co
+        transition: $tr
+        padding: .2em
+        border-radius: 5px
+        border: 1px solid transparent
+        line-height: 1em
+    &__item
+        &:hover
+            .oc-recorrido__target
+                opacity: 1
+            .oc-recorrido__cont-circle
+                border: 1px solid $yellow_co
+            .oc-recorrido__text
+                background-color: #2B5CDA
+                border: 1px solid white
+                color: white
+    &__item-01
+        top: 117px
+        left: 66px
+        .oc-recorrido__text
+            margin-top: 32px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 27px
+    &__item-02
+        top:115px
+        left: 135px
+        .oc-recorrido__text
+            margin-top: 34px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 29px
+    &__item-03
+        top: 115px
+        left: 215px
+        .oc-recorrido__text
+            margin-top: 34px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 29px
+    &__item-04
+        top: 103px
+        left: 326px
+        .oc-recorrido__text
+            margin-top: 26px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 22px
+    &__item-05
+        top: 109px
+        left: 395px
+        .oc-recorrido__text
+            margin-top: 20px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 16px
+    &__item-06
+        top: 52px
+        left: 551px
+        .oc-recorrido__text
+            margin-top: 35px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 31px
+    &__item-07
+        top: 46px
+        left: 638px
+        .oc-recorrido__text
+            margin-top: 74px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 70px
+    &__item-08
+        top: 72px
+        left: 667px
+        .oc-recorrido__text
+            margin-top: 33px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 29px
+    &__item-09
+        top: 99px
+        left: 692px
+        .oc-recorrido__text
+            margin-top: 51px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 47px
+    &__item-10
+        top: 100px
+        left: 759px
+        .oc-recorrido__text
+            margin-top: 30px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 26px
+    &__item-11
+        top: 107px
+        left: 845px
+        .oc-recorrido__text
+            margin-top: 22px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 18px
+    &__item-12
+        top: 221px
+        left: 346px
+        .oc-recorrido__text
+            margin-top: 15px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 11px
+        .oc-recorrido__circle
+            background-color: $blue_co
+        &:hover
+            .oc-recorrido__cont-circle
+                border: 1px solid $blue_co
+    &__item-13
+        top: 221px
+        left: 571px
+        .oc-recorrido__text
+            margin-top: 15px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 11px
+        .oc-recorrido__circle
+            background-color: $blue_co
+        &:hover
+            .oc-recorrido__cont-circle
+                border: 1px solid $blue_co
+    &__item-14
+        top: 207px
+        left: 615px
+        .oc-recorrido__text
+            margin-top: 15px
+        .oc-recorrido__cont-circle
+            &::before
+                height: 11px
+        .oc-recorrido__circle
+            background-color: $blue_co
+        &:hover
+            .oc-recorrido__cont-circle
+                border: 1px solid $blue_co
