@@ -1,1 +1,1368 @@
-<head><link href="../css/app.css" rel="stylesheet"></head><script src="../js/bundle.js"></script>
+<div id="top"></div>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casanare - Estación Porvenir</title>
+<link href="../css/app.css" rel="stylesheet"></head>
+
+<body  class="oc-estaciones oc-cas-porvenir" >
+    <div id="app">
+        <header class="oc-header">
+
+            <div class="oc-box-search oc-bg-green d-flex align-items-center d-md-none">
+                <form action="" class="d-flex justify-content-between px-4 py-2 align-items-center m-auto w-100">
+                    <div class="form-group position-relative m-0">
+                        <button class="oc-box-search__button-submit" type="submit">Buscar</button>
+                        <input type="search" name="" id="" class="form-control" placeholder="lorem ipsum">
+                    </div>
+
+                    <button type="button" class="oc-box-search__icon-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13.888" height="13.888" viewBox="0 0 13.888 13.888">
+                        <g id="Grupo_13195" data-name="Grupo 13195" transform="translate(-340.213 -38.406)">
+                            <path id="Trazado_11444" data-name="Trazado 11444" d="M3992.92,39.113l12.474,12.474" transform="translate(-3652)" fill="none" stroke="#fff" stroke-width="2"/>
+                            <path id="Trazado_11445" data-name="Trazado 11445" d="M3992.92,39.113l12.474,12.474" transform="translate(392.507 -3953.807) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+                        </g>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+            <div class="oc-header__desktop d-none d-md-block">
+                <div class="oc-header__cont row py-3 py-lg-0">
+                    <div class="oc-header__logo">
+                        <img src="/img/ocensa-logo-nuevo.svg" alt="">
+                    </div>
+                    <div class="oc-header__items">
+                        <a href="#" class="oc-header__logout">
+                            <img src="/img/icon_logout.svg" alt=""><span>Logout</span>
+                        </a>
+                        <div class="oc-header__widgets d-none d-lg-block">
+                            <div class="oc-header__widgets-info">
+                                <span>Mis WIDGETS</span>
+                                <img src="/img/arrow-widgets.svg" alt="">
+                            </div>
+                            <div class="oc-header__widgets-cont">
+                                <div class="oc-header__widgets-item">
+                                    <button class="oc-header__widgets-edit">Editar</button>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-correo oc-header__widgets-cont-img">
+                                        <img src="/img/widget-1-correo.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Correo</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-agenda oc-header__widgets-cont-img">
+                                        <img src="/img/widget-2-agenda.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Agenda</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-grupos oc-header__widgets-cont-img">
+                                        <img src="/img/widget-3-grupos.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Grupos</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-enlaces oc-header__widgets-cont-img">
+                                        <img src="/img/widget-4-enlaces_rapidos.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Enlaces rápidos</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-apps oc-header__widgets-cont-img">
+                                        <img src="/img/widget-5-mis_apps.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Mis aplicaciones</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-indicadores oc-header__widgets-cont-img">
+                                        <img src="/img/widget-6-indicadores.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Indicadores</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-noticias oc-header__widgets-cont-img">
+                                        <img src="/img/widget-7-noticias.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Noticias</p>
+                                </div>
+                                <!--Item-->
+                                <div class="oc-header__widgets-item">
+                                    <div class="oc-header__widgets-agenda-calendario oc-header__widgets-cont-img">
+                                        <img src="/img/widget-8-agenda_calendario.svg" alt="">
+                                    </div>
+                                    <p class="oc-header__widgets-desc">Agenda/Calendario</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="oc-search-bar">
+                    <div class="input-group oc-search-bar__cont">
+                        <button type="button" class="btn btn-primary oc-search-bar__btn">
+                            <img src="/img/lupa_buscador.svg" alt="">
+                        </button>
+                        <div class="form-outline oc-search-bar__input">
+                            <input type="search" id="form1" class="form-control"
+                                placeholder="Encuentra aquí lo que buscas">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oc-submenu-gen position-relative">
+                    <nav class="d-flex align-items-center oc-submenu-gen__nav">
+                        <button class="oc-submenu-gen__button-menu-lateral oc-bg-blue d-md-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                                <g id="Grupo_13060" data-name="Grupo 13060" transform="translate(289.5 -89.5)">
+                                    <g id="Grupo_13059" data-name="Grupo 13059" transform="translate(1 0.378)">
+                                        <path id="Trazado_5206" data-name="Trazado 5206" d="M0,0V9.671"
+                                            transform="translate(-276.548 108.293) rotate(180)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="1.5" />
+                                        <path id="Trazado_6893" data-name="Trazado 6893" d="M-8466.48,3107.907l3.421,3.421-3.421,3.421"
+                                            transform="translate(2834.749 8571.668) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                                    </g>
+                                    <g id="Elipse_2153" data-name="Elipse 2153" transform="translate(-288 91)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                        <circle cx="12.5" cy="12.5" r="12.5" stroke="none" />
+                                        <circle cx="12.5" cy="12.5" r="13.25" fill="none" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                
+                        <div class="oc-submenu-gen__cont-nav d-flex align-items-center px-3">
+                            <div class="oc-menu-arrow left d-lg-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
+                                        transform="translate(-178.533 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                            </div>
+                
+                            <ul class="nav align-items-center">
+                                    <li class="nav-item">
+                                        <a href="#casanare" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Casanare</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-cupiagua" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Cupiagua</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-cusiana" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Cusiana</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-provenir" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Porvenir</span>
+                                        </a>
+                                    </li>
+                            </ul>
+                
+                            <div class="oc-menu-arrow right d-lg-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                    <aside
+                        class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 flex-column align-items-center">
+                        <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
+                            <button class="button-menu-toggle m-auto mb-1 open">
+                                <span class="line-1 line"></span>
+                                <span class="line-2 line"></span>
+                                <span class="line-3 line"></span>
+                            </button>
+                    
+                            <span>menú</span>
+                        </div>
+                    
+                    
+                        <nav class="px-2 py-3 p-lg-0">
+                            <ul class="nav flex-column align-items-center mt-lg-4">
+                                <li class="nav-item">
+                                    <a href="#" class="oc-menu-lateral__avatar nav-link">
+                                        <img src="/img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                                        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="/img/menu-perfil-0-inicio.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            1
+                                        </span>
+                                        <img src="/img/menu-perfil-1-correo.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-2-mensajes.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-3-reuniones.svg" alt="">
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-4-grupos.svg" alt="">
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                    </aside></div>            </div>
+
+            <div class="oc-header__mobile d-block d-md-none p-3">
+                <div class="d-flex align-items-center justify-content-between">
+                    <button class="oc-btn-menu-superior oc-btn-open-menu d-flex flex-column">
+                        <img src="/img/icon_menu_mobile.svg" alt="" class="m-auto">
+
+                        <span>menú</span>
+                    </button>
+                    <div class="oc-header__logo">
+                        <img src="/img/ocensa-logo-nuevo.svg" alt="">
+                    </div>
+                    <a href="#" class="oc-header__logout text-center">
+                        <img src="/img/icon_logout.svg" alt=""><span class="d-block">Logout</span>
+                    </a>
+                    <button type="button" class="btn oc-search-bar__btn">
+                        <img src="/img/lupa_buscador.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-md-none oc-submenu-mobile">
+                <div class="oc-submenu-gen position-relative">
+                    <nav class="d-flex align-items-center oc-submenu-gen__nav">
+                        <button class="oc-submenu-gen__button-menu-lateral oc-bg-blue d-md-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                                <g id="Grupo_13060" data-name="Grupo 13060" transform="translate(289.5 -89.5)">
+                                    <g id="Grupo_13059" data-name="Grupo 13059" transform="translate(1 0.378)">
+                                        <path id="Trazado_5206" data-name="Trazado 5206" d="M0,0V9.671"
+                                            transform="translate(-276.548 108.293) rotate(180)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-width="1.5" />
+                                        <path id="Trazado_6893" data-name="Trazado 6893" d="M-8466.48,3107.907l3.421,3.421-3.421,3.421"
+                                            transform="translate(2834.749 8571.668) rotate(90)" fill="none" stroke="#fff"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                                    </g>
+                                    <g id="Elipse_2153" data-name="Elipse 2153" transform="translate(-288 91)" fill="none" stroke="#fff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                        <circle cx="12.5" cy="12.5" r="12.5" stroke="none" />
+                                        <circle cx="12.5" cy="12.5" r="13.25" fill="none" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                
+                        <div class="oc-submenu-gen__cont-nav d-flex align-items-center px-3">
+                            <div class="oc-menu-arrow left d-lg-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075"
+                                        transform="translate(-178.533 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                            </div>
+                
+                            <ul class="nav align-items-center">
+                                    <li class="nav-item">
+                                        <a href="#casanare" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Casanare</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-cupiagua" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Cupiagua</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-cusiana" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Cusiana</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#estacion-provenir" class="nav-link oc-tabs__item ">
+                                            <span class="nav-link__text">Estación Porvenir</span>
+                                        </a>
+                                    </li>
+                            </ul>
+                
+                            <div class="oc-menu-arrow right d-lg-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#96A6B0" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="1" />
+                                </svg>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                    <aside
+                        class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 flex-column align-items-center">
+                        <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
+                            <button class="button-menu-toggle m-auto mb-1 open">
+                                <span class="line-1 line"></span>
+                                <span class="line-2 line"></span>
+                                <span class="line-3 line"></span>
+                            </button>
+                    
+                            <span>menú</span>
+                        </div>
+                    
+                    
+                        <nav class="px-2 py-3 p-lg-0">
+                            <ul class="nav flex-column align-items-center mt-lg-4">
+                                <li class="nav-item">
+                                    <a href="#" class="oc-menu-lateral__avatar nav-link">
+                                        <img src="/img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                                        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="/img/menu-perfil-0-inicio.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            1
+                                        </span>
+                                        <img src="/img/menu-perfil-1-correo.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-2-mensajes.svg" alt="">
+                    
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-3-reuniones.svg" alt="">
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                                    </a>
+                                </li>
+                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span class="label-notify">
+                                            7
+                                        </span>
+                                        <img src="/img/menu-perfil-4-grupos.svg" alt="">
+                                        <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                    </aside></div>            </div>
+        </header>
+<div class="d-none d-md-block oc-menu-lateral">
+    <aside
+        class="oc-menu-lateral oc-bg-blue text-center py-md-4 py-lg-4 flex-column align-items-center">
+        <div class="oc-btn-menu-lateral oc-btn-open-menu d-none d-md-block">
+            <button class="button-menu-toggle m-auto mb-1 open">
+                <span class="line-1 line"></span>
+                <span class="line-2 line"></span>
+                <span class="line-3 line"></span>
+            </button>
+    
+            <span>menú</span>
+        </div>
+    
+    
+        <nav class="px-2 py-3 p-lg-0">
+            <ul class="nav flex-column align-items-center mt-lg-4">
+                <li class="nav-item">
+                    <a href="#" class="oc-menu-lateral__avatar nav-link">
+                        <img src="/img/oc-avatar.jpg" alt="" class="oc-menu-lateral__avatar__img">
+                        <span class="oc-menu-lateral__text d-block mt-1">Mi perfil</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/img/menu-perfil-0-inicio.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Inicio</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            1
+                        </span>
+                        <img src="/img/menu-perfil-1-correo.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Correo</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="/img/menu-perfil-2-mensajes.svg" alt="">
+    
+                        <span class="oc-menu-lateral__text  d-block mt-1">Mensajes</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="/img/menu-perfil-3-reuniones.svg" alt="">
+                        <span class="oc-menu-lateral__text  d-block mt-1">Reuniones</span>
+                    </a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="label-notify">
+                            7
+                        </span>
+                        <img src="/img/menu-perfil-4-grupos.svg" alt="">
+                        <span class="oc-menu-lateral__text  d-block mt-1">Grupos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
+    </aside></div>
+
+<div class="oc-preload">
+    <img src="/img/ocensa-logosimbolo.svg" alt="" class="oc-preload__symbol">
+</div>
+<div class="oc-menu-principal px-2 py-4 p-lg-4">
+    <div class="oc-menu-principal__top d-flex align-items-center">
+        <div class="oc-menu-principal__top__cerrar">
+            <button class="button-menu-toggle mt-0 mb-1">
+                <span class="line-1 line position-absolute"></span>
+                <span class="line-2 line position-absolute"></span>
+                <span class="line-3 line position-absolute"></span>
+            </button>
+
+            <span class="d-block oc-menu-principal__top__cerrar__text">Cerrar</span>
+        </div>
+
+        <img src="/img/ocensa-logo-nuevo-blanco.svg" alt="" class="ml-3 ml-md-5 oc-menu-principal__top__brand">
+    </div>
+
+    <section class="oc-menu-principal__bottom mt-5 mt-lg-3">
+        <div class="container-fluid px-3 px-lg-5">
+            <div class="row col-menu">
+                <div class="col-12 col-lg px-2 px-md-4">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="/img/icon-nosotros.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Nosotros</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra razón de ser</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra historia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestra cultura</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nuestro Gobierno Corporativo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg px-2 px-md-4">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="/img/icon-direcciones.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Direcciones</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Operaciones</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Asuntos Legales y Secretaría General</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Organización y Talento</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Responsabilidad Integral</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Finanzas</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Servicios Corporativos</a></li>
+                        <li class="nav-item item-has-child">
+                            <a href="#" class="nav-link d-flex justify-content-between align-items-center">
+                                Gerencias Senior
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481"
+                                    viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273"
+                                        d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355" />
+                                </svg>
+                            </a>
+                            <ul class="nav oc-submenu flex-column pl-3">
+                                <li class="nav-item"><a href="#" class="nav-link">Auditoría</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Riesgos y cumplimiento</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg px-2 px-md-4">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="/img/icon-territorio.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Territorio</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Casanare</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Boyacá</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Santander</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Antioquia</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Córdoba</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sucre</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg px-2 px-md-4">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="/img/icon-como-vamos.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Cómo vamos</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">TBG</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">ONDA (ASE)</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Operaciones</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Financieros</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Ambiental y HSE</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Cultura</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Abastecimiento</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg px-2 px-md-4">
+                    <div class="oc-menu-principal__bottom__heading">
+                        <img src="/img/icon-ayuda.svg" alt="" class="oc-menu-principal__bottom__heading__icon">
+                        <h3 class="oc-menu-principal__bottom__heading__title">Ayuda</h3>
+                    </div>
+                    <ul class="oc-menu-principal__bottom__nav nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link">Tutoriales</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Reportes de actos y condiciones</a></li>
+                        <li class="nav-item item-has-child">
+                            <a href="#" class="nav-link d-flex justify-content-between align-items-center">
+                                Puntos de contacto
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481"
+                                    viewBox="0 0 6.918 11.481">
+                                    <path id="Trazado_273" data-name="Trazado 273"
+                                        d="M821.129,475.686l4.075,4.075-4.075,4.075"
+                                        transform="translate(-819.464 -474.021)" fill="none" stroke="#ffffff"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355" />
+                                </svg>
+                            </a>
+                            <ul class="nav oc-submenu flex-column pl-3">
+                                <li class="nav-item"><a href="#" class="nav-link">Línea ética</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">PUC</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Comité de convivencia</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">COPASST</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">PQRS/FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="oc-menu-principal__footer py-4 px-4 px-lg-0">
+        <img src="/img/ocensa-logosimbolo.svg" alt="" class="oc-menu-principal__footer__symbol">
+        <div class="row justify-content-center flex-column flex-lg-row text-left text-lg-center">
+            <div class="col-12 col-lg-3">
+                <a href="#">Mapa del sitio</a>
+            </div>
+            <div class="col-12 col-lg-3">
+                <a href="#">Términos y condiciones</a>
+            </div>
+            <div class="col-12 col-lg-3">
+                <a href="#">Política de protección de datos</a>
+            </div>
+        </div>
+    </div> 
+</div>
+<main class="oc-content py-0 py-md-5" id="main-cas-porvenir">
+    <!-- Section 01 -->
+    <section class="oc-widgets-section mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Widget principal -->
+                <div class="col-12 col-md-4">
+                    <div class="oc-card-widget oc-widget-principal">
+                        <div class="oc-card-widget__body p-3">
+                            <h2 class="oc-widget-principal__title mt-4">
+                                <span class="oc-widget-principal__title__01">Estación</span><br>
+                                <span class="oc-widget-principal__title__02">EL PORVENIR</span>
+                            </h2>
+                            <a href="#" class="oc-btn oc-btn-active mt-3">
+                                <span class="oc-btn__arrow-left mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.627" height="8.812"
+                                        viewBox="0 0 16.627 8.812">
+                                        <g id="Grupo_10211" data-name="Grupo 10211"
+                                            transform="translate(1078.827 1388.831) rotate(180)">
+                                            <path id="Path_4969" data-name="Path 4969" d="M1062.2,1384.467h15.7"
+                                                fill="none" stroke="#fff" stroke-width="1.177" />
+                                            <path id="Path_4970" data-name="Path 4970"
+                                                d="M1074,1380.436l3.99,3.99-3.99,3.989" fill="none" stroke="#fff"
+                                                stroke-width="1.177" />
+                                        </g>
+                                    </svg>
+                                </span> Regresar a Casanare </span>
+                            </a>
+                            <div class="oc-widget-principal__leyend mt-4 text-center">
+                                <h5 class="oc-widget-principal__leyend__text m-0"><span
+                                        class="oc-widget-principal__leyend__text__01">Sector Sur /</span> <span
+                                        class="oc-widget-principal__leyend__text__02">Segmento 1</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Widget slider -->
+                <div class="col-12 col-md-8">
+                    <div class="oc-card-widget oc-widget-slider">
+                        <div class="oc-card-widget__body">
+                            <div class="oc-slick-widget__slider oc-slick-theme">
+                                <div class="item">
+                                    <img src="/img/1-slide-1.png" alt="" class="img-fluid">
+                                </div>
+
+                                <div class="item">
+                                    <img src="/img/1-slide-2-min.jpg" alt="" class="img-fluid">
+                                </div>
+
+                                <div class="item">
+                                    <img src="/img/1-slide-3-min.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 02 -->
+    <section class="oc-widgets-section mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="oc-card-widget oc-widget-template wdg-la-estacion oc-card-estacion-porvenir" id="wdg-la-estacion">
+                        <div class="oc-widget-template__top-bar oc-bg-gray">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-la_estacion.svg" alt="">
+                                <span>La estación</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-4">
+                            <div class="d-flex wdg-la-estacion__item align-items-center py-1">
+                                <img src="/img/estacion_porvenir.svg" alt="">
+                                <div class="wdg-la-estacion__cont-text">
+                                    <p>El porvenir es una estación de:</p>
+                                    <ul class="oc-list-color">
+                                        <li>Recibido</li>
+                                        <li>Almacenamiento</li>
+                                        <li>Despacho</li>
+                                    </ul>
+                                    <p class="variant-text-01">De los diferentes tipos de crudo.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex wdg-la-estacion__item align-items-center py-1">
+                                <img src="/img/rebombeo.svg" alt="">
+                                <div class="wdg-la-estacion__cont-text">
+                                    <p>Su ubicación <b>es clave para el rebombeo</b> de los crudos que llegan de Cusiana y líneas aferentes de:</p>
+                                    <ul class="oc-list-normal">
+                                        <li>Monterrey</li>
+                                        <li>Altos de Porvenir</li>
+                                        <li>Santiago</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex wdg-la-estacion__item align-items-center py-1">
+                                <img src="/img/barriles.svg" alt="">
+                                <p>En la estación, los crudos se <b>organizan en lotes</b> (baches) y se despachan en tiempos y tamaños determinados, acorde a la programación de los remitentes.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8">
+                    <div class="oc-card-widget oc-widget-template wdg-ubicacion wdg-ubicacion__porvenir" id="wdg-ubicacion">
+                        <div class="oc-widget-template__top-bar oc-bg-gray">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-ubicacion.svg" alt="">
+                                <span>Ubicación</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body wdg-banner wdg-banner__porvenir">
+                            <div class="row">
+                                <div class="col-12 col-md-9 wdg-banner__bg dragscroll">
+                                    <img src="/img/2.ubicacion.jpg" alt="">
+                                </div>
+                                <div class="col-12 col-md-3 h-100 oc-bg-green py-3 wdg-banner__info">
+                                    <p>Saliendo por la vía central de Monterrey, al norte, pasará por el puente del río Tua. Después, debe tomar la vía Porvenir para llegar a la estación.</b></p>
+
+                                    <div
+                                        class="wdg-banner__info__km d-flex align-items-center justify-content-center flex-wrap first-child">
+                                        <img src="/img/altitud.svg" alt="">
+                                        <div class="wdg-banner__info-location">
+                                            <span class="number">
+                                                500
+                                            </span>
+                                            <span class="km">
+                                                m.s.n.m
+                                            </span>
+                                        </div>
+                                        <p class="leyend text-center">
+                                            Altitud
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="wdg-banner__info__km d-flex align-items-center justify-content-center flex-wrap">
+                                        <img src="/img/temperatura.svg" alt="">
+                                        <span class="number">
+                                            27°
+                                        </span>
+                                        <span class="km">
+                                            C
+                                        </span>
+                                        <p class="leyend text-center">
+                                            Temperatura promedio
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="wdg-banner__info__km wdg-banner__info__km__02 d-flex align-items-center justify-content-center flex-wrap">
+                                        <img src="/img/estacion_rio.svg" alt="">
+                                        <span class="number">
+                                            XX
+                                        </span>
+                                        <span class="km">
+                                            Km
+                                        </span>
+                                        <p class="leyend text-center">
+                                            El recorrido dura unos 20 minutos (11.2 km aproximadamente).<br> 21 minutos 11.2 km
+
+                                        </p>
+                                    </div>
+                                    <a href="https://www.google.com/maps/search/estacion+cusiana+ocensa+tauramena/@5.0013687,-72.707392,1949m/data=!3m1!1e3 "
+                                        target="_blank" class="oc-btn oc-btn-active mt-3">
+                                        </span> Ir al mapa </span>
+                                        <span class="oc-btn__arrow-right ml-2">
+                                            <img src="/img/button-arrow-right.svg" alt="">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 03 -->
+    <section class="oc-widgets-section mt-4" id="wdg-section-03">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="oc-card-widget oc-widget-template wdg-almacenamiento oc-porvenir__almacenamiento" id="wdg-almacenamiento">
+                        <div class="oc-widget-template__top-bar oc-bg-blue-light">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-almacenamiento.svg" alt="">
+                                <span>Almacenamiento</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row oc-porvenir__row">
+                            <!--item-->
+                            <div class="oc-porvenir__almacenamiento-item">
+                                    <div class="oc-widget-template__body text-center">
+                                        <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                2
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanques
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla.svg" alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">50.000</span>
+                                            <p class="roboto-bold">BARRILES C/U</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Crudo pesado</span>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!--item-->
+                            <div class="oc-porvenir__almacenamiento-item">
+                                <div class="row">
+                                    <div class="oc-widget-template__body text-center">
+                                        <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                2
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanques
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla.svg" alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">50.000</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Crudo pesado</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!--item-->
+                            <div class="oc-porvenir__almacenamiento-item">
+                                <div class="row">
+                                    <div class="oc-widget-template__body text-center">
+                                        <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                1
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanque
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg" alt="" class="item-03__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">60.000</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Crudo pesado</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- item-->
+                            <div class="oc-porvenir__almacenamiento-final">
+                                <div class="row oc-porvenir__almacenamiento-final-item">
+                                    <p>Almacenamiento total para crudo mezcla</p>
+                                    <div class="oc-porvenir__img-almacenamiento">
+                                        <img src="/img/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__data-number">
+                                        <span class="number">160.000</span>
+                                        <span class="text">BARRILES</span>
+                                    </div>
+                                </div>
+
+                                <div class="row oc-porvenir__almacenamiento-final-item">
+                                    <p>Almacenamiento total para crudo pesado</p>
+                                    <div class="oc-porvenir__img-almacenamiento">
+                                        <img src="/img/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__data-number">
+                                        <span class="number">100.000</span>
+                                        <span class="text">BARRILES</span>
+                                    </div>
+                                </div>
+
+                                <div class="oc-porvenir__modal-button">
+                                    <button>Ver fotos <img src="/img/icon-camara.svg" alt=""></button>
+                                    <button>Ver videos <img src="/img/icon-camara.svg" alt=""></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="oc-card-widget oc-widget-template wdg-distancia" id="wdg-distancia">
+                        <div class="oc-widget-template__top-bar oc-bg-green">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-distancia_linea.svg" alt="">
+                                <span>Distancia de línea</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3 py-2 text-center">
+                            <div class="item-01 text-center row align-items-center">
+                                <div class="col-4 p-0 item-01 item-01__left">
+                                    <img src="/img/estacion_cupiagua.svg" alt="" class="img-fluid">
+                                    <p class="roboto-bold m-0 est-name">
+                                        Cupiagua
+                                    </p>
+                                    <span class="oc-number-medium c-green">
+                                        300
+                                    </span>
+                                    <p class="roboto-regular m-0">m.s.n.m.</p>
+                                </div>
+                                <div class="col-4 p-0 item-01__center">
+                                    <span class="roboto-regular">39 Km</span>
+                                    <img src="/img/line-divider.svg" alt="">
+                                </div>
+                                <div class="col-4 p-0 item-01__right">
+                                    <img src="/img/estacion_cusiana.svg" alt="" class="img-fluid">
+                                    <p class="roboto-bold est-name m-0">
+                                        Cusiana
+                                    </p>
+                                    <span class="oc-number-medium c-green">
+                                        460
+                                    </span>
+                                    <p class="roboto-regular m-0">m.s.n.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="item-02 mt-2">
+                                <div class="oc-box-dato d-flex">
+                                    <img src="/img/dato.svg" alt="" class="oc-box-dato__img">
+                                    <div class="oc-box-dato__text p-2">
+                                        <h5 class="oc-box-dato__text__title roboto-bold">Dato</h5>
+                                        <p class="oc-box-dato__text__desc">
+                                            A través de esta línea de 16 pulgadas, se transfiere crudo y agua del
+                                            proceso del CPF Cupiagua-Ecopetrol.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="oc-card-widget oc-widget-template wdg-bombeo" id="wdg-bombeo">
+                        <div class="oc-widget-template__top-bar oc-bg-green">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-sistema_bombeo.svg" alt="">
+                                <span>Sistema de bombeo</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3 py-2 text-center">
+                            <div class="item-01">
+                                <div class="oc-box-dato d-flex py-2 px-3">
+                                    <div>
+                                        <img src="/img/unidad_de_transferencia_line.svg" alt=""
+                                            class="oc-box-dato__img">
+                                    </div>
+                                    <div class="oc-box-dato__text text-left">
+                                        <span class="oc-number-medium mr-2 c-green">
+                                            1
+                                        </span>
+                                        <p class="oc-box-dato__text__desc roboto-bold">
+                                            Unidad de transferencia de medición de crudo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item-02 mt-3">
+                                <div class="oc-box-dato d-flex py-2 px-3">
+                                    <div>
+                                        <img src="/img/unidad_booster_electrica_line.svg" alt=""
+                                            class="oc-box-dato__img">
+                                    </div>
+                                    <div class="oc-box-dato__text text-left">
+                                        <span class="oc-number-medium mr-2 c-green">
+                                            1
+                                        </span>
+                                        <p class="oc-box-dato__text__desc roboto-bold">
+                                            Sistema de bombeo booster
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 04 -->
+    <section class="oc-widgets-section mt-4" id="wdg-section-04">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="oc-card-widget oc-widget-template wdg-personal wdg-bombeo wdg-personal-porvenir" id="wdg-personal">
+                        <div class="oc-widget-template__top-bar oc-bg-gray">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-personal.svg" alt="">
+                                <span>Personal</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3 py-2">
+                            <div class="oc-porvenir__personal">
+
+                                <div class="oc-porvenir__personal-item">
+                                    <div class="oc-porvenir__personal-avatar">
+                                        <img src="/img/diego-guzman.png" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__personal-info">
+                                        <h5>Diego Guzmán</h5>
+                                        <p>Superintendente<br>Sector 1</p>
+                                        <div class="oc-porvenir__personal-team dragscroll">
+                                            <div class="oc-porvenir__personal-scroll">
+                                                <img src="/img/sin-foto-personal.png" alt="">
+                                                <img src="/img/elkin-orjuela.png" alt="">
+                                                <img src="/img/sin-foto-personal.png" alt="">
+                                                <img src="/img/sin-foto-personal.png" alt="">
+                                                <img src="/img/sin-foto-personal.png" alt="">
+                                                <img src="/img/sin-foto-personal.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="oc-porvenir__personal-item">
+                                    <div class="oc-porvenir__personal-avatar">
+                                        <img src="/img/hugo-garcia.png" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__personal-info">
+                                        <h5>Hugo García</h5>
+                                        <p>Superintendente de línea y mantenimiento mayor sur </p>
+                                    </div>
+                                </div>
+
+                                <div class="oc-porvenir__personal-item">
+                                    <div class="oc-porvenir__personal-avatar">
+                                        <img src="/img/sin-foto-personal.png" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__personal-info">
+                                        <h5>Januario Barbosa</h5>
+                                        <p>Jefe sector</p>
+                                    </div>
+                                </div>
+
+                                <div class="oc-porvenir__personal-item oc-porvenir__personal-item-02">
+                                    <div class="oc-porvenir__personal-avatar">
+                                        <img src="/img/sin-foto-personal.png" alt="">
+                                    </div>
+                                    <div class="oc-porvenir__personal-info">
+                                        <h5>Ray Ramirez</h5>
+                                        <p>Profesional de Emergencias y contingencias</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="oc-card-widget oc-widget-template wdg-demografico wdg-bombeo" id="wdg-personal">
+                        <div class="oc-widget-template__top-bar oc-bg-green">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icon_territorio_el_porvenir_demografico_icono_menu.svg" alt="">
+                                <span>Demográfico</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3 py-2">
+                            <div class="wdg-demografico__car">
+
+                                <div class="wdg-demografico__item">
+                                    <h3 class="wdg-demografico__title">TRABAJADORES EN ESTACIÓN</h3>
+                                    <img src="/img/grafica-demografico-01.svg" alt="" class="wdg-demografico__grafica">
+                                    <div class="wdg-demografico__dates">
+                                        <div class="wdg-demografico__dates-item">
+                                            <p>Total trabajadores en estación</p>
+                                            <span>85</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item">
+                                            <p class="oc-text-blue">Ocensa</p>
+                                            <span>23</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item">
+                                            <p class="oc-text-grey">Contratistas</p>
+                                            <span>62</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="wdg-demografico__item">
+                                    <h3 class="wdg-demografico__title">MUJERES Y HOMBRES</h3>
+                                    <img src="/img/grafica-demografico-02.svg" alt="" class="wdg-demografico__grafica">
+                                    <div class="wdg-demografico__dates">
+                                        <div class="wdg-demografico__dates-item">
+                                            <p>Total trabajadores Ocensa</p>
+                                            <span>23</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item">
+                                            <p class="oc-text-blue">Mujeres</p>
+                                            <span>10</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item">
+                                            <p class="oc-text-grey">Hombres</p>
+                                            <span>13</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="wdg-demografico__item">
+                                    <h3 class="wdg-demografico__title">GENERACIONES</h3>
+                                    <img src="/img/grafica-demografico-03.svg" alt="" class="wdg-demografico__grafica">
+                                    <div class="wdg-demografico__dates">
+                                        <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
+                                            <p class="oc-text-green">Generación Z</p>
+                                            <span>00</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
+                                            <p class="oc-text-blue">Generación Y</p>
+                                            <span>00</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
+                                            <p class="oc-text-yellow">Generación X</p>
+                                            <span>00</span>
+                                        </div>
+                                        <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
+                                            <p class="oc-text-grey">Generación Baby boomers</p>
+                                            <span>00</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="oc-card-widget oc-widget-template wdg-onda wdg-bombeo" id="wdg-personal">
+                        <div class="oc-widget-template__top-bar oc-bg-blue">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icon_territorio_el_porvenir_seguridad_icono_menu.svg" alt="">
+                                <span>ONDA</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3 py-2">
+                            <p>Alerta temprana de la Defensoría del Pueblo sobre la circulación de panfletos bajo el rótulo de Autodefensas Gaitanistas de Colombia en los municipios de Sácama, La Salina, Támara, Yopal y Aguazul en Casanare.</p>
+                            <img src="/img/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg" alt="" class="wdg-onda__img">
+                            <div class="wdg-onda__cont-btn">
+                                <a href="#" class="oc-btn">Ir al boletín ONDA
+                                    <span class="before-left">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15.671" height="8.786" viewBox="0 0 15.671 8.786">
+                                            <g id="Grupo_650" data-name="Grupo 650" transform="translate(0 0.403)">
+                                                <path id="Path_4969" data-name="Path 4969" d="M1062.2,1384.467h14.771" transform="translate(-1062.2 -1380.436)" fill="none" stroke="#fff" stroke-width="2"/>
+                                                <path id="Path_4970" data-name="Path 4970" d="M1074,1380.436l3.755,3.99-3.755,3.989" transform="translate(-1062.896 -1380.436)" fill="none" stroke="#fff" stroke-width="2"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<a href="#top" class="oc-btn-back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.5" height="62.5" viewBox="0 0 62.5 62.5">
+        <g id="Componente_12_28" data-name="Componente 12 – 28" transform="translate(1.25 1.25)">
+            <circle id="Elipse_48" data-name="Elipse 48" cx="30" cy="30" r="30" fill="#fff" stroke="#19a501" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            <path id="Trazado_436" data-name="Trazado 436" d="M694.479,668.7l-8.848,8.848-8.848-8.848" transform="translate(715.479 703.549) rotate(180)" fill="none" stroke="#19a501" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        </g>
+    </svg>
+</a>
+</div><!-- end #app-->
+
+<footer class="oc-footer oc-bg-gray-light pt-3 pb-4 d-none d-lg-block">
+    <div class="row row-footer">
+        <div class="col-12 col-lg-10 oc-footer-left pr-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12 col-md-4 d-flex align-items-center">
+                    <img src="/img/ocensa-logosimbolo.svg" alt="" class="oc-footer__logo">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/facebook.svg"
+                                    alt=""></a></li>
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/youtube.svg"
+                                    alt=""></a></li>
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/instagram.svg"
+                                    alt=""></a></li>
+                        <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-8 oc-legal-links">
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item"><a href="">Mapa del sitio</a></li>
+                        <li class="nav-item"><a href="">Términos y condiciones</a></li>
+                        <li class="nav-item"><a href="">Políticas de protección de datos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-2 oc-menu-footer pl-lg-5">
+            <ul class="nav flex-column">
+                <a href="">Nosotros</a>
+                <a href="">Direcciones</a>
+                <a href="">Territorio</a>
+                <a href="">Cómo vamos</a>
+                <a href="">Ayuda</a>
+            </ul>
+        </div>
+        <div class="col-12">
+            <p class="oc-copyright mt-3 text-center">© 2021 OCENSA. Todos los derechos reservados</p>
+        </div>
+    </div>
+</footer>
+
+<footer class="oc-footer-resp oc-bg-gray-light d-block d-lg-none pb-5">
+    <div class="p-4 p-lg-5">
+        <img src="/img/ocensa-logosimbolo.svg" alt="" class="oc-footer-resp__logo">
+        <ul class="nav oc-footer-social mt-5">
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/facebook.svg" alt=""></a>
+            </li>
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/youtube.svg" alt=""></a>
+            </li>
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/instagram.svg" alt=""></a>
+            </li>
+            <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="/img/twitter.svg" alt=""></a>
+            </li>
+        </ul>
+        <ul class="nav flex-column oc-legal-links mt-3">
+            <li class="nav-item"><a href="">Mapa del sitio</a></li>
+            <li class="nav-item"><a href="">Terminos y condiciones</a></li>
+            <li class="nav-item"><a href="">Politicas de proteccion de datos</a></li>
+        </ul>
+        <p class="oc-resp-copyright mt-4">© 2021 OCENSA. Todos los derechos reservados</p>
+    </div>
+</footer>
+<script src="../js/bundle.js"></script></body>
+
+</html>
