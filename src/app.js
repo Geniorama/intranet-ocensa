@@ -411,6 +411,16 @@ import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-download-g
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/flecha-right-verde.svg";
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/profile-send1.jpg";
 import "./img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-envelope1.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/7-icon-menu-descargadero.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/capacidad_descarga.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/tiempo_descarga.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/point.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point-2.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/numero_bahias.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point-3.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/line-and-point-4.svg";
+import "./img/estaciones/cusiana/7-icon-descargadero/tipo_carro_tanques.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
