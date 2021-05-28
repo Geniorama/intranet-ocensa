@@ -13,6 +13,11 @@ module.exports = {
         path: path.join(__dirname, 'dist')
     },
 
+    optimization: {
+        // We no not want to minimize our code.
+        minimize: false,
+    },
+
     devServer: {
         contentBase: "dist",
         compress: true,
