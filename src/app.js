@@ -469,6 +469,7 @@ import "./img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg";
 import "./img/perfil-oleoducto-casanare/recorrido-casanare.svg";
 import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
 import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
+import "./img/perfil-oleoducto-casanare/cundinamarca-info.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
