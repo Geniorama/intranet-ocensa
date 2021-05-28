@@ -377,6 +377,7 @@ import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_e
 import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas-lluvia.svg";
 import "./img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia.svg";
 import "./img/estaciones/el-porvenir/11-icon-seguridad-hse/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg";
+import "./img/estaciones/line-intercalada.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
