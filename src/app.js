@@ -464,6 +464,12 @@ import "./img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg"
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
 
 
+// PERFIL ESTACIONES CASANARE
+import "./img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg";
+import "./img/perfil-oleoducto-casanare/recorrido-casanare.svg";
+import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
+import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({
