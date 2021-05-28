@@ -10974,32 +10974,6 @@ return jQuery;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -14015,13 +13989,39 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! smooth-scroll v16.1.3 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
 window.Element&&!Element.prototype.closest&&(Element.prototype.closest=function(e){var t,n=(this.document||this.ownerDocument).querySelectorAll(e),o=this;do{for(t=n.length;0<=--t&&n.item(t)!==o;);}while(t<0&&(o=o.parentElement));return o}),(function(){if("function"==typeof window.CustomEvent)return;function e(e,t){t=t||{bubbles:!1,cancelable:!1,detail:void 0};var n=document.createEvent("CustomEvent");return n.initCustomEvent(e,t.bubbles,t.cancelable,t.detail),n}e.prototype=window.Event.prototype,window.CustomEvent=e})(),(function(){for(var r=0,e=["ms","moz","webkit","o"],t=0;t<e.length&&!window.requestAnimationFrame;++t)window.requestAnimationFrame=window[e[t]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[e[t]+"CancelAnimationFrame"]||window[e[t]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(e,t){var n=(new Date).getTime(),o=Math.max(0,16-(n-r)),a=window.setTimeout((function(){e(n+o)}),o);return r=n+o,a}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(e){clearTimeout(e)})})(),(function(e,t){ true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function(){return t(e)}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined})("undefined"!=typeof global?global:"undefined"!=typeof window?window:this,(function(M){"use strict";var q={ignore:"[data-scroll-ignore]",header:null,topOnEmptyHash:!0,speed:500,speedAsDuration:!1,durationMax:null,durationMin:null,clip:!0,offset:0,easing:"easeInOutCubic",customEasing:null,updateURL:!0,popstate:!0,emitEvents:!0},I=function(){var n={};return Array.prototype.forEach.call(arguments,(function(e){for(var t in e){if(!e.hasOwnProperty(t))return;n[t]=e[t]}})),n},r=function(e){"#"===e.charAt(0)&&(e=e.substr(1));for(var t,n=String(e),o=n.length,a=-1,r="",i=n.charCodeAt(0);++a<o;){if(0===(t=n.charCodeAt(a)))throw new InvalidCharacterError("Invalid character: the input contains U+0000.");1<=t&&t<=31||127==t||0===a&&48<=t&&t<=57||1===a&&48<=t&&t<=57&&45===i?r+="\\"+t.toString(16)+" ":r+=128<=t||45===t||95===t||48<=t&&t<=57||65<=t&&t<=90||97<=t&&t<=122?n.charAt(a):"\\"+n.charAt(a)}return"#"+r},F=function(){return Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.body.clientHeight,document.documentElement.clientHeight)},L=function(e){return e?(t=e,parseInt(M.getComputedStyle(t).height,10)+e.offsetTop):0;var t},x=function(e,t,n){0===e&&document.body.focus(),n||(e.focus(),document.activeElement!==e&&(e.setAttribute("tabindex","-1"),e.focus(),e.style.outline="none"),M.scrollTo(0,t))},H=function(e,t,n,o){if(t.emitEvents&&"function"==typeof M.CustomEvent){var a=new CustomEvent(e,{bubbles:!0,detail:{anchor:n,toggle:o}});document.dispatchEvent(a)}};return function(o,e){var b,a,A,O,C={};C.cancelScroll=function(e){cancelAnimationFrame(O),O=null,e||H("scrollCancel",b)},C.animateScroll=function(a,r,e){C.cancelScroll();var i=I(b||q,e||{}),c="[object Number]"===Object.prototype.toString.call(a),t=c||!a.tagName?null:a;if(c||t){var s=M.pageYOffset;i.header&&!A&&(A=document.querySelector(i.header));var n,o,u,l,m,d,f,h,p=L(A),g=c?a:(function(e,t,n,o){var a=0;if(e.offsetParent)for(;a+=e.offsetTop,e=e.offsetParent;);return a=Math.max(a-t-n,0),o&&(a=Math.min(a,F()-M.innerHeight)),a})(t,p,parseInt("function"==typeof i.offset?i.offset(a,r):i.offset,10),i.clip),y=g-s,v=F(),w=0,S=(n=y,u=(o=i).speedAsDuration?o.speed:Math.abs(n/1e3*o.speed),o.durationMax&&u>o.durationMax?o.durationMax:o.durationMin&&u<o.durationMin?o.durationMin:parseInt(u,10)),E=function(e){var t,n,o;l||(l=e),w+=e-l,d=s+y*(n=m=1<(m=0===S?0:w/S)?1:m,"easeInQuad"===(t=i).easing&&(o=n*n),"easeOutQuad"===t.easing&&(o=n*(2-n)),"easeInOutQuad"===t.easing&&(o=n<.5?2*n*n:(4-2*n)*n-1),"easeInCubic"===t.easing&&(o=n*n*n),"easeOutCubic"===t.easing&&(o=--n*n*n+1),"easeInOutCubic"===t.easing&&(o=n<.5?4*n*n*n:(n-1)*(2*n-2)*(2*n-2)+1),"easeInQuart"===t.easing&&(o=n*n*n*n),"easeOutQuart"===t.easing&&(o=1- --n*n*n*n),"easeInOutQuart"===t.easing&&(o=n<.5?8*n*n*n*n:1-8*--n*n*n*n),"easeInQuint"===t.easing&&(o=n*n*n*n*n),"easeOutQuint"===t.easing&&(o=1+--n*n*n*n*n),"easeInOutQuint"===t.easing&&(o=n<.5?16*n*n*n*n*n:1+16*--n*n*n*n*n),t.customEasing&&(o=t.customEasing(n)),o||n),M.scrollTo(0,Math.floor(d)),(function(e,t){var n=M.pageYOffset;if(e==t||n==t||(s<t&&M.innerHeight+n)>=v)return C.cancelScroll(!0),x(a,t,c),H("scrollStop",i,a,r),!(O=l=null)})(d,g)||(O=M.requestAnimationFrame(E),l=e)};0===M.pageYOffset&&M.scrollTo(0,0),f=a,h=i,c||history.pushState&&h.updateURL&&history.pushState({smoothScroll:JSON.stringify(h),anchor:f.id},document.title,f===document.documentElement?"#top":"#"+f.id),"matchMedia"in M&&M.matchMedia("(prefers-reduced-motion)").matches?x(a,Math.floor(g),!1):(H("scrollStart",i,a,r),C.cancelScroll(!0),M.requestAnimationFrame(E))}};var t=function(e){if(!e.defaultPrevented&&!(0!==e.button||e.metaKey||e.ctrlKey||e.shiftKey)&&"closest"in e.target&&(a=e.target.closest(o))&&"a"===a.tagName.toLowerCase()&&!e.target.closest(b.ignore)&&a.hostname===M.location.hostname&&a.pathname===M.location.pathname&&/#/.test(a.href)){var t,n;try{t=r(decodeURIComponent(a.hash))}catch(e){t=r(a.hash)}if("#"===t){if(!b.topOnEmptyHash)return;n=document.documentElement}else n=document.querySelector(t);(n=n||"#top"!==t?n:document.documentElement)&&(e.preventDefault(),(function(e){if(history.replaceState&&e.updateURL&&!history.state){var t=M.location.hash;t=t||"",history.replaceState({smoothScroll:JSON.stringify(e),anchor:t||M.pageYOffset},document.title,t||M.location.href)}})(b),C.animateScroll(n,a))}},n=function(e){if(null!==history.state&&history.state.smoothScroll&&history.state.smoothScroll===JSON.stringify(b)){var t=history.state.anchor;"string"==typeof t&&t&&!(t=document.querySelector(r(history.state.anchor)))||C.animateScroll(t,null,{updateURL:!1})}};C.destroy=function(){b&&(document.removeEventListener("click",t,!1),M.removeEventListener("popstate",n,!1),C.cancelScroll(),O=A=a=b=null)};return (function(){if(!("querySelector"in document&&"addEventListener"in M&&"requestAnimationFrame"in M&&"closest"in M.Element.prototype))throw"Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.";C.destroy(),b=I(q,e||{}),A=b.header?document.querySelector(b.header):null,document.addEventListener("click",t,!1),b.updateURL&&b.popstate&&M.addEventListener("popstate",n,!1)})(),C}}));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(1)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)))
 
 /***/ }),
 /* 4 */
@@ -21083,7 +21083,7 @@ Popper.Defaults = Defaults;
 /* harmony default export */ __webpack_exports__["default"] = (Popper);
 //# sourceMappingURL=popper.js.map
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(1)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)))
 
 /***/ }),
 /* 6 */
@@ -21116,7 +21116,7 @@ var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
 var bootstrap = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./node_modules/slick-carousel/slick/slick.js
-var slick = __webpack_require__(2);
+var slick = __webpack_require__(1);
 
 // EXTERNAL MODULE: ./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js
 var smooth_scroll_polyfills_min = __webpack_require__(3);
@@ -21328,6 +21328,107 @@ jquery_default()('.wdg-demografico__car').slick({
   dots: false,
   prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
   nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>"
+});
+// CONCATENATED MODULE: ./src/modules/WidgetGaleria.js
+
+
+jquery_default()('.oc-slick-galeria').slick({
+  slidesToShow: 1,
+  prevArrow: "<img src='img/slick-arrow-left-02.svg' class='custom-slick-arrow arrow-left'>",
+  nextArrow: "<img src='img/slick-arrow-right-02.svg' class='custom-slick-arrow arrow-right'>",
+  arrows: false,
+  dots: true,
+  infinite: false,
+  slidesToScroll: 1,
+  vertical: true,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 575.98,
+    settings: {
+      vertical: false,
+      verticalSwiping: false
+    }
+  }]
+});
+jquery_default()('.oc-slick-wdg-galeria').slick({
+  prevArrow: "<img src='/img/arrow-left-blue.svg' class='custom-slick-arrow arrow-left'>",
+  nextArrow: "<img src='/img/arrow-right-blue.svg' class='custom-slick-arrow arrow-right'>",
+  dots: true,
+  responsive: [{
+    breakpoint: 575.98,
+    settings: {
+      arrows: false
+    }
+  }]
+});
+jquery_default()('.comment-user__input').focus(function () {
+  jquery_default()('.oc-btn-submit').show();
+  jquery_default()('.comment-user__input').css('max-height', '50px');
+});
+jquery_default()('.comment-user__input').focusout(function () {
+  jquery_default()('.oc-btn-submit').hide();
+  jquery_default()('.comment-user__input').css('max-height', '30px');
+});
+jquery_default()('.oc-widget-galeria__link').click(function (e) {
+  var target = jquery_default()(this).attr('data-widget');
+  jquery_default()(target).addClass('gallery-active');
+  jquery_default()('.oc-box-list').fadeIn();
+});
+jquery_default()('.galeria-close-button').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.contenedor-widget-galeria-foto').removeClass('gallery-active');
+});
+
+if (screen.width > 575.98) {
+  jquery_default()('.oc-btn-share').click(function (e) {
+    e.preventDefault();
+    var item = jquery_default()(this).parent().parent();
+    var list = jquery_default()(this).parent();
+    list.addClass('share-active');
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()(item).find('.oc-box-list').fadeOut();
+    jquery_default()(target).fadeIn();
+  });
+  jquery_default()('.oc-btn-comments').click(function (e) {
+    e.preventDefault();
+    var item = jquery_default()(this).parent().parent();
+    var list = jquery_default()(this).parent();
+    list.removeClass('share-active');
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()(item).find('.oc-box-list').fadeOut();
+    jquery_default()(target).fadeIn();
+  });
+} else {
+  jquery_default()('.oc-btn-share').click(function (e) {
+    e.preventDefault();
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()('.oc-share-mobile').html('<div class="oc-text-right"><img src="img/img-widget-galeria/boton/boton–cerrar.svg" alt="" class="share-close-button"></div>');
+    jquery_default()('.oc-share-mobile').append(jquery_default()(target).html());
+    jquery_default()('.oc-share-mobile').slideDown();
+    jquery_default()('.oc-share-mobile .oc-widget-galeria-foto__content__right__list-share__user').click(function (e) {
+      e.preventDefault();
+
+      if (jquery_default()(this).hasClass('profile-active')) {
+        jquery_default()(this).removeClass('profile-active');
+      } else {
+        jquery_default()(this).addClass('profile-active');
+      }
+    });
+    jquery_default()('.share-close-button').click(function (e) {
+      e.preventDefault();
+      jquery_default()('.oc-share-mobile').slideUp();
+    });
+  });
+}
+
+jquery_default()('.oc-widget-galeria-foto__content__right__list-share__user').click(function (e) {
+  e.preventDefault();
+
+  if (jquery_default()(this).hasClass('profile-active')) {
+    jquery_default()(this).removeClass('profile-active');
+  } else {
+    jquery_default()(this).addClass('profile-active');
+  }
 });
 // CONCATENATED MODULE: ./src/img/barra-lateral-azul/oc-avatar.jpg
 /* harmony default export */ var oc_avatar = (__webpack_require__.p + "img/oc-avatar.jpg");
@@ -21985,6 +22086,88 @@ jquery_default()('.wdg-demografico__car').slick({
 /* harmony default export */ var profile_send1 = (__webpack_require__.p + "img/profile-send1.jpg");
 // CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-envelope1.svg
 /* harmony default export */ var icon_envelope1 = (__webpack_require__.p + "img/icon-envelope1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/7-icon-menu-descargadero.svg
+/* harmony default export */ var _7_icon_menu_descargadero = (__webpack_require__.p + "img/7-icon-menu-descargadero.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/capacidad_descarga.svg
+/* harmony default export */ var capacidad_descarga = (__webpack_require__.p + "img/capacidad_descarga.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point.svg
+/* harmony default export */ var line_and_point = (__webpack_require__.p + "img/line-and-point.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/tiempo_descarga.svg
+/* harmony default export */ var tiempo_descarga = (__webpack_require__.p + "img/tiempo_descarga.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/point.svg
+/* harmony default export */ var point = (__webpack_require__.p + "img/point.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-2.svg
+/* harmony default export */ var line_and_point_2 = (__webpack_require__.p + "img/line-and-point-2.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/numero_bahias.svg
+/* harmony default export */ var numero_bahias = (__webpack_require__.p + "img/numero_bahias.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-3.svg
+/* harmony default export */ var line_and_point_3 = (__webpack_require__.p + "img/line-and-point-3.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-4.svg
+/* harmony default export */ var line_and_point_4 = (__webpack_require__.p + "img/line-and-point-4.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/tipo_carro_tanques.svg
+/* harmony default export */ var tipo_carro_tanques = (__webpack_require__.p + "img/tipo_carro_tanques.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–adelante.svg
+/* harmony default export */ var boton_adelante = (__webpack_require__.p + "img/boton–adelante.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–atras.svg
+/* harmony default export */ var boton_atras = (__webpack_require__.p + "img/boton–atras.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–cerrar.svg
+/* harmony default export */ var boton_cerrar = (__webpack_require__.p + "img/boton–cerrar.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–compartir.svg
+/* harmony default export */ var boton_compartir = (__webpack_require__.p + "img/boton–compartir.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–publicar.svg
+/* harmony default export */ var boton_publicar = (__webpack_require__.p + "img/boton–publicar.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/gallery-img.jpg
+/* harmony default export */ var gallery_img = (__webpack_require__.p + "img/gallery-img.jpg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10604.png
+/* harmony default export */ var Group_10604 = (__webpack_require__.p + "img/Group 10604.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10606.png
+/* harmony default export */ var Group_10606 = (__webpack_require__.p + "img/Group 10606.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10609.png
+/* harmony default export */ var Group_10609 = (__webpack_require__.p + "img/Group 10609.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10611.png
+/* harmony default export */ var Group_10611 = (__webpack_require__.p + "img/Group 10611.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10613.png
+/* harmony default export */ var Group_10613 = (__webpack_require__.p + "img/Group 10613.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10615.png
+/* harmony default export */ var Group_10615 = (__webpack_require__.p + "img/Group 10615.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10617.png
+/* harmony default export */ var Group_10617 = (__webpack_require__.p + "img/Group 10617.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/imagen/logo_ocensa_logosimbolo.png
+/* harmony default export */ var imagen_logo_ocensa_logosimbolo = (__webpack_require__.p + "img/logo_ocensa_logosimbolo.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/arrow-left-blue.svg
+/* harmony default export */ var arrow_left_blue = (__webpack_require__.p + "img/arrow-left-blue.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/arrow-right-blue.svg
+/* harmony default export */ var arrow_right_blue = (__webpack_require__.p + "img/arrow-right-blue.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-cerrar_mover.svg
+/* harmony default export */ var icon_cerrar_mover = (__webpack_require__.p + "img/icon-cerrar_mover.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon–comentario.svg
+/* harmony default export */ var icon_comentario = (__webpack_require__.p + "img/icon–comentario.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-comentario-2.svg
+/* harmony default export */ var icon_comentario_2 = (__webpack_require__.p + "img/icon-comentario-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-compartir.svg
+/* harmony default export */ var icon_compartir = (__webpack_require__.p + "img/icon-compartir.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-compartir-2.svg
+/* harmony default export */ var icon_compartir_2 = (__webpack_require__.p + "img/icon-compartir-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-images.svg
+/* harmony default export */ var icon_galeria_images = (__webpack_require__.p + "img/icon-galeria-images.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-video.svg
+/* harmony default export */ var icon_galeria_video = (__webpack_require__.p + "img/icon-galeria-video.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-like.svg
+/* harmony default export */ var icon_like = (__webpack_require__.p + "img/icon-like.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-like-2.svg
+/* harmony default export */ var icon_like_2 = (__webpack_require__.p + "img/icon-like-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-photo.svg
+/* harmony default export */ var icon_photo = (__webpack_require__.p + "img/icon-photo.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-play-video.svg
+/* harmony default export */ var icon_play_video = (__webpack_require__.p + "img/icon-play-video.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon–widget–galeria.svg
+/* harmony default export */ var icon_widget_galeria = (__webpack_require__.p + "img/icon–widget–galeria.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/Trazado 9367.svg
+/* harmony default export */ var Trazado_9367 = (__webpack_require__.p + "img/Trazado 9367.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg
+/* harmony default export */ var _4_sistema_bombeo_min = (__webpack_require__.p + "img/4-sistema-bombeo-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg
+/* harmony default export */ var _3_almacenamiento = (__webpack_require__.p + "img/3-almacenamiento.jpg");
 // CONCATENATED MODULE: ./src/app.js
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -22012,6 +22195,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
  // Modules
+
 
 
 
@@ -22336,6 +22520,52 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======== WIDGETS OCENSA =======
+*/
+// Widget Galeria
 
 
 
