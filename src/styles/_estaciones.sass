@@ -109,6 +109,9 @@
 // Wdg La estación
 .wdg-la-estacion
     height: 412px
+    .oc-la-estacion
+        .oc-number-medium
+            font-family: 'roboto-bold', sans-serif !important
     .wdg-la-estacion__item
         img
             width: 65px
@@ -500,3 +503,13 @@
             background-color: $green_co
             span
                 margin-left: .5em
+
+.oc-slick-almacenamiento
+    .slick-slide
+        height: auto
+    img
+        margin: auto
+
+@include media_breakpoint_down(md)
+    .oc-card-widget
+        height: auto !important
