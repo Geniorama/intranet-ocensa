@@ -501,6 +501,15 @@ import "./img/perfil-ocensa/icon_perfil_usuario_proyectos.svg";
 import "./img/perfil-ocensa/member-elkin-orjuela.png";
 import "./img/perfil-ocensa/member-ximena.png";
 import "./img/perfil-ocensa/member-alexander.png";
+import "./img/perfil-ocensa/icon-video-llamadas.svg";
+import "./img/perfil-ocensa/icon-mensajes-perfil.svg";
+import "./img/perfil-ocensa/icon-alarmas-profile.svg";
+import "./img/perfil-ocensa/date-02-perfil-01.svg";
+import "./img/perfil-ocensa/date-02-perfil-02.svg";
+import "./img/perfil-ocensa/date-02-perfil-03.svg";
+import "./img/perfil-ocensa/date-02-perfil-04.svg";
+import "./img/perfil-ocensa/date-02-perfil-05.svg";
+import "./img/perfil-ocensa/img-perfil-andres.jpg";
 //Perfiles
 import "./img/perfiles/icon-perfiles.svg";
 import "./img/perfiles/doc-1.png";
@@ -1180,6 +1189,15 @@ $('.wdg-proyectos__car').slick({
     slidesToScroll: 2,
 })
 
+$('.wdg-grupos__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 3,
+    verticalSwiping: true,
+    slidesToScroll: 3,
+})
+
 $('.oc-members-carousel').slick({
     arrows: true,
     dots: false,
@@ -1206,4 +1224,13 @@ $('.open-solicitudes').hover(function(e) {
 $('.close-solicitudes').click(function(e) {
     e.preventDefault()
     $('.oc-pop-up').fadeOut()
+})
+
+$('.oc-perfil-date-02__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 1,
+    verticalSwiping: true,
+    slidesToScroll: 1,
 })
