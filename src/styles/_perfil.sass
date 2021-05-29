@@ -247,7 +247,7 @@
             button
                 background-color: $green_co
 
-.oc-members-carousel
+.oc-members-carousel, .oc-members-carousel-02
     position: relative
     &__cont
         margin-right: 4em
@@ -324,6 +324,9 @@
         &:hover
             path
                 stroke: $green_co
+.oc-members-carousel-02
+    &__cont
+        padding-left: 4em
 .wdg-documentos
     height: 100%
 .wdg-grupos
@@ -448,3 +451,122 @@
     background-color: #ECEFF1
     .wdg-publicaciones
         height: 100%
+@include media-breakpoint-down(sm)
+    .oc-perfil-ocensa
+        .oc-content
+            padding: 1em
+        .row
+            margin: 0
+        .col-12
+            padding: 0
+        .oc-perfil-date
+            padding: 0
+            &__img
+                img
+                    width: 100%
+                    height: 400px
+                    overflow: hidden
+            &__info
+                padding: 2em 1em
+            &__desc
+                padding: 0 1em 2em 1em
+    .wdg-documentos
+        &__car
+            padding-bottom: 2em !important
+            padding-right: 1em !important
+        .oc-vertical-slider
+            .slick-dots
+                display: flex
+                top: 95% !important
+                left: 0
+                right: 0
+                padding: 0
+                width: fit-content
+                margin: auto
+                li
+                    margin: 0 .5em
+    .wdg-grupos
+        margin-top: 1.6em
+        .oc-widget-template__body
+            padding: 1em 1em 2em 1em
+        .oc-vertical-slider
+            .slick-dots
+                display: flex
+                top: auto !important
+                left: 0
+                right: 0
+                padding: 0
+                width: fit-content
+                margin: auto
+                bottom: -30px
+                li
+                    margin: 0 .5em
+    .wdg-publicaciones
+        &__car
+            padding-right: 0
+        .oc-widget-template__body
+            padding-bottom: 2em !important
+        .oc-vertical-slider
+            .slick-dots
+                display: flex
+                top: auto !important
+                left: 0
+                right: 0
+                padding: 0
+                width: fit-content
+                margin: auto
+                bottom: -34px
+                li
+                    margin: 0 .5em
+    .wdg-proyectos
+        margin-top: 1.6em
+        height: auto
+        .oc-vertical-slider
+            .slick-dots
+                display: flex
+                top: auto !important
+                left: 0
+                right: 0
+                padding: 0
+                width: fit-content
+                margin: auto
+                bottom: -18px
+                li
+                    margin: 0 .5em
+    .oc-perfil-ocensa-02
+        .oc-content
+            padding: 0 1em
+        .row
+            margin: 0
+        .col-12
+            padding: 0
+        .wdg-publicaciones
+            margin-top: 1.6em
+    .oc-perfil-icons-header
+        &__item
+            margin: 0 1em
+        &__cont-img
+            width: 42px
+            height: 42px
+            img
+                width: 22px
+    .oc-perfil-date-02
+        &__info
+            padding: 1em .5em !important
+        &__desc
+            padding: 0 1em 2em 1em !important
+        .oc-vertical-slider
+            .slick-dots
+                display: flex
+                top: auto !important
+                left: 0
+                right: 0
+                padding: 0
+                width: fit-content
+                margin: auto
+                bottom: -22px
+                li
+                    margin: 0 .5em
+    .oc-section-perfil-01
+        .container
+            padding: 0
