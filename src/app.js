@@ -32,7 +32,6 @@ import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
 
-
 // Images
 import "./img/barra-lateral-azul/oc-avatar.jpg";
 import "./img/barra-lateral-azul/menu-perfil-0-inicio.svg";
@@ -466,6 +465,17 @@ import "./img/widgets-ocensa/img-widget-galeria/icon/Trazado 9367.svg"
 
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg"
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-1-tanques-min.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-2-agua-min.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-3-diluyente-min.jpg"
+
+import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/foto-sistema-bombeo.jpg"
+
+import "./img/estaciones/cusiana/9-icon-demografico/demografico-3-generaciones.svg"
+import "./img/estaciones/cusiana/9-icon-demografico/demografico-2-hombresymujeres.svg"
 
 
 // PERFIL ESTACIONES CASANARE
@@ -1185,4 +1195,15 @@ $('.oc-members-carousel').slick({
             <path id="Trazado_12568" data-name="Trazado 12568" d="M3.621,7.243.6,4.225l-.6-.6L3.621,0" transform="translate(5.035 8.657) rotate(180)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         </svg>
     </button>`,
+})
+
+
+$('.open-solicitudes').hover(function(e) {
+    e.preventDefault()
+    $('.oc-pop-up').fadeIn()
+})
+
+$('.close-solicitudes').click(function(e) {
+    e.preventDefault()
+    $('.oc-pop-up').fadeOut()
 })
