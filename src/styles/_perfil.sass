@@ -107,7 +107,7 @@
                 background-color: white
                 color: $green_co
                 text-decoration: none
-.oc-section-perfil-02
+.oc-section-perfil-03, .oc-section-perfiles-02, .oc-section-perfiles-04
     .container
         padding: 0
 .wdg-publicaciones
@@ -165,25 +165,25 @@
             background-color: white
             path
                 stroke: #2B5CDA
-.slick-dots
-    list-style: none
-    position: absolute
-    right: 0
-    top: 40%
-    button
-        text-indent: -9999px
-        width: 10px
-        height: 10px
-        padding: 0
-        border-radius: 50%
-        border: 1px solid #505D6C
-        background-color: white
-        transition: $tr
-        &:hover
-            background-color: #505D6C
-    .slick-active
+    .slick-dots
+        list-style: none
+        position: absolute
+        right: 0
+        top: 40%
         button
-            background-color: #505D6C
+            text-indent: -9999px
+            width: 10px
+            height: 10px
+            padding: 0
+            border-radius: 50%
+            border: 1px solid #505D6C
+            background-color: white
+            transition: $tr
+            &:hover
+                background-color: #505D6C
+        .slick-active
+            button
+                background-color: #505D6C
 
 .wdg-proyectos
     height: 100%
@@ -227,6 +227,25 @@
         font-size: 12px
         color: $green_co
         font-family: 'roboto-italic'
+    .slick-dots
+        list-style: none
+        position: absolute
+        right: 0
+        top: 40%
+        button
+            text-indent: -9999px
+            width: 10px
+            height: 10px
+            padding: 0
+            border-radius: 50%
+            border: 1px solid $green_co
+            background-color: white
+            transition: $tr
+            &:hover
+                background-color: $green_co
+        .slick-active
+            button
+                background-color: $green_co
 
 .oc-members-carousel
     position: relative
@@ -305,4 +324,127 @@
         &:hover
             path
                 stroke: $green_co
-                
+.wdg-documentos
+    height: 100%
+.wdg-grupos
+    &__item
+        border-bottom: 1px solid rgba( #707070 , .29)
+        margin-bottom: .7em
+    &__name-proyect
+        font-size: 15px
+        font-family: 'roboto-c-regular'
+        margin: 0
+    &__state
+        font-size: 13px
+        color: #2B5CDA
+        font-family: 'roboto-medium-italic'
+    .oc-widget-template__body
+        padding: 1em
+    .oc-members-carousel
+        &__item
+            img
+                border: 1px solid #2B5CDA
+            span
+                background-color: #2B5CDA
+                &::before
+                    background-color: #2B5CDA
+    .slick-dots
+        list-style: none
+        position: absolute
+        right: 0
+        top: 40%
+        button
+            text-indent: -9999px
+            width: 10px
+            height: 10px
+            padding: 0
+            border-radius: 50%
+            border: 1px solid #2B5CDA
+            background-color: white
+            transition: $tr
+            &:hover
+                background-color: #2B5CDA
+        .slick-active
+            button
+                background-color: #2B5CDA
+.oc-perfil-icons-header
+    display: flex
+    justify-content: center
+    margin-top: 3em
+    margin-bottom: 1em
+    &__item
+        text-align: center
+        margin: 0 3em
+    &__cont-img
+        background-color: #2B5CDA
+        width: 65px
+        height: 65px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: auto
+    span
+        font-size: 13px
+        color: #2B5CDA
+        font-family: 'cabin-bold'
+        display: block
+        margin-top: .5em
+.oc-perfil-date-02
+    background-color: white
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 20%)
+    &__info
+        padding: 1.5em 1em 1em 1em
+        color: #1D1D1B
+        font-size: 30px
+        font-family: 'cabin-bold'
+    &__cargo
+        font-size: 19px
+        font-family: 'roboto-c-italic'
+        color: $green_co
+    ul
+        list-style: none
+        padding: 0
+        li
+            font-size: 16px
+            font-family: 'roboto-c-regular'
+            margin-bottom: .5em
+        span
+            display: inline-flex
+            width: 20px
+            justify-content: center
+            margin-right: .5em
+    &__desc
+        padding: 3em 3em 2em 1em
+        p
+            font-size: 14px
+            font-family: 'roboto-light'
+    &__img
+        padding: 0
+        img
+            width: 100%
+            height: 371px
+            object-fit: cover
+    .slick-dots
+        list-style: none
+        position: absolute
+        right: -25px
+        top: 40%
+        button
+            text-indent: -9999px
+            width: 10px
+            height: 10px
+            padding: 0
+            border-radius: 50%
+            border: 1px solid $green_co
+            background-color: white
+            transition: $tr
+            &:hover
+                background-color: $green_co
+        .slick-active
+            button
+                background-color: $green_co
+.oc-perfil-ocensa-02
+    background-color: #ECEFF1
+    .wdg-publicaciones
+        height: 100%
