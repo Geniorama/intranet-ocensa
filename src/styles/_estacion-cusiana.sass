@@ -273,10 +273,45 @@
             font-family: 'roboto-medium', sans-serif
             font-size: 14px
             margin-bottom: 10px
+
+@include media-breakpoint-down(sm)
+    .oc-widget-slider
+        background: none
+        box-shadow: none
+        margin-bottom: -90px
+        img
+            height: 225px
+            object-fit: cover
+        .slick-dots
+            top: 100px
+        .oc-slick-arrow
+            &__next
+                top: 100px
+            &__prev
+                top: 100px
+
+    #cus-wdg-la-estacion.wdg-la-estacion
+        margin-bottom: 25px !important 
+        height: 615px !important  
+    #cus-wdg-ubicacion.wdg-ubicacion
+        height: 720px !important    
+        .wdg-banner
+            height: 600px !important
+            &__bg
+                .img-drag
+                    height: 250px !important
+                    object-fit: cover 
+            &__info
+                margin-top: -351px !important                
         .roboto-bold
             font-size: 15px
             color: #505D6C
             line-height: 1.2em
+    #wdg-section-03 .cont-g-sobre
+        margin-top: 10px !important
+    #oc-alm-final
+        padding-left: .5em !important
+        padding-right: .8em !important
 
 #main-cas-cusiana #wdg-section-03 .oc-widget-template
     height: auto
