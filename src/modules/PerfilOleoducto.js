@@ -12,3 +12,5 @@ if(id_estacion){
         }
     }
 }
+
+$('.oc-est-casanare .oc-recorrido__mapa #Trazado_5048-2').attr('class', 'active')

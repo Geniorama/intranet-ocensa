@@ -29,6 +29,7 @@ import "./modules/Estaciones";
 import "./modules/EstacionesPorvenir";
 import "./modules/WidgetGaleria";
 import "./modules/PerfilOleoducto";
+import "./modules/PerfilOleductoHeader";
 
 
 // Images
@@ -475,6 +476,8 @@ import "./img/perfil-oleoducto-casanare/cundinamarca-info.svg";
 import "./img/casanare/noticias/img-notice-m-1.png";
 import "./img/casanare/noticias/img-notice-m-2.png";
 import "./img/casanare/noticias/img-notice-m-3.png";
+
+import "./img/estaciones/sistema-arrow-down.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

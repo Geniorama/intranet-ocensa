@@ -1,0 +1,36 @@
+.oc-img-header__sistema
+    background-color: #ECEFF1
+    display: none
+    .oc-perfil-recorrido 
+        margin-top: 0px !important
+
+.oc-img-header__button-sistema
+    font-family: 'cabin-bold', sans-serif
+    color: white
+    border: none
+    padding: .7em 1em
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+    -webkit-box-shadow: 0px 7px 16px -5px rgba(0,0,0,0.7)
+    box-shadow: 0px 5px 16px -5px rgba(0,0,0,0.7)
+    cursor: pointer
+    transition: $tr
+    width: 185px
+    img
+        width: 12px
+        margin-left: .5em
+        transition: $tr
+    .oc-img-header__button-sistema__text
+        font-family: 'cabin-bold', sans-serif !important
+        font-size: 15px
+    &.is-open
+        background-color: #95A6B1
+        .oc-img-header__button-sistema__arrow
+            img
+                transform: rotate(180deg)
+.oc-img-header__cont-button
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    z-index: 3
