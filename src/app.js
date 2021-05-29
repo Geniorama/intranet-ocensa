@@ -32,7 +32,6 @@ import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
 
-
 // Images
 import "./img/barra-lateral-azul/oc-avatar.jpg";
 import "./img/barra-lateral-azul/menu-perfil-0-inicio.svg";
@@ -465,6 +464,17 @@ import "./img/widgets-ocensa/img-widget-galeria/icon/Trazado 9367.svg"
 
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg"
 import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+import "./img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-1-tanques-min.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-2-agua-min.jpg"
+import "./img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-3-diluyente-min.jpg"
+
+import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/foto-sistema-bombeo.jpg"
+
+import "./img/estaciones/cusiana/9-icon-demografico/demografico-3-generaciones.svg"
+import "./img/estaciones/cusiana/9-icon-demografico/demografico-2-hombresymujeres.svg"
 
 
 // PERFIL ESTACIONES CASANARE

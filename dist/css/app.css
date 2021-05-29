@@ -16033,7 +16033,6 @@ p, span {
   margin-bottom: 1.5em;
 }
 .wdg-ubicacion .wdg-banner .oc-btn {
-  margin: 0 !important;
   display: block;
   text-align: center;
   height: 20px;
@@ -16069,6 +16068,7 @@ p, span {
   font-family: "roboto-bold", sans-serif;
   background-color: #95A6B1 !important;
   color: white;
+  width: 129px;
 }
 
 .wdg-distancia .item-01 .est-name {
@@ -16885,6 +16885,16 @@ p, span {
 }
 .oc-widget-template .line-g-right {
   border-right: 1px solid rgba(80, 93, 108, 0.3);
+  position: relative;
+}
+.oc-widget-template .line-g-right::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
 }
 .oc-widget-template .oc-number-medium {
   color: #005FC8;
@@ -16971,15 +16981,20 @@ p, span {
 
 .wdg-la-estacion__item__li-items {
   list-style: none;
+  margin-top: 10px;
+  padding-left: 2em;
 }
 .wdg-la-estacion__item__li-items li {
   position: relative;
+  font-family: "roboto-light", sans-serif;
+  font-size: 15px;
+  color: #505D6C;
 }
 .wdg-la-estacion__item__li-items li::before {
   position: absolute;
   content: "";
-  top: 50%;
-  left: -20%;
+  top: 30%;
+  left: -15%;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -17009,6 +17024,10 @@ p, span {
 
 #cus-wdg-ubicacion.wdg-ubicacion {
   height: 600px;
+}
+
+#cus-wdg-ubicacion .oc-btn {
+  margin-top: 3.5em;
 }
 
 .wdg-banner {

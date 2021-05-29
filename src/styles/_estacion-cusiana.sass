@@ -5,6 +5,15 @@
             font-size: 9px
     .line-g-right
         border-right: 1px solid rgba(80,93,108,.3)
+        position: relative
+        &::before
+            position: absolute
+            content: ''
+            bottom: 0
+            left: -10px
+            width: 20px
+            height: 20px
+            background-color: white
     .oc-number-medium
         color: $blue-light-co
         .oc-number-medium
@@ -83,13 +92,18 @@
             &__item
                 &__li-items
                     list-style: none
+                    margin-top: 10px
+                    padding-left: 2em
                     li
                         position: relative
+                        font-family: 'roboto-light', sans-serif
+                        font-size: 15px
+                        color: #505D6C
                         &::before
                             position: absolute
                             content: ''
-                            top: 50%
-                            left: -20%
+                            top: 30%
+                            left: -15%
                             width: 8px
                             height: 8px
                             border-radius: 50%
@@ -115,6 +129,10 @@
 
 #cus-wdg-ubicacion.wdg-ubicacion
     height: 600px
+
+#cus-wdg-ubicacion
+    .oc-btn
+        margin-top: 3.5em
 
 .wdg-banner
     overflow: visible !important
@@ -171,6 +189,14 @@
         color: #505D6C
     &__img2
         width: 121px !important
+    .text-tiempo
+        p
+            font-family: 'roboto-bold', sans-serif !important
+            color: #979FA8
+            font-size: 12px
+            &::before
+                position: relative
+                display: none
     ul
         li
             position: relative
@@ -196,3 +222,7 @@
 #main-cas-cusiana #wdg-bombeo
     .oc-box-dato
         height: 239px
+        .roboto-bold
+            font-size: 15px
+            color: #505D6C
+            line-height: 1.2em
