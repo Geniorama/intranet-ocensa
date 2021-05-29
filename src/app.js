@@ -506,6 +506,15 @@ import "./img/perfil-ocensa/icon_perfil_usuario_proyectos.svg";
 import "./img/perfil-ocensa/member-elkin-orjuela.png";
 import "./img/perfil-ocensa/member-ximena.png";
 import "./img/perfil-ocensa/member-alexander.png";
+import "./img/perfil-ocensa/icon-video-llamadas.svg";
+import "./img/perfil-ocensa/icon-mensajes-perfil.svg";
+import "./img/perfil-ocensa/icon-alarmas-profile.svg";
+import "./img/perfil-ocensa/date-02-perfil-01.svg";
+import "./img/perfil-ocensa/date-02-perfil-02.svg";
+import "./img/perfil-ocensa/date-02-perfil-03.svg";
+import "./img/perfil-ocensa/date-02-perfil-04.svg";
+import "./img/perfil-ocensa/date-02-perfil-05.svg";
+import "./img/perfil-ocensa/img-perfil-andres.jpg";
 //Perfiles
 import "./img/perfiles/icon-perfiles.svg";
 import "./img/perfiles/doc-1.png";
@@ -1185,6 +1194,15 @@ $('.wdg-proyectos__car').slick({
     slidesToScroll: 2,
 })
 
+$('.wdg-grupos__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 3,
+    verticalSwiping: true,
+    slidesToScroll: 3,
+})
+
 $('.oc-members-carousel').slick({
     arrows: true,
     dots: false,
@@ -1216,13 +1234,23 @@ $('.close-solicitudes').click(function(e) {
 $('.oc-slick-almacenamiento').slick({
     slidesToShow: 5,
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_283" data-name="Trazado 283" d="M183.786,483.837l-4.075-4.075,4.075-4.075" transform="translate(-178.533 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
         </svg>
     </button>`,
     nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
-            <path id="Trazado_273" data-name="Trazado 273" d="M821.129,475.686l4.075,4.075-4.075,4.075" transform="translate(-819.464 -474.021)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
         </svg>
     </button>`,
     dots: true,
@@ -1231,10 +1259,18 @@ $('.oc-slick-almacenamiento').slick({
         {
             breakpoint: 768,
             settings: {
-              arrows: false,
               dots: true,
               slidesToShow: 1
             }
         }
     ]
+})
+
+$('.oc-perfil-date-02__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 1,
+    verticalSwiping: true,
+    slidesToScroll: 1,
 })

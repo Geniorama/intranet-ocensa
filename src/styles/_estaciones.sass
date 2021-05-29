@@ -214,7 +214,7 @@
             font-family: 'roboto-bold', sans-serif
             background-color: #95A6B1 !important
             color: white
-            width: 129px
+            min-width: 129px
 
 // Wdg distancia
 .wdg-distancia
@@ -434,14 +434,35 @@
             height: 44px
     .slick-slide
         height: auto
-    .oc-slick-theme_2
-        .oc-slick-arrow
-            top: calc( 21% - 15px )
-        .slick-arrow
-            &:hover
-                opacity: 1
-                circle, path
-                    stroke: $blue_light_co
+.oc-slick-theme_2
+    .oc-slick-arrow
+        top: calc( 21% - 15px )
+    .slick-arrow
+        &:hover
+            opacity: 1
+            circle, path
+                stroke: $blue_light_co
+    .slick-dots
+        list-style: none
+        padding: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        box-sizing: border-box
+        margin: 0
+        li
+            width: 10px
+            height: 10px
+            background-color: white
+            border-radius: 50%
+            margin: 7px
+            box-sizing: border-box
+            cursor: pointer
+            border: 1px solid $blue_light_co
+            &.slick-active
+                background-color: $blue_light_co
+        button
+            display: none
 
 .wdg-onda
     height: 100% !important
@@ -513,3 +534,45 @@
 @include media_breakpoint_down(md)
     .oc-card-widget
         height: auto !important
+    .wdg-distancia
+        margin-bottom: 2em
+    .wdg-distancia-divider
+        width: 40px
+    .oc-widgets-section .container
+        padding-left: 0 !important
+    #main-cas-cusiana #wdg-bombeo .oc-box-dato
+        height: auto !important
+        padding: 1em 2em !important
+        .item-01
+            margin-bottom: 1em
+
+    .wdg-la-estacion, .wdg-bombeo, .wdg-almacenamiento, .oc-widget-principal, .wdg-clima, .wdg-como-llegar
+        margin-bottom: 2em !important 
+    
+    .wdg-como-llegar
+        .oc-box-dato
+            height: auto !important
+        .oc-widget-template__body 
+            padding-bottom: 2em !important
+
+    .wdg-ubicacion
+        height: auto !important
+        .row
+            height: auto !important   
+        .wdg-banner
+            height: auto !important
+            &__bg
+                height: 250px !important
+                .img-drag
+                    object-fit: cover 
+            &__info
+                margin-top: -30px !important
+                height: auto !important
+                text-align: center
+            .oc-btn 
+                display: inline-block
+                margin: 2em auto !important              
+        .roboto-bold
+            font-size: 15px
+            color: #505D6C
+            line-height: 1.2em

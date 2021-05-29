@@ -106,6 +106,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'perfil-ocensa-02.html',
+            template: './src/perfil-ocensa-02.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

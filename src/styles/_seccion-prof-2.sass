@@ -15,28 +15,25 @@
         .img-flecha-green
             width: 26px
             height: 26px
-    .item-profile
-        border-bottom: 1px solid rgba(112,112,112,.3 )
-        &__group
-            font-family: 'roboto-c-regular', sans-serif
-            font-size: 15px
-        &__name-team
-            font-family: 'roboto-medium-italic', sans-serif
-            font-size: 13px
-            color: $blue_light_co
-        &__photo-name
-            &__photo
-                width: 35px
-                height: 35px
-        &__cont-name
-            opacity: 0
-            width: 53px
-            background-color: $blue_light_co 
-            border-radius: 20px
+.oc-slick-profiles
+    .slick-dots
+        list-style: none
+        position: absolute
+        right: 15px
+        top: 40%
+        button
+            text-indent: -9999px
+            width: 10px
+            height: 10px
+            padding: 0
+            border-radius: 50%
+            border: 1px solid $green_co
+            background-color: white
             transition: $tr
-            &__name
-                color: white 
             &:hover
-                opacity: 1  
-        
+                background-color: $green_co
+        .slick-active
+            button
+                background-color: $green_co
+            
     
