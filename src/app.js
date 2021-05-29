@@ -471,6 +471,17 @@ import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
 import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
 import "./img/perfil-oleoducto-casanare/cundinamarca-info.svg";
 
+// PERFIL OCENSA
+import "./img/perfil-ocensa/img_perfil_usuario_ignacio.jpg";
+import "./img/perfil-ocensa/icon-pencil-profile.svg";
+import "./img/perfil-ocensa/icon_perfil_usuario_publicaciones.svg";
+import "./img/perfil-ocensa/document-publicaciones.svg";
+import "./img/perfil-ocensa/icon-downloader.svg";
+import "./img/perfil-ocensa/icon_perfil_usuario_proyectos.svg";
+import "./img/perfil-ocensa/member-elkin-orjuela.png";
+import "./img/perfil-ocensa/member-ximena.png";
+import "./img/perfil-ocensa/member-alexander.png";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 $('.oc-slick-example').slick({
@@ -982,3 +993,48 @@ $('.oc-slick-clima-card').slick({
     dots: true
 })
 
+$('.wdg-publicaciones__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 4,
+    verticalSwiping: true,
+    slidesToScroll: 4,
+})
+
+var slider = $('.oc-vertical-slider');
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+  
+    if (e.originalEvent.deltaY < 0) {
+      $(this).slick('slickNext');
+    } else {
+      $(this).slick('slickPrev');
+    }
+}));
+
+$('.wdg-proyectos__car').slick({
+    arrows: false,
+    dots: true,
+    vertical: true,
+    slidesToShow: 2,
+    verticalSwiping: true,
+    slidesToScroll: 2,
+})
+
+$('.oc-members-carousel').slick({
+    arrows: true,
+    dots: false,
+    slidesToScroll: 1,
+    slidesToShow: 5,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
+                    <path id="Trazado_12569" data-name="Trazado 12569" d="M3.621,7.243.6,4.225l-.6-.6L3.621,0" transform="translate(1 1.414)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
+            <path id="Trazado_12568" data-name="Trazado 12568" d="M3.621,7.243.6,4.225l-.6-.6L3.621,0" transform="translate(5.035 8.657) rotate(180)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </svg>
+    </button>`,
+})

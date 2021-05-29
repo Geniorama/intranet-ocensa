@@ -1,0 +1,308 @@
+.oc-perfil-ocensa
+    .oc-content
+        background-color: #ECEFF1
+.oc-perfil-date
+    margin-top: 5em
+    background-color: white
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 20%)
+    &__img
+        padding: 0
+        img
+            width: 100%
+            height: 430px
+            overflow: hidden
+    &__info
+        padding: 2em
+    &__name
+        color: #1D1D1B
+        font-size: 30px
+        font-family: 'cabin-bold'
+    &__text-progress
+        font-size: 12px
+        color: $green_co
+        font-family: 'roboto-c-regular'
+        margin: 0
+    .progress
+        height: 19px
+        border-radius: 10px
+        .progress-bar
+            background-color: $green_co
+            border-radius: 10px
+            font-size: 16px
+            font-family: 'roboto-c-bold'
+            text-align: right
+            padding-right: .5em
+    &__inputs
+        margin-top: 1.2em
+        &-item
+            display: flex
+            position: relative
+            margin-bottom: .7em
+            .oc-name
+                width: 30%
+                font-size: 16px
+                font-family: 'roboto-c-regular'
+                color: $green_co
+            .oc-input-text
+                width: 70%
+                border: 0
+                border-bottom: 1px solid #A6ADB4
+                font-size: 16px
+                font-family: 'roboto-c-regular'
+                z-index: 1
+                background-color: transparent
+                &:focus-visible
+                    outline: none
+            img
+                position: absolute
+                right: 0
+                top: 6px
+    &__desc
+        padding-top: 5em
+        padding-right: 2em
+        .oc-sobre-mi
+            font-size: 16px
+            color: $green_co
+            font-family: 'roboto-c-regular'
+        textarea
+            width: 100%
+            height: 223px
+            border: 1px solid rgba(#505D6C, .5)
+            padding: .5em 1em
+            font-size: 14px
+            font-family: 'roboto-light'
+    &__button
+        text-align: center
+        margin-top: 1em
+        &-01
+            border: 1px solid $green_co
+            height: 18px
+            font-size: 9px
+            display: inline-flex
+            align-items: center
+            padding: 0 2em
+            border-radius: 10px
+            color: $green_co
+            font-family: 'cabin-bold'
+            transition: $tr
+            margin: 0 1em
+            &:hover
+                background-color: $green_co
+                color: white
+                text-decoration: none
+        &-02
+            border: 1px solid $green_co
+            height: 18px
+            font-size: 9px
+            display: inline-flex
+            align-items: center
+            padding: 0 2em
+            border-radius: 10px
+            color: white
+            font-family: 'cabin-bold'
+            transition: $tr
+            background-color: $green_co
+            margin: 0 1em
+            &:hover
+                background-color: white
+                color: $green_co
+                text-decoration: none
+.oc-section-perfil-02
+    .container
+        padding: 0
+.wdg-publicaciones
+    &__agregar
+        height: 20px
+        border: 1px solid rgba(#505D6C, 0)
+        background-color: rgba(#505D6C, .5)
+        display: inline-flex
+        align-items: center
+        border-radius: 12px
+        font-size: 13px
+        color: white
+        padding: 0 1em
+        transition: $tr
+        font-family: 'cabin-bold'
+        &:hover
+            text-decoration: none
+            color: rgba(#505D6C, .5)
+            background-color: white
+            border: 1px solid rgba(#505D6C, .5)
+    &__car
+        padding-right: 1em
+    &__item
+        display: flex !important
+        text-align: left
+        justify-content: space-between
+        align-items: center
+        padding: .2em 0
+        border-bottom: 1px solid #707070
+        position: relative
+    &__cont-title
+        h3
+            font-size: 15px
+            font-family: 'roboto-c-regular'
+            margin: 0
+        span
+            color: #2B5CDA
+            font-size: 14px
+            font-family: 'roboto-c-italic'
+    &__cont-img
+        margin-right: 1em
+    &__download
+        width: 26px
+        height: 26px
+        background-color: #2B5CDA
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        right: 3px
+        transition: $tr
+        border: 1px solid #2B5CDA
+        &:hover
+            background-color: white
+            path
+                stroke: #2B5CDA
+.slick-dots
+    list-style: none
+    position: absolute
+    right: 0
+    top: 40%
+    button
+        text-indent: -9999px
+        width: 10px
+        height: 10px
+        padding: 0
+        border-radius: 50%
+        border: 1px solid #505D6C
+        background-color: white
+        transition: $tr
+        &:hover
+            background-color: #505D6C
+    .slick-active
+        button
+            background-color: #505D6C
+
+.wdg-proyectos
+    height: 100%
+    &__cont-btn
+        margin-bottom: 1em
+        a
+            height: 20px
+            border: 1px solid #505D6C
+            background-color: #505D6C
+            display: inline-flex
+            align-items: center
+            border-radius: 12px
+            font-size: 13px
+            color: white
+            padding: 0 1em
+            transition: $tr
+            font-family: 'cabin-bold'
+            opacity: .5
+            &:hover
+                text-decoration: none
+                color:#505D6C
+                background-color: white
+                border: 1px solid #505D6C
+            &.active
+                opacity: 1
+    &__item
+        text-align: left
+        border-bottom: 1px solid rgba(#707070 ,.29 )
+        margin-bottom: 1.2em
+    &__name-proyect
+        font-size: 15px
+        font-family: 'roboto-c-regular'
+        margin: 0
+    &__date
+        font-size: 13px
+        color: $green_co
+        font-family: 'helvetica'
+        font-weight: 700
+        margin-bottom: .2em
+    &__state
+        font-size: 12px
+        color: $green_co
+        font-family: 'roboto-italic'
+
+.oc-members-carousel
+    position: relative
+    &__cont
+        margin-right: 4em
+        position: relative
+        padding-left: .2em
+        margin-top: .8em
+    &__more
+        width: 35px
+        height: 35px
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: rgba(#505D6C ,.3)
+        border-radius: 50%
+        color: white
+        font-family: 'roboto-c-regular'
+        position: absolute
+        right: -42px
+        top: 0
+    &__item
+        position: relative
+        display: inline-flex
+        img
+            width: 35px
+            height: 35px
+            border: 1px solid $green_co
+            border-radius: 50%
+            object-fit: cover
+            margin: auto
+        span
+            background-color: $green-co
+            font-size: 11.5px
+            color: white
+            border-radius: 10px
+            padding: 0 .2em
+            position: absolute
+            bottom: -13px
+            font-family: 'roboto-c-regular'
+            border: 1px solid white
+            opacity: 0
+            transition: $tr
+            left: 0
+            right: 0
+            text-align: center
+            &::before
+                content: ''
+                width: 5px
+                height: 5px
+                top: -3px
+                background-color: $green-co
+                position: absolute
+                margin: auto
+                left: 0
+                right: 0
+                transform: rotate(45deg)
+                border-top: 1px solid white
+                border-left: 1px solid white
+        &:hover
+            span
+                opacity: 1
+    .slick-slide
+        height: 55px
+    .oc-slick-arrow
+        position: absolute
+        background-color: transparent
+        border: none
+        top: 12
+        &__next
+            right: -60
+        &__prev
+            left: -10px
+        path
+            transition: $tr
+        &:hover
+            path
+                stroke: $green_co
+                
