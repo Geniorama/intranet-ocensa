@@ -470,12 +470,43 @@ import "./img/perfil-oleoducto-casanare/recorrido-casanare.svg";
 import "./img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg";
 import "./img/perfil-oleoducto-casanare/icon-triangle.svg";
 import "./img/perfil-oleoducto-casanare/cundinamarca-info.svg";
+
 //Noticia Mujer Y Desarrollo
 import "./img/casanare/noticias/img-notice-m-1.png";
 import "./img/casanare/noticias/img-notice-m-2.png";
 import "./img/casanare/noticias/img-notice-m-3.png";
 
+//Perfiles
+import "./img/perfiles/icon-perfiles.svg";
+import "./img/perfiles/doc-1.png";
+import "./img/perfiles/icon-flecha-bg-verde.svg";
+import "./img/perfiles/doc-2.png";
+import "./img/perfiles/icon-perfiles-2.svg";
+import "./img/perfiles/photo-pro1.svg";
+import "./img/perfiles/photo-pro2.svg";
+import "./img/perfiles/photo-pro3.svg";
+import "./img/perfiles/photo-pro5.svg";
+import "./img/perfiles/photo-pro-more.svg";
+import "./img/perfiles/icon-organigrama.svg";
+import "./img/perfiles/circle-gray.svg";
+import "./img/perfiles/arrow-right-v2.svg";
+import "./img/perfiles/arrow-left-v2.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
+
+if (screen.width > 575.98) {
+    const slider = $(".on-scroll-v");
+
+    slider.on("wheel", function (e) {
+      e.preventDefault();
+
+      if (e.originalEvent.deltaY < 0) {
+        $(this).slick("slickNext");
+      } else {
+        $(this).slick("slickPrev");
+      }
+    });
+  }
 
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
@@ -538,6 +569,155 @@ $('.oc-slick-galeria-territorio').slick({
             arrows: true,
             dots: true,
             slidesToShow: 1
+          }
+        }
+      ]
+
+})
+
+$('.oc-slick-profiles').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
+        </svg>
+    </button>`,
+    slidesToShow: 4,
+    infinite: false,
+    dots: true,
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            dots: true,
+            slidesToShow: 4
+          }
+        }
+      ]
+
+})
+
+$('.oc-slick-img-org').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+    <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
+    <path id="Trazado_28027" data-name="Trazado 28027" d="M3.621,7.243.6,4.225l-.6-.6L1.853,1.769,3.621,0" transform="translate(1 1.414)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+    <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
+    <path id="Trazado_12534" data-name="Trazado 12534" d="M3.621,7.243.6,4.225l-.6-.6L1.853,1.769,3.621,0" transform="translate(5.035 8.657) rotate(180)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </svg>
+  
+    </button>`,
+    slidesToShow: 4,
+    infinite: false,
+    dots: false,
+    arrows: true,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            dots: true,
+            slidesToShow: 4
+          }
+        }
+      ]
+
+})
+
+$('.oc-slick-grupo-general').slick({
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20.805" height="14.7"
+            viewBox="0 0 20.805 14.7">
+            <g id="Grupo_13763" data-name="Grupo 13763" transform="translate(0 0.707)">
+                <path id="Trazado_11962" data-name="Trazado 11962" d="M0,0V18.779"
+                    transform="translate(18.779 6.583) rotate(90)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+                <path id="Trazado_11963" data-name="Trazado 11963"
+                    d="M-8466.48,3107.907l6.643,6.643-6.643,6.643"
+                    transform="translate(8479.229 -3107.907)" fill="none" stroke="#fff"
+                    stroke-width="2" />
+            </g>
+        </svg>
+    </button>`,
+    slidesToShow: 3,
+    infinite: false,
+    dots: true,
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            dots: true,
+            slidesToShow: 3
           }
         }
       ]
