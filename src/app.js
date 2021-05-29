@@ -476,6 +476,11 @@ import "./img/estaciones/cusiana/6-icon-sistema-de-bombeo/foto-sistema-bombeo.jp
 
 import "./img/estaciones/cusiana/9-icon-demografico/demografico-3-generaciones.svg"
 import "./img/estaciones/cusiana/9-icon-demografico/demografico-2-hombresymujeres.svg"
+import "./img/estaciones/cusiana/13-icon-contratistas/logo_contratista_durangar.png"
+import "./img/estaciones/cusiana/13-icon-contratistas/logo_contratista_omia.jpg"
+import "./img/estaciones/cusiana/14-icon-gestion-ambiental/licencia_ambiental.svg"
+import "./img/estaciones/cusiana/14-icon-gestion-ambiental/plan_manejo_ambiental.svg"
+import "./img/estaciones/cusiana/14-icon-gestion-ambiental/sistema_aireacion_piscinas.svg"
 
 
 // PERFIL ESTACIONES CASANARE
