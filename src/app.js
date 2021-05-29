@@ -30,6 +30,7 @@ import "./modules/EstacionesPorvenir";
 import "./modules/WidgetGaleria";
 import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
+import "./modules/SubMenu";
 
 
 // Images
@@ -479,8 +480,6 @@ import "./img/casanare/noticias/img-notice-m-3.png";
 
 import "./img/estaciones/sistema-arrow-down.svg";
 
-var scroll = new SmoothScroll('a[href*="#"]');
-
 $('.oc-slick-example').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
         <svg xmlns="http://www.w3.org/2000/svg" width="6.918" height="11.481" viewBox="0 0 6.918 11.481">
@@ -717,18 +716,6 @@ $('.oc-submenu-gen__button-menu-lateral').click(function(e) {
     $('.oc-submenu-gen .oc-menu-lateral').slideToggle();
 })
 
-$('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
-
-$('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
-
-$('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
-
-$('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link').removeClass('active')
-
-$('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link[href="#estacion-cupiagua"]').addClass('active')
-
-$('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
-
 if(screen.width < 576){
     let desplaceNumber = 0
     $('.oc-submenu-mobile .nav .nav-link').each(function() {
@@ -828,37 +815,9 @@ $(".oc-slick-cultura").click(function(e) {
     e.preventDefault();
 })
 
-$('.oc-tabs__item').click(function(e){
-    e.preventDefault()
 
-    var _href = $(this).attr("href");
 
-    $('.oc-tabs__item').removeClass('active');
-    $(this).addClass('active');
 
-    $('.oc-submenu-gen .oc-tabs__item[href="'+ _href +'"]').addClass('active')
-        
-    $(".oc-panels__item").hide();
-    $(_href).fadeIn();
-
-    let anchor = document.querySelector('#top');
-    scroll.animateScroll(anchor);
-    
-
-    $('.oc-panels-cultura__slick-panel').slick('refresh')
-    $('.oc-slick-cultura').slick('refresh')
-    
-    
-
-    // Funcion tabs
-    $('.oc-slick-cultura .oc-slick-cultura__item').click(function(e) {
-        e.preventDefault()
-
-        $('.oc-slick-cultura .oc-slick-cultura__item').removeClass('active');
-        $(this).addClass('active');
-
-    })
-});
 
 if(screen.width < 576){
     $('.oc-slick-cultura .oc-slick-cultura__item').addClass('active');

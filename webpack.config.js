@@ -89,14 +89,14 @@ module.exports = {
             filename: 'casanare/estacion-cusiana.html',
             template: './src/casanare/estacion-cusiana.handlebars',
             minify: false,
-            templateParameters: require('./src/submenu-casanare.json'),
+            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
         }),
 
         new HtmlWebpackPlugin({
             filename: 'casanare/noticia-mujeres-cup.html',
             template: './src/casanare/noticia-mujeres-cup.handlebars',
             minify: false,
-            templateParameters: require('./src/submenu-casanare.json'),
+            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
         }),
 
         // CSS

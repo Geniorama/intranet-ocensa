@@ -2,22 +2,26 @@
     "submenuData" : [
         {
             "menuName": "Casanare",
-            "dataTarget": "#"
+            "dataTarget": "/casanare/casanare.html",
+            "menuId": "oc-index-casanare"
         },
 
         {
             "menuName": "Estación Cupiagua",
-            "dataTarget": "#estacion-cupiagua"
+            "dataTarget": "/casanare/estacion-cupiagua.html",
+            "menuId": "oc-cas-cupiagua"
         },
 
         {
             "menuName": "Estación Cusiana",
-            "dataTarget": "#estacion-cusiana"
+            "dataTarget": "/casanare/estacion-cusiana.html",
+            "menuId": "oc-cas-cusiana"
         },
 
         {
             "menuName": "Estación El Porvenir",
-            "dataTarget": "#estacion-el-porvenir"
+            "dataTarget": "/casanare/estacion-porvenir.html",
+            "menuId": "oc-cas-porvenir"
         }
     ]
 }

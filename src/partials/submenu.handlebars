@@ -32,7 +32,7 @@
             <ul class="nav align-items-center">
                 {{#each submenuData}}
                     <li class="nav-item">
-                        <a href="{{this.dataTarget}}" class="nav-link oc-tabs__item {{#if this.menuIcon}} {{this.menuIcon}} {{/if}}">
+                        <a href="{{this.dataTarget}}" class="nav-link oc-tabs__item {{#if this.menuIcon}} {{this.menuIcon}} {{/if}}" {{#if this.menuId}} id="{{this.menuId}}" {{/if}}>
                             <span class="nav-link__text">{{this.menuName}}</span>
                         </a>
                     </li>
