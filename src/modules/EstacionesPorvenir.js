@@ -50,6 +50,14 @@ $('.oc-slick-widget__gestion').slick({
             </g>
         </svg>
     </button>`,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings:{
+                slidesToShow: 1
+            }
+        }
+    ]
 })
 
 $('.wdg-demografico__car').slick({
