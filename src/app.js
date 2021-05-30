@@ -28,6 +28,7 @@ import "./modules/WidgetCalendario";
 import "./modules/Estaciones";
 import "./modules/EstacionesPorvenir";
 import "./modules/WidgetGaleria";
+import "./modules/WidgetNetwork";
 import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
@@ -531,6 +532,8 @@ import "./img/perfiles/icon-organigrama.svg";
 import "./img/perfiles/circle-gray.svg";
 import "./img/perfiles/arrow-right-v2.svg";
 import "./img/perfiles/arrow-left-v2.svg";
+
+import "./img/widgets-ocensa/img-widget-network/icon-network.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
