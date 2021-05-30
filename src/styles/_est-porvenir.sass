@@ -54,7 +54,12 @@
         span
             line-height: 1em
 .oc-porvenir
+    .row
+        margin: 0
     &__row
+        margin: 0
+    &__car
+        width: 60%
         margin: 0
     &__almacenamiento-item
         width: 20%
@@ -74,6 +79,8 @@
             .c-blue-light
                 line-height: 1.7em
                 margin-bottom: .8em
+        img
+            margin: auto
     &__almacenamiento-final
         margin-top: 2em
         width: 40%
@@ -236,3 +243,84 @@
 @include media_breakpoint_down(md)
     .wdg-personal-porvenir
         height: auto !important
+
+@include media-breakpoint-down(sm)
+    .oc-porvenir__car
+        width: 100%
+        .slick-dots
+            list-style: none
+            position: absolute
+            right: 0
+            left: 0
+            bottom: -40px
+            display: flex
+            width: max-content
+            margin: auto
+            padding: 0
+            button
+                text-indent: -9999px
+                width: 10px
+                height: 10px
+                padding: 0
+                border-radius: 50%
+                border: 1px solid #2B5CDA
+                background-color: white
+                transition: $tr
+                &:hover
+                    background-color: #2B5CDA
+            .slick-active
+                button
+                    background-color: #2B5CDA
+            li
+                margin: 0 .6em
+        .oc-slick-arrow
+            position: absolute
+            background-color: transparent
+            border: none
+            z-index: 1
+            top: 40%
+            &__next
+                right: 5px
+            &__prev
+                left: 5px
+    .oc-porvenir__almacenamiento-final
+        width: 100%
+        margin-top: 4em
+        padding-bottom: 2em
+        &-item
+            padding: 1em !important
+            line-height: 1.2em
+        .oc-porvenir__data-number
+            .text
+                display: block
+                margin-top: 1em
+    .wdg-distancia-porvenir
+        .item-01__center
+            max-width: 14%
+            .roboto-regular
+                font-size: 11px
+            img
+                width: 35px
+        .item-01__right
+            max-width: 25%
+        .item-01__left
+            max-width: 20%
+    #wdg-section-04 .wdg-distancia .cont-sec-3
+        height: 190px !important
+        margin-top: 2em
+    #wdg-section-04
+        margin-top: 0 !important
+    .wdg-distancia-porvenir
+        padding-bottom: 1.5em
+        .row
+            margin: 0
+            padding: 0 !important
+        .item-01__card-p
+            max-width: 50%
+    .wdg-como-llegar-porvenir
+        .row
+            margin: 0
+        .col-12
+            padding: 0
+        .oc-box-dato
+            padding-top: 1em !important
