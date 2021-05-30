@@ -1,15 +1,14 @@
-.contenedor-widget-calendario
-    width: 100%
-    
 .oc-widget-calendario
     width: 100%
-    height: 400px
+    height: 100%
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
     overflow: hidden
+    background-color: white
     &__top-bar
         background-color: #2B5CDA
         display: flex
         justify-content: space-between
+        height: 50px
         &__title
             display: flex
             align-items: center
@@ -126,7 +125,7 @@
             position: absolute
             top: 0
             left:0
-            // background-image: url('img/icon-star.svg')
+            background-image: url('../img/widgets-ocensa/img-widget-calendario/icon-star.svg')
             background-position: center
             background-size: 5px
             background-repeat: no-repeat
@@ -202,6 +201,8 @@
 
                 p
                     font-family: 'roboto-c-regular', sans-serif
+                    margin: 0
+                    line-height: 1em
             .m-teams
                 font-family: 'cabin-bold', sans-serif
                 color: #505D6C
@@ -257,9 +258,20 @@
 .oc-slick-agenda
     .slick-dots
         right: 0
+        li
+            border: 1px solid $green_co
     .oc-btn
         margin: auto
 
+@include media_breakpoint_up(md)
+    .oc-slick-agenda
+        .slick-dots
+            flex-direction: column
+            width: 20px
+            position: absolute
+            top: 30%
+            li
+                border: 1px solid $green_co
 
 // Styles dia
 .content-dia-evento
