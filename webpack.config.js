@@ -103,14 +103,14 @@ module.exports = {
             filename: 'perfil-ocensa.html',
             template: './src/perfil-ocensa.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+            templateParameters: require('./src/submenu-nosotros.json')
         }),
 
         new HtmlWebpackPlugin({
             filename: 'perfil-ocensa-02.html',
             template: './src/perfil-ocensa-02.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+            templateParameters: require('./src/submenu-nosotros.json')
         }),
 
         // CSS
