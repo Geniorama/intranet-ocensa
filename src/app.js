@@ -32,6 +32,8 @@ import "./modules/WidgetNetwork";
 import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
+import "./modules/WidgetProyectos";
+import "./modules/Perfil";
 
 // Images
 import "./img/barra-lateral-azul/oc-avatar.jpg";
@@ -534,6 +536,7 @@ import "./img/perfiles/arrow-right-v2.svg";
 import "./img/perfiles/arrow-left-v2.svg";
 
 import "./img/widgets-ocensa/img-widget-network/icon-network.svg";
+import "./img/perfiles/arrow-select-profile.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

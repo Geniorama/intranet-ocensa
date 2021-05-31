@@ -29,58 +29,82 @@
                     <div class="oc-perfil-date__inputs">
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Nombre:</span>
+                            <label for="perfil-nombre" class="oc-name m-0">Nombre:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Ignacio Gómez Cárdenas">
+                            <input id="perfil-nombre" type="text" class="oc-input-text" value="Ignacio Gómez Cárdenas">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Cargo:</span>
+                            <label for="perfil-cargo" class="oc-name m-0">Cargo:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Director Recursos Humanos">
+                            <input id="perfil-cargo" type="text" class="oc-input-text" value="Director Recursos Humanos">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Estado:</span>
-                            <img src="/img/icon-pencil-profile.svg" alt="">
-                            <select name="" id="" class="oc-select">
-                                <option selected class="line">En línea</option>
-                                <option value="1" class=""><span></span>One</option>
-                                <option value="2" class="">Two</option>
-                                <option value="3" class="">Three</option>
+                            <label for="perfil-estado" class="oc-name m-0">Estado:</label>
+                            <img src="/img/arrow-select-profile.svg" alt="">
+                            <div class="oc-custom-select">
+                                <div class="oc-custom-select__default">
+                                    <span class="circle green"></span> 
+                                    <span class="text-option">En línea</span>
+                                </div>
+                                <ul class="oc-custom-select__options shadow pl-0">
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle green"></span> 
+                                        <span class="text-option">En línea</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle yellow"></span> 
+                                        <span class="text-option">Licencia</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle red"></span> 
+                                        <span class="text-option">Incapacidad</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle gray"></span> 
+                                        <span class="text-option">Vacaciones</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <select name="" id="perfil-estado" class="oc-select">
+                                
                             </select>
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Sede:</span>
+                            <label for="perfil-sede" class="oc-name m-0">Sede:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Bogotá">
+                            <input type="text" id="perfil-sede" class="oc-input-text" value="Bogotá">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Email:</span>
+                            <span for="perfil-email" class="oc-name m-0">Email:</span>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="ignacio@ocensa.com.co">
+                            <input id="perfil-email" type="text" class="oc-input-text" value="ignacio@ocensa.com.co">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Teléfono:</span>
+                            <label for="perfil-telefono" class="oc-name m-0">Teléfono:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="300 000 0000">
+                            <input id="perfil-telefono" type="text" class="oc-input-text" value="300 000 0000">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Cumpleaños:</span>
+                            <label for="perfil-cumpleanos" class="oc-name m-0">Cumpleaños:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="17 de Abril">
+                            <input type="date" class="oc-input-text" value="17-05-2021">
                         </div>
 
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4 oc-perfil-date__desc">
-                    <p class="oc-sobre-mi">Sobre mí</p>
-                    <textarea name="" id="" cols="30" rows="10"
+                    <label for="sobre-mi" class="oc-sobre-mi">Sobre mí</label>
+                    <textarea name="" id="sobre-mi" cols="30" rows="10"
                         value="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</textarea>
                     <div class="oc-perfil-date__button">
                         <a href="" class="oc-perfil-date__button-01">Editar</a>
@@ -851,288 +875,580 @@
 
                         <div class="oc-widget-template__body p-3 text-center">
                             <div href="" class="wdg-proyectos__cont-btn">
-                                <a href="#" class="wdg-proyectos__btn-actuales active">Actuales</a>
-                                <a href="#" class="wdg-proyectos__btn-anteriores">Anteriores</a>
+                                <a href="#" data-target="#wdg-proyectos-actuales"
+                                    class="wdg-proyectos__btn wdg-proyectos__btn-actuales active">Actuales</a>
+                                <a href="#" data-target="#wdg-proyectos-anteriores"
+                                    class="wdg-proyectos__btn wdg-proyectos__btn-anteriores">Anteriores</a>
                             </div>
-                            <div class="wdg-proyectos__car oc-vertical-slider">
 
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
+                            {{!-- Proyectos Actuales --}}
+                            <div class="wdg-proyectos__panel" id="wdg-proyectos-actuales">
+                                <div class="wdg-proyectos__car oc-vertical-slider">
 
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
+                                            <div class="oc-members-carousel__more">
+                                                12+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
                                         </div>
                                     </div>
-                                </div>
 
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
 
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
+                                            <div class="oc-members-carousel__more">
+                                                12+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
                                         </div>
                                     </div>
-                                </div>
 
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
+
+
+                            {{!-- Proyectos Anteriores --}}
+                            <div class="wdg-proyectos__panel" id="wdg-proyectos-anteriores">
+                                <div class="wdg-proyectos__car oc-vertical-slider">
+
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
                         </div>
 
                     </div>
