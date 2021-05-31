@@ -484,6 +484,8 @@ import "./img/estaciones/cusiana/14-icon-gestion-ambiental/plan_manejo_ambiental
 import "./img/estaciones/cusiana/14-icon-gestion-ambiental/sistema_aireacion_piscinas.svg"
 import "./img/estaciones/cusiana/line-medium.svg";
 import "./img/estaciones/cusiana/line-medium-2.svg";
+import "./img/estaciones/cusiana/chulo-verde.svg";
+import "./img/estaciones/cusiana/close-green.svg";
 
 // PERFIL ESTACIONES CASANARE
 import "./img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg";
