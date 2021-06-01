@@ -179,6 +179,8 @@
             border: 1px solid rgba(#505D6C, .5)
     &__car
         padding-right: 1em
+        .slick-slide
+            height: auto
     &__item
         display: flex !important
         text-align: left
@@ -236,6 +238,8 @@
 
 .wdg-proyectos
     height: 100%
+    .slick-slide
+        height: auto
     #wdg-proyectos-anteriores
         display: none
     &__cont-btn
@@ -264,6 +268,7 @@
         text-align: left
         border-bottom: 1px solid rgba(#707070 ,.29 )
         margin-bottom: 1.2em
+        width: 90% !important
     &__name-proyect
         font-size: 15px
         font-family: 'roboto-c-regular'
@@ -384,6 +389,7 @@
     &__item
         border-bottom: 1px solid rgba( #707070 , .29)
         margin-bottom: .7em
+        width: 95% !important
     &__name-proyect
         font-size: 15px
         font-family: 'roboto-c-regular'
@@ -426,9 +432,6 @@
     justify-content: center
     margin-top: 3em
     margin-bottom: 1em
-    &__item
-        text-align: center
-        margin: 0 3em
     &__cont-img
         background-color: #2B5CDA
         width: 65px
@@ -438,6 +441,17 @@
         justify-content: center
         align-items: center
         margin: auto
+        position: relative
+        transition: $tr
+    &__item
+        text-align: center
+        margin: 0 3em
+        cursor: pointer
+        &:hover
+            .oc-perfil-icons-header__cont-img
+                box-shadow: 0 0 0px 5px #2B5CDA
+                    
+    
     span
         font-size: 13px
         color: #2B5CDA
@@ -574,6 +588,8 @@
     .wdg-proyectos
         margin-top: 1.6em
         height: auto
+        &__item
+            width: 100% !important
         .oc-vertical-slider
             .slick-dots
                 display: flex
@@ -593,8 +609,6 @@
             margin: 0
         .col-12
             padding: 0
-        .wdg-publicaciones
-            margin-top: 1.6em
     .oc-perfil-icons-header
         &__item
             margin: 0 1em
@@ -623,3 +637,7 @@
     .oc-section-perfil-01
         .container
             padding: 0
+    
+@include media_breakpoint_down(sm)
+    .wdg-grupos, .oc-widget-calendario, .wdg-proyectos
+        margin-bottom: 1.5em
