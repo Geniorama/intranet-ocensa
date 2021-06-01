@@ -5,6 +5,7 @@ function quitarAcentos(cadena){
 	return cadena.split('').map( letra => acentos[letra] || letra).join('').toString();	
 }
 
+// Insertar opciones en input select de estado
 $( ".oc-custom-select__options__opt" ).each(function( index ) {
     let format_value = quitarAcentos($( this ).find('.text-option').text());
     format_value = format_value.replace(' ', '_')

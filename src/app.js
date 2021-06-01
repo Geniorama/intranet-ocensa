@@ -6,6 +6,7 @@ import SmoothScroll from "smooth-scroll";
 import Dragscroll from "dragscroll";
 
 
+
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
 import "./fonts/Cabin-Bold.ttf";
@@ -538,6 +539,9 @@ import "./img/perfiles/arrow-left-v2.svg";
 import "./img/widgets-ocensa/img-widget-network/icon-network.svg";
 import "./img/perfiles/arrow-select-profile.svg";
 import "./img/perfil-ocensa/icon-perfil-cumpleanos.svg";
+import "./img/perfiles/organigrama/organigrama-diego-guzman.jpg";
+import "./img/perfiles/organigrama/organigrama-hugo-garcia.jpg";
+import "./img/perfiles/organigrama/organigrama-ignacio-gomez.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
