@@ -536,6 +536,7 @@ import "./img/perfiles/arrow-right-v2.svg";
 import "./img/perfiles/arrow-left-v2.svg";
 
 import "./img/widgets-ocensa/img-widget-network/icon-network.svg";
+import "./img/casanare/cover-porvenir.png";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

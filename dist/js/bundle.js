@@ -22342,6 +22342,10 @@ if (est_page == null) {
 /* harmony default export */ var line_medium = (__webpack_require__.p + "img/line-medium.svg");
 // CONCATENATED MODULE: ./src/img/estaciones/cusiana/line-medium-2.svg
 /* harmony default export */ var line_medium_2 = (__webpack_require__.p + "img/line-medium-2.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/chulo-verde.svg
+/* harmony default export */ var chulo_verde = (__webpack_require__.p + "img/chulo-verde.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/close-green.svg
+/* harmony default export */ var close_green = (__webpack_require__.p + "img/close-green.svg");
 // CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg
 /* harmony default export */ var icon_perfil_ocensa_casanare = (__webpack_require__.p + "img/icon_perfil_ocensa_casanare.svg");
 // CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/recorrido-casanare.svg
@@ -22426,6 +22430,8 @@ if (est_page == null) {
 /* harmony default export */ var arrow_left_v2 = (__webpack_require__.p + "img/arrow-left-v2.svg");
 // CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-network/icon-network.svg
 /* harmony default export */ var icon_network = (__webpack_require__.p + "img/icon-network.svg");
+// CONCATENATED MODULE: ./src/img/casanare/cover-porvenir.png
+/* harmony default export */ var cover_porvenir = (__webpack_require__.p + "img/cover-porvenir.png");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -22875,6 +22881,8 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+
  // PERFIL ESTACIONES CASANARE
 
 
@@ -22906,6 +22914,7 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
  //Perfiles
+
 
 
 
