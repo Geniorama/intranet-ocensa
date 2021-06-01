@@ -16687,7 +16687,7 @@
     </div>
     <section class="oc-section-perfil-01">
         <div class="oc-perfil-date container">
-            <form class="row">
+            <form class="row" id="form-perfil-ocensa">
 
                 <div class="col-12 col-md-4 oc-perfil-date__img">
                     <img src="/img/img_perfil_usuario_ignacio.jpg" alt="">
@@ -16703,58 +16703,82 @@
                     <div class="oc-perfil-date__inputs">
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Nombre:</span>
+                            <label for="perfil-nombre" class="oc-name m-0">Nombre:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Ignacio Gómez Cárdenas">
+                            <input id="perfil-nombre" type="text" class="oc-input-text" value="Ignacio Gómez Cárdenas">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Cargo:</span>
+                            <label for="perfil-cargo" class="oc-name m-0">Cargo:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Director Recursos Humanos">
+                            <input id="perfil-cargo" type="text" class="oc-input-text" value="Director Recursos Humanos">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Estado:</span>
-                            <img src="/img/icon-pencil-profile.svg" alt="">
-                            <select name="" id="" class="oc-select">
-                                <option selected class="line">En línea</option>
-                                <option value="1" class=""><span></span>One</option>
-                                <option value="2" class="">Two</option>
-                                <option value="3" class="">Three</option>
+                            <label for="perfil-estado" class="oc-name m-0">Estado:</label>
+                            <img src="/img/arrow-select-profile.svg" alt="">
+                            <div class="oc-custom-select">
+                                <div class="oc-custom-select__default">
+                                    <span class="circle green"></span> 
+                                    <span class="text-option">En línea</span>
+                                </div>
+                                <ul class="oc-custom-select__options shadow pl-0">
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle green"></span> 
+                                        <span class="text-option">En línea</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle yellow"></span> 
+                                        <span class="text-option">Licencia</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle red"></span> 
+                                        <span class="text-option">Incapacidad</span>
+                                    </li>
+
+                                    <li class="oc-custom-select__options__opt">
+                                        <span class="circle gray"></span> 
+                                        <span class="text-option">Vacaciones</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <select name="" id="perfil-estado" class="oc-select">
+                                
                             </select>
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Sede:</span>
+                            <label for="perfil-sede" class="oc-name m-0">Sede:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="Bogotá">
+                            <input type="text" id="perfil-sede" class="oc-input-text" value="Bogotá">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Email:</span>
+                            <span for="perfil-email" class="oc-name m-0">Email:</span>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="ignacio@ocensa.com.co">
+                            <input id="perfil-email" type="text" class="oc-input-text" value="ignacio@ocensa.com.co">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Teléfono:</span>
+                            <label for="perfil-telefono" class="oc-name m-0">Teléfono:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="300 000 0000">
+                            <input id="perfil-telefono" type="text" class="oc-input-text" value="300 000 0000">
                         </div>
 
                         <div class="oc-perfil-date__inputs-item">
-                            <span class="oc-name">Cumpleaños:</span>
+                            <label for="perfil-cumpleanos" class="oc-name m-0">Cumpleaños:</label>
                             <img src="/img/icon-pencil-profile.svg" alt="">
-                            <input type="text" class="oc-input-text" value="17 de Abril">
+                            <input id="perfil-cumpleanos" type="text" class="oc-input-text" value="17 de Abril">
                         </div>
 
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4 oc-perfil-date__desc">
-                    <p class="oc-sobre-mi">Sobre mí</p>
-                    <textarea name="" id="" cols="30" rows="10"
+                    <label for="sobre-mi" class="oc-sobre-mi">Sobre mí</label>
+                    <textarea name="" id="sobre-mi" cols="30" rows="10"
                         value="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</textarea>
                     <div class="oc-perfil-date__button">
                         <a href="" class="oc-perfil-date__button-01">Editar</a>
@@ -17900,263 +17924,234 @@
                                 </button>
                             </div>
                         </div>
-
+                    
                         <div class="oc-widget-template__body p-3 text-center">
                             <a href="" class="wdg-publicaciones__agregar">Agregar</a>
                             <div class="wdg-publicaciones__car oc-vertical-slider">
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
+                    
+                                <div class="slide-item">
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
+                    
+                                <div class="slide-item">
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
+                    
+                                    <!--Item-->
+                                    <div class="wdg-publicaciones__item">
+                                        <div class="wdg-publicaciones__cont-title">
+                                            <h3>Gestión ambiental del cambio</h3>
+                                            <span>Acrobat PDF</span>
+                                        </div>
+                                        <div class="wdg-publicaciones__cont-img">
+                                            <img src="/img/document-publicaciones.svg" alt="">
+                                        </div>
+                                        <a href="#" class="wdg-publicaciones__download">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4" viewBox="0 0 10.055 16.4">
+                                                <g id="Grupo_12642" data-name="Grupo 12642" transform="translate(0.991 0.7)">
+                                                    <path id="Trazado_11262" data-name="Trazado 11262" d="M4268.815,4077.868V4088.5"
+                                                        transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11263" data-name="Trazado 11263"
+                                                        d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
+                                                        transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
+                                                    <path id="Trazado_11264" data-name="Trazado 11264" d="M4264.747,4092.512h8.175"
+                                                        transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
+                                                        stroke-linecap="round" stroke-width="1.4" />
+                                                </g>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
-                                    </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
-                                    </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
-                                    </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
-                                    </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
-                                    </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
-                                    </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
-                                    </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
-                                    </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-publicaciones__item">
-                                    <div class="wdg-publicaciones__cont-title">
-                                        <h3>Gestión ambiental del cambio</h3>
-                                        <span>Acrobat PDF</span>
-                                    </div>
-                                    <div class="wdg-publicaciones__cont-img">
-                                        <img src="/img/document-publicaciones.svg" alt="">
-                                    </div>
-                                    <a href="#" class="wdg-publicaciones__download">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="10.055" height="16.4"
-                                            viewBox="0 0 10.055 16.4">
-                                            <g id="Grupo_12642" data-name="Grupo 12642"
-                                                transform="translate(0.991 0.7)">
-                                                <path id="Trazado_11262" data-name="Trazado 11262"
-                                                    d="M4268.815,4077.868V4088.5"
-                                                    transform="translate(-4264.815 -4077.868)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                                <path id="Trazado_11263" data-name="Trazado 11263"
-                                                    d="M4265.789,4086.277l4.038,4.038,4.037-4.038"
-                                                    transform="translate(-4265.789 -4079.089)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" />
-                                                <path id="Trazado_11264" data-name="Trazado 11264"
-                                                    d="M4264.747,4092.512h8.175"
-                                                    transform="translate(-4264.747 -4077.512)" fill="none" stroke="#fff"
-                                                    stroke-linecap="round" stroke-width="1.4" />
-                                            </g>
-                                        </svg>
-                                    </a>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-                </div>
+                    
+                    </div>                </div>
 
                 <div class="col-12 col-md-4">
                     <div class="oc-card-widget oc-widget-template wdg-proyectos" id="wdg-proyectos">
@@ -18174,295 +18169,297 @@
                                 </button>
                             </div>
                         </div>
-
+                    
                         <div class="oc-widget-template__body p-3 text-center">
                             <div href="" class="wdg-proyectos__cont-btn">
                                 <a href="#" class="wdg-proyectos__btn-actuales active">Actuales</a>
                                 <a href="#" class="wdg-proyectos__btn-anteriores">Anteriores</a>
                             </div>
                             <div class="wdg-proyectos__car oc-vertical-slider">
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
+                                <div class="slide-item">
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
+                                            <div class="oc-members-carousel__more">
+                                                12+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
                                         </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
+                                    </div>
+                    
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
+                    
+                                <div class="slide-item">
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
+                                            <div class="oc-members-carousel__more">
+                                                12+
                                             </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
                                         </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
+                                    </div>
+                    
+                                    <!--Item-->
+                                    <div class="wdg-proyectos__item">
+                                        <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
+                                        <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
+                                        <span class="wdg-proyectos__state">Estado: 80%</span>
+                                        <div class="oc-members-carousel__cont">
+                                            <div class="wdg-proyectos__members oc-members-carousel">
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-elkin-orjuela.png" alt="">
+                                                    <span>Carlos</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-ximena.png" alt="">
+                                                    <span>Ximena</span>
+                                                </div>
+                    
+                                                <!--Item-->
+                                                <div class="oc-members-carousel__item">
+                                                    <img src="/img/member-alexander.png" alt="">
+                                                    <span>Alexander</span>
+                                                </div>
+                    
+                                            </div>
+                                            <div class="oc-members-carousel__more">
+                                                12+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Item-->
-                                <div class="wdg-proyectos__item">
-                                    <h3 class="wdg-proyectos__name-proyect">Proyecto CONPORT Lorem ipsum</h3>
-                                    <p class="wdg-proyectos__date">AGOS 2021 - Mar 2022</p>
-                                    <span class="wdg-proyectos__state">Estado: 80%</span>
-                                    <div class="oc-members-carousel__cont">
-                                        <div class="wdg-proyectos__members oc-members-carousel">
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-elkin-orjuela.png" alt="">
-                                                <span>Carlos</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-ximena.png" alt="">
-                                                <span>Ximena</span>
-                                            </div>
-
-                                            <!--Item-->
-                                            <div class="oc-members-carousel__item">
-                                                <img src="/img/member-alexander.png" alt="">
-                                                <span>Alexander</span>
-                                            </div>
-
-                                        </div>
-                                        <div class="oc-members-carousel__more">
-                                            12+
-                                        </div>
-                                    </div>
-                                </div>
-
+                    
                             </div>
                         </div>
-
-                    </div>
-                </div>
+                    
+                    </div>                </div>
 
                 <div class="col-12 col-md-4">
                     <!-- Widget Network -->
@@ -18616,7 +18613,7 @@
                                 <button class="oc-btn oc-btn-inactive btn-recientes" data-target="#wdg-recientes">
                                     Recientes
                                 </button>
-                                <button class="oc-btn oc-btn-inactive btn-recientes" data-target="#wdg-agregar">
+                                <button class="oc-btn oc-btn-inactive btn-agregar" data-target="#wdg-agregar">
                                     Agregar
                                 </button>
                             </div>
@@ -18919,7 +18916,7 @@
                         <div class="p-2">
                             <div class="oc-widget-template__body p-2">
                                 <div class="d-flex cont-item-orga text-center mb-3">
-                                    <img src="/img/circle-gray.svg" alt="" class="cont-item-orga__img mr-3">
+                                    <img src="/img/organigrama-hugo-garcia.jpg" alt="" class="cont-item-orga__img mr-3">
                                     <div class="text-left">
                                         <span class="d-block cont-item-orga__name">Hugo García</span>
                                         <span class="d-block cont-item-orga__cargo">Superintendente de línea y
@@ -18929,7 +18926,7 @@
                                     </div>
                                 </div>
                                 <div class="d-flex cont-item-orga text-center">
-                                    <img src="/img/circle-gray.svg" alt="" class="cont-item-orga__img mr-3">
+                                    <img src="/img/organigrama-diego-guzman.jpg" alt="" class="cont-item-orga__img mr-3">
                                     <div class="text-left">
                                         <span class="d-block cont-item-orga__name">Diego Guzmán</span>
                                         <span class="d-block cont-item-orga__cargo">Superintendente Sector 1 </span>
@@ -18937,7 +18934,7 @@
                                     </div>
                                 </div>
                                 <div class="d-flex cont-item-orga-v2 text-center ml-5 mt-3">
-                                    <img src="/img/circle-gray.svg" alt="" class="cont-item-orga__img mr-3">
+                                    <img src="/img/organigrama-ignacio-gomez.jpg" alt="" class="cont-item-orga__img mr-3">
                                     <div class="text-left">
                                         <span class="d-block cont-item-orga__name">Ignacio Gómez </span>
                                         <span class="d-block cont-item-orga__cargo">Gerente de proyectos e
@@ -18948,74 +18945,73 @@
                                 <div class="text-left oc-org-bg px-3 py-1 mt-3">
                                     <span class="oc-org-bg__text-s">Subordinados de<br> Ignacio Gómez </span>
                                 </div>
-
+                    
                                 <div class="oc-members-carousel-02__cont">
                                     <div class="wdg-proyectos__members oc-members-carousel-02">
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-elkin-orjuela.png" alt="">
                                             <span>Carlos</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-ximena.png" alt="">
                                             <span>Ximena</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-alexander.png" alt="">
                                             <span>Alexander</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-elkin-orjuela.png" alt="">
                                             <span>Carlos</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-ximena.png" alt="">
                                             <span>Ximena</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-alexander.png" alt="">
                                             <span>Alexander</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-elkin-orjuela.png" alt="">
                                             <span>Carlos</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-ximena.png" alt="">
                                             <span>Ximena</span>
                                         </div>
-
+                    
                                         <!--Item-->
                                         <div class="oc-members-carousel-02__item">
                                             <img src="/img/member-alexander.png" alt="">
                                             <span>Alexander</span>
                                         </div>
-
+                    
                                     </div>
                                     <div class="oc-members-carousel__more">
                                         12+
                                     </div>
                                 </div>
-
+                    
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div>                </div>
             </div>
         </div>
     </section>

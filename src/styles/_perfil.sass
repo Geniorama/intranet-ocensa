@@ -1,6 +1,8 @@
 .oc-perfil-ocensa
     .oc-content
         background-color: #ECEFF1
+    .oc-submenu-gen__cont-nav
+        display: none !important
 .oc-page-perfil
     .oc-header__desktop
         .oc-submenu-gen
@@ -50,7 +52,7 @@
             .oc-input-text
                 width: 70%
                 border: 0
-                border-bottom: 1px solid #A6ADB4
+                border-bottom: 1px solid rgba(112, 112, 112, 0.3)
                 font-size: 16px
                 font-family: 'roboto-c-regular'
                 z-index: 1
@@ -111,6 +113,48 @@
                 background-color: white
                 color: $green_co
                 text-decoration: none
+
+.oc-select
+    visibility: hidden
+    width: 0
+.oc-custom-select
+    position: relative
+    width: 70%
+    border-bottom: 1px solid rgba(112, 112, 112, 0.3)
+    cursor: pointer
+    &__default
+        display: block
+    &__options
+        list-style: none
+        position: absolute
+        background-color: white
+        z-index: 2
+        top: -20px
+        left: 0
+        min-width: 200px
+        border-radius: 5px
+        display: none
+        &__opt
+            border-bottom: 1px solid rgba(112, 112, 112, 0.3)
+            padding: .3em 1em
+            &:last-child
+                border: none
+            &:hover
+                background-color: rgba(#ccc , .1)
+    .circle
+        width: 11px
+        height: 11px
+        border-radius: 50%
+        display: inline-block
+        margin-right: 5px
+        &.yellow
+            background-color: #FFD800
+        &.green
+            background-color: #19A500
+        &.red
+            background-color: #FF0000
+        &.gray
+            background-color: #505D6C
 .oc-section-perfil-03, .oc-section-perfiles-02, .oc-section-perfiles-04
     .container
         padding: 0
@@ -135,13 +179,15 @@
             border: 1px solid rgba(#505D6C, .5)
     &__car
         padding-right: 1em
+        .slick-slide
+            height: auto
     &__item
         display: flex !important
         text-align: left
         justify-content: space-between
         align-items: center
         padding: .2em 0
-        border-bottom: 1px solid #707070
+        border-bottom: 1px solid rgba(112, 112, 112, 0.3)
         position: relative
     &__cont-title
         h3
@@ -192,6 +238,10 @@
 
 .wdg-proyectos
     height: 100%
+    .slick-slide
+        height: auto
+    #wdg-proyectos-anteriores
+        display: none
     &__cont-btn
         margin-bottom: 1em
         a
@@ -218,6 +268,7 @@
         text-align: left
         border-bottom: 1px solid rgba(#707070 ,.29 )
         margin-bottom: 1.2em
+        width: 90% !important
     &__name-proyect
         font-size: 15px
         font-family: 'roboto-c-regular'
@@ -338,6 +389,7 @@
     &__item
         border-bottom: 1px solid rgba( #707070 , .29)
         margin-bottom: .7em
+        width: 95% !important
     &__name-proyect
         font-size: 15px
         font-family: 'roboto-c-regular'
@@ -380,9 +432,6 @@
     justify-content: center
     margin-top: 3em
     margin-bottom: 1em
-    &__item
-        text-align: center
-        margin: 0 3em
     &__cont-img
         background-color: #2B5CDA
         width: 65px
@@ -392,6 +441,17 @@
         justify-content: center
         align-items: center
         margin: auto
+        position: relative
+        transition: $tr
+    &__item
+        text-align: center
+        margin: 0 3em
+        cursor: pointer
+        &:hover
+            .oc-perfil-icons-header__cont-img
+                box-shadow: 0 0 0px 5px #2B5CDA
+                    
+    
     span
         font-size: 13px
         color: #2B5CDA
@@ -456,6 +516,9 @@
     background-color: #ECEFF1
     .wdg-publicaciones
         height: 100%
+    .wdg-publicaciones__agregar, .btn-agregar
+        display: none !important
+        
 @include media-breakpoint-down(sm)
     .oc-perfil-ocensa
         .oc-content
@@ -526,6 +589,8 @@
     .wdg-proyectos
         margin-top: 1.6em
         height: auto
+        &__item
+            width: 100% !important
         .oc-vertical-slider
             .slick-dots
                 display: flex
@@ -545,8 +610,6 @@
             margin: 0
         .col-12
             padding: 0
-        .wdg-publicaciones
-            margin-top: 1.6em
     .oc-perfil-icons-header
         &__item
             margin: 0 1em
@@ -575,3 +638,7 @@
     .oc-section-perfil-01
         .container
             padding: 0
+    
+@include media_breakpoint_down(sm)
+    .wdg-grupos, .oc-widget-calendario, .wdg-proyectos
+        margin-bottom: 1.5em

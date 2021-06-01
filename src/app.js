@@ -6,6 +6,7 @@ import SmoothScroll from "smooth-scroll";
 import Dragscroll from "dragscroll";
 
 
+
 // Fonts
 import "./fonts/Cabin-Regular.ttf";
 import "./fonts/Cabin-Bold.ttf";
@@ -32,6 +33,8 @@ import "./modules/WidgetNetwork";
 import "./modules/PerfilOleoducto";
 import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
+import "./modules/WidgetProyectos";
+import "./modules/Perfil";
 
 // Images
 import "./img/barra-lateral-azul/oc-avatar.jpg";
@@ -537,6 +540,11 @@ import "./img/perfiles/arrow-left-v2.svg";
 
 import "./img/widgets-ocensa/img-widget-network/icon-network.svg";
 import "./img/casanare/cover-porvenir.png";
+import "./img/perfiles/arrow-select-profile.svg";
+import "./img/perfil-ocensa/icon-perfil-cumpleanos.svg";
+import "./img/perfiles/organigrama/organigrama-diego-guzman.jpg";
+import "./img/perfiles/organigrama/organigrama-hugo-garcia.jpg";
+import "./img/perfiles/organigrama/organigrama-ignacio-gomez.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -763,7 +771,9 @@ $('.oc-slick-grupo-general').slick({
           settings: {
             arrows: true,
             dots: true,
-            slidesToShow: 3
+            slidesToShow: 3,
+            vertical: false,
+            verticalSwiping: false,
           }
         }
       ]
@@ -1176,9 +1186,21 @@ $('.wdg-publicaciones__car').slick({
     arrows: false,
     dots: true,
     vertical: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     verticalSwiping: true,
-    slidesToScroll: 4,
+    responsive: [
+        {
+            breakpoint: 560,
+            settings: {
+                vertical: false,
+                verticalSwiping: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+        }
+    ]
 })
 
 var slider = $('.oc-vertical-slider');
@@ -1196,9 +1218,20 @@ $('.wdg-proyectos__car').slick({
     arrows: false,
     dots: true,
     vertical: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     verticalSwiping: true,
-    slidesToScroll: 2,
+    responsive: [
+        {
+            breakpoint: 560,
+            settings: {
+                vertical: false,
+                verticalSwiping: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 })
 
 $('.wdg-grupos__car').slick({
@@ -1296,6 +1329,15 @@ $('.oc-perfil-date-02__car').slick({
     slidesToShow: 1,
     verticalSwiping: true,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+              verticalSwiping: false,
+              vertical: false,
+            }
+        }
+    ]
 })
 
 $('.wdg-documentos__car').slick({
