@@ -545,6 +545,7 @@ import "./img/perfil-ocensa/icon-perfil-cumpleanos.svg";
 import "./img/perfiles/organigrama/organigrama-diego-guzman.jpg";
 import "./img/perfiles/organigrama/organigrama-hugo-garcia.jpg";
 import "./img/perfiles/organigrama/organigrama-ignacio-gomez.jpg";
+import "./img/casanare/img-perfil-porvenir-elkin.png"
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
