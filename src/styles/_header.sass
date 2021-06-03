@@ -34,15 +34,17 @@
             background-color: $green_co
             padding: .5em .7em
             text-align: center
-            cursor: pointer
+            cursor: inherit
             position: relative
             z-index: 2
             img
                 transition: $tr
+                visibility: hidden
             span
                 display: block
                 color: #ffffff
                 font-size: 16px
+                visibility: hidden
     &__widgets-cont
         position: absolute
         right: 0
@@ -111,6 +113,12 @@
         background-color: $blue_light_co
     &__widgets-otro
         background-color: #BEBEBE
+
+.oc-general-index
+    .oc-header__widgets-info
+        cursor: pointer
+        img, span
+            visibility: visible
     
 @include media-breakpoint-down(sm)
     .oc-header

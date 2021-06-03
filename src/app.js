@@ -284,6 +284,7 @@ import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/hidrografia.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/Hidrografia-01a.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-02.jpg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-03.jpg";
+import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-04.png";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia casanare-a.jpg";
 
 //Casanare - Comunidades Mujer
@@ -923,7 +924,7 @@ $('#close-wdg-mobile').click(function(e) {
     $('#box-widget-mobile').fadeOut() 
 })
 
-$('.oc-header__widgets-info').click(function() {
+$('.oc-general-index .oc-header__widgets-info').click(function() {
     $('.oc-header__widgets-cont').fadeToggle('low', function(){
         if($('.oc-header__widgets-cont').css('display') == 'none'){
             $('.oc-header__widgets-info img').css('transform', 'rotate(0deg)')

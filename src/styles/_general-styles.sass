@@ -168,7 +168,7 @@ p, span
             border-color: $green_co
 
 .flecha-ocensa
-    width: 15px
+    width: 13px
     height: 2px
     display: inline-block
     position: relative
@@ -200,11 +200,49 @@ p, span
         &::before
             border-color: $green_co !important
 .oc-btn
+    min-height: 20px
+    span
+        font-family: 'cabin-bold',sans-serif
+        font-size: 12px
+        letter-spacing: 1px
     &:hover
         text-decoration: none
         .flecha-ocensa
-            width: 25px
-            
+            width: 17px
+    &__green
+        background-color: $green_co
+        &:hover
+            color: white
+    &__blue
+        background-color: #2B5CDA
+        &:hover
+            color: white
+    &__gray
+        background-color: #505D6C
+        &:hover
+            color: white
+    &__white
+        background-color: white
+        &:hover
+            color: #24A31A
+    &__large
+        min-height: 24px
+        span
+            font-size: 14px
+    &__card-post
+        span
+            font-family: 'roboto-bold' , sans-serif !important
+            font-size:  15px
+            color: #28347D !important
+        .flecha-ocensa
+            width: 16px
+            &::before
+                top: -4px
+                width: 10px
+                height: 10px
+        &:hover
+            .flecha-ocensa
+                width: 20px
                 
 // Custom Slick
 .oc-slick-theme
