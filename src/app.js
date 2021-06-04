@@ -548,6 +548,8 @@ import "./img/perfiles/organigrama/organigrama-diego-guzman.jpg";
 import "./img/perfiles/organigrama/organigrama-hugo-garcia.jpg";
 import "./img/perfiles/organigrama/organigrama-ignacio-gomez.jpg";
 import "./img/casanare/img-perfil-porvenir-elkin.png"
+import "./img/casanare/16-icon-menu-como-llegar.svg"
+import "./img/casanare/3-icon-menu-ubicacion.svg"
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
