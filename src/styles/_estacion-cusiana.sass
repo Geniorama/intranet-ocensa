@@ -67,7 +67,7 @@
             .p-especial
                 padding: 5px
         .cont-sec-3
-            height: 125px
+            height: 125px !important
         .oc-bombeo
             img
                 width: 48px
@@ -285,6 +285,11 @@
             width: 19px !important
             height: 19px !important
 
+.item-terrestre
+    .oc-box-dato
+        padding-top: 5px
+
+
 @include media-breakpoint-down(sm)
     .oc-widget-slider
         background: none
@@ -346,6 +351,9 @@
         width: 21px !important
     .oc-box-dato__img-distancia
         width: 25px !important
+    #distancia-linea2
+        .oc-box-dato
+            height: 125px !important
 
 
 #main-cas-cusiana #wdg-section-03 .oc-widget-template

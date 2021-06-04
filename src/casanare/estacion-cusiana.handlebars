@@ -165,8 +165,8 @@
                                         mismo, se encuentra la <b>estación Cusiana</b> a:</p>
 
                                     <div
-                                        class="wdg-banner__info__km d-flex align-items-center justify-content-center flex-wrap first-child">
-                                        <div class="d-flex">
+                                        class="wdg-banner__info__km d-flex flex-column flex-md-row align-items-center justify-content-center flex-wrap first-child">
+                                        <div class="d-flex align-items-center">
                                             <img src="/img/altitud.svg" alt="">
                                             <div class="d-block text-center">
                                                 <span class="number">
@@ -183,28 +183,32 @@
                                     </div>
 
                                     <div
-                                        class="wdg-banner__info__km d-flex align-items-center justify-content-center flex-wrap first-child">
-                                        <img src="/img/temperatura.svg" alt="">
-                                        <span class="number">
-                                            25°
-                                        </span>
-                                        <span class="km">
-                                            C
-                                        </span>
+                                        class="wdg-banner__info__km d-flex flex-column flex-md-row align-items-center justify-content-center flex-wrap first-child">
+                                        <div class="d-flex  align-items-center">
+                                            <img src="/img/temperatura.svg" alt="">
+                                            <span class="number">
+                                                25°
+                                            </span>
+                                            <span class="km">
+                                                C
+                                            </span>
+                                        </div>
                                         <p class="leyend text-center">
                                             Temperatura promedio
                                         </p>
                                     </div>
 
                                     <div
-                                        class="wdg-banner__info__km d-flex align-items-center justify-content-center flex-wrap first-child">
-                                        <img src="/img/estacion_rio.svg" alt="">
-                                        <span class="number">
-                                            4.3
-                                        </span>
-                                        <span class="km">
-                                            km
-                                        </span>
+                                        class="wdg-banner__info__km d-flex flex-column flex-md-row align-items-center justify-content-center flex-wrap first-child">
+                                        <div class="d-flex align-items-center">
+                                            <img src="/img/estacion_rio.svg" alt="">
+                                            <span class="number">
+                                                4.3
+                                            </span>
+                                            <span class="km">
+                                                km
+                                            </span>
+                                        </div>
                                         <p class="leyend text-center">
                                             de la estación está el río Caja en la vía Aguazul- Monterrey
                                         </p>
@@ -378,13 +382,11 @@
                             <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
                                 data-widget="#widget-galeria-foto__cusiana-almacenamiento">
                                 <span>Ver fotos</span>
-                                <img
-                                    src="/img/camara.svg" alt="" class="ml-2"></button>
+                                <img src="/img/camara.svg" alt="" class="ml-2"></button>
                             <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
                                 data-widget="#widget-galeria-foto__porvenir-almacenamiento">
                                 <span>Ver video</span>
-                                <img
-                                    src="/img/video.svg" alt="" class="ml-2"></button>
+                                <img src="/img/video.svg" alt="" class="ml-2"></button>
                         </div>
                     </div>
                 </div>
@@ -455,7 +457,7 @@
                                 </div>
                             </div>
 
-                            <div class="item-02 mt-2">
+                            <div class="item-02 mt-2" id="distancia-linea2">
                                 <div class="row px-3">
                                     <div class="col-12 col-md-6 p-1">
                                         <div class="oc-box-dato cont-sec-3 d-flex align-items-center p-2">
@@ -470,7 +472,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 p-1">
+                                    <div class="col-12 col-md-6 p-1 ">
                                         <div class="oc-box-dato cont-sec-3 d-flex align-items-center p-2">
                                             <img src="/img/dato.svg" alt="" class="oc-box-dato__img">
                                             <div class="oc-box-dato__text p-especial-2">
@@ -556,8 +558,7 @@
                                     <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
                                         data-widget="#widget-galeria-foto__cusiana-bombeo">
                                         <span>Ver fotos</span>
-                                         <img
-                                            src="/img/icon-camara.svg" alt="" class="ml-2"></button>
+                                        <img src="/img/icon-camara.svg" alt="" class="ml-2"></button>
                                 </div>
                             </div>
                         </div>
@@ -638,7 +639,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-12 d-flex flex-nowrap pl-1">
+                                    <div class="col-12 d-flex flex-nowrap justify-content-center pl-1">
                                         <div class="pt-3">
                                             <img src="/img/point.svg" alt="" class="oc-descarga-est__point mr-1">
                                         </div>
@@ -721,7 +722,7 @@
                             <div class="col-12 col-md-6 oc-porvenir__almacenamiento-final oc-descarga-est mt-0">
 
                                 {{!-- Item desktop --}}
-                                <div class="row d-none d-md-flex oc-porvenir__almacenamiento-final-item">
+                                <div class="row d-none d-md-flex oc-porvenir__almacenamiento-final-item flex-nowrap">
                                     <img src="/img/numero_bahias.svg" alt="" class="oc-descarga-est__img1 mr-4">
                                     <div class="d-block text-center">
                                         <span class="oc-descarga-est__text-g c-green">50</span><span
@@ -793,13 +794,11 @@
                                 </div>
                                 <div class="text-center">
                                     <button class="oc-btn oc-btn__gray">
-                                        <span>Ver fotos</span> 
-                                        <img src="/img/icon-camara.svg"
-                                            alt="" class="ml-2"></button>
+                                        <span>Ver fotos</span>
+                                        <img src="/img/icon-camara.svg" alt="" class="ml-2"></button>
                                     <button class="oc-btn oc-btn__gray">
                                         <span>Ver videos</span>
-                                         <img src="/img/video.svg" alt=""
-                                            class="ml-2"></button>
+                                        <img src="/img/video.svg" alt="" class="ml-2"></button>
                                 </div>
                             </div>
                         </div>
@@ -1143,10 +1142,11 @@
                                     <h5 class="oc-slick-widget__contratistas__name roboto-medium">MASSY - Massy Energy
                                         Colombia</h5>
                                     <p class="roboto-light my-4">Prestación de servicios para el manejo de activos </p>
-                                    <a href="https://www.massyenergy.co/" target="_blank" class="oc-btn oc-btn__gray m-0 my-4">
+                                    <a href="https://www.massyenergy.co/" target="_blank"
+                                        class="oc-btn oc-btn__gray m-0 my-4">
                                         <span> Ir </span>
 
-                                       <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
+                                        <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
                                     </a>
                                 </div>
 
@@ -1157,7 +1157,8 @@
                                     <h5 class="oc-slick-widget__contratistas__name roboto-medium">ISMOCOL S.A.</h5>
                                     <p class="roboto-light my-4">Construcción, operación y mantenimientos de oleoductos,
                                         Gasoductos, montajes de facilidades y Servicios Petroleros.</p>
-                                    <a href="https://www.ismocol.com/" target="_blank" class="oc-btn oc-btn__gray m-0 my-3">
+                                    <a href="https://www.ismocol.com/" target="_blank"
+                                        class="oc-btn oc-btn__gray m-0 my-3">
                                         <span> Ir </span>
 
                                         <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
@@ -1169,39 +1170,12 @@
                                     <img src="/img/logo_contratista_durangar.png" alt=""
                                         class="oc-slick-widget__contratistas__brand img-fluid mx-auto mb-2">
                                     <h5 class="oc-slick-widget__contratistas__name roboto-medium">DURANGAR LTDA</h5>
-                                    <p class="roboto-light my-4">Soporte gas turbinas</p>
-                                    <a href="https://www.grupovanti.com/" target="_blank" class="oc-btn oc-btn__gray m-0 my-3">
+                                    <p class="roboto-light my-4"> Servicio de catering</p>
+                                    <a href="https://www.ismocol.com/" target="_blank"
+                                        class="oc-btn oc-btn__gray m-0 my-3">
                                         <span> Ir </span>
 
                                         <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                    </a>
-                                </div>
-
-                                <!-- Slide 5 -->
-                                <div class="slick-item text-center px-5">
-                                    <img src="/img/logo_stm.jpg" alt=""
-                                        class="oc-slick-widget__contratistas__brand img-fluid mx-auto mb-4">
-                                    <h5 class="oc-slick-widget__contratistas__name roboto-medium">STM</h5>
-                                    <p class="roboto-light my-4">Soporte jardinería</p>
-                                    <a href="https://www.facebook.com/Durangar-Ltda-2203554809925161" target="_blank"
-                                        class="oc-btn m-0 my-3">
-                                        <span> Ir </span>
-
-                                        <span class="ml-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15.671" height="8.786"
-                                                viewBox="0 0 15.671 8.786">
-                                                <g id="Grupo_650" data-name="Grupo 650" transform="translate(0 0.403)">
-                                                    <path id="Path_4969" data-name="Path 4969"
-                                                        d="M1062.2,1384.467h14.771"
-                                                        transform="translate(-1062.2 -1380.436)" fill="none"
-                                                        stroke="#fff" stroke-width="2" />
-                                                    <path id="Path_4970" data-name="Path 4970"
-                                                        d="M1074,1380.436l3.755,3.99-3.755,3.989"
-                                                        transform="translate(-1062.896 -1380.436)" fill="none"
-                                                        stroke="#fff" stroke-width="2" />
-                                                </g>
-                                            </svg>
-                                        </span>
                                     </a>
                                 </div>
                             </div>
@@ -1352,7 +1326,7 @@
                                     <p class="c-green cont-formatos__title">ENVIAR A</p>
                                 </div>
                                 <div
-                                    class="cont cont-formatos__send line pb-2 d-flex align-items-center justify-content-center">
+                                    class="cont cont-formatos__send line pb-2 d-flex align-items-center justify-content-between">
                                     <img src="/img/profile-send1.jpg" alt="" class="img-user-send img-circle mr-3">
                                     <div class="mr-5">
                                         <span class="d-block name-send">Alejandro Herrera</span>
@@ -1361,8 +1335,8 @@
                                     <img src="/img/icon-envelope1.svg" alt="" class="img-enviar">
                                 </div>
                                 <div
-                                    class="cont cont-formatos__send pt-2 d-flex align-items-center justify-content-center">
-                                    <img src="/img/profile-send1.jpg" alt="" class="img-user-send img-circle ml-2 mr-3">
+                                    class="cont cont-formatos__send pt-2 d-flex align-items-center justify-content-between">
+                                    <img src="/img/profile-send1.jpg" alt="" class="img-user-send img-circle mr-3">
                                     <div class="mr-5">
                                         <span class="d-block name-send">Elkin Orjuela</span>
                                         <span class="d-block prof-send">Jefe de mantenimiento Sector 1</span>
@@ -1426,7 +1400,7 @@
                                     </div>
                                     <div class="oc-box-dato px-md-3">
                                         <div class="item-terrestre_01 py-2">
-                                            <div class="row align-items-center mt-2">
+                                            <div class="row align-items-center mt-2 pb-md-3">
                                                 <div class="col-12 col-md-3">
                                                     <span class="badge text-light px-2 mr-1">Sogamoso
                                                         –<br> Tauramena</span>
@@ -1462,8 +1436,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="item-terrestre_02 py-2">
-                                            <div class="row align-items-center mt-2">
+                                        <div class="item-terrestre_02 py-2 pb-1">
+                                            <div class="row align-items-center mt-2 pb-md-3">
                                                 <div class="col-12 col-md-3">
                                                     <span class="badge text-light px-2 mr-1">Guateque
                                                         –<br> Tauramena</span>
@@ -1501,8 +1475,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="item-terrestre_03 py-2">
-                                            <div class="row align-items-center mt-2">
+                                        <div class="item-terrestre_03 py-2 pb-1">
+                                            <div class="row align-items-center mt-2 pb-md-3">
                                                 <div class="col-12 col-md-3">
                                                     <span class="badge text-light mr-1">Villavicencio
                                                         –<br> Tauramena</span>
