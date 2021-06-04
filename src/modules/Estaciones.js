@@ -14,3 +14,10 @@ $('.oc-slick-widget__slider').slick({
     dots: true,
     infinite: false
 })
+
+const est_cusiana_banner = document.querySelector('.oc-cas-cusiana .wdg-banner__bg')
+
+if(est_cusiana_banner){
+    est_cusiana_banner.scrollLeft = 130
+}
+
