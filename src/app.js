@@ -490,6 +490,7 @@ import "./img/estaciones/cusiana/line-medium.svg";
 import "./img/estaciones/cusiana/line-medium-2.svg";
 import "./img/estaciones/cusiana/chulo-verde.svg";
 import "./img/estaciones/cusiana/close-green.svg";
+import "./img/estaciones/cusiana/13-icon-contratistas/logo-contratista-ismocol.png";
 
 // PERFIL ESTACIONES CASANARE
 import "./img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg";
