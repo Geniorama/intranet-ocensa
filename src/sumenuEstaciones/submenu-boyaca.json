@@ -1,0 +1,27 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Boyacá",
+            "dataTarget": "/boyaca/boyaca.html",
+            "menuId": "oc-index-boyaca"
+        },
+
+        {
+            "menuName": "Estación Páez",
+            "dataTarget": "/boyaca/estacion-paez.html",
+            "menuId": "oc-boy-paez"
+        },
+
+        {
+            "menuName": "Estación Miraflores",
+            "dataTarget": "/boyaca/estacion-miraflores.html",
+            "menuId": "oc-boy-miraflores"
+        },
+
+        {
+            "menuName": "Estación Vasconia",
+            "dataTarget": "/boyaca/estacion-vasconia.html",
+            "menuId": "oc-boy-vasconia"
+        }
+    ]
+}

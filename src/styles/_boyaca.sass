@@ -1,0 +1,106 @@
+.oc-index-boyaca
+    .oc-img-header-estaciones__title-p
+        &::before
+            width: 61px
+    .oc-header
+        .oc-header__desktop
+            .oc-submenu-gen
+                display: none
+
+    .oc-mapa__indicator
+        top: -100px
+    .oc-mapa__stat
+        position: relative
+        top: unset
+        left: unset
+        right: unset
+        display: block
+        &-header
+            padding-right: 15px
+            min-width: 130px
+            display: inline-flex
+        &-segmentos
+            display: flex
+        &-altura
+            display: flex
+        &-item-altura
+            border-bottom: none
+            .arrow
+                margin-right: .5em
+            .number
+                margin-right: 5px
+        &-item-seg
+            .oc-tramo
+                &::before
+                    content: '1'
+                &-02
+                    &::before
+                        content: '2'
+                &-03
+                    &::before
+                        content: '3'
+                &-04
+                    &::before
+                        content: '4'
+    #mapExt-bta
+        position: absolute
+        left: 40px
+        bottom: 300px
+    #mapExt-casanare
+        position: absolute
+        bottom: 60px
+        right: 189px
+        .oc-map__ext-city__button-text
+            margin-right: 20px
+    #mapExt-antioquia
+        position: absolute
+        top: -50px
+        left: 470px
+        .oc-map__ext-city__button-text
+            margin-left: 20px
+    #mapExt-santander
+        position: absolute
+        top: 38px
+        right: 474px
+        .oc-map__ext-city__button-text
+            margin-left: 20px
+
+.oc-map__info-aditional
+    display: inline-block
+    text-align: left
+    position: absolute
+    left: 70px
+    bottom: 70px
+    &__title
+        color: #223260
+        font-family: 'roboto-c-bold', sans-serif
+        font-size: 12px
+        margin-bottom: 5px
+    &__list
+        list-style: none
+        font-family: 'roboto-light', sans-serif
+        font-size: 13px
+        padding: 0
+        li
+            margin-bottom: .9em
+        .item-number
+            width: 19px
+            height: 19px
+            background-color: #D2D6D8
+            color: #223260
+            font-family: 'roboto-bold'
+            font-size: 12px
+            display: inline-flex
+            border-radius: 50%
+            justify-content: center
+            align-items: center
+            margin-right: 5px
+
+@include media_breakpoint_down(sm)
+    .oc-index-boyaca
+        .oc-mapa__stat
+            &-header
+                width: 100%
+        #mapExt-antioquia
+            top: 0
+            left: 283px

@@ -555,6 +555,17 @@ import "./img/casanare/3-icon-menu-ubicacion.svg"
 import "./img/boyaca/mapa/boyaca-mapa-3d.jpg";
 import "./img/boyaca/mapa/icono-mapa-boyaca-01.svg";
 
+import "./img/boyaca/fotos/_Banner/_Banner-inicio-boyaca.jpg";
+import "./img/boyaca/iconos/icon-slide-inicio/icon-mapa-boyaca.svg";
+import "./img/boyaca/iconos/icon-slide-inicio/icons-group-slide-boyaca.svg";
+import "./img/boyaca/fotos/ESTACIONES/estacion-miraflores.jpg";
+import "./img/boyaca/fotos/ESTACIONES/estacion-paez.jpg";
+import "./img/boyaca/fotos/ESTACIONES/estacion-vasconia.jpg";
+
+import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-miraflores.jpg";
+import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-paez.jpg";
+import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-vasconia.jpg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
@@ -617,6 +628,7 @@ $('.oc-slick-galeria-territorio').slick({
     </button>`,
     slidesToShow: 3,
     infinite: false,
+    arrows: true,
     responsive: [
         {
           breakpoint: 768,
@@ -629,7 +641,7 @@ $('.oc-slick-galeria-territorio').slick({
         {
           breakpoint: 480,
           settings: {
-            arrows: true,
+            arrows: false,
             dots: true,
             slidesToShow: 1
           }

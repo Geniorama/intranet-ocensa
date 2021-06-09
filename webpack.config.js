@@ -118,7 +118,7 @@ module.exports = {
             filename: 'boyaca/boyaca.html',
             template: './src/boyaca/boyaca.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
         }),
 
         // CSS
