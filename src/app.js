@@ -554,6 +554,8 @@ import "./img/casanare/3-icon-menu-ubicacion.svg"
 // BOYACA MAPA
 import "./img/boyaca/mapa/boyaca-mapa-3d.jpg";
 import "./img/boyaca/mapa/icono-mapa-boyaca-01.svg";
+import "./img/boyaca/mapa/imagen-mapa-linea.svg";
+import "./img/boyaca/mapa/icon-grey-estacion.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
