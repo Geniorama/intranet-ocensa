@@ -555,6 +555,20 @@ import "./img/casanare/3-icon-menu-ubicacion.svg"
 import "./img/boyaca/mapa/boyaca-mapa-3d.jpg";
 import "./img/boyaca/mapa/icono-mapa-boyaca-01.svg";
 
+//Estacion Páez
+import "./img/boyaca/estacion-paez/paez-abrir 1.jpg";
+import "./img/boyaca/estacion-paez/paez-abrir 2.jpg";
+import "./img/boyaca/estacion-paez/paez-abrir 3.jpg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_proyecto_p-135.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_rebombeo.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/linea-punteada.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_incremento_volumenes.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_equipos_electricos.svg";
+import "./img/boyaca/estacion-paez/3-icon-ubicacion/foto-satelital-paez.jpg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_otros_productos.svg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_tanque sumidero.svg";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
