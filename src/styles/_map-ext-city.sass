@@ -1,0 +1,33 @@
+.oc-map__ext-city
+    &__button
+        position: relative
+        &::after
+            width: 20px
+            height: 20px
+            content: ''
+            position: absolute
+            background-color: white
+            border-radius: 50%
+            transform: scale(.7)
+        &.btnIzq
+            &::after
+                left: 0
+        &.btnDer
+            &::after
+                right: 0
+        .flecha-ocensa
+            position: absolute
+            z-index: 1
+            width: 15px
+        &-left-arr
+            left: 8px
+        &-right-arr
+            right: 8px
+    &:hover
+        .flecha-ocensa
+            width: 18px
+    &__name
+        font-family: 'roboto-c-bold', sans-serif
+        font-size: 21px
+        color: #223260
+        margin: 0

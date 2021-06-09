@@ -1,0 +1,14 @@
+<div class="oc-map__ext-city" id="{{id}}">
+    <h4 class="oc-map__ext-city__name">{{city}}</h4>
+    <a class="oc-map__ext-city__button oc-btn oc-btn__gray-light {{#if btnIzquierda}}btnIzq{{/if}} {{#if btnDerecha}}btnDer{{/if}}" href="{{buttonLink}}">
+        {{#if btnIzquierda}}
+            <span class="oc-map__ext-city__button-left-arr flecha-ocensa flecha-izquierda flecha-verde mr-2"></span>
+        {{/if}}
+        
+        <span class="oc-map__ext-city__button-text">{{buttonText}}</span>
+
+        {{#if btnDerecha}}
+            <span class="oc-map__ext-city__button-right-arr flecha-ocensa flecha-derecha flecha-verde ml-2"></span>
+        {{/if}}
+    </a>
+</div>
