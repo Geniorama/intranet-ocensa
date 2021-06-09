@@ -113,6 +113,14 @@ module.exports = {
             templateParameters: require('./src/submenu-nosotros.json')
         }),
 
+        // Boyaca
+        new HtmlWebpackPlugin({
+            filename: 'boyaca/boyaca.html',
+            template: './src/boyaca/boyaca.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

@@ -551,6 +551,10 @@ import "./img/casanare/img-perfil-porvenir-elkin.png"
 import "./img/casanare/16-icon-menu-como-llegar.svg"
 import "./img/casanare/3-icon-menu-ubicacion.svg"
 
+// BOYACA MAPA
+import "./img/boyaca/mapa/boyaca-mapa-3d.jpg";
+import "./img/boyaca/mapa/icono-mapa-boyaca-01.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
