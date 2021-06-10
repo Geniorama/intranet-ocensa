@@ -24,14 +24,75 @@
     </section>
 
     <section class="oc-mapa oc-mapa-boyaca position-relative">
+        {{!-- Modal Map --}}
+
+        <!-- Modal Departamento Boyacá -->
+        {{>../modals/boyaca/depto_boyaca}}
+
+        <!-- Modal Estación Páez -->
+        {{>../modals/boyaca/paez}}
+
+        <!-- Modal Estación Miraflores -->
+        {{>../modals/boyaca/miraflores}}
+
+        <!-- Modal Estación Vasconia -->
+        {{>../modals/boyaca/vasconia}}
+
+        <!-- Modal Base Soracá -->
+        {{>../modals/boyaca/base_soraca}}
+
+        <!-- Modal Mun Páez -->
+        {{>../modals/boyaca/mun_paez}}
+
+        <!-- Modal Mun Miraflores -->
+        {{>../modals/boyaca/mun_miraflores}}
+
+        <!-- Modal Mun Puerto Boyacá -->
+        {{>../modals/boyaca/mun_puerto_boyaca}}
+
+        <!-- Modal Mun Puerto Serviez -->
+        {{>../modals/boyaca/mun_puerto_serviez}}
+
+        <!-- Modal Ecosistema -->
+        {{>../modals/boyaca/ecosistema}}
+
+        <!-- Modal Frailejón -->
+        {{>../modals/boyaca/frailejon}}
+
+        <!-- Modal Alto de las Flores -->
+        {{>../modals/boyaca/alto_flores}}
+
+        <!-- Modal Fauna Boyacá -->
+        {{>../modals/boyaca/fauna}}
+
+        <!-- Modal Hidrografía Boyacá -->
+        {{>../modals/boyaca/hidrografia}}
+
+        <!-- Modal Clima Boyacá -->
+        {{>../modals/boyaca/clima}}
+
+        <!-- Modal Parque Nacional Natural Páramo de Pisba -->
+        {{>../modals/boyaca/parque_nal_pisba}}
+
+        <!-- Modal Parque Nacional Natural Páramo de Pisba -->
+        {{>../modals/boyaca/santuario_guanenta}}
+
+        <!-- Modal Parque Nacional Natural El Cocuy -->
+        {{>../modals/boyaca/parque_nal_cocuy}}
+
+        <!-- Modal Santuario de Fauna y Flora Iguaque -->
+        {{>../modals/boyaca/santuario_iguaque}}
+
+        <!-- Modal Comunidades Boyacá-->
+        {{>../modals/boyaca/comunidades}}
+
         <div class="oc-mapa__container">
-            
             <img src="/img/imagen-mapa-linea.svg" alt="" class="oc-mapa__line">
 
             <img src="/img/boyaca-mapa-3d.jpg" alt="" class="oc-mapa__img">
 
             <!--Clima-->
-            <div class="oc-mapa__location-modals oc-point-26 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-26 oc-mapa__green" data-target="#clima-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -50,7 +111,7 @@
             </div>
 
             <!--Fauna-->
-            <div class="oc-mapa__location-modals oc-point-27 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-27 oc-mapa__green" data-target="#fauna-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -69,7 +130,7 @@
             </div>
 
             <!--Comunidades-->
-            <div class="oc-mapa__location-modals oc-point-28 oc-mapa__purple" data-target="#comiteseguimiento">
+            <div class="oc-mapa__location-modals oc-point-28 oc-mapa__purple" data-target="#comunidades-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -88,7 +149,7 @@
             </div>
 
             <!--Ecosistema-->
-            <div class="oc-mapa__location-modals oc-point-29 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-29 oc-mapa__green" data-target="#ecosistema-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -108,7 +169,7 @@
 
             <!--Puerto Boyacá-->
             <div class="oc-mapa__location-modals oc-point-30 oc-mapa__orange oc-mapa__location-modals-02"
-                data-target="#tauramena">
+                data-target="#mun-puerto-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -146,7 +207,7 @@
 
             <!--Puerto Serviez-->
             <div class="oc-mapa__location-modals oc-point-32 oc-mapa__orange oc-mapa__location-modals-02"
-                data-target="#tauramena">
+                data-target="#mun-puerto-serviez">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -165,7 +226,7 @@
             </div>
 
             <!--Frailejón-->
-            <div class="oc-mapa__location-modals oc-point-33 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-33 oc-mapa__green" data-target="#frailejon-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -296,7 +357,7 @@
             </div>
 
             <!--Alto de las Flores-->
-            <div class="oc-mapa__location-modals oc-point-40 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-40 oc-mapa__green" data-target="#alto-flores">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -315,7 +376,7 @@
             </div>
 
             <!--Hidrografía-->
-            <div class="oc-mapa__location-modals oc-point-41 oc-mapa__blue" data-target="#hidrografia">
+            <div class="oc-mapa__location-modals oc-point-41 oc-mapa__blue" data-target="#hidrografia-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -334,7 +395,7 @@
             </div>
 
             <!--Alto de las Flores-->
-            <div class="oc-mapa__location-modals oc-point-42 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-42 oc-mapa__green" data-target="#santuario-iguaque">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -354,7 +415,7 @@
 
             <!--Miraflores-->
             <div class="oc-mapa__location-modals oc-point-43 oc-mapa__orange oc-mapa__location-modals-02"
-                data-target="#tauramena">
+                data-target="#mun-miraflores">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -373,7 +434,7 @@
             </div>
 
             <!--Páez-->
-            <div class="oc-mapa__location-modals oc-point-44 oc-mapa__orange" data-target="#tauramena">
+            <div class="oc-mapa__location-modals oc-point-44 oc-mapa__orange" data-target="#mun-paez">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -427,8 +488,8 @@
                 </div>
             </div>
 
-            <!--Santuario de Fauna y Flora Guanetá Alto Río Forence-->
-            <div class="oc-mapa__location-modals oc-point-47 oc-mapa__green">
+            <!--Santuario de Fauna y Flora Guanentá Alto Río Forence-->
+            <div class="oc-mapa__location-modals oc-point-47 oc-mapa__green" data-target="#santuario-guanenta">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -441,13 +502,13 @@
                     <div class="oc-mapa__img-icon">
                         <img src="/img/point-01.svg" alt="">
                     </div>
-                    <span>Santuario de Fauna y Flora<br> Guanetá Alto Río Forence</span>
+                    <span>Santuario de Fauna y Flora<br> Guanentá Alto Río Forence</span>
                     <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
                 </div>
             </div>
 
             <!--PARQUE NACIONAL NATURAL PISBA-->
-            <div class="oc-mapa__location-modals oc-point-48 oc-mapa__green">
+            <div class="oc-mapa__location-modals oc-point-48 oc-mapa__green" data-target="#parque-nal-pisba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -466,7 +527,7 @@
             </div>
 
             <!--PARQUE NACIONAL NATURAL EL COCUY-->
-            <div class="oc-mapa__location-modals oc-point-49 oc-mapa__green oc-mapa__location-modals-02">
+            <div class="oc-mapa__location-modals oc-point-49 oc-mapa__green oc-mapa__location-modals-02" data-target="#parque-nal-cocuy">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -485,7 +546,7 @@
             </div>
 
             <!--BOYACA-->
-            <div class="oc-mapa__location-modals oc-point-50 oc-mapa__orange" data-target="#tauramena">
+            <div class="oc-mapa__location-modals oc-point-50 oc-mapa__orange" data-target="#depto-boyaca">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -497,7 +558,7 @@
             </div>
 
             <!--VASCONIA-->
-            <div class="oc-mapa__location-modals oc-point-51 oc-mapa__yellow" data-target="#el-porvenir">
+            <div class="oc-mapa__location-modals oc-point-51 oc-mapa__yellow" data-target="#est-vasconia">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__info-item">
                         <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
@@ -522,7 +583,7 @@
             </div>
 
             <!--SORACÁ-->
-            <div class="oc-mapa__location-modals oc-point-53 oc-mapa__yellow-02" data-target="#cusiana">
+            <div class="oc-mapa__location-modals oc-point-53 oc-mapa__yellow-02" data-target="#base-soraca">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -535,7 +596,7 @@
             </div>
 
             <!--MIRAFLORES-->
-            <div class="oc-mapa__location-modals oc-point-54 oc-mapa__yellow-02" data-target="#cusiana">
+            <div class="oc-mapa__location-modals oc-point-54 oc-mapa__yellow-02" data-target="#est-miraflores">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -548,7 +609,7 @@
             </div>
 
             <!--PÁEZ-->
-            <div class="oc-mapa__location-modals oc-point-55 oc-mapa__yellow-02" data-target="#cusiana">
+            <div class="oc-mapa__location-modals oc-point-55 oc-mapa__yellow-02" data-target="#est-paez">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">

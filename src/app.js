@@ -568,6 +568,101 @@ import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-miraflores.jpg";
 import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-paez.jpg";
 import "./img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-vasconia.jpg";
 
+// Ventanas modales Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_departamento_boyaca.svg";
+import "./img/boyaca/fotos/VModal-Departamento/VModal-Departamento-boyaca.jpg";
+import "./img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_superficie.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_municipios.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_habitantes.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_capital.svg";
+
+// Modal Páez
+import "./img/boyaca/iconos/vmodal-titulo_estacion_paez.svg";
+import "./img/boyaca/fotos/VModal-Estacion-Paez/VModal-EstaciónPaez.jpg";
+
+// Modal Miraflores
+import "./img/boyaca/iconos/vmodal-titulo_estacion_miraflores.svg";
+import "./img/boyaca/fotos/VModal-Estacion-miraflores/VModal-Estacion-miraflores.jpg";
+
+// Modal Vasconia
+import "./img/boyaca/iconos/vmodal-titulo_estacion_vasconia.svg";
+import "./img/boyaca/fotos/VModal-Estacion-vasconia/foto-satelital-estacion-VASCONIA.jpg";
+
+// Modal Base Soracá
+import "./img/boyaca/iconos/vmodal-titulo_base_soraca.svg";
+import "./img/boyaca/fotos/VModal-Base-soraca/soraca.jpg";
+
+// Modal Mun Páez
+import "./img/boyaca/iconos/vmodal-titulo_municipio.svg";
+import "./img/boyaca/fotos/VModal-Municipio-paez/Municipio-paez.jpg";
+import "./img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_altitud.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_temperatura.svg";
+
+// Modal Mun Miraflores
+import "./img/boyaca/fotos/VModal-Municipio-miraflores/municipio-miraflores.jpg";
+
+// Modal Mun Puerto Boyacá
+import "./img/boyaca/fotos/VModal-Municipio-puertoBoyaca/municipio-puerto-boyaca.jpg";
+
+// Modal Mun Puerto Serviez
+import "./img/boyaca/fotos/VModal-PuertoServiez/imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez.jpg";
+
+// Modal Ecosistema Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_ecosistema.svg";
+import "./img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_1_ecosistema.jpg";
+import "./img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_2_ecosistema.jpg";
+
+// Modal Frailejón Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_frailejon.svg";
+import "./img/boyaca/fotos/VModal-Frailejon/imag_ocensa_territorio_boyaca_1_frailejon.jpg";
+
+// Modal Alto de las Flores
+import "./img/boyaca/iconos/vmodal-titulo_el_punto_mas_alto.svg";
+import "./img/boyaca/fotos/VModal-ElAltoDeLasFlores/imag_ocensa_territorio_boyaca_1_el_punto_mas_alto.jpg";
+
+// Modal Fauna Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_fauna.svg";
+import "./img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_1_fauna.jpg";
+import "./img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_2_fauna.jpg";
+import "./img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_3_fauna.jpg";
+import "./img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_4_fauna.jpg";
+
+
+// Modal Hidrografía Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_hidrografia.svg";
+import "./img/boyaca/fotos/VModal-Hidrografía/imag_ocensa_territorio_boyaca_1_hidrografia.jpg";
+
+// Modal Clima Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_clima.svg";
+import "./img/boyaca/fotos/VModal-Clima/clima-boyaca-slide.jpg";
+
+// Modal Parque Nacional Natural Páramo de Pisba
+import "./img/boyaca/iconos/vmodal-titulo_parques_nacionales_naturales.svg";
+import "./img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_1_pnn_pisba.jpg";
+import "./img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_2_pnn_pisba.jpg";
+import "./img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_3_pnn_pisba.jpg";
+import "./img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_extension.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_clima.svg";
+
+// Modal Santuario de Fauna y Flora Guanentá Alto Río Fonce
+import "./img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta.jpg";
+import "./img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta.jpg";
+import "./img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_paramo.svg";
+import "./img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina.svg";
+
+// Modal Parque Nacional Natural El Cocuy
+import "./img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_1_pnn_el_cocuy.jpg";
+import "./img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_2_pnn_el_cocuy.jpg";
+import "./img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_3_pnn_el_cocuy.jpg";
+
+// Modal Santuario de Fauna y Flora Iguaque
+import "./img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque.jpg";
+import "./img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg";
+
+// Modal Comunidades Boyacá
+import "./img/boyaca/iconos/vmodal-titulo_comunidades.svg";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
