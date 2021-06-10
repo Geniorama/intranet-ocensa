@@ -22545,6 +22545,112 @@ jquery_default()('.oc-custom-select').click(function (e) {
 /* harmony default export */ var enqueestamos_paez = (__webpack_require__.p + "img/enqueestamos-paez.jpg");
 // CONCATENATED MODULE: ./src/img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-vasconia.jpg
 /* harmony default export */ var enqueestamos_vasconia = (__webpack_require__.p + "img/enqueestamos-vasconia.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_departamento_boyaca.svg
+/* harmony default export */ var vmodal_titulo_departamento_boyaca = (__webpack_require__.p + "img/vmodal-titulo_departamento_boyaca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Departamento/VModal-Departamento-boyaca.jpg
+/* harmony default export */ var VModal_Departamento_boyaca = (__webpack_require__.p + "img/VModal-Departamento-boyaca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_superficie.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_superficie = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_superficie.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_municipios.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_municipios = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_municipios.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_habitantes.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_habitantes = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_habitantes.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_capital.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_capital = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_capital.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_paez.svg
+/* harmony default export */ var vmodal_titulo_estacion_paez = (__webpack_require__.p + "img/vmodal-titulo_estacion_paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-Paez/VModal-EstaciónPaez.jpg
+/* harmony default export */ var VModal_Estaci_nPaez = (__webpack_require__.p + "img/VModal-EstaciónPaez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_miraflores.svg
+/* harmony default export */ var vmodal_titulo_estacion_miraflores = (__webpack_require__.p + "img/vmodal-titulo_estacion_miraflores.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-miraflores/VModal-Estacion-miraflores.jpg
+/* harmony default export */ var VModal_Estacion_miraflores = (__webpack_require__.p + "img/VModal-Estacion-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_vasconia.svg
+/* harmony default export */ var vmodal_titulo_estacion_vasconia = (__webpack_require__.p + "img/vmodal-titulo_estacion_vasconia.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-vasconia/foto-satelital-estacion-VASCONIA.jpg
+/* harmony default export */ var foto_satelital_estacion_VASCONIA = (__webpack_require__.p + "img/foto-satelital-estacion-VASCONIA.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_base_soraca.svg
+/* harmony default export */ var vmodal_titulo_base_soraca = (__webpack_require__.p + "img/vmodal-titulo_base_soraca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Base-soraca/soraca.jpg
+/* harmony default export */ var soraca = (__webpack_require__.p + "img/soraca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_municipio.svg
+/* harmony default export */ var vmodal_titulo_municipio = (__webpack_require__.p + "img/vmodal-titulo_municipio.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-paez/Municipio-paez.jpg
+/* harmony default export */ var Municipio_paez = (__webpack_require__.p + "img/Municipio-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_altitud.svg
+/* harmony default export */ var icon_ventana_modal_municipio_paez_altitud = (__webpack_require__.p + "img/icon_ventana_modal_municipio_paez_altitud.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_temperatura.svg
+/* harmony default export */ var icon_ventana_modal_municipio_paez_temperatura = (__webpack_require__.p + "img/icon_ventana_modal_municipio_paez_temperatura.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-miraflores/municipio-miraflores.jpg
+/* harmony default export */ var municipio_miraflores = (__webpack_require__.p + "img/municipio-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-puertoBoyaca/municipio-puerto-boyaca.jpg
+/* harmony default export */ var municipio_puerto_boyaca = (__webpack_require__.p + "img/municipio-puerto-boyaca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-PuertoServiez/imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_ecosistema.svg
+/* harmony default export */ var vmodal_titulo_ecosistema = (__webpack_require__.p + "img/vmodal-titulo_ecosistema.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_1_ecosistema.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_ecosistema = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_ecosistema.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_2_ecosistema.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_ecosistema = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_ecosistema.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_frailejon.svg
+/* harmony default export */ var vmodal_titulo_frailejon = (__webpack_require__.p + "img/vmodal-titulo_frailejon.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Frailejon/imag_ocensa_territorio_boyaca_1_frailejon.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_frailejon = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_frailejon.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_el_punto_mas_alto.svg
+/* harmony default export */ var vmodal_titulo_el_punto_mas_alto = (__webpack_require__.p + "img/vmodal-titulo_el_punto_mas_alto.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-ElAltoDeLasFlores/imag_ocensa_territorio_boyaca_1_el_punto_mas_alto.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_el_punto_mas_alto = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_el_punto_mas_alto.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_fauna.svg
+/* harmony default export */ var vmodal_titulo_fauna = (__webpack_require__.p + "img/vmodal-titulo_fauna.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_1_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_2_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_3_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_4_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_4_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_4_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_hidrografia.svg
+/* harmony default export */ var vmodal_titulo_hidrografia = (__webpack_require__.p + "img/vmodal-titulo_hidrografia.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Hidrografía/imag_ocensa_territorio_boyaca_1_hidrografia.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_hidrografia = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_hidrografia.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_clima.svg
+/* harmony default export */ var vmodal_titulo_clima = (__webpack_require__.p + "img/vmodal-titulo_clima.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Clima/clima-boyaca-slide.jpg
+/* harmony default export */ var clima_boyaca_slide = (__webpack_require__.p + "img/clima-boyaca-slide.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_parques_nacionales_naturales.svg
+/* harmony default export */ var vmodal_titulo_parques_nacionales_naturales = (__webpack_require__.p + "img/vmodal-titulo_parques_nacionales_naturales.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_1_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_2_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_3_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_extension.svg
+/* harmony default export */ var icon_ventana_modal_pnn_paramo_pisba_extension = (__webpack_require__.p + "img/icon_ventana_modal_pnn_paramo_pisba_extension.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_clima.svg
+/* harmony default export */ var icon_ventana_modal_pnn_paramo_pisba_clima = (__webpack_require__.p + "img/icon_ventana_modal_pnn_paramo_pisba_clima.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_paramo.svg
+/* harmony default export */ var icon_ventana_modal_sff_guanenta_alto_temperatura_paramo = (__webpack_require__.p + "img/icon_ventana_modal_sff_guanenta_alto_temperatura_paramo.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina.svg
+/* harmony default export */ var icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina = (__webpack_require__.p + "img/icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_1_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_2_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_3_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_comunidades.svg
+/* harmony default export */ var vmodal_titulo_comunidades = (__webpack_require__.p + "img/vmodal-titulo_comunidades.svg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -23068,6 +23174,79 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+ // Ventanas modales Boyacá
+
+
+
+
+
+
+ // Modal Páez
+
+
+ // Modal Miraflores
+
+
+ // Modal Vasconia
+
+
+ // Modal Base Soracá
+
+
+ // Modal Mun Páez
+
+
+
+
+ // Modal Mun Miraflores
+
+ // Modal Mun Puerto Boyacá
+
+ // Modal Mun Puerto Serviez
+
+ // Modal Ecosistema Boyacá
+
+
+
+ // Modal Frailejón Boyacá
+
+
+ // Modal Alto de las Flores
+
+
+ // Modal Fauna Boyacá
+
+
+
+
+
+ // Modal Hidrografía Boyacá
+
+
+ // Modal Clima Boyacá
+
+
+ // Modal Parque Nacional Natural Páramo de Pisba
+
+
+
+
+
+
+ // Modal Santuario de Fauna y Flora Guanentá Alto Río Fonce
+
+
+
+
+ // Modal Parque Nacional Natural El Cocuy
+
+
+
+ // Modal Santuario de Fauna y Flora Iguaque
+
+
+ // Modal Comunidades Boyacá
 
 
 var app_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
