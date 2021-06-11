@@ -62,7 +62,7 @@
     <section class="oc-widgets-section mt-4">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" id="laestacion-paez">
                     <div class="oc-card-widget oc-widget-template wdg-la-estacion" id="cus-wdg-la-estacion">
                         <div class="oc-widget-template__top-bar oc-bg-gray">
                             <div class="oc-widget-template__top-bar__title">
@@ -125,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-8" id="ubicacion-paez">
                     <div class="oc-card-widget oc-widget-template wdg-ubicacion" id="cus-wdg-ubicacion">
                         <div class="oc-widget-template__top-bar oc-bg-gray">
                             <div class="oc-widget-template__top-bar__title">
@@ -219,103 +219,113 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="oc-slick-almacenamiento oc-slick-theme_2" id="paez-almacenamiento">
-                            <div
-                                class="slick-item text-center col-md oc-widget-template__body line-g-right my-4 p-3 text-center">
-                                <img src="/img/icon_territorio_paez_almacenamiento_otros_productos.svg" alt=""
-                                    class="img-otros-prod">
-                                <p class="text-left mt-2">Por ser una estación de rebombeo, <b>no tiene capacidad de
-                                        almacenamiento de crudo</b>, sin embargo, <b>almacena otros productos</b>.</p>
-                                <div class="">
-                                    <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                        data-widget="#widget-galeria-foto__cusiana-almacenamiento">
-                                        <span>Ver fotos</span>
-                                        <img src="/img/camara.svg" alt="" class="ml-1"></button>
-                                    <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                        data-widget="#widget-galeria-foto__porvenir-almacenamiento">
-                                        <span>Ver video</span>
-                                        <img src="/img/video.svg" alt="" class="ml-1"></button>
+                        <div class="row m-0" id="paez-almace">
+                            <div class="col-12 col-md-3 p-3 px-4">
+                                <div
+                                    class="text-center col-12 oc-widget-template__body my-4 p-3 text-center">
+                                    <img src="/img/icon_territorio_paez_almacenamiento_otros_productos.svg" alt=""
+                                        class="img-otros-prod">
+                                    <p class="text-left mt-2">Por ser una estación de rebombeo, <b>no tiene capacidad de
+                                            almacenamiento de crudo</b>, sin embargo, <b>almacena otros productos</b>.
+                                    </p>
+                                    <div class="">
+                                        <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
+                                            data-widget="#widget-galeria-foto__cusiana-almacenamiento">
+                                            <span>Ver fotos</span>
+                                            <img src="/img/camara.svg" alt="" class="ml-1"></button>
+                                        <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
+                                            data-widget="#widget-galeria-foto__porvenir-almacenamiento">
+                                            <span>Ver video</span>
+                                            <img src="/img/video.svg" alt="" class="ml-1"></button>
+                                    </div>
                                 </div>
                             </div>
-                            <div
-                                class="slick-item text-center col-md oc-widget-template__body line-g-right my-4 p-3 text-center">
-                                <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
-                                    <span class="oc-number-medium mr-2">
-                                        1
-                                    </span>
-                                    <span class="roboto-medium span-2">
-                                        Tanque
-                                    </span>
-                                </div>
-                                <div class="item-02">
-                                    <img src="/img/tanques_grandes.svg" alt="" class="item-02__img">
-                                    <p class="roboto-bold">Capacidad</p>
-                                    <span class="roboto-medium c-blue-light">6.000</span>
-                                    <p class="roboto-bold">BARRILES</p>
-                                    <img src="/img/wdg-arrow-down.svg" alt="">
-                                    <span class="badge d-block m-auto">Agua (SCI)</span>
-                                </div>
-                            </div>
-                            <div
-                                class="slick-item text-center oc-widget-template__body line-g-right my-4 p-3 text-center">
-                                <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
-                                    <span class="oc-number-medium mr-2">
-                                        1
-                                    </span>
-                                    <span class="roboto-medium span-2">
-                                        Tanque
-                                    </span>
-                                </div>
-                                <div class="item-02">
-                                    <img src="/img/tanque_mediano.svg" alt="" class="item-02__img">
-                                    <p class="roboto-bold">Capacidad</p>
-                                    <span class="roboto-medium c-blue-light">1.400</span>
-                                    <p class="roboto-bold">BARRILES</p>
-                                    <img src="/img/wdg-arrow-down.svg" alt="">
-                                    <span class="badge d-block m-auto">Diesel tratado</span>
-                                </div>
-                            </div>
-                            <div
-                                class="slick-item text-center oc-widget-template__body my-4 p-3 line-g-right text-center">
-                                <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
-                                    <span class="oc-number-medium mr-2">
-                                        1
-                                    </span>
-                                    <span class="roboto-medium span-2">
-                                        Tanque
-                                    </span>
-                                </div>
-                                <div class="item-02">
-                                    <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                    <p class="roboto-bold">Capacidad</p>
-                                    <span class="roboto-medium c-blue-light">2.600</span>
-                                    <p class="roboto-bold">BARRILES</p>
-                                    <img src="/img/wdg-arrow-down.svg" alt="">
-                                    <span class="badge d-block m-auto">Diesel no tratado</span>
-                                </div>
-                            </div>
-                            <div
-                                class="slick-item text-center oc-widget-template__body my-4 p-3 line-g-right text-center">
-                                <div class="d-flex align-items-center c-blue-light justify-content-center item-01">
-                                    <span class="oc-number-medium mr-2">
-                                        1
-                                    </span>
-                                    <span class="roboto-medium span-2">
-                                        Tanque
-                                    </span>
-                                </div>
-                                <div class="item-02">
-                                    <img src="/img/icon_territorio_paez_almacenamiento_tanque sumidero.svg" alt=""
-                                        class="item-02__img">
-                                    <p class="roboto-bold">Capacidad</p>
-                                    <span class="roboto-medium c-blue-light">320</span>
-                                    <p class="roboto-bold">BARRILES</p>
-                                    <img src="/img/wdg-arrow-down.svg" alt="">
-                                    <span class="badge d-block m-auto">Sumidero enterrado</span>
+                            <div class="col-12 col-md-9">
+                                <div class="oc-slick-almacenamiento-2 oc-slick-theme_2" id="paez-almacenamiento">
+                                    <div
+                                        class="slick-item text-center col-md oc-widget-template__body line-g-right line-g-left my-4 p-3 text-center">
+                                        <div
+                                            class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                1
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanque
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/tanques_grandes.svg" alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">6.000</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Agua (SCI)</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="slick-item text-center oc-widget-template__body line-g-right my-4 p-3 text-center">
+                                        <div
+                                            class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                1
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanque
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/tanque_mediano.svg" alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">1.400</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Diesel tratado</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="slick-item text-center oc-widget-template__body my-4 p-3 line-g-right text-center">
+                                        <div
+                                            class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                1
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanque
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">2.600</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Diesel no tratado</span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="slick-item text-center oc-widget-template__body my-4 p-3 line-g-right text-center">
+                                        <div
+                                            class="d-flex align-items-center c-blue-light justify-content-center item-01">
+                                            <span class="oc-number-medium mr-2">
+                                                1
+                                            </span>
+                                            <span class="roboto-medium span-2">
+                                                Tanque
+                                            </span>
+                                        </div>
+                                        <div class="item-02">
+                                            <img src="/img/icon_territorio_paez_almacenamiento_tanque sumidero.svg"
+                                                alt="" class="item-02__img">
+                                            <p class="roboto-bold">Capacidad</p>
+                                            <span class="roboto-medium c-blue-light">320</span>
+                                            <p class="roboto-bold">BARRILES</p>
+                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                            <span class="badge d-block m-auto">Sumidero enterrado</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="d-flex align-items-center justify-content-center buttons-end mt-3 mb-4">
                             <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
                                 data-widget="#widget-galeria-foto__cusiana-almacenamiento">
@@ -356,23 +366,10 @@
                         <div class="oc-widget-template__body p-3 py-2 text-center">
                             <div class="item-01 text-center d-flex align-items-center">
                                 <div class="col p-0 item-01 item-01__left">
-                                    <img src="/img/estacion_cupiagua.svg" alt="" class="img-fluid">
+                                    <img src="/img/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg" alt=""
+                                        class="img-fluid">
                                     <p class="roboto-bold m-0 est-name">
-                                        Cupiagua
-                                    </p>
-                                    <span class="oc-number-medium c-green">
-                                        300
-                                    </span>
-                                    <p class="roboto-regular m-0">m.s.n.m.</p>
-                                </div>
-                                <div class="col p-0 item-01__center">
-                                    <span class="roboto-regular">39 Km</span>
-                                    <img src="/img/line-divider.svg" alt="" class="wdg-distancia-divider">
-                                </div>
-                                <div class="col p-0 item-01__right">
-                                    <img src="/img/estacion_cusiana.svg" alt="" class="img-fluid">
-                                    <p class="roboto-bold est-name m-0">
-                                        Cusiana
+                                        El Porvenir
                                     </p>
                                     <span class="oc-number-medium c-green">
                                         460
@@ -380,28 +377,46 @@
                                     <p class="roboto-regular m-0">m.s.n.m.</p>
                                 </div>
                                 <div class="col p-0 item-01__center">
-                                    <span class="roboto-regular">33 Km</span>
+                                    <span class="roboto-regular">32 Km</span>
                                     <img src="/img/line-divider.svg" alt="" class="wdg-distancia-divider">
                                 </div>
                                 <div class="col p-0 item-01__right">
-                                    <img src="/img/estacion_cusiana copia.svg" alt="" class="img-fluid">
+                                    <img src="/img/icon_territorio_paez_distancia_de_linea_estacion_paez.svg" alt=""
+                                        class="img-fluid">
                                     <p class="roboto-bold est-name m-0">
-                                        Porvenir
+                                        Páez
                                     </p>
                                     <span class="oc-number-medium c-green">
-                                        500
+                                        1.256
+                                    </span>
+                                    <p class="roboto-regular m-0">m.s.n.m.</p>
+                                </div>
+                                <div class="col p-0 item-01__center">
+                                    <span class="roboto-regular">21.30 Km</span>
+                                    <img src="/img/line-divider.svg" alt="" class="wdg-distancia-divider">
+                                </div>
+                                <div class="col p-0 item-01__right">
+                                    <img src="/img/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg"
+                                        alt="" class="img-fluid">
+                                    <p class="roboto-bold est-name m-0">
+                                        Miraflores
+                                    </p>
+                                    <span class="oc-number-medium c-green">
+                                        1.778
                                     </span>
                                     <p class="roboto-regular m-0">m.s.n.m.</p>
                                 </div>
                             </div>
 
-                            <div class="item-02 mt-2" id="distancia-linea2">
+                            <div class="item-02 mt-2" id="distancia-linea-paez">
                                 <div class="p-1">
-                                    <div class="oc-box-dato cont-sec-3 d-flex align-items-center justify-content-center p-2">
-                                        <img src="/img/diametro_tubo.svg" alt="" class="oc-box-dato__img">
-                                        <h5 class="oc-box-dato__text__title roboto-bold">Diámetro del tubo</h5>
-                                        <span class="number-lg">30</span>
-                                        <span class="des-number"> PULGADAS</span>
+                                    <div
+                                        class="oc-box-dato cont-sec-3 d-flex align-items-center justify-content-center p-2">
+                                        <img src="/img/diametro_tubo.svg" alt="" class="oc-box-dato__img mr-4">
+                                        <h5 class="oc-box-dato__text__title roboto-bold mr-3 mt-2">Diámetro del tubo
+                                        </h5>
+                                        <span class="number-lg mt-1">30</span>
+                                        <span class="des-number"> Pulgadas</span>
                                     </div>
                                 </div>
                             </div>
@@ -425,56 +440,63 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="oc-widget-template__body p-3 py-2">
+                        <div class="oc-widget-template__body p-3 py-2" id="boy-bombeo">
                             <div class="item-01 row flex-column flex-md-row px-3">
-                                <div class="col-12 col-md-4 p-2 item-01 item-01__left">
-                                    <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2">
-                                        <img src="/img/bombeo-1.svg" alt="" class="img-fluid">
+                                <div class="col-12 col-md-5 p-2 item-01 item-01__left">
+                                    <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2 flex-nowrap">
+                                        <img src="/img/boy-bombeo-1.svg" alt="" class="img-fluid">
                                         <div class="ml-2">
-                                            <span class="d-block c-green oc-number-medium">3</span>
-                                            <span class="d-block roboto-bold mt-1">Turbinas</span>
-                                            <span class="d-block c-green text-green-medium mt-5">12 MW</span>
-                                            <span class="d-block c-green text-green-small">c/u</span>
+                                            <span class="d-block c-green oc-number-medium">2</span>
+                                            <span class="d-block roboto-bold">Turbinas</span>
+                                            <span class="d-block c-green text-green-medium">SGT 400</span>
+                                            <span class="d-block text-small-boy">12 MW c/u.</span>
+                                        </div>
+                                    </div>
+                                    <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2 mt-2">
+                                        <img src="/img/boy-bombeo-2.svg" alt="" class="img-fluid img-boy-bombeo">
+                                        <div class="ml-2">
+                                            <span class="d-block c-green oc-number-medium">4</span>
+                                            <span class="d-block roboto-bold mt-1 text-black">Unidades principales
+                                                eléctricas </span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-4 p-2 item-01 item-01__left">
+                                <div class="col-12 col-md-7 p-2 item-01 item-01__left">
                                     <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2">
-                                        <img src="/img/bombeo-2.svg" alt="" class="img-fluid">
                                         <div class="ml-2">
-                                            <div class="ml-2">
-                                                <span class="d-block c-green oc-number-medium">4</span>
-                                                <span class="d-block roboto-bold">Unidades booster eléctricas
-                                                </span>
-                                                <span class="d-block c-green text-green-medium">8.500 </span>
-                                                <span class="d-block c-green text text-green-small">BPH</span>
-                                                <span class="d-block text-gray-small">CAPACIDAD</span>
-                                                <span class="d-block c-green text-green-medium">11.500</span>
-                                                <span class="d-block c-green text-green-small">HP c/u</span>
-                                                <span class="d-block text-gray-small">POTENCIA</span>
+                                            <div class="ml-2 d-flex">
+                                                <div class="d-block cont-left-boy">
+                                                    <img src="/img/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg"
+                                                        alt="">
+                                                    <span class="d-block roboto-bold mt-2 text-black">Sistema
+                                                        de<br>bombeo</span>
+                                                    <span class="d-block text-small-boy mt-5">Se compone<br><b>de un
+                                                            tren de:</b></span>
+                                                    <span class="c-green number-giant">4 </span><span
+                                                        class="c-green text-med">BOMBAS</span>
+                                                </div>
+                                                <img src="/img/boy-bombeo-3.svg" alt="" class="img-boy-bombeo2 ml-2">
+                                                <div class="d-block ml-1">
+                                                    <span class="d-block sp-1">Compuesto por:</span>
+                                                    <span class="d-block sp-2">Bomba mono-etapa<br>
+                                                        centrífuga<br>horizontal<br> con capacidad de</span>
+                                                    <div class="d-flex text-top-1">
+                                                        <span class="c-green sp-3">797.000</span>
+                                                        <span class="c-green sp-4 mt-2 ml-1"> BPD</span>
+                                                    </div>
+                                                    <span class="d-block sp-2">Acopladas a un<br><b>Motor
+                                                            eléctrico</b></span>
+                                                    <div class="d-flex text-top-2">
+                                                        <span class="c-green sp-3">6.000</span>
+                                                        <span class="c-green sp-4 mt-2 ml-1">HP</span>
+                                                    </div>
+                                                    <span class="d-block sp-2">de potencia</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-4 p-2 item-01 item-01__left">
-                                    <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2">
-                                        <img src="/img/bombeo-2.svg" alt="" class="img-fluid">
-                                        <div class="ml-2">
-                                            <div class="ml-2">
-                                                <span class="d-block c-green oc-number-medium">4</span>
-                                                <span class="d-block roboto-bold">Unidades principales eléctricas
-                                                </span>
-                                                <span class="d-block c-green text-green-medium">8.500 </span>
-                                                <span class="d-block c-green text text-green-small">BPH</span>
-                                                <span class="d-block text-gray-small">CAPACIDAD</span>
-                                                <span class="d-block c-green text-green-medium">10.000</span>
-                                                <span class="d-block c-green text-green-small">HP c/u</span>
-                                                <span class="d-block text-gray-small">POTENCIA</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 oc-porvenir__modal-button mt-2">
+                                <div class="col-12 oc-porvenir__modal-button">
                                     <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
                                         data-widget="#widget-galeria-foto__cusiana-bombeo">
                                         <span>Ver fotos</span>
@@ -487,246 +509,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Section 05 -->
-    <section class="oc-widgets-section mt-4 mb-2" id="wdg-section-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="oc-card-widget oc-widget-template wdg-almacenamiento oc-porvenir__almacenamiento"
-                        id="wdg-descargadero">
-                        <div class="oc-widget-template__top-bar oc-bg-gray">
-                            <div class="oc-widget-template__top-bar__title">
-                                <img src="/img/7-icon-menu-descargadero.svg" alt="">
-                                <span>Descargadero</span>
-                            </div>
-                            <div class="oc-widget-template__top-bar__right d-none">
-                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
-                                <button class="oc-button-menu">
-                                    <div class="line"></div>
-                                    <div class="line"></div>
-                                    <div class="line"></div>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="row oc-porvenir__row p-3">
-                            <!-- item-->
-                            <div class="col-12 col-md-6 oc-porvenir__almacenamiento-final oc-descarga-est mt-0">
-                                {{!-- Item desktop --}}
-                                <div
-                                    class="row d-none d-md-flex px-3 oc-porvenir__almacenamiento-final-item align-items-center flex-nowrap">
-                                    <div class="col pl-1 text-center">
-                                        <img src="/img/capacidad_descarga.svg" alt="" class="oc-descarga-est__img1">
-                                    </div>
-                                    <div class="col p-0 d-flex alig-items-end">
-                                        <span class="oc-descarga-est__text-g c-green">80.000</span>
-                                        <span class="oc-descarga-est__text-aux-g c-green mt-3 mr-2">BPD</span>
-                                    </div>
-                                    <div class="col px-1">
-                                        <img src="/img/line-and-point.svg" alt="" class="oc-descarga-est__img-line">
-                                    </div>
-                                    <div class="col">
-                                        <span class="oc-descarga-est__final-text">Capacidad máxima
-                                            diaria de descarga</span>
-                                    </div>
-                                </div>
-
-                                {{!-- Item mobile --}}
-                                <div
-                                    class="row px-2 d-md-none oc-porvenir__almacenamiento-final-item align-items-center flex-wrap">
-                                    <div class="col-4 pl-1 text-center">
-                                        <img src="/img/capacidad_descarga.svg" alt="" class="oc-descarga-est__img1">
-                                    </div>
-                                    <div class="col-3 px-1">
-                                        <img src="/img/line-and-point.svg" alt="" class="oc-descarga-est__img-line"
-                                            style="width: 70px;">
-                                    </div>
-                                    <div class="col-5 p-1 text-center">
-                                        <span class="oc-descarga-est__text-g c-green">80.000</span><br><br>
-                                        <span class="oc-descarga-est__text-aux-g c-green">BPD</span><br>
-                                        <span class="oc-descarga-est__final-text">Capacidad máxima
-                                            diaria de descarga</span>
-                                    </div>
-
-                                </div>
-
-                                {{!-- Item mobile --}}
-                                <div class="row d-md-none oc-descarga-est px-1 py-3">
-                                    <div class="col-12 text-center d-flex flex-nowrap pr-0 align-items-center">
-                                        <img src="/img/tiempo_descarga.svg" alt="" class="oc-descarga-est__img1 mr-1">
-                                        <div class="text-tiempo">
-                                            <p class="w-100 roboto-bold pl-0 text-left">Tiempo de descarga por carro</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 d-flex flex-nowrap justify-content-center pl-1">
-                                        <div class="pt-3">
-                                            <img src="/img/point.svg" alt="" class="oc-descarga-est__point mr-1">
-                                        </div>
-                                        <div class="d-block text-center">
-                                            <span class="oc-descarga-est__text-g c-green">35</span><span
-                                                class="oc-descarga-est__text-aux-g c-green">MIN</span>
-                                            <span class="d-block oc-descarga-est__final-text-2 text-uppercase">Mezcla
-                                                directa</span>
-                                        </div>
-                                        <div class="pt-3">
-                                            <img src="/img/point.svg" alt="" class="oc-descarga-est__point mr-1">
-                                        </div>
-                                        <div class="d-block text-center mr-1">
-                                            <span class="oc-descarga-est__text-g c-green">50</span><span
-                                                class="oc-descarga-est__text-aux-g c-green">MIN</span>
-                                            <span
-                                                class="d-block oc-descarga-est__final-text-2 text-uppercase">Pesado</span>
-                                        </div>
-                                        <div class="pt-3">
-                                            <img src="/img/point.svg" alt="" class="oc-descarga-est__point mr-1">
-                                        </div>
-                                        <div class="d-block text-center">
-                                            <span class="oc-descarga-est__text-g c-green">45</span><span
-                                                class="oc-descarga-est__text-aux-g c-green">MIN</span>
-                                            <span
-                                                class="d-block oc-descarga-est__final-text-2 text-uppercase">Nafta</span>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                {{!-- Item desktop --}}
-                                <div class="row d-none d-md-flex oc-descarga-est flex-nowrap">
-                                    <img src="/img/tiempo_descarga.svg" alt="" class="oc-descarga-est__img1 mr-3">
-                                    <img src="/img/point.svg" alt="" class="oc-descarga-est__point mr-2">
-                                    <div class="d-block text-center">
-                                        <span class="oc-descarga-est__text-g c-green">35</span><span
-                                            class="oc-descarga-est__text-aux-g c-green ml-1">MIN</span>
-                                        <span class="d-block oc-descarga-est__final-text-2 text-uppercase">Mezcla
-                                            directa</span>
-                                    </div>
-                                    <img src="/img/line-and-point-2.svg" alt="" class="oc-descarga-est__img-line2 mr-3">
-                                    <div class="d-block text-center mr-3">
-                                        <span class="oc-descarga-est__text-g c-green">50</span><span
-                                            class="oc-descarga-est__text-aux-g c-green ml-1">MIN</span>
-                                        <span class="d-block oc-descarga-est__final-text-2 text-uppercase">Pesado</span>
-                                    </div>
-                                    <img src="/img/line-and-point-2.svg" alt="" class="oc-descarga-est__img-line2 mr-3">
-                                    <div class="d-block text-center">
-                                        <span class="oc-descarga-est__text-g c-green">45</span><span
-                                            class="oc-descarga-est__text-aux-g c-green ml-1">MIN</span>
-                                        <span class="d-block oc-descarga-est__final-text-2 text-uppercase">Nafta</span>
-                                    </div>
-                                    <div class="col-12 text-center text-tiempo">
-                                        <p class="w-100 roboto-bold">Tiempo de descarga por carro</p>
-                                    </div>
-                                </div>
-
-                                {{!-- Item desktop --}}
-                                <div class="row d-none d-md-flex oc-porvenir__almacenamiento-final-item">
-                                    <img src="/img/numero_bahias.svg" alt="" class="oc-descarga-est__img1 mr-4">
-                                    <span class="oc-descarga-est__text-g c-green">10</span>
-                                    <img src="/img/line-and-point-3.svg" alt=""
-                                        class="oc-descarga-est__img-line3 ml-2 mr-4">
-                                    <span class="oc-descarga-est__final-text">Número de bahías</span>
-                                </div>
-
-                                {{!-- Item mobile --}}
-                                <div class="row d-md-none oc-porvenir__almacenamiento-final-item px-3" id="mode-mobile">
-                                    <img src="/img/numero_bahias.svg" alt="" class="oc-descarga-est__img1 mr-1">
-                                    <img src="/img/line-medium.svg" alt="" class="oc-descarga-est__img-line3 ml-2 mr-2">
-                                    <div class="text-center">
-                                        <span class="d-block oc-descarga-est__text-g c-green">10</span>
-                                        <span class="d-block oc-descarga-est__final-text">Número de bahías</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-12 col-md-6 oc-porvenir__almacenamiento-final oc-descarga-est mt-0">
-
-                                {{!-- Item desktop --}}
-                                <div class="row d-none d-md-flex oc-porvenir__almacenamiento-final-item flex-nowrap">
-                                    <img src="/img/numero_bahias.svg" alt="" class="oc-descarga-est__img1 mr-4">
-                                    <div class="d-block text-center">
-                                        <span class="oc-descarga-est__text-g c-green">50</span><span
-                                            class="oc-descarga-est__text-aux-g c-green ml-1">CTKS</span>
-                                        <span class="d-block oc-descarga-est__final-text-2 text-uppercase text-left">en
-                                            zonas de estacionamiento<br> interno, permitiendo la<br> movilidad de la
-                                            operación</span>
-                                    </div>
-                                    <img src="/img/line-and-point-4.svg" alt=""
-                                        class="oc-descarga-est__img-line4 ml-2 mr-4">
-                                    <span class="oc-descarga-est__final-text">Espacios alternos</span>
-                                </div>
-
-                                {{!-- Item mobile --}}
-                                <div class="row d-md-none oc-porvenir__almacenamiento-final-item flex-nowrap"
-                                    id="oc-alm2-mobile">
-                                    <img src="/img/numero_bahias.svg" alt="" class="oc-descarga-est__img1 mr-2">
-                                    <div class="d-block text-center">
-                                        <span class="oc-descarga-est__text-g c-green">50</span><span
-                                            class="oc-descarga-est__text-aux-g c-green ml-1">CTKS</span>
-                                        <span
-                                            class="d-block oc-descarga-est__final-text-2 text-uppercase text-left mb-3 mt-1">en
-                                            zonas de estacionamiento<br> interno, permitiendo la<br> movilidad de la
-                                            operación</span>
-                                        <img src="/img/line-medium-2.svg" alt=""
-                                            class="oc-descarga-est__img-line4 mr-1">
-                                        <span class="oc-descarga-est__final-text">Espacios alternos</span>
-                                    </div>
-                                </div>
-
-                                {{!-- Item desktop --}}
-                                <div
-                                    class="row d-none d-md-flex oc-porvenir__almacenamiento-final-item oc-descarga-est">
-                                    <div class="d-block text-center mr-5">
-                                        <span class="d-block oc-descarga-est__final-text-3 text-uppercase">Tipo de carro
-                                            tanques</span>
-                                        <img src="/img/tipo_carro_tanques.svg" alt="" class="oc-descarga-est__img2">
-                                    </div>
-                                    <ul class="nav flex-column ml-5">
-                                        <li class="nav-item oc-descarga-est__final-text">Capacidad de 230 BBLS</li>
-                                        <li class="nav-item oc-descarga-est__final-text">3 compartimentos en el tanque
-                                        </li>
-                                        <li class="nav-item oc-descarga-est__final-text">Descargue por gravedad y bomba
-                                            de<br> desplazamiento positivo tipo paletas</li>
-                                        <li class="nav-item oc-descarga-est__final-text">Cargue superior</li>
-                                    </ul>
-                                </div>
-
-                                {{!-- Item mobile --}}
-                                <div class="row d-md-none oc-porvenir__almacenamiento-final-item oc-descarga-est px-2 align-items-center"
-                                    id="oc-alm3-mobile">
-                                    <div class="d-flex text-center align-items-center justify-content-center">
-                                        <span class="d-block oc-descarga-est__final-text-3">Tipo de carro
-                                            tanques</span>
-                                        <img src="/img/tipo_carro_tanques.svg" alt="" class="oc-descarga-est__img2">
-                                    </div>
-                                    <ul class="nav flex-column ml-5">
-                                        <li class="nav-item oc-descarga-est__final-text text-uppercase">Capacidad de 230
-                                            BBLS</li>
-                                        <li class="nav-item oc-descarga-est__final-text text-uppercase">3 compartimentos
-                                            en el tanque
-                                        </li>
-                                        <li class="nav-item oc-descarga-est__final-text text-uppercase">Descargue por
-                                            gravedad y bomba
-                                            de<br> desplazamiento positivo tipo paletas</li>
-                                        <li class="nav-item oc-descarga-est__final-text text-uppercase">Cargue superior
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="text-center">
-                                    <button class="oc-btn oc-btn__gray">
-                                        <span>Ver fotos</span>
-                                        <img src="/img/icon-camara.svg" alt="" class="ml-2"></button>
-                                    <button class="oc-btn oc-btn__gray">
-                                        <span>Ver videos</span>
-                                        <img src="/img/video.svg" alt="" class="ml-2"></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Section 06 -->
     <section class="oc-widgets-section mt-4" id="wdg-section-06-cus">
@@ -749,59 +531,38 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="oc-widget-template__body p-3 py-2">
+                        <div class="oc-widget-template__body p-3 py-2" id="personal-paez">
                             <div class="oc-porvenir__personal">
 
                                 <div class="oc-porvenir__personal-item">
                                     <div class="oc-porvenir__personal-avatar">
-                                        <img src="/img/diego-guzman.png" alt="">
+                                        <img src="/img/user-1.jpg" alt="">
                                     </div>
                                     <div class="oc-porvenir__personal-info">
-                                        <h5>Diego Guzmán</h5>
-                                        <p>Superintendente<br>Sector 1</p>
-                                        <div class="oc-porvenir__personal-team dragscroll">
-                                            <div class="oc-porvenir__personal-scroll">
-                                                <img src="/img/sin-foto-personal.png" alt="">
-                                                <img src="/img/elkin-orjuela.png" alt="">
-                                                <img src="/img/sin-foto-personal.png" alt="">
-                                                <img src="/img/sin-foto-personal.png" alt="">
-                                                <img src="/img/sin-foto-personal.png" alt="">
-                                                <img src="/img/sin-foto-personal.png" alt="">
-                                            </div>
-                                        </div>
+                                        <h5>Juan Diego Colonia </h5>
+                                        <p>Superintendente<br>Sector 2</p>
                                     </div>
                                 </div>
 
                                 <div class="oc-porvenir__personal-item">
                                     <div class="oc-porvenir__personal-avatar">
-                                        <img src="/img/hugo-garcia.png" alt="">
+                                        <img src="/img/user-2.jpg" alt="">
                                     </div>
                                     <div class="oc-porvenir__personal-info">
-                                        <h5>Hugo García</h5>
-                                        <p>Superintendente de línea y mantenimiento mayor sur </p>
+                                        <h5>Januario Barbosa </h5>
+                                        <p>Superintendente<br>Sector 2</p>
                                     </div>
                                 </div>
 
                                 <div class="oc-porvenir__personal-item">
                                     <div class="oc-porvenir__personal-avatar">
-                                        <img src="/img/sin-foto-personal.png" alt="">
+                                        <img src="/img/user-3.jpg" alt="">
                                     </div>
                                     <div class="oc-porvenir__personal-info">
-                                        <h5>Januario Barbosa</h5>
-                                        <p>Jefe sector</p>
+                                        <h5>Elkin Larrarte Castillo </h5>
+                                        <p>Prof. Senior Aseg.<br>técnico</p>
                                     </div>
                                 </div>
-
-                                <div class="oc-porvenir__personal-item oc-porvenir__personal-item-02">
-                                    <div class="oc-porvenir__personal-avatar">
-                                        <img src="/img/sin-foto-personal.png" alt="">
-                                    </div>
-                                    <div class="oc-porvenir__personal-info">
-                                        <h5>Ray Ramirez</h5>
-                                        <p>Profesional de Emergencias y contingencias</p>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -832,59 +593,57 @@
                                     <div class="wdg-demografico__dates">
                                         <div class="wdg-demografico__dates-item">
                                             <p>Total trabajadores en estación</p>
-                                            <span>85</span>
+                                            <span>17</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item">
                                             <p class="oc-text-blue">Ocensa</p>
-                                            <span>23</span>
+                                            <span>1</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item">
                                             <p class="oc-text-grey">Contratistas</p>
-                                            <span>62</span>
+                                            <span>16</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="wdg-demografico__item">
                                     <h3 class="wdg-demografico__title">MUJERES Y HOMBRES</h3>
-                                    <img src="/img/demografico-2-hombresymujeres.svg" alt=""
-                                        class="wdg-demografico__grafica">
+                                    <img src="/img/elipse-3-boy.png" alt="" class="wdg-demografico__grafica">
                                     <div class="wdg-demografico__dates">
                                         <div class="wdg-demografico__dates-item">
                                             <p>Total trabajadores Ocensa</p>
-                                            <span>23</span>
+                                            <span>1</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item">
                                             <p class="oc-text-blue">Mujeres</p>
-                                            <span>7.4%</span>
+                                            <span>0%</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item">
                                             <p class="oc-text-grey">Hombres</p>
-                                            <span>92.6%</span>
+                                            <span>100%</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="wdg-demografico__item">
                                     <h3 class="wdg-demografico__title">GENERACIONES</h3>
-                                    <img src="/img/demografico-3-generaciones.svg" alt=""
-                                        class="wdg-demografico__grafica">
+                                    <img src="/img/elipse-2-boy.png" alt="" class="wdg-demografico__grafica">
                                     <div class="wdg-demografico__dates">
                                         <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
                                             <p class="oc-text-green">Generación Z</p>
-                                            <span>7.4%</span>
+                                            <span>0%</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
-                                            <p class="oc-text-yellow">Generación X</p>
-                                            <span>22.2%</span>
+                                            <p class="oc-text-yellow">Generación Y</p>
+                                            <span>0%</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
-                                            <p class="oc-text-blue">Milenials</p>
-                                            <span>44.4%</span>
+                                            <p class="oc-text-blue">Generación X</p>
+                                            <span>100%</span>
                                         </div>
                                         <div class="wdg-demografico__dates-item wdg-demografico__dates-item-02">
                                             <p class="oc-text-grey">Generación Baby boomers</p>
-                                            <span>25.9%</span>
+                                            <span>0%</span>
                                         </div>
                                     </div>
                                 </div>
@@ -945,11 +704,11 @@
                         <div class="oc-slick-theme oc-slick-clima-card p-0">
                             <div class="slick-item">
                                 <div class="oc-widget-template__body p-3">
-                                    <p class="roboto-bold text-aguazul">Aguazul, Casanare</p>
+                                    <p class="roboto-bold text-aguazul">Páez, Boyacá</p>
                                     <div class="item-01 d-flex align-items-center flex-wrap">
                                         <div class="item-01__text">
-                                            <span class="item-01__text__day d-block c-blue-light">Lunes</span>
-                                            <span class="item-01__text__temp oc-number-large c-blue-light">27°</span>
+                                            <span class="item-01__text__day d-block c-blue-light">Sábado</span>
+                                            <span class="item-01__text__temp oc-number-large c-blue-light">21°</span>
                                         </div>
                                         <div class="item-01__img">
                                             <img src="/img/clima.svg" alt="">
@@ -1001,7 +760,7 @@
                         </div>
                         <div class="oc-widget-template__body p-3 py-2">
                             <div class="wdg-seguridad__item">
-                                <span class="oc-number">852</span>
+                                <span class="oc-number">1460</span>
                                 <p class="text-center">Días sin incidentes</p>
                             </div>
                             <div class="wdg-seguridad__cont-btn">
@@ -1040,21 +799,6 @@
                         </div>
                         <div class="oc-widget-template__body p-3">
                             <div class="oc-slick-widget__contratistas oc-slick-theme_2">
-                                <!-- Slide 1 -->
-                                <div class="slick-item text-center px-5">
-                                    <img src="/img/logo_contratista_omia.jpg" alt=""
-                                        class="oc-slick-widget__contratistas__brand img-fluid m-auto">
-                                    <h5 class="oc-slick-widget__contratistas__name roboto-medium">OMIA - Operación y
-                                        Mantenimiento Integral de Activos Colombia SAS</h5>
-                                    <p class="roboto-light my-4">Gestión de proyectos de diseño, ingeniería,
-                                        abastecimiento, construcción y servicios de operación y mantenimiento.</p>
-                                    <a href="https://omia.com.co/" target="_blank" class="oc-btn oc-btn__gray m-0 my-3">
-                                        <span> Ir </span>
-
-                                        <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                    </a>
-                                </div>
-
                                 <!-- Slide 2 -->
                                 <div class="slick-item text-center px-5">
                                     <img src="/img/logo_contratista_massy.png" alt=""
@@ -1069,41 +813,12 @@
                                         <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
                                     </a>
                                 </div>
-
-                                <!-- Slide 3 -->
-                                <div class="slick-item text-center px-5">
-                                    <img src="/img/logo-contratista-ismocol.png" alt=""
-                                        class="oc-slick-widget__contratistas__brand img-fluid mx-auto mb-4">
-                                    <h5 class="oc-slick-widget__contratistas__name roboto-medium">ISMOCOL S.A.</h5>
-                                    <p class="roboto-light my-4">Construcción, operación y mantenimientos de oleoductos,
-                                        Gasoductos, montajes de facilidades y Servicios Petroleros.</p>
-                                    <a href="https://www.ismocol.com/" target="_blank"
-                                        class="oc-btn oc-btn__gray m-0 my-3">
-                                        <span> Ir </span>
-
-                                        <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                    </a>
-                                </div>
-
-                                <!-- Slide 4 -->
-                                <div class="slick-item text-center px-5">
-                                    <img src="/img/logo_contratista_durangar.png" alt=""
-                                        class="oc-slick-widget__contratistas__brand img-fluid mx-auto mb-2">
-                                    <h5 class="oc-slick-widget__contratistas__name roboto-medium">DURANGAR LTDA</h5>
-                                    <p class="roboto-light my-4"> Servicio de catering</p>
-                                    <a href="https://www.ismocol.com/" target="_blank"
-                                        class="oc-btn oc-btn__gray m-0 my-3">
-                                        <span> Ir </span>
-
-                                        <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-8" id="gestion-boy">
                     <div class="oc-card-widget oc-widget-template wdg-gestion-ambiental" id="wdg-gestion-ambiental">
                         <div class="oc-widget-template__top-bar oc-bg-blue-light">
                             <div class="oc-widget-template__top-bar__title">
@@ -1119,33 +834,26 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="oc-widget-template__body px-4 py-3">
-                            <div class="oc-slick-widget__gestion oc-slick-theme_2">
-                                <div class="slick-item p-2 text-center">
-                                    <div class="oc-box-dato p-3">
-                                        <img src="/img/sistema_aireacion_piscinas.svg" alt="">
-                                        <p class="roboto-regular m-0">En 2019 instalamos sistemas de aireación en las
-                                            piscinas de oxigenación para mejorar la calidad del agua.</p>
+                        <div class="oc-widget-template__body d-flex align-items-center justify-content-center py-3"
+                            id="paez-gestion-amb">
+                            <div class="row oc-slick-widget__gestion oc-slick-theme_2">
+                                <div class="col slick-item text-center">
+                                    <div class="oc-box-dato p-3 d-flex align-items-center justify-content-center">
+                                        <p class="roboto-regular m-0">Se implementaron sistemas para recoger el agua
+                                            lluvia de los techos de el city gate y se aprovecharon los excedentes de
+                                            agua de la piscina de control. Con la medida, se dejaron de comprar
+                                            aproximadamente 13 m3 de agua en bloque, requeridos mensualmente para la
+                                            estación.</p>
                                     </div>
                                 </div>
-                                <div class="slick-item p-2 text-center">
-                                    <div class="oc-box-dato p-3">
-                                        <img src="/img/licencia_ambiental.svg" alt="">
-                                        <p class="roboto-regular m-0">Cuenta con licencia ambiental</p>
-                                        <a href="#" class="oc-btn oc-btn__gray">
-                                            <span> Ver </span>
-                                            <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="slick-item p-2 text-center">
-                                    <div class="oc-box-dato p-3">
-                                        <img src="/img/plan_manejo_ambiental.svg" alt="">
-                                        <p class="roboto-regular m-0">Cuenta con plan de manejo ambiental</p>
-                                        <a href="#" class="oc-btn oc-btn__gray">
-                                            <span> Ver </span>
-                                            <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
-                                        </a>
+                                <div class="col slick-item text-center">
+                                    <div class="oc-box-dato p-5 d-flex align-items-center justify-content-center">
+                                        <img src="/img/icon_territorio_paez_gestion_ambiental_turbinas.svg" alt="">
+                                        <div>
+                                            <p>Mejora en la eficiencia de las </p>
+                                            <span class="d-block">Turbinas</span>
+                                            <span class="c-green sp-3"> SGT 400</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1160,11 +868,11 @@
     <div class="oc-widgets-section mt-4" id="wdg-section-08-cus">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4">
-                    {{>../partials/widget-solicitudes}}
+                <div class="col-12 col-md-6">
+                    {{>../partials/widget-solicitudes2cols}}
                 </div>
 
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-6">
                     <div class="oc-card-widget oc-widget-template wdg-como-llegar como-llegar-1" id="wdg-como-llegar">
                         <div class="oc-widget-template__top-bar oc-bg-blue-light">
                             <div class="oc-widget-template__top-bar__title">
@@ -1182,9 +890,9 @@
                         </div>
                         <div class="oc-widget-template__body px-md-3 py-1">
                             <div class="row">
-                                <div class="col-12 col-md-4 item-aerea">
+                                <div class="col-12 col-md-6 item-aerea" id="paez-aerea">
                                     <div class="item-aerea__title d-flex align-items-center mt-2 mb-2">
-                                        <img src="/img/via_aerea.svg" alt="" class="mr-3">
+                                        <img src="/img/helicoptero.svg" alt="" class="mr-3">
                                         <h4 class="c-blue-light roboto-bold m-0">Vía aérea</h4>
                                     </div>
                                     <div class="oc-box-dato p-3">
@@ -1193,39 +901,54 @@
                                                 <div class="mt-1 mr-2">
                                                     <img src="/img/icono-flecha-azul.svg" alt="">
                                                 </div>
-                                                <span class="roboto-light d-inline-block">Llegada al aeropuerto El
-                                                    Alcaraván, Yopal, Casanare</span>
+                                                <span class="roboto-light d-inline-block">Se cuenta con helipuerto.
+                                                    (Salida desde la base de Soracá)</span>
                                             </li>
-                                            <li class="nav-item d-flex">
+                                            <li class="nav-item mb-3 d-flex">
                                                 <div class="mt-1 mr-2">
                                                     <img src="/img/icono-flecha-azul.svg" alt="">
                                                 </div>
-                                                <span class="roboto-light d-inline-block">
-                                                    Traslado vía terrestre a Tauramena (65 km – 1h 37 minutos en
-                                                    automóvil).
-                                                </span>
+                                                <span class="roboto-light d-inline-block">Desde Soracá</span><span
+                                                    class="c-green ml-4 number-minutes">35</span><span
+                                                    class="c-green ml-1 desc-minutes">MIN</span>
+                                            </li>
+                                            <li class="nav-item mb-3 d-flex">
+                                                <div class="mt-1 mr-2">
+                                                    <img src="/img/icono-flecha-azul.svg" alt="">
+                                                </div>
+                                                <span class="roboto-light d-inline-block">Desde Miraflores</span><span
+                                                    class="c-green ml-2 number-minutes">10</span><span
+                                                    class="c-green ml-1 desc-minutes">MIN</span>
+                                            </li>
+                                            <li class="nav-item mb-3 d-flex">
+                                                <div class="mt-1 mr-2">
+                                                    <img src="/img/icono-flecha-azul.svg" alt="">
+                                                </div>
+                                                <span class="roboto-light d-inline-block">Desde El Porvenir</span><span
+                                                    class="c-green ml-2 number-minutes">30</span><span
+                                                    class="c-green ml-1 desc-minutes">MIN</span>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-md-8 item-terrestre" id="terrestre-porv">
+                                <div class="col-12 col-md-6 item-terrestre" id="terrestre-porv">
                                     <div class="item-terrestre__title d-flex align-items-center ml-4 mt-2 mb-2">
                                         <img src="/img/via_terrestre.svg" alt="" class="mr-3">
                                         <h4 class="c-blue-light roboto-bold m-0">Vía terrestre</h4>
                                     </div>
-                                    <div class="oc-box-dato px-md-3">
+                                    <div class="oc-box-dato px-md-3" id="paez-vias">
                                         <div class="item-terrestre_01 py-2">
-                                            <div class="row align-items-center mt-2 pb-md-3">
+                                            <div class="row d-block mt-2 pb-md-3">
                                                 <div class="col-12 col-md-3">
-                                                    <span class="badge text-light px-2 mr-1">Sogamoso
-                                                        –<br> Tauramena</span>
+                                                    <span class="badge text-light">Bogotá – Jenesano –<br>
+                                                        Ramiriquí – Zetaquira – Miraflores</span>
                                                 </div>
-                                                <div class="col-12 col-md-9 d-flex justify-content-between">
-                                                    <div class="d-flex flex-nowrap align-items-center">
-                                                        <img src="/img/distancia.svg" alt=""
-                                                            class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
+                                                <div class="col-12 d-block justify-content-between cont-tempus">
+                                                    <div class="d-flex align-items-left mt-3">
+                                                        <img src="/img/dist-paez.svg" alt=""
+                                                            class="oc-box-dato__img-distancia mr-3">
+                                                        <div class="">
                                                             <div class="d-flex">
                                                                 <span class="oc-number-medium c-blue-light">132</span>
                                                                 <span
@@ -1235,92 +958,12 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="d-flex tem-apro">
-                                                        <img src="/img/tiempo_aproximado.svg" alt=""
-                                                            class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
-                                                            <span class="oc-number-medium c-green">3</span>
+                                                    <div class="d-flex align-items-left tem-apro mt-3">
+                                                        <img src="/img/time-paez.svg" alt=""
+                                                            class="oc-box-dato__img-aprox mr-4">
+                                                        <div class="">
+                                                            <span class="oc-number-medium c-green">5</span>
                                                             <span class="small-text c-green roboto-regular">HRS.</span>
-
-                                                            <span class="oc-number-medium c-green">45</span>
-                                                            <span class="small-text c-green roboto-regular">MIN.</span>
-                                                            <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
-                                                                EN AUTOMÓVIL</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-terrestre_02 py-2 pb-1">
-                                            <div class="row align-items-center mt-2 pb-md-3">
-                                                <div class="col-12 col-md-3">
-                                                    <span class="badge text-light px-2 mr-1">Guateque
-                                                        –<br> Tauramena</span>
-                                                </div>
-
-                                                <div class="col-12 col-md-9 d-flex justify-content-between">
-                                                    <div class="d-flex flex-nowrap align-items-center">
-
-                                                        <img src="/img/distancia.svg" alt=""
-                                                            class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
-                                                            <div class="d-flex">
-                                                                <span class="oc-number-medium c-blue-light">142</span>
-                                                                <span
-                                                                    class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
-                                                            </div>
-                                                            <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex tem-apro flex-nowrap">
-                                                        <img src="/img/tiempo_aproximado.svg" alt=""
-                                                            class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
-                                                            <span class="oc-number-medium c-green">3</span>
-                                                            <span class="small-text c-green roboto-regular">HRS.</span>
-
-                                                            <span class="oc-number-medium c-green">25</span>
-                                                            <span class="small-text c-green roboto-regular">MIN.</span>
-                                                            <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
-                                                                EN AUTOMÓVIL</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-terrestre_03 py-2 pb-1">
-                                            <div class="row align-items-center mt-2 pb-md-3">
-                                                <div class="col-12 col-md-3">
-                                                    <span class="badge text-light mr-1">Villavicencio
-                                                        –<br> Tauramena</span>
-                                                </div>
-                                                <div class="col-12 col-md-9 d-flex justify-content-between">
-                                                    <div class="d-flex flex-wrap flex-md-nowrap">
-
-                                                        <img src="/img/distancia.svg" alt=""
-                                                            class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
-                                                            <div class="d-flex">
-                                                                <span class="oc-number-medium c-blue-light">187</span>
-                                                                <span
-                                                                    class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
-                                                            </div>
-                                                            <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="d-flex tem-apro">
-                                                        <img src="/img/tiempo_aproximado.svg" alt=""
-                                                            class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
-                                                            <span class="oc-number-medium c-green">4</span>
-                                                            <span class="small-text c-green roboto-regular">HRS.</span>
-
-                                                            <span class="oc-number-medium c-green">40</span>
-                                                            <span class="small-text c-green roboto-regular">MIN.</span>
                                                             <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
                                                                 EN AUTOMÓVIL</p>
                                                         </div>
