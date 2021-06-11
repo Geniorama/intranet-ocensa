@@ -668,6 +668,17 @@ import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_b
 import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_mantenimiento_de_linea.svg";
 import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_infraestructura.svg";
 import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_superintendencia_mantenimiento.svg";
+import "./img/boyaca/estacion-soraca/fotos/imag_ocensa_1_base_soraca_ubicacion.jpg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_componente_relacionamiento.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_personal_comunidades.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/valvulas-divisor-1.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/valvulas-img-divisor-2.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/icon_territorio_base_soraca_valvulas_de_linea_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/icon_territorio_base_soraca_valvulas_de_linea_valvulas.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/6-icon-contratistas/icon_territorio_base_soraca_contratistas_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_3_base_soraca_contratistas.jpg";
+import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_4_base_soraca_contratistas.jpg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
