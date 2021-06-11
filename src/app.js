@@ -692,6 +692,8 @@ import "./img/boyaca/estacion-paez/14-icon-solicitudes-ingreso/flecha-v2.svg";
 import "./img/boyaca/estacion-paez/15-icon-como-llegar/helicoptero.svg";
 import "./img/boyaca/estacion-paez/15-icon-como-llegar/dist-paez.svg";
 import "./img/boyaca/estacion-paez/15-icon-como-llegar/time-paez.svg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/paez-almacenamiento-modal.png";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png";
 
 
 

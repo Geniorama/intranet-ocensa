@@ -128,6 +128,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'casanare/noticia-tradicion-boyaca.html',
+            template: './src/casanare/noticia-tradicion-boyaca.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
