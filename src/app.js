@@ -691,6 +691,9 @@ import "./img/boyaca/estacion-miraflores/miraflores-icon-13.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-14.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-15.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-16.svg";
+import "./img/boyaca/estacion-miraflores/miraflores-icon-17.svg";
+import "./img/boyaca/estacion-miraflores/miraflores-icon-18.svg";
+import "./img/boyaca/estacion-miraflores/miraflores-icon-19.svg";
 
 
 //Estacion Páez
@@ -1674,4 +1677,13 @@ $('.oc-gestion-miraflores__car').slick({
             </g>
         </svg>
     </button>`,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+              dots: true,
+              slidesToShow: 1
+            }
+        }
+    ]
 })
