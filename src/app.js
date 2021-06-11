@@ -696,6 +696,11 @@ import "./img/boyaca/estacion-paez/4-icon-almacenamiento/paez-almacenamiento-mod
 import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png";
 
 
+//Noticias Boyaca
+import "./img/boyaca/noticias/notices-boy-1.jpg";
+import "./img/boyaca/noticias/coments-user-1.png";
+import "./img/boyaca/noticias/coments-user-2.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
