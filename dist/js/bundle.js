@@ -3812,12 +3812,1636 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./src/img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg":
 /*!**************************************************************************************************************************!*\
   !*** ./src/img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg ***!
   \**************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
+=======
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js
+var jquery = __webpack_require__(0);
+var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
+
+// EXTERNAL MODULE: ./node_modules/bootstrap/dist/js/bootstrap.js
+var bootstrap = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./node_modules/slick-carousel/slick/slick.js
+var slick = __webpack_require__(1);
+
+// EXTERNAL MODULE: ./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js
+var smooth_scroll_polyfills_min = __webpack_require__(2);
+var smooth_scroll_polyfills_min_default = /*#__PURE__*/__webpack_require__.n(smooth_scroll_polyfills_min);
+
+// EXTERNAL MODULE: ./node_modules/dragscroll/dragscroll.js
+var dragscroll = __webpack_require__(6);
+
+// CONCATENATED MODULE: ./src/fonts/Cabin-Regular.ttf
+/* harmony default export */ var Cabin_Regular = ("../fonts/Cabin-Regular.ttf");
+// CONCATENATED MODULE: ./src/fonts/Cabin-Bold.ttf
+/* harmony default export */ var Cabin_Bold = ("../fonts/Cabin-Bold.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-Bold.ttf
+/* harmony default export */ var Roboto_Bold = ("../fonts/Roboto-Bold.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-BoldItalic.ttf
+/* harmony default export */ var Roboto_BoldItalic = ("../fonts/Roboto-BoldItalic.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-Light.ttf
+/* harmony default export */ var Roboto_Light = ("../fonts/Roboto-Light.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-Medium.ttf
+/* harmony default export */ var Roboto_Medium = ("../fonts/Roboto-Medium.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-MediumItalic.ttf
+/* harmony default export */ var Roboto_MediumItalic = ("../fonts/Roboto-MediumItalic.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-Regular.ttf
+/* harmony default export */ var Roboto_Regular = ("../fonts/Roboto-Regular.ttf");
+// CONCATENATED MODULE: ./src/fonts/Roboto-Black.ttf
+/* harmony default export */ var Roboto_Black = ("../fonts/Roboto-Black.ttf");
+// CONCATENATED MODULE: ./src/fonts/Merriweather-BoldItalic.ttf
+/* harmony default export */ var Merriweather_BoldItalic = ("../fonts/Merriweather-BoldItalic.ttf");
+// CONCATENATED MODULE: ./src/fonts/Merriweather-Italic.ttf
+/* harmony default export */ var Merriweather_Italic = ("../fonts/Merriweather-Italic.ttf");
+// CONCATENATED MODULE: ./src/fonts/HelveticaNeueLTStd-BlkCn.ttf
+/* harmony default export */ var HelveticaNeueLTStd_BlkCn = ("../fonts/HelveticaNeueLTStd-BlkCn.ttf");
+// CONCATENATED MODULE: ./src/fonts/helvetica_light.ttf
+/* harmony default export */ var helvetica_light = ("../fonts/helvetica_light.ttf");
+// EXTERNAL MODULE: ./src/styles/app.sass
+var app = __webpack_require__(7);
+
+// CONCATENATED MODULE: ./src/modules/WidgetCalendario.js
+
+jquery_default()(document).ready(function () {
+  jquery_default()(".oc-slick-calendar").slick({
+    slidesToShow: 1,
+    prevArrow: "<img src='/img/slick-arrow-left.svg' class='custom-slick-arrow arrow-left'>",
+    nextArrow: "<img src='/img/slick-arrow-right.svg' class='custom-slick-arrow arrow-right'>"
+  });
+  jquery_default()(".oc-slick-agenda").slick({
+    slidesToShow: 1,
+    vertical: true,
+    arrows: false,
+    dots: true,
+    verticalSwiping: true,
+    infinite: false,
+    responsive: [{
+      breakpoint: 480,
+      settings: {
+        vertical: false,
+        verticalSwiping: false
+      }
+    }]
+  });
+  jquery_default()(".oc-slick-notices").slick({
+    slidesToShow: 1,
+    vertical: true,
+    arrows: false,
+    dots: true,
+    verticalSwiping: true,
+    infinite: false
+  });
+  jquery_default()(".oc-slick-notices__mobile").slick({
+    slidesToShow: 1,
+    vertical: false,
+    arrows: false,
+    dots: true,
+    verticalSwiping: false,
+    infinite: false
+  });
+  jquery_default()(".oc-slick-event-info").slick({
+    slidesToShow: 1,
+    vertical: true,
+    arrows: false,
+    dots: true,
+    verticalSwiping: true,
+    infinite: false,
+    responsive: [{
+      breakpoint: 480,
+      settings: {
+        vertical: false,
+        verticalSwiping: false
+      }
+    }]
+  });
+  jquery_default()(".oc-slick-day").slick({
+    slidesToShow: 1,
+    vertical: true,
+    arrows: false,
+    dots: true,
+    verticalSwiping: true,
+    infinite: false,
+    responsive: [{
+      breakpoint: 480,
+      settings: {
+        vertical: false,
+        verticalSwiping: false
+      }
+    }]
+  });
+  jquery_default()(".oc-slick-indicadores").slick({
+    slidesToShow: 4,
+    prevArrow: "<img src='img/slick-arrow-left-02.svg' class='custom-slick-arrow arrow-left'>",
+    nextArrow: "<img src='img/slick-arrow-right-02.svg' class='custom-slick-arrow arrow-right'>",
+    dots: true,
+    infinite: true,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    responsive: [{
+      breakpoint: 912,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    }, {
+      breakpoint: 760,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: false
+      }
+    }]
+  });
+
+  if (screen.width > 575.98) {
+    var slider = jquery_default()(".on-scroll-v");
+    slider.on("wheel", function (e) {
+      e.preventDefault();
+
+      if (e.originalEvent.deltaY < 0) {
+        jquery_default()(this).slick("slickNext");
+      } else {
+        jquery_default()(this).slick("slickPrev");
+      }
+    });
+  }
+
+  jquery_default()('#wg-calendario .btn-agenda').click(function (e) {
+    e.preventDefault();
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()('#wdg-agenda').slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+  jquery_default()('#wg-calendario .btn-calendario').click(function (e) {
+    e.preventDefault();
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()('#wdg-calendario').slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+  jquery_default()('#wdg-agenda .oc-content-agenda__item').click(function (e) {
+    e.preventDefault();
+    var target_day = jquery_default()(this).attr('data-day');
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()(target_day).slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+  jquery_default()('.content-day-events .oc-content-agenda__item').click(function (e) {
+    e.preventDefault();
+    var target_event = jquery_default()(this).attr('data-event');
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()(target_event).slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+  jquery_default()('.content-day-events .oc-btn-close').click(function (e) {
+    e.preventDefault();
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()('#wdg-calendario').slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+  jquery_default()('.content-day .oc-btn-close').click(function (e) {
+    e.preventDefault();
+    jquery_default()('.oc-widget-calendario__content').slideUp();
+    jquery_default()('#wdg-agenda').slideDown();
+    jquery_default()('.oc-slick-theme').slick('refresh');
+  });
+});
+// CONCATENATED MODULE: ./src/modules/Estaciones.js
+
+jquery_default()('.oc-slick-widget__slider').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  dots: true,
+  infinite: false
+});
+var est_cusiana_banner = document.querySelector('.oc-cas-cusiana .wdg-banner__bg');
+
+if (est_cusiana_banner) {
+  est_cusiana_banner.scrollLeft = 130;
+}
+// CONCATENATED MODULE: ./src/modules/EstacionesPorvenir.js
+
+
+jquery_default()('.oc-slick-widget__contratistas').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>"
+});
+jquery_default()('.oc-slick-widget__gestion').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: true,
+  infinite: false,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      dots: true
+    }
+  }]
+});
+jquery_default()('.wdg-demografico__car').slick({
+  arrows: true,
+  dots: false,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>"
+});
+// CONCATENATED MODULE: ./src/modules/WidgetGaleria.js
+
+
+jquery_default()('.oc-slick-galeria').slick({
+  slidesToShow: 1,
+  prevArrow: "<img src='img/slick-arrow-left-02.svg' class='custom-slick-arrow arrow-left'>",
+  nextArrow: "<img src='img/slick-arrow-right-02.svg' class='custom-slick-arrow arrow-right'>",
+  arrows: false,
+  dots: true,
+  infinite: false,
+  slidesToScroll: 1,
+  vertical: true,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 575.98,
+    settings: {
+      vertical: false,
+      verticalSwiping: false
+    }
+  }]
+});
+jquery_default()('.oc-slick-wdg-galeria').slick({
+  prevArrow: "<img src='/img/arrow-left-blue.svg' class='custom-slick-arrow arrow-left'>",
+  nextArrow: "<img src='/img/arrow-right-blue.svg' class='custom-slick-arrow arrow-right'>",
+  dots: true,
+  responsive: [{
+    breakpoint: 575.98,
+    settings: {
+      arrows: false
+    }
+  }]
+});
+jquery_default()('.comment-user__input').focus(function () {
+  jquery_default()('.oc-btn-submit').show();
+  jquery_default()('.comment-user__input').css('max-height', '50px');
+});
+jquery_default()('.comment-user__input').focusout(function () {
+  jquery_default()('.oc-btn-submit').hide();
+  jquery_default()('.comment-user__input').css('max-height', '30px');
+});
+jquery_default()('.oc-widget-galeria__link').click(function (e) {
+  var target = jquery_default()(this).attr('data-widget');
+  jquery_default()(target).addClass('gallery-active');
+  jquery_default()('.oc-box-list').fadeIn();
+});
+jquery_default()('.galeria-close-button').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.contenedor-widget-galeria-foto').removeClass('gallery-active');
+});
+
+if (screen.width > 575.98) {
+  jquery_default()('.oc-btn-share').click(function (e) {
+    e.preventDefault();
+    var item = jquery_default()(this).parent().parent();
+    var list = jquery_default()(this).parent();
+    list.addClass('share-active');
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()(item).find('.oc-box-list').fadeOut();
+    jquery_default()(target).fadeIn();
+  });
+  jquery_default()('.oc-btn-comments').click(function (e) {
+    e.preventDefault();
+    var item = jquery_default()(this).parent().parent();
+    var list = jquery_default()(this).parent();
+    list.removeClass('share-active');
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()(item).find('.oc-box-list').fadeOut();
+    jquery_default()(target).fadeIn();
+  });
+} else {
+  jquery_default()('.oc-btn-share').click(function (e) {
+    e.preventDefault();
+    var target = jquery_default()(this).attr('data-target');
+    jquery_default()('.oc-share-mobile').html('<div class="oc-text-right"><img src="img/img-widget-galeria/boton/boton–cerrar.svg" alt="" class="share-close-button"></div>');
+    jquery_default()('.oc-share-mobile').append(jquery_default()(target).html());
+    jquery_default()('.oc-share-mobile').slideDown();
+    jquery_default()('.oc-share-mobile .oc-widget-galeria-foto__content__right__list-share__user').click(function (e) {
+      e.preventDefault();
+
+      if (jquery_default()(this).hasClass('profile-active')) {
+        jquery_default()(this).removeClass('profile-active');
+      } else {
+        jquery_default()(this).addClass('profile-active');
+      }
+    });
+    jquery_default()('.share-close-button').click(function (e) {
+      e.preventDefault();
+      jquery_default()('.oc-share-mobile').slideUp();
+    });
+  });
+}
+
+jquery_default()('.oc-widget-galeria-foto__content__right__list-share__user').click(function (e) {
+  e.preventDefault();
+
+  if (jquery_default()(this).hasClass('profile-active')) {
+    jquery_default()(this).removeClass('profile-active');
+  } else {
+    jquery_default()(this).addClass('profile-active');
+  }
+});
+// CONCATENATED MODULE: ./src/modules/WidgetNetwork.js
+
+
+jquery_default()('.oc-widget-network__content__slider').slick({
+  vertical: true,
+  verticalSwiping: true,
+  slidesToShow: 1,
+  arrows: false,
+  dots: true,
+  responsive: [{
+    breakpoint: 480,
+    settings: {
+      vertical: false,
+      verticalSwiping: false
+    }
+  }]
+});
+jquery_default()('.oc-widget-network__content__buttons .oc-btn').click(function (e) {
+  e.preventDefault();
+  var target = jquery_default()(this).attr('data-target');
+  jquery_default()('.oc-widget-network__content__buttons .oc-btn').removeClass('oc-btn-active');
+  jquery_default()('.oc-widget-network__content__buttons .oc-btn').addClass('oc-btn-inactive');
+  jquery_default()(this).removeClass('oc-btn-inactive');
+  jquery_default()(this).addClass('oc-btn-active');
+  jquery_default()('.oc-widget-network__content__panel').slideUp();
+  jquery_default()(target).slideDown();
+  jquery_default()(target).find('.oc-widget-network__content__slider').slick('refresh');
+  jquery_default()('.oc-widget-network__content__buscador__close').click(function (e) {
+    e.preventDefault();
+    jquery_default()('.oc-panel-agregar').slideUp();
+    jquery_default()('#wdg-mis-contactos').slideDown();
+    jquery_default()('.oc-widget-network__content__buttons .oc-btn').removeClass('oc-btn-active');
+    jquery_default()('.oc-widget-network__content__buttons .btn-contactos').removeClass('oc-btn-inactive');
+    jquery_default()('.oc-widget-network__content__buttons .btn-contactos').addClass('oc-btn-active');
+  });
+});
+jquery_default()('.oc-item__radio-button').click(function (e) {
+  e.preventDefault();
+
+  if (jquery_default()(this).hasClass('active')) {
+    jquery_default()(this).removeClass('active');
+  } else {
+    jquery_default()(this).addClass('active');
+  }
+});
+// CONCATENATED MODULE: ./src/modules/PerfilOleoducto.js
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
+var id_estacion = jquery_default()('.oc-estaciones .oc-content').attr('id');
+
+if (id_estacion) {
+  var perfil_recorrido = document.querySelectorAll('.oc-recorrido__grafica .oc-recorrido__item');
+
+  var _iterator = _createForOfIteratorHelper(perfil_recorrido),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var PerfilOleoducto_item = _step.value;
+      var data_id = PerfilOleoducto_item.dataset.id;
+
+      if (data_id == id_estacion) {
+        PerfilOleoducto_item.classList.add('active');
+      }
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+} // Casanare selector perfil oleoducto
+
+
+jquery_default()('.oc-est-casanare .oc-recorrido__mapa #Trazado_5048-2').attr('class', 'active');
+jquery_default()('.oc-index-casanare .oc-recorrido__mapa #Trazado_5048-2').attr('class', 'active'); // Boyacá selector perfil oleoducto
+
+jquery_default()('.oc-est-boyaca .oc-recorrido__mapa #Componente_128_4').attr('class', 'active');
+jquery_default()('.oc-index-boyaca .oc-recorrido__mapa #Componente_128_4').attr('class', 'active');
+// CONCATENATED MODULE: ./src/modules/PerfilOleductoHeader.js
+
+jquery_default()('.oc-img-header__button-sistema').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-img-header__sistema').slideToggle('slow', function () {
+    if (jquery_default()('.oc-img-header__sistema').is(':visible')) {
+      jquery_default()('.oc-img-header__button-sistema .oc-img-header__button-sistema__text').text('Cerrar');
+      jquery_default()('.oc-img-header__button-sistema').addClass('is-open');
+    } else {
+      jquery_default()('.oc-img-header__button-sistema .oc-img-header__button-sistema__text').text('Ver sistema Ocensa');
+      jquery_default()('.oc-img-header__button-sistema').removeClass('is-open'); // some code when content is shown
+    }
+  });
+});
+// CONCATENATED MODULE: ./src/modules/SubMenu.js
+
+
+var SubMenu_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
+var est_page = document.querySelector('.oc-estaciones');
+
+function activeItemsEst() {
+  var targetEst = jquery_default()('.oc-estaciones');
+  jquery_default()('.oc-tabs__item').each(function (index) {
+    var idNav = jquery_default()(this).attr('id');
+
+    if (targetEst.hasClass(idNav)) {
+      jquery_default()(this).addClass('active');
+    }
+  });
+}
+
+if (est_page == null) {
+  jquery_default()('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
+  jquery_default()('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
+  jquery_default()('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
+  jquery_default()('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link').removeClass('active');
+  jquery_default()('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
+  jquery_default()('.oc-tabs__item').click(function (e) {
+    e.preventDefault();
+
+    var _href = jquery_default()(this).attr("href");
+
+    jquery_default()('.oc-tabs__item').removeClass('active');
+    jquery_default()(this).addClass('active');
+    jquery_default()('.oc-submenu-gen .oc-tabs__item[href="' + _href + '"]').addClass('active');
+    jquery_default()(".oc-panels__item").hide();
+    jquery_default()(_href).fadeIn();
+    var anchor = document.querySelector('#top');
+    SubMenu_scroll.animateScroll(anchor);
+    jquery_default()('.oc-panels-cultura__slick-panel').slick('refresh');
+    jquery_default()('.oc-slick-cultura').slick('refresh'); // Funcion tabs
+
+    jquery_default()('.oc-slick-cultura .oc-slick-cultura__item').click(function (e) {
+      e.preventDefault();
+      jquery_default()('.oc-slick-cultura .oc-slick-cultura__item').removeClass('active');
+      jquery_default()(this).addClass('active');
+    });
+  });
+} else {
+  activeItemsEst();
+}
+// CONCATENATED MODULE: ./src/modules/WidgetProyectos.js
+
+ // $('.wdg-proyectos__btn').click(function(e){
+//     e.preventDefault()
+//     let target = $(this).attr('data-target')
+//     $('.wdg-proyectos__panel').slideUp()
+//     $(target).slideDown()
+//     $('.oc-members-carousel').slick('refresh')
+//     $('.wdg-proyectos__car').slick('refresh')
+// })
+// CONCATENATED MODULE: ./src/modules/Perfil.js
+
+
+function quitarAcentos(cadena) {
+  var acentos = {
+    'á': 'a',
+    'é': 'e',
+    'í': 'i',
+    'ó': 'o',
+    'ú': 'u',
+    'Á': 'A',
+    'É': 'E',
+    'Í': 'I',
+    'Ó': 'O',
+    'Ú': 'U'
+  };
+  return cadena.split('').map(function (letra) {
+    return acentos[letra] || letra;
+  }).join('').toString();
+} // Insertar opciones en input select de estado
+
+
+jquery_default()(".oc-custom-select__options__opt").each(function (index) {
+  var format_value = quitarAcentos(jquery_default()(this).find('.text-option').text());
+  format_value = format_value.replace(' ', '_');
+  jquery_default()('#perfil-estado').append(new Option(quitarAcentos(jquery_default()(this).find('.text-option').text()), format_value));
+});
+jquery_default()('.oc-custom-select').click(function (e) {
+  e.preventDefault();
+
+  if (jquery_default()(".oc-custom-select__options").is(":visible")) {
+    jquery_default()(".oc-custom-select__options").fadeOut();
+  } else {
+    jquery_default()(".oc-custom-select__options").fadeIn();
+  }
+
+  jquery_default()('.oc-custom-select__options__opt').click(function (e) {
+    e.preventDefault();
+    var el_html = jquery_default()(this).html();
+    var text_el_html = jquery_default()(this).find('.text-option').text();
+    text_el_html = quitarAcentos(text_el_html.replace(' ', '_'));
+    jquery_default()('#perfil-estado option').attr('selected', false);
+    jquery_default()('#perfil-estado option[value=' + text_el_html + ']').attr('selected', true);
+    jquery_default()('.oc-custom-select__default').html(el_html);
+    jquery_default()(".oc-custom-select__options").fadeOut('fast');
+  });
+});
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/oc-avatar.jpg
+/* harmony default export */ var oc_avatar = (__webpack_require__.p + "img/oc-avatar.jpg");
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-0-inicio.svg
+/* harmony default export */ var menu_perfil_0_inicio = (__webpack_require__.p + "img/menu-perfil-0-inicio.svg");
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-1-correo.svg
+/* harmony default export */ var menu_perfil_1_correo = (__webpack_require__.p + "img/menu-perfil-1-correo.svg");
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-2-mensajes.svg
+/* harmony default export */ var menu_perfil_2_mensajes = (__webpack_require__.p + "img/menu-perfil-2-mensajes.svg");
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-3-reuniones.svg
+/* harmony default export */ var menu_perfil_3_reuniones = (__webpack_require__.p + "img/menu-perfil-3-reuniones.svg");
+// CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-4-grupos.svg
+/* harmony default export */ var menu_perfil_4_grupos = (__webpack_require__.p + "img/menu-perfil-4-grupos.svg");
+// CONCATENATED MODULE: ./src/img/header/logo_ocensa_logo.png
+/* harmony default export */ var logo_ocensa_logo = (__webpack_require__.p + "img/logo_ocensa_logo.png");
+// CONCATENATED MODULE: ./src/img/header/icon_logout.svg
+/* harmony default export */ var icon_logout = (__webpack_require__.p + "img/icon_logout.svg");
+// CONCATENATED MODULE: ./src/img/header/arrow-widgets.svg
+/* harmony default export */ var arrow_widgets = (__webpack_require__.p + "img/arrow-widgets.svg");
+// CONCATENATED MODULE: ./src/img/header/lupa_buscador.svg
+/* harmony default export */ var lupa_buscador = (__webpack_require__.p + "img/lupa_buscador.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-1-correo.svg
+/* harmony default export */ var widget_1_correo = (__webpack_require__.p + "img/widget-1-correo.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-2-agenda.svg
+/* harmony default export */ var widget_2_agenda = (__webpack_require__.p + "img/widget-2-agenda.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-3-grupos.svg
+/* harmony default export */ var widget_3_grupos = (__webpack_require__.p + "img/widget-3-grupos.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-4-enlaces_rapidos.svg
+/* harmony default export */ var widget_4_enlaces_rapidos = (__webpack_require__.p + "img/widget-4-enlaces_rapidos.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-5-mis_apps.svg
+/* harmony default export */ var widget_5_mis_apps = (__webpack_require__.p + "img/widget-5-mis_apps.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-6-indicadores.svg
+/* harmony default export */ var widget_6_indicadores = (__webpack_require__.p + "img/widget-6-indicadores.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-7-noticias.svg
+/* harmony default export */ var widget_7_noticias = (__webpack_require__.p + "img/widget-7-noticias.svg");
+// CONCATENATED MODULE: ./src/img/caja-widgets/widget-8-agenda_calendario.svg
+/* harmony default export */ var widget_8_agenda_calendario = (__webpack_require__.p + "img/widget-8-agenda_calendario.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/logo_ocensa_logo2.png
+/* harmony default export */ var logo_ocensa_logo2 = (__webpack_require__.p + "img/logo_ocensa_logo2.png");
+// CONCATENATED MODULE: ./src/img/menu-principal/icon-nosotros.svg
+/* harmony default export */ var icon_nosotros = (__webpack_require__.p + "img/icon-nosotros.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/icon-direcciones.svg
+/* harmony default export */ var icon_direcciones = (__webpack_require__.p + "img/icon-direcciones.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/icon-territorio.svg
+/* harmony default export */ var icon_territorio = (__webpack_require__.p + "img/icon-territorio.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/icon-como-vamos.svg
+/* harmony default export */ var icon_como_vamos = (__webpack_require__.p + "img/icon-como-vamos.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/icon-ayuda.svg
+/* harmony default export */ var icon_ayuda = (__webpack_require__.p + "img/icon-ayuda.svg");
+// CONCATENATED MODULE: ./src/img/menu-principal/logo_ocensa_logosimbolo.png
+/* harmony default export */ var logo_ocensa_logosimbolo = (__webpack_require__.p + "img/logo_ocensa_logosimbolo.png");
+// CONCATENATED MODULE: ./src/img/foto-prueba-slide.jpg
+/* harmony default export */ var foto_prueba_slide = (__webpack_require__.p + "img/foto-prueba-slide.jpg");
+// CONCATENATED MODULE: ./src/img/icon-slide-calendario.svg
+/* harmony default export */ var icon_slide_calendario = (__webpack_require__.p + "img/icon-slide-calendario.svg");
+// CONCATENATED MODULE: ./src/img/foto-prueba-perfil.jpg
+/* harmony default export */ var foto_prueba_perfil = (__webpack_require__.p + "img/foto-prueba-perfil.jpg");
+// CONCATENATED MODULE: ./src/img/logo_ocensa_logosimbolo.png
+/* harmony default export */ var img_logo_ocensa_logosimbolo = (__webpack_require__.p + "img/logo_ocensa_logosimbolo.png");
+// CONCATENATED MODULE: ./src/img/footer/facebook.svg
+/* harmony default export */ var facebook = (__webpack_require__.p + "img/facebook.svg");
+// CONCATENATED MODULE: ./src/img/footer/youtube.svg
+/* harmony default export */ var youtube = (__webpack_require__.p + "img/youtube.svg");
+// CONCATENATED MODULE: ./src/img/header/icon_menu_mobile.svg
+/* harmony default export */ var icon_menu_mobile = (__webpack_require__.p + "img/icon_menu_mobile.svg");
+// CONCATENATED MODULE: ./src/img/header/icon-encuestas.svg
+/* harmony default export */ var icon_encuestas = (__webpack_require__.p + "img/icon-encuestas.svg");
+// CONCATENATED MODULE: ./src/img/header/icon-galeria.svg
+/* harmony default export */ var icon_galeria = (__webpack_require__.p + "img/icon-galeria.svg");
+// CONCATENATED MODULE: ./src/img/imag-noticias.jpg
+/* harmony default export */ var imag_noticias = (__webpack_require__.p + "img/imag-noticias.jpg");
+// CONCATENATED MODULE: ./src/img/imag3.jpg
+/* harmony default export */ var imag3 = (__webpack_require__.p + "img/imag3.jpg");
+// CONCATENATED MODULE: ./src/img/imag4.jpg
+/* harmony default export */ var imag4 = (__webpack_require__.p + "img/imag4.jpg");
+// CONCATENATED MODULE: ./src/img/imag2.jpg
+/* harmony default export */ var imag2 = (__webpack_require__.p + "img/imag2.jpg");
+// CONCATENATED MODULE: ./src/img/imag1.jpg
+/* harmony default export */ var imag1 = (__webpack_require__.p + "img/imag1.jpg");
+// CONCATENATED MODULE: ./src/img/like-icon.svg
+/* harmony default export */ var like_icon = (__webpack_require__.p + "img/like-icon.svg");
+// CONCATENATED MODULE: ./src/img/comments-icon.svg
+/* harmony default export */ var comments_icon = (__webpack_require__.p + "img/comments-icon.svg");
+// CONCATENATED MODULE: ./src/img/favorite-icon.svg
+/* harmony default export */ var favorite_icon = (__webpack_require__.p + "img/favorite-icon.svg");
+// CONCATENATED MODULE: ./src/img/share-icon.svg
+/* harmony default export */ var share_icon = (__webpack_require__.p + "img/share-icon.svg");
+// CONCATENATED MODULE: ./src/img/img-single-noticias.jpg
+/* harmony default export */ var img_single_noticias = (__webpack_require__.p + "img/img-single-noticias.jpg");
+// CONCATENATED MODULE: ./src/img/avatar-noticias.png
+/* harmony default export */ var avatar_noticias = (__webpack_require__.p + "img/avatar-noticias.png");
+// CONCATENATED MODULE: ./src/img/footer/instagram.svg
+/* harmony default export */ var instagram = (__webpack_require__.p + "img/instagram.svg");
+// CONCATENATED MODULE: ./src/img/footer/twitter.svg
+/* harmony default export */ var twitter = (__webpack_require__.p + "img/twitter.svg");
+// CONCATENATED MODULE: ./src/img/footer/icon-download.svg
+/* harmony default export */ var icon_download = (__webpack_require__.p + "img/icon-download.svg");
+// CONCATENATED MODULE: ./src/img/search/img-profile-search.jpg
+/* harmony default export */ var img_profile_search = (__webpack_require__.p + "img/img-profile-search.jpg");
+// CONCATENATED MODULE: ./src/img/search/img-notice-search.jpg
+/* harmony default export */ var img_notice_search = (__webpack_require__.p + "img/img-notice-search.jpg");
+// CONCATENATED MODULE: ./src/img/search/img-docs-search.jpg
+/* harmony default export */ var img_docs_search = (__webpack_require__.p + "img/img-docs-search.jpg");
+// CONCATENATED MODULE: ./src/img/search/img-img-search.jpg
+/* harmony default export */ var img_img_search = (__webpack_require__.p + "img/img-img-search.jpg");
+// CONCATENATED MODULE: ./src/img/search/img-video-search.jpg
+/* harmony default export */ var img_video_search = (__webpack_require__.p + "img/img-video-search.jpg");
+// CONCATENATED MODULE: ./src/img/search/btn-panels.svg
+/* harmony default export */ var btn_panels = (__webpack_require__.p + "img/btn-panels.svg");
+// CONCATENATED MODULE: ./src/img/search/panel-profile.svg
+/* harmony default export */ var panel_profile = (__webpack_require__.p + "img/panel-profile.svg");
+// CONCATENATED MODULE: ./src/img/search/panel-noticias.svg
+/* harmony default export */ var panel_noticias = (__webpack_require__.p + "img/panel-noticias.svg");
+// CONCATENATED MODULE: ./src/img/search/panel-documentos.svg
+/* harmony default export */ var panel_documentos = (__webpack_require__.p + "img/panel-documentos.svg");
+// CONCATENATED MODULE: ./src/img/search/panel-imagenes.svg
+/* harmony default export */ var panel_imagenes = (__webpack_require__.p + "img/panel-imagenes.svg");
+// CONCATENATED MODULE: ./src/img/search/panel-video.svg
+/* harmony default export */ var panel_video = (__webpack_require__.p + "img/panel-video.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/icon1-section2.svg
+/* harmony default export */ var icon1_section2 = (__webpack_require__.p + "img/icon1-section2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-01.jpg
+/* harmony default export */ var timeline_01 = (__webpack_require__.p + "img/timeline-01.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-02.jpg
+/* harmony default export */ var timeline_02 = (__webpack_require__.p + "img/timeline-02.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-03.jpg
+/* harmony default export */ var timeline_03 = (__webpack_require__.p + "img/timeline-03.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-04.jpg
+/* harmony default export */ var timeline_04 = (__webpack_require__.p + "img/timeline-04.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-05.jpg
+/* harmony default export */ var timeline_05 = (__webpack_require__.p + "img/timeline-05.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-06.jpg
+/* harmony default export */ var timeline_06 = (__webpack_require__.p + "img/timeline-06.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-07.jpg
+/* harmony default export */ var timeline_07 = (__webpack_require__.p + "img/timeline-07.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-08.jpg
+/* harmony default export */ var timeline_08 = (__webpack_require__.p + "img/timeline-08.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-09.jpg
+/* harmony default export */ var timeline_09 = (__webpack_require__.p + "img/timeline-09.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-10.jpg
+/* harmony default export */ var timeline_10 = (__webpack_require__.p + "img/timeline-10.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-11.jpg
+/* harmony default export */ var timeline_11 = (__webpack_require__.p + "img/timeline-11.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-12.jpg
+/* harmony default export */ var timeline_12 = (__webpack_require__.p + "img/timeline-12.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-13.svg
+/* harmony default export */ var timeline_13 = (__webpack_require__.p + "img/timeline-13.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-14.svg
+/* harmony default export */ var timeline_14 = (__webpack_require__.p + "img/timeline-14.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/timeline-15.jpg
+/* harmony default export */ var timeline_15 = (__webpack_require__.p + "img/timeline-15.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-01.svg
+/* harmony default export */ var razon_01 = (__webpack_require__.p + "img/razon-01.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-02.jpg
+/* harmony default export */ var razon_02 = (__webpack_require__.p + "img/razon-02.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-03.svg
+/* harmony default export */ var razon_03 = (__webpack_require__.p + "img/razon-03.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-04.jpg
+/* harmony default export */ var razon_04 = (__webpack_require__.p + "img/razon-04.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-05.svg
+/* harmony default export */ var razon_05 = (__webpack_require__.p + "img/razon-05.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-06.svg
+/* harmony default export */ var razon_06 = (__webpack_require__.p + "img/razon-06.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-07.svg
+/* harmony default export */ var razon_07 = (__webpack_require__.p + "img/razon-07.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon-08.svg
+/* harmony default export */ var razon_08 = (__webpack_require__.p + "img/razon-08.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/img-gris.jpg
+/* harmony default export */ var img_gris = (__webpack_require__.p + "img/img-gris.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/img-covenas.jpg
+/* harmony default export */ var img_covenas = (__webpack_require__.p + "img/img-covenas.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/icon-nosotros2.svg
+/* harmony default export */ var icon_nosotros2 = (__webpack_require__.p + "img/icon-nosotros2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/img-miraflores.jpg
+/* harmony default export */ var img_miraflores = (__webpack_require__.p + "img/img-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/img-belleza.jpg
+/* harmony default export */ var img_belleza = (__webpack_require__.p + "img/img-belleza.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/icon1-section3.svg
+/* harmony default export */ var icon1_section3 = (__webpack_require__.p + "img/icon1-section3.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/icon2-section3.svg
+/* harmony default export */ var icon2_section3 = (__webpack_require__.p + "img/icon2-section3.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon1.svg
+/* harmony default export */ var list_icon1 = (__webpack_require__.p + "img/list-icon1.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon2.svg
+/* harmony default export */ var list_icon2 = (__webpack_require__.p + "img/list-icon2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon3.svg
+/* harmony default export */ var list_icon3 = (__webpack_require__.p + "img/list-icon3.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon4.svg
+/* harmony default export */ var list_icon4 = (__webpack_require__.p + "img/list-icon4.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon5.svg
+/* harmony default export */ var list_icon5 = (__webpack_require__.p + "img/list-icon5.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/list-icon6.svg
+/* harmony default export */ var list_icon6 = (__webpack_require__.p + "img/list-icon6.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/img-gris-morado.jpg
+/* harmony default export */ var img_gris_morado = (__webpack_require__.p + "img/img-gris-morado.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/razon/imag-razondeser-1.jpg
+/* harmony default export */ var imag_razondeser_1 = (__webpack_require__.p + "img/imag-razondeser-1.jpg");
+// CONCATENATED MODULE: ./src/img/header/ocensa-logo-nuevo.svg
+/* harmony default export */ var ocensa_logo_nuevo = (__webpack_require__.p + "img/ocensa-logo-nuevo.svg");
+// CONCATENATED MODULE: ./src/img/header/ocensa-logo-nuevo-blanco.svg
+/* harmony default export */ var ocensa_logo_nuevo_blanco = (__webpack_require__.p + "img/ocensa-logo-nuevo-blanco.svg");
+// CONCATENATED MODULE: ./src/img/footer/ocensa-logosimbolo.svg
+/* harmony default export */ var ocensa_logosimbolo = (__webpack_require__.p + "img/ocensa-logosimbolo.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/flecha-abajo.svg
+/* harmony default export */ var flecha_abajo = (__webpack_require__.p + "img/flecha-abajo.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/cultura-icon-6.png
+/* harmony default export */ var cultura_icon_6 = (__webpack_require__.p + "img/cultura-icon-6.png");
+// CONCATENATED MODULE: ./src/img/nosotros/razon/razon-vision-est.svg
+/* harmony default export */ var razon_vision_est = (__webpack_require__.p + "img/razon-vision-est.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/icon-nosotros-cultura-2.svg
+/* harmony default export */ var icon_nosotros_cultura_2 = (__webpack_require__.p + "img/icon-nosotros-cultura-2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/icon-nosotros-cultura-3.svg
+/* harmony default export */ var icon_nosotros_cultura_3 = (__webpack_require__.p + "img/icon-nosotros-cultura-3.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura-01.jpg
+/* harmony default export */ var cultura_01 = (__webpack_require__.p + "img/cultura-01.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura-02.jpg
+/* harmony default export */ var cultura_02 = (__webpack_require__.p + "img/cultura-02.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura-03.jpg
+/* harmony default export */ var cultura_03 = (__webpack_require__.p + "img/cultura-03.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura-04.jpg
+/* harmony default export */ var cultura_04 = (__webpack_require__.p + "img/cultura-04.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura-05.jpg
+/* harmony default export */ var cultura_05 = (__webpack_require__.p + "img/cultura-05.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/razon-de-ser-2.svg
+/* harmony default export */ var razon_de_ser_2 = (__webpack_require__.p + "img/razon-de-ser-2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/razon-de-ser-3.svg
+/* harmony default export */ var razon_de_ser_3 = (__webpack_require__.p + "img/razon-de-ser-3.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/imagenes/razon-de-ser-torta.png
+/* harmony default export */ var razon_de_ser_torta = (__webpack_require__.p + "img/razon-de-ser-torta.png");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/historia-1.svg
+/* harmony default export */ var historia_1 = (__webpack_require__.p + "img/historia-1.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/imagenes/historia-1998.jpg
+/* harmony default export */ var historia_1998 = (__webpack_require__.p + "img/historia-1998.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/historia-2018-foto-descargadero-min.jpg
+/* harmony default export */ var historia_2018_foto_descargadero_min = (__webpack_require__.p + "img/historia-2018-foto-descargadero-min.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/imagenes/historia-2010-grafica-01.jpg
+/* harmony default export */ var historia_2010_grafica_01 = (__webpack_require__.p + "img/historia-2010-grafica-01.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/cultura-2.svg
+/* harmony default export */ var cultura_2 = (__webpack_require__.p + "img/cultura-2.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/historia_bombeo_barriles.svg
+/* harmony default export */ var historia_bombeo_barriles = (__webpack_require__.p + "img/historia_bombeo_barriles.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/iconos/historia_bombeo_tlu.svg
+/* harmony default export */ var historia_bombeo_tlu = (__webpack_require__.p + "img/historia_bombeo_tlu.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/historia-2010-nace-cenit-min.jpeg
+/* harmony default export */ var historia_2010_nace_cenit_min = (__webpack_require__.p + "img/historia-2010-nace-cenit-min.jpeg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/1-Nosotros Cultura-4.jpg
+/* harmony default export */ var _1_Nosotros_Cultura_4 = (__webpack_require__.p + "img/1-Nosotros Cultura-4.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/1-Nosotros Cultura-inicio.jpg
+/* harmony default export */ var _1_Nosotros_Cultura_inicio = (__webpack_require__.p + "img/1-Nosotros Cultura-inicio.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/1-Nosotros Historia-inicio.jpg
+/* harmony default export */ var _1_Nosotros_Historia_inicio = (__webpack_require__.p + "img/1-Nosotros Historia-inicio.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/1-Nosotros Razón de ser-4.jpg
+/* harmony default export */ var _1_Nosotros_Raz_n_de_ser_4 = (__webpack_require__.p + "img/1-Nosotros Razón de ser-4.jpg");
+// CONCATENATED MODULE: ./src/img/nosotros/fotos/1-Nosotros Razón de ser-inicio.jpg
+/* harmony default export */ var _1_Nosotros_Raz_n_de_ser_inicio = (__webpack_require__.p + "img/1-Nosotros Razón de ser-inicio.jpg");
+// CONCATENATED MODULE: ./src/videos/1-Nosotros Cultura-4.mp4
+/* harmony default export */ var videos_1_Nosotros_Cultura_4 = (__webpack_require__.p + "video/1-Nosotros Cultura-4.mp4");
+// CONCATENATED MODULE: ./src/videos/1-Nosotros Cultura-inicio.mp4
+/* harmony default export */ var videos_1_Nosotros_Cultura_inicio = (__webpack_require__.p + "video/1-Nosotros Cultura-inicio.mp4");
+// CONCATENATED MODULE: ./src/videos/1-Nosotros Historia-inicio.mp4
+/* harmony default export */ var videos_1_Nosotros_Historia_inicio = (__webpack_require__.p + "video/1-Nosotros Historia-inicio.mp4");
+// CONCATENATED MODULE: ./src/videos/1-Nosotros Razón de ser-4.mp4
+/* harmony default export */ var videos_1_Nosotros_Raz_n_de_ser_4 = (__webpack_require__.p + "video/1-Nosotros Razón de ser-4.mp4");
+// CONCATENATED MODULE: ./src/videos/1-Nosotros Razón de ser-inicio.mp4
+/* harmony default export */ var videos_1_Nosotros_Raz_n_de_ser_inicio = (__webpack_require__.p + "video/1-Nosotros Razón de ser-inicio.mp4");
+// CONCATENATED MODULE: ./src/img/casanare/mapa-casanare.png
+/* harmony default export */ var mapa_casanare = (__webpack_require__.p + "img/mapa-casanare.png");
+// CONCATENATED MODULE: ./src/img/casanare/icon-plus.svg
+/* harmony default export */ var icon_plus = (__webpack_require__.p + "img/icon-plus.svg");
+// CONCATENATED MODULE: ./src/img/casanare/point-01.svg
+/* harmony default export */ var point_01 = (__webpack_require__.p + "img/point-01.svg");
+// CONCATENATED MODULE: ./src/img/casanare/icon-location.svg
+/* harmony default export */ var icon_location = (__webpack_require__.p + "img/icon-location.svg");
+// CONCATENATED MODULE: ./src/img/casanare/icon-profile.svg
+/* harmony default export */ var icon_profile = (__webpack_require__.p + "img/icon-profile.svg");
+// CONCATENATED MODULE: ./src/img/casanare/icon-water.svg
+/* harmony default export */ var icon_water = (__webpack_require__.p + "img/icon-water.svg");
+// CONCATENATED MODULE: ./src/img/casanare/icon-yellow.svg
+/* harmony default export */ var icon_yellow = (__webpack_require__.p + "img/icon-yellow.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-mapa-linea-casanare.png
+/* harmony default export */ var imag_mapa_linea_casanare = (__webpack_require__.p + "img/imag-mapa-linea-casanare.png");
+// CONCATENATED MODULE: ./src/img/casanare/icon-segmentos.svg
+/* harmony default export */ var icon_segmentos = (__webpack_require__.p + "img/icon-segmentos.svg");
+// CONCATENATED MODULE: ./src/img/casanare/icon-altura.svg
+/* harmony default export */ var icon_altura = (__webpack_require__.p + "img/icon-altura.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Capa 1.svg
+/* harmony default export */ var Capa_1 = (__webpack_require__.p + "img/Capa 1.svg");
+// CONCATENATED MODULE: ./src/img/casanare/dertamento-casanare-sabana.svg
+/* harmony default export */ var dertamento_casanare_sabana = (__webpack_require__.p + "img/dertamento-casanare-sabana.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Grupo 14507.svg
+/* harmony default export */ var Grupo_14507 = (__webpack_require__.p + "img/Grupo 14507.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Capa_9.svg
+/* harmony default export */ var Capa_9 = (__webpack_require__.p + "img/Capa_9.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Capa 2.svg
+/* harmony default export */ var Capa_2 = (__webpack_require__.p + "img/Capa 2.svg");
+// CONCATENATED MODULE: ./src/img/casanare/galeria-estaciones-1.jpg
+/* harmony default export */ var galeria_estaciones_1 = (__webpack_require__.p + "img/galeria-estaciones-1.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/G0040195.svg
+/* harmony default export */ var G0040195 = (__webpack_require__.p + "img/G0040195.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Cupiagua 1.jpg
+/* harmony default export */ var Cupiagua_1 = (__webpack_require__.p + "img/Cupiagua 1.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/capa-3.svg
+/* harmony default export */ var capa_3 = (__webpack_require__.p + "img/capa-3.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Grupo 14876.jpg
+/* harmony default export */ var Grupo_14876 = (__webpack_require__.p + "img/Grupo 14876.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/Grupo 13762.svg
+/* harmony default export */ var Grupo_13762 = (__webpack_require__.p + "img/Grupo 13762.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Grupo 14876-2.jpg
+/* harmony default export */ var Grupo_14876_2 = (__webpack_require__.p + "img/Grupo 14876-2.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/Grupo 14876-3.jpg
+/* harmony default export */ var Grupo_14876_3 = (__webpack_require__.p + "img/Grupo 14876-3.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/cusiana-1.jpg
+/* harmony default export */ var cusiana_1 = (__webpack_require__.p + "img/cusiana-1.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_municipio_2_monterrey.svg
+/* harmony default export */ var modal_municipio_2_monterrey = (__webpack_require__.p + "img/modal_municipio_2_monterrey.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-01.jpg
+/* harmony default export */ var banco_habitat_01 = (__webpack_require__.p + "img/banco-habitat-01.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/circle-image-ex.svg
+/* harmony default export */ var circle_image_ex = (__webpack_require__.p + "img/circle-image-ex.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/depto_casanare.svg
+/* harmony default export */ var depto_casanare = (__webpack_require__.p + "img/depto_casanare.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_capital.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_capital = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_capital.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_corregimientos.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_corregimientos = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_corregimientos.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_habitantes_cabecera = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_habitantes_cabecera.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes_zona_rural.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_habitantes_zona_rural = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_habitantes_zona_rural.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_habitantes.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_habitantes = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_habitantes.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_municipios.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_municipios = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_municipios.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/1-icon-departamento-casanare/icon_ventana_modal_departamento_casanare_superficie.svg
+/* harmony default export */ var icon_ventana_modal_departamento_casanare_superficie = (__webpack_require__.p + "img/icon_ventana_modal_departamento_casanare_superficie.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/departamento-casanare.jpg
+/* harmony default export */ var departamento_casanare = (__webpack_require__.p + "img/departamento-casanare.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_porvenir.svg
+/* harmony default export */ var modal_estacion_porvenir = (__webpack_require__.p + "img/modal_estacion_porvenir.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg
+/* harmony default export */ var estacion_el_porvenir = (__webpack_require__.p + "img/estacion-el-porvenir.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cusiana.svg
+/* harmony default export */ var modal_estacion_cusiana = (__webpack_require__.p + "img/modal_estacion_cusiana.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/estacion-cusiana.jpg
+/* harmony default export */ var estacion_cusiana = (__webpack_require__.p + "img/estacion-cusiana.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cupiagua.svg
+/* harmony default export */ var modal_estacion_cupiagua = (__webpack_require__.p + "img/modal_estacion_cupiagua.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/estacion_cupiagua.jpg
+/* harmony default export */ var estacion_cupiagua = (__webpack_require__.p + "img/estacion_cupiagua.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-1-aguazul.svg
+/* harmony default export */ var municipio_1_aguazul = (__webpack_require__.p + "img/municipio-1-aguazul.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/municipio-Aguazul.jpg
+/* harmony default export */ var municipio_Aguazul = (__webpack_require__.p + "img/municipio-Aguazul.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_altitud.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_altitud = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_altitud.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_rural.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_area_rural = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_area_rural.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_area_urbana.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_area_urbana = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_area_urbana.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_cabecera.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_habitantes_cabecera = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_habitantes_cabecera.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes_zona_rural.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_habitantes_zona_rural = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_habitantes_zona_rural.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_habitantes.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_habitantes = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_habitantes.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_superficie.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_superficie = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_superficie.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-descripcion-ventanas-modales-pendientes/2-icon-municipio-aguazul/icon_ventana_modal_municipio_aguazul_temperatura.svg
+/* harmony default export */ var icon_ventana_modal_municipio_aguazul_temperatura = (__webpack_require__.p + "img/icon_ventana_modal_municipio_aguazul_temperatura.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_municipio_3_tauramena.svg
+/* harmony default export */ var modal_municipio_3_tauramena = (__webpack_require__.p + "img/modal_municipio_3_tauramena.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/municipio-tauramena.jpg
+/* harmony default export */ var municipio_tauramena = (__webpack_require__.p + "img/municipio-tauramena.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/monterrey.jpg
+/* harmony default export */ var monterrey = (__webpack_require__.p + "img/monterrey.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/municipio-2-monterrey.svg
+/* harmony default export */ var municipio_2_monterrey = (__webpack_require__.p + "img/municipio-2-monterrey.svg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_fauna.svg
+/* harmony default export */ var modal_fauna = (__webpack_require__.p + "img/modal_fauna.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-01.jpg
+/* harmony default export */ var Fauna_01 = (__webpack_require__.p + "img/Fauna-01.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-02.jpg
+/* harmony default export */ var Fauna_02 = (__webpack_require__.p + "img/Fauna-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-03.jpg
+/* harmony default export */ var Fauna_03 = (__webpack_require__.p + "img/Fauna-03.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Fauna-04.jpg
+/* harmony default export */ var Fauna_04 = (__webpack_require__.p + "img/Fauna-04.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_habitat_ecosistema.svg
+/* harmony default export */ var modal_habitat_ecosistema = (__webpack_require__.p + "img/modal_habitat_ecosistema.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-02.jpg
+/* harmony default export */ var banco_habitat_02 = (__webpack_require__.p + "img/banco-habitat-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-03.jpg
+/* harmony default export */ var banco_habitat_03 = (__webpack_require__.p + "img/banco-habitat-03.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/banco-habitat-04.jpg
+/* harmony default export */ var banco_habitat_04 = (__webpack_require__.p + "img/banco-habitat-04.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-01.jpg
+/* harmony default export */ var ecosistema_01 = (__webpack_require__.p + "img/ecosistema-01.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-02.jpg
+/* harmony default export */ var ecosistema_02 = (__webpack_require__.p + "img/ecosistema-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-03.jpg
+/* harmony default export */ var ecosistema_03 = (__webpack_require__.p + "img/ecosistema-03.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/ecosistema-04.jpg
+/* harmony default export */ var ecosistema_04 = (__webpack_require__.p + "img/ecosistema-04.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_clima.svg
+/* harmony default export */ var modal_clima = (__webpack_require__.p + "img/modal_clima.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Clima-01.jpg
+/* harmony default export */ var Clima_01 = (__webpack_require__.p + "img/Clima-01.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/hidrografia.svg
+/* harmony default export */ var hidrografia = (__webpack_require__.p + "img/hidrografia.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/Hidrografia-01a.jpg
+/* harmony default export */ var Hidrografia_01a = (__webpack_require__.p + "img/Hidrografia-01a.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-02.jpg
+/* harmony default export */ var hidrografia_02 = (__webpack_require__.p + "img/hidrografia-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-03.jpg
+/* harmony default export */ var hidrografia_03 = (__webpack_require__.p + "img/hidrografia-03.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia-04.png
+/* harmony default export */ var hidrografia_04 = (__webpack_require__.p + "img/hidrografia-04.png");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/hidrografia casanare-a.jpg
+/* harmony default export */ var hidrografia_casanare_a = (__webpack_require__.p + "img/hidrografia casanare-a.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_comunidad.svg
+/* harmony default export */ var modal_comunidad = (__webpack_require__.p + "img/modal_comunidad.svg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-01.jpg
+/* harmony default export */ var mujer_desarrollo_01 = (__webpack_require__.p + "img/mujer-desarrollo-01.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-02.jpg
+/* harmony default export */ var mujer_desarrollo_02 = (__webpack_require__.p + "img/mujer-desarrollo-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/mujer-desarrollo-03.jpg
+/* harmony default export */ var mujer_desarrollo_03 = (__webpack_require__.p + "img/mujer-desarrollo-03.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-01.jpg
+/* harmony default export */ var buena_vecindad_Paez_01 = (__webpack_require__.p + "img/buena-vecindad-Paez-01.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/imag-territorio-VENTANAS_MODALES/buena-vecindad-Paez-02.jpg
+/* harmony default export */ var buena_vecindad_Paez_02 = (__webpack_require__.p + "img/buena-vecindad-Paez-02.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_comites.svg
+/* harmony default export */ var modal_comites = (__webpack_require__.p + "img/modal_comites.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/icon-agenda-calendario.svg
+/* harmony default export */ var icon_agenda_calendario = (__webpack_require__.p + "img/icon-agenda-calendario.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/boton-ver-mas.svg
+/* harmony default export */ var boton_ver_mas = (__webpack_require__.p + "img/boton-ver-mas.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/icon-cerrar-dia.svg
+/* harmony default export */ var icon_cerrar_dia = (__webpack_require__.p + "img/icon-cerrar-dia.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/flecha-ir.svg
+/* harmony default export */ var flecha_ir = (__webpack_require__.p + "img/flecha-ir.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/avatar-prof.png
+/* harmony default export */ var avatar_prof = (__webpack_require__.p + "img/avatar-prof.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/avatar-prof-2.png
+/* harmony default export */ var avatar_prof_2 = (__webpack_require__.p + "img/avatar-prof-2.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-calendario/icon-star.svg
+/* harmony default export */ var icon_star = (__webpack_require__.p + "img/icon-star.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/button-close.svg
+/* harmony default export */ var button_close = (__webpack_require__.p + "img/button-close.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/slick-arrow-left.svg
+/* harmony default export */ var slick_arrow_left = (__webpack_require__.p + "img/slick-arrow-left.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/slick-arrow-right.svg
+/* harmony default export */ var slick_arrow_right = (__webpack_require__.p + "img/slick-arrow-right.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/fotos-cupiagua/slide-1.png
+/* harmony default export */ var slide_1 = (__webpack_require__.p + "img/slide-1.png");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/fotos-cupiagua/ubicacion.jpg
+/* harmony default export */ var ubicacion = (__webpack_require__.p + "img/ubicacion.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/2-icon-la-estacion/icono_menu-la_estacion.svg
+/* harmony default export */ var icono_menu_la_estacion = (__webpack_require__.p + "img/icono_menu-la_estacion.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/2-icon-la-estacion/estacion_almacena.svg
+/* harmony default export */ var estacion_almacena = (__webpack_require__.p + "img/estacion_almacena.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/2-icon-la-estacion/crudo_bombeado.svg
+/* harmony default export */ var crudo_bombeado = (__webpack_require__.p + "img/crudo_bombeado.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/2-icon-la-estacion/usado_diluyente.svg
+/* harmony default export */ var usado_diluyente = (__webpack_require__.p + "img/usado_diluyente.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/3-icon-ubicacion/6_5_km.svg
+/* harmony default export */ var _6_5_km = (__webpack_require__.p + "img/6_5_km.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/3-icon-ubicacion/1_km.svg
+/* harmony default export */ var _1_km = (__webpack_require__.p + "img/1_km.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/4-icon-almacenamiento/icono_menu-almacenamiento.svg
+/* harmony default export */ var icono_menu_almacenamiento = (__webpack_require__.p + "img/icono_menu-almacenamiento.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/4-icon-almacenamiento/tanques_grandes.svg
+/* harmony default export */ var tanques_grandes = (__webpack_require__.p + "img/tanques_grandes.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/5-icon-distancia-de-linea/icono_menu-distancia_linea.svg
+/* harmony default export */ var icono_menu_distancia_linea = (__webpack_require__.p + "img/icono_menu-distancia_linea.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cupiagua.svg
+/* harmony default export */ var _5_icon_distancia_de_linea_estacion_cupiagua = (__webpack_require__.p + "img/estacion_cupiagua.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/5-icon-distancia-de-linea/estacion_cusiana.svg
+/* harmony default export */ var _5_icon_distancia_de_linea_estacion_cusiana = (__webpack_require__.p + "img/estacion_cusiana.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/5-icon-distancia-de-linea/line-divider.svg
+/* harmony default export */ var line_divider = (__webpack_require__.p + "img/line-divider.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/button-arrow-right.svg
+/* harmony default export */ var button_arrow_right = (__webpack_require__.p + "img/button-arrow-right.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/wdg-arrow-down.svg
+/* harmony default export */ var wdg_arrow_down = (__webpack_require__.p + "img/wdg-arrow-down.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/3-icon-ubicacion/icono_menu-ubicacion.svg
+/* harmony default export */ var icono_menu_ubicacion = (__webpack_require__.p + "img/icono_menu-ubicacion.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/3-icon-ubicacion/3-icon-menu-ubicacion.svg
+/* harmony default export */ var _3_icon_menu_ubicacion = (__webpack_require__.p + "img/3-icon-menu-ubicacion.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/5-icon-distancia-de-linea/dato.svg
+/* harmony default export */ var dato = (__webpack_require__.p + "img/dato.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/6-icon-sistema-de-bombeo/icono_menu-sistema_bombeo.svg
+/* harmony default export */ var icono_menu_sistema_bombeo = (__webpack_require__.p + "img/icono_menu-sistema_bombeo.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_de_transferencia_line.svg
+/* harmony default export */ var unidad_de_transferencia_line = (__webpack_require__.p + "img/unidad_de_transferencia_line.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/6-icon-sistema-de-bombeo/unidad_booster_electrica_line.svg
+/* harmony default export */ var unidad_booster_electrica_line = (__webpack_require__.p + "img/unidad_booster_electrica_line.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/7-icon-personal/icono_menu-personal.svg
+/* harmony default export */ var icono_menu_personal = (__webpack_require__.p + "img/icono_menu-personal.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/7-icon-personal/icon-arrow-personal.svg
+/* harmony default export */ var icon_arrow_personal = (__webpack_require__.p + "img/icon-arrow-personal.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/8-icon-clima/icono_menu-clima.svg
+/* harmony default export */ var icono_menu_clima = (__webpack_require__.p + "img/icono_menu-clima.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/8-icon-clima/clima.svg
+/* harmony default export */ var clima = (__webpack_require__.p + "img/clima.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/icono_menu-como_llegar.svg
+/* harmony default export */ var icono_menu_como_llegar = (__webpack_require__.p + "img/icono_menu-como_llegar.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/distancia.svg
+/* harmony default export */ var distancia = (__webpack_require__.p + "img/distancia.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/tiempo_aproximado.svg
+/* harmony default export */ var tiempo_aproximado = (__webpack_require__.p + "img/tiempo_aproximado.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/via_aerea.svg
+/* harmony default export */ var via_aerea = (__webpack_require__.p + "img/via_aerea.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/via_terrestre.svg
+/* harmony default export */ var via_terrestre = (__webpack_require__.p + "img/via_terrestre.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cupiagua/9-icon-como-llegar/icono-flecha-azul.svg
+/* harmony default export */ var icono_flecha_azul = (__webpack_require__.p + "img/icono-flecha-azul.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-1.png
+/* harmony default export */ var _1_slide_1 = (__webpack_require__.p + "img/1-slide-1.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-2-min.jpg
+/* harmony default export */ var _1_slide_2_min = (__webpack_require__.p + "img/1-slide-2-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/1-slide-3-min.jpg
+/* harmony default export */ var _1_slide_3_min = (__webpack_require__.p + "img/1-slide-3-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/2-icon-la-estacion/estacion_porvenir.svg
+/* harmony default export */ var estacion_porvenir = (__webpack_require__.p + "img/estacion_porvenir.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/2-icon-la-estacion/rebombeo.svg
+/* harmony default export */ var rebombeo = (__webpack_require__.p + "img/rebombeo.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/2-icon-la-estacion/barriles.svg
+/* harmony default export */ var barriles = (__webpack_require__.p + "img/barriles.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/3-icon-ubicacion/altitud.svg
+/* harmony default export */ var altitud = (__webpack_require__.p + "img/altitud.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/3-icon-ubicacion/temperatura.svg
+/* harmony default export */ var temperatura = (__webpack_require__.p + "img/temperatura.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/3-icon-ubicacion/estacion_rio.svg
+/* harmony default export */ var estacion_rio = (__webpack_require__.p + "img/estacion_rio.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/2.ubicacion.jpg
+/* harmony default export */ var _2_ubicacion = (__webpack_require__.p + "img/2.ubicacion.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla.svg
+/* harmony default export */ var icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla = (__webpack_require__.p + "img/icon_territorio_el_porvenir_almacenamiento_tanques_crudo_pesado_mezcla.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg
+/* harmony default export */ var icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla = (__webpack_require__.p + "img/icon_territorio_el_porvenir_almacenamiento_tanque_crudo_mezcla.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/4-icon-almacenamiento/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg
+/* harmony default export */ var icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total = (__webpack_require__.p + "img/icon_territorio_el_porvenir_almacenamiento_tanque_almacenamiento_total.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/4-icon-almacenamiento/icon-camara.svg
+/* harmony default export */ var icon_camara = (__webpack_require__.p + "img/icon-camara.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/7-icon-personal/diego-guzman.png
+/* harmony default export */ var diego_guzman = (__webpack_require__.p + "img/diego-guzman.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/7-icon-personal/elkin-orjuela.png
+/* harmony default export */ var elkin_orjuela = (__webpack_require__.p + "img/elkin-orjuela.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/7-icon-personal/sin-foto-personal.png
+/* harmony default export */ var sin_foto_personal = (__webpack_require__.p + "img/sin-foto-personal.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/7-icon-personal/hugo-garcia.png
+/* harmony default export */ var hugo_garcia = (__webpack_require__.p + "img/hugo-garcia.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/8-icon-demografico/icon_territorio_el_porvenir_demografico_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_demografico_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_demografico_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-01.svg
+/* harmony default export */ var grafica_demografico_01 = (__webpack_require__.p + "img/grafica-demografico-01.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-02.svg
+/* harmony default export */ var grafica_demografico_02 = (__webpack_require__.p + "img/grafica-demografico-02.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/8-icon-demografico/grafica-demografico-03.svg
+/* harmony default export */ var grafica_demografico_03 = (__webpack_require__.p + "img/grafica-demografico-03.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_seguridad_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_seguridad_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg
+/* harmony default export */ var icon_territorio_el_porvenir_seguridad_alerta_defensoria = (__webpack_require__.p + "img/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/12-icon-contrastistas/icon_territorio_el_porvenir_contratistas_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_contratistas_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_contratistas_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/logo_vise.jpg
+/* harmony default export */ var logo_vise = (__webpack_require__.p + "img/logo_vise.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/logo_contratista_massy.png
+/* harmony default export */ var logo_contratista_massy = (__webpack_require__.p + "img/logo_contratista_massy.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/logo_vanti.jpg
+/* harmony default export */ var logo_vanti = (__webpack_require__.p + "img/logo_vanti.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/logo-cenit.png
+/* harmony default export */ var logo_cenit = (__webpack_require__.p + "img/logo-cenit.png");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/logo_stm.jpg
+/* harmony default export */ var logo_stm = (__webpack_require__.p + "img/logo_stm.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_aireacion_piscinas.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_aireacion_piscinas = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_aireacion_piscinas.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_licencia_ambiental.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_licencia_ambiental = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_licencia_ambiental.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_plan_manejo_ambiental.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_plan_manejo_ambiental = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_plan_manejo_ambiental.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_potencia_135.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_potencia_135 = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_potencia_135.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas-lluvia.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas_lluvia = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_recoleccion_aguas-lluvia.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/13-icon-gestion-ambiental/icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia.svg
+/* harmony default export */ var icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia = (__webpack_require__.p + "img/icon_territorio_el_porvenir_gestion_ambiental_separacion_aguas_lluvia.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/11-icon-seguridad-hse/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_seguridad_hse_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/line-intercalada.svg
+/* harmony default export */ var line_intercalada = (__webpack_require__.p + "img/line-intercalada.svg");
+// CONCATENATED MODULE: ./src/img/casanare/Cusiana-slide-1.jpg
+/* harmony default export */ var Cusiana_slide_1 = (__webpack_require__.p + "img/Cusiana-slide-1.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/Cusiana-slide-2.jpg
+/* harmony default export */ var Cusiana_slide_2 = (__webpack_require__.p + "img/Cusiana-slide-2.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/Cusiana-slide-3.jpg
+/* harmony default export */ var Cusiana_slide_3 = (__webpack_require__.p + "img/Cusiana-slide-3.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/2-icon-la-estacion/estacion_almacena-1.svg
+/* harmony default export */ var estacion_almacena_1 = (__webpack_require__.p + "img/estacion_almacena-1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/2-icon-la-estacion/crudo_bombeado-1.svg
+/* harmony default export */ var crudo_bombeado_1 = (__webpack_require__.p + "img/crudo_bombeado-1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/2-icon-la-estacion/recibe_crudo-1.svg
+/* harmony default export */ var recibe_crudo_1 = (__webpack_require__.p + "img/recibe_crudo-1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/2-icon-la-estacion/barriles-1.svg
+/* harmony default export */ var barriles_1 = (__webpack_require__.p + "img/barriles-1.svg");
+// CONCATENATED MODULE: ./src/img/casanare/foto-aerea cusiana.jpg
+/* harmony default export */ var foto_aerea_cusiana = (__webpack_require__.p + "img/foto-aerea cusiana.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/3-icon-ubicacion/altitud.svg
+/* harmony default export */ var _3_icon_ubicacion_altitud = (__webpack_require__.p + "img/altitud.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/3-icon-ubicacion/temperatura.svg
+/* harmony default export */ var _3_icon_ubicacion_temperatura = (__webpack_require__.p + "img/temperatura.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/3-icon-ubicacion/estacion_rio.svg
+/* harmony default export */ var _3_icon_ubicacion_estacion_rio = (__webpack_require__.p + "img/estacion_rio.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/B-tanques_grandes.svg
+/* harmony default export */ var B_tanques_grandes = (__webpack_require__.p + "img/B-tanques_grandes.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/tanque_mediano.svg
+/* harmony default export */ var tanque_mediano = (__webpack_require__.p + "img/tanque_mediano.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/tanque_pequeno.svg
+/* harmony default export */ var tanque_pequeno = (__webpack_require__.p + "img/tanque_pequeno.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/E-barriles.svg
+/* harmony default export */ var E_barriles = (__webpack_require__.p + "img/E-barriles.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/C-barriles.svg
+/* harmony default export */ var C_barriles = (__webpack_require__.p + "img/C-barriles.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/B-barril.svg
+/* harmony default export */ var B_barril = (__webpack_require__.p + "img/B-barril.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/camara.svg
+/* harmony default export */ var camara = (__webpack_require__.p + "img/camara.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/video.svg
+/* harmony default export */ var video = (__webpack_require__.p + "img/video.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/5-icon-distancia-de-linea/diametro_tubo.svg
+/* harmony default export */ var diametro_tubo = (__webpack_require__.p + "img/diametro_tubo.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/5-icon-distancia-de-linea/estacion_cusiana copia.svg
+/* harmony default export */ var estacion_cusiana_copia = (__webpack_require__.p + "img/estacion_cusiana copia.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/6-icon-sistema-de-bombeo/6-icon_menu-distancia_linea.svg
+/* harmony default export */ var _6_icon_menu_distancia_linea = (__webpack_require__.p + "img/6-icon_menu-distancia_linea.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/6-icon-sistema-de-bombeo/bombeo-1.svg
+/* harmony default export */ var bombeo_1 = (__webpack_require__.p + "img/bombeo-1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/6-icon-sistema-de-bombeo/bombeo-2.svg
+/* harmony default export */ var bombeo_2 = (__webpack_require__.p + "img/bombeo-2.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/5-icon-distancia-linea/icon_territorio_el_porvenir_distancia de línea_estacion_paez.svg
+/* harmony default export */ var icon_territorio_el_porvenir_distancia_de_l_nea_estacion_paez = (__webpack_require__.p + "img/icon_territorio_el_porvenir_distancia de línea_estacion_paez.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/6-icon-sistema-bombeo/icon-bombeo1.svg
+/* harmony default export */ var icon_bombeo1 = (__webpack_require__.p + "img/icon-bombeo1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/6-icon-sistema-bombeo/icon-bombeo2y4.svg
+/* harmony default export */ var icon_bombeo2y4 = (__webpack_require__.p + "img/icon-bombeo2y4.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/6-icon-sistema-bombeo/icon-bombeo3.svg
+/* harmony default export */ var icon_bombeo3 = (__webpack_require__.p + "img/icon-bombeo3.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon_territorio_el_porvenir_solicitudes_ingreso_icono_menu.svg
+/* harmony default export */ var icon_territorio_el_porvenir_solicitudes_ingreso_icono_menu = (__webpack_require__.p + "img/icon_territorio_el_porvenir_solicitudes_ingreso_icono_menu.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-download-green.svg
+/* harmony default export */ var icon_download_green = (__webpack_require__.p + "img/icon-download-green.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/flecha-right-verde.svg
+/* harmony default export */ var flecha_right_verde = (__webpack_require__.p + "img/flecha-right-verde.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/profile-send1.jpg
+/* harmony default export */ var profile_send1 = (__webpack_require__.p + "img/profile-send1.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/14-icon-solicitudes-ingreso/icon-envelope1.svg
+/* harmony default export */ var icon_envelope1 = (__webpack_require__.p + "img/icon-envelope1.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/7-icon-menu-descargadero.svg
+/* harmony default export */ var _7_icon_menu_descargadero = (__webpack_require__.p + "img/7-icon-menu-descargadero.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/capacidad_descarga.svg
+/* harmony default export */ var capacidad_descarga = (__webpack_require__.p + "img/capacidad_descarga.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point.svg
+/* harmony default export */ var line_and_point = (__webpack_require__.p + "img/line-and-point.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/tiempo_descarga.svg
+/* harmony default export */ var tiempo_descarga = (__webpack_require__.p + "img/tiempo_descarga.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/point.svg
+/* harmony default export */ var point = (__webpack_require__.p + "img/point.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-2.svg
+/* harmony default export */ var line_and_point_2 = (__webpack_require__.p + "img/line-and-point-2.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/numero_bahias.svg
+/* harmony default export */ var numero_bahias = (__webpack_require__.p + "img/numero_bahias.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-3.svg
+/* harmony default export */ var line_and_point_3 = (__webpack_require__.p + "img/line-and-point-3.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/line-and-point-4.svg
+/* harmony default export */ var line_and_point_4 = (__webpack_require__.p + "img/line-and-point-4.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/7-icon-descargadero/tipo_carro_tanques.svg
+/* harmony default export */ var tipo_carro_tanques = (__webpack_require__.p + "img/tipo_carro_tanques.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–adelante.svg
+/* harmony default export */ var boton_adelante = (__webpack_require__.p + "img/boton–adelante.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–atras.svg
+/* harmony default export */ var boton_atras = (__webpack_require__.p + "img/boton–atras.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–cerrar.svg
+/* harmony default export */ var boton_cerrar = (__webpack_require__.p + "img/boton–cerrar.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–compartir.svg
+/* harmony default export */ var boton_compartir = (__webpack_require__.p + "img/boton–compartir.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/boton/boton–publicar.svg
+/* harmony default export */ var boton_publicar = (__webpack_require__.p + "img/boton–publicar.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/gallery-img.jpg
+/* harmony default export */ var gallery_img = (__webpack_require__.p + "img/gallery-img.jpg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10604.png
+/* harmony default export */ var Group_10604 = (__webpack_require__.p + "img/Group 10604.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10606.png
+/* harmony default export */ var Group_10606 = (__webpack_require__.p + "img/Group 10606.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10609.png
+/* harmony default export */ var Group_10609 = (__webpack_require__.p + "img/Group 10609.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10611.png
+/* harmony default export */ var Group_10611 = (__webpack_require__.p + "img/Group 10611.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10613.png
+/* harmony default export */ var Group_10613 = (__webpack_require__.p + "img/Group 10613.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10615.png
+/* harmony default export */ var Group_10615 = (__webpack_require__.p + "img/Group 10615.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/fotos/Group 10617.png
+/* harmony default export */ var Group_10617 = (__webpack_require__.p + "img/Group 10617.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/imagen/logo_ocensa_logosimbolo.png
+/* harmony default export */ var imagen_logo_ocensa_logosimbolo = (__webpack_require__.p + "img/logo_ocensa_logosimbolo.png");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/arrow-left-blue.svg
+/* harmony default export */ var arrow_left_blue = (__webpack_require__.p + "img/arrow-left-blue.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/arrow-right-blue.svg
+/* harmony default export */ var arrow_right_blue = (__webpack_require__.p + "img/arrow-right-blue.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-cerrar_mover.svg
+/* harmony default export */ var icon_cerrar_mover = (__webpack_require__.p + "img/icon-cerrar_mover.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon–comentario.svg
+/* harmony default export */ var icon_comentario = (__webpack_require__.p + "img/icon–comentario.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-comentario-2.svg
+/* harmony default export */ var icon_comentario_2 = (__webpack_require__.p + "img/icon-comentario-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-compartir.svg
+/* harmony default export */ var icon_compartir = (__webpack_require__.p + "img/icon-compartir.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-compartir-2.svg
+/* harmony default export */ var icon_compartir_2 = (__webpack_require__.p + "img/icon-compartir-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-images.svg
+/* harmony default export */ var icon_galeria_images = (__webpack_require__.p + "img/icon-galeria-images.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-galeria-video.svg
+/* harmony default export */ var icon_galeria_video = (__webpack_require__.p + "img/icon-galeria-video.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-like.svg
+/* harmony default export */ var icon_like = (__webpack_require__.p + "img/icon-like.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-like-2.svg
+/* harmony default export */ var icon_like_2 = (__webpack_require__.p + "img/icon-like-2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-photo.svg
+/* harmony default export */ var icon_photo = (__webpack_require__.p + "img/icon-photo.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon-play-video.svg
+/* harmony default export */ var icon_play_video = (__webpack_require__.p + "img/icon-play-video.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/icon–widget–galeria.svg
+/* harmony default export */ var icon_widget_galeria = (__webpack_require__.p + "img/icon–widget–galeria.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-galeria/icon/Trazado 9367.svg
+/* harmony default export */ var Trazado_9367 = (__webpack_require__.p + "img/Trazado 9367.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/4-sistema-bombeo-min.jpg
+/* harmony default export */ var _4_sistema_bombeo_min = (__webpack_require__.p + "img/4-sistema-bombeo-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/el-porvenir/fotos-elPorvenir/3-almacenamiento.jpg
+/* harmony default export */ var _3_almacenamiento = (__webpack_require__.p + "img/3-almacenamiento.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-1-tanques-min.jpg
+/* harmony default export */ var _3_almacenamiento_1_tanques_min = (__webpack_require__.p + "img/3-almacenamiento-1-tanques-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-2-agua-min.jpg
+/* harmony default export */ var _3_almacenamiento_2_agua_min = (__webpack_require__.p + "img/3-almacenamiento-2-agua-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/4-icon-almacenamiento/fotos-cusiana/3-almacenamiento-3-diluyente-min.jpg
+/* harmony default export */ var _3_almacenamiento_3_diluyente_min = (__webpack_require__.p + "img/3-almacenamiento-3-diluyente-min.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/6-icon-sistema-de-bombeo/foto-sistema-bombeo.jpg
+/* harmony default export */ var foto_sistema_bombeo = (__webpack_require__.p + "img/foto-sistema-bombeo.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/9-icon-demografico/demografico-3-generaciones.svg
+/* harmony default export */ var demografico_3_generaciones = (__webpack_require__.p + "img/demografico-3-generaciones.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/9-icon-demografico/demografico-2-hombresymujeres.svg
+/* harmony default export */ var demografico_2_hombresymujeres = (__webpack_require__.p + "img/demografico-2-hombresymujeres.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/13-icon-contratistas/logo_contratista_durangar.png
+/* harmony default export */ var logo_contratista_durangar = (__webpack_require__.p + "img/logo_contratista_durangar.png");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/13-icon-contratistas/logo_contratista_omia.jpg
+/* harmony default export */ var logo_contratista_omia = (__webpack_require__.p + "img/logo_contratista_omia.jpg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/14-icon-gestion-ambiental/licencia_ambiental.svg
+/* harmony default export */ var licencia_ambiental = (__webpack_require__.p + "img/licencia_ambiental.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/14-icon-gestion-ambiental/plan_manejo_ambiental.svg
+/* harmony default export */ var plan_manejo_ambiental = (__webpack_require__.p + "img/plan_manejo_ambiental.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/14-icon-gestion-ambiental/sistema_aireacion_piscinas.svg
+/* harmony default export */ var sistema_aireacion_piscinas = (__webpack_require__.p + "img/sistema_aireacion_piscinas.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/line-medium.svg
+/* harmony default export */ var line_medium = (__webpack_require__.p + "img/line-medium.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/line-medium-2.svg
+/* harmony default export */ var line_medium_2 = (__webpack_require__.p + "img/line-medium-2.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/chulo-verde.svg
+/* harmony default export */ var chulo_verde = (__webpack_require__.p + "img/chulo-verde.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/close-green.svg
+/* harmony default export */ var close_green = (__webpack_require__.p + "img/close-green.svg");
+// CONCATENATED MODULE: ./src/img/estaciones/cusiana/13-icon-contratistas/logo-contratista-ismocol.png
+/* harmony default export */ var logo_contratista_ismocol = (__webpack_require__.p + "img/logo-contratista-ismocol.png");
+// CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/icon_perfil_ocensa_casanare.svg
+/* harmony default export */ var icon_perfil_ocensa_casanare = (__webpack_require__.p + "img/icon_perfil_ocensa_casanare.svg");
+// CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/recorrido-casanare.svg
+/* harmony default export */ var recorrido_casanare = (__webpack_require__.p + "img/recorrido-casanare.svg");
+// CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/icon_perfil_barco_recorrido.svg
+/* harmony default export */ var icon_perfil_barco_recorrido = (__webpack_require__.p + "img/icon_perfil_barco_recorrido.svg");
+// CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/icon-triangle.svg
+/* harmony default export */ var icon_triangle = (__webpack_require__.p + "img/icon-triangle.svg");
+// CONCATENATED MODULE: ./src/img/perfil-oleoducto-casanare/cundinamarca-info.svg
+/* harmony default export */ var cundinamarca_info = (__webpack_require__.p + "img/cundinamarca-info.svg");
+// CONCATENATED MODULE: ./src/img/casanare/noticias/img-notice-m-1.png
+/* harmony default export */ var img_notice_m_1 = (__webpack_require__.p + "img/img-notice-m-1.png");
+// CONCATENATED MODULE: ./src/img/casanare/noticias/img-notice-m-2.png
+/* harmony default export */ var img_notice_m_2 = (__webpack_require__.p + "img/img-notice-m-2.png");
+// CONCATENATED MODULE: ./src/img/casanare/noticias/img-notice-m-3.png
+/* harmony default export */ var img_notice_m_3 = (__webpack_require__.p + "img/img-notice-m-3.png");
+// CONCATENATED MODULE: ./src/img/estaciones/sistema-arrow-down.svg
+/* harmony default export */ var sistema_arrow_down = (__webpack_require__.p + "img/sistema-arrow-down.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/img_perfil_usuario_ignacio.jpg
+/* harmony default export */ var img_perfil_usuario_ignacio = (__webpack_require__.p + "img/img_perfil_usuario_ignacio.jpg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-pencil-profile.svg
+/* harmony default export */ var icon_pencil_profile = (__webpack_require__.p + "img/icon-pencil-profile.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon_perfil_usuario_publicaciones.svg
+/* harmony default export */ var icon_perfil_usuario_publicaciones = (__webpack_require__.p + "img/icon_perfil_usuario_publicaciones.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/document-publicaciones.svg
+/* harmony default export */ var document_publicaciones = (__webpack_require__.p + "img/document-publicaciones.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-downloader.svg
+/* harmony default export */ var icon_downloader = (__webpack_require__.p + "img/icon-downloader.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon_perfil_usuario_proyectos.svg
+/* harmony default export */ var icon_perfil_usuario_proyectos = (__webpack_require__.p + "img/icon_perfil_usuario_proyectos.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/member-elkin-orjuela.png
+/* harmony default export */ var member_elkin_orjuela = (__webpack_require__.p + "img/member-elkin-orjuela.png");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/member-ximena.png
+/* harmony default export */ var member_ximena = (__webpack_require__.p + "img/member-ximena.png");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/member-alexander.png
+/* harmony default export */ var member_alexander = (__webpack_require__.p + "img/member-alexander.png");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-video-llamadas.svg
+/* harmony default export */ var icon_video_llamadas = (__webpack_require__.p + "img/icon-video-llamadas.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-mensajes-perfil.svg
+/* harmony default export */ var icon_mensajes_perfil = (__webpack_require__.p + "img/icon-mensajes-perfil.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-alarmas-profile.svg
+/* harmony default export */ var icon_alarmas_profile = (__webpack_require__.p + "img/icon-alarmas-profile.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/date-02-perfil-01.svg
+/* harmony default export */ var date_02_perfil_01 = (__webpack_require__.p + "img/date-02-perfil-01.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/date-02-perfil-02.svg
+/* harmony default export */ var date_02_perfil_02 = (__webpack_require__.p + "img/date-02-perfil-02.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/date-02-perfil-03.svg
+/* harmony default export */ var date_02_perfil_03 = (__webpack_require__.p + "img/date-02-perfil-03.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/date-02-perfil-04.svg
+/* harmony default export */ var date_02_perfil_04 = (__webpack_require__.p + "img/date-02-perfil-04.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/date-02-perfil-05.svg
+/* harmony default export */ var date_02_perfil_05 = (__webpack_require__.p + "img/date-02-perfil-05.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/img-perfil-andres.jpg
+/* harmony default export */ var img_perfil_andres = (__webpack_require__.p + "img/img-perfil-andres.jpg");
+// CONCATENATED MODULE: ./src/img/perfiles/icon-perfiles.svg
+/* harmony default export */ var icon_perfiles = (__webpack_require__.p + "img/icon-perfiles.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/doc-1.png
+/* harmony default export */ var doc_1 = (__webpack_require__.p + "img/doc-1.png");
+// CONCATENATED MODULE: ./src/img/perfiles/icon-flecha-bg-verde.svg
+/* harmony default export */ var icon_flecha_bg_verde = (__webpack_require__.p + "img/icon-flecha-bg-verde.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/doc-2.png
+/* harmony default export */ var doc_2 = (__webpack_require__.p + "img/doc-2.png");
+// CONCATENATED MODULE: ./src/img/perfiles/icon-perfiles-2.svg
+/* harmony default export */ var icon_perfiles_2 = (__webpack_require__.p + "img/icon-perfiles-2.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/photo-pro1.svg
+/* harmony default export */ var photo_pro1 = (__webpack_require__.p + "img/photo-pro1.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/photo-pro2.svg
+/* harmony default export */ var photo_pro2 = (__webpack_require__.p + "img/photo-pro2.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/photo-pro3.svg
+/* harmony default export */ var photo_pro3 = (__webpack_require__.p + "img/photo-pro3.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/photo-pro5.svg
+/* harmony default export */ var photo_pro5 = (__webpack_require__.p + "img/photo-pro5.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/photo-pro-more.svg
+/* harmony default export */ var photo_pro_more = (__webpack_require__.p + "img/photo-pro-more.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/icon-organigrama.svg
+/* harmony default export */ var icon_organigrama = (__webpack_require__.p + "img/icon-organigrama.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/circle-gray.svg
+/* harmony default export */ var circle_gray = (__webpack_require__.p + "img/circle-gray.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/arrow-right-v2.svg
+/* harmony default export */ var arrow_right_v2 = (__webpack_require__.p + "img/arrow-right-v2.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/arrow-left-v2.svg
+/* harmony default export */ var arrow_left_v2 = (__webpack_require__.p + "img/arrow-left-v2.svg");
+// CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-network/icon-network.svg
+/* harmony default export */ var icon_network = (__webpack_require__.p + "img/icon-network.svg");
+// CONCATENATED MODULE: ./src/img/casanare/cover-porvenir.png
+/* harmony default export */ var cover_porvenir = (__webpack_require__.p + "img/cover-porvenir.png");
+// CONCATENATED MODULE: ./src/img/perfiles/arrow-select-profile.svg
+/* harmony default export */ var arrow_select_profile = (__webpack_require__.p + "img/arrow-select-profile.svg");
+// CONCATENATED MODULE: ./src/img/perfil-ocensa/icon-perfil-cumpleanos.svg
+/* harmony default export */ var icon_perfil_cumpleanos = (__webpack_require__.p + "img/icon-perfil-cumpleanos.svg");
+// CONCATENATED MODULE: ./src/img/perfiles/organigrama/organigrama-diego-guzman.jpg
+/* harmony default export */ var organigrama_diego_guzman = (__webpack_require__.p + "img/organigrama-diego-guzman.jpg");
+// CONCATENATED MODULE: ./src/img/perfiles/organigrama/organigrama-hugo-garcia.jpg
+/* harmony default export */ var organigrama_hugo_garcia = (__webpack_require__.p + "img/organigrama-hugo-garcia.jpg");
+// CONCATENATED MODULE: ./src/img/perfiles/organigrama/organigrama-ignacio-gomez.jpg
+/* harmony default export */ var organigrama_ignacio_gomez = (__webpack_require__.p + "img/organigrama-ignacio-gomez.jpg");
+// CONCATENATED MODULE: ./src/img/casanare/img-perfil-porvenir-elkin.png
+/* harmony default export */ var img_perfil_porvenir_elkin = (__webpack_require__.p + "img/img-perfil-porvenir-elkin.png");
+// CONCATENATED MODULE: ./src/img/casanare/16-icon-menu-como-llegar.svg
+/* harmony default export */ var _16_icon_menu_como_llegar = (__webpack_require__.p + "img/16-icon-menu-como-llegar.svg");
+// CONCATENATED MODULE: ./src/img/casanare/3-icon-menu-ubicacion.svg
+/* harmony default export */ var casanare_3_icon_menu_ubicacion = (__webpack_require__.p + "img/3-icon-menu-ubicacion.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/mapa/boyaca-mapa-3d.jpg
+/* harmony default export */ var boyaca_mapa_3d = (__webpack_require__.p + "img/boyaca-mapa-3d.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/mapa/icono-mapa-boyaca-01.svg
+/* harmony default export */ var icono_mapa_boyaca_01 = (__webpack_require__.p + "img/icono-mapa-boyaca-01.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/mapa/imagen-mapa-linea.svg
+/* harmony default export */ var imagen_mapa_linea = (__webpack_require__.p + "img/imagen-mapa-linea.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/mapa/icon-grey-estacion.svg
+/* harmony default export */ var icon_grey_estacion = (__webpack_require__.p + "img/icon-grey-estacion.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/_Banner/_Banner-inicio-boyaca.jpg
+/* harmony default export */ var _Banner_inicio_boyaca = (__webpack_require__.p + "img/_Banner-inicio-boyaca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/icon-slide-inicio/icon-mapa-boyaca.svg
+/* harmony default export */ var icon_mapa_boyaca = (__webpack_require__.p + "img/icon-mapa-boyaca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/icon-slide-inicio/icons-group-slide-boyaca.svg
+/* harmony default export */ var icons_group_slide_boyaca = (__webpack_require__.p + "img/icons-group-slide-boyaca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/ESTACIONES/estacion-miraflores.jpg
+/* harmony default export */ var estacion_miraflores = (__webpack_require__.p + "img/estacion-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/ESTACIONES/estacion-paez.jpg
+/* harmony default export */ var estacion_paez = (__webpack_require__.p + "img/estacion-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/ESTACIONES/estacion-vasconia.jpg
+/* harmony default export */ var estacion_vasconia = (__webpack_require__.p + "img/estacion-vasconia.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-miraflores.jpg
+/* harmony default export */ var enqueestamos_miraflores = (__webpack_require__.p + "img/enqueestamos-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-paez.jpg
+/* harmony default export */ var enqueestamos_paez = (__webpack_require__.p + "img/enqueestamos-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/EN-QUE-ESTAMOS/enqueestamos-vasconia.jpg
+/* harmony default export */ var enqueestamos_vasconia = (__webpack_require__.p + "img/enqueestamos-vasconia.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_departamento_boyaca.svg
+/* harmony default export */ var vmodal_titulo_departamento_boyaca = (__webpack_require__.p + "img/vmodal-titulo_departamento_boyaca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Departamento/VModal-Departamento-boyaca.jpg
+/* harmony default export */ var VModal_Departamento_boyaca = (__webpack_require__.p + "img/VModal-Departamento-boyaca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_superficie.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_superficie = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_superficie.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_municipios.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_municipios = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_municipios.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_habitantes.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_habitantes = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_habitantes.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/1-icon-departamento-boyaca/icon_ventana_modal_departamento_boyaca_capital.svg
+/* harmony default export */ var icon_ventana_modal_departamento_boyaca_capital = (__webpack_require__.p + "img/icon_ventana_modal_departamento_boyaca_capital.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_paez.svg
+/* harmony default export */ var vmodal_titulo_estacion_paez = (__webpack_require__.p + "img/vmodal-titulo_estacion_paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-Paez/VModal-EstaciónPaez.jpg
+/* harmony default export */ var VModal_Estaci_nPaez = (__webpack_require__.p + "img/VModal-EstaciónPaez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_miraflores.svg
+/* harmony default export */ var vmodal_titulo_estacion_miraflores = (__webpack_require__.p + "img/vmodal-titulo_estacion_miraflores.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-miraflores/VModal-Estacion-miraflores.jpg
+/* harmony default export */ var VModal_Estacion_miraflores = (__webpack_require__.p + "img/VModal-Estacion-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_estacion_vasconia.svg
+/* harmony default export */ var vmodal_titulo_estacion_vasconia = (__webpack_require__.p + "img/vmodal-titulo_estacion_vasconia.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Estacion-vasconia/foto-satelital-estacion-VASCONIA.jpg
+/* harmony default export */ var foto_satelital_estacion_VASCONIA = (__webpack_require__.p + "img/foto-satelital-estacion-VASCONIA.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_base_soraca.svg
+/* harmony default export */ var vmodal_titulo_base_soraca = (__webpack_require__.p + "img/vmodal-titulo_base_soraca.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Base-soraca/soraca.jpg
+/* harmony default export */ var soraca = (__webpack_require__.p + "img/soraca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_municipio.svg
+/* harmony default export */ var vmodal_titulo_municipio = (__webpack_require__.p + "img/vmodal-titulo_municipio.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-paez/Municipio-paez.jpg
+/* harmony default export */ var Municipio_paez = (__webpack_require__.p + "img/Municipio-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_altitud.svg
+/* harmony default export */ var icon_ventana_modal_municipio_paez_altitud = (__webpack_require__.p + "img/icon_ventana_modal_municipio_paez_altitud.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/2-icon-municipio-paez/icon_ventana_modal_municipio_paez_temperatura.svg
+/* harmony default export */ var icon_ventana_modal_municipio_paez_temperatura = (__webpack_require__.p + "img/icon_ventana_modal_municipio_paez_temperatura.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-miraflores/municipio-miraflores.jpg
+/* harmony default export */ var municipio_miraflores = (__webpack_require__.p + "img/municipio-miraflores.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Municipio-puertoBoyaca/municipio-puerto-boyaca.jpg
+/* harmony default export */ var municipio_puerto_boyaca = (__webpack_require__.p + "img/municipio-puerto-boyaca.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-PuertoServiez/imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_municipio_puerto_serviez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_ecosistema.svg
+/* harmony default export */ var vmodal_titulo_ecosistema = (__webpack_require__.p + "img/vmodal-titulo_ecosistema.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_1_ecosistema.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_ecosistema = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_ecosistema.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Ecosistema/imag_ocensa_territorio_boyaca_2_ecosistema.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_ecosistema = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_ecosistema.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_frailejon.svg
+/* harmony default export */ var vmodal_titulo_frailejon = (__webpack_require__.p + "img/vmodal-titulo_frailejon.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Frailejon/imag_ocensa_territorio_boyaca_1_frailejon.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_frailejon = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_frailejon.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_el_punto_mas_alto.svg
+/* harmony default export */ var vmodal_titulo_el_punto_mas_alto = (__webpack_require__.p + "img/vmodal-titulo_el_punto_mas_alto.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-ElAltoDeLasFlores/imag_ocensa_territorio_boyaca_1_el_punto_mas_alto.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_el_punto_mas_alto = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_el_punto_mas_alto.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_fauna.svg
+/* harmony default export */ var vmodal_titulo_fauna = (__webpack_require__.p + "img/vmodal-titulo_fauna.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_1_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_2_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_3_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Fauna/imag_ocensa_territorio_boyaca_4_fauna.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_4_fauna = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_4_fauna.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_hidrografia.svg
+/* harmony default export */ var vmodal_titulo_hidrografia = (__webpack_require__.p + "img/vmodal-titulo_hidrografia.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Hidrografía/imag_ocensa_territorio_boyaca_1_hidrografia.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_hidrografia = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_hidrografia.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_clima.svg
+/* harmony default export */ var vmodal_titulo_clima = (__webpack_require__.p + "img/vmodal-titulo_clima.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Clima/clima-boyaca-slide.jpg
+/* harmony default export */ var clima_boyaca_slide = (__webpack_require__.p + "img/clima-boyaca-slide.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_parques_nacionales_naturales.svg
+/* harmony default export */ var vmodal_titulo_parques_nacionales_naturales = (__webpack_require__.p + "img/vmodal-titulo_parques_nacionales_naturales.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_1_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_2_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Pisba/imag_ocensa_territorio_boyaca_3_pnn_pisba.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_pnn_pisba = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_pnn_pisba.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_extension.svg
+/* harmony default export */ var icon_ventana_modal_pnn_paramo_pisba_extension = (__webpack_require__.p + "img/icon_ventana_modal_pnn_paramo_pisba_extension.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/5-icon-pnn-paramo_pisba/icon_ventana_modal_pnn_paramo_pisba_clima.svg
+/* harmony default export */ var icon_ventana_modal_pnn_paramo_pisba_clima = (__webpack_require__.p + "img/icon_ventana_modal_pnn_paramo_pisba_clima.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_santuario_guanenta.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Guaneta/imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_santuario_guanenta.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_paramo.svg
+/* harmony default export */ var icon_ventana_modal_sff_guanenta_alto_temperatura_paramo = (__webpack_require__.p + "img/icon_ventana_modal_sff_guanenta_alto_temperatura_paramo.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/int-ventanas-modales/6-icon-sff-guanenta-alto/icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina.svg
+/* harmony default export */ var icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina = (__webpack_require__.p + "img/icon_ventana_modal_sff_guanenta_alto_temperatura_zona_andina.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_1_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_2_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Parque-Cocuy/imag_ocensa_territorio_boyaca_3_pnn_el_cocuy.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_3_pnn_el_cocuy = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_3_pnn_el_cocuy.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_1_pnn_santuario_iguaque.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg
+/* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_comunidades.svg
+/* harmony default export */ var vmodal_titulo_comunidades = (__webpack_require__.p + "img/vmodal-titulo_comunidades.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 1.jpg
+/* harmony default export */ var paez_abrir_1 = (__webpack_require__.p + "img/paez-abrir 1.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 2.jpg
+/* harmony default export */ var paez_abrir_2 = (__webpack_require__.p + "img/paez-abrir 2.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 3.jpg
+/* harmony default export */ var paez_abrir_3 = (__webpack_require__.p + "img/paez-abrir 3.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_proyecto_p-135.svg
+/* harmony default export */ var icon_territorio_paez_estacion_proyecto_p_135 = (__webpack_require__.p + "img/icon_territorio_paez_estacion_proyecto_p-135.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_rebombeo.svg
+/* harmony default export */ var icon_territorio_paez_estacion_rebombeo = (__webpack_require__.p + "img/icon_territorio_paez_estacion_rebombeo.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/linea-punteada.svg
+/* harmony default export */ var linea_punteada = (__webpack_require__.p + "img/linea-punteada.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_incremento_volumenes.svg
+/* harmony default export */ var icon_territorio_paez_estacion_incremento_volumenes = (__webpack_require__.p + "img/icon_territorio_paez_estacion_incremento_volumenes.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_equipos_electricos.svg
+/* harmony default export */ var icon_territorio_paez_estacion_equipos_electricos = (__webpack_require__.p + "img/icon_territorio_paez_estacion_equipos_electricos.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/3-icon-ubicacion/foto-satelital-paez.jpg
+/* harmony default export */ var foto_satelital_paez = (__webpack_require__.p + "img/foto-satelital-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_otros_productos.svg
+/* harmony default export */ var icon_territorio_paez_almacenamiento_otros_productos = (__webpack_require__.p + "img/icon_territorio_paez_almacenamiento_otros_productos.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_tanque sumidero.svg
+/* harmony default export */ var icon_territorio_paez_almacenamiento_tanque_sumidero = (__webpack_require__.p + "img/icon_territorio_paez_almacenamiento_tanque sumidero.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_porvenir = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_paez.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_paez = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_miraflores = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-1.svg
+/* harmony default export */ var boy_bombeo_1 = (__webpack_require__.p + "img/boy-bombeo-1.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-2.svg
+/* harmony default export */ var boy_bombeo_2 = (__webpack_require__.p + "img/boy-bombeo-2.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg
+/* harmony default export */ var icon_territorio_paez_sistema_bombeo_unidades_electricas = (__webpack_require__.p + "img/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-3.svg
+/* harmony default export */ var boy_bombeo_3 = (__webpack_require__.p + "img/boy-bombeo-3.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-1.jpg
+/* harmony default export */ var user_1 = (__webpack_require__.p + "img/user-1.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-2.jpg
+/* harmony default export */ var user_2 = (__webpack_require__.p + "img/user-2.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-3.jpg
+/* harmony default export */ var user_3 = (__webpack_require__.p + "img/user-3.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/8-icon-demografico/elipse-2-boy.png
+/* harmony default export */ var elipse_2_boy = (__webpack_require__.p + "img/elipse-2-boy.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/8-icon-demografico/elipse-3-boy.png
+/* harmony default export */ var elipse_3_boy = (__webpack_require__.p + "img/elipse-3-boy.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/13-icon-gestion-ambiental/icon_territorio_paez_gestion_ambiental_turbinas.svg
+/* harmony default export */ var icon_territorio_paez_gestion_ambiental_turbinas = (__webpack_require__.p + "img/icon_territorio_paez_gestion_ambiental_turbinas.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/14-icon-solicitudes-ingreso/flecha-v2.svg
+/* harmony default export */ var flecha_v2 = (__webpack_require__.p + "img/flecha-v2.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/helicoptero.svg
+/* harmony default export */ var helicoptero = (__webpack_require__.p + "img/helicoptero.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/dist-paez.svg
+/* harmony default export */ var dist_paez = (__webpack_require__.p + "img/dist-paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/time-paez.svg
+/* harmony default export */ var time_paez = (__webpack_require__.p + "img/time-paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/4-icon-almacenamiento/paez-almacenamiento-modal.png
+/* harmony default export */ var paez_almacenamiento_modal = (__webpack_require__.p + "img/paez-almacenamiento-modal.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png
+/* harmony default export */ var paez_slide_1 = (__webpack_require__.p + "img/paez-slide-1.png");
+// CONCATENATED MODULE: ./src/img/boyaca/noticias/notices-boy-1.jpg
+/* harmony default export */ var notices_boy_1 = (__webpack_require__.p + "img/notices-boy-1.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/noticias/coments-user-1.png
+/* harmony default export */ var coments_user_1 = (__webpack_require__.p + "img/coments-user-1.png");
+// CONCATENATED MODULE: ./src/img/boyaca/noticias/coments-user-2.png
+/* harmony default export */ var coments_user_2 = (__webpack_require__.p + "img/coments-user-2.png");
+// CONCATENATED MODULE: ./src/app.js
+function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+>>>>>>> f3ee892386058a2f2b681ed2f757829ef0f76424
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg\");\n\n//# sourceURL=webpack:///./src/img/estaciones/el-porvenir/9-icon-seguridad-ONDA/icon_territorio_el_porvenir_seguridad_alerta_defensoria.svg?");
@@ -6485,7 +8109,45 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"video/1-Nosotros Historia-inicio.mp4\");\n\n//# sourceURL=webpack:///./src/videos/1-Nosotros_Historia-inicio.mp4?");
 
+<<<<<<< HEAD
 /***/ }),
+=======
+ //Estacion Páez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ //Noticias Boyaca
+
+
+
+>>>>>>> f3ee892386058a2f2b681ed2f757829ef0f76424
 
 /***/ "./src/videos/1-Nosotros Razón de ser-4.mp4":
 /*!**************************************************!*\
@@ -6506,8 +8168,552 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"video/1-Nosotros Razón de ser-inicio.mp4\");\n\n//# sourceURL=webpack:///./src/videos/1-Nosotros_Raz%C3%B3n_de_ser-inicio.mp4?");
+=======
+jquery_default()('.oc-slick-example').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  dots: true
+});
+jquery_default()('.oc-slick-galeria-territorio').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  slidesToShow: 3,
+  infinite: false,
+  arrows: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 1
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
+});
+jquery_default()('.oc-slick-profiles').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  slidesToShow: 4,
+  infinite: false,
+  dots: true,
+  arrows: false,
+  vertical: true,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 4
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      dots: true,
+      slidesToShow: 4
+    }
+  }]
+});
+jquery_default()('.oc-slick-img-org').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n    <path id=\"Trazado_28027\" data-name=\"Trazado 28027\" d=\"M3.621,7.243.6,4.225l-.6-.6L1.853,1.769,3.621,0\" transform=\"translate(1 1.414)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n  </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n    <path id=\"Trazado_12534\" data-name=\"Trazado 12534\" d=\"M3.621,7.243.6,4.225l-.6-.6L1.853,1.769,3.621,0\" transform=\"translate(5.035 8.657) rotate(180)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n  </svg>\n  \n    </button>",
+  slidesToShow: 4,
+  infinite: false,
+  dots: false,
+  arrows: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 4
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      dots: true,
+      slidesToShow: 4
+    }
+  }]
+});
+jquery_default()('.oc-slick-grupo-general').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.805\" height=\"14.7\"\n            viewBox=\"0 0 20.805 14.7\">\n            <g id=\"Grupo_13763\" data-name=\"Grupo 13763\" transform=\"translate(0 0.707)\">\n                <path id=\"Trazado_11962\" data-name=\"Trazado 11962\" d=\"M0,0V18.779\"\n                    transform=\"translate(18.779 6.583) rotate(90)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n                <path id=\"Trazado_11963\" data-name=\"Trazado 11963\"\n                    d=\"M-8466.48,3107.907l6.643,6.643-6.643,6.643\"\n                    transform=\"translate(8479.229 -3107.907)\" fill=\"none\" stroke=\"#fff\"\n                    stroke-width=\"2\" />\n            </g>\n        </svg>\n    </button>",
+  slidesToShow: 3,
+  infinite: false,
+  dots: true,
+  arrows: false,
+  vertical: true,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 3
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      arrows: true,
+      dots: true,
+      slidesToShow: 3,
+      vertical: false,
+      verticalSwiping: false
+    }
+  }]
+});
+jquery_default()('.oc-slick-estamos').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  slidesToShow: 3,
+  dots: true,
+  arrows: false,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 1
+    }
+  }, {
+    breakpoint: 480,
+    settings: {
+      arrows: false,
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
+});
+jquery_default()('.item-has-child').hover(function () {
+  var item = jquery_default()(this);
+  var submenu = jquery_default()(this).find('.oc-submenu');
+  submenu.slideToggle('low', function () {
+    if (submenu.css('display') == 'none') {
+      item.removeClass('open');
+    } else {
+      item.addClass('open');
+    }
+  });
+});
+jquery_default()('.button-menu-toggle.open').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-preload').fadeIn(function () {
+    jquery_default()('.oc-preload').css('display', 'flex');
+    jquery_default()('.oc-preload img').css('opacity', '1');
+  });
+  jquery_default()('.oc-menu-principal').addClass('menu-open');
+  setTimeout(function () {
+    jquery_default()('.oc-preload').fadeOut();
+    setTimeout(function () {
+      jquery_default()('.oc-menu-principal__top__cerrar .button-menu-toggle').addClass('close');
+      jquery_default()('.oc-menu-principal .col-menu').css('opacity', '1');
+      jquery_default()('.oc-menu-principal .col-menu').css('bottom', '0');
+    }, 1000);
+  }, 1000);
+});
+jquery_default()('.oc-btn-menu-superior').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-menu-principal').addClass('menu-open');
+  setTimeout(function () {
+    jquery_default()('.oc-menu-principal__top__cerrar .button-menu-toggle').addClass('close');
+    jquery_default()('.oc-menu-principal .col-menu').css('opacity', '1');
+    jquery_default()('.oc-menu-principal .col-menu').css('bottom', '0');
+  }, 1000);
+});
+jquery_default()('.oc-menu-principal__top__cerrar').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-menu-principal').removeClass('menu-open');
+  jquery_default()('.oc-menu-principal__top__cerrar .button-menu-toggle').removeClass('close');
+  jquery_default()('.oc-menu-principal .col-menu').css('opacity', '0');
+  jquery_default()('.oc-menu-principal .col-menu').css('bottom', '50px');
+});
+jquery_default()('.oc-slick-dashboard').slick({
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  dots: true,
+  infinite: false
+});
+
+function progressBar(barClass) {
+  var items = document.querySelectorAll(barClass);
+
+  var _iterator = app_createForOfIteratorHelper(items),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var item = _step.value;
+      var progress = item.dataset.progress;
+      item.style.width = "".concat(progress, "%");
+      item.textContent = "".concat(progress, "%");
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+}
+
+progressBar('.oc-progress');
+jquery_default()('.oc-btn-menu-lateral').mouseenter(function () {
+  jquery_default()(this).find('#Line_68').attr('x2', '5.47');
+  jquery_default()(this).find('#Line_329').attr('x1', '10.47');
+  jquery_default()(this).find('#Line_330').attr('x1', '7.64');
+  jquery_default()(this).find('#Line_327').attr('x1', '6.37');
+});
+jquery_default()('.oc-btn-menu-lateral').mouseleave(function () {
+  jquery_default()(this).find('#Line_68').attr('x2', '10.47');
+  jquery_default()(this).find('#Line_329').attr('x1', '13.47');
+  jquery_default()(this).find('#Line_330').attr('x1', '2.64');
+  jquery_default()(this).find('#Line_327').attr('x1', '10.47');
+});
+
+if (screen.width < 480) {
+  jquery_default()('.item-has-child').addClass('open');
+  jquery_default()('.item-has-child .oc-submenu').show();
+}
+
+jquery_default()('#open-wdg-mobile').click(function (e) {
+  e.preventDefault();
+  jquery_default()('#box-widget-mobile').fadeIn();
+});
+jquery_default()('#close-wdg-mobile').click(function (e) {
+  e.preventDefault();
+  jquery_default()('#box-widget-mobile').fadeOut();
+});
+jquery_default()('.oc-general-index .oc-header__widgets-info').click(function () {
+  jquery_default()('.oc-header__widgets-cont').fadeToggle('low', function () {
+    if (jquery_default()('.oc-header__widgets-cont').css('display') == 'none') {
+      jquery_default()('.oc-header__widgets-info img').css('transform', 'rotate(0deg)');
+      jquery_default()('.oc-header__widgets-cont').css('opacity', '0');
+    } else {
+      jquery_default()('.oc-header__widgets-info img').css('transform', 'rotate(-180deg)');
+      jquery_default()('.oc-header__widgets-cont').css('opacity', '1');
+    }
+  });
+});
+jquery_default()('input[type=radio]').click(function () {
+  if (this.previous) {
+    this.checked = false;
+  }
+
+  this.previous = this.checked;
+}); // Menu Lateral mobile
+
+jquery_default()('.oc-submenu-gen__button-menu-lateral').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-submenu-gen .oc-menu-lateral').slideToggle();
+});
+
+if (screen.width < 576) {
+  var app_desplaceMenu = function desplaceMenu(num) {
+    var number = parseInt(num);
+
+    if (number != 100) {
+      jquery_default()('.oc-submenu-gen__cont-nav .nav').animate({
+        scrollLeft: number / 2
+      }, 500);
+    }
+  };
+
+  var desplaceNumber = 0;
+  jquery_default()('.oc-submenu-mobile .nav .nav-link').each(function () {
+    desplaceNumber = desplaceNumber + 100;
+    jquery_default()(this).attr('data-desplace', desplaceNumber);
+  });
+  jquery_default()(window).scroll(function () {
+    if (jquery_default()(window).scrollTop() > 80) {
+      jquery_default()('.oc-header').addClass('header-fixed');
+    } else {
+      jquery_default()('.oc-header').removeClass('header-fixed');
+    }
+  });
+  jquery_default()('.oc-search-bar__btn').click(function (e) {
+    e.preventDefault();
+    jquery_default()(this).addClass('expand-bar');
+    jquery_default()('.oc-box-search').addClass('expand-box');
+    jquery_default()('.oc-box-search__icon-close').click(function (e) {
+      e.preventDefault();
+      jquery_default()('.oc-search-bar__btn').removeClass('expand-bar');
+      jquery_default()('.oc-box-search').removeClass('expand-box');
+    });
+  });
+  jquery_default()('.oc-submenu-gen__cont-nav .nav-link').click(function () {
+    jquery_default()('.oc-submenu-gen__cont-nav .nav-link').removeClass('active');
+    jquery_default()(this).addClass('active');
+    app_desplaceMenu(jquery_default()(this).attr('data-desplace'));
+  });
+} // Tags
+
+
+jquery_default()('.oc-seccion-noticias-etiquetas button').click(function (e) {
+  if (jquery_default()(this).hasClass('tag-selected')) {
+    jquery_default()(this).removeClass('tag-selected');
+  } else {
+    jquery_default()(this).addClass('tag-selected');
+  }
+}); // Tabs search results
+
+jquery_default()('.oc-panels__item').hide();
+jquery_default()('.oc-panels__item:first').show(); // Items cultura panels
+
+jquery_default()('.oc-panels-cultura__slick-panel').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.oc-slick-cultura'
+});
+jquery_default()('.oc-slick-cultura').slick({
+  slidesToShow: 6,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  asNavFor: '.oc-panels-cultura__slick-panel',
+  focusOnSelect: true,
+  responsive: [{
+    breakpoint: 769,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }]
+});
+jquery_default()(".oc-slick-cultura").click(function (e) {
+  e.preventDefault();
+});
+
+if (screen.width < 576) {
+  jquery_default()('.oc-slick-cultura .oc-slick-cultura__item').addClass('active');
+}
+
+function addIconMenu(iconclass, svgicon) {
+  jquery_default()(iconclass).before(svgicon);
+}
+
+if (screen.width > 991.98) {
+  // Sticky menu nosotros
+  jquery_default()(window).scroll(function () {
+    if (jquery_default()(window).scrollTop() > 580) {
+      jquery_default()(".oc-nosotros .oc-header__desktop .oc-submenu-gen").fadeIn(); //.fadeOut();
+    } else {
+      jquery_default()(".oc-nosotros .oc-header__desktop .oc-submenu-gen").hide(); //.fadeIn();
+    }
+  }); // ICON PROFILE
+
+  addIconMenu('.oc-submenu-gen__cont-nav .profile .nav-link__text', "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.706\" height=\"20.574\" viewBox=\"0 0 14.706 20.574\">\n    <g id=\"Grupo_6636\" data-name=\"Grupo 6636\" transform=\"translate(0.75 0.752)\">\n        <line id=\"L\xEDnea_1013\" data-name=\"L\xEDnea 1013\" y2=\"1.917\" transform=\"translate(5.229 6.708)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1014\" data-name=\"L\xEDnea 1014\" y2=\"1.917\" transform=\"translate(8.036 6.708)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <path id=\"Trazado_11414\" data-name=\"Trazado 11414\" d=\"M25.32,20.53l3.76,1.691a2.847,2.847,0,0,1,1.412,1.97v6.781\" transform=\"translate(-17.286 -11.9)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <path id=\"Trazado_11415\" data-name=\"Trazado 11415\" d=\"M15.867,20.52l-3.815,1.7a2.847,2.847,0,0,0-1.412,1.97v2.145l.005,1.144v3.081a.406.406,0,0,0,.41.41h12.79\" transform=\"translate(-10.64 -11.896)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1016\" data-name=\"L\xEDnea 1016\" x1=\"1.404\" y1=\"1.591\" transform=\"translate(5.229 8.625)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1017\" data-name=\"L\xEDnea 1017\" y1=\"1.591\" x2=\"1.404\" transform=\"translate(6.632 8.625)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <path id=\"Trazado_5701\" data-name=\"Trazado 5701\" d=\"M23.2,12.926a2.644,2.644,0,1,1-5.287,0\" transform=\"translate(-13.93 -8.458)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <path id=\"Trazado_5702\" data-name=\"Trazado 5702\" d=\"M17.9,9.23V7.518a2.721,2.721,0,0,1,2.384-2.745,2.644,2.644,0,0,1,2.9,2.631V9.23\" transform=\"translate(-13.929 -4.761)\" fill=\"none\" stroke=\"#95A6B1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n    </g>\n    </svg>"); // ICON NOTICE
+
+  addIconMenu('.oc-submenu-gen__cont-nav .notice .nav-link__text', "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15.625\" height=\"18.942\" viewBox=\"0 0 15.625 18.942\">\n    <g id=\"Grupo_13062\" data-name=\"Grupo 13062\" transform=\"translate(-1905.979 39.75)\">\n        <path id=\"Trazado_11413\" data-name=\"Trazado 11413\" d=\"M13.642,7H22.8V23.956H10.058V11.682\" transform=\"translate(1898.055 -45.513)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <rect id=\"Rect\xE1ngulo_4557\" data-name=\"Rect\xE1ngulo 4557\" width=\"6.265\" height=\"6.308\" transform=\"translate(1911.445 -34.841)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1491\" data-name=\"L\xEDnea 1491\" x2=\"4.975\" transform=\"translate(1911.445 -25.489)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <ellipse id=\"Elipse_2151\" data-name=\"Elipse 2151\" cx=\"1.504\" cy=\"1.504\" rx=\"1.504\" ry=\"1.504\" transform=\"translate(1906.729 -39)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n    </g>\n    </svg>"); // ICON DOC
+
+  addIconMenu('.oc-submenu-gen__cont-nav .doc .nav-link__text', "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15.624\" height=\"18.942\" viewBox=\"0 0 15.624 18.942\">\n    <g id=\"Grupo_13061\" data-name=\"Grupo 13061\" transform=\"translate(-1912.614 48.205)\">\n        <path id=\"Trazado_11425\" data-name=\"Trazado 11425\" d=\"M13.642,7H22.8V23.956H10.058V11.682\" transform=\"translate(1904.691 -53.969)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <g id=\"Grupo_13060\" data-name=\"Grupo 13060\">\n        <line id=\"L\xEDnea_1489\" data-name=\"L\xEDnea 1489\" x2=\"6.326\" transform=\"translate(1918.081 -35.856)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1492\" data-name=\"L\xEDnea 1492\" x2=\"6.326\" transform=\"translate(1918.081 -39)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1493\" data-name=\"L\xEDnea 1493\" x2=\"6.326\" transform=\"translate(1918.081 -42.144)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <line id=\"L\xEDnea_1491\" data-name=\"L\xEDnea 1491\" x2=\"4.975\" transform=\"translate(1918.081 -32.945)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        </g>\n        <ellipse id=\"Elipse_2152\" data-name=\"Elipse 2152\" cx=\"1.504\" cy=\"1.504\" rx=\"1.504\" ry=\"1.504\" transform=\"translate(1913.364 -47.455)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n    </g>\n    </svg>"); // ICON IMAGE
+
+  addIconMenu('.oc-submenu-gen__cont-nav .image .nav-link__text', "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16.114\" height=\"13.872\" viewBox=\"0 0 16.114 13.872\">\n    <g id=\"Grupo_12977\" data-name=\"Grupo 12977\" transform=\"translate(0.75 0.75)\">\n        <path id=\"Trazado_9055\" data-name=\"Trazado 9055\" d=\"M15.773,6h-2.14l-1-2.188H7.573L6.573,6H4.227A1.534,1.534,0,0,0,2.693,7.536v7.116a1.534,1.534,0,0,0,1.534,1.534H15.773a1.534,1.534,0,0,0,1.534-1.534V7.536A1.534,1.534,0,0,0,15.773,6Z\" transform=\"translate(-2.693 -3.814)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <circle id=\"Elipse_1335\" data-name=\"Elipse 1335\" cx=\"2.22\" cy=\"2.22\" r=\"2.22\" transform=\"translate(5.087 4.485)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n    </g>\n    </svg>"); // ICON VIDEO
+
+  addIconMenu('.oc-submenu-gen__cont-nav .video .nav-link__text', "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18.673\" height=\"13.323\" viewBox=\"0 0 18.673 13.323\">\n    <g id=\"Grupo_13048\" data-name=\"Grupo 13048\" transform=\"translate(-396.25 -387.722)\">\n        <g id=\"Grupo_9821\" data-name=\"Grupo 9821\" transform=\"translate(397 388.472)\">\n        <rect id=\"Rect\xE1ngulo_139\" data-name=\"Rect\xE1ngulo 139\" width=\"11.823\" height=\"11.823\" transform=\"translate(0)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        <path id=\"Trazado_236\" data-name=\"Trazado 236\" d=\"M1334.014,3009.173l-5.349-3.458v-4.906l5.349-3.458Z\" transform=\"translate(-1316.841 -2997.35)\" fill=\"none\" stroke=\"#95a6b1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"/>\n        </g>\n    </g>\n    </svg>");
+} // MODALS MAPS
+
+
+jquery_default()('.oc-est-modal__body__slider').slick({
+  slidesToShow: 1,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
+  dots: true,
+  infinite: false
+});
+
+function disableScroll() {
+  var x = window.scrollX;
+  var y = window.scrollY;
+
+  window.onscroll = function () {
+    window.scrollTo(x, y);
+  };
+}
+
+function enableScroll() {
+  window.onscroll = null;
+}
+
+jquery_default()('.oc-custom-modal-map').hide();
+jquery_default()('.oc-mapa__location-modals').click(function (e) {
+  e.preventDefault(e);
+  var target = jquery_default()(this).attr('data-target');
+  jquery_default()(target).fadeIn();
+  jquery_default()('.oc-est-modal__body').scrollTop(0);
+  disableScroll();
+  jquery_default()('.oc-est-modal__body__slider').slick('refresh');
+  jquery_default()('.oc-est-modal__head__right__close-button').click(function (e) {
+    jquery_default()('.oc-custom-modal-map').fadeOut();
+    enableScroll();
+  });
+});
+jquery_default()('.oc-slick-clima-card').slick({
+  arrows: false,
+  dots: true
+});
+jquery_default()('.wdg-publicaciones__car').slick({
+  arrows: false,
+  dots: true,
+  vertical: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 560,
+    settings: {
+      vertical: false,
+      verticalSwiping: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true
+    }
+  }]
+});
+var app_slider = jquery_default()('.oc-vertical-slider');
+app_slider.on('wheel', function (e) {
+  e.preventDefault();
+
+  if (e.originalEvent.deltaY < 0) {
+    jquery_default()(this).slick('slickNext');
+  } else {
+    jquery_default()(this).slick('slickPrev');
+  }
+});
+jquery_default()('.wdg-proyectos__car').slick({
+  arrows: false,
+  dots: true,
+  vertical: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  verticalSwiping: true,
+  responsive: [{
+    breakpoint: 560,
+    settings: {
+      vertical: false,
+      verticalSwiping: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }]
+});
+jquery_default()('.wdg-grupos__car').slick({
+  arrows: false,
+  dots: true,
+  vertical: true,
+  slidesToShow: 3,
+  verticalSwiping: true,
+  slidesToScroll: 3
+});
+jquery_default()('.oc-members-carousel').slick({
+  arrows: true,
+  dots: false,
+  slidesToScroll: 1,
+  slidesToShow: 5,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n                    <path id=\"Trazado_12569\" data-name=\"Trazado 12569\" d=\"M3.621,7.243.6,4.225l-.6-.6L3.621,0\" transform=\"translate(1 1.414)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n                </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n            <path id=\"Trazado_12568\" data-name=\"Trazado 12568\" d=\"M3.621,7.243.6,4.225l-.6-.6L3.621,0\" transform=\"translate(5.035 8.657) rotate(180)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n        </svg>\n    </button>"
+});
+jquery_default()('.oc-members-carousel-02').slick({
+  arrows: true,
+  dots: false,
+  slidesToScroll: 1,
+  slidesToShow: 4,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n                    <path id=\"Trazado_12569\" data-name=\"Trazado 12569\" d=\"M3.621,7.243.6,4.225l-.6-.6L3.621,0\" transform=\"translate(1 1.414)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n                </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.035\" height=\"10.071\" viewBox=\"0 0 6.035 10.071\">\n            <path id=\"Trazado_12568\" data-name=\"Trazado 12568\" d=\"M3.621,7.243.6,4.225l-.6-.6L3.621,0\" transform=\"translate(5.035 8.657) rotate(180)\" fill=\"none\" stroke=\"#c9cdd2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"/>\n        </svg>\n    </button>"
+});
+jquery_default()('.open-solicitudes').hover(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-pop-up').fadeIn();
+});
+jquery_default()('.close-solicitudes').click(function (e) {
+  e.preventDefault();
+  jquery_default()('.oc-pop-up').fadeOut();
+});
+jquery_default()('.oc-slick-almacenamiento').slick({
+  slidesToShow: 5,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  dots: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
+});
+jquery_default()('.oc-slick-almacenamiento-2').slick({
+  slidesToShow: 4,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  dots: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
+});
+jquery_default()('.oc-perfil-date-02__car').slick({
+  arrows: false,
+  dots: true,
+  vertical: true,
+  slidesToShow: 1,
+  verticalSwiping: true,
+  slidesToScroll: 1,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      verticalSwiping: false,
+      vertical: false
+    }
+  }]
+});
+jquery_default()('.wdg-documentos__car').slick({
+  arrows: false,
+  dots: true,
+  vertical: true,
+  slidesToShow: 4,
+  verticalSwiping: true,
+  slidesToScroll: 4,
+  responsive: [{
+    breakpoint: 480,
+    settings: {
+      verticalSwiping: false
+    }
+  }]
+});
+jquery_default()('.oc-porvenir__car').slick({
+  arrows: false,
+  dots: false,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  responsive: [{
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      arrows: true
+    }
+  }]
+});
+>>>>>>> f3ee892386058a2f2b681ed2f757829ef0f76424
 
 /***/ })
 

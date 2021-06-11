@@ -693,6 +693,45 @@ import "./img/boyaca/estacion-miraflores/miraflores-icon-15.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-16.svg";
 
 
+//Estacion Páez
+import "./img/boyaca/estacion-paez/paez-abrir 1.jpg";
+import "./img/boyaca/estacion-paez/paez-abrir 2.jpg";
+import "./img/boyaca/estacion-paez/paez-abrir 3.jpg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_proyecto_p-135.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_rebombeo.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/linea-punteada.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_incremento_volumenes.svg";
+import "./img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_equipos_electricos.svg";
+import "./img/boyaca/estacion-paez/3-icon-ubicacion/foto-satelital-paez.jpg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_otros_productos.svg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_tanque sumidero.svg";
+import "./img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg";
+import "./img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_paez.svg";
+import "./img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-1.svg";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-2.svg";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-3.svg";
+import "./img/boyaca/estacion-paez/7-icon-personal/user-1.jpg";
+import "./img/boyaca/estacion-paez/7-icon-personal/user-2.jpg";
+import "./img/boyaca/estacion-paez/7-icon-personal/user-3.jpg";
+import "./img/boyaca/estacion-paez/8-icon-demografico/elipse-2-boy.png";
+import "./img/boyaca/estacion-paez/8-icon-demografico/elipse-3-boy.png";
+import "./img/boyaca/estacion-paez/13-icon-gestion-ambiental/icon_territorio_paez_gestion_ambiental_turbinas.svg";
+import "./img/boyaca/estacion-paez/14-icon-solicitudes-ingreso/flecha-v2.svg";
+import "./img/boyaca/estacion-paez/15-icon-como-llegar/helicoptero.svg";
+import "./img/boyaca/estacion-paez/15-icon-como-llegar/dist-paez.svg";
+import "./img/boyaca/estacion-paez/15-icon-como-llegar/time-paez.svg";
+import "./img/boyaca/estacion-paez/4-icon-almacenamiento/paez-almacenamiento-modal.png";
+import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png";
+
+
+//Noticias Boyaca
+import "./img/boyaca/noticias/notices-boy-1.jpg";
+import "./img/boyaca/noticias/coments-user-1.png";
+import "./img/boyaca/noticias/coments-user-2.png";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
@@ -1437,6 +1476,41 @@ $('.close-solicitudes').click(function(e) {
 
 $('.oc-slick-almacenamiento').slick({
     slidesToShow: 5,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    dots: true,
+    arrows: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+              dots: true,
+              slidesToShow: 1
+            }
+        }
+    ]
+})
+
+$('.oc-slick-almacenamiento-2').slick({
+    slidesToShow: 4,
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
         <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
             <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
