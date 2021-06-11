@@ -129,7 +129,7 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            filename: 'casanare/noticia-tradicion-boyaca.html',
+            filename: 'boyaca/noticia-tradicion-boyaca.html',
             template: './src/casanare/noticia-tradicion-boyaca.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
