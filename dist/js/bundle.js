@@ -22651,6 +22651,62 @@ jquery_default()('.oc-custom-select').click(function (e) {
 /* harmony default export */ var imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque = (__webpack_require__.p + "img/imag_ocensa_territorio_boyaca_2_pnn_santuario_iguaque.jpg");
 // CONCATENATED MODULE: ./src/img/boyaca/iconos/vmodal-titulo_comunidades.svg
 /* harmony default export */ var vmodal_titulo_comunidades = (__webpack_require__.p + "img/vmodal-titulo_comunidades.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 1.jpg
+/* harmony default export */ var paez_abrir_1 = (__webpack_require__.p + "img/paez-abrir 1.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 2.jpg
+/* harmony default export */ var paez_abrir_2 = (__webpack_require__.p + "img/paez-abrir 2.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 3.jpg
+/* harmony default export */ var paez_abrir_3 = (__webpack_require__.p + "img/paez-abrir 3.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_proyecto_p-135.svg
+/* harmony default export */ var icon_territorio_paez_estacion_proyecto_p_135 = (__webpack_require__.p + "img/icon_territorio_paez_estacion_proyecto_p-135.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_rebombeo.svg
+/* harmony default export */ var icon_territorio_paez_estacion_rebombeo = (__webpack_require__.p + "img/icon_territorio_paez_estacion_rebombeo.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/linea-punteada.svg
+/* harmony default export */ var linea_punteada = (__webpack_require__.p + "img/linea-punteada.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_incremento_volumenes.svg
+/* harmony default export */ var icon_territorio_paez_estacion_incremento_volumenes = (__webpack_require__.p + "img/icon_territorio_paez_estacion_incremento_volumenes.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/2-icon-la-estacion/icon_territorio_paez_estacion_equipos_electricos.svg
+/* harmony default export */ var icon_territorio_paez_estacion_equipos_electricos = (__webpack_require__.p + "img/icon_territorio_paez_estacion_equipos_electricos.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/3-icon-ubicacion/foto-satelital-paez.jpg
+/* harmony default export */ var foto_satelital_paez = (__webpack_require__.p + "img/foto-satelital-paez.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_otros_productos.svg
+/* harmony default export */ var icon_territorio_paez_almacenamiento_otros_productos = (__webpack_require__.p + "img/icon_territorio_paez_almacenamiento_otros_productos.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/4-icon-almacenamiento/icon_territorio_paez_almacenamiento_tanque sumidero.svg
+/* harmony default export */ var icon_territorio_paez_almacenamiento_tanque_sumidero = (__webpack_require__.p + "img/icon_territorio_paez_almacenamiento_tanque sumidero.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_porvenir = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_porvenir.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_paez.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_paez = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/5-icon-distancia-de-linea/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg
+/* harmony default export */ var icon_territorio_paez_distancia_de_linea_estacion_miraflores = (__webpack_require__.p + "img/icon_territorio_paez_distancia_de_linea_estacion_miraflores.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-1.svg
+/* harmony default export */ var boy_bombeo_1 = (__webpack_require__.p + "img/boy-bombeo-1.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-2.svg
+/* harmony default export */ var boy_bombeo_2 = (__webpack_require__.p + "img/boy-bombeo-2.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg
+/* harmony default export */ var icon_territorio_paez_sistema_bombeo_unidades_electricas = (__webpack_require__.p + "img/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/boy-bombeo-3.svg
+/* harmony default export */ var boy_bombeo_3 = (__webpack_require__.p + "img/boy-bombeo-3.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-1.jpg
+/* harmony default export */ var user_1 = (__webpack_require__.p + "img/user-1.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-2.jpg
+/* harmony default export */ var user_2 = (__webpack_require__.p + "img/user-2.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/7-icon-personal/user-3.jpg
+/* harmony default export */ var user_3 = (__webpack_require__.p + "img/user-3.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/8-icon-demografico/elipse-2-boy.png
+/* harmony default export */ var elipse_2_boy = (__webpack_require__.p + "img/elipse-2-boy.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/8-icon-demografico/elipse-3-boy.png
+/* harmony default export */ var elipse_3_boy = (__webpack_require__.p + "img/elipse-3-boy.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/13-icon-gestion-ambiental/icon_territorio_paez_gestion_ambiental_turbinas.svg
+/* harmony default export */ var icon_territorio_paez_gestion_ambiental_turbinas = (__webpack_require__.p + "img/icon_territorio_paez_gestion_ambiental_turbinas.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/14-icon-solicitudes-ingreso/flecha-v2.svg
+/* harmony default export */ var flecha_v2 = (__webpack_require__.p + "img/flecha-v2.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/helicoptero.svg
+/* harmony default export */ var helicoptero = (__webpack_require__.p + "img/helicoptero.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/dist-paez.svg
+/* harmony default export */ var dist_paez = (__webpack_require__.p + "img/dist-paez.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/15-icon-como-llegar/time-paez.svg
+/* harmony default export */ var time_paez = (__webpack_require__.p + "img/time-paez.svg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -23248,6 +23304,35 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
  // Modal Comunidades Boyacá
 
+ //Estacion Páez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var app_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
 
@@ -23734,6 +23819,20 @@ jquery_default()('.close-solicitudes').click(function (e) {
 });
 jquery_default()('.oc-slick-almacenamiento').slick({
   slidesToShow: 5,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  dots: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
+});
+jquery_default()('.oc-slick-almacenamiento-2').slick({
+  slidesToShow: 4,
   prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
   nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
   dots: true,
