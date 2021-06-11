@@ -22707,6 +22707,12 @@ jquery_default()('.oc-custom-select').click(function (e) {
 /* harmony default export */ var miraflores_icon_15 = (__webpack_require__.p + "img/miraflores-icon-15.svg");
 // CONCATENATED MODULE: ./src/img/boyaca/estacion-miraflores/miraflores-icon-16.svg
 /* harmony default export */ var miraflores_icon_16 = (__webpack_require__.p + "img/miraflores-icon-16.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-miraflores/miraflores-icon-17.svg
+/* harmony default export */ var miraflores_icon_17 = (__webpack_require__.p + "img/miraflores-icon-17.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-miraflores/miraflores-icon-18.svg
+/* harmony default export */ var miraflores_icon_18 = (__webpack_require__.p + "img/miraflores-icon-18.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-miraflores/miraflores-icon-19.svg
+/* harmony default export */ var miraflores_icon_19 = (__webpack_require__.p + "img/miraflores-icon-19.svg");
 // CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 1.jpg
 /* harmony default export */ var paez_abrir_1 = (__webpack_require__.p + "img/paez-abrir 1.jpg");
 // CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/paez-abrir 2.jpg
@@ -22767,6 +22773,8 @@ jquery_default()('.oc-custom-select').click(function (e) {
 /* harmony default export */ var paez_almacenamiento_modal = (__webpack_require__.p + "img/paez-almacenamiento-modal.png");
 // CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png
 /* harmony default export */ var paez_slide_1 = (__webpack_require__.p + "img/paez-slide-1.png");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/bombeo-responsive.svg
+/* harmony default export */ var bombeo_responsive = (__webpack_require__.p + "img/bombeo-responsive.svg");
 // CONCATENATED MODULE: ./src/img/boyaca/noticias/notices-boy-1.jpg
 /* harmony default export */ var notices_boy_1 = (__webpack_require__.p + "img/notices-boy-1.jpg");
 // CONCATENATED MODULE: ./src/img/boyaca/noticias/coments-user-1.png
@@ -23399,7 +23407,11 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+
+
  //Estacion Páez
+
 
 
 
@@ -24008,7 +24020,14 @@ jquery_default()('.oc-slick-almacenamiento-miraflores').slick({
 });
 jquery_default()('.oc-gestion-miraflores__car').slick({
   prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
-  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>"
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  responsive: [{
+    breakpoint: 768,
+    settings: {
+      dots: true,
+      slidesToShow: 1
+    }
+  }]
 });
 
 /***/ })
