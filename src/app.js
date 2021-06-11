@@ -679,6 +679,14 @@ import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/icon_te
 import "./img/boyaca/estacion-soraca/iconos-svg/6-icon-contratistas/icon_territorio_base_soraca_contratistas_icono_menu.svg";
 import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_3_base_soraca_contratistas.jpg";
 import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_4_base_soraca_contratistas.jpg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_cupiagua.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_cusiana.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_el_porvenir.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_la_belleza.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_miraflores.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_vasconia.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/line-divider-distancias.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
