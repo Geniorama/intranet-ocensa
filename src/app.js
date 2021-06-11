@@ -662,6 +662,13 @@ import "./img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyac
 // Modal Comunidades Boyacá
 import "./img/boyaca/iconos/vmodal-titulo_comunidades.svg";
 
+// Estación Base Soracá
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_personal_emergencia.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_sub_bases.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_mantenimiento_de_linea.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_infraestructura.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_superintendencia_mantenimiento.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

@@ -121,6 +121,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'boyaca/base-soraca.html',
+            template: './src/boyaca/base-soraca.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
