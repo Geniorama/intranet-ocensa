@@ -10141,23 +10141,23 @@ p, span {
 }
 
 .roboto-regular {
-  font-family: "roboto-regular", sans-serif;
+  font-family: "roboto-regular", sans-serif !important;
 }
 
 .roboto-medium {
-  font-family: "roboto-medium", sans-serif;
+  font-family: "roboto-medium", sans-serif !important;
 }
 
 .roboto-bold {
-  font-family: "roboto-bold", sans-serif;
+  font-family: "roboto-bold", sans-serif !important;
 }
 
 .roboto-light {
-  font-family: "roboto-light", sans-serif;
+  font-family: "roboto-light", sans-serif !important;
 }
 
 .roboto-c-bold-i {
-  font-family: "roboto-c-boldItalic", sans-serif;
+  font-family: "roboto-c-boldItalic", sans-serif !important;
 }
 
 .btn {
@@ -14275,6 +14275,14 @@ p, span {
 #main-casanare {
   background-color: white !important;
 }
+#main-casanare #mapExt-boyaca {
+  position: absolute;
+  top: 176px;
+  left: 125px;
+}
+#main-casanare #mapExt-boyaca .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
 
 .oc-mapa {
   height: auto;
@@ -17199,6 +17207,10 @@ p, span {
   width: 20px;
   height: 20px;
   background-color: white;
+}
+.oc-widget-template .line-g-left {
+  border-left: 1px solid rgba(80, 93, 108, 0.3);
+  position: relative;
 }
 .oc-widget-template .oc-number-medium {
   color: #005FC8;
@@ -20199,4 +20211,658 @@ p, span {
   font-size: 21px;
   color: #223260;
   margin: 0;
+}
+
+#main-boy-soraca #wdg-section-02 .oc-card-widget {
+  height: 528px;
+}
+#main-boy-soraca .wdg-la-estacion__item__li-items li::before {
+  left: -15px;
+  top: 7px;
+}
+#main-boy-soraca .wdg-banner__info {
+  height: auto !important;
+}
+#main-boy-soraca .wdg-relacionamiento .oc-box-dato__img {
+  width: 65px;
+  margin-right: 1em;
+}
+#main-boy-soraca .wdg-relacionamiento .oc-box-dato__text {
+  font-family: "roboto-regular", sans-serif !important;
+  font-size: 14px;
+  color: #505D6C;
+}
+#main-boy-soraca .wdg-valvulas .oc-box-dato {
+  min-height: 286px;
+}
+#main-boy-soraca .wdg-valvulas .oc-box-dato .text-ubicadas {
+  font-family: "roboto-bold", sans-serif !important;
+  color: #979FA8;
+  font-size: 12px;
+}
+#main-boy-soraca .wdg-valvulas .oc-box-dato .text-aprox {
+  font-family: "roboto-bold", sans-serif !important;
+  color: #979FA8;
+  font-size: 9px;
+}
+#main-boy-soraca .wdg-valvulas .oc-box-dato .text-desc {
+  font-family: "roboto-light", sans-serif !important;
+  color: #505D6C;
+  font-size: 13px;
+  margin: 0;
+}
+#main-boy-soraca .wdg-valvulas .item-2 .cont-sub-items .sub-item__title {
+  font-family: "roboto-bold", sans-serif !important;
+  font-size: 15px;
+  color: #505D6C;
+  margin-bottom: 0px;
+}
+#main-boy-soraca .wdg-valvulas .item-2 .cont-sub-items .sub-item__sector {
+  font-family: "roboto-regular", sans-serif !important;
+  font-size: 14.5px;
+}
+#main-boy-soraca .wdg-distancia .item-02 .oc-dist-linea {
+  display: block;
+  width: 95%;
+  border-top: 1px dashed #505D6C;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+#main-boy-soraca .wdg-distancia .item-02 .oc-dist-linea::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border: 2px solid #19A500;
+  position: absolute;
+  left: -10px;
+  top: calc( 50% - 4.5px );
+  border-radius: 50%;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number {
+  position: absolute;
+  background-color: #F2F2F2;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number span {
+  color: #979FA8;
+  display: block;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number__number {
+  font-size: 30px;
+  line-height: 1em;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number__text {
+  font-size: 10px;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number:nth-child(4) {
+  right: 85px;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number:nth-child(3) {
+  left: 230px;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-number:nth-child(2) {
+  left: 32px;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-1 {
+  width: 82%;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-1__data {
+  width: 90%;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-2 {
+  width: 18%;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-2 .oc-box-dato .oc-number-medium {
+  font-size: 24px;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-2 .oc-box-dato__km {
+  font-size: 14.5px;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-2 .oc-box-dato__sector {
+  font-size: 9px;
+  color: #979FA8;
+}
+#main-boy-soraca .wdg-distancia .item-02__sect-2 .oc-box-dato__title {
+  font-size: 15px;
+}
+#main-boy-soraca .wdg-distancia .item-02__item-image {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}
+
+#main-boy-paez #est-paez-la-estacion .oc-text-esp-2 {
+  font-family: "roboto-light", sans-serif;
+  font-size: 14px;
+  color: #505D6C;
+}
+#main-boy-paez #est-paez-la-estacion .linea-punteada {
+  width: 147px;
+  height: 9px;
+}
+#main-boy-paez #est-paez-la-estacion .est-intermedias .oc-text-2 {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 14px;
+}
+#main-boy-paez #est-paez-la-estacion .oc-text-esp-2-v {
+  font-weight: bold;
+  font-family: "roboto-light", sans-serif;
+  font-size: 14px;
+}
+#main-boy-paez #paez-almacenamiento .img-otros-prod {
+  width: 121px;
+  height: 65px;
+}
+
+#distancia-linea-paez .des-number {
+  font-family: "roboto-regular", sans-serif !important;
+  font-size: 15px !important;
+  margin-top: -2px !important;
+  color: #505D6C !important;
+}
+
+#boy-bombeo .text-small-boy {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 15px;
+  color: #505D6C;
+}
+#boy-bombeo .img-boy-bombeo {
+  width: 50px !important;
+  height: 82px !important;
+}
+#boy-bombeo .text-black {
+  line-height: 1.2em;
+}
+#boy-bombeo .number-giant {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 30px;
+}
+#boy-bombeo .text-med {
+  font-family: "roboto-medium", sans-serif;
+  font-size: 15px;
+}
+#boy-bombeo .img-boy-bombeo2 {
+  width: 9px !important;
+  height: 114px !important;
+  margin-top: 28px !important;
+}
+#boy-bombeo .sp-1 {
+  font-family: "roboto-bold-italic";
+  font-size: 15px;
+  color: #505D6C;
+}
+#boy-bombeo .sp-2 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 14px;
+  color: #505D6C;
+  line-height: 1.2em;
+}
+#boy-bombeo .sp-3 {
+  font-family: "roboto-medium", sans-serif;
+  font-size: 24px;
+}
+#boy-bombeo .sp-4 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 14px;
+}
+#boy-bombeo .sp-5 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 14px;
+  color: #505D6C;
+}
+#boy-bombeo .text-top-1 {
+  margin-top: -7px !important;
+}
+#boy-bombeo .text-top-2 {
+  margin-top: -4px !important;
+}
+
+.cont-left-boy {
+  width: 110px;
+}
+
+#personal-paez .oc-porvenir__personal::before {
+  height: 76%;
+}
+
+#gestion-boy .slick-track {
+  width: 715px !important;
+}
+#gestion-boy .slick-track .slick-slide {
+  width: 355px !important;
+}
+#gestion-boy .sp-3 {
+  font-family: "roboto-medium", sans-serif;
+  font-size: 24px;
+}
+
+#paez-gestion-amb.oc-widget-template__body {
+  height: 302px !important;
+  margin-left: 25px;
+}
+
+#paez-aerea .number-minutes {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 24px;
+  margin-top: -8px;
+}
+#paez-aerea .desc-minutes {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 15px;
+}
+
+#paez-vias .badge {
+  padding: 1em !important;
+}
+#paez-vias .item-terrestre_01 {
+  border-bottom: none;
+}
+#paez-vias .item-terrestre_01 .oc-box-dato__img-distancia {
+  width: 21px !important;
+  height: 21px !important;
+}
+#paez-vias .item-terrestre_01 .oc-box-dato__img-aprox {
+  width: 21px !important;
+  height: 21px !important;
+}
+#paez-vias .cont-tempus {
+  padding: 1em 2em;
+}
+
+#ubicacion-paez .wdg-ubicacion {
+  height: 540px !important;
+}
+
+#laestacion-paez .wdg-la-estacion {
+  height: 540px !important;
+}
+
+#paez-almace .oc-widget-template__body {
+  padding: 0 !important;
+}
+#paez-almace .oc-widget-template__body .img-otros-prod {
+  width: 121px !important;
+  height: 65px !important;
+}
+#paez-almace .oc-slick-almacenamiento-2 img {
+  margin: auto;
+}
+#paez-almace .oc-slick-almacenamiento-2 .slick-item {
+  padding: 1em !important;
+}
+#paez-almace .line-g-right::before {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+  visibility: hidden !important;
+}
+
+@media (max-width: 767.98px) {
+  #ubicacion-paez .wdg-ubicacion {
+    height: 640px !important;
+  }
+
+  #paez-almacenamiento .slick-item {
+    border: none;
+  }
+
+  #distancia-linea-paez .des-number {
+    font-family: "roboto-bold", sans-serif !important;
+    font-size: 9px !important;
+  }
+
+  .wdg-distancia .item-01__center .roboto-regular {
+    font-size: 9px !important;
+  }
+
+  #wdg-bombeo .oc-box-dato {
+    padding: 1em !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #wdg-bombeo .second-p {
+    padding: 2em !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 50px !important;
+  }
+
+  #boy-bombeo .text-resp-sm {
+    font-family: "roboto-bold", sans-serif !important;
+    font-size: 9px !important;
+  }
+  #boy-bombeo .text-top-1 {
+    margin-top: 5px !important;
+  }
+  #boy-bombeo .sp-4 {
+    margin-top: 10px !important;
+  }
+  #boy-bombeo .text-resp-2 {
+    font-family: "roboto-bold", sans-serif;
+    font-size: 9px;
+    color: #979FA8;
+    margin-top: -7px !important;
+  }
+  #boy-bombeo .text-resp-3 {
+    font-family: "roboto-bold", sans-serif !important;
+    font-size: 9px !important;
+    color: #505D6C !important;
+  }
+
+  #bombeo-respon .img-boy-bombeo2 {
+    width: 20px !important;
+    height: 175px !important;
+  }
+  #bombeo-respon .resp-pae .sp-2 {
+    font-family: "roboto-bold", sans-serif;
+    font-size: 12px;
+    color: #979FA8;
+  }
+  #bombeo-respon .cont-left-boy {
+    margin-right: -20px !important;
+  }
+
+  #paez-aerea .res-1 {
+    margin-left: 80px !important;
+  }
+  #paez-aerea .res-2 {
+    margin-left: 60px !important;
+  }
+  #paez-aerea .res-3 {
+    margin-left: 55px !important;
+  }
+
+  .paez-resp .badge br {
+    display: block !important;
+  }
+
+  #paez-vias .tem-apro {
+    margin-left: 55px !important;
+  }
+}
+.wdg-la-estacion-miraflores p {
+  margin-right: 0 !important;
+}
+.wdg-la-estacion-miraflores .wdg-la-estacion__item__li-items p {
+  margin: 0;
+}
+.wdg-la-estacion-miraflores .oc-number-medium {
+  margin-top: 0.5em;
+  line-height: 0.8em;
+}
+.wdg-la-estacion-miraflores .oc-number-medium .text-aux {
+  font-size: 14px;
+  color: #505D6C;
+  font-family: "roboto-bold";
+}
+
+.oc-cas-miraflores .wdg-la-estacion, .oc-cas-miraflores .wdg-ubicacion {
+  height: 576px;
+}
+
+.oc-slick-almacenamiento-miraflores img {
+  margin: auto;
+}
+.oc-slick-almacenamiento-miraflores .badge {
+  height: 55px;
+  display: flex !important;
+  align-items: center;
+  line-height: 1.5em;
+  justify-content: center;
+}
+
+.wdg-distancia-miraflores {
+  height: 100%;
+}
+.wdg-distancia-miraflores .cont-items {
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.wdg-distancia-miraflores .oc-cont-distancia-item .des-numbers {
+  margin-left: 0;
+  color: #505D6C;
+  font-size: 13px;
+  font-family: "roboto-regular";
+  line-height: 1em;
+}
+.wdg-distancia-miraflores .item-01__center .roboto-regular {
+  line-height: 1em;
+}
+
+.wdg-bombeo-miraflores .oc-box-dato {
+  height: 278px;
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-03 {
+  margin-bottom: 1em;
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-04 {
+  font-size: 14px;
+  color: #505D6C;
+  margin-bottom: 1em;
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-01 {
+  color: #505D6C;
+  font-size: 15px;
+  font-family: "roboto-bold";
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-05 {
+  font-size: 22px;
+  font-family: "roboto-medium";
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-02 {
+  font-size: 14px;
+  color: #505D6C;
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-02 .variant-01 {
+  color: #00AF00;
+}
+.wdg-bombeo-miraflores .oc-box-dato .text-06 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.wdg-bombeo-miraflores .oc-box-dato .variant-02 {
+  font-size: 15px;
+}
+
+.wdg-personal-miraflores {
+  height: 100%;
+}
+.wdg-personal-miraflores .oc-porvenir__personal-item {
+  margin-bottom: 0.4em;
+}
+.wdg-personal-miraflores .oc-porvenir__personal-item-02::after {
+  height: 65px;
+}
+
+.wdg-contratistas-miraflores {
+  height: 300px;
+}
+
+.oc-gestion-miraflores {
+  padding: 0 1em;
+}
+.oc-gestion-miraflores__text-01 {
+  color: #19A500;
+  font-size: 14px;
+  font-family: "roboto-medium";
+}
+.oc-gestion-miraflores__text-02 {
+  font-size: 13px;
+  color: #505D6C;
+  font-family: "roboto-light";
+  padding-left: 2em;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+.oc-gestion-miraflores__text-03 {
+  font-size: 13px;
+  color: #505D6C;
+  font-family: "roboto-light";
+  padding-left: 2em;
+  margin-top: 2em;
+  position: absolute;
+  top: 14px;
+  right: 0;
+  margin: 0;
+  width: 70%;
+}
+.oc-gestion-miraflores__line {
+  position: absolute;
+}
+.oc-gestion-miraflores__line-mobile {
+  position: absolute;
+  opacity: 0;
+}
+.oc-gestion-miraflores__cont {
+  background-color: #F2F2F2;
+  border-radius: 8px;
+  padding: 2em 1em;
+  display: flex !important;
+  position: relative;
+}
+.oc-gestion-miraflores__cont .item-01 {
+  text-align: center;
+}
+.oc-gestion-miraflores__cont .item-01 img {
+  margin-bottom: 1em !important;
+  margin: auto;
+}
+.oc-gestion-miraflores__cont-01 .oc-gestion-miraflores__item {
+  width: 25%;
+}
+.oc-gestion-miraflores__cont-01 .oc-gestion-miraflores__line {
+  top: 49px;
+  left: 129px;
+  width: 430px;
+}
+.oc-gestion-miraflores__cont-02 .item-01 {
+  width: 40%;
+  padding-right: 6em;
+}
+.oc-gestion-miraflores__cont-02 .item-02 {
+  width: 60%;
+}
+.oc-gestion-miraflores__cont-02 .oc-gestion-miraflores__line {
+  top: 49px;
+  left: 129px;
+  width: 317px;
+}
+.oc-gestion-miraflores__cont-03 {
+  padding: 2em 1em 1em 1em;
+}
+.oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__text-02 {
+  padding-left: 1.5em;
+  margin-top: 4em;
+}
+.oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__item {
+  width: 20%;
+}
+.oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__line {
+  top: 73px;
+  left: 129px;
+  width: 441px;
+}
+.oc-gestion-miraflores .oc-slick-arrow__next {
+  right: -18px;
+}
+.oc-gestion-miraflores .oc-slick-arrow__prev {
+  left: -18px;
+}
+
+.wdg-como-llegar-miraflores {
+  height: 100%;
+}
+.wdg-como-llegar-miraflores .oc-box-dato ul li {
+  margin-bottom: 3em;
+  position: relative;
+}
+.wdg-como-llegar-miraflores .oc-box-dato ul li .oc-number {
+  color: #19A500;
+  font-size: 20px;
+  font-family: "roboto-bold";
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+.wdg-como-llegar-miraflores .oc-box-dato ul li .oc-number strong {
+  font-size: 13px;
+  font-family: "roboto-regular";
+}
+.wdg-como-llegar-miraflores .oc-box-dato__img-aprox {
+  width: 40px !important;
+}
+.wdg-como-llegar-miraflores .oc-box-dato__img-distancia {
+  width: 32px !important;
+  height: 32px;
+  margin: 0 0.5em;
+}
+
+@media (max-width: 767.98px) {
+  .wdg-distancia-miraflores .item-01__center {
+    top: -17px;
+  }
+
+  .oc-gestion-miraflores__cont {
+    display: block !important;
+    padding: 1em 1em 2em 1em;
+  }
+  .oc-gestion-miraflores__item {
+    width: 100% !important;
+  }
+  .oc-gestion-miraflores__text-02 {
+    margin-top: 2em;
+  }
+  .oc-gestion-miraflores__line {
+    display: none !important;
+  }
+  .oc-gestion-miraflores__line-mobile {
+    opacity: 1;
+  }
+  .oc-gestion-miraflores__cont-01 .oc-gestion-miraflores__line-mobile {
+    top: 169px;
+    height: 176px;
+  }
+  .oc-gestion-miraflores__cont-02 .item-01 {
+    padding: 0;
+  }
+  .oc-gestion-miraflores__cont-02 .oc-gestion-miraflores__text-02 {
+    position: relative;
+  }
+  .oc-gestion-miraflores__cont-02 .oc-gestion-miraflores__text-02::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid #19A500;
+    left: 3px;
+    top: 4px;
+    border-radius: 50%;
+  }
+  .oc-gestion-miraflores__text-03 {
+    width: 100%;
+    top: 127px;
+  }
+  .oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__text-01 {
+    margin-bottom: 7em;
+  }
+  .oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__text-02 {
+    margin-top: 1em;
+    padding-left: 3em;
+  }
+  .oc-gestion-miraflores__cont-03 .oc-gestion-miraflores__line-mobile {
+    top: 219px;
+    left: 27px;
+    height: 183px;
+  }
+
+  .oc-miraflores-block {
+    display: block !important;
+    padding-left: 3.5em;
+  }
+
+  .oc-cas-miraflores .oc-box-dato__img-distancia {
+    margin: 0;
+  }
 }
