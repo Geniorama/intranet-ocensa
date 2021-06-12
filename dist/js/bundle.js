@@ -22837,6 +22837,18 @@ jquery_default()('.oc-custom-select').click(function (e) {
 /* harmony default export */ var coments_user_1 = (__webpack_require__.p + "img/coments-user-1.png");
 // CONCATENATED MODULE: ./src/img/boyaca/noticias/coments-user-2.png
 /* harmony default export */ var coments_user_2 = (__webpack_require__.p + "img/coments-user-2.png");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/apasionados_excelencia.svg
+/* harmony default export */ var apasionados_excelencia = (__webpack_require__.p + "img/apasionados_excelencia.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/escuchar_hablar.svg
+/* harmony default export */ var escuchar_hablar = (__webpack_require__.p + "img/escuchar_hablar.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/eticos_siempre.svg
+/* harmony default export */ var eticos_siempre = (__webpack_require__.p + "img/eticos_siempre.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/hacemos_lo_imposible.svg
+/* harmony default export */ var hacemos_lo_imposible = (__webpack_require__.p + "img/hacemos_lo_imposible.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/primero_la_vida.svg
+/* harmony default export */ var primero_la_vida = (__webpack_require__.p + "img/primero_la_vida.svg");
+// CONCATENATED MODULE: ./src/img/nosotros/cultura/iconos-nuevos/somos_equipo.svg
+/* harmony default export */ var somos_equipo = (__webpack_require__.p + "img/somos_equipo.svg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -23528,6 +23540,13 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
  //Noticias Boyaca
+
+
+
+ // Iconos nuevos Nosotros cultura
+
+
+
 
 
 
