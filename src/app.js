@@ -765,6 +765,14 @@ import "./img/boyaca/noticias/coments-user-1.png";
 import "./img/boyaca/noticias/coments-user-2.png";
 
 
+// Iconos nuevos Nosotros cultura
+import "./img/nosotros/cultura/iconos-nuevos/apasionados_excelencia.svg";
+import "./img/nosotros/cultura/iconos-nuevos/escuchar_hablar.svg";
+import "./img/nosotros/cultura/iconos-nuevos/eticos_siempre.svg";
+import "./img/nosotros/cultura/iconos-nuevos/hacemos_lo_imposible.svg";
+import "./img/nosotros/cultura/iconos-nuevos/primero_la_vida.svg";
+import "./img/nosotros/cultura/iconos-nuevos/somos_equipo.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
