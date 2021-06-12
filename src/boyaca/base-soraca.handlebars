@@ -200,7 +200,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="oc-card-widget oc-widget-template wdg-relacionamiento" id="wdg-relacionamiento">
+                    <div class="oc-card-widget oc-widget-template wdg-relacionamiento mb-4 mb-md-0"
+                        id="wdg-relacionamiento">
                         <div class="oc-widget-template__top-bar oc-bg-blue-light">
                             <div class="oc-widget-template__top-bar__title">
                                 <img src="/img/icon_territorio_base_soraca_relacionamiento_icono_menu.svg" alt="">
@@ -238,7 +239,7 @@
                 </div>
 
                 <div class="col-12 col-md-4">
-                    <div class="oc-card-widget oc-widget-template wdg-valvulas" id="wdg-valvulas">
+                    <div class="oc-card-widget oc-widget-template wdg-valvulas mb-4 mb-md-0" id="wdg-valvulas">
                         <div class="oc-widget-template__top-bar oc-bg-green">
                             <div class="oc-widget-template__top-bar__title">
                                 <img src="/img/icon_territorio_base_soraca_valvulas_de_linea_icono_menu.svg" alt="">
@@ -255,7 +256,7 @@
                         </div>
                         <div class="oc-widget-template__body p-3">
                             <div class="row">
-                                <div class="col-6 pr-md-1">
+                                <div class="col-6 p-1 pr-md-1">
                                     <div class="oc-box-dato text-center p-3 item-1">
                                         <h5 class="text-ubicadas">Ubicadas cada</h5>
                                         <span class="oc-number-medium c-green roboto-medium">40</span>
@@ -266,7 +267,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-6 pl-md-1">
+                                <div class="col-6 p-1 pl-md-1">
                                     <div class="oc-box-dato py-3 px-2 item-2 d-flex">
                                         <div>
                                             <img src="/img/valvulas-img-divisor-2.svg" alt="" class="mr-1">
@@ -364,7 +365,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="oc-card-widget oc-widget-template wdg-distancias-linea wdg-distancia"
+
+                    {{!-- Distancia linea Desktop --}}
+                    <div class="oc-card-widget oc-widget-template wdg-distancias-linea wdg-distancia  wdg-distancia__desktop d-none d-md-block"
                         id="wdg-distancias-linea">
                         <div class="oc-widget-template__top-bar oc-bg-green">
                             <div class="oc-widget-template__top-bar__title">
@@ -511,6 +514,196 @@
                             </div>
                         </div>
                     </div>
+
+                    {{!-- Distancia linea Mobile --}}
+                    <div class="oc-card-widget oc-widget-template wdg-distancias-linea wdg-distancia  wdg-distancia__mobile d-md-none"
+                        id="wdg-distancias-linea">
+
+                        <span class="div-linea-mobile"></span>
+
+                        <div class="oc-widget-template__top-bar oc-bg-green">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icon_territorio_base_soraca_distancias_de_linea_sector_sur_icono_menu.svg"
+                                    alt="">
+                                <span>Distancias de línea sector sur</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body p-3">
+                            <div class="item-01 text-center">
+
+                                {{!-- Linea Cupiagua --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row">
+                                    <div class="col-5">
+                                        <img src="/img/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_cupiagua.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            Cupiagua
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            300
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+                                <div class="oc-box-dato row align-items-center p-2 mt-2">
+                                    <span class="item-circle"></span>
+                                    <div class="col-5">
+                                         <p class="roboto-regular mb-0 ml-2">39 Km</p>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                         <p class="roboto-regular m-0">Interfield Diámetro 16 pulgadas</p>
+                                    </div>
+                                </div>
+
+                                {{!-- Linea Cusiana --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row mt-4">
+                                    <div class="col-5">
+                                        <img src="/img/estacion_cusiana.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            Cusiana
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            460
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+                                <div class="oc-box-dato row align-items-center p-2 mt-2">
+                                    <span class="item-circle"></span>
+                                    <div class="col-5">
+                                         <p class="roboto-regular mb-0 ml-2">39 Km</p>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                         <p class="roboto-regular m-0">Diámetro 30 pulgadas</p>
+                                    </div>
+                                </div>
+
+
+                                {{!-- Linea Porvenir --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row mt-4">
+                                    <div class="col-5">
+                                        <img src="/img/estacion_cusiana copia.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            El Porvenir
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            1.137
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+                                <div class="oc-box-dato row align-items-center p-2 mt-2">
+                                    <span class="item-circle"></span>
+                                    <div class="col-5">
+                                         <p class="roboto-regular mb-0 ml-2">53 Km</p>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        
+                                    </div>
+                                </div>
+
+
+                                {{!-- Linea Miraflores --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row mt-4">
+                                    <div class="col-5">
+                                        <img src="/img/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_miraflores.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            Miraflores
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            1.775
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+                                <div class="oc-box-dato row align-items-center p-2 mt-2">
+                                    <span class="item-circle"></span>
+                                    <div class="col-5">
+                                         <p class="roboto-regular mb-0 ml-2">53 Km</p>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        <p class="roboto-regular m-0">Diámetro 36 pulgadas</p>
+                                    </div>
+                                </div>
+
+                                {{!-- Linea La Belleza --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row mt-4">
+                                    <div class="col-5">
+                                        <img src="/img/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_la_belleza.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            La Belleza
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            1.974
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+                                <div class="oc-box-dato row align-items-center p-2 mt-2">
+                                    <span class="item-circle"></span>
+                                    <div class="col-5">
+                                         <p class="roboto-regular mb-0 ml-2">138 Km</p>
+                                    </div>
+                                    <div class="col-7 text-left">
+                                        
+                                    </div>
+                                </div>
+
+                                {{!-- Linea Vasconia --}}
+                                <div class="p-0 item-01 item-01__left align-items-center row mt-4">
+                                    <div class="col-5">
+                                        <img src="/img/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_vasconia.svg"
+                                            alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="roboto-bold m-0 est-name">
+                                            Vasconia
+                                        </p>
+                                        <span class="oc-number-medium c-green">
+                                            134
+                                        </span>
+                                        <p class="roboto-regular m-0">m.s.n.m.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="mt-4 item-02">
+                                <div class="item-02__sect-2 w-100">
+                                    <div class="oc-box-dato d-flex justify-content-around align-items-center p-3">
+                                        <p class="roboto-bold c-green m-0 oc-box-dato__title">Total <br> distancia</p>
+                                        <div class="text-center">
+                                            <span class="oc-number-medium roboto-medium c-green">359</span>
+                                            <span class="roboto-regular c-green oc-box-dato__km">KM</span>
+                                            <p class="roboto-bold oc-box-dato__sector m-0">SECTOR SUR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -552,7 +745,7 @@
                         </div>
                     </div>
 
-                    <div class="oc-card-widget oc-widget-template wdg-seguridad mt-4" id="wdg-seguridad">
+                    <div class="oc-card-widget oc-widget-template wdg-seguridad mt-4 mb-4 mb-md-0" id="wdg-seguridad">
                         <div class="oc-widget-template__top-bar oc-bg-gray">
                             <div class="oc-widget-template__top-bar__title">
                                 <img src="/img/icon_territorio_el_porvenir_seguridad_hse_icono_menu.svg" alt="">
@@ -721,7 +914,8 @@
                             <div class="oc-widget-template__body p-2 card-solicitudes-ingreso">
                                 <div class="row p-3">
                                     <div class="col-12">
-                                        <p class="roboto-light intro-text">Se debe enviar con <b>8 días de anticipación</b> la siguiente
+                                        <p class="roboto-light intro-text">Se debe enviar con <b>8 días de
+                                                anticipación</b> la siguiente
                                             información:</p>
                                         <ul class="wdg-la-estacion__item__li-items pl-3">
                                             <li>Nombre de los visitantes.</li>

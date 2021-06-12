@@ -126,3 +126,36 @@
                 top: -30px
         .oc-porvenir__personal::before
             background-color: white
+    
+@include media_breakpoint_down(sm)
+    #main-boy-soraca
+        .wdg-banner
+            .oc-btn
+                width: 150px
+        .wdg-distancia__mobile
+            position: relative
+            .oc-box-dato
+                position: relative
+                p
+                    font-size: 15px
+                    color: #505D6C
+            .div-linea-mobile
+                width: 1px
+                height: 67%
+                position: absolute
+                border-right: 1px dashed #505D6C
+                left: 40px
+                top: 110px
+                display: inline-block
+                z-index: 1
+            .item-circle
+                display: inline-block
+                width: 10px
+                height: 10px
+                border: 2px solid $green_co
+                border-radius: 50%
+                position: absolute
+                top: calc( 50% - 5px )
+                left: 19px
+                background-color: white
+                z-index: 2
