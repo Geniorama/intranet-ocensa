@@ -50,7 +50,26 @@
                         font-size: 14.5px
     .wdg-distancia
         .item-02
+            .oc-dist-linea
+                display: block
+                width: 95%
+                border-top: 1px dashed #505D6C
+                height: 1px
+                position: absolute
+                top: 50%
+                left: 20px
+                &::before
+                    content: ''
+                    width: 9px
+                    height: 9px
+                    border: 2px solid $green_co
+                    position: absolute
+                    left: -10px
+                    top: calc( 50% - 4.5px )
+                    border-radius: 50%
             &__item-number
+                position: absolute
+                background-color: #F2F2F2
                 span
                     color: #979FA8
                     display: block
@@ -59,6 +78,12 @@
                     line-height: 1em
                 &__text
                     font-size: 10px
+                &:nth-child(4)
+                    right: 85px
+                &:nth-child(3)
+                    left: 230px
+                &:nth-child(2)
+                    left: 32px
             &__sect-1
                 width: 82%
                 &__data
@@ -75,3 +100,7 @@
                         color: #979FA8
                     &__title
                         font-size: 15px
+            &__item-image
+                position: absolute
+                right: -10px
+                bottom: -10px

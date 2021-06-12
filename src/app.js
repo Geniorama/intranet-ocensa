@@ -687,6 +687,10 @@ import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-secto
 import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_miraflores.svg";
 import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_vasconia.svg";
 import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/line-divider-distancias.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon-linea-tubo.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/imag_ocensa_base_soraca_demografico_trabajadores_en_estacion.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/imag_ocensa_base_soraca_demografico_mujeres_y_hombres.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/icon_territorio_base_soraca_demografico_icono_menu.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
