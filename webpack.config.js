@@ -122,6 +122,14 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
+            filename: 'boyaca/base-soraca.html',
+            template: './src/boyaca/base-soraca.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
+        }),
+
+
+        new HtmlWebpackPlugin({
             filename: 'boyaca/estacion-miraflores.html',
             template: './src/boyaca/estacion-miraflores.handlebars',
             minify: false,

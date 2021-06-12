@@ -662,6 +662,35 @@ import "./img/boyaca/fotos/VModal-Santuario-Iguaque/imag_ocensa_territorio_boyac
 // Modal Comunidades Boyacá
 import "./img/boyaca/iconos/vmodal-titulo_comunidades.svg";
 
+// Estación Base Soracá
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_personal_emergencia.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_sub_bases.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_mantenimiento_de_linea.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_infraestructura.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/2-icon-la-base/icon_territorio_base_soraca_superintendencia_mantenimiento.svg";
+import "./img/boyaca/estacion-soraca/fotos/imag_ocensa_1_base_soraca_ubicacion.jpg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_componente_relacionamiento.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/4-icon-relacionamiento/icon_territorio_base_soraca_relacionamiento_personal_comunidades.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/valvulas-divisor-1.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/valvulas-img-divisor-2.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/icon_territorio_base_soraca_valvulas_de_linea_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/5-icon-valvulas-de-linea/icon_territorio_base_soraca_valvulas_de_linea_valvulas.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/6-icon-contratistas/icon_territorio_base_soraca_contratistas_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_3_base_soraca_contratistas.jpg";
+import "./img/boyaca/estacion-soraca/imagenes/imag_ocensa_4_base_soraca_contratistas.jpg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_icono_menu.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_cupiagua.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_cusiana.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_el_porvenir.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_la_belleza.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_miraflores.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_estacion_vasconia.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/line-divider-distancias.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon-linea-tubo.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/imag_ocensa_base_soraca_demografico_trabajadores_en_estacion.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/imag_ocensa_base_soraca_demografico_mujeres_y_hombres.svg";
+import "./img/boyaca/estacion-soraca/iconos-svg/10-icon-demografico/icon_territorio_base_soraca_demografico_icono_menu.svg";
 // Estacion Miraflores
 import "./img/boyaca/estacion-miraflores/miraflores-slide-1.jpg";
 import "./img/boyaca/estacion-miraflores/miraflores-slide-2.jpg";
