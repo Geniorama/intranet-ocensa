@@ -1,4 +1,5 @@
 .wdg-la-estacion-miraflores
+    height: 551px
     p
         margin-right: 0 !important
     .wdg-la-estacion__item__li-items
@@ -11,9 +12,10 @@
             font-size: 14px
             color: #505D6C
             font-family: 'roboto-bold'
-.oc-cas-miraflores
-    .wdg-la-estacion, .wdg-ubicacion
-        height: 576px
+.wdg-ubicacion-miraflores
+    height: 551px
+.wdg-almacenamiento-miraflores
+    height: 432px
 .oc-slick-almacenamiento-miraflores
     img
         margin: auto
@@ -38,11 +40,15 @@
     .item-01__center
         .roboto-regular
             line-height: 1em
+    .oc-box-dato__text__title
+        font-size: 15px
 .wdg-bombeo-miraflores
     .oc-box-dato
         height: 278px
         .text-03
             margin-bottom: 1em
+            color: $gray_co
+            font-family: 'roboto-regular'
         .text-04
             font-size: 14px
             color: #505D6C
@@ -62,6 +68,8 @@
         .text-06
             margin-top: 3em
             margin-bottom: 1em
+            color: $gray_co
+            font-family: 'roboto-regular'
         .variant-02
             font-size: 15px
 .wdg-personal-miraflores
@@ -94,9 +102,10 @@
         margin-top: 2em
         position: absolute
         top: 14px
-        right: 0
+        right: 20px
         margin: 0
         width: 70%
+        text-align: right
     &__line
         position: absolute
     &__line-mobile
@@ -145,6 +154,30 @@
         right: -18px
     .oc-slick-arrow__prev
         left: -18px
+    .point-01
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            top: 17px
+            left: 50%
+            background-color: white
+            border: 2px solid $green_co
+            width: 9px
+            height: 9px
+            border-radius: 50%
+    .point-02
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            top: 41px
+            left: 45%
+            background-color: white
+            border: 2px solid $green_co
+            width: 9px
+            height: 9px
+            border-radius: 50%
 .wdg-como-llegar-miraflores
     height: 100%
     .oc-box-dato
@@ -185,8 +218,9 @@
         &__line-mobile
             opacity: 1
         &__cont-01
+            position: relative
             .oc-gestion-miraflores__line-mobile
-                top: 169px
+                top: 0px
                 height: 176px
         &__cont-02
             .item-01
@@ -204,8 +238,13 @@
                     top: 4px
                     border-radius: 50%
         &__text-03
-            width: 100%
+            width: 90%
             top: 127px
+            padding: 0
+            right: 0
+            left: 0
+            margin: auto
+            text-align: center
         &__cont-03
             .oc-gestion-miraflores__text-01
                 margin-bottom: 7em
@@ -222,3 +261,23 @@
     .oc-cas-miraflores
         .oc-box-dato__img-distancia
             margin: 0
+    .wdg-distancia-miraflores
+        .oc-box-dato__img
+            margin-right: 1em
+        .oc-cont-distancia-item
+            margin-right: 2em
+            .number-lg
+                display: block
+    .wdg-gestion-ambiental
+        .point-01, .point-02
+            &::before
+                content: none
+        .oc-gestion-miraflores__cont
+            height: 474
+        .oc-gestion-miraflores__cont-01
+            padding-top: 4em
+    .wdg-como-llegar-miraflores .oc-box-dato ul li .oc-number
+        right: 35%
+    .wdg-como-llegar-miraflores
+        .badge
+            margin-bottom: 1em

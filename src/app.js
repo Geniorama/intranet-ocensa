@@ -723,7 +723,12 @@ import "./img/boyaca/estacion-miraflores/miraflores-icon-16.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-17.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-18.svg";
 import "./img/boyaca/estacion-miraflores/miraflores-icon-19.svg";
-
+import "./img/boyaca/estacion-miraflores/miraflores-modal-almacenamiento-01.jpg";
+import "./img/boyaca/estacion-miraflores/miraflores-bombeo-01.jpg";
+import "./img/boyaca/estacion-miraflores/miraflores-bombeo-02.jpg";
+import "./img/boyaca/estacion-miraflores/miraflores-bombeo-03.jpg";
+import "./img/boyaca/estacion-miraflores/miraflores-bombeo-04.jpg";
+import "./img/boyaca/estacion-miraflores/miraflores-bombeo-05.jpg";
 
 //Estacion Páez
 import "./img/boyaca/estacion-paez/paez-abrir 1.jpg";
