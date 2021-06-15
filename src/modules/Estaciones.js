@@ -15,9 +15,6 @@ $('.oc-slick-widget__slider').slick({
     infinite: false
 })
 
-const est_cusiana_banner = document.querySelector('.oc-cas-cusiana .wdg-banner__bg')
-
-if(est_cusiana_banner){
-    est_cusiana_banner.scrollLeft = 130
-}
+$('.oc-cas-cusiana .wdg-banner__bg').scrollLeft(130)
+$('.oc-boy-soraca .wdg-banner__bg').scrollLeft(170)
 
