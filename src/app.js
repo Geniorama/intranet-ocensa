@@ -763,6 +763,8 @@ import "./img/boyaca/estacion-paez/4-icon-almacenamiento/paez-almacenamiento-mod
 import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/paez-slide-1.png";
 import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/bombeo-responsive.svg";
 
+import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_diametro_tubo.svg";
+
 
 //Noticias Boyaca
 import "./img/boyaca/noticias/notices-boy-1.jpg";
