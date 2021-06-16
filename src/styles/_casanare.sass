@@ -16,7 +16,7 @@
 .oc-mapa
     height: auto
     text-align: center
-    background-color: white
+    background-color: white !important
     &__container
         position: relative
         width: 1290px
@@ -51,23 +51,23 @@
         .oc-radar
             border: 1px solid #00FF4B
         .oc-mapa__img-plus
-            background-color: #00FF4B
+            background-color: #00FF4B !important
         .oc-mapa__img-icon
-            background-color: #00FF4B
+            background-color: #00FF4B !important
     &__orange
         .oc-radar
             border: 1px solid #FF9700
         .oc-mapa__img-plus
-            background-color: #FF9700
+            background-color: #FF9700 !important
         .oc-mapa__img-icon
-            background-color: #FF9700
+            background-color: #FF9700 !important
     &__purple
         .oc-radar
             border: 1px solid #8AA6FF 
         .oc-mapa__img-plus
-            background-color: #8AA6FF  
+            background-color: #8AA6FF !important  
         .oc-mapa__img-icon
-            background-color: #8AA6FF
+            background-color: #8AA6FF !important
     &__blue
         .oc-radar
             border: 1px solid #00FFFF 
@@ -101,7 +101,7 @@
     &__name-point
         display: flex
         align-items: center
-        background-color: rgba(0, 0, 0, .5)
+        background-color: rgba(0, 0, 0, .5) !important
         border-radius: 20px
         position: relative
         top: -30px
@@ -110,10 +110,10 @@
         opacity: 0
         padding-right: .8em
         span
-            color: white
+            color: white !important
             margin-left: .5em
-            font-family: 'roboto-c-regular'
-            font-size: 12px
+            font-family: 'roboto-c-regular' !important
+            font-size: 12px !important
         .oc-mapa__more
             width: 9px
             height: 9px
@@ -134,7 +134,7 @@
         .oc-mapa__info-item
             display: flex
             align-items: center
-            background-color: rgba(0, 0, 0, .5)
+            background-color: rgba(0, 0, 0, .5) !important
             padding: 0 2.5em 0 1em
             border-radius: 20px
             height: 30px
@@ -143,9 +143,9 @@
                 height: 9px
                 margin-right: .5em
             span
-                color: white
-                font-size: 14px
-                font-family: 'roboto-c-regular'
+                color: white !important
+                font-size: 14px !important
+                font-family: 'roboto-c-regular' !important
         .oc-mapa__img-icon
             height: auto
             position: relative
@@ -159,7 +159,7 @@
         .oc-mapa__info-item
             display: flex
             align-items: center
-            background-color: rgba(0, 0, 0, .5)
+            background-color: rgba(0, 0, 0, .5) !important
             padding: 0 1em 0 2.5em
             border-radius: 20px
             height: 30px
@@ -168,9 +168,9 @@
                 height: 9px
                 margin-left: .5em
             span
-                color: white
-                font-size: 14px
-                font-family: 'roboto-c-regular'
+                color: white !important
+                font-size: 14px !important
+                font-family: 'roboto-c-regular' !important
         .oc-mapa__img-icon
             height: auto
             position: relative
@@ -195,14 +195,14 @@
             height: 12px
             border-radius: 50%
             padding: 0
-            background-color: #00FFFF
+            background-color: #00FFFF !important
             border: 2px solid #FFFFFF
             margin: auto
             cursor: auto !important
         span
-            color: #58FFFF
-            font-size: 12px
-            font-family: 'roboto-c-italic'
+            color: #58FFFF !important
+            font-size: 12px !important
+            font-family: 'roboto-c-italic' !important
             opacity: 0
             transition: $tr
         &:hover span
@@ -311,19 +311,19 @@
             border: 1px solid #CAD2D8
             margin-right: .3em
         span
-            font-size: 12px
+            font-size: 12px !important
             color: #81939F
-            font-family: 'roboto-regular', sans-serif
+            font-family: 'roboto-regular', sans-serif !important
         .oc-indicator-yellow
-            background-color: #FFFF10
+            background-color: #FFFF10 !important
         .oc-indicator-orange
-            background-color: #FF9700
+            background-color: #FF9700 !important
         .oc-indicator-green
-            background-color: #00FF4B
+            background-color: #00FF4B !important
         .oc-indicator-blue
-            background-color: #00FFFF
+            background-color: #00FFFF !important
         .oc-indicator-purple
-            background-color: #8AA6FF
+            background-color: #8AA6FF !important
         
     // STATISTICS
     &__stat
@@ -332,7 +332,7 @@
         left: 0
         display: flex
         border: 1px solid #D6DEE1
-        background-color: white
+        background-color: white !important
         border-radius: 20px
         padding: 1em
         text-align: left
@@ -340,7 +340,7 @@
             margin-right: 1.5em
         &-header
             display: flex
-            background-color: rgba(#95A6B1, .2)
+            background-color: rgba(#95A6B1, .2) !important
             border-radius: 20px
             height: 30px
             align-items: center
@@ -350,10 +350,10 @@
                 width: 30px
                 height: 30px
             h5
-                color: #012969
-                font-size: 14px
+                color: #012969 !important
+                font-size: 14px !important
                 margin: 0
-                font-family: 'roboto-bold'
+                font-family: 'roboto-bold' !important
         &-item-seg
             .oc-tramo
                 display: flex
@@ -362,46 +362,46 @@
                 padding-left: 1.5em
                 position: relative
                 p
-                    color: #012969
-                    font-size: 12.5
-                    font-family: 'roboto-medium'
+                    color: #012969 !important
+                    font-size: 12.5 !important
+                    font-family: 'roboto-medium' !important
                     width: 80px
                     margin: 0
                 span
-                    color: #546374
-                    font-size: 12.5
+                    color: #546374 !important
+                    font-size: 12.5 !important
                 &::before
                     content: '0'
                     position: absolute
                     left: 0
                     top: 15px
-                    background-color: #29A337
+                    background-color: #29A337 !important
                     width: 17px
                     height: 17px
                     border-radius: 50%
-                    color: white
+                    color: white !important
                     display: flex
                     justify-content: center
                     align-items: center
-                    font-family: 'roboto-bold'
-                    font-size: 10px
+                    font-family: 'roboto-bold' !important
+                    font-size: 10px !important
             .oc-distancia
                 display: flex
                 align-items: center
                 padding-left: 1.5em
                 p
-                    color: #012969
-                    font-size: 12.5
-                    font-family: 'roboto-medium'
+                    color: #012969 !important
+                    font-size: 12.5 !important
+                    font-family: 'roboto-medium' !important
                     margin: 0
                     width: 80px
                 .number
-                    font-size: 23.5
-                    font-family: 'roboto-medium'
-                    color: #012969
+                    font-size: 23.5 !important
+                    font-family: 'roboto-medium' !important
+                    color: #012969 !important
                 span
-                    color: #546374
-                    font-size: 12.5
+                    color: #546374 !important
+                    font-size: 12.5 !important
             &:nth-child(1)
                 margin-bottom: .8em
             .oc-tramo-02
@@ -415,27 +415,27 @@
             .arrow
                 width: 17px
                 height: 17px
-                background-color: #29A337
+                background-color: #29A337 !important
                 border-radius: 50%
-                color: white
+                color: white !important
                 display: flex
                 justify-content: center
                 align-items: center
                 margin-right: 1em
             p
                 margin: 0
-                font-size: 12.75
-                color: #012969
-                font-family: 'roboto-medium'
+                font-size: 12.75 !important
+                color: #012969 !important
+                font-family: 'roboto-medium' !important
                 width: 80px
             .number
-                font-size: 23.5
-                font-family: 'roboto-medium'
-                color: #012969
+                font-size: 23.5 !important
+                font-family: 'roboto-medium' !important
+                color: #012969 !important
                 margin-right: .5em
             .date
-                font-size: 12.75
-                font-family: 'roboto-light'
+                font-size: 12.75 !important
+                font-family: 'roboto-light' !important
             &:nth-child(4)
                 border: none
 

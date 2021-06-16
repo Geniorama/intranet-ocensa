@@ -6,7 +6,7 @@
   justify-content: space-between
   box-sizing: border-box
   padding: 0
-  background: none
+  background: none !important
   border: none
   outline: 0px
   position: relative
@@ -17,7 +17,7 @@
     height: 5px
     top: 0
     display: block
-    background-color: white
+    background-color: white !important
     margin: 0
     box-sizing: border-box
     border-radius: 50px
@@ -34,11 +34,11 @@
         position: absolute
         left: 0
         top: 0
-        background-color: #009A43
+        background-color: #009A43 !important
         border-radius: 50px
     &.line-2
-      background: rgb(0,129,0)
-      background: linear-gradient(90deg, rgba(0,129,0,1) 0%, rgba(0,205,0,1) 100%)
+      background: rgb(0,129,0) !important
+      background: linear-gradient(90deg, rgba(0,129,0,1) 0%, rgba(0,205,0,1) 100%) !important
       &::before
         width: 6px
         height: 100%
@@ -46,7 +46,7 @@
         position: absolute
         left: 0
         top: 0
-        background-color: white
+        background-color: white !important
         border-radius: 50%
       &::after
         width: 30%
@@ -55,7 +55,7 @@
         position: absolute
         left: calc(50% - 15%)
         top: 0
-        background-color: white
+        background-color: white !important
         border-radius: 50px
     &.line-3
       &::before
@@ -66,7 +66,7 @@
         left: unset
         right: 0
         top: 0
-        background-color: #EFEF00
+        background-color: #EFEF00 !important
         border-radius: 50%
   &:hover
     cursor: pointer
@@ -83,12 +83,12 @@
         justify-content: center
         .line
           position: absolute
-          background-color: rgba(#fff, .4)
+          background-color: rgba(#fff, .4) !important
           transition: all 1s
           top: 15px
           bottom: 0
           &::before
-            background-color: rgba(#fff, .7)
+            background-color: rgba(#fff, .7) !important
             transition: all 1s
         .line-1
           transform: rotate(45deg)
@@ -111,5 +111,5 @@
             position: absolute
             right: 0
             top: 0
-            background-color: rgba(#fff, .7)
+            background-color: rgba(#fff, .7) !important
             border-radius: 50px

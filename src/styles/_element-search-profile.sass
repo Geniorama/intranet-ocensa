@@ -1,6 +1,6 @@
 .oc-item-search-profile
     &__cont
-        background-color: white
+        background-color: white !important
         width: 100%
         border: solid 1px #E4E4E4
         &__img-notice
@@ -13,19 +13,19 @@
                 object-fit: cover
         &__desc
             &__station
-                color: #505D6C
+                color: #505D6C !important
                 transition: $tr
                 &:hover
-                    color: $green_co
+                    color: $green_co !important
                     text-decoration: none
             &__area
                 &:hover
                     text-decoration: none
                     p
-                        color: $blue_co
+                        color: $blue_co !important
             h2
-                font-family: 'roboto-regular', sans-serif
-                font-size: 23px
+                font-family: 'roboto-regular', sans-serif !important
+                font-size: 23px !important
                     
             hr
                 width: 50px
@@ -33,11 +33,11 @@
                 padding: 0
                 margin: auto
                 margin-left: 0
-                background-color: $green_co
+                background-color: $green_co !important
             p
-                font-family: 'helvetica-light', sans-serif
-                font-size: 16px
-                color: #505D6C
+                font-family: 'helvetica-light', sans-serif !important
+                font-size: 16px !important
+                color: #505D6C !important
 
 @include media-breakpoint-down(lg)
     .oc-item-search-profile
@@ -59,10 +59,10 @@
                     margin-left: -10px
             &__desc
                 &__area
-                    font-size: 13px
+                    font-size: 13px !important
                     line-height: 1.3em
                     margin-top: 1em
                     margin-bottom: 5px
                     display: block
                 &__station
-                    font-size: 15px
+                    font-size: 15px !important
