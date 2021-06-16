@@ -1,5 +1,5 @@
 .oc-header
-    background-color: white
+    background-color: white !important
     transition: $tr
     z-index: 4
     &__cont
@@ -22,16 +22,16 @@
             width: 22px
             margin-right: .3em
         span
-            color: #1D1D1B
+            color: #1D1D1B !important
             transition: $tr
-            font-size: 16px
+            font-size: 16px !important
         &:hover span
-                color: $green_co
+                color: $green_co !important
                 font-weight: bold
     &__widgets
         position: relative
         &-info
-            background-color: $green_co
+            background-color: $green_co !important
             padding: .5em .7em
             text-align: center
             cursor: inherit
@@ -42,8 +42,8 @@
                 visibility: hidden
             span
                 display: block
-                color: #ffffff
-                font-size: 16px
+                color: #ffffff !important
+                font-size: 16px !important
                 visibility: hidden
     &__widgets-cont
         position: absolute
@@ -51,7 +51,7 @@
         top: 65px
         z-index: 4
         max-height: 110vh
-        background-color: #ffffff
+        background-color: #ffffff !important
         width: 100%
         text-align: center
         transition: all .5s ease-in-out
@@ -77,42 +77,42 @@
             height: auto
             object: cover
     &__widgets-desc
-        color: #8F9FA9
-        font-size: 11px
+        color: #8F9FA9 !important
+        font-size: 11px !important
         margin: 0
     &__widgets-edit
-        background-color: $gray_co
-        color: #ffffff
-        font-size: 11px
+        background-color: $gray_co !important
+        color: #ffffff !important
+        font-size: 11px !important
         border-radius: 10px
         border: none
         padding: .2em 1.5em
-        font-family: 'cabin-bold'
+        font-family: 'cabin-bold', sans-serif !important
         transition: $tr
         &:hover
-            background-color: $green-co
+            background-color: $green-co !important
     &__widgets-correo
-        background-color: $green-co
+        background-color: $green-co !important
     &__widgets-agenda
-        background-color: $blue_light_co
+        background-color: $blue_light_co !important
     &__widgets-grupos
-        background-color: $green-co
+        background-color: $green-co !important
     &__widgets-enlaces
-        background-color: $gray_co
+        background-color: $gray_co !important
     &__widgets-apps
-        background-color: $blue_light_co
+        background-color: $blue_light_co !important
     &__widgets-indicadores
-        background-color: $green-co
+        background-color: $green-co !important
     &__widgets-noticias
-        background-color: $gray_co
+        background-color: $gray_co !important
     &__widgets-agenda-calendario
-        background-color: $blue_light_co
+        background-color: $blue_light_co !important
     &__widgets-encuesta
-        background-color: $gray_co
+        background-color: $gray_co !important
     &__widgets-galeria
-        background-color: $blue_light_co
+        background-color: $blue_light_co !important
     &__widgets-otro
-        background-color: #BEBEBE
+        background-color: #BEBEBE !important
 
 .oc-general-index
     .oc-header__widgets-info
@@ -136,14 +136,14 @@
             img
                 width: 150px
         .oc-btn-menu-superior
-            background-color: white
+            background-color: white !important
             border: none
             width: 45px
             transform: translateX(-8px)
             span
-                color: #28347D
-                font-family: 'roboto-bold', sans-serif
-                font-size: .8em   
+                color: #28347D !important
+                font-family: 'roboto-bold', sans-serif !important
+                font-size: .8em !important 
         .oc-search-bar__btn
             width: 50px
             height: 50px
@@ -152,7 +152,7 @@
             border: none
             position: relative
             z-index: 2
-            background-color: $green_co
+            background-color: $green_co !important
             outline: none !important
             box-shadow: none !important
             transition: all 1s ease-in-out
@@ -160,7 +160,7 @@
                 outline: none !important
                 box-shadow: none !important
             &:hover
-                background-color: $green_co
+                background-color: $green_co !important
             img
                 width: 70%
                 transition: all 1s

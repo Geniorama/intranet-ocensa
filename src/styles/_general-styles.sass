@@ -9,7 +9,7 @@ h3, h4, h5, h6
     font-family: 'roboto-bold', sans-serif
 
 p, span
-    font-family: 'roboto-c-regular', sans-serif
+    font-family: 'roboto-c-regular', sans-serif 
 
 .roboto-regular
     font-family: 'roboto-regular', sans-serif !important
@@ -28,31 +28,31 @@ p, span
 
 // Custom Bootstrap
 .btn
-    font-family: 'cabin-bold', sans-serif
+    font-family: 'cabin-bold', sans-serif !important
     border-radius: 50px
-    font-size: .9em
+    font-size: .9em !important
     line-height: 1em
     &:focus
         outline: 0px
         box-shadow: none
 
 .btn-primary
-    background-color: $green_co
-    border-color: $green_co
+    background-color: $green_co !important
+    border-color: $green_co !important
     &:hover
-        background-color: white
-        border-color: white
-        color: $green_co
+        background-color: white !important
+        border-color: white !important
+        color: $green_co !important
     &:active, &:focus
         background-color: $green_co !important
         
 .btn-secondary
-    background-color: #707070
-    border-color: #707070
+    background-color: #707070 !important
+    border-color: #707070 !important
     &:hover
-        background-color: $green_co
-        border-color: $green_co
-        color: white
+        background-color: $green_co !important
+        border-color: $green_co !important
+        color: white !important
     &:focus
         background-color: #707070 !important
         border-color: #707070 !important
@@ -60,17 +60,17 @@ p, span
 // Help Classes
 .oc-bg
     &-yellow
-        background-color: $yellow_co
+        background-color: $yellow_co !important
     &-green
-        background-color: $green_co
+        background-color: $green_co !important
     &-blue
-        background-color: $blue_co
+        background-color: $blue_co !important
     &-gray
-        background-color: $gray_co
+        background-color: $gray_co !important
     &-gray-light
-        background-color: $gray-light_co
+        background-color: $gray-light_co !important
     &-blue-light
-        background-color: #2B5CDA
+        background-color: #2B5CDA !important
 
 .justify-content-evenly
     justify-content: space-evenly !important
@@ -86,15 +86,15 @@ p, span
         border-radius: 10px
     &::-webkit-scrollbar-thumb
         border-radius: 10px
-        background: #19A501
+        background: #19A501 !important
     &-vertical
         &::-webkit-scrollbar
             width: 5px
 .oc-btn-view
-    color: #012969
+    color: #012969 !important
     text-decoration: none
-    font-family: 'roboto-regular', sans-serif
-    font-size: 15px
+    font-family: 'roboto-regular', sans-serif !important
+    font-size: 15px !important
     transition: $tr
     &__arrow
         margin-left: 5px
@@ -108,13 +108,13 @@ p, span
             height: 2px
             top: calc(50% - 1px)
             right: 20px
-            background-color: $green_co
+            background-color: $green_co !important
             transition: $tr
         svg
             width: 20px
             height: 14px
     &:hover
-        color: $green_co
+        color: $green_co !important
         text-decoration: none
         .oc-btn-view__arrow
             margin-left: 25px
@@ -134,30 +134,30 @@ p, span
 .oc-category
     transition: $tr
     text-transform: uppercase
-    font-family: 'roboto-c-bold'
+    font-family: 'roboto-c-bold', sans-serif !important
     letter-spacing: 1px
-    background-color: #B4BEC5
-    color: white
-    font-size: 9px
+    background-color: #B4BEC5 !important
+    color: white !important
+    font-size: 9px !important
     padding: 5px
     &:hover
-        background-color: black
+        background-color: black !important
         text-decoration: none
-        color: white
+        color: white !important
 
 .oc-link-title-search
-    color: black
+    color: black !important
     text-decoration: none
     transition: $tr
     h2
         font-family: 'roboto-regular', sans-serif !important
     &:hover
-        color: $green_co
+        color: $green_co !important
         text-decoration: none
 .oc-item__date
-    font-family: 'roboto-regular', sans-serif
-    font-size: 15px
-    color: $blue_co
+    font-family: 'roboto-regular', sans-serif !important
+    font-size: 15px !important
+    color: $blue_co !important
 
 .pagination
     .number-page
@@ -167,8 +167,8 @@ p, span
         line-height: 0
         &.active
             background-color: $green_co !important
-            color: white
-            border-color: $green_co
+            color: white !important
+            border-color: $green_co !important
 
 .flecha-ocensa
     width: 13px
@@ -197,7 +197,7 @@ p, span
             border-bottom: 2px solid white
             border-left: 2px solid white
     &.flecha-blanca
-        background-color: white
+        background-color: white !important
     &.flecha-verde
         background-color: $green_co !important
         &::before
@@ -205,41 +205,41 @@ p, span
 .oc-btn
     min-height: 20px
     span
-        font-family: 'cabin-bold',sans-serif
-        font-size: 12px
+        font-family: 'cabin-bold',sans-serif !important
+        font-size: 12px !important
         letter-spacing: 1px
     &:hover
         text-decoration: none
         .flecha-ocensa
             width: 17px
     &__green
-        background-color: $green_co
+        background-color: $green_co !important
         &:hover
-            color: white
+            color: white !important
     &__blue
-        background-color: #2B5CDA
+        background-color: #2B5CDA !important
         &:hover
-            color: white
+            color: white !important
     &__gray
-        background-color: #505D6C
+        background-color: #505D6C !important
         &:hover
-            color: white
+            color: white !important
         &-light
-            background-color: #EAEDEF
+            background-color: #EAEDEF !important
             color: #385C6B !important
     &__white
-        background-color: white
+        background-color: white !important
         color: #24A31A !important
         &:hover
-            color: #24A31A
+            color: #24A31A !important
     &__large
         min-height: 24px
         span
-            font-size: 14px
+            font-size: 14px !important
     &__card-post
         span
             font-family: 'roboto-bold' , sans-serif !important
-            font-size:  15px
+            font-size:  15px !important
             color: #28347D !important
         .flecha-ocensa
             width: 16px
@@ -256,7 +256,7 @@ p, span
     position: relative
     padding: 1em 3em
     .oc-slick-arrow
-        background-color: white
+        background-color: white !important
         border: 1px solid #C8D1D6
         width: 30px
         height: 30px
@@ -270,7 +270,7 @@ p, span
         top: calc( 50% - 15px )
         outline: none
         &:hover
-            background-color: $green_co
+            background-color: $green_co !important
             path
                 stroke: white
         &__prev
@@ -283,7 +283,7 @@ p, span
             path
                 stroke: #ccc
             &:hover
-                background-color: white
+                background-color: white !important
         svg
             width: 8px
             height: auto
@@ -298,13 +298,13 @@ p, span
         li
             width: 10px
             height: 10px
-            background-color: white
+            background-color: white !important
             border-radius: 50%
             margin: 7px
             box-sizing: border-box
             cursor: pointer
             &.slick-active
-                background-color: $green_co
+                background-color: $green_co !important
         button
             display: none
 
@@ -339,8 +339,8 @@ p, span
         align-items: center
         padding-left: 1em
         span
-            color: white
-            font-family: 'roboto-c-regular'
+            color: white !important
+            font-family: 'roboto-c-regular', sans-serif !important
     &__like
         cursor: pointer
         margin-right: 1em
@@ -349,8 +349,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: white
-            font-family: 'roboto-c-bold'
+            color: white !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__comments
         cursor: pointer
         margin-right: 1em
@@ -359,8 +359,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: white
-            font-family: 'roboto-c-bold'
+            color: white !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__share
         cursor: pointer
         margin-right: 1em
@@ -369,8 +369,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: white
-            font-family: 'roboto-c-bold'
+            color: white !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__favorite
         cursor: pointer
         margin-right: 1em
@@ -379,8 +379,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: white
-            font-family: 'roboto-c-bold'
+            color: white !important
+            font-family: 'roboto-c-bold', sans-serif !important
 
     //Titulos
 .oc-title-style2
@@ -390,15 +390,15 @@ p, span
     &__title-section
         margin-top: .5em
         font-size: 35px
-        font-family: 'roboto-regular', sans-serif
-        color: $blue_co
+        font-family: 'roboto-regular', sans-serif !important
+        color: $blue_co !important
         position: relative
         &::before
             content: ""
             position: absolute
             width: 75px
             height: 3px
-            background-color: $green_co
+            background-color: $green_co !important
             bottom: -10px
             left: 0
 
@@ -444,8 +444,8 @@ p, span
         align-items: center
         padding-left: 1em
         span
-            color: $blue_light_co
-            font-family: 'roboto-c-regular'
+            color: $blue_light_co !important
+            font-family: 'roboto-c-regular' , sans-serif !important
     &__like
         cursor: pointer
         margin-right: 1em
@@ -454,8 +454,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: #000000
-            font-family: 'roboto-c-bold'
+            color: #000000 !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__share
         cursor: pointer
         margin-right: 1em
@@ -464,8 +464,8 @@ p, span
         img
             margin-right: .2em
         span
-            color: #000000
-            font-family: 'roboto-c-bold'
+            color: #000000 !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__favorite
         cursor: pointer
         margin-right: 1em
@@ -474,15 +474,15 @@ p, span
         img
             margin-right: .2em
         span
-            color: #95A6B1
-            font-family: 'roboto-c-bold'
+            color: #95A6B1 !important
+            font-family: 'roboto-c-bold', sans-serif !important
     &__img-dest
         width: 100%
         height: 460px
         object-fit: cover
         margin-top: 3em
     span
-        font-family: 'roboto-medium'
+        font-family: 'roboto-medium', sans-serif !important
 
 
 @include media-breakpoint-down(sm)
@@ -507,20 +507,20 @@ p, span
         left: 6em
         width: 500px
     &__title-p
-        color: $green-co
-        font-size: 55px
+        color: $green-co !important
+        font-size: 55px !important
         position: relative
         &::before
             content: ''
-            position: absolute
-            background-color: $green_co
+            position: absolute 
+            background-color: $green_co !important
             bottom: 0
             left: 0
             width: 85px
             height: 4px
     &__title-s
-        color: white
-        font-size: 85px
+        color: white !important
+        font-size: 85px !important
         line-height: 1em
 
 
@@ -533,9 +533,9 @@ p, span
             top: 30%
             width: 300px
         &__title-p
-            font-size: 39px
+            font-size: 39px !important
         &__title-s
-            font-size: 60px
+            font-size: 60px !important
 
         
 @include media-breakpoint-down(sm)
