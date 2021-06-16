@@ -11,9 +11,9 @@
             width: 66px
             margin-right: 1em
         h2
-            font-size: 21px
-            color: $blue_co
-            font-family: 'cabin-bold'
+            font-size: 21px !important
+            color: $blue_co !important
+            font-family: 'cabin-bold', sans-serif !important
             margin-bottom: 0
             margin-top: .5em
 
@@ -31,13 +31,13 @@
         right: 183px
         top: 219px
         text
-            font-family: 'roboto-c-bold', sans-serif
+            font-family: 'roboto-c-bold', sans-serif !important
     &__mapa
         position: absolute
         right: 0
         top: 0
         text
-            font-family: 'roboto-c-bold', sans-serif
+            font-family: 'roboto-c-bold', sans-serif !important
         #Componente_130_33, #Componente_128_4, #Componente_131_4m, #Componente_132_4, #Componente_133_4, #Componente_131_4, #Trazado_5048-2
             path, text
                 transition: $tr
@@ -45,13 +45,13 @@
                 fill: #FFD300
             &:hover text
                 fill: #000
-                font-size: 9
+                font-size: 9 !important
         .active
             path
                 fill: #FFD300
             text
                 fill: #000
-                font-size: 9
+                font-size: 9 !important
     &__barco
         width: 55px
         position: absolute
@@ -67,7 +67,7 @@
         &:hover
             text-decoration: none
     &__target
-        background-color: #95A6B1
+        background-color: #95A6B1 !important
         border: 1px solid white
         border-radius: 0 0 5px 5px
         display: inline-block
@@ -79,7 +79,7 @@
         &::before
             content: ''
             position: absolute
-            background-color: #95A6B1
+            background-color: #95A6B1 !important
             width: 7px
             height: 7px
             border-bottom: 1px solid white
@@ -91,16 +91,16 @@
             transform: rotate(45deg)
     &__number
         display: block
-        font-size: 13px
-        color: white
-        font-family: 'roboto-medium'
+        font-size: 13px !important
+        color: white !important
+        font-family: 'roboto-medium' , sans-serif !important
         line-height: 1em
         margin-top: .3em
     &__date
         display: block
-        font-size: 10px
-        color: white
-        font-family: 'roboto-medium'
+        font-size: 10px !important
+        color: white !important
+        font-family: 'roboto-medium' , sans-serif !important
         line-height: 1em
     &__cont-circle
         width: 16px
@@ -117,19 +117,19 @@
             content: ''
             position: absolute
             width: 1px
-            background-color: #95A6B1
+            background-color: #95A6B1 !important
             top: 17px
     &__circle
         width: 10px
         height: 10px
-        background-color: $yellow_co
+        background-color: $yellow_co !important
         border-radius: 50%
         border: 2px solid white
         margin: 0
     &__text
-        font-size: 9px
-        font-family: 'roboto-c-bold'
-        color: $blue_co
+        font-size: 9px !important
+        font-family: 'roboto-c-bold', sans-serif !important
+        color: $blue_co !important
         transition: $tr
         padding: .2em
         border-radius: 5px
@@ -142,9 +142,9 @@
             .oc-recorrido__cont-circle
                 border: 1px solid $yellow_co
             .oc-recorrido__text
-                background-color: #2B5CDA
+                background-color: #2B5CDA !important
                 border: 1px solid white
-                color: white
+                color: white !important
     &__item-01
         top: 117px
         left: 66px
@@ -242,10 +242,10 @@
             &::before
                 height: 11px
         .oc-recorrido__circle
-            background-color: $blue_co
+            background-color: $blue_co !important
         &:hover
             .oc-recorrido__cont-circle
-                border: 1px solid $blue_co
+                border: 1px solid $blue_co !important
     &__item-13
         top: 221px
         left: 571px
@@ -255,7 +255,7 @@
             &::before
                 height: 11px
         .oc-recorrido__circle
-            background-color: $blue_co
+            background-color: $blue_co !important
         &:hover
             .oc-recorrido__cont-circle
                 border: 1px solid $blue_co
@@ -268,7 +268,7 @@
             &::before
                 height: 11px
         .oc-recorrido__circle
-            background-color: $blue_co
+            background-color: $blue_co !important
         &:hover
             .oc-recorrido__cont-circle
                 border: 1px solid $blue_co

@@ -4,7 +4,7 @@
     border-right: 0px
     position: relative
     z-index: 3
-    background-color: white
+    background-color: white !important
     .oc-menu-arrow
         width: 10px
         position: absolute
@@ -21,9 +21,9 @@
         padding: 10px 0
         height: 50px
     .nav-link
-        font-family: 'roboto-regular' !important
-        font-size: 13px
-        color: $blue_co
+        font-family: 'roboto-regular', sans-serif !important
+        font-size: 13px !important
+        color: $blue_co !important
         position: relative
         padding: 0px 1em
         padding-bottom: 5px
@@ -37,14 +37,14 @@
             content: ''
             width: 0px
             height: 3px
-            background-color: $green_co
+            background-color: $green_co !important
             position: absolute
             bottom: 0
             left: 50%
             transition: $tr
         &:hover, &.active
-            color: $green_co
-            font-family: 'roboto-bold', sans-serif
+            color: $green_co !important
+            font-family: 'roboto-bold', sans-serif !important
             svg
                 path, line, rect, ellipse, circle
                     stroke: $green_co
@@ -91,7 +91,7 @@
                 .nav-link
                     padding-bottom: 1em
                     margin: 0 2em
-                    font-size: 15px
+                    font-size: 15px !important
                     transition: $tr
                     svg
                         width: 20px
