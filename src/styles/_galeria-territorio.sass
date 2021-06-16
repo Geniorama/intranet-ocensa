@@ -7,7 +7,7 @@
     &__box
         width: 140%
         height: 300px
-        background-color: #95A6B1
+        background-color: #95A6B1 !important
 .cont-img-gallery
     position: relative
     .img-normal
@@ -19,14 +19,14 @@
         top: 0
         left: 0
         transition: $tr
-        background-color: rgba($green_co , .7)
+        background-color: rgba($green_co , .7) !important
         text-decoration: none
         &:hover
             text-decoration: none
         p
-            color: white
-            font-family: 'roboto-bold', sans-serif
-            font-size: 20px
+            color: white !important
+            font-family: 'roboto-bold', sans-serif !important
+            font-size: 20px !important
             top: 45%
         .img-hover
             width: 100%
@@ -43,14 +43,14 @@
                 path
                     transition: all .1s ease-in-out
             &:hover
-                border: 3px solid white
+                border: 3px solid white !important
                 svg
                     path
                         stroke-width: 3
             &__prev
                 top: 35%
-                border: 1px solid white
-                background-color: transparent
+                border: 1px solid white !important
+                background-color: transparent !important
                 transform: rotate(180deg)
                 svg
                     path
@@ -58,7 +58,7 @@
             &__next
                 top: 65%
                 border: 1px solid white
-                background-color: transparent
+                background-color: transparent !important
                 svg
                     path
                         stroke: white

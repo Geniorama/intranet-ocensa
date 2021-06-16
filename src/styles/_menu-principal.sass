@@ -3,7 +3,7 @@
     top: 0
     left: 0
     right: 0
-    background-color: #A6B3BC
+    background-color: #A6B3BC !important
     height: 100vh
     overflow: hidden
     transform: translateY(-200%)
@@ -23,8 +23,8 @@
         &__cerrar
             cursor: pointer
             &__text
-                color: white
-                font-size: .7em
+                color: white !important
+                font-size: .7em !important
             .close
                 opacity: 1 !important
         &__brand
@@ -32,8 +32,8 @@
             max-width: 200px
     &__bottom
         &__heading
-            color: white
-            font-family: 'roboto-black', sans-serif
+            color: white !important
+            font-family: 'roboto-black', sans-serif !important
         .nav-item
             border-bottom: 1px solid white
             padding: 1em 0 .5em 0
@@ -43,11 +43,11 @@
         .nav-link
             padding-left: 0
             padding-right: 0
-            font-family: 'roboto-c-regular', sans-serif
-            color: #1D1D1B
+            font-family: 'roboto-c-regular', sans-serif !important
+            color: #1D1D1B !important
             transition: $tr
             &:hover
-                color: white
+                color: white !important
     .oc-submenu
         display: none
         .nav-item
@@ -56,23 +56,23 @@
     .item-has-child
         &.open
             .nav-link
-                color: white
+                color: white !important
             svg
                 transform: rotate(90deg)
             .oc-submenu
                 .nav-link
-                    color: #1D1D1B
+                    color: #1D1D1B !important
                     &:hover
-                        color: white
+                        color: white !important
     &__footer
         position: absolute
         bottom: 0
         left: 0
         right: 0
         a
-            color: white
-            font-family: 'roboto-medium', sans-serif
-            font-size: .9em
+            color: white !important
+            font-family: 'roboto-medium', sans-serif !important
+            font-size: .9em !important
         &__symbol
             position: absolute
             right: 6em
