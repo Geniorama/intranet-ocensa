@@ -3,9 +3,9 @@
     height: 100%
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
     overflow: hidden
-    background-color: white
+    background-color: white !important
     &__top-bar
-        background-color: #2B5CDA
+        background-color: #2B5CDA !important
         display: flex
         justify-content: space-between
         height: 50px
@@ -13,9 +13,9 @@
             display: flex
             align-items: center
             span
-                font-family: 'cabin-bold', sans-serif
-                color: white
-                font-size: 20px
+                font-family: 'cabin-bold', sans-serif !important
+                color: white !important
+                font-size: 20px !important
                 margin-left: 10px
         &__right
             display: flex
@@ -29,12 +29,12 @@
                 width: 100px
         &__calendar
             .month-name
-                color: #2B5CDA
+                color: #2B5CDA !important
                 font-weight: normal
                 text-align: center
                 margin-top: 10px
                 line-height: 15px
-                font-size: 20px
+                font-size: 20px !important
             ol
                 list-style: none
                 display: grid
@@ -43,11 +43,11 @@
                 text-align: center
                 margin: 0
                 .day-name
-                    background-color: #C8D1D6
-                    color: white
+                    background-color: #C8D1D6 !important
+                    color: white !important
                     position: relative
                     height: 23px
-                    font-family: 'helvetica-neue-c-black', sans-serif
+                    font-family: 'helvetica-neue-c-black', sans-serif !important
                     &::before
                         content: ''
                         height: 190px
@@ -55,29 +55,29 @@
                         position: absolute
                         right: 0
                         top: 0
-                        background-color: #C8D1D6
+                        background-color: #C8D1D6 !important
                     &.no-line
                         &::before
                             width: 0
                 .day-selected
-                    background-color: #C8D1D6
+                    background-color: #C8D1D6 !important
                     width: 38px
                     margin: auto
                     border-radius: 50%
-                    color: white
+                    color: white !important
                 .day-especial
-                    color: #2B5CDA
+                    color: #2B5CDA !important
                 .day-disabled
-                    color: #C8D1D6
+                    color: #C8D1D6 !important
                 li
-                    font-family: 'helvetica-neue-condensed', Arial, Helvetica, sans-serif
+                    font-family: 'helvetica-neue-condensed', Arial, Helvetica, sans-serif !important
                     height: 38px
                     display: flex
                     justify-content: center
                     flex-direction: column
                     align-items: center
-                    color: #505D6C
-                    font-size: 19px
+                    color: #505D6C !important
+                    font-size: 19px !important
                     position: relative
                     .oc-dots
                         position: absolute
@@ -86,7 +86,7 @@
             .first-day
                 grid-column-start: 2
         &__display
-            background-color: rgba(#C8D1D6, .4)
+            background-color: rgba(#C8D1D6, .4) !important
             margin-top: 10px
             display: flex
             align-items: center
@@ -99,24 +99,24 @@
                 margin: 0
             .oc-conv
                 display: flex
-                font-family: 'roboto-c-regular', sans-serif
-                color: black
-                font-size: 12px
+                font-family: 'roboto-c-regular', sans-serif !important
+                color: black !important
+                font-size: 12px !important
                 div
                     margin-right: 8px
 
 .dot
     width: 7px
     height: 7px
-    background-color: gray
+    background-color: gray !important
     border-radius: 50%
     display: inline-block
     &-ocensa
-        background-color: #00AF00
+        background-color: #00AF00 !important
     &-personal
-        background-color: #37ABF4
+        background-color: #37ABF4 !important
     &-especial
-        background-color: #00AF00
+        background-color: #00AF00 !important
         position: relative
         &::before
             content: ''
@@ -159,33 +159,33 @@
         box-sizing: border-box
         
         &__date
-            background-color: #505D6C
+            background-color: #505D6C !important
             width: 23%
             min-width: 70px
             display: flex
             flex-direction: column
             justify-content: center
             align-items: center
-            color: white
-            font-family: 'helvetica-neue-condensed', sans-serif
+            color: white !important
+            font-family: 'helvetica-neue-condensed', sans-serif !important
             hr
                 width: 50%
                 margin: 0
             .day-name, .month
-                font-size: 12px
+                font-size: 12px !important
             .day-number
-                font-size: 22px
+                font-size: 22px !important
         &__info
-            font-family: 'roboto-c-regular', sans-serif
+            font-family: 'roboto-c-regular', sans-serif !important
             padding: 10px
             .title
                 font-weight: normal
                 margin: 0
-                color: black
-                font-size: 15px
+                color: black !important
+                font-size: 15px !important
             .time, .type
-                font-size: 12px
-                color: #8E9FAA
+                font-size: 12px !important
+                color: #8E9FAA !important
                 font-weight: normal
             .type
                 display: flex
@@ -200,16 +200,16 @@
                             background-size: 16px
 
                 p
-                    font-family: 'roboto-c-regular', sans-serif
+                    font-family: 'roboto-c-regular', sans-serif !important
                     margin: 0
                     line-height: 1em
             .m-teams
-                font-family: 'cabin-bold', sans-serif
-                color: #505D6C
-                font-size: 15px
+                font-family: 'cabin-bold', sans-serif !important
+                color: #505D6C !important
+                font-size: 15px !important
                 margin: 10px 0
             .room, .n-guest
-                font-size: 15px
+                font-size: 15px !important
                 display: block
                 line-height: 1.5em
             .profile-guest
@@ -227,17 +227,17 @@
                             height: 31px
                 &__info
                     padding: 0 5px
-                    font-size: 10px
+                    font-size: 10px !important
                     span
                         display: block
                         line-height: 13px
                     .name-guest
                         font-weight: normal
                         margin: 0px
-                        font-size: 13px
+                        font-size: 13px !important
     
         .oc-more-info
-            background-color: transparent
+            background-color: transparent !important
             border: none
             position: absolute
             right: 10px
@@ -246,7 +246,7 @@
             z-index: 5
         
         .oc-btn-close
-            background-color: transparent
+            background-color: transparent !important
             border: none
             position: absolute
             right: 0
@@ -278,7 +278,7 @@
 .content-dia-evento
     .oc-content-agenda__item
         width: 100%
-        background-color: #ECEFF1
+        background-color: #ECEFF1 !important
         border-bottom: none
         margin-bottom: 0
         min-height: 326px
@@ -300,22 +300,22 @@
 // Styles dia
 .content-dia
     margin-top: 10px
-    background-color: #ECEFF1
+    background-color: #ECEFF1 !important
     min-height: 334px
     &__title-bar
-        background-color: #505D6C
+        background-color: #505D6C !important
         display: flex
         align-items: center
         justify-content: space-between
         padding: 0 10px
-        color: white
+        color: white !important
         h5
             line-height: 0
-            font-family: 'helvetica-neue-c-black', sans-serif
+            font-family: 'helvetica-neue-c-black', sans-serif !important
             font-weight: normal
-            font-size: 16px
+            font-size: 16px !important
     .oc-btn-close
-        background-color: transparent
+        background-color: transparent !important
         border: none
         display: inline-block
         width: 30px

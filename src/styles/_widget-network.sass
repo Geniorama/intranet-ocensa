@@ -5,10 +5,10 @@
     overflow: hidden
     background: white
     .oc-panel-agregar
-        background-color: #F0F1F3
+        background-color: #F0F1F3 !important
         height: 100%
     &__top-bar
-        background-color: #505D6C
+        background-color: #505D6C !important
         display: flex
         justify-content: space-between
         height: 50px
@@ -16,9 +16,9 @@
             display: flex
             align-items: center
             span
-                font-family: 'cabin-bold', sans-serif
-                color: white
-                font-size: 20px
+                font-family: 'cabin-bold', sans-serif !important
+                color: white !important
+                font-size: 20px !important
                 margin-left: 10px
         &__right
             display: flex
@@ -43,17 +43,17 @@
                 justify-content: space-between
                 align-items: center
             .oc-form-control
-                background-color: white
+                background-color: white !important
                 border: none
                 width: 85%
                 display: inline-block
                 height: 30px
-                font-size: 15px
-                font-family: 'roboto-c-regular', sans-serif
+                font-size: 15px !important
+                font-family: 'roboto-c-regular', sans-serif !important
                 outline: none
                 padding: 0px 10px
             &__close
-                background-color: transparent
+                background-color: transparent !important
                 border: none
                 display: inline-block
                 padding: 0
@@ -83,54 +83,54 @@
                         object-fit: cover
                 &-name
                     margin: 0px
-                    font-family: 'roboto-c-regular'
-                    font-size: 15px
+                    font-family: 'roboto-c-regular', sans-serif !important
+                    font-size: 15px !important
                     display: block
                     line-height: 1em
                 &-pos
-                    font-family: 'roboto-light'
-                    font-size: 13px
+                    font-family: 'roboto-light', sans-serif !important
+                    font-size: 13px !important
                     display: block
                     margin: 3px 0
-                    color: #505D6C
+                    color: #505D6C !important
                 &-place
-                    font-family: 'roboto-c-italic'
+                    font-family: 'roboto-c-italic', sans-serif !important
                     display: block
-                    color: #505D6C
-                    font-size: 13px
+                    color: #505D6C !important
+                    font-size: 13px !important
                 &-state
-                    font-family: 'roboto-medium'
+                    font-family: 'roboto-medium', sans-serif !important
                     &__circle
                         width: 10px
                         height: 10px
                         display: inline-block
                         border-radius: 50%
                     &__text
-                        font-size: 11px
+                        font-size: 11px !important
                     &.unavailable
                         .oc-item-state__circle
-                            background-color: #FF0000
+                            background-color: #FF0000 !important
                         .oc-item-state__text
-                            color: #FF0000
+                            color: #FF0000 !important
                     &.available
                         .oc-item-state__circle
-                            background-color: #0EB414
+                            background-color: #0EB414 !important
                         .oc-item-state__text
-                            color: #0EB414
+                            color: #0EB414 !important
                     &.occupied
                         .oc-item-state__circle
-                            background-color: #FFCE00
+                            background-color: #FFCE00 !important
                         .oc-item-state__text
-                            color: #FFCE00
+                            color: #FFCE00 !important
                     &.disconnected
                         .oc-item-state__circle
-                            background-color: #6D7783
+                            background-color: #6D7783 !important
                         .oc-item-state__text
-                            color: #6D7783
+                            color: #6D7783 !important
                 &-current-date
-                    font-family: 'roboto-c-regular'
-                    font-size: 10px
-                    color: #A6ADB4
+                    font-family: 'roboto-c-regular', sans-serif !important
+                    font-size: 10px !important
+                    color: #A6ADB4 !important
                     position: absolute
                     right: 0
                     top: 1.8em
@@ -146,7 +146,7 @@
                 &__radio-button
                     width: 20px
                     height: 20px
-                    background-color: white
+                    background-color: white !important
                     border: 1px solid #C1CACF
                     position: absolute
                     right: 0
@@ -161,7 +161,7 @@
                         position: absolute
                         left: calc( 50% - 6px)
                         top: calc( 50% - 6px)
-                        background-color: #505D6C
+                        background-color: #505D6C !important
                         border-radius: 50%
                         transform: scale(0)
                         transition: all .3s ease-in-out
@@ -176,8 +176,8 @@
     margin:  .5em
     margin-top: .8em
     padding: 3px 10px
-    font-family: 'cabin-bold', sans-serif
-    color: white
+    font-family: 'cabin-bold', sans-serif !important
+    color: white !important
     min-width: 100px
     height: 20px
     display: inline-flex
@@ -185,23 +185,23 @@
     align-items: center
     cursor: pointer
     text-decoration: none
-    font-size: 11px
+    font-size: 11px !important
     &.btn-m-teams
         width: auto
         min-width: 0px !important
         padding: 0 1em
-        background-color: #505D6C
+        background-color: #505D6C !important
         display: inline-block
         margin-left: 10px !important
         &:hover
-            background-color: #2B5CDA   
+            background-color: #2B5CDA !important   
 
 .oc-btn-active
-    background-color: #505D6C
+    background-color: #505D6C !important
     &:hover
-        background-color: #505D6C
+        background-color: #505D6C !important
 .oc-btn-inactive
-    background-color: #505D6C
+    background-color: #505D6C !important
     opacity: .5
 
 .oc-widget-network__content__panel
@@ -216,7 +216,7 @@
     .oc-widget-network__content__slider
         max-height: 275px
         .slick-dots
-            background-color: white
+            background-color: white !important
         .oc-item
             padding: .8em 0
     .oc-widget-network__content__agregar

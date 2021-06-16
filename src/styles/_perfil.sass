@@ -1,6 +1,6 @@
 .oc-perfil-ocensa
     .oc-content
-        background-color: #ECEFF1
+        background-color: #ECEFF1 !important
     .oc-submenu-gen__cont-nav
         display: none !important
 .oc-page-perfil
@@ -9,7 +9,7 @@
             display: none
 .oc-perfil-date
     margin-top: 5em
-    background-color: white
+    background-color: white !important
     box-shadow: 2px 2px 3px rgb(0 0 0 / 20%)
     &__img
         padding: 0
@@ -20,22 +20,22 @@
     &__info
         padding: 2em
     &__name
-        color: #1D1D1B
-        font-size: 30px
-        font-family: 'cabin-bold'
+        color: #1D1D1B !important
+        font-size: 30px !important
+        font-family: 'cabin-bold' , sans-serif !important
     &__text-progress
-        font-size: 12px
-        color: $green_co
-        font-family: 'roboto-c-regular'
+        font-size: 12px !important
+        color: $green_co !important
+        font-family: 'roboto-c-regular', sans-serif !important
         margin: 0
     .progress
         height: 19px
         border-radius: 10px
         .progress-bar
-            background-color: $green_co
+            background-color: $green_co !important
             border-radius: 10px
-            font-size: 16px
-            font-family: 'roboto-c-bold'
+            font-size: 16px !important
+            font-family: 'roboto-c-bold' , sans-serif !important
             text-align: right
             padding-right: .5em
     &__inputs
@@ -46,17 +46,17 @@
             margin-bottom: .7em
             .oc-name
                 width: 30%
-                font-size: 16px
-                font-family: 'roboto-c-regular'
-                color: $green_co
+                font-size: 16px !important
+                font-family: 'roboto-c-regular' , sans-serif !important
+                color: $green_co !important
             .oc-input-text
                 width: 70%
                 border: 0
                 border-bottom: 1px solid rgba(112, 112, 112, 0.3)
-                font-size: 16px
-                font-family: 'roboto-c-regular'
+                font-size: 16px !important
+                font-family: 'roboto-c-regular', sans-serif !important
                 z-index: 1
-                background-color: transparent
+                background-color: transparent !important
                 &:focus-visible
                     outline: none
             img
@@ -67,51 +67,51 @@
         padding-top: 5em
         padding-right: 2em
         .oc-sobre-mi
-            font-size: 16px
-            color: $green_co
-            font-family: 'roboto-c-regular'
+            font-size: 16px !important
+            color: $green_co !important
+            font-family: 'roboto-c-regular', sans-serif !important
         textarea
             width: 100%
             height: 223px
             border: 1px solid rgba(#505D6C, .5)
             padding: .5em 1em
-            font-size: 14px
-            font-family: 'roboto-light'
+            font-size: 14px !important
+            font-family: 'roboto-light', sans-serif !important
     &__button
         text-align: center
         margin-top: 1em
         &-01
             border: 1px solid $green_co
             height: 18px
-            font-size: 9px
+            font-size: 9px !important
             display: inline-flex
             align-items: center
             padding: 0 2em
             border-radius: 10px
-            color: $green_co
-            font-family: 'cabin-bold'
+            color: $green_co !important
+            font-family: 'cabin-bold' , sans-serif !important
             transition: $tr
             margin: 0 1em
             &:hover
-                background-color: $green_co
-                color: white
+                background-color: $green_co !important
+                color: white !important
                 text-decoration: none
         &-02
             border: 1px solid $green_co
             height: 18px
-            font-size: 9px
+            font-size: 9px !important
             display: inline-flex
             align-items: center
             padding: 0 2em
             border-radius: 10px
-            color: white
-            font-family: 'cabin-bold'
+            color: white !important
+            font-family: 'cabin-bold', sans-serif !important
             transition: $tr
-            background-color: $green_co
+            background-color: $green_co !important
             margin: 0 1em
             &:hover
-                background-color: white
-                color: $green_co
+                background-color: white !important
+                color: $green_co !important
                 text-decoration: none
 
 .oc-select
@@ -127,7 +127,7 @@
     &__options
         list-style: none
         position: absolute
-        background-color: white
+        background-color: white !important
         z-index: 2
         top: -20px
         left: 0
@@ -140,7 +140,7 @@
             &:last-child
                 border: none
             &:hover
-                background-color: rgba(#ccc , .1)
+                background-color: rgba(#ccc , .1) !important
     .circle
         width: 11px
         height: 11px
@@ -148,13 +148,13 @@
         display: inline-block
         margin-right: 5px
         &.yellow
-            background-color: #FFD800
+            background-color: #FFD800 !important
         &.green
-            background-color: #19A500
+            background-color: #19A500 !important
         &.red
-            background-color: #FF0000
+            background-color: #FF0000 !important
         &.gray
-            background-color: #505D6C
+            background-color: #505D6C !important
 .oc-section-perfil-03, .oc-section-perfiles-02, .oc-section-perfiles-04
     .container
         padding: 0
@@ -163,19 +163,19 @@
     &__agregar
         height: 20px
         border: 1px solid rgba(#505D6C, 0)
-        background-color: rgba(#505D6C, .5)
+        background-color: rgba(#505D6C, .5) !important
         display: inline-flex
         align-items: center
         border-radius: 12px
-        font-size: 13px
-        color: white
+        font-size: 13px !important
+        color: white !important
         padding: 0 1em
         transition: $tr
-        font-family: 'cabin-bold'
+        font-family: 'cabin-bold', sans-serif !important
         &:hover
             text-decoration: none
             color: rgba(#505D6C, .5)
-            background-color: white
+            background-color: white !important
             border: 1px solid rgba(#505D6C, .5)
     &__car
         padding-right: 1em
@@ -191,19 +191,19 @@
         position: relative
     &__cont-title
         h3
-            font-size: 15px
-            font-family: 'roboto-c-regular'
+            font-size: 15px !important
+            font-family: 'roboto-c-regular', sans-serif !important
             margin: 0
         span
-            color: #2B5CDA
-            font-size: 14px
-            font-family: 'roboto-c-italic'
+            color: #2B5CDA !important
+            font-size: 14px !important
+            font-family: 'roboto-c-italic', sans-serif !important
     &__cont-img
         margin-right: 1em
     &__download
         width: 26px
         height: 26px
-        background-color: #2B5CDA
+        background-color: #2B5CDA !important
         border-radius: 50%
         display: flex
         justify-content: center
@@ -213,7 +213,7 @@
         transition: $tr
         border: 1px solid #2B5CDA
         &:hover
-            background-color: white
+            background-color: white !important
             path
                 stroke: #2B5CDA
     .slick-dots
@@ -228,13 +228,13 @@
             padding: 0
             border-radius: 50%
             border: 1px solid #505D6C
-            background-color: white
+            background-color: white !important
             transition: $tr
             &:hover
-                background-color: #505D6C
+                background-color: #505D6C !important
         .slick-active
             button
-                background-color: #505D6C
+                background-color: #505D6C !important
 
 .wdg-proyectos
     height: 100%
@@ -247,20 +247,20 @@
         a
             height: 20px
             border: 1px solid #505D6C
-            background-color: #505D6C
+            background-color: #505D6C !important
             display: inline-flex
             align-items: center
             border-radius: 12px
-            font-size: 13px
-            color: white
+            font-size: 13px !important
+            color: white !important
             padding: 0 1em
             transition: $tr
-            font-family: 'cabin-bold'
+            font-family: 'cabin-bold', sans-serif !important
             opacity: .5
             &:hover
                 text-decoration: none
-                color:#505D6C
-                background-color: white
+                color:#505D6C !important
+                background-color: white !important
                 border: 1px solid #505D6C
             &.active
                 opacity: 1
@@ -270,19 +270,19 @@
         margin-bottom: 1.2em
         width: 90% !important
     &__name-proyect
-        font-size: 15px
-        font-family: 'roboto-c-regular'
+        font-size: 15px !important
+        font-family: 'roboto-c-regular', sans-serif !important
         margin: 0
     &__date
-        font-size: 13px
-        color: $green_co
-        font-family: 'helvetica'
+        font-size: 13px !important
+        color: $green_co !important
+        font-family: 'helvetica' !important
         font-weight: 700
         margin-bottom: .2em
     &__state
-        font-size: 12px
-        color: $green_co
-        font-family: 'roboto-italic'
+        font-size: 12px !important
+        color: $green_co !important
+        font-family: 'roboto-italic', sans-serif !important
     .slick-dots
         list-style: none
         position: absolute
@@ -295,13 +295,13 @@
             padding: 0
             border-radius: 50%
             border: 1px solid $green_co
-            background-color: white
+            background-color: white !important
             transition: $tr
             &:hover
-                background-color: $green_co
+                background-color: $green_co !important
         .slick-active
             button
-                background-color: $green_co
+                background-color: $green_co !important
 
 .oc-members-carousel, .oc-members-carousel-02
     position: relative
@@ -316,10 +316,10 @@
         display: flex
         justify-content: center
         align-items: center
-        background-color: rgba(#505D6C ,.3)
+        background-color: rgba(#505D6C ,.3) !important
         border-radius: 50%
-        color: white
-        font-family: 'roboto-c-regular'
+        color: white !important
+        font-family: 'roboto-c-regular', sans-serif !important
         position: absolute
         right: -42px
         top: 0
@@ -334,14 +334,14 @@
             object-fit: cover
             margin: auto
         span
-            background-color: $green-co
-            font-size: 11.5px
-            color: white
+            background-color: $green-co !important
+            font-size: 11.5px !important
+            color: white !important
             border-radius: 10px
             padding: 0 .2em
             position: absolute
             bottom: -13px
-            font-family: 'roboto-c-regular'
+            font-family: 'roboto-c-regular', sans-serif !important
             border: 1px solid white
             opacity: 0
             transition: $tr
@@ -353,7 +353,7 @@
                 width: 5px
                 height: 5px
                 top: -3px
-                background-color: $green-co
+                background-color: $green-co !important
                 position: absolute
                 margin: auto
                 left: 0
@@ -368,7 +368,7 @@
         height: 55px
     .oc-slick-arrow
         position: absolute
-        background-color: transparent
+        background-color: transparent !important
         border: none
         top: 12
         &__next
@@ -391,13 +391,13 @@
         margin-bottom: .7em
         width: 95% !important
     &__name-proyect
-        font-size: 15px
-        font-family: 'roboto-c-regular'
+        font-size: 15px !important
+        font-family: 'roboto-c-regular', sans-serif !important
         margin: 0
     &__state
-        font-size: 13px
-        color: #2B5CDA
-        font-family: 'roboto-medium-italic'
+        font-size: 13px !important
+        color: #2B5CDA !important
+        font-family: 'roboto-medium-italic', sans-serif !important
     .oc-widget-template__body
         padding: 1em
     .oc-members-carousel
@@ -405,9 +405,9 @@
             img
                 border: 1px solid #2B5CDA
             span
-                background-color: #2B5CDA
+                background-color: #2B5CDA !important
                 &::before
-                    background-color: #2B5CDA
+                    background-color: #2B5CDA !important
     .slick-dots
         list-style: none
         position: absolute
@@ -420,20 +420,20 @@
             padding: 0
             border-radius: 50%
             border: 1px solid #2B5CDA
-            background-color: white
+            background-color: white !important
             transition: $tr
             &:hover
-                background-color: #2B5CDA
+                background-color: #2B5CDA !important
         .slick-active
             button
-                background-color: #2B5CDA
+                background-color: #2B5CDA !important
 .oc-perfil-icons-header
     display: flex
     justify-content: center
     margin-top: 3em
     margin-bottom: 1em
     &__cont-img
-        background-color: #2B5CDA
+        background-color: #2B5CDA !important
         width: 65px
         height: 65px
         border-radius: 50%
@@ -453,29 +453,29 @@
                     
     
     span
-        font-size: 13px
-        color: #2B5CDA
-        font-family: 'cabin-bold'
+        font-size: 13px !important
+        color: #2B5CDA !important
+        font-family: 'cabin-bold', sans-serif !important
         display: block
         margin-top: .5em
 .oc-perfil-date-02
-    background-color: white
+    background-color: white !important
     box-shadow: 2px 2px 3px rgb(0 0 0 / 20%)
     &__info
         padding: 1.5em 1em 1em 1em
-        color: #1D1D1B
-        font-size: 30px
-        font-family: 'cabin-bold'
+        color: #1D1D1B !important
+        font-size: 30px !important
+        font-family: 'cabin-bold', sans-serif !important
     &__cargo
-        font-size: 19px
-        font-family: 'roboto-c-italic'
-        color: $green_co
+        font-size: 19px !important
+        font-family: 'roboto-c-italic', sans-serif !important
+        color: $green_co !important
     ul
         list-style: none
         padding: 0
         li
-            font-size: 16px
-            font-family: 'roboto-c-regular'
+            font-size: 16px !important
+            font-family: 'roboto-c-regular', sans-serif !important
             margin-bottom: .5em
         span
             display: inline-flex
@@ -485,8 +485,8 @@
     &__desc
         padding: 3em 3em 2em 1em
         p
-            font-size: 14px
-            font-family: 'roboto-light'
+            font-size: 14px !important
+            font-family: 'roboto-light', sans-serif !important
     &__img
         padding: 0
         img
@@ -505,15 +505,15 @@
             padding: 0
             border-radius: 50%
             border: 1px solid $green_co
-            background-color: white
+            background-color: white !important
             transition: $tr
             &:hover
-                background-color: $green_co
+                background-color: $green_co !important
         .slick-active
             button
-                background-color: $green_co
+                background-color: $green_co !important
 .oc-perfil-ocensa-02
-    background-color: #ECEFF1
+    background-color: #ECEFF1 !important
     .wdg-publicaciones
         height: 100%
     .wdg-publicaciones__agregar, .btn-agregar
