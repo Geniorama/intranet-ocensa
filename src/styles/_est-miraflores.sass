@@ -83,6 +83,10 @@
     height: 300px
 .oc-gestion-miraflores
     padding: 0 1em
+    &__items-cont
+        position: relative
+    &__line-dash-mobile
+        display: none
     &__text-01
         color: $green_co !important
         font-size: 14px !important
@@ -206,11 +210,34 @@
         .item-01__center
             top: -17px
     .oc-gestion-miraflores
+        &__line-dash-mobile
+            display: block
+            position: absolute
+            height: 79%
+            width: 1px
+            border-right: 1px dashed #505D6C
+            left: 10px
+            top: 5px
         &__cont
             display: block !important
             padding: 1em 1em 2em 1em
         &__item
             width: 100% !important
+        &__items-cont
+            .oc-gestion-miraflores__item
+                p
+                    position: relative
+                    &::before
+                        content: ''
+                        background-color: white !important
+                        border: 2px solid $green_co
+                        width: 10px
+                        height: 10px
+                        border-radius: 50%
+                        left: 5px
+                        top: 5px
+                        position: absolute
+                        display: inline-block
         &__text-02
             margin-top: 2em
         &__line
