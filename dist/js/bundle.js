@@ -24063,6 +24063,9 @@ jquery_default()('.open-solicitudes').hover(function (e) {
   e.preventDefault();
   jquery_default()('.oc-pop-up').fadeIn();
 });
+jquery_default()('.open-solicitudes').click(function (e) {
+  e.preventDefault();
+});
 jquery_default()('.close-solicitudes').click(function (e) {
   e.preventDefault();
   jquery_default()('.oc-pop-up').fadeOut();

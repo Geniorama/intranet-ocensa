@@ -1553,6 +1553,10 @@ $('.open-solicitudes').hover(function(e) {
     $('.oc-pop-up').fadeIn()
 })
 
+$('.open-solicitudes').click(function(e) {
+    e.preventDefault()
+})
+
 $('.close-solicitudes').click(function(e) {
     e.preventDefault()
     $('.oc-pop-up').fadeOut()
