@@ -109,7 +109,7 @@
         right: 20px
         margin: 0
         width: 70%
-        text-align: right
+        text-align: left
     &__line
         position: absolute
     &__line-mobile
@@ -148,8 +148,8 @@
         .oc-gestion-miraflores__text-02
             padding-left: 1.5em
             margin-top: 4em
-        .oc-gestion-miraflores__item
-            width: 20%
+        .oc-gestion-miraflores__item.item-01
+            width: 60%
         .oc-gestion-miraflores__line
             top: 73px
             left: 129px
@@ -205,6 +205,22 @@
         width: 32px !important
         height: 32px
         margin: 0 .5em
+
+@include media-breakpoint-up(sm)
+    .oc-gestion-miraflores__items-cont
+        display: flex
+    .oc-gestion-miraflores__cont-01
+        .oc-gestion-miraflores__items-cont
+            .oc-gestion-miraflores__item
+                width: calc( 100% / 3 )
+    .oc-gestion-miraflores__cont-03
+        .oc-gestion-miraflores__items-cont
+            .oc-gestion-miraflores__item
+                width: calc( 100% / 4 )
+    #wdg-section-07-mir
+        .wdg-gestion-ambiental
+            height: 300px
+
 @include media-breakpoint-down(sm)
     .wdg-distancia-miraflores
         .item-01__center
