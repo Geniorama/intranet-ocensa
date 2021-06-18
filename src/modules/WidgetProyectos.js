@@ -1,17 +1,22 @@
 import $, { each } from "jquery";
-import "../../node_modules/slick-carousel";
 
+$('#wdg-proyectos .wdg-proyectos__btn-crear').click(function(e) {
+    e.preventDefault()
 
-// $('.wdg-proyectos__btn').click(function(e){
-//     e.preventDefault()
+    $('#wdg-proyectos .oc-widget-template__body').slideUp()
+    $('#publicaciones-inc').slideDown()
+})
 
-//     let target = $(this).attr('data-target')
+$('#wdg-proyectos .oc-btn-proyectos__crear').click(function(e) {
+    e.preventDefault()
+    $('#wdg-proyectos .oc-widget-template__body').slideUp()
+    $('#wdg-proyectos-form').slideDown()
+    $('.oc-members-carousel').slick('refresh')
+})
 
-//     $('.wdg-proyectos__panel').slideUp()
-//     $(target).slideDown()
-
-
-//     $('.oc-members-carousel').slick('refresh')
-//     $('.wdg-proyectos__car').slick('refresh')
-
-// })
+$('#wdg-proyectos .wdg-proyectos__form-close').click(function(e) {
+    e.preventDefault()
+    $('#wdg-proyectos .oc-widget-template__body').slideUp()
+    $('#wdg-proyectos-intro').slideDown()
+    $('.oc-members-carousel').slick('refresh')
+})
