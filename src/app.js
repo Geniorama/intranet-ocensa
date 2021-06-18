@@ -784,6 +784,7 @@ import "./img/nosotros/cultura/iconos-nuevos/somos_equipo.svg";
 import "./img/perfiles/organigrama/equis-gris.svg"
 import "./img/perfiles/publicaciones-inc.svg";
 import "./img/perfiles/grupo.inc.svg";
+import "./img/perfiles/close-proyecto.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
