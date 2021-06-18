@@ -16655,12 +16655,12 @@
                 </div>
     
                 <!--item 14-->
-                <div class="oc-recorrido__item oc-recorrido__item-14">
+                <a href="/boyaca/base-soraca.html" class="oc-recorrido__item oc-recorrido__item-14">
                     <div class="oc-recorrido__cont-circle">
                         <figure class="oc-recorrido__circle"></figure>
                     </div>
                     <div class="oc-recorrido__text">SORACÁ</div>
-                </div>
+                </a>
     
                 <!--item 15-->
                 <div class="oc-recorrido__cundi">
@@ -16892,10 +16892,11 @@
                             </div>
                         </div>
                     
-                        <div class="oc-widget-template__body p-3 text-center">
+                        <div class="oc-widget-template__body p-3 text-center" id="wdg-proyectos-intro">
                             <div href="" class="wdg-proyectos__cont-btn">
                                 <a href="#" class="wdg-proyectos__btn-actuales active">Actuales</a>
                                 <a href="#" class="wdg-proyectos__btn-anteriores">Anteriores</a>
+                                <a href="#" class="wdg-proyectos__btn-crear">Crear proyecto</a>
                             </div>
                             <div class="wdg-proyectos__car oc-vertical-slider">
                                 <div class="slide-item">
@@ -17179,6 +17180,106 @@
                                 </div>
                     
                             </div>
+                    
+                        </div>
+                    
+                        <div class="oc-widget-template__body wdg-proyectos__form" id="wdg-proyectos-form">
+                            <div class="wdg-proyectos__form-cont">
+                                <span class="wdg-proyectos__form-close"><img src="/img/close-proyecto.svg" alt=""></span>
+                                <h4 class="wdg-proyectos__form-title">NUEVO PROYECTO</h4>
+                                <form action="">
+                                    <div class="wdg-proyectos__form-group">
+                                        <label for="">Nombre proyecto</label>
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <div class="wdg-proyectos__form-group">
+                                        <label for="">Fecha inicio</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="wdg-proyectos__form-group">
+                                        <label for="">Fecha fin</label>
+                                        <input type="text">
+                                    </div>
+                                    <p class="wdg-proyectos__form-part">Participantes:</p>
+                                    <div class="oc-members-carousel__cont">
+                                        <div class="wdg-proyectos__members oc-members-carousel">
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-elkin-orjuela.png" alt="">
+                                                <span>Carlos</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-ximena.png" alt="">
+                                                <span>Ximena</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-alexander.png" alt="">
+                                                <span>Alexander</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-elkin-orjuela.png" alt="">
+                                                <span>Carlos</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-ximena.png" alt="">
+                                                <span>Ximena</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-alexander.png" alt="">
+                                                <span>Alexander</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-elkin-orjuela.png" alt="">
+                                                <span>Carlos</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-ximena.png" alt="">
+                                                <span>Ximena</span>
+                                            </div>
+                    
+                                            <!--Item-->
+                                            <div class="oc-members-carousel__item">
+                                                <img src="/img/member-alexander.png" alt="">
+                                                <span>Alexander</span>
+                                            </div>
+                    
+                                        </div>
+                                        <div class="oc-members-carousel__more">
+                                            12+
+                                        </div>
+                                    </div>
+                                    <div class="wdg-proyectos__cont-btn text-center">
+                                        <a href="">Agregar participantes</a>
+                                        <a href="">Guardar</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    
+                        <div class="oc-widget-template__body p-5 text-center" id="publicaciones-inc">
+                            <img src="/img/publicaciones-inc.svg" alt="" class="img-publicaciones-inc mt-2">
+                            <span class="d-block title-publi-inc mt-3">Aún no tienes proyectos.
+                            </span>
+                            <p class="mt-3 mb-3 text-publi-inc">Puedes crear uno nuevo<br>
+                                y agregar usuarios.</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a href="" class="wdg-publicaciones__agregar text-center d-block w-auto oc-btn-proyectos__crear">Crear Proyecto</a>
+                            </div>
                         </div>
                     
                     </div>                </div>
@@ -17199,7 +17300,7 @@
                             </div>
                         </div>
                     
-                        <div class="oc-widget-template__body p-3 text-center">
+                        <div class="oc-widget-template__body p-3 text-center d-none">
                             <a href="" class="wdg-publicaciones__agregar">Agregar</a>
                             <div class="wdg-publicaciones__car oc-vertical-slider">
                     
@@ -17422,6 +17523,37 @@
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    
+                        <div class="wdg-proyectos__form" id="pub-incr">
+                            <div class="wdg-proyectos__form-cont p-3">
+                                <span class="wdg-proyectos__form-close"><img src="/img/close-proyecto.svg" alt=""></span>
+                                <h4 class="wdg-proyectos__form-title">AGREGAR DOCUMENTO</h4>
+                                <form action="">
+                                    <div class="wdg-proyectos__form-group mb-3">
+                                        <label for="">Documento</label>
+                                        <div class="cont-inputs">
+                                            <div class="cont-inputs__file">
+                                            <input type="file">
+                                        </div>
+                                        <div class="cont-inputs__style">
+                                            Seleccionar archivo
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="wdg-proyectos__form-group mb-3">
+                                        <label for="">Titulo</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="wdg-proyectos__form-group">
+                                        <label for="">Descripcion</label>
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <div class="wdg-proyectos__cont-btn text-center mt-5 ml-2">
+                                        <a href="">Guardar</a>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     
