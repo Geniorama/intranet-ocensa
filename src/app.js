@@ -780,6 +780,11 @@ import "./img/nosotros/cultura/iconos-nuevos/hacemos_lo_imposible.svg";
 import "./img/nosotros/cultura/iconos-nuevos/primero_la_vida.svg";
 import "./img/nosotros/cultura/iconos-nuevos/somos_equipo.svg";
 
+//Widgets Incremental
+import "./img/perfiles/organigrama/equis-gris.svg"
+import "./img/perfiles/publicaciones-inc.svg";
+import "./img/perfiles/grupo.inc.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
