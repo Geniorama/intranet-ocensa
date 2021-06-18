@@ -230,6 +230,7 @@ import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-el-porvenir.jpg
 // Casanare - Estación Cuasiana
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cusiana.svg";
 import "./img/casanare/imag-territorio-VENTANAS_MODALES/estacion-cusiana.jpg";
+import "./img/estaciones/cusiana/foto-descargadero.jpg";
 
 // Casanare - Estación Cupiagua
 import "./img/casanare/iconos/iconos-TITULOS-ventanas-modales/modal_estacion_cupiagua.svg";
@@ -1344,8 +1345,10 @@ if(screen.width > 991.98){
     $(window).scroll(function() {
         if ($(window).scrollTop() > 580) {
           $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").fadeIn();//.fadeOut();
+          $(".oc-index-est .oc-header__desktop .oc-submenu-gen").fadeIn();
         } else {
             $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").hide();//.fadeIn();
+            $(".oc-index-est .oc-header__desktop .oc-submenu-gen").hide();
         }
     });
 

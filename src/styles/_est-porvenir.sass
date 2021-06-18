@@ -242,7 +242,14 @@
 @import est-porvenir04
 @import est-porvenir07
 
-@include media_breakpoint_down(md)
+
+@include media-breakpoint-up(sm)
+    #main-cas-porvenir
+        .bombeo-porv
+            .oc-box-dato
+                height: 253px
+
+@include media-breakpoint-down(sm)
     .wdg-personal-porvenir
         height: auto !important
     .oc-cas-porvenir
@@ -251,8 +258,6 @@
             margin: auto
             img
                 max-width: 70px
-
-@include media-breakpoint-down(sm)
     .oc-porvenir__car
         width: 100%
         .slick-dots
