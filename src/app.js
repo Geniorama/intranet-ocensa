@@ -35,6 +35,8 @@ import "./modules/PerfilOleductoHeader";
 import "./modules/SubMenu";
 import "./modules/WidgetProyectos";
 import "./modules/Perfil";
+import "./modules/WidgetPublicacion";
+import "./modules/WidgetGrupoTrabajo";
 
 // Images
 import "./img/barra-lateral-azul/oc-avatar.jpg";
