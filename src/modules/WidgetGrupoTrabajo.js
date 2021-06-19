@@ -1,11 +1,7 @@
 import $, { each } from "jquery";
+import "../../node_modules/slick-carousel";
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
 
-$('#wdg-grupos-trabajo .wdg-grupos-trabajo__iniciar').click(function(e) {
-    e.preventDefault()
-
-    $('#wdg-grupos-trabajo .oc-widget-template__body').slideUp()
-    $('#wdg-grupos-trabajo-intro').slideDown()
-
-    $('#wdg-grupos-trabajo .wdg-grupos__car').slick('refresh')
-    $('#wdg-grupos-trabajo .oc-members-carousel').slick('refresh')
-})
+$('#wdg-grupos-trabajo .oc-widget-template__body').hide()
+$('#wdg-grupos-trabajo #publicaciones-inc-02').show()

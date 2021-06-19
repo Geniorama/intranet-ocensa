@@ -1,4 +1,5 @@
 import $, { each } from "jquery";
+import "../../node_modules/slick-carousel";
 
 $('#wdg-publicaciones .wdg-publicaciones__agregar').click(function(e) {
     e.preventDefault()
