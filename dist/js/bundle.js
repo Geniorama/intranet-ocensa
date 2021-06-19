@@ -25151,8 +25151,8 @@ jquery_default()('#wdg-publicaciones .wdg-proyectos__form-close').click(function
 
 
 
-jquery_default()('#wdg-grupos-trabajo .oc-widget-template__body').hide();
-jquery_default()('#wdg-grupos-trabajo #publicaciones-inc-02').show();
+jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo .oc-widget-template__body').hide();
+jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').show();
 // CONCATENATED MODULE: ./src/img/barra-lateral-azul/oc-avatar.jpg
 /* harmony default export */ var oc_avatar = (__webpack_require__.p + "img/oc-avatar.jpg");
 // CONCATENATED MODULE: ./src/img/barra-lateral-azul/menu-perfil-0-inicio.svg
