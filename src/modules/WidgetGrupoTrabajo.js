@@ -1,4 +1,5 @@
 import $, { each } from "jquery";
+import "../../node_modules/slick-carousel";
 
 $('#wdg-grupos-trabajo .wdg-grupos-trabajo__iniciar').click(function(e) {
     e.preventDefault()
