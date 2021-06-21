@@ -790,6 +790,13 @@ import "./img/perfiles/publicaciones-inc.svg";
 import "./img/perfiles/grupo.inc.svg";
 import "./img/perfiles/close-proyecto.svg";
 
+
+// Documentos
+import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/Formatos de ingreso/GDE-F-067-autorizacion-para-el-ingreso-en-horario-laboral.xlsx";
+import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/Formatos de ingreso/GDE-P-007-procedimiento-para-el-ingreso-y-salida-de-personas-en-instalaciones.pdf";
+import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/Formatos de ingreso/GDE-F-070 Permiso para el ingreso de vehIculos a instalaciones de Ecopetrol.xlsx";
+import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/HSE-10 reglas para la vida/Reglas-para-la-vida.pdf";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {

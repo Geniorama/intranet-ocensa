@@ -238,6 +238,19 @@ module.exports = {
             },
 
             {
+                test: /\.(pdf|xls|xlsx|docx)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'docs'
+                        }
+                    }
+                ]
+            },
+
+            {
                 loader: 'image-webpack-loader',
                 options: {
                     mozjpeg: {
