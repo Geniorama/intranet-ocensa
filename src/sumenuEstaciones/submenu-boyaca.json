@@ -22,6 +22,12 @@
             "menuName": "Estación Vasconia",
             "dataTarget": "/boyaca/estacion-vasconia.html",
             "menuId": "oc-boy-vasconia"
+        },
+
+        {
+            "menuName": "Base Soracá",
+            "dataTarget": "/boyaca/base-soraca.html",
+            "menuId": "oc-boy-soraca"
         }
     ]
 }
