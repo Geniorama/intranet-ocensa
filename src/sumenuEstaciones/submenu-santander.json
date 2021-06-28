@@ -1,0 +1,15 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Santander",
+            "dataTarget": "/santander/santander.html",
+            "menuId": "oc-index-santander"
+        },
+
+        {
+            "menuName": "La Belleza",
+            "dataTarget": "/casanare/estacion-la-belleza.html",
+            "menuId": "oc-san-belleza"
+        }
+    ]
+}

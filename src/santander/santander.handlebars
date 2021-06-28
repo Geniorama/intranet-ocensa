@@ -1,0 +1,45 @@
+<div id="top"></div>
+{{>../partials/header title="Santander" classPage="oc-estaciones oc-index-est oc-index-santander"}}
+
+<div class="d-none d-md-block oc-menu-lateral">
+    {{>../partials/menu-lateral}}
+</div>
+
+
+{{>../partials/menu-principal}}
+
+<main class="oc-content py-0 py-md-5" id="main-santander">
+    <section class="pb-md-5 py-0">
+        {{>../partials/header-estaciones
+        img="/img/slide-santander.jpg"
+        estacion="Santander"
+        imgMap="/img/icon-santander-mapa.svg"
+        imgIcons="/img/icon-territorio-santander-3.svg"
+        }}
+    </section>
+    <section class="cont-intro-territorio mb-5">
+        <div class="container">
+            {{>../partials/intro-territorio-santander}}
+        </div>
+    </section>
+
+    <section class="oc-mapa oc-mapa-santander position-relative">
+        {{!-- Modal Map --}}
+
+    </section>
+
+   
+
+    <section class="oc-section-galeria" id="galeria-terr-santander">
+        {{>../partials/galeria-territorio-santander}}
+    </section>
+    <section class="oc-section-estamos">
+        <div class="container">
+            {{>../partials/estamos-section-santander}}
+        </div>
+    </section>
+</main>
+
+{{>../partials/back-to-top}}
+
+{{>../partials/footer}}
