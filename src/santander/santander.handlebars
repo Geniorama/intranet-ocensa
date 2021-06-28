@@ -1,0 +1,581 @@
+<div id="top"></div>
+{{>../partials/header title="Santander" classPage="oc-estaciones oc-index-est oc-index-santander"}}
+
+<div class="d-none d-md-block oc-menu-lateral">
+    {{>../partials/menu-lateral}}
+</div>
+
+
+{{>../partials/menu-principal}}
+
+<main class="oc-content py-0 py-md-5" id="main-casanare">
+    <section class="pb-md-5 py-0">
+        {{>../partials/header-estaciones
+        img="/img/_Banner-inicio-boyaca.jpg"
+        estacion="Boyacá"
+        imgMap="/img/icon-mapa-boyaca.svg"
+        imgIcons="/img/icons-group-slide-boyaca.svg"
+        }}
+    </section>
+    <section class="cont-intro-territorio mb-5">
+        <div class="container">
+            {{>../partials/intro-territorio-boyaca}}
+        </div>
+    </section>
+
+    <section class="oc-mapa oc-mapa-santander position-relative">
+        {{!-- Modal Map --}}
+
+        <div class="oc-mapa__container">
+            <img src="/img/mapa-linea-santander.png" alt="" class="oc-mapa__line">
+
+            <img src="/img/mapa-santander.png" alt="" class="oc-mapa__img">
+
+            <!--Entrada del Oleoducto a Boyacá-->
+            <div class="oc-mapa__location-modals oc-point-70 oc-mapa__orange oc-mapa__location-modals-02" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <span>Entrada del Oleoducto<br> a Boyacá</span>
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icono-mapa-boyaca-01.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--Serranía Las Quínchas-->
+            <div class="oc-mapa__location-modals oc-point-71 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Serranía Las<br> Quínchas</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Puerto Serviez-->
+            <div class="oc-mapa__location-modals oc-point-72 oc-mapa__orange" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-location.svg" alt="">
+                    </div>
+                    <span>Puerto<br> Serviez</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Entrada del Oleoducto a Antioquia-->
+            <div class="oc-mapa__location-modals oc-point-73 oc-mapa__orange oc-mapa__location-modals-02" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <span>Entrada del Oleoducto<br> a Antioquia</span>
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icono-mapa-boyaca-01.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--Florian-->
+            <div class="oc-mapa__location-modals oc-point-74 oc-mapa__orange" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-location.svg" alt="">
+                    </div>
+                    <span>Florian</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Comunidades Mejor Vivienda-->
+            <div class="oc-mapa__location-modals oc-point-75 oc-mapa__purple" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-profile.svg" alt="">
+                    </div>
+                    <span>Comunidades<br> Mejor Vivienda</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--La Belleza-->
+            <div class="oc-mapa__location-modals oc-point-76 oc-mapa__orange" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-location.svg" alt="">
+                    </div>
+                    <span>La Belleza</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Entrada del Oleoducto a Santander-->
+            <div class="oc-mapa__location-modals oc-point-77 oc-mapa__orange" data-target="#tauramena">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icono-mapa-boyaca-01.svg" alt="">
+                    </div>
+                    <span>Entrada del Oleoducto<br> a Santander</span>
+                </div>
+            </div>
+
+            <!--Ecosistema-->
+            <div class="oc-mapa__location-modals oc-point-78 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Ecosistema</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Hidrografía-->
+            <div class="oc-mapa__location-modals oc-point-79 oc-mapa__blue" data-target="#hidrografia-boyaca">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-water.svg" alt="">
+                    </div>
+                    <span>Hidrografía</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Comunidades Nuevos Mercados-->
+            <div class="oc-mapa__location-modals oc-point-80 oc-mapa__purple" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-profile.svg" alt="">
+                    </div>
+                    <span>Comunidades<br> Nuevos Mercados</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Clima-->
+            <div class="oc-mapa__location-modals oc-point-81 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Clima</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Flora-->
+            <div class="oc-mapa__location-modals oc-point-82 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Flora</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Fauna-->
+            <div class="oc-mapa__location-modals oc-point-83 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Fauna</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Barrancabermeja-->
+            <div class="oc-mapa__location-modals oc-point-84 oc-mapa__orange" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-location.svg" alt="">
+                    </div>
+                    <span>Barrancabermeja</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--Barrancabermeja-->
+            <div class="oc-mapa__location-modals oc-point-85 oc-mapa__orange oc-mapa__location-modals-02"
+                data-target="#mun-miraflores">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                    <span>Barrancabermeja</span>
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-location.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--Santander-->
+            <div class="oc-mapa__location-modals oc-point-86 oc-mapa__orange oc-mapa__location-modals-02"
+                data-target="#mun-miraflores">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+            </div>
+
+            <!--Páramo de Santurbán-->
+            <div class="oc-mapa__location-modals oc-point-87 oc-mapa__green" data-target="">
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <span class="oc-radar"></span>
+                <div class="oc-mapa__icon">
+                    <div class="oc-mapa__img-plus">
+                        <img src="/img/icon-plus.svg" alt="" class="oc-mapa__plus">
+                    </div>
+                </div>
+                <div class="oc-mapa__name-point">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/point-01.svg" alt="">
+                    </div>
+                    <span>Páramo de Santurbán</span>
+                    <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
+                </div>
+            </div>
+
+            <!--VASCONIA-->
+            <div class="oc-mapa__location-modals oc-point-88 oc-mapa__yellow" data-target="">
+                <div class="oc-mapa__name-point-yellow">
+                    <div class="oc-mapa__info-item">
+                        <span>VASCONIA</span>
+                    </div>
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-grey-estacion.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--LA BELLEZA-->
+            <div class="oc-mapa__location-modals oc-point-89 oc-mapa__yellow-02" data-target="">
+                <div class="oc-mapa__name-point-yellow">
+                    <div class="oc-mapa__img-icon">
+                        <img src="/img/icon-yellow.svg" alt="">
+                    </div>
+                    <div class="oc-mapa__info-item">
+                        <span>LA BELLEZA</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Río Magdalena-->
+            <div class="oc-mapa__tooltip oc-point-90">
+                <span>Río<br> Magdalena</span>
+                <button type="button" class="oc-mapa__btn"></button>
+            </div>
+
+            <!--Río Minero-->
+            <div class="oc-mapa__tooltip oc-point-91">
+                <span>Río Minero</span>
+                <button type="button" class="oc-mapa__btn"></button>
+            </div>
+
+            <!--Cascada del Tistisoque-->
+            <div class="oc-mapa__tooltip oc-point-92">
+                <button type="button" class="oc-mapa__btn"></button>
+                <span>Cascada del<br> Tistisoque</span>
+            </div>
+
+            <!--Quebrada La Venta-->
+            <div class="oc-mapa__tooltip oc-point-93">
+                <button type="button" class="oc-mapa__btn"></button>
+                <span>Quebrada La Venta</span>
+            </div>
+
+            <!--Río Negro-->
+            <div class="oc-mapa__tooltip oc-point-94">
+                <button type="button" class="oc-mapa__btn"></button>
+                <span>Río Regro</span>
+            </div>
+            
+            <!--Number 1-->
+            <div class="oc-mapa__number-location oc-point-95">
+                <span>1</span>
+            </div>
+
+            <!--Number 2-->
+            <div class="oc-mapa__number-location oc-point-96">
+                <span>2</span>
+            </div>
+
+            <!--Number 3-->
+            <div class="oc-mapa__number-location oc-point-97">
+                <span>3</span>
+            </div>
+
+            <!--Number 4-->
+            <div class="oc-mapa__number-location oc-point-98">
+                <span>4</span>
+            </div>
+        
+
+            <!--Indicador-->
+            {{>../partials/map-indicator}}
+
+            {{!-- Otros oleoductos --}}
+            <div class="oc-map__info-aditional">
+                <h5 class="oc-map__info-aditional__title">OTROS OLEODUCTOS</h5>
+                <ul class="oc-map__info-aditional__list">
+                    <li><span class="item-number">1</span> Oleoducto de Colombia</li>
+                    <li><span class="item-number">2</span> Oleoducto Vasconia Barrancabermeja</li>
+                    <li><span class="item-number">3</span> Oleoducto Vasconia V26 Barrancabermeja</li>
+                    <li><span class="item-number">4</span> Oleoducto Alto Magdalena</li>
+                </ul>
+            </div>
+
+            {{!-- Button Bogotá --}}
+            {{>../partials/map-ext-city city="BOGOTÁ" buttonText="Ir" btnIzquierda="true" id="mapExt-bta"}}
+
+            {{!-- Button Casanare --}}
+            {{>../partials/map-ext-city city="CASANARE" buttonText="Regresar recorrido" btnDerecha="true" id="mapExt-casanare" buttonLink="/casanare/casanare.html"}}
+
+            {{!-- Button Antioquia --}}
+            {{>../partials/map-ext-city city="ANTIOQUIA" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-antioquia" buttonLink="#"}}
+
+            {{!-- Button Santander --}}
+            {{>../partials/map-ext-city city="SANTANDER" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-santander" buttonLink="#"}}
+        </div>
+    </section>
+
+    <!--Statitics-->
+    <div class="container">
+        <div class="oc-mapa__stat mt-4">
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <div class="oc-mapa__stat-header">
+                        <img src="/img/icon-segmentos.svg" alt="">
+                        <h5>Segmentos</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-02">
+                            <p>Tramo</p>
+                            <span class="roboto-light">Porvenir - Páez</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">32</span> km</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-03">
+                            <p>Tramo</p>
+                            <span class="roboto-light">Páez - Miraflores</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">21.30</span> km</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-04">
+                            <p>Tramo</p>
+                            <span class="roboto-light"> Miraflores - La Belleza</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">137.8</span> km</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2">
+                    <div class="oc-mapa__stat-header mb-0">
+                        <img src="/img/icon-altura.svg" alt="">
+                        <h5>Altura</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-altura">
+                        <span class="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
+                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
+                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
+                            </svg>
+
+                        </span>
+                        <p>Páez </p><span class="number">1.263 </span><span class="date">msnm</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-altura">
+                        <span class="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
+                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
+                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
+                            </svg>
+
+                        </span>
+                        <p>Miraflores </p><span class="number">1.785 </span><span class="date">msnm</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="oc-mapa__stat-item-altura">
+                        <span class="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
+                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
+                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
+                            </svg>
+
+                        </span>
+                        <p>Vasconia </p><span class="number">130 </span><span class="date">msnm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="oc-section-galeria" id="galeria-terr-boyaca">
+        {{>../partials/galeria-territorio-boyaca}}
+    </section>
+    <section class="oc-section-estamos">
+        <div class="container">
+            {{>../partials/estamos-section-boyaca}}
+        </div>
+    </section>
+</main>
+
+{{>../partials/back-to-top}}
+
+{{>../partials/footer}}

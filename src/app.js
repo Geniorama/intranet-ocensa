@@ -797,6 +797,11 @@ import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/Formatos de ingreso/GDE-P-0
 import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/Formatos de ingreso/GDE-F-070 Permiso para el ingreso de vehIculos a instalaciones de Ecopetrol.xlsx";
 import "./docs/documentos-boyaca/2-Boyaca-MIRAFLORES/HSE-10 reglas para la vida/Reglas-para-la-vida.pdf";
 
+// Mapa Santander
+import "./img/santander/links/mapa/mapa-santander.png";
+import "./img/santander/links/mapa/mapa-linea-santander.png";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {

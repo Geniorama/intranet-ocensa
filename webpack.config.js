@@ -171,6 +171,14 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
         }),
 
+        // Santander
+        new HtmlWebpackPlugin({
+            filename: 'santander/santander.html',
+            template: './src/santander/santander.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
