@@ -806,6 +806,10 @@ import "./img/santander/fotos/estacion-la-belleza.jpg";
 import "./img/santander/fotos/enqueestamos1.jpg";
 import "./img/santander/fotos/enqueestamos2.jpg";
 import "./img/santander/fotos/enqueestamos3.jpg";
+// Mapa Santander
+import "./img/santander/links/mapa/mapa-santander.png";
+import "./img/santander/links/mapa/mapa-linea-santander.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

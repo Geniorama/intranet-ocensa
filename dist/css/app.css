@@ -20430,6 +20430,10 @@ p, span {
   margin-right: 5px;
 }
 
+#main-boyaca {
+  background-color: white;
+}
+
 @media (max-width: 767.98px) {
   .oc-index-boyaca .oc-mapa__stat-header {
     width: 100%;
@@ -21522,4 +21526,182 @@ p, span {
 }
 #wdg-grupos-trabajo .slick-dots {
   padding-left: 0px !important;
+}
+
+#galeria-terr-santander .slick-track {
+  margin-left: inherit;
+}
+
+.oc-index-santander .oc-submenu-gen .nav {
+  justify-content: space-around;
+}
+
+#main-santander {
+  background-color: white;
+}
+
+.oc-mapa-santander {
+  margin-top: 7em;
+}
+.oc-mapa-santander .oc-mapa__indicator {
+  top: 20px;
+}
+.oc-mapa-santander .oc-map__info-aditional {
+  bottom: 130px;
+}
+.oc-mapa-santander .oc-mapa__line {
+  top: -145px;
+  right: 164px;
+  width: 299px;
+}
+.oc-mapa-santander .oc-mapa__location-modals-02 .oc-mapa__name-point {
+  padding-right: 0;
+  padding-left: 0.5em;
+}
+.oc-mapa-santander .oc-mapa__location-modals-02 .oc-mapa__name-point span {
+  line-height: 1em;
+}
+.oc-mapa-santander .oc-mapa__location-modals-02 .oc-mapa__name-point .oc-mapa__img-icon {
+  margin-left: 0.5em;
+}
+.oc-mapa-santander .oc-mapa__location-modals .oc-mapa__name-point span {
+  line-height: 1em;
+}
+.oc-mapa-santander .oc-mapa__tooltip span {
+  line-height: 1em;
+}
+.oc-mapa-santander .oc-mapa__tooltip button {
+  width: 9px;
+  height: 9px;
+}
+.oc-mapa-santander .oc-point-70 {
+  left: 340px;
+  top: 405px;
+}
+.oc-mapa-santander .oc-point-70 .oc-mapa__name-point {
+  left: -127px;
+}
+.oc-mapa-santander .oc-point-71 {
+  left: 345px;
+  top: 505px;
+}
+.oc-mapa-santander .oc-point-72 {
+  left: 388px;
+  top: 266px;
+}
+.oc-mapa-santander .oc-point-73 {
+  left: 447px;
+  top: 216px;
+}
+.oc-mapa-santander .oc-point-73 .oc-mapa__name-point {
+  left: -127px;
+}
+.oc-mapa-santander .oc-point-74 {
+  left: 450px;
+  top: 427px;
+}
+.oc-mapa-santander .oc-point-75 {
+  left: 480px;
+  top: 314px;
+}
+.oc-mapa-santander .oc-point-76 {
+  left: 580px;
+  top: 412px;
+}
+.oc-mapa-santander .oc-point-77 {
+  left: 589px;
+  top: 594px;
+}
+.oc-mapa-santander .oc-point-78 {
+  left: 655px;
+  top: 544px;
+}
+.oc-mapa-santander .oc-point-79 {
+  left: 735px;
+  top: 269px;
+}
+.oc-mapa-santander .oc-point-80 {
+  left: 749px;
+  top: 499px;
+}
+.oc-mapa-santander .oc-point-81 {
+  left: 767px;
+  top: 419px;
+}
+.oc-mapa-santander .oc-point-82 {
+  left: 826px;
+  top: 328px;
+}
+.oc-mapa-santander .oc-point-83 {
+  left: 971px;
+  top: 376px;
+}
+.oc-mapa-santander .oc-point-84 {
+  left: 1120px;
+  top: 206px;
+}
+.oc-mapa-santander .oc-point-84 .oc-mapa__name-point {
+  opacity: 1;
+}
+.oc-mapa-santander .oc-point-85 {
+  left: 943px;
+  top: -54px;
+}
+.oc-mapa-santander .oc-point-85 .oc-mapa__name-point {
+  left: -117px;
+}
+.oc-mapa-santander .oc-point-86 {
+  left: 983px;
+  top: -40px;
+}
+.oc-mapa-santander .oc-point-87 {
+  left: 1016px;
+  top: -80px;
+}
+.oc-mapa-santander .oc-point-88 {
+  left: 169px;
+  top: 316px;
+}
+.oc-mapa-santander .oc-point-89 {
+  left: 507px;
+  top: 371px;
+}
+.oc-mapa-santander .oc-point-90 {
+  left: 299px;
+  top: 270px;
+}
+.oc-mapa-santander .oc-point-91 {
+  left: 379px;
+  top: 430px;
+  display: block;
+}
+.oc-mapa-santander .oc-point-92 {
+  left: 479px;
+  top: 459px;
+}
+.oc-mapa-santander .oc-point-93 {
+  left: 567px;
+  top: 441px;
+  display: block;
+}
+.oc-mapa-santander .oc-point-94 {
+  left: 521px;
+  top: 565px;
+  display: block;
+}
+.oc-mapa-santander .oc-point-95 {
+  left: 680px;
+  top: 148px;
+}
+.oc-mapa-santander .oc-point-96 {
+  left: 669px;
+  top: 248px;
+}
+.oc-mapa-santander .oc-point-97 {
+  left: 729px;
+  top: 226px;
+}
+.oc-mapa-santander .oc-point-98 {
+  left: 109px;
+  top: 386px;
 }
