@@ -8,18 +8,18 @@
 
 {{>../partials/menu-principal}}
 
-<main class="oc-content py-0 py-md-5" id="main-casanare">
+<main class="oc-content py-0 py-md-5" id="main-santander">
     <section class="pb-md-5 py-0">
         {{>../partials/header-estaciones
-        img="/img/_Banner-inicio-boyaca.jpg"
-        estacion="Boyacá"
-        imgMap="/img/icon-mapa-boyaca.svg"
-        imgIcons="/img/icons-group-slide-boyaca.svg"
+        img="/img/slide-santander.jpg"
+        estacion="Santander"
+        imgMap="/img/icon-santander-mapa.svg"
+        imgIcons="/img/icon-territorio-santander-3.svg"
         }}
     </section>
     <section class="cont-intro-territorio mb-5">
         <div class="container">
-            {{>../partials/intro-territorio-boyaca}}
+            {{>../partials/intro-territorio-santander}}
         </div>
     </section>
 
@@ -454,17 +454,11 @@
                 </ul>
             </div>
 
-            {{!-- Button Bogotá --}}
-            {{>../partials/map-ext-city city="BOGOTÁ" buttonText="Ir" btnIzquierda="true" id="mapExt-bta"}}
-
-            {{!-- Button Casanare --}}
-            {{>../partials/map-ext-city city="CASANARE" buttonText="Regresar recorrido" btnDerecha="true" id="mapExt-casanare" buttonLink="/casanare/casanare.html"}}
-
             {{!-- Button Antioquia --}}
-            {{>../partials/map-ext-city city="ANTIOQUIA" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-antioquia" buttonLink="#"}}
+            {{>../partials/map-ext-city city="ANTIOQUIA" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-antioquia" buttonLink="/antioquia/antioquia.html"}}
 
-            {{!-- Button Santander --}}
-            {{>../partials/map-ext-city city="SANTANDER" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-santander" buttonLink="#"}}
+            {{!-- Button Boyacá --}}
+            {{>../partials/map-ext-city city="BOYACÁ" buttonText="Regresar recorrido" btnDerecha="true" id="mapExt-boyaca" buttonLink="/boyaca/boyaca.html"}}
         </div>
     </section>
 
@@ -566,14 +560,18 @@
         </div>
     </div>
 
-    <section class="oc-section-galeria" id="galeria-terr-boyaca">
-        {{>../partials/galeria-territorio-boyaca}}
+
+    <section class="oc-section-galeria" id="galeria-terr-santander">
+        {{>../partials/galeria-territorio-santander}}
     </section>
     <section class="oc-section-estamos">
         <div class="container">
-            {{>../partials/estamos-section-boyaca}}
+            {{>../partials/estamos-section-santander}}
         </div>
     </section>
+
+    <!--Statitics-->
+    
 </main>
 
 {{>../partials/back-to-top}}

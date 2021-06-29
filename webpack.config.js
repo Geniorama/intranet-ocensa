@@ -176,7 +176,7 @@ module.exports = {
             filename: 'santander/santander.html',
             template: './src/santander/santander.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
         }),
 
         // CSS
