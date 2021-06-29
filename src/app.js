@@ -40,6 +40,7 @@ import "./modules/WidgetPublicacion";
 import "./modules/WidgetGrupoTrabajo";
 
 // Images
+import "./img/logo-red.svg";
 import "./img/barra-lateral-azul/oc-avatar.jpg";
 import "./img/barra-lateral-azul/menu-perfil-0-inicio.svg";
 import "./img/barra-lateral-azul/menu-perfil-1-correo.svg";

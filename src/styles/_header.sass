@@ -7,10 +7,12 @@
         align-items: center
         width: 100%
         margin: 0
+        padding: .5em 0 !important
     &__logo
-        margin-left: 3em
+        // margin-left: 3em
+        margin: auto
         img
-            width: 171.21px
+            width: 102px
     &__items
         display: flex
         align-items: center
@@ -37,6 +39,7 @@
             cursor: inherit
             position: relative
             z-index: 2
+            display: none
             img
                 transition: $tr
                 visibility: hidden
@@ -115,10 +118,16 @@
         background-color: #BEBEBE !important
 
 .oc-general-index
+    .oc-header__cont
+        padding: 0 !important
     .oc-header__widgets-info
         cursor: pointer
+        display: block
         img, span
             visibility: visible
+@include media-breakpoint-up(md)
+    .oc-header__logo
+        transform: translateX(20px)
     
 @include media-breakpoint-down(sm)
     .oc-header
