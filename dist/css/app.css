@@ -11226,12 +11226,13 @@ p, span {
   align-items: center;
   width: 100%;
   margin: 0;
+  padding: 0.5em 0 !important;
 }
 .oc-header__logo {
-  margin-left: 3em;
+  margin: auto;
 }
 .oc-header__logo img {
-  width: 171.21px;
+  width: 102px;
 }
 .oc-header__items {
   display: flex;
@@ -11266,6 +11267,7 @@ p, span {
   cursor: inherit;
   position: relative;
   z-index: 2;
+  display: none;
 }
 .oc-header__widgets-info img {
   transition: all 0.4s;
@@ -11365,13 +11367,22 @@ p, span {
   background-color: #BEBEBE !important;
 }
 
+.oc-general-index .oc-header__cont {
+  padding: 0 !important;
+}
 .oc-general-index .oc-header__widgets-info {
   cursor: pointer;
+  display: block;
 }
 .oc-general-index .oc-header__widgets-info img, .oc-general-index .oc-header__widgets-info span {
   visibility: visible;
 }
 
+@media (min-width: 768px) {
+  .oc-header__logo {
+    transform: translateX(20px);
+  }
+}
 @media (max-width: 767.98px) {
   .oc-header {
     position: relative;
@@ -15492,6 +15503,26 @@ p, span {
   font-size: 15px !important;
   font-family: "roboto-light", sans-serif !important;
   color: #505D6C !important;
+}
+.oc-est-modal__body__desc__list {
+  list-style: none;
+  font-family: "roboto-light", sans-serif !important;
+  font-size: 15px !important;
+  color: #505D6C !important;
+  padding-left: 1.5em;
+}
+.oc-est-modal__body__desc__list li {
+  position: relative;
+}
+.oc-est-modal__body__desc__list li::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 7px;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #19A500;
+  border-radius: 50%;
 }
 .oc-est-modal__body__info-items .item__title {
   font-family: "lato-bold-italic", sans-serif !important;
@@ -21535,9 +21566,43 @@ p, span {
 .oc-index-santander .oc-submenu-gen .nav {
   justify-content: space-around;
 }
+.oc-index-santander .oc-mapa__stat-item-altura {
+  border-bottom: none;
+  margin-top: 15px;
+}
+.oc-index-santander .oc-mapa__stat-item-seg {
+  margin: 0;
+}
+.oc-index-santander .oc-mapa__stat-item-seg .oc-tramo-02::before {
+  content: "2";
+}
+.oc-index-santander .oc-mapa__stat-item-seg .oc-tramo-03::before {
+  content: "3";
+}
 
 #main-santander {
   background-color: white;
+}
+#main-santander #mapExt-antioquia {
+  position: absolute;
+  top: 45px;
+  right: 400px;
+}
+#main-santander #mapExt-antioquia .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
+#main-santander #mapExt-boyaca {
+  position: absolute;
+  left: 440px;
+  bottom: 70px;
+}
+#main-santander #mapExt-boyaca .oc-map__ext-city__button-text {
+  margin-right: 20px;
+}
+#main-santander .oc-mapa__stat {
+  position: relative;
+  top: inherit;
+  left: inherit;
 }
 
 .oc-mapa-santander {

@@ -825,6 +825,59 @@ import "./img/boyaca/estacion-miraflores/galeria_sistema_de_bombeo_1.jpg";
 import "./img/boyaca/mapa/territorio_miraflores_municipio-modal.jpg";
 import "./img/boyaca/mapa/territorio_puerto_serviez-modal.jpg";
 
+// Ventanas Modal Santander
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/departamento-santander.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/depto-santander.jpg";
+
+//Modal La Belleza
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/estacion-la_belleza.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/estacion-labelleza.jpg";
+
+//Modal Municipio La Belleza
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/municipio-la-belleza.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/municipio-labelleza.jpg";
+
+//Modal Municipio Florian
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/municipio-la-belleza.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/florian.jpg";
+
+//Modal Municipio Puerto Serviez
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/entrada_salida_oleoducto-puertoserviez.svg";
+
+//Modal Entrada y Salida Oleoducto en Santander
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/entradaysalida-oleoducto1.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/entradaysalida-oleoducto2.jpg";
+
+//Modal Ecosistema Santander
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/ecosistema-1-santander.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/ecosistema-2-santander.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/ecosistema-3-santander.jpg";
+
+//Modal Flora Santander
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/flora-santander.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/flora-1.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/flora-2.jpg";
+
+//Modal Fauna Santander
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/fauna-santander.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/fauna-santander.jpg";
+
+//Modal Clima Santander
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/clima-santander.jpg";
+
+//Modal Páramo Santurbán
+import "./img/santander/iconos/iconos-titulos-ventanas-modales-titulos/paramo-santurban.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/paramo_santurban.jpg";
+
+//Modal Serranía Las Quinchas
+import "./img/santander/iconos/iconos-mapa-ventana-modal/2-icon-serrania-las-quinchas/ecosistema-info.svg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/serrania-las-quinchas-1.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/serrania-las-quinchas-2.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/serrania-las-quinchas-3.jpg";
+
+//Modal Serranía Las Quinchas
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/hidrografia-1-santander.jpg";
+import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/hidrografia-2-santander.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
