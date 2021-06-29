@@ -811,6 +811,20 @@ import "./img/santander/fotos/enqueestamos3.jpg";
 import "./img/santander/links/mapa/mapa-santander.png";
 import "./img/santander/links/mapa/mapa-linea-santander.png";
 
+// Nuevas imagenes
+import "./img/boyaca/estacion-paez/slide-01-paez.jpg";
+import "./img/boyaca/estacion-paez/slide-02-paez.jpg";
+import "./img/boyaca/estacion-paez/slide-03-paez.jpg";
+import "./img/boyaca/estacion-miraflores/slide-01-miraflores.jpg";
+import "./img/boyaca/estacion-miraflores/slide-02-miraflores.jpg";
+import "./img/boyaca/estacion-miraflores/slide-03-miraflores.jpg";
+import "./img/boyaca/estacion-miraflores/slide-04-miraflores.jpg";
+import "./img/boyaca/estacion-miraflores/galeria_almacenamiento_1.jpg";
+import "./img/boyaca/estacion-miraflores/galeria_almacenamiento_2.jpg";
+import "./img/boyaca/estacion-miraflores/galeria_sistema_de_bombeo_1.jpg";
+import "./img/boyaca/mapa/territorio_miraflores_municipio-modal.jpg";
+import "./img/boyaca/mapa/territorio_puerto_serviez-modal.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
