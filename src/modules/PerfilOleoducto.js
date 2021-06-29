@@ -20,3 +20,7 @@ $('.oc-index-casanare .oc-recorrido__mapa #Trazado_5048-2').attr('class', 'activ
 // Boyacá selector perfil oleoducto
 $('.oc-est-boyaca .oc-recorrido__mapa #Componente_128_4').attr('class', 'active')
 $('.oc-index-boyaca .oc-recorrido__mapa #Componente_128_4').attr('class', 'active')
+
+// Santander selector perfil oleoducto
+$('.oc-est-santander .oc-recorrido__mapa #Componente_130_33').attr('class', 'active')
+$('.oc-index-santander .oc-recorrido__mapa #Componente_130_33').attr('class', 'active')
