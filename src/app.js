@@ -899,6 +899,10 @@ import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_d
 import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_degrafico_trabajadores-3.svg";
 import "./img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.png";
 
+//Mapa Antioquia
+import "./img/antioquia/links/mapa/mapa-antioquia.png";
+import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

@@ -26531,6 +26531,10 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var imag_degrafico_trabajadores_3 = (__webpack_require__.p + "img/imag_degrafico_trabajadores-3.svg");
 // CONCATENATED MODULE: ./src/img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.png
 /* harmony default export */ var La_Belleza_Almacenamiento_1 = (__webpack_require__.p + "img/La Belleza Almacenamiento 1.png");
+// CONCATENATED MODULE: ./src/img/antioquia/links/mapa/mapa-antioquia.png
+/* harmony default export */ var mapa_antioquia = (__webpack_require__.p + "img/mapa-antioquia.png");
+// CONCATENATED MODULE: ./src/img/antioquia/links/mapa/mapa-antioquia-linea.png
+/* harmony default export */ var mapa_antioquia_linea = (__webpack_require__.p + "img/mapa-antioquia-linea.png");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -27338,6 +27342,9 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+
+ //Mapa Antioquia
 
 
 
