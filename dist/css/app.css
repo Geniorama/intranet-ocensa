@@ -11400,7 +11400,7 @@ p, span {
     margin: 0;
   }
   .oc-header__mobile .oc-header__logo img {
-    width: 150px;
+    width: 110px;
   }
   .oc-header__mobile .oc-btn-menu-superior {
     background-color: white !important;
@@ -16201,6 +16201,9 @@ p, span {
 }
 .oc-estaciones {
   background-color: #ECEFF1 !important;
+}
+.oc-estaciones .oc-content {
+  background-color: white !important;
 }
 .oc-estaciones .oc-widget-principal {
   height: 312px;
@@ -21606,7 +21609,7 @@ p, span {
 }
 
 .oc-mapa-santander {
-  margin-top: 7em;
+  padding-top: 7em;
 }
 .oc-mapa-santander .oc-mapa__indicator {
   top: 20px;
@@ -21719,6 +21722,9 @@ p, span {
   left: 983px;
   top: -40px;
 }
+.oc-mapa-santander .oc-point-86:hover .oc-mapa__icon {
+  opacity: 1;
+}
 .oc-mapa-santander .oc-point-87 {
   left: 1016px;
   top: -80px;
@@ -21769,4 +21775,10 @@ p, span {
 .oc-mapa-santander .oc-point-98 {
   left: 109px;
   top: 386px;
+}
+
+@media (max-width: 767.98px) {
+  .oc-mapa-santander {
+    padding-top: 10em;
+  }
 }
