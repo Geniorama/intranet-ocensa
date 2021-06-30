@@ -179,6 +179,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'santander/estacion-la-belleza.html',
+            template: './src/santander/estacion-la-belleza.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'
