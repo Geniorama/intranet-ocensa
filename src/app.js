@@ -897,6 +897,7 @@ import "./img/santander/estacion-la-belleza/iconos svg/Juan Jose Morales 1173.pn
 import "./img/santander/estacion-la-belleza/iconos svg/imag_ocensa_xxx_estacion_xxx_personal_x_mario_becerra.png";
 import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_demografico_trabajadores_en_estacion.svg";
 import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_degrafico_trabajadores-3.svg";
+import "./img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.png";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
