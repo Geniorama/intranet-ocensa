@@ -71,6 +71,23 @@
                 font-size: 15px !important
                 font-family: 'roboto-light', sans-serif !important
                 color: #505D6C !important
+            &__list
+                list-style: none
+                font-family: 'roboto-light', sans-serif !important
+                font-size: 15px !important
+                color: #505D6C !important
+                padding-left: 1.5em
+                li
+                    position: relative
+                    &::before
+                        content: ''
+                        position: absolute
+                        left: -20px
+                        top: 7px
+                        width: 8px
+                        height: 8px
+                        border: 1px solid $green_co
+                        border-radius: 50%
         &__info-items
             .item
                 &__title
