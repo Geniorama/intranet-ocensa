@@ -191,7 +191,7 @@ module.exports = {
             filename: 'antioquia/antioquia.html',
             template: './src/antioquia/antioquia.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
         // CSS

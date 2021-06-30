@@ -903,6 +903,11 @@ import "./img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.pn
 import "./img/antioquia/links/mapa/mapa-antioquia.png";
 import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
 
+// Index Antioquia
+import "./img/antioquia/fotos-home/1_inicio_antioquia.jpg";
+import "./img/antioquia/ICONOS/svg_editables/icon-map-antioquia.svg";
+import "./img/antioquia/ICONOS/svg_editables/icons-group-map-antioquia.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

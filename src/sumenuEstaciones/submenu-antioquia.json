@@ -1,0 +1,27 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Antioquia",
+            "dataTarget": "/antioquia/antioquia.html",
+            "menuId": "oc-index-antioquia"
+        },
+
+        {
+            "menuName": "Estación Chiquillo",
+            "dataTarget": "#",
+            "menuId": "oc-ant-chiquillo"
+        },
+
+        {
+            "menuName": "Estación Caucasia",
+            "dataTarget": "/antioquia/caucasia.html",
+            "menuId": "oc-ant-caucasia"
+        },
+
+        {
+            "menuName": "Base Puerto Berrío",
+            "dataTarget": "/antioquia/base-puerto-berrio.html",
+            "menuId": "oc-ant-puerto-berrio"
+        }
+    ]
+}
