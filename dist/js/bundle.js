@@ -24777,6 +24777,7 @@ jquery_default()('.oc-slick-widget__slider').slick({
 });
 jquery_default()('.oc-cas-cusiana .wdg-banner__bg').scrollLeft(130);
 jquery_default()('.oc-boy-soraca .wdg-banner__bg').scrollLeft(170);
+jquery_default()('.oc-san-bell .wdg-banner__bg').scrollLeft(130); // oc-san-bell
 // CONCATENATED MODULE: ./src/modules/EstacionesPorvenir.js
 
 
