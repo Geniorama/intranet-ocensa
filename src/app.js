@@ -878,6 +878,26 @@ import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/serrania-las-quinchas-3.jpg
 //Modal Serranía Las Quinchas
 import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/hidrografia-1-santander.jpg";
 import "./img/santander/fotos/FOTOS-VENTANAS-MODALES/hidrografia-2-santander.jpg";
+//Estacion La Belleza
+import "./img/santander/estacion-la-belleza/La Belleza Estación 1.png";
+import "./img/santander/estacion-la-belleza/La Belleza Estación 2.png";
+import "./img/santander/estacion-la-belleza/La Belleza Estación 3.png";
+import "./img/santander/estacion-la-belleza/La Belleza Estación 4.png";
+import "./img/santander/estacion-la-belleza/Estacion La Belleza-155.png";
+import "./img/santander/estacion-la-belleza/Foto satelital estación LA BELLEZA.png";
+import "./img/santander/estacion-la-belleza/iconos svg/icon-capacidad.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/2-icon-la-estacion/icon_territorio_la_belleza_estacion_riesgos_transporte.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/2-icon-la-estacion/icon_territorio_la_belleza_estacion_reduce_presion.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/2-icon-la-estacion/lineas-estacion.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/5-icon-distancia-de-linea/icon_territorio_la_belleza_distancia de línea_estacion_la_belleza.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/6-icon-gestion-ambiental/icon_territorio_la_belleza_gestion_ambiental_paneles_solares.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/6-icon-gestion-ambiental/icon_territorio_la_belleza_gestion_ambiental_recoleccion.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/Juan Diego Colonia (757).png";
+import "./img/santander/estacion-la-belleza/iconos svg/Juan Jose Morales 1173.png";
+import "./img/santander/estacion-la-belleza/iconos svg/imag_ocensa_xxx_estacion_xxx_personal_x_mario_becerra.png";
+import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_demografico_trabajadores_en_estacion.svg";
+import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_degrafico_trabajadores-3.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
