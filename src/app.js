@@ -899,6 +899,39 @@ import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_d
 import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_degrafico_trabajadores-3.svg";
 import "./img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.png";
 
+//Estacion Caucasia
+import "./img/antioquia/estacion-caucasia/Caucasia_Ocensa_BI-2021-Foto-Dron-006.png";
+import "./img/antioquia/estacion-caucasia/Caucasia Estación 1.png";
+import "./img/antioquia/estacion-caucasia/Estción Caucasia-158.png";
+import "./img/antioquia/estacion-caucasia/fotos/ubicacion/ubicacion-cau.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/la-estacion/Grupo 18820.svg";
+import "./img/antioquia/estacion-caucasia/fotos/la-estacion/Grupo 19506.svg";
+import "./img/antioquia/estacion-caucasia/fotos/la-estacion/Grupo 18849.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/4-icon-distancia-de-linea/distancia_de_linea_estacion_chiquillo.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/4-icon-distancia-de-linea/distancia_de_linea_estacion_caucasia.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/4-icon-distancia-de-linea/distancia_de_linea_estacion_granjita.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/6-icon-sistema-de-bombeo/Grupo 15261.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/6-icon-sistema-de-bombeo/Grupo 18646.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/6-icon-sistema-de-bombeo/Grupo 18862.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/6-icon-sistema-de-bombeo/Grupo 19526.svg";
+import "./img/antioquia/estacion-caucasia/fotos/personal/imag_ocensa_rojo.png";
+import "./img/antioquia/estacion-caucasia/fotos/personal/Ciro-Villamizar-(2).png";
+import "./img/antioquia/estacion-caucasia/fotos/personal/Mauricio-Sandoval-(969).png";
+import "./img/antioquia/estacion-caucasia/fotos/personal/Diego-Carvajal-(2).png";
+import "./img/antioquia/estacion-caucasia/svg editables/8-icon-demografico/imag_demografico_trabajadores_en_estacion-cau.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/8-icon-demografico/imag_demografico_mujeres_y_hombres-cau.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/8-icon-demografico/imag_demografico_generaciones-cau.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/12-icon-gestion-ambiental/gestion_ambiental_condensacion_aire.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/12-icon-gestion-ambiental/gestion_ambiental_filtros_materas.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/12-icon-gestion-ambiental/gestion_ambiental_icono_menu.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/12-icon-gestion-ambiental/gestion_ambiental_reacondicionamiento_exostos.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/12-icon-gestion-ambiental/gestion_ambiental_siembra_arboles.svg";
+import "./img/antioquia/estacion-caucasia/svg editables/14-icon-como-llegar/Grupo 17080.svg";
+import "./img/antioquia/estacion-caucasia/fotos/almacenamiento/almacenamiento-1.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/almacenamiento/almacenamiento-2.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 1.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 2.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 3.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -956,6 +989,23 @@ $('.oc-slick-widget__gestion-paez').slick({
             </g>
         </svg>
     </button>`,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings:{
+                slidesToShow: 1,
+                dots: true
+            }
+        }
+    ]
+})
+
+$('.oc-slick-aerea-caucasia').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    infinite: false,
     responsive: [
         {
             breakpoint: 768,
@@ -1829,6 +1879,41 @@ $('.oc-porvenir__car').slick({
 
 $('.oc-slick-almacenamiento-miraflores').slick({
     slidesToShow: 4,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    dots: true,
+    arrows: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+              dots: true,
+              slidesToShow: 1
+            }
+        }
+    ]
+})
+
+$('.oc-slick-almacenamiento-caucasia').slick({
+    slidesToShow: 2,
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
         <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
             <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
