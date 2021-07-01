@@ -899,7 +899,6 @@ import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_d
 import "./img/santander/estacion-la-belleza/iconos svg/8-icon-demografico/imag_degrafico_trabajadores-3.svg";
 import "./img/santander/estacion-la-belleza/fotos/La Belleza Almacenamiento 1.png";
 
-<<<<<<< HEAD
 //Estacion Caucasia
 import "./img/antioquia/estacion-caucasia/Caucasia_Ocensa_BI-2021-Foto-Dron-006.png";
 import "./img/antioquia/estacion-caucasia/Caucasia Estación 1.png";
@@ -933,7 +932,6 @@ import "./img/antioquia/estacion-caucasia/fotos/almacenamiento/almacenamiento-2.
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 1.jpg";
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 2.jpg";
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 3.jpg";
-=======
 //Mapa Antioquia
 import "./img/antioquia/links/mapa/mapa-antioquia.png";
 import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
@@ -943,7 +941,6 @@ import "./img/antioquia/fotos-home/1_inicio_antioquia.jpg";
 import "./img/antioquia/ICONOS/svg_editables/icon-map-antioquia.svg";
 import "./img/antioquia/ICONOS/svg_editables/icons-group-map-antioquia.svg";
 
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
