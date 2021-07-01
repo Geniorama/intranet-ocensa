@@ -202,6 +202,14 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
+        //Base Puerto Berrio
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/base-puerto-berrio.html',
+            template: './src/antioquia/base-puerto-berrio.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

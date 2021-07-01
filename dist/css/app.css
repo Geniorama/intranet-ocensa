@@ -14544,15 +14544,12 @@ p, span {
   margin-left: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .oc-mapa-casanare .oc-mapa__line {
   top: 39px;
   right: 108px;
   width: 382px;
 }
 
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 .oc-mapa {
   height: auto;
   text-align: center;
@@ -14569,12 +14566,6 @@ p, span {
 }
 .oc-mapa__line {
   position: absolute;
-<<<<<<< HEAD
-  top: 39px;
-  right: 108px;
-  width: 382px;
-=======
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 }
 .oc-mapa__location-modals {
   position: absolute;
@@ -21595,13 +21586,10 @@ p, span {
   content: "3";
 }
 
-<<<<<<< HEAD
-=======
 .oc-est-santander .oc-submenu-gen .nav {
   justify-content: space-around;
 }
 
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 #main-santander {
   background-color: white;
 }
@@ -21965,8 +21953,157 @@ p, span {
     border-bottom: 0px !important;
   }
 }
-<<<<<<< HEAD
-=======
+#laestacion-cau #cus-wdg-la-estacion .linea-punteada {
+  width: 150px;
+}
+
+.ubi-cauc .wdg-ubicacion {
+  height: 600px !important;
+}
+
+#distancia-linea-cau .oc-box-dato .des-number-v2 {
+  font-family: "roboto-regular", sans-serif !important;
+  font-size: 15px !important;
+}
+
+#almacenamiento-caucasia .wdg-almacenamiento-caucasia {
+  height: 390px !important;
+}
+
+#dist-caucasia .oc-card-widget {
+  height: 390px !important;
+}
+
+#bombeo-caucasia .bom-cau .img-bomb-cau {
+  width: 48px;
+  height: 48px;
+}
+#bombeo-caucasia .bom-cau .lin-bomb-cau {
+  width: 9px;
+  height: 85px;
+}
+#bombeo-caucasia .bom-cau .n-gr {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 30px;
+}
+#bombeo-caucasia .bom-cau .t-md {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 15px;
+  color: #505D6C;
+}
+#bombeo-caucasia .bom-cau .at-md {
+  font-family: "roboto-medium", sans-serif;
+  font-size: 23px;
+}
+#bombeo-caucasia .bom-cau .lin-2-bomb-cau {
+  width: 9px;
+  height: 77px;
+  margin-top: 5px;
+}
+#bombeo-caucasia .bom-cau .at-2 {
+  font-family: "roboto-light", sans-serif;
+  font-size: 14px;
+}
+
+#bomb-2 .oc-card-widget {
+  padding-bottom: 24px !important;
+}
+
+#contratistas-caucasia .oc-card-widget {
+  height: 331px !important;
+}
+
+#gestion-caucasia .oc-slick-widget__gestion .oc-box-dato img {
+  margin-bottom: 1em;
+}
+
+#dist-aerea-cau .t-gra-cau {
+  font-size: 14px;
+}
+#dist-aerea-cau .number-minutes {
+  font-size: 24px !important;
+  margin-left: 40px;
+}
+#dist-aerea-cau .desc-minutes {
+  font-size: 15px !important;
+  margin-top: 10px;
+}
+#dist-aerea-cau .number-minutes-v2 {
+  font-size: 24px !important;
+  margin-left: 35px;
+}
+
+#wdg-section-caucasia #llegar-sant-bell .badge {
+  width: 345px !important;
+  margin-top: 20px;
+}
+
+#terre-cau .item-terrestre_02 {
+  border-bottom: none;
+}
+
+#llegar-sant-bell .oc-slick-theme {
+  padding: 0 !important;
+}
+#llegar-sant-bell .oc-slick-theme .slick-dots {
+  margin-top: -13px;
+}
+#llegar-sant-bell .oc-slick-theme .slick-dots .slick-active {
+  background-color: #00AF00;
+}
+#llegar-sant-bell .oc-slick-theme .slick-dots li {
+  background-color: white;
+  border: 1px solid #00AF00;
+}
+
+@media (max-width: 767.98px) {
+  #ubicacion-cauc .wdg-ubicacion .wdg-banner__info {
+    margin-bottom: 20px !important;
+  }
+
+  #dist-caucasia .oc-card-widget {
+    height: auto !important;
+  }
+
+  #almacenamiento-caucasia .wdg-almacenamiento-caucasia {
+    height: auto !important;
+  }
+
+  #bombeo-caucasia .bom-cau {
+    padding: 2em !important;
+  }
+
+  #dist-aerea-cau .number-minutes {
+    margin-left: 65px !important;
+  }
+
+  #dist-aerea-cau .cus-res-1 {
+    margin-left: 89px !important;
+  }
+  #dist-aerea-cau .cus-res-2 {
+    margin-left: 90px !important;
+  }
+
+  .t-caucasia .resp-sant {
+    width: 100% !important;
+  }
+
+  #wdg-section-caucasia #llegar-sant-bell .badge {
+    width: 270px !important;
+  }
+
+  .wdg-solicitudes-sant #llegar-sant-bell .item-terrestre .oc-box-dato {
+    height: auto !important;
+  }
+
+  .t-caucasia .cau-viaje {
+    margin-bottom: 30px !important;
+  }
+
+  #llegar-sant-bell .item-terrestre_01 {
+    padding-bottom: 0px !important;
+  }
+}
 .oc-mapa-antioquia .oc-mapa__line {
   top: -112px;
   right: 102px;
@@ -22116,4 +22253,3 @@ p, span {
   top: unset;
   left: unset;
 }
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19

@@ -941,6 +941,14 @@ import "./img/antioquia/fotos-home/1_inicio_antioquia.jpg";
 import "./img/antioquia/ICONOS/svg_editables/icon-map-antioquia.svg";
 import "./img/antioquia/ICONOS/svg_editables/icons-group-map-antioquia.svg";
 
+//Base Puerto Berrio
+import "./img/antioquia/base-puerto-berrio/fotos/slide-01-puerto.jpg";
+import "./img/antioquia/base-puerto-berrio/fotos/slide-02-puerto.png";
+import "./img/antioquia/base-puerto-berrio/fotos/slide-03-puerto.png";
+import "./img/antioquia/base-puerto-berrio/fotos/slide-04-puerto.png";
+import "./img/antioquia/base-puerto-berrio/fotos/ubicacion-puerto-berrio.jpg";
+import "./img/antioquia/base-puerto-berrio/fotos/icono-valvulas.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
