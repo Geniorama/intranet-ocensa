@@ -19,7 +19,7 @@
     </section>
     <section class="cont-intro-territorio mb-5">
         <div class="container">
-            {{>../partials/intro-territorio-boyaca}}
+            {{>../partials/intro-territorio-antioquia}}
         </div>
     </section>
 
@@ -392,7 +392,7 @@
             <div class="oc-mapa__number-location oc-point-124">
                 <span>3</span>
             </div>
- 
+
 
             <!--Indicador-->
             {{>../partials/map-indicator}}
@@ -404,119 +404,106 @@
                     <li><span class="item-number">1</span> Oleoducto de Colombia</li>
                     <li><span class="item-number">2</span> Oleoducto Vasconia Barrancabermeja</li>
                     <li><span class="item-number">3</span> Oleoducto Vasconia V26 Barrancabermeja</li>
-                    <li><span class="item-number">4</span> Oleoducto Alto Magdalena</li>
                 </ul>
             </div>
 
-            {{!-- Button Bogotá --}}
-            {{>../partials/map-ext-city city="BOGOTÁ" buttonText="Ir" btnIzquierda="true" id="mapExt-bta"}}
+            {{!-- Button Boyacá --}}
+            {{>../partials/map-ext-city city="BOYACÁ" buttonText="Continuar recorrido" btnIzquierda="true"
+            id="mapExt-boyaca" buttonLink="/boyaca/boyaca.html"}}
 
-            {{!-- Button Casanare --}}
-            {{>../partials/map-ext-city city="CASANARE" buttonText="Regresar recorrido" btnDerecha="true" id="mapExt-casanare" buttonLink="/casanare/casanare.html"}}
-
-            {{!-- Button Antioquia --}}
-            {{>../partials/map-ext-city city="ANTIOQUIA" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-antioquia" buttonLink="#"}}
-
-            {{!-- Button Santander --}}
-            {{>../partials/map-ext-city city="SANTANDER" buttonText="Continuar recorrido" btnIzquierda="true" id="mapExt-santander" buttonLink="#"}}
+            {{!-- Button Cordoba --}}
+            {{>../partials/map-ext-city city="CORDOBA" buttonText="Continuar recorrido" btnIzquierda="true"
+            id="mapExt-cordoba" buttonLink="#"}}
         </div>
     </section>
 
     <!--Statitics-->
     <div class="container">
-        <div class="oc-mapa__stat mt-4">
+        <div class="oc-mapa__stat mt-4 flex-column">
             <div class="row">
-                <div class="col-12 col-md-2">
-                    <div class="oc-mapa__stat-header">
+                <div class="col-12 col-md-3">
+                    <div class="oc-mapa__stat-header mb-3 mb-md-0 mt-2">
                         <img src="/img/icon-segmentos.svg" alt="">
                         <h5>Segmentos</h5>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="oc-mapa__stat-item-seg">
-                        <div class="oc-tramo oc-tramo-02">
-                            <p>Tramo</p>
-                            <span class="roboto-light">Porvenir - Páez</span>
-                        </div>
-                        <div class="oc-distancia">
-                            <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">32</span> km</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="oc-mapa__stat-item-seg">
-                        <div class="oc-tramo oc-tramo-03">
-                            <p>Tramo</p>
-                            <span class="roboto-light">Páez - Miraflores</span>
-                        </div>
-                        <div class="oc-distancia">
-                            <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">21.30</span> km</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
+                <div class="col-12 col-md-3">
                     <div class="oc-mapa__stat-item-seg">
                         <div class="oc-tramo oc-tramo-04">
                             <p>Tramo</p>
-                            <span class="roboto-light"> Miraflores - La Belleza</span>
+                            <span class="roboto-light">Vasconia - Chiquillo</span>
                         </div>
                         <div class="oc-distancia">
                             <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">137.8</span> km</span>
+                            <span class="roboto-light"><span class="roboto-medium number">000</span> km</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-02">
+                            <p>Tramo</p>
+                            <span class="roboto-light">Chiquillo - Caucasia</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">184</span> km</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-03">
+                            <p>Tramo</p>
+                            <span class="roboto-light">Caucasia - Granjita</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">33</span> km</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row align-items-center">
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-md-3">
                     <div class="oc-mapa__stat-header mb-0">
                         <img src="/img/icon-altura.svg" alt="">
                         <h5>Altura</h5>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-3">
                     <div class="oc-mapa__stat-item-altura">
                         <span class="arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
-                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
-                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387"
+                                viewBox="0 0 4.633 8.387">
+                                <path id="Trazado_11919" data-name="Trazado 11919"
+                                    d="M416,919.7l3.572,3.572L416,926.843" transform="translate(-415.377 -919.078)"
+                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="0.879" />
                             </svg>
 
                         </span>
-                        <p>Páez </p><span class="number">1.263 </span><span class="date">msnm</span>
+                        <p>La Belleza </p><span class="number">2.100 </span><span class="date">msnm</span>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-3">
                     <div class="oc-mapa__stat-item-altura">
                         <span class="arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
-                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
-                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387"
+                                viewBox="0 0 4.633 8.387">
+                                <path id="Trazado_11919" data-name="Trazado 11919"
+                                    d="M416,919.7l3.572,3.572L416,926.843" transform="translate(-415.377 -919.078)"
+                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="0.879" />
                             </svg>
 
                         </span>
-                        <p>Miraflores </p><span class="number">1.785 </span><span class="date">msnm</span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="oc-mapa__stat-item-altura">
-                        <span class="arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387" viewBox="0 0 4.633 8.387">
-                                <path id="Trazado_11919" data-name="Trazado 11919" d="M416,919.7l3.572,3.572L416,926.843"
-                                    transform="translate(-415.377 -919.078)" fill="none" stroke="#fff"
-                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="0.879" />
-                            </svg>
-
-                        </span>
-                        <p>Vasconia </p><span class="number">130 </span><span class="date">msnm</span>
+                        <p>La Belleza </p><span class="number">2.100 </span><span class="date">msnm</span>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 

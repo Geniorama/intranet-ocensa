@@ -1,4 +1,6 @@
 .oc-index-antioquia
+    .oc-content
+        background-color: white !important
     .oc-img-header-estaciones__icon-estacion
         width: 106px
         height: auto
@@ -6,3 +8,14 @@
         position: relative
         top: unset
         left: unset
+    .oc-tramo-02
+        &::before
+            content: '2'
+    .oc-tramo-03
+        &::before
+            content: '3'
+    .oc-tramo-04
+        &::before
+            content: '4'
+    .oc-mapa__stat-item-altura
+        border-bottom: none
