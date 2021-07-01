@@ -17,4 +17,6 @@ $('.oc-slick-widget__slider').slick({
 
 $('.oc-cas-cusiana .wdg-banner__bg').scrollLeft(130)
 $('.oc-boy-soraca .wdg-banner__bg').scrollLeft(170)
+$('.oc-san-bell .wdg-banner__bg').scrollLeft(130)
+// oc-san-bell
 

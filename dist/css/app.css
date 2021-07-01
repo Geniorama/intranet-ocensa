@@ -14544,6 +14544,15 @@ p, span {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.oc-mapa-casanare .oc-mapa__line {
+  top: 39px;
+  right: 108px;
+  width: 382px;
+}
+
+>>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 .oc-mapa {
   height: auto;
   text-align: center;
@@ -14560,9 +14569,12 @@ p, span {
 }
 .oc-mapa__line {
   position: absolute;
+<<<<<<< HEAD
   top: 39px;
   right: 108px;
   width: 382px;
+=======
+>>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 }
 .oc-mapa__location-modals {
   position: absolute;
@@ -21583,6 +21595,13 @@ p, span {
   content: "3";
 }
 
+<<<<<<< HEAD
+=======
+.oc-est-santander .oc-submenu-gen .nav {
+  justify-content: space-around;
+}
+
+>>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
 #main-santander {
   background-color: white;
 }
@@ -21946,3 +21965,155 @@ p, span {
     border-bottom: 0px !important;
   }
 }
+<<<<<<< HEAD
+=======
+.oc-mapa-antioquia .oc-mapa__line {
+  top: -112px;
+  right: 102px;
+  width: 273px;
+}
+.oc-mapa-antioquia .oc-mapa__name-point span {
+  line-height: 1em;
+}
+.oc-mapa-antioquia .oc-mapa__location-modals-02 .oc-mapa__name-point {
+  padding: 0;
+  padding-left: 0.5em;
+}
+.oc-mapa-antioquia .oc-mapa__location-modals-02 .oc-mapa__img-icon {
+  margin-left: 0.5em;
+}
+.oc-mapa-antioquia .oc-point-99 {
+  left: 111px;
+  top: 404px;
+}
+.oc-mapa-antioquia .oc-point-100 {
+  left: 287px;
+  top: 496px;
+}
+.oc-mapa-antioquia .oc-point-101 {
+  left: 322px;
+  top: 385px;
+}
+.oc-mapa-antioquia .oc-point-102 {
+  left: 369px;
+  top: 611px;
+}
+.oc-mapa-antioquia .oc-point-103 {
+  left: 444px;
+  top: 311px;
+}
+.oc-mapa-antioquia .oc-point-104 {
+  left: 536px;
+  top: 651px;
+}
+.oc-mapa-antioquia .oc-point-104 .oc-mapa__name-point {
+  left: -72px;
+}
+.oc-mapa-antioquia .oc-point-105 {
+  left: 582px;
+  top: 242px;
+}
+.oc-mapa-antioquia .oc-point-106 {
+  left: 600px;
+  top: 620px;
+}
+.oc-mapa-antioquia .oc-point-107 {
+  left: 675px;
+  top: 450px;
+}
+.oc-mapa-antioquia .oc-point-107 .oc-mapa__name-point {
+  left: -87px;
+}
+.oc-mapa-antioquia .oc-point-108 {
+  left: 806px;
+  top: 142px;
+}
+.oc-mapa-antioquia .oc-point-108 .oc-mapa__name-point {
+  left: -122px;
+}
+.oc-mapa-antioquia .oc-point-109 {
+  left: 852px;
+  top: 185px;
+}
+.oc-mapa-antioquia .oc-point-109 .oc-mapa__name-point {
+  left: -82px;
+}
+.oc-mapa-antioquia .oc-point-110 {
+  left: 852px;
+  top: 296px;
+}
+.oc-mapa-antioquia .oc-point-111 {
+  left: 875px;
+  top: 389px;
+}
+.oc-mapa-antioquia .oc-point-112 {
+  left: 1051px;
+  top: 312px;
+}
+.oc-mapa-antioquia .oc-point-113 {
+  left: 974px;
+  top: 39px;
+}
+.oc-mapa-antioquia .oc-point-113:hover .oc-mapa__icon {
+  opacity: 1;
+}
+.oc-mapa-antioquia .oc-point-114 {
+  left: 591px;
+  top: 580px;
+}
+.oc-mapa-antioquia .oc-point-115 {
+  left: 674px;
+  top: 427px;
+}
+.oc-mapa-antioquia .oc-point-116 {
+  left: 839px;
+  top: 146px;
+}
+.oc-mapa-antioquia .oc-point-117 {
+  left: 307px;
+  top: 561px;
+  display: block;
+}
+.oc-mapa-antioquia .oc-point-118 {
+  left: 574px;
+  top: 545px;
+}
+.oc-mapa-antioquia .oc-point-119 {
+  left: 713px;
+  top: 611px;
+}
+.oc-mapa-antioquia .oc-point-120 {
+  left: 933px;
+  top: 206px;
+}
+.oc-mapa-antioquia .oc-point-121 {
+  left: 1008px;
+  top: 245px;
+}
+.oc-mapa-antioquia .oc-point-121 span {
+  line-height: 1em;
+  margin-top: 0.2em;
+}
+.oc-mapa-antioquia .oc-point-122 {
+  left: 754px;
+  top: 358px;
+}
+.oc-mapa-antioquia .oc-point-123 {
+  left: 596px;
+  top: 675px;
+}
+.oc-mapa-antioquia .oc-point-124 {
+  left: 620px;
+  top: 664px;
+}
+
+.oc-index-antioquia .oc-img-header-estaciones__icon-estacion {
+  width: 106px;
+  height: auto;
+}
+.oc-index-antioquia .oc-mapa__stat {
+  position: relative;
+  top: unset;
+  left: unset;
+}
+>>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
