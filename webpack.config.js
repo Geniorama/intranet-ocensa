@@ -186,21 +186,18 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
         }),
 
-<<<<<<< HEAD
         //Antioquia
         new HtmlWebpackPlugin({
             filename: 'antioquia/estacion-caucasia.html',
             template: './src/antioquia/estacion-caucasia.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-santander.json')
-=======
         // Antioquia
         new HtmlWebpackPlugin({
             filename: 'antioquia/antioquia.html',
             template: './src/antioquia/antioquia.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
->>>>>>> fc132df0942437cf9b215b44d3d73363bc106c19
         }),
 
         // CSS
