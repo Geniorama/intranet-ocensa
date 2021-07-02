@@ -47,3 +47,134 @@
                     &__sector
                         font-family: 'roboto-regular', sans-serif !important
                         font-size: 14.5px !important
+
+#dist-down
+    .circle-p
+        width: 9px
+        height: 9px
+    .line-pb-1
+        width: 175px
+        height: 1px
+        margin-left: 10px
+        margin-top: -5px
+    .n-pb-g
+        font-family: 'roboto-bold', sans-serif
+        font-size: 30px
+        color: #979FA8
+    .t-pb-s
+        font-family: 'roboto-bold', sans-serif
+        font-size: 10px
+        color: #979FA8
+    .line-pb-2
+        width: 400px
+        height: 1px
+    .line-pb-3
+        width: 180px
+        height: 1px
+    .icon-pb-2
+        width: 65px
+        height: 65px
+
+#main-ant-puerto-berrio
+    #wdg-solicitudes
+        .wdg-la-estacion__item__li-items
+            li
+                font-size: 15px !important
+                font-family: 'roboto-light', sans-serif !important
+                font-weight: 500
+                &::before
+                    left: -15px !important
+        .intro-text
+            font-size: 14px !important
+            color: #505D6C !important
+
+#main-ant-puerto-berrio
+    #dist-down
+        .circle-small
+            width: 10px
+            height: 10px
+            border: 2px solid green
+            border-radius: 50%
+            transform: translateY(-20px)
+            position: relative
+            &::before
+                position: absolute
+                top: -82px
+                content: ''
+                height: 80px
+                width: 1px
+                border: 1px solid #979FA8
+                left: 2px
+    .wdg-distancia__mobile .oc-box-dato
+        position: relative
+    .wdg-distancia__mobile .item-circle
+        display: inline-block
+        width: 10px
+        height: 10px
+        border: 2px solid #19A500
+        border-radius: 50%
+        position: absolute
+        top: calc( 50% - 5px )
+        left: 12px
+        background-color: white !important
+        z-index: 2
+    .wdg-distancia__mobile .div-linea-mobile
+        width: 1px
+        height: 45%
+        position: absolute
+        border-right: 1px dashed #505D6C !important
+        left: 48px
+        top: 110px
+        display: inline-block
+        z-index: 1
+    #wdg-distancias-linea p
+        font-weight: 500
+    .oc-widget-template__body .cont-formatos__send .name-send
+        font-weight: 500
+    #dist-aerea-cau
+        .t-gra-pb
+            margin-left: 55px
+        .number-minutes
+            margin-left: 77px !important
+        .number-minutes-v2
+            margin-left: 66px !important
+    #dist-aerea-cau .t-gra-cau
+        font-weight: 500
+    #wdg-section-05
+        #wdg-seguridad
+            height: 256px !important
+        #wdg-demografico
+            height: 99%
+        #wdg-solicitudes
+            height: 497px !important
+    .oc-porvenir__personal-info p
+        font-weight: 500
+    .oc-widget-template__body .cont-formatos__send .prof-send
+        font-weight: 500
+    .wdg-demografico__dates-item p
+        font-weight: 500
+    .wdg-demografico__dates-item span
+        font-weight: 500
+    .oc-porvenir__personal::before
+        height: 0%
+    .wdg-personal .oc-porvenir__personal-item::after
+        content: ''
+        position: absolute
+        background-color: #005FC8 !important
+        height: 50px
+        width: 2px
+        top: -30px
+
+@include media_breakpoint_down(sm)
+    #main-ant-puerto-berrio
+        .terres-san-bell
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+        #wdg-section-05 #wdg-solicitudes
+            height: auto !important
+        #dist-aerea-cau .number-minutes
+            margin-left: 102px !important
+        #dist-aerea-cau .number-minutes-v2
+            margin-left: 92px !important
