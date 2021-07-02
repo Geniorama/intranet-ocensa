@@ -953,6 +953,14 @@ import "./img/antioquia/base-puerto-berrio/fotos/slide-03-puerto.png";
 import "./img/antioquia/base-puerto-berrio/fotos/slide-04-puerto.png";
 import "./img/antioquia/base-puerto-berrio/fotos/ubicacion-puerto-berrio.jpg";
 import "./img/antioquia/base-puerto-berrio/fotos/icono-valvulas.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/distancia_de_linea_sector_norte_estacion_caucasia.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/distancia_de_linea_sector_norte_estacion_el_coveñas.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Grupo 17150.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Grupo 17153.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11288.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11287.svg";
+import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11289.svg";
+
 
 // Modal Antioquia
 import "./img/antioquia/ICONOS/svg_editables/1-icon-departamento-antioquia/departamento_antioquia.svg";
