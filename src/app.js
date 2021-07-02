@@ -907,7 +907,27 @@ import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
 import "./img/antioquia/fotos-home/1_inicio_antioquia.jpg";
 import "./img/antioquia/ICONOS/svg_editables/icon-map-antioquia.svg";
 import "./img/antioquia/ICONOS/svg_editables/icons-group-map-antioquia.svg";
+import "./img/antioquia/fotos-home/estacion-caucasia.jpg";
+import "./img/antioquia/fotos-home/estacion-chiquillo.jpg";
+import "./img/antioquia/fotos-home/foto-1-antioquia.jpg";
+import "./img/antioquia/fotos-home/foto-2-antioquia.jpg";
+import "./img/antioquia/fotos-home/foto-3-antioquia.jpg";
 
+// Modal Antioquia
+import "./img/antioquia/ICONOS/svg_editables/1-icon-departamento-antioquia/departamento_antioquia.svg";
+
+// Modal Chiquillo
+import "./img/antioquia/ICONOS/svg_editables/2-icon-estacion-chiquillo/estacion_chiquillo.svg";
+import "./img/antioquia/ICONOS/svg_editables/3-icon-estacion-caucasia/estacion_caucasia.svg";
+import "./img/antioquia/fotos-ventanas-modales/3_estacion_caucasia.jpg";
+
+// Modal Puerto Berrio
+import "./img/antioquia/ICONOS/svg_editables/4-icon-base-puerto-berrio/base_puerto_berrio.svg";
+import "./img/antioquia/fotos-ventanas-modales/4_base_puerto_berrio.jpg";
+
+// Modal Municipio Remedios
+import "./img/antioquia/ICONOS/svg_editables/icon-modals-mun-antioquia.svg";
+import "./img/antioquia/fotos-ventanas-modales/5_municipio_remedios.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

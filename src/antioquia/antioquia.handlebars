@@ -24,6 +24,22 @@
     </section>
 
     <section class="oc-mapa oc-mapa-antioquia position-relative">
+        {{!-- Modal Map --}}
+
+        <!-- Modal Departamento Antioquia -->
+        {{>../modals/antioquia/depto_antioquia}}
+
+        <!-- Modal Chiquillo -->
+        {{>../modals/antioquia/chiquillo}}
+
+        <!-- Modal Caucasia -->
+        {{>../modals/antioquia/caucasia}}
+
+        <!-- Modal Base Puerto Berrio -->
+        {{>../modals/antioquia/base_puerto_berrio}}
+
+        <!-- Modal Municipio Remedios -->
+        {{>../modals/antioquia/mun_remedios}}
 
         <div class="oc-mapa__container">
             <img src="/img/mapa-antioquia-linea.png" alt="" class="oc-mapa__line">
@@ -163,7 +179,7 @@
             </div>
 
             <!--Puerto Berrio-->
-            <div class="oc-mapa__location-modals oc-point-106 oc-mapa__orange" data-target="#mun-paez">
+            <div class="oc-mapa__location-modals oc-point-106 oc-mapa__orange" data-target="#">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -183,7 +199,7 @@
 
             <!--Remedios-->
             <div class="oc-mapa__location-modals oc-point-107 oc-mapa__orange oc-mapa__location-modals-02"
-                data-target="#mun-puerto-boyaca">
+                data-target="#mun-remedios">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -298,7 +314,7 @@
             </div>
 
             <!--ANTIOQUIA-->
-            <div class="oc-mapa__location-modals oc-point-113 oc-mapa__orange" data-target="#depto-boyaca">
+            <div class="oc-mapa__location-modals oc-point-113 oc-mapa__orange" data-target="#depto-antioquia">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -310,7 +326,7 @@
             </div>
 
             <!--PUERTO BERRIO-->
-            <div class="oc-mapa__location-modals oc-point-114 oc-mapa__yellow-02" data-target="#base-soraca">
+            <div class="oc-mapa__location-modals oc-point-114 oc-mapa__yellow-02" data-target="#base-puerto-berrio">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -323,7 +339,7 @@
             </div>
 
             <!--CHIQUILLO-->
-            <div class="oc-mapa__location-modals oc-point-115 oc-mapa__yellow-02" data-target="#base-soraca">
+            <div class="oc-mapa__location-modals oc-point-115 oc-mapa__yellow-02" data-target="#est-chiquillo">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -336,7 +352,7 @@
             </div>
 
             <!--CAUCASIA-->
-            <div class="oc-mapa__location-modals oc-point-116 oc-mapa__yellow-02" data-target="#base-soraca">
+            <div class="oc-mapa__location-modals oc-point-116 oc-mapa__yellow-02" data-target="#est-caucasia">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -484,7 +500,7 @@
                             </svg>
 
                         </span>
-                        <p>La Belleza </p><span class="number">2.100 </span><span class="date">msnm</span>
+                        <p>Chiquillo </p><span class="number">454 </span><span class="date">msnm</span>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
@@ -499,7 +515,7 @@
                             </svg>
 
                         </span>
-                        <p>La Belleza </p><span class="number">2.100 </span><span class="date">msnm</span>
+                        <p>Caucasia </p><span class="number">150 </span><span class="date">msnm</span>
                     </div>
                 </div>
             </div>
@@ -507,12 +523,12 @@
         </div>
     </div>
 
-    <section class="oc-section-galeria" id="galeria-terr-boyaca">
-        {{>../partials/galeria-territorio-boyaca}}
+    <section class="oc-section-galeria" id="galeria-terr-antioquia">
+        {{>../partials/galeria-territorio-antioquia}}
     </section>
     <section class="oc-section-estamos">
         <div class="container">
-            {{>../partials/estamos-section-boyaca}}
+            {{>../partials/estamos-section-antioquia}}
         </div>
     </section>
 </main>
