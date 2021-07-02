@@ -940,6 +940,11 @@ import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
 import "./img/antioquia/fotos-home/1_inicio_antioquia.jpg";
 import "./img/antioquia/ICONOS/svg_editables/icon-map-antioquia.svg";
 import "./img/antioquia/ICONOS/svg_editables/icons-group-map-antioquia.svg";
+import "./img/antioquia/fotos-home/estacion-caucasia.jpg";
+import "./img/antioquia/fotos-home/estacion-chiquillo.jpg";
+import "./img/antioquia/fotos-home/foto-1-antioquia.jpg";
+import "./img/antioquia/fotos-home/foto-2-antioquia.jpg";
+import "./img/antioquia/fotos-home/foto-3-antioquia.jpg";
 
 //Base Puerto Berrio
 import "./img/antioquia/base-puerto-berrio/fotos/slide-01-puerto.jpg";
@@ -949,6 +954,47 @@ import "./img/antioquia/base-puerto-berrio/fotos/slide-04-puerto.png";
 import "./img/antioquia/base-puerto-berrio/fotos/ubicacion-puerto-berrio.jpg";
 import "./img/antioquia/base-puerto-berrio/fotos/icono-valvulas.svg";
 
+// Modal Antioquia
+import "./img/antioquia/ICONOS/svg_editables/1-icon-departamento-antioquia/departamento_antioquia.svg";
+
+// Modal Chiquillo
+import "./img/antioquia/ICONOS/svg_editables/2-icon-estacion-chiquillo/estacion_chiquillo.svg";
+import "./img/antioquia/ICONOS/svg_editables/3-icon-estacion-caucasia/estacion_caucasia.svg";
+import "./img/antioquia/fotos-ventanas-modales/3_estacion_caucasia.jpg";
+
+// Modal Puerto Berrio
+import "./img/antioquia/ICONOS/svg_editables/4-icon-base-puerto-berrio/base_puerto_berrio.svg";
+import "./img/antioquia/fotos-ventanas-modales/4_base_puerto_berrio.jpg";
+
+// Modal Municipio Remedios
+import "./img/antioquia/ICONOS/svg_editables/icon-modals-mun-antioquia.svg";
+import "./img/antioquia/fotos-ventanas-modales/5_municipio_remedios.jpg";
+
+// Modal Municipio Caucasia
+import "./img/antioquia/fotos-ventanas-modales/6_municipio_caucasia.jpg";
+
+// Modal Municipio Puerto Berrio
+import "./img/antioquia/fotos-ventanas-modales/7_municipio_puerto_berrio.jpg";
+
+// Modal Parque Natural Las Orquídeas
+import "./img/antioquia/fotos-ventanas-modales/12_pnn_las_orquideas_1.jpg";
+import "./img/antioquia/fotos-ventanas-modales/12_pnn_las_orquideas_2.jpg";
+import "./img/antioquia/fotos-ventanas-modales/12_pnn_las_orquideas_3.jpg";
+
+// Modal Hidrografía Antioquia
+import "./img/antioquia/fotos-ventanas-modales/10_hidrografia-antioquia.jpg";
+
+// Modal Potencial Hidroeléctrico Antioquia
+import "./img/antioquia/ICONOS/svg_editables/9-icon-potencial-hidroelectrico/potencial_hidroelectrico.svg";
+import "./img/antioquia/fotos-ventanas-modales/9_potencial_hidroelectrico.jpg";
+
+// Modal Parque Natural Paramillo
+import "./img/antioquia/fotos-ventanas-modales/13_pnjaramillo_las_orquideas_1.jpg";
+import "./img/antioquia/fotos-ventanas-modales/13_pnjaramillo_las_orquideas_2.jpg";
+import "./img/antioquia/fotos-ventanas-modales/13_pnjaramillo_las_orquideas_3.jpg";
+
+// Modal Clima Antioquia
+import "./img/antioquia/fotos-ventanas-modales/11_clima-antioquia.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

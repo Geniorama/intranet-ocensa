@@ -194,10 +194,18 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
-         //Estacion caucasia
-         new HtmlWebpackPlugin({
+         //Estacion caucasia            
+        new HtmlWebpackPlugin({
             filename: 'antioquia/estacion-caucasia.html',
             template: './src/antioquia/estacion-caucasia.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
+        // Noticia reactivacion
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/noticia-reactivacion-antioquia.html',
+            template: './src/antioquia/noticia-reactivacion-antioquia.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
@@ -206,6 +214,14 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'antioquia/base-puerto-berrio.html',
             template: './src/antioquia/base-puerto-berrio.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
+        // Noticia Alianzas
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/noticia-alianzas-jac-antioquia.html',
+            template: './src/antioquia/noticia-alianzas-jac-antioquia.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),

@@ -14,8 +14,8 @@
 
         {
             "menuName": "Estación Caucasia",
-            "dataTarget": "/antioquia/caucasia.html",
-            "menuId": "oc-ant-caucasia"
+            "dataTarget": "/antioquia/estacion-caucasia.html",
+            "menuId": "oc-ant-cau"
         },
 
         {
