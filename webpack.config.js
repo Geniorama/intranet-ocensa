@@ -194,6 +194,20 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/noticia-reactivacion-antioquia.html',
+            template: './src/antioquia/noticia-reactivacion-antioquia.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/noticia-alianzas-jac-antioquia.html',
+            template: './src/antioquia/noticia-alianzas-jac-antioquia.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

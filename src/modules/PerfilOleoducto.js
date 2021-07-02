@@ -24,3 +24,7 @@ $('.oc-index-boyaca .oc-recorrido__mapa #Componente_128_4').attr('class', 'activ
 // Santander selector perfil oleoducto
 $('.oc-est-santander .oc-recorrido__mapa #Componente_130_33').attr('class', 'active')
 $('.oc-index-santander .oc-recorrido__mapa #Componente_130_33').attr('class', 'active')
+
+// Antioquia selector perfil oleoducto
+$('.oc-est-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'active')
+$('.oc-index-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'active')

@@ -16205,9 +16205,6 @@ p, span {
 .oc-estaciones {
   background-color: #ECEFF1 !important;
 }
-.oc-estaciones .oc-content {
-  background-color: white !important;
-}
 .oc-estaciones .oc-widget-principal {
   height: 312px;
 }
@@ -20356,6 +20353,9 @@ p, span {
   top: 165px;
 }
 
+.oc-index-boyaca .oc-content {
+  background-color: white !important;
+}
 .oc-index-boyaca .oc-header .oc-header__desktop .oc-submenu-gen {
   display: none;
 }
@@ -21569,6 +21569,9 @@ p, span {
   margin-left: inherit;
 }
 
+.oc-index-santander .oc-content {
+  background-color: white !important;
+}
 .oc-index-santander .oc-submenu-gen .nav {
   justify-content: space-around;
 }
@@ -21953,6 +21956,12 @@ p, span {
     border-bottom: 0px !important;
   }
 }
+.oc-mapa-antioquia {
+  padding-top: 5em;
+}
+.oc-mapa-antioquia .oc-mapa__indicator {
+  top: 0;
+}
 .oc-mapa-antioquia .oc-mapa__line {
   top: -112px;
   right: 102px;
@@ -22092,7 +22101,33 @@ p, span {
   left: 620px;
   top: 664px;
 }
+.oc-mapa-antioquia .oc-map__info-aditional {
+  left: unset;
+  right: 80px;
+  bottom: 100px;
+}
+.oc-mapa-antioquia #mapExt-boyaca {
+  position: absolute;
+  display: inline-block;
+  left: 260px;
+  bottom: 102px;
+}
+.oc-mapa-antioquia #mapExt-boyaca .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
+.oc-mapa-antioquia #mapExt-cordoba {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 369px;
+}
+.oc-mapa-antioquia #mapExt-cordoba .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
 
+.oc-index-antioquia .oc-content {
+  background-color: white !important;
+}
 .oc-index-antioquia .oc-img-header-estaciones__icon-estacion {
   width: 106px;
   height: auto;
@@ -22101,4 +22136,20 @@ p, span {
   position: relative;
   top: unset;
   left: unset;
+}
+.oc-index-antioquia .oc-tramo-02::before {
+  content: "2";
+}
+.oc-index-antioquia .oc-tramo-03::before {
+  content: "3";
+}
+.oc-index-antioquia .oc-tramo-04::before {
+  content: "4";
+}
+.oc-index-antioquia .oc-mapa__stat-item-altura {
+  border-bottom: none;
+}
+
+#galeria-terr-antioquia .slick-track {
+  margin-left: inherit;
 }
