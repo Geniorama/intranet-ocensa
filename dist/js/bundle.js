@@ -28004,13 +28004,13 @@ function disableScroll() {
 
 function enableScroll() {
   window.onscroll = null;
-}
+} // $('.oc-custom-modal-map').hide()
 
-jquery_default()('.oc-custom-modal-map').hide();
+
 jquery_default()('.oc-mapa__location-modals').click(function (e) {
   e.preventDefault(e);
   var target = jquery_default()(this).attr('data-target');
-  jquery_default()(target).fadeIn();
+  jquery_default()(target).css('display', 'flex').hide().fadeIn();
   jquery_default()('.oc-est-modal__body').scrollTop(0);
   disableScroll();
   jquery_default()('.oc-est-modal__body__slider').slick('refresh');
