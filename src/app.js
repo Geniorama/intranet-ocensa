@@ -1672,14 +1672,14 @@ function enableScroll(){
     window.onscroll = null;
 }
 
-$('.oc-custom-modal-map').hide()
+// $('.oc-custom-modal-map').hide()
 
 $('.oc-mapa__location-modals').click(function(e) {
     e.preventDefault(e)
 
     let target = $(this).attr('data-target')
 
-    $(target).fadeIn()
+    $(target).css('display', 'flex').hide().fadeIn();
     $('.oc-est-modal__body').scrollTop(0)
     disableScroll()
     $('.oc-est-modal__body__slider').slick('refresh')
