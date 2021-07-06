@@ -25031,9 +25031,8 @@ if (est_page == null) {
   jquery_default()('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
   jquery_default()('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
   jquery_default()('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
-  jquery_default()('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link').removeClass('active');
   jquery_default()('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
-  jquery_default()('.oc-tabs__item').click(function (e) {
+  jquery_default()('.oc-nosotros .oc-tabs__item').click(function (e) {
     e.preventDefault();
 
     var _href = jquery_default()(this).attr("href");
@@ -26656,6 +26655,8 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var Trazado_11289 = (__webpack_require__.p + "img/Trazado 11289.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/base-puerto-berrio/fotos/andres-ocampo.png
 /* harmony default export */ var andres_ocampo = (__webpack_require__.p + "img/andres-ocampo.png");
+// CONCATENATED MODULE: ./src/img/antioquia/base-puerto-berrio/iconos/dist-antio.svg
+/* harmony default export */ var dist_antio = (__webpack_require__.p + "img/dist-antio.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/ICONOS/svg_editables/1-icon-departamento-antioquia/departamento_antioquia.svg
 /* harmony default export */ var departamento_antioquia = (__webpack_require__.p + "img/departamento_antioquia.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/ICONOS/svg_editables/2-icon-estacion-chiquillo/estacion_chiquillo.svg
@@ -27570,6 +27571,7 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
  // Modal Antioquia
 
  // Modal Chiquillo
@@ -28093,23 +28095,7 @@ jquery_default()('.wdg-grupos__car').slick({
   slidesToShow: 3,
   verticalSwiping: true,
   slidesToScroll: 3
-}); // $('.oc-members-carousel').slick({
-//     arrows: true,
-//     dots: false,
-//     slidesToScroll: 1,
-//     slidesToShow: 5,
-//     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
-//                 <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
-//                     <path id="Trazado_12569" data-name="Trazado 12569" d="M3.621,7.243.6,4.225l-.6-.6L3.621,0" transform="translate(1 1.414)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-//                 </svg>
-//     </button>`,
-//     nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
-//         <svg xmlns="http://www.w3.org/2000/svg" width="6.035" height="10.071" viewBox="0 0 6.035 10.071">
-//             <path id="Trazado_12568" data-name="Trazado 12568" d="M3.621,7.243.6,4.225l-.6-.6L3.621,0" transform="translate(5.035 8.657) rotate(180)" fill="none" stroke="#c9cdd2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-//         </svg>
-//     </button>`,
-// })
-
+});
 jquery_default()('.oc-members-carousel-02').slick({
   arrows: true,
   dots: false,
