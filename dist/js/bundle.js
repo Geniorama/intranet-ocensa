@@ -26598,6 +26598,16 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var Caucasia_bombeo_2 = (__webpack_require__.p + "img/Caucasia bombeo 2.jpg");
 // CONCATENATED MODULE: ./src/img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 3.jpg
 /* harmony default export */ var Caucasia_bombeo_3 = (__webpack_require__.p + "img/Caucasia bombeo 3.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-caucasia/fotos/slide/slide_1.jpg
+/* harmony default export */ var slide_slide_1 = (__webpack_require__.p + "img/slide_1.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-caucasia/fotos/slide/slide_2.jpg
+/* harmony default export */ var slide_2 = (__webpack_require__.p + "img/slide_2.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-caucasia/fotos/slide/slide_3.jpg
+/* harmony default export */ var slide_3 = (__webpack_require__.p + "img/slide_3.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-caucasia/fotos/slide/slide_4.jpg
+/* harmony default export */ var slide_4 = (__webpack_require__.p + "img/slide_4.jpg");
+// CONCATENATED MODULE: ./src/docs/documentos-antioquia/GDE-F-076 Autorización Ingreso y Salida Elementos_EQUIPOS_OCENSA (1).xlsx
+/* harmony default export */ var GDE_F_076_Autorizaci_n_Ingreso_y_Salida_Elementos_EQUIPOS_OCENSA_1_ = (__webpack_require__.p + "docs/GDE-F-076 Autorización Ingreso y Salida Elementos_EQUIPOS_OCENSA (1).xlsx");
 // CONCATENATED MODULE: ./src/img/antioquia/links/mapa/mapa-antioquia.png
 /* harmony default export */ var mapa_antioquia = (__webpack_require__.p + "img/mapa-antioquia.png");
 // CONCATENATED MODULE: ./src/img/antioquia/links/mapa/mapa-antioquia-linea.png
@@ -26644,6 +26654,8 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var Trazado_11287 = (__webpack_require__.p + "img/Trazado 11287.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11289.svg
 /* harmony default export */ var Trazado_11289 = (__webpack_require__.p + "img/Trazado 11289.svg");
+// CONCATENATED MODULE: ./src/img/antioquia/base-puerto-berrio/fotos/andres-ocampo.png
+/* harmony default export */ var andres_ocampo = (__webpack_require__.p + "img/andres-ocampo.png");
 // CONCATENATED MODULE: ./src/img/antioquia/ICONOS/svg_editables/1-icon-departamento-antioquia/departamento_antioquia.svg
 /* harmony default export */ var departamento_antioquia = (__webpack_require__.p + "img/departamento_antioquia.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/ICONOS/svg_editables/2-icon-estacion-chiquillo/estacion_chiquillo.svg
@@ -27526,6 +27538,11 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+
+
+
+
  //Mapa Antioquia
 
 
@@ -27539,6 +27556,7 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
  //Base Puerto Berrio
+
 
 
 
