@@ -932,6 +932,12 @@ import "./img/antioquia/estacion-caucasia/fotos/almacenamiento/almacenamiento-2.
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 1.jpg";
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 2.jpg";
 import "./img/antioquia/estacion-caucasia/fotos/bombeo/Caucasia bombeo 3.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/slide/slide_1.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/slide/slide_2.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/slide/slide_3.jpg";
+import "./img/antioquia/estacion-caucasia/fotos/slide/slide_4.jpg";
+import "./docs/documentos-antioquia/GDE-F-076 Autorización Ingreso y Salida Elementos_EQUIPOS_OCENSA (1).xlsx";
+
 //Mapa Antioquia
 import "./img/antioquia/links/mapa/mapa-antioquia.png";
 import "./img/antioquia/links/mapa/mapa-antioquia-linea.png";
@@ -960,6 +966,7 @@ import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sect
 import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11288.svg";
 import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11287.svg";
 import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11289.svg";
+import "./img/antioquia/base-puerto-berrio/fotos/andres-ocampo.png";
 
 
 // Modal Antioquia

@@ -73,16 +73,26 @@
         margin-left: 35px
 
 #wdg-section-caucasia
-    #llegar-sant-bell
+    .oc-card-widget
+        height: 490px !important
+    #llegar-cau
         .badge
             width: 345px !important
             margin-top: 20px
 
 #terre-cau
+    .tem-apro
+        align-items: center
+    .oc-box-dato__img-distancia
+        width: 25px !important
+        height: 25px !important
+    .oc-box-dato__img-aprox
+        width: 25px !important
+        height: 25px !important
     .item-terrestre_02
         border-bottom: none
 
-#llegar-sant-bell
+#llegar-cau
     .oc-slick-theme
         padding: 0 !important
         .slick-dots
@@ -92,6 +102,7 @@
             li
                 background-color: white
                 border: 1px solid #00AF00
+
 
 @include media-breakpoint-down(sm)
     #ubicacion-cauc
@@ -122,15 +133,25 @@
         .resp-sant
             width: 100% !important
 
-    #wdg-section-caucasia #llegar-sant-bell .badge
+    #wdg-section-caucasia #llegar-cau .badge
         width: 270px !important
 
-    .wdg-solicitudes-sant #llegar-sant-bell .item-terrestre .oc-box-dato
+    .wdg-solicitudes-sant #llegar-cau .item-terrestre .oc-box-dato
         height: auto !important
 
     .t-caucasia
+        .terre-1-cau
+            flex-direction: column
+            justify-content: center
+            align-items: center
         .cau-viaje
             margin-bottom: 30px !important
+        
+    #llegar-cau .item-terrestre_01 
+        border-bottom: none !important
     
-    #llegar-sant-bell .item-terrestre_01
+    #llegar-cau .item-terrestre_01
             padding-bottom: 0px !important
+
+    #wdg-section-caucasia .oc-card-widget
+        height: auto !important
