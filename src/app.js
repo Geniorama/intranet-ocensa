@@ -967,6 +967,7 @@ import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sect
 import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11287.svg";
 import "./img/antioquia/base-puerto-berrio/iconos/7-icon-distancia-de-linea-sector-norte/Trazado 11289.svg";
 import "./img/antioquia/base-puerto-berrio/fotos/andres-ocampo.png";
+import "./img/antioquia/base-puerto-berrio/iconos/dist-antio.svg";
 
 
 // Modal Antioquia
