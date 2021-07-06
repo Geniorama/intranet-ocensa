@@ -64,6 +64,8 @@
 
 @include media-breakpoint-up(sm)
     .oc-submenu-gen
+        .nav
+            justify-content: space-around !important
         .oc-menu-lateral
             display: none
         .oc-menu-arrow
@@ -74,6 +76,9 @@
             .nav
                 max-width: 100%
                 justify-content: center
+    .oc-nosotros .oc-submenu-gen
+        .nav
+            justify-content: center !important
 
 @include media-breakpoint-up(lg)
     .oc-submenu-gen

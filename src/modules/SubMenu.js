@@ -24,10 +24,8 @@ if(est_page == null){
 
     $('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
-    $('.oc-cas-cupiagua .oc-submenu-gen__cont-nav .nav .nav-link').removeClass('active')
-
     $('.oc-header__mobile').next().find('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
-    $('.oc-tabs__item').click(function(e){
+    $('.oc-nosotros .oc-tabs__item').click(function(e){
         e.preventDefault()
     
         var _href = $(this).attr("href");
