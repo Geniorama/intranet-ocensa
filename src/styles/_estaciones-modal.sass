@@ -106,6 +106,21 @@
                 img
                     width: 65px
 
+@media (min-width: 768px) and ( max-width:  1368px)
+    .oc-custom-modal-map
+        .oc-est-modal
+            margin-top: 120px
+            &__body 
+                max-height: 320px !important
+                &__desc
+                    min-height: unset !important
+            &__head
+                &__left
+                    img
+                        width: 50px
+    
+            
+
 @include media-breakpoint-down(sm)
     .oc-est-modal
         &__body
