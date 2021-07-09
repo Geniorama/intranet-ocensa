@@ -1,8 +1,8 @@
 #main-boy-vas
     #cus-wdg-la-estacion.wdg-la-estacion
-        height: 615px !important
+        height: 615px
     #cus-wdg-ubicacion.wdg-ubicacion
-        height: 615px !important
+        height: 615px
 
     .wdg-almacenamiento .item-02 .badge
         line-height: 2em
@@ -91,3 +91,46 @@
 
     .oc-sant .oc-porvenir__personal::before
         height: 88% !important
+    #wdg-solicitudes-vasc
+        height: 100%
+        .oc-text-solicitudes-vasc
+            font-family: 'roboto-light' !important
+            font-size: 14px !important
+            margin-bottom: 3em
+    #wdg-como-llegar-vasc
+        .item-terrestre
+            .oc-box-dato
+                width: 100%
+    #wdg-como-llegar-vasc
+        .oc-text-vasc
+            font-family: 'roboto-light' !important
+            font-size: 14px !important
+            margin-top: 1em
+            margin-bottom: 0
+        .item-01-vasc
+            padding-left: 1em
+            .number-minutes, .desc-minutes
+                color: #2B5CDA !important
+                line-height: 1em
+            .item-dist
+                color: #979FA8 !important
+                font-family: 'roboto-bold' !important
+                font-size: 9px !important
+                text-transform: uppercase
+                padding-left: 2em
+        .item-02-vasc
+            padding-left: 1em
+            .number-minutes, .desc-minutes
+                color: #24A31A !important
+                line-height: 1em
+            .item-dist
+                color: #979FA8 !important
+                font-family: 'roboto-bold' !important
+                font-size: 9px !important
+                text-transform: uppercase
+                padding-left: 1em
+        .badge
+            width: 392px
+@include media-breakpoint-down(sm)
+    #cus-wdg-la-estacion.wdg-la-estacion
+        height: 100% !important
