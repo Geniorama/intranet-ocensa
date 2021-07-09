@@ -142,6 +142,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'boyaca/estacion-vasconia.html',
+            template: './src/boyaca/estacion-vasconia.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-boyaca.json')
+        }),
+
 
         new HtmlWebpackPlugin({
             filename: 'boyaca/estacion-miraflores.html',

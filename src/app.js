@@ -771,6 +771,16 @@ import "./img/boyaca/estacion-paez/6-icon-sistema-de-bombeo/bombeo-responsive.sv
 import "./img/boyaca/estacion-soraca/iconos-svg/7-icon-distancias-de-linea-sector-sur/icon_territorio_base_soraca_distancias_de_linea_sector_sur_diametro_tubo.svg";
 
 
+//Estacion Vasconia
+import "./img/boyaca/estacion-vasconia/img/Slide/Vasconia abrir 1.jpg";
+import "./img/boyaca/estacion-vasconia/img/Slide/Vasconia abrir 2.jpg";
+import "./img/boyaca/estacion-vasconia/img/ubicacion_vasconia.jpg";
+import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_nodo_energetico.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_inicio_fin_segmentos.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_entrega_diferencia_volumenes.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_entrega_custodia.svg";
+
+
 //Noticias Boyaca
 import "./img/boyaca/noticias/notices-boy-1.jpg";
 import "./img/boyaca/noticias/coments-user-1.png";
@@ -2008,6 +2018,42 @@ $('.oc-slick-almacenamiento-caucasia').slick({
         }
     ]
 })
+
+$('.oc-slick-almacenamiento-vasconia').slick({
+    slidesToShow: 3,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    dots: true,
+    arrows: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+              dots: true,
+              slidesToShow: 1
+            }
+        }
+    ]
+})
+
 
 $('.oc-gestion-miraflores__car').slick({
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
