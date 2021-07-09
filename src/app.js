@@ -779,6 +779,15 @@ import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estac
 import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_inicio_fin_segmentos.svg";
 import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_entrega_diferencia_volumenes.svg";
 import "./img/boyaca/estacion-vasconia/svg editables/1-icon-la-estacion/la_estacion_entrega_custodia.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/6-icon-gestion-ambiental/gestion_ambiental_turbina_energia.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/6-icon-gestion-ambiental/gestion_ambiental_parque_solar_energia.svg";
+import "./img/boyaca/estacion-vasconia/img/Odilio Rivera-3.png";
+import "./img/boyaca/estacion-vasconia/img/Organigrama-Hugo Garcia (563).png";
+import "./img/boyaca/estacion-vasconia/img/imag_ocensa_boyaca_estacion_miraflores_personal_3_elkin_larrarte.png";
+import "./img/boyaca/estacion-vasconia/svg editables/tortas_demografico_generaciones.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/tortas_demografico_mujeres_y_hombres.svg";
+import "./img/boyaca/estacion-vasconia/svg editables/tortas_demografico_trabajadores_en_estacion.svg";
+
 
 
 //Noticias Boyaca
