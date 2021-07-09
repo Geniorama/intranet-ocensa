@@ -233,6 +233,13 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
+        // Widgets page
+        new HtmlWebpackPlugin({
+            filename: 'widgets-page.html',
+            template: './src/widgets-page.handlebars',
+            minify: false
+        }),
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

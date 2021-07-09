@@ -1022,6 +1022,12 @@ import "./img/antioquia/fotos-ventanas-modales/13_pnjaramillo_las_orquideas_3.jp
 // Modal Clima Antioquia
 import "./img/antioquia/fotos-ventanas-modales/11_clima-antioquia.jpg";
 
+// Widget incremental publicaciones Doc no es público
+import "./img/widgets-ocensa/img-widget-publicaciones/publicaciones-inc-2.svg";
+
+// Widget incremental enlaces favoritos
+import "./img/widgets-ocensa/img-widget-enlaces/enlaces_rapidos.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {

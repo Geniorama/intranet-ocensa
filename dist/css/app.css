@@ -21047,6 +21047,80 @@ p, span {
     left: -20px;
   }
 }
+#main-boy-vas #cus-wdg-la-estacion.wdg-la-estacion {
+  height: 615px !important;
+}
+#main-boy-vas #cus-wdg-ubicacion.wdg-ubicacion {
+  height: 615px !important;
+}
+#main-boy-vas .wdg-almacenamiento .item-02 .badge {
+  line-height: 2em;
+}
+#main-boy-vas #almacenamiento-caucasia .wdg-almacenamiento-caucasia {
+  height: 405px !important;
+}
+#main-boy-vas #almacenamiento-caucasia .text-down {
+  margin-top: 20px;
+}
+#main-boy-vas #almacenamiento-caucasia .text-right-alm {
+  font-family: "roboto-light", sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+}
+#main-boy-vas .cont-alm-vas {
+  position: relative;
+  margin-top: 30px;
+}
+#main-boy-vas .cont-alm-vas::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 270px;
+  background-color: #C4C4C4;
+  top: 20px;
+  right: 0px;
+}
+#main-boy-vas .shadow-right {
+  position: relative;
+}
+#main-boy-vas .shadow-right::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 165px;
+  background-color: #C4C4C4;
+  top: -5px;
+  right: 0px;
+}
+#main-boy-vas #wdg-relacionamiento .n-gr {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 30px;
+}
+#main-boy-vas #wdg-relacionamiento .n-gr-2 {
+  font-family: "roboto-medium", sans-serif;
+  font-size: 24px;
+}
+#main-boy-vas #wdg-relacionamiento .t-md {
+  margin-top: -5px;
+  line-height: 1.4em;
+}
+#main-boy-vas #wdg-relacionamiento .t-vas-2 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 15px;
+  margin-top: -5px;
+}
+#main-boy-vas #wdg-relacionamiento .t-vas-3 {
+  font-family: "roboto-bold", sans-serif;
+  font-size: 9px;
+  color: #979FA8;
+}
+#main-boy-vas .text-vas-2 {
+  margin-top: -4px;
+}
+#main-boy-vas #dist-caucasia .oc-card-widget {
+  height: 335px !important;
+}
+
 .wdg-la-estacion-miraflores {
   height: 551px;
 }
