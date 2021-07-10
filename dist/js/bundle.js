@@ -26731,6 +26731,8 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var publicaciones_inc_2 = (__webpack_require__.p + "img/publicaciones-inc-2.svg");
 // CONCATENATED MODULE: ./src/img/widgets-ocensa/img-widget-enlaces/enlaces_rapidos.svg
 /* harmony default export */ var enlaces_rapidos = (__webpack_require__.p + "img/enlaces_rapidos.svg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-vasconia/img/logo-contratista-working-services.jpg
+/* harmony default export */ var logo_contratista_working_services = (__webpack_require__.p + "img/logo-contratista-working-services.jpg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -27656,6 +27658,8 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
  // Widget incremental publicaciones Doc no es público
 
  // Widget incremental enlaces favoritos
+
+ // Estación Vasconia
 
 
 var app_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
