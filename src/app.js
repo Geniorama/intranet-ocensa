@@ -1037,6 +1037,9 @@ import "./img/widgets-ocensa/img-widget-publicaciones/publicaciones-inc-2.svg";
 // Widget incremental enlaces favoritos
 import "./img/widgets-ocensa/img-widget-enlaces/enlaces_rapidos.svg";
 
+// Estación Vasconia
+import "./img/boyaca/estacion-vasconia/img/logo-contratista-working-services.jpg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
