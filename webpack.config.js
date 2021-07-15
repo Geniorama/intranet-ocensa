@@ -240,6 +240,17 @@ module.exports = {
             minify: false
         }),
 
+        // Córdoba
+
+        // Estación La Granjita
+        new HtmlWebpackPlugin({
+            filename: 'cordoba/estacion-la-granjita.html',
+            template: './src/cordoba/estacion-la-granjita.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-cordoba.json')
+        }),
+
+
         // CSS
         new MiniCssExtractPlugin({
             filename: 'css/app.css'

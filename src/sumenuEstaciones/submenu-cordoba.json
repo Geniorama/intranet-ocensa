@@ -1,0 +1,15 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Córdoba",
+            "dataTarget": "/antioquia/antioquia.html",
+            "menuId": "oc-index-antioquia"
+        },
+
+        {
+            "menuName": "Estación La Granjita",
+            "dataTarget": "/cordoba/estacion-la-granjita.html",
+            "menuId": "oc-cor-granjita"
+        }
+    ]
+}

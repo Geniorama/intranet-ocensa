@@ -313,6 +313,44 @@ p, span
         button
             display: none
 
+.oc-line-dashed
+    height: 1px
+    width: 100%
+    border: 1px dashed #505D6C
+    display: inline-block
+    position: relative
+    &.circle-left
+        &::before
+            content: ''
+            width: 9px
+            height: 9px
+            border: 2px solid #00AF00
+            border-radius: 50%
+            position: absolute
+            top: -4px
+            left: -9px
+    &.circle-right
+        &::after
+            content: ''
+            width: 9px
+            height: 9px
+            border: 2px solid #00AF00
+            border-radius: 50%
+            position: absolute
+            top: -4px
+            right: -9px
+    &.arrow-right
+        &::after
+            content: ''
+            width: 9px
+            height: 9px
+            border-top: 2px solid #00AF00
+            border-right: 2px solid #00AF00
+            transform: rotate(45deg)
+            position: absolute
+            right: -5px
+            top: -4px
+
 // Example SVG
 #Layer_1
     width: 40px

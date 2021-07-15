@@ -1040,6 +1040,12 @@ import "./img/widgets-ocensa/img-widget-enlaces/enlaces_rapidos.svg";
 // Estación Vasconia
 import "./img/boyaca/estacion-vasconia/img/logo-contratista-working-services.jpg";
 
+// Estación La Granjita
+import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_1_granjita.jpg";
+import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_2_granjita.jpg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/1-icon-la-estacion/la_estacion_proyecto_135.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/1-icon-la-estacion/la_estacion_esquema_de_bombeo.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
