@@ -241,6 +241,14 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
+        // Noticia Los Peces
+        new HtmlWebpackPlugin({
+            filename: 'cordoba/noticia-los peces-cordoba.html',
+            template: './src/antioquia/noticia-los peces-cordoba.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-cordoba.json')
+        }),
+
         // Widgets page
         new HtmlWebpackPlugin({
             filename: 'widgets-page.html',
