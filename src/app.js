@@ -1061,6 +1061,12 @@ import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambient
 import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambiental/gestion-ambiental-recoleccion.svg";
 import "./img/antioquia/estacion-chiquillo/img/chiquillo-bombeo-popup.jpg";
 
+//Noticia Cordoba
+import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
+import "./img/Cordoba/img/comunidades_loma_piedra_2.jpg";
+import "./img/Cordoba/img/comunidades_loma_piedra_3.jpg";
+import "./img/Cordoba/img/comunidades_loma_piedra_4.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
