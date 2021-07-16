@@ -26771,6 +26771,12 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var gestion_ambiental_recoleccion = (__webpack_require__.p + "img/gestion-ambiental-recoleccion.svg");
 // CONCATENATED MODULE: ./src/img/antioquia/estacion-chiquillo/img/chiquillo-bombeo-popup.jpg
 /* harmony default export */ var chiquillo_bombeo_popup = (__webpack_require__.p + "img/chiquillo-bombeo-popup.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_1.jpg
+/* harmony default export */ var galeria_sistema_bombeo_1 = (__webpack_require__.p + "img/galeria_sistema_bombeo_1.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_2.jpg
+/* harmony default export */ var galeria_sistema_bombeo_2 = (__webpack_require__.p + "img/galeria_sistema_bombeo_2.jpg");
+// CONCATENATED MODULE: ./src/img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_3.jpg
+/* harmony default export */ var galeria_sistema_bombeo_3 = (__webpack_require__.p + "img/galeria_sistema_bombeo_3.jpg");
 // CONCATENATED MODULE: ./src/img/Cordoba/img/comunidades_loma_piedra_1.jpg
 /* harmony default export */ var comunidades_loma_piedra_1 = (__webpack_require__.p + "img/comunidades_loma_piedra_1.jpg");
 // CONCATENATED MODULE: ./src/img/Cordoba/img/comunidades_loma_piedra_2.jpg
@@ -27708,6 +27714,9 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
  // Estación Vasconia
 
  //Estacion Chiquillo
+
+
+
 
 
 
