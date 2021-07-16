@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 65 65" style="enable-background:new 0 0 65 65;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#4C9F2E;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#94D040;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{display:none;}
+	.st4{display:inline;fill:#98A6B0;}
+	.st5{fill:none;stroke:#95A6B1;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:none;stroke:#00A800;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="Textura-65px_2" viewBox="-32.5 -8.37 65 16.74">
+	<rect x="-32.5" y="-8.37" class="st0" width="65" height="16.74"/>
+	<g>
+		<line class="st1" x1="5.71" y1="-3.49" x2="12.88" y2="-3.49"/>
+		<line class="st1" x1="20.03" y1="-3.49" x2="20.61" y2="-3.49"/>
+		<line class="st1" x1="-20.61" y1="-3.49" x2="-13.51" y2="-3.49"/>
+		<line class="st2" x1="-13.97" y1="-3.49" x2="-1.45" y2="-3.49"/>
+		<line class="st2" x1="-20.61" y1="2.62" x2="2.97" y2="2.62"/>
+		<line class="st1" x1="2.25" y1="2.62" x2="20.61" y2="2.62"/>
+		<line class="st1" x1="-20.61" y1="2.62" x2="-20.18" y2="2.62"/>
+	</g>
+</symbol>
+<g id="BASE" class="st3">
+</g>
+<g id="Capa_1">
+	<g>
+		
+			<use xlink:href="#Textura-65px_2"  width="65" height="16.74" x="-32.5" y="-8.37" transform="matrix(1 0 0 -1 32.5 56.6295)" style="overflow:visible;"/>
+		<rect class="st0" width="65" height="65"/>
+	</g>
+	<g>
+		<path class="st5" d="M40.74,22.35c0,4.55-3.69,8.24-8.24,8.24h0c-4.55,0-8.24-3.69-8.24-8.24"/>
+		<g>
+			<polyline class="st5" points="40.77,18.65 43.1,18.65 43.1,22.05 21.9,22.05 21.9,18.65 24.29,18.65 			"/>
+			<path class="st5" d="M24.29,18.65c0-4.54,3.68-8.22,8.22-8.22s8.22,3.68,8.22,8.22"/>
+		</g>
+		<g>
+			<circle class="st5" cx="32.5" cy="17.06" r="2.1"/>
+			<line class="st5" x1="32.5" y1="13.32" x2="32.5" y2="14.96"/>
+			<path class="st5" d="M34.6,11.35v-0.33c0,1.16-0.95,2.1-2.1,2.1h0c-1.16,0-2.1-0.95-2.1-2.1v0.33"/>
+		</g>
+		<path class="st5" d="M38.91,33.24H26.09c-4.9,0-8.87,3.97-8.87,8.87v5.9h30.55v-5.9C47.77,37.21,43.8,33.24,38.91,33.24z"/>
+		<g>
+			<polygon class="st5" points="33.74,33.24 31.26,33.24 29.44,42.1 32.6,44.4 35.56,42.1 			"/>
+			<line class="st5" x1="30.23" y1="38.23" x2="34.19" y2="35.42"/>
+			<line class="st5" x1="30.23" y1="42.16" x2="34.19" y2="39.35"/>
+		</g>
+		<path class="st5" d="M47.58,14.96c-0.21-0.4-0.44-0.78-0.69-1.16l1.67-1.67l-5.07-5.07l-1.67,1.67c-1.72-1.12-3.66-1.94-5.73-2.38
+			V4h-7.17v2.35c-2.07,0.44-4.01,1.26-5.73,2.38l-1.67-1.67l-5.07,5.07l1.67,1.67c-1.12,1.72-1.94,3.66-2.38,5.73h-2.35v7.17h2.35
+			c0.44,2.07,1.26,4.01,2.38,5.73l-1.67,1.67l2.54,2.54"/>
+		<path class="st5" d="M45.94,36.71l2.61-2.61l-1.67-1.67c1.12-1.72,1.94-3.66,2.38-5.73h2.35v-1.99"/>
+	</g>
+	<path class="st6" d="M52.93,18.3c0.34,0.74,0.36,1.55,0.12,2.27c-0.26,0.79-0.84,1.48-1.66,1.85c-1.56,0.71-3.41,0.03-4.12-1.54
+		c-0.71-1.56-0.03-3.41,1.54-4.12S52.21,16.74,52.93,18.3z"/>
+</g>
+</svg>
