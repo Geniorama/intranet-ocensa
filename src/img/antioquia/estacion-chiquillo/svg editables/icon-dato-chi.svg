@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <g id="Grupo_19567" data-name="Grupo 19567" transform="translate(0 -0.123)">
+    <g id="Grupo_19565" data-name="Grupo 19565">
+      <g id="Grupo_14998" data-name="Grupo 14998">
+        <rect id="Rectángulo_3799-2" data-name="Rectángulo 3799-2" width="65" height="65" transform="translate(0 0.123)" fill="none"/>
+      </g>
+      <g id="Grupo_19564" data-name="Grupo 19564" transform="translate(0 48.259)">
+        <rect id="Rectángulo_5659" data-name="Rectángulo 5659" width="65" height="16.741" fill="none"/>
+        <g id="Grupo_19563" data-name="Grupo 19563" transform="translate(11.891 5.753)">
+          <line id="Línea_4284" data-name="Línea 4284" x2="7.167" transform="translate(26.323 6.107)" fill="none" stroke="#4da12e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4285" data-name="Línea 4285" x2="0.581" transform="translate(40.637 6.107)" fill="none" stroke="#4da12e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4286" data-name="Línea 4286" x2="7.101" transform="translate(0 6.107)" fill="none" stroke="#4da12e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4287" data-name="Línea 4287" x2="12.517" transform="translate(6.639 6.107)" fill="none" stroke="#96d200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4288" data-name="Línea 4288" x2="23.582" fill="none" stroke="#96d200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4289" data-name="Línea 4289" x2="18.363" transform="translate(22.855)" fill="none" stroke="#4da12e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          <line id="Línea_4290" data-name="Línea 4290" x2="0.429" fill="none" stroke="#4da12e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_19566" data-name="Grupo 19566" transform="translate(15.406 5.285)">
+      <path id="Trazado_5703" data-name="Trazado 5703" d="M384.3,76.481a4.586,4.586,0,1,1,0-.064Z" transform="translate(-375.058 -71.863)" fill="none" stroke="#19a500" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <path id="Trazado_19451" data-name="Trazado 19451" d="M377.5,84.713v22.506a7.047,7.047,0,0,0,7.046,7.046h11.194l13.509-.029V73.561H387.469" transform="translate(-375.058 -71.863)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4291" data-name="Línea 4291" x2="19.643" transform="translate(8.466 27.96)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4292" data-name="Línea 4292" x2="19.643" transform="translate(8.466 32.217)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4293" data-name="Línea 4293" x2="12.31" transform="translate(8.265 36.474)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <path id="Trazado_19452" data-name="Trazado 19452" d="M388.811,90.174" transform="translate(-375.058 -71.863)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <path id="Trazado_19453" data-name="Trazado 19453" d="M395.424,81.419V79.325a.259.259,0,0,0-.246-.27h-2.62a.259.259,0,0,0-.246.27v2.094" transform="translate(-375.058 -71.863)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <path id="Trazado_19454" data-name="Trazado 19454" d="M389.516,81.419V93.906h8.7V81.419" transform="translate(-375.058 -71.863)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4294" data-name="Línea 4294" x2="10.552" transform="translate(13.534 13.258)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4295" data-name="Línea 4295" x2="10.552" transform="translate(13.534 18.093)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4296" data-name="Línea 4296" x2="10.552" transform="translate(13.534 22.044)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      <line id="Línea_4297" data-name="Línea 4297" x2="10.552" transform="translate(13.534 9.556)" fill="none" stroke="#95a6b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>
