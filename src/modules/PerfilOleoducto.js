@@ -28,3 +28,7 @@ $('.oc-index-santander .oc-recorrido__mapa #Componente_130_33').attr('class', 'a
 // Antioquia selector perfil oleoducto
 $('.oc-est-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'active')
 $('.oc-index-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'active')
+
+// Cordoba Perfil Oleoducto
+$('.oc-est-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active')
+$('.oc-index-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active')
