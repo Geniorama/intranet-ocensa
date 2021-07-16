@@ -246,7 +246,7 @@ module.exports = {
             filename: 'cordoba/noticia-los-peces-cordoba.html',
             template: './src/cordoba/noticia-los-peces-cordoba.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-cordoba.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
         // Widgets page
