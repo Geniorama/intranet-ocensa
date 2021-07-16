@@ -1040,6 +1040,28 @@ import "./img/widgets-ocensa/img-widget-enlaces/enlaces_rapidos.svg";
 // Estación Vasconia
 import "./img/boyaca/estacion-vasconia/img/logo-contratista-working-services.jpg";
 
+//Estacion Chiquillo
+import "./img/antioquia/estacion-chiquillo/Grupo 20124.svg";
+import "./img/antioquia/estacion-chiquillo/img/slide/slide-1-chi.jpg";
+import "./img/antioquia/estacion-chiquillo/img/slide/slide-2-chi.jpg";
+import "./img/antioquia/estacion-chiquillo/img/slide/slide-3-chi.jpg";
+import "./img/antioquia/estacion-chiquillo/img/slide/slide-4-chi.jpg";
+import "./img/antioquia/estacion-chiquillo/img/ubicacion-chi.jpg";
+import "./img/antioquia/estacion-chiquillo/svg editables/icon-dato-chi.svg";
+import "./img/antioquia/estacion-chiquillo/svg editables/moto-lin-small.svg";
+import "./img/antioquia/estacion-chiquillo/svg editables/bom-lin-large.svg";
+import "./img/antioquia/estacion-chiquillo/img/personal_1_odilio_rivera.png";
+import "./img/antioquia/estacion-chiquillo/img/personal_2_breighner_cuesta.png";
+import "./img/antioquia/estacion-chiquillo/img/per-gris.png";
+import "./img/antioquia/estacion-chiquillo/svg editables/tor-chi.svg";
+import "./img/antioquia/estacion-chiquillo/img/contratistas_2_l_c.png";
+import "./img/antioquia/estacion-chiquillo/img/contratistas_3_duflo.jpeg";
+import "./img/antioquia/estacion-chiquillo/img/istockphoto-691910451-2048x2048.png";
+import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambiental/gestion_ambiental_riego_jardines.svg";
+import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambiental/gestion-ambiental-recoleccion.svg";
+import "./img/antioquia/estacion-chiquillo/img/chiquillo-bombeo-popup.jpg";
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {

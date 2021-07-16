@@ -209,6 +209,14 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
+        //Estacion chiquillo            
+        new HtmlWebpackPlugin({
+            filename: 'antioquia/estacion-chiquillo.html',
+            template: './src/antioquia/estacion-chiquillo.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
+
         // Noticia reactivacion
         new HtmlWebpackPlugin({
             filename: 'antioquia/noticia-reactivacion-antioquia.html',
