@@ -1067,6 +1067,15 @@ import "./img/Cordoba/img/comunidades_loma_piedra_2.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_3.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_4.jpg";
 
+//Estacion Coveñas
+import "./img/sucre/img/slide_1-co.jpg";
+import "./img/sucre/img/slide_2-co.jpg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_tanqueros TLU.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_presion_disminuye.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/line-large-co.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_trampas_limpieza.svg";
+import "./img/sucre/img/ubicacion-coveñas.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
