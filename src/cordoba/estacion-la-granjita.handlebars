@@ -1,6 +1,6 @@
 {{!-- Ancla --}}
 <div id="top"></div>
-{{>../partials/header title="Córdoba - Estación La Granjita" classPage="oc-estaciones oc-cor-granjita oc-est-granjita"}}
+{{>../partials/header title="Córdoba - Estación La Granjita" classPage="oc-estaciones oc-cor-granjita oc-est-cordoba"}}
 
 <div class="d-none d-md-block oc-menu-lateral">
     {{>../partials/menu-lateral}}
@@ -837,6 +837,196 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     {{>../partials/widget-solicitudes-granjita}}
+                </div>
+
+                <div class="col-12 col-md-8">
+                    <div class="oc-card-widget oc-widget-template wdg-como-llegar" id="wdg-como-llegar">
+                        <div class="oc-widget-template__top-bar oc-bg-blue-light">
+                            <div class="oc-widget-template__top-bar__title">
+                                <img src="/img/icono_menu-como_llegar.svg" alt="">
+                                <span>Cómo llegar</span>
+                            </div>
+                            <div class="oc-widget-template__top-bar__right d-none">
+                                <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                                <button class="oc-button-menu">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="oc-widget-template__body px-3 py-1">
+                            <div class="row">
+                                <div class="col-12 col-md-6 item-aerea">
+                                    <div class="item-aerea__title d-flex align-items-center my-3">
+                                        <img src="/img/via_aerea.svg" alt="" class="mr-3">
+                                        <h4 class="c-blue-light roboto-bold m-0">Vía aérea</h4>
+                                    </div>
+                                    <div class="oc-box-dato p-3">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item mb-3 d-flex">
+                                                <div class="mt-1 mr-2">
+                                                    <img src="/img/icono-flecha-azul.svg" alt="">
+                                                </div>
+                                                <span class="roboto-light d-inline-block">Llegada al aeropuerto Los Garzones en Montería, Cordoba, y traslado vía terrestre</span>
+                                            </li>
+                                            
+                                            <div class="d-flex justify-content-around mb-4">
+                                                <div class="text-center">
+                                                    <div class="d-flex">
+                                                        <span class="oc-number-medium c-blue-light">53,2</span>
+                                                        <span
+                                                            class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
+                                                    </div>
+                                                    <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
+                                                </div>
+
+                                                <div class="text-center">
+                                                    <span class="oc-number-medium c-green">50</span>
+                                                    <span class="small-text c-green roboto-regular">MIN</span>
+                                                    <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
+                                                        EN AUTOMÓVIL</p>
+                                                </div>
+                                            </div>
+                                            <li class="nav-item d-flex">
+                                                <div class="mt-1 mr-2">
+                                                    <img src="/img/icono-flecha-azul.svg" alt="">
+                                                </div>
+                                                <span class="roboto-light d-inline-block">
+                                                    hasta Planeta Rica y luego al corregimiento de la Granjita, en el municipio de Pueblo Nuevo.
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-md-6 item-terrestre">
+                                    <div class="item-terrestre__title d-flex align-items-center ml-4 my-3">
+                                        <img src="/img/via_terrestre.svg" alt="" class="mr-3">
+                                        <h4 class="c-blue-light roboto-bold m-0">Vía terrestre</h4>
+                                    </div>
+                                    <div class="oc-box-dato p-3">
+                                        <div class="item-terrestre_01">
+                                            <span
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Montería - Planeta Rica</span>
+                                            <div class="row align-items-center mt-2">
+                                                <div class="col-12 col-md-5">
+                                                    <div class="d-flex">
+                                                        <img src="/img/distancia.svg" alt=""
+                                                            class="oc-box-dato__img-distancia">
+                                                        <div class="text-center">
+                                                            <div class="d-flex">
+                                                                <span class="oc-number-medium c-blue-light">53,2</span>
+                                                                <span
+                                                                    class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
+                                                            </div>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-7">
+                                                    <div class="d-flex">
+                                                        <img src="/img/tiempo_aproximado.svg" alt=""
+                                                            class="oc-box-dato__img-aprox">
+                                                        <div class="text-center">
+                                                            <span class="oc-number-medium c-green">50</span>
+                                                            <span class="small-text c-green roboto-regular">MIN</span>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
+                                                                EN AUTOMÓVIL</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item-terrestre_02 mt-3">
+                                            <span
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Planeta Rica -  Corr. La Granjita</span>
+                                            <div class="row align-items-center mt-2">
+                                                <div class="col-12 col-md-5">
+                                                    <div class="d-flex">
+                                                        <img src="/img/distancia.svg" alt=""
+                                                            class="oc-box-dato__img-distancia">
+                                                        <div class="text-center">
+                                                            <div class="d-flex">
+                                                                <span class="oc-number-medium c-blue-light">8,8</span>
+                                                                <span
+                                                                    class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
+                                                            </div>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-7">
+                                                    <div class="d-flex">
+                                                        <img src="/img/tiempo_aproximado.svg" alt=""
+                                                            class="oc-box-dato__img-aprox">
+                                                        <div class="text-center">
+                                                            <span class="oc-number-medium c-green">11</span>
+                                                            <span class="small-text c-green roboto-regular">MIN</span>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
+                                                                EN AUTOMÓVIL</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item-terrestre_03 mt-3">
+                                            <span
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Pueblo Nuevo – Corr. La Granjita</span>
+                                            <div class="row align-items-center mt-2">
+                                                <div class="col-12 col-md-5">
+                                                    <div class="d-flex">
+                                                        <img src="/img/distancia.svg" alt=""
+                                                            class="oc-box-dato__img-distancia">
+                                                        <div class="text-center">
+                                                            <div class="d-flex">
+                                                                <span class="oc-number-medium c-blue-light">6,6</span>
+                                                                <span
+                                                                    class="small-text c-blue-light roboto-regular mt-2 ml-1">Km</span>
+                                                            </div>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">DISTANCIA</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-7">
+                                                    <div class="d-flex">
+                                                        <img src="/img/tiempo_aproximado.svg" alt=""
+                                                            class="oc-box-dato__img-aprox">
+                                                        <div class="text-center">
+                                                            <span class="oc-number-medium c-green">10</span>
+                                                            <span class="small-text c-green roboto-regular">MIN</span>
+                                                            <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
+                                                                EN AUTOMÓVIL</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 my-3 item-viaje">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center flex-column flex-md-row align-items-center text-center">
+                                                <p class="m-0 mr-3">Recuerda solicitar el ingreso y tramitar los formatos</p>
+                                                <a href="http://gi.ocensa.com.co/ORG_TAL/SitePages/SOLICITUDES%20VIAJES.aspx" target="_blank" class="oc-btn oc-btn__green m-0">
+                                                    <span> Agenda tu viaje </span>
+
+                                                    <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2 mt-1"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
