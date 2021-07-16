@@ -1060,6 +1060,10 @@ import "./img/antioquia/estacion-chiquillo/img/istockphoto-691910451-2048x2048.p
 import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambiental/gestion_ambiental_riego_jardines.svg";
 import "./img/antioquia/estacion-chiquillo/svg editables/11-icon-gestion-ambiental/gestion-ambiental-recoleccion.svg";
 import "./img/antioquia/estacion-chiquillo/img/chiquillo-bombeo-popup.jpg";
+import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_1.jpg";
+import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_2.jpg";
+import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_3.jpg";
+
 
 //Noticia Cordoba
 import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
