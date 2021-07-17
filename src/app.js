@@ -1071,6 +1071,7 @@ import "./img/Cordoba/img/comunidades_loma_piedra_2.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_3.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_4.jpg";
 
+<<<<<<< HEAD
 // Estación La Granjita
 import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_1_granjita.jpg";
 import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_2_granjita.jpg";
@@ -1085,6 +1086,32 @@ import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bo
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bombeo-grap-3.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_trabajadores_en_estacion_granjita.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_mujeres_y_hombres_granjita.svg";
+=======
+//Estacion Coveñas
+import "./img/sucre/img/slide_1-co.jpg";
+import "./img/sucre/img/slide_2-co.jpg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_tanqueros TLU.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_presion_disminuye.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/line-large-co.svg";
+import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_trampas_limpieza.svg";
+import "./img/sucre/img/ubicacion-coveñas.jpg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_la-granjita.svg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_de_linea_terminal_coveñas.svg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_de_linea_TLU2.svg";
+import "./img/sucre/svg editables/icon-bom-cov.svg";
+import "./img/sucre/svg editables/icon-bom-cov-2.svg";
+import "./img/sucre/img/personal-mauricio.png";
+import "./img/sucre/img/personal-ciro.png";
+import "./img/sucre/svg editables/trabajadores-estacion-co.svg";
+import "./img/sucre/svg editables/mujeres-hombres-co.svg";
+import "./img/sucre/svg editables/generaciones-co.svg";
+import "./img/sucre/svg editables/3-icon-contratistas/contratistas_sin_logo.svg";
+import "./img/sucre/svg editables/4-icon-gestion-ambiental/gestion_ambiental_reutilizacion_plastico.svg";
+import "./img/sucre/svg editables/encabezado-widget.png";
+import "./img/sucre/svg editables/encabezado-widget-2.png";
+import "./img/sucre/svg editables/encabezado-widget-3.png";
+
+>>>>>>> feature/estacion-cove
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
