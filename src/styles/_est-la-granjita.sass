@@ -78,3 +78,23 @@
         .item-aerea
             .oc-box-dato
                 height: 335px
+
+@include media-breakpoint-up(lg)
+    #main-cor-granjita .item-aerea .oc-box-dato
+        height: 363px
+
+@include media-breakpoint-down(md)
+    #main-cor-granjita
+        .wdg-seguridad
+            margin-bottom: 2em
+        #granjita-bombeo
+            .item-01
+                .oc-box-dato
+                    align-items: flex-start !important
+                .div-line-turb-2
+                    img
+                        transform: rotate(180deg)
+            .column-responsive-50
+                width: 50%
+            .div-sgt
+                margin-top: 3.5em

@@ -1085,6 +1085,14 @@ import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bo
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bombeo-grap-3.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_trabajadores_en_estacion_granjita.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_mujeres_y_hombres_granjita.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/mobile/bombeo-grap-1-icon-mobile.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/mobile/bombeo-grap-1.2-icon-mobile.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/mobile/bombeo-grap-2-mobile.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/mobile/bombeo-grap-3-mobile.svg";
+import "./img/cordoba/estacion-la-granjita/LINKS/img/galeria_almacenamiento.jpg";
+import "./img/cordoba/estacion-la-granjita/LINKS/img/galeria_sistema_bombeo-granjita.jpg";
+import "./img/cordoba/estacion-la-granjita/LINKS/img/galeria_sistema_bombeo_2-granjita.jpg";
+
 //Estacion Coveñas
 import "./img/sucre/img/slide_1-co.jpg";
 import "./img/sucre/img/slide_2-co.jpg";
