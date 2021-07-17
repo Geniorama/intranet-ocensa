@@ -1,5 +1,10 @@
 {{!-- Ancla --}}
 <div id="top"></div>
+
+
+{{>../widgets-galeria/widget-galeria-foto__granjita-almacenamiento}}
+{{>../widgets-galeria/widget-galeria-foto__granjita-bombeo}}
+
 {{>../partials/header title="Córdoba - Estación La Granjita" classPage="oc-estaciones oc-cor-granjita oc-est-cordoba"}}
 
 <div class="d-none d-md-block oc-menu-lateral">
@@ -266,7 +271,7 @@
 
                         <div class="d-flex align-items-center justify-content-center buttons-end mb-4">
                             <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                data-widget="#widget-galeria-foto__cusiana-almacenamiento">
+                                data-widget="#widget-galeria-foto__granjita-almacenamiento">
                                 <span>Ver fotos</span>
                                 <img src="/img/camara.svg" alt="" class="ml-2"></button>
                             <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
@@ -524,7 +529,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="oc-widget-template__body p-3 py-2" id="granjita-bombeo">
+                        <div class="oc-widget-template__body p-md-3 py-2" id="granjita-bombeo">
                             <div class="item-01 row flex-column flex-md-row px-3">
                                 <div class="col-12 col-md-3 p-2 item-01 item-01__left">
                                     <div
@@ -551,7 +556,7 @@
                                     </div>
                                     <div class="text-center">
                                         <button class="oc-btn oc-btn__gray oc-widget-galeria__link mt-4"
-                                            data-widget="#widget-galeria-foto__paez-bombeo">
+                                            data-widget="#widget-galeria-foto__granjita-bombeo">
                                             <span>Ver fotos</span>
                                             <img src="/img/icon-camara.svg" alt="" class="ml-2" style="width: 13px;">
                                         </button>
@@ -648,26 +653,111 @@
                                             tren de bombeo, <span class="roboto-bold">se eleva su presión y se inyecta
                                                 nuevamente al oleoducto.</span>
                                         </p>
-
                                     </div>
                                 </div>
 
                                 {{!-- Item mobile --}}
-                                <div class="col-12 col-md-9 p-2 item-02 d-flex d-md-none w-100">
+                                <div class="col-12 col-md-9 p-2 item-02 d-block d-md-none w-100">
                                     <div class="oc-box-dato oc-bombeo py-2 w-100">
                                         <div class="d-flex position-relative w-100 justify-content-around">
                                             <div>
                                                 <img src="/img/bombeo-grap-1-icon-mobile.svg" alt="">
                                             </div>
-                                            <div>
-                                                <span class="c-green number-giant roboto-bold mx-2 mt-2">3 </span><br>
+                                            <div class="pl-2">
+                                                <span class="c-green number-giant roboto-bold mt-2">3 </span><br>
                                                 <span class="roboto-bold mt-2 text-black txt-gris">
                                                     Unidades
                                                     principales
                                                     eléctricas
                                                 </span>
+
+                                                <div class="d-flex align-items-start mt-3">
+                                                    <div class="bombeo-unidades mt-3">
+                                                        <span
+                                                            class="bombeo-unidades__num c-green roboto-bold d-block">6.900</span>
+                                                        <span
+                                                            class="bombeo-unidades__unid c-green roboto-regular d-block">Voltios</span>
+                                                    </div>
+                                                    <div class="mt-4">
+                                                        <img src="/img/bombeo-grap-1.2-icon-mobile.svg" alt="" class="w-auto mx-2 mt-1">
+                                                    </div>
+                                                    <div class="bombeo-unidades mt-3">
+                                                        <span
+                                                            class="bombeo-unidades__num c-green roboto-bold d-block">6.000</span>
+                                                        <span
+                                                            class="bombeo-unidades__unid c-green roboto-regular d-block">HP</span>
+                                                        <p class="m-0 bombeo-unidades__pot roboto-bold">POTENCIA</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+
+                                        <p class="roboto-regular bombeo-desc p-0">Las cuales operan en <span
+                                                class="roboto-bold">configuración 2+1 para crudo pesado y
+                                                liviano</span>, es decir: </p>
+                                        
+                                        <div class="d-flex align-items-start">
+                                            <div>
+                                                <img src="/img/bombas-granjita.svg" alt="">
+                                            </div>
+                                            <div class="mt-4 ml-1">
+                                                <img src="/img/bombeo-grap-2-mobile.svg" alt="" class="w-auto">
+                                                <div class="d-flex" style="margin-left: 1.2rem">
+                                                    <div class="text-left">
+                                                        <span class="c-green number-giant roboto-bold mt-2">2 </span>
+                                                        <span class="roboto-bold txt-gris d-block">
+                                                            Bombas <br>
+                                                            <span class="roboto-regular">en operación</span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="text-left" style="margin-left: 2rem">
+                                                        <span class="c-green number-giant roboto-bold mt-2">1 </span>
+                                                        <span class="roboto-bold txt-gris d-block">
+                                                            Bomba <br>
+                                                            <span class="roboto-regular">en reserva</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p class="roboto-regular bombeo-desc">Son de tipo centrífuga horizontal
+                                            con:</p>
+                                        
+                                        <div class="d-flex position-relative w-100 justify-content-around">
+                                            <div>
+                                                <span class="bombeo-unidades__num c-green roboto-bold">588.000</span>
+                                                <span class="bombeo-unidades__unid c-green roboto-regular">BPD</span>
+                                                <br>
+                                                <span class="bombeo-unidades__unid roboto-regular c-text-body">(17.150
+                                                    GPM)</span>
+                                                <p class="m-0 bombeo-unidades__pot roboto-bold">CAPACIDAD</p>
+                                            </div>
+                                            <div style="margin-top: 10px;">
+                                                <img src="/img/bombeo-grap-3-mobile.svg" alt="" class="w-auto">
+                                            </div>
+                                            <div>
+                                                <span class="bombeo-unidades__num c-green roboto-bold">352.4</span><br>
+                                                <span class="bombeo-unidades__unid c-green roboto-regular">PSI
+                                                    c/u</span>
+                                                <p class="m-0 bombeo-unidades__pot roboto-bold">CABEZA</p>
+                                            </div>
+                                        </div>
+
+                                        <p class="roboto-regular bombeo-desc mt-3 mb-0">Una vez el crudo es
+                                            recibido por el
+                                            tren de bombeo, <span class="roboto-bold">se eleva su presión y se inyecta
+                                                nuevamente al oleoducto.</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button class="oc-btn oc-btn__gray oc-widget-galeria__link mt-4"
+                                            data-widget="#widget-galeria-foto__granjita-bombeo">
+                                            <span>Ver fotos</span>
+                                            <img src="/img/icon-camara.svg" alt="" class="ml-2" style="width: 13px;">
+                                        </button>
                                     </div>
                                 </div>
 
@@ -906,10 +996,10 @@
                                                 - Planeta Rica</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-3">
                                                         <img src="/img/distancia.svg" alt=""
                                                             class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <div class="d-flex">
                                                                 <span class="oc-number-medium c-blue-light">53,2</span>
                                                                 <span
@@ -921,10 +1011,10 @@
                                                 </div>
 
                                                 <div class="col-12 col-md-7">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-2">
                                                         <img src="/img/tiempo_aproximado.svg" alt=""
                                                             class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <span class="oc-number-medium c-green">50</span>
                                                             <span class="small-text c-green roboto-regular">MIN</span>
                                                             <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
@@ -941,10 +1031,10 @@
                                                 Rica - Corr. La Granjita</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-3">
                                                         <img src="/img/distancia.svg" alt=""
                                                             class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <div class="d-flex">
                                                                 <span class="oc-number-medium c-blue-light">8,8</span>
                                                                 <span
@@ -956,10 +1046,10 @@
                                                 </div>
 
                                                 <div class="col-12 col-md-7">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-2">
                                                         <img src="/img/tiempo_aproximado.svg" alt=""
                                                             class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <span class="oc-number-medium c-green">11</span>
                                                             <span class="small-text c-green roboto-regular">MIN</span>
                                                             <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
@@ -976,10 +1066,10 @@
                                                 Nuevo – Corr. La Granjita</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-3">
                                                         <img src="/img/distancia.svg" alt=""
                                                             class="oc-box-dato__img-distancia">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <div class="d-flex">
                                                                 <span class="oc-number-medium c-blue-light">6,6</span>
                                                                 <span
@@ -991,10 +1081,10 @@
                                                 </div>
 
                                                 <div class="col-12 col-md-7">
-                                                    <div class="d-flex">
+                                                    <div class="d-flex mb-2">
                                                         <img src="/img/tiempo_aproximado.svg" alt=""
                                                             class="oc-box-dato__img-aprox">
-                                                        <div class="text-center">
+                                                        <div class="text-md-center ml-3">
                                                             <span class="oc-number-medium c-green">10</span>
                                                             <span class="small-text c-green roboto-regular">MIN</span>
                                                             <p class="roboto-bold m-0 oc-box-dato__text">TIEMPO APROX.
@@ -1007,22 +1097,18 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12 my-3 item-viaje">
-                                    <div class="row justify-content-center align-items-center">
-                                        <div class="col-12">
-                                            <div
-                                                class="d-flex justify-content-center flex-column flex-md-row align-items-center text-center">
-                                                <p class="m-0 mr-3">Recuerda solicitar el ingreso y tramitar los
-                                                    formatos</p>
-                                                <a href="http://gi.ocensa.com.co/ORG_TAL/SitePages/SOLICITUDES%20VIAJES.aspx"
-                                                    target="_blank" class="oc-btn oc-btn__green m-0">
-                                                    <span> Agenda tu viaje </span>
+                                <div class="col-12 my-3 item-viaje px-0">
+                                    <div
+                                        class="d-flex justify-content-center flex-column flex-md-row align-items-center text-center">
+                                        <p class="mb-3 mr-md-3 mb-md-0">Recuerda solicitar el ingreso y tramitar los
+                                            formatos</p>
+                                        <a href="http://gi.ocensa.com.co/ORG_TAL/SitePages/SOLICITUDES%20VIAJES.aspx"
+                                            target="_blank" class="oc-btn oc-btn__green m-0">
+                                            <span> Agenda tu viaje </span>
 
-                                                    <span
-                                                        class="flecha-ocensa flecha-derecha flecha-blanca ml-2 mt-1"></span>
-                                                </a>
-                                            </div>
-                                        </div>
+                                            <span
+                                                class="flecha-ocensa flecha-derecha flecha-blanca ml-2 mt-1"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
