@@ -1075,6 +1075,21 @@ import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_presion_disminu
 import "./img/sucre/svg editables/1-icon-la-terminal/line-large-co.svg";
 import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_trampas_limpieza.svg";
 import "./img/sucre/img/ubicacion-coveñas.jpg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_la-granjita.svg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_de_linea_terminal_coveñas.svg";
+import "./img/sucre/svg editables/2-icon-distancia-de-linea/distancia_de_linea_TLU2.svg";
+import "./img/sucre/svg editables/icon-bom-cov.svg";
+import "./img/sucre/svg editables/icon-bom-cov-2.svg";
+import "./img/sucre/img/personal-mauricio.png";
+import "./img/sucre/img/personal-ciro.png";
+import "./img/sucre/svg editables/trabajadores-estacion-co.svg";
+import "./img/sucre/svg editables/mujeres-hombres-co.svg";
+import "./img/sucre/svg editables/generaciones-co.svg";
+import "./img/sucre/svg editables/3-icon-contratistas/contratistas_sin_logo.svg";
+import "./img/sucre/svg editables/4-icon-gestion-ambiental/gestion_ambiental_reutilizacion_plastico.svg";
+import "./img/sucre/svg editables/encabezado-widget.png";
+import "./img/sucre/svg editables/encabezado-widget-2.png";
+import "./img/sucre/svg editables/encabezado-widget-3.png";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
