@@ -527,33 +527,44 @@
                         <div class="oc-widget-template__body p-3 py-2" id="granjita-bombeo">
                             <div class="item-01 row flex-column flex-md-row px-3">
                                 <div class="col-12 col-md-3 p-2 item-01 item-01__left">
-                                    <div class="oc-box-dato oc-bombeo p-2 text-center py-4">
-                                        <img src="/img/turbinas-2.svg" alt="" class="img-fluid">
-                                        <img src="/img/line-turbinas-2.svg" class="d-block mx-auto my-2" alt=""
-                                            style="width: auto;">
-                                        <div>
+                                    <div
+                                        class="oc-box-dato oc-bombeo align-items-start p-2 text-center py-4 d-flex d-md-block">
+                                        <div class="d-flex flex-column d-md-block column-responsive-50">
+                                            <div>
+                                                <img src="/img/turbinas-2.svg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="div-line-turb-2">
+                                                <img src="/img/line-turbinas-2.svg" class="d-block mx-auto my-2" alt=""
+                                                    style="width: auto;">
+                                            </div>
+                                        </div>
+                                        <div class="text-left text-md-center column-responsive-50">
                                             <span class="d-block c-green oc-number-medium">2</span>
-                                            <span class="d-block roboto-bold txt-gris">Turbinas</span>
-                                            <img src="/img/line-turbinas-2.svg" class="d-block mx-auto my-2" alt=""
-                                                style="width: auto;">
-                                            <span class="d-block c-green text-green-medium">SGT 400</span>
-                                            <span class="d-block text-small-boy">12 MW c/u.</span>
+                                            <span class="d-block roboto-bold txt-gris mb-5 mb-md-0">Turbinas</span>
+                                            <img src="/img/line-turbinas-2.svg" class="d-none d-md-block mx-auto my-2"
+                                                alt="" style="width: auto;">
+                                            <div class="div-sgt">
+                                                <span class="d-block c-green text-green-medium">SGT 400</span>
+                                                <span class="d-block text-small-boy">12 MW c/u.</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <button class="oc-btn oc-btn__gray oc-widget-galeria__link mt-4"
-                                        data-widget="#widget-galeria-foto__paez-bombeo">
-                                        <span>Ver fotos</span>
-                                        <img src="/img/icon-camara.svg" alt="" class="ml-2" style="width: 13px;">
-                                    </button>
+                                    <div class="text-center">
+                                        <button class="oc-btn oc-btn__gray oc-widget-galeria__link mt-4"
+                                            data-widget="#widget-galeria-foto__paez-bombeo">
+                                            <span>Ver fotos</span>
+                                            <img src="/img/icon-camara.svg" alt="" class="ml-2" style="width: 13px;">
+                                        </button>
+                                    </div>
                                 </div>
                                 {{!-- Item desktop --}}
-                                <div class="col-12 col-md-9 p-2 item-02">
+                                <div class="col-12 col-md-9 p-2 item-02 d-none d-md-flex">
                                     <div class="oc-box-dato oc-bombeo py-2 ">
                                         <div class="d-flex position-relative w-100 justify-content-around">
                                             <div class="d-flex">
                                                 <img src="/img/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg"
                                                     alt="">
-                                                <span class="c-green number-giant roboto-bold mx-2 mt-2">4 </span>
+                                                <span class="c-green number-giant roboto-bold mx-2 mt-2">3 </span>
                                                 <span class="roboto-bold mt-2 text-black txt-gris">
                                                     Unidades <br>
                                                     principales <br>
@@ -640,47 +651,26 @@
 
                                     </div>
                                 </div>
+
                                 {{!-- Item mobile --}}
-                                <div class="col-12 col-md-7 d-md-none p-2 item-01 item-01__left" id="bombeo-respon">
-                                    <div class="oc-box-dato oc-bombeo d-flex align-items-start p-2">
-                                        <div class="ml-2">
-                                            <div class="ml-1 d-flex">
-                                                <div class="d-block cont-left-boy">
-                                                    <img src="/img/icon_territorio_paez_sistema_bombeo_unidades_electricas.svg"
-                                                        alt="">
-                                                    <span class="d-block roboto-bold mt-2 text-black txt-gris">Sistema
-                                                        de<br>bombeo</span>
-                                                    <span class="d-block text-small-boy text-resp-sm mt-5">QUE
-                                                        TIENE</b></span>
-                                                    <span class="d-block roboto-bold mt-2 text-black txt-gris">Un tren
-                                                        de</span>
-                                                    <span class="c-green number-giant">4 </span><span
-                                                        class="c-green text-med">BOMBAS</span>
-                                                </div>
-                                                <img src="/img/bombeo-responsive.svg" alt="" class="img-boy-bombeo2">
-                                                <div class="d-block ml-1 resp-pae">
-                                                    <span class="d-block sp-2">Bomba mono-etapa<br>
-                                                        centrífuga horizontal</span>
-                                                    <div class="d-flex text-top-1 mt-3">
-                                                        <span class="c-green sp-3">797.000</span>
-                                                        <span class="c-green sp-4"> BPD</span>
-                                                    </div>
-                                                    <span class="d-block text-resp-2 text-center">CAPACIDAD</span>
-                                                    <span
-                                                        class="d-block sp-2 mt-5 text-resp-3 text-center text-uppercase txt-gris">Acopladas
-                                                        a un</span>
-                                                    <span class="d-block sp-2 text-center mt-5 mb-1">Motor
-                                                        eléctrico</span>
-                                                    <div class="d-flex text-top-2 justify-content-center">
-                                                        <span class="c-green sp-3">6.000</span>
-                                                        <span class="c-green sp-4 mt-2 ml-1">HP</span>
-                                                    </div>
-                                                    <span class="d-block text-resp-2 text-center">POTENCIA</span>
-                                                </div>
+                                <div class="col-12 col-md-9 p-2 item-02 d-flex d-md-none w-100">
+                                    <div class="oc-box-dato oc-bombeo py-2 w-100">
+                                        <div class="d-flex position-relative w-100 justify-content-around">
+                                            <div>
+                                                <img src="/img/bombeo-grap-1-icon-mobile.svg" alt="">
+                                            </div>
+                                            <div>
+                                                <span class="c-green number-giant roboto-bold mx-2 mt-2">3 </span><br>
+                                                <span class="roboto-bold mt-2 text-black txt-gris">
+                                                    Unidades
+                                                    principales
+                                                    eléctricas
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
 
                             </div>
                         </div>
@@ -817,9 +807,11 @@
                                         <img src="/img/sistema_aireacion_piscinas.svg" alt="">
                                         <p class="roboto-regular">Aprovechamiento de agua lluvia contenida en la
                                             piscina de retención, sometida a tratamiento en PTAP para consumo doméstico
-                                            general de la estación y la base militar. Como resultado, <span class="roboto-bold">se han tratado
-                                            1.090 metros cúbicos de agua potable y desde junio de 2020 no se compra agua
-                                            potable</span> en carrotanque. </p>
+                                            general de la estación y la base militar. Como resultado, <span
+                                                class="roboto-bold">se han tratado
+                                                1.090 metros cúbicos de agua potable y desde junio de 2020 no se compra
+                                                agua
+                                                potable</span> en carrotanque. </p>
                                     </div>
                                 </div>
                             </div>
@@ -831,7 +823,7 @@
         </div>
     </section>
 
-    <!-- Section 06 --> 
+    <!-- Section 06 -->
     <section class="oc-widgets-section mt-4" id="wdg-section-06">
         <div class="container">
             <div class="row">
@@ -868,9 +860,10 @@
                                                 <div class="mt-1 mr-2">
                                                     <img src="/img/icono-flecha-azul.svg" alt="">
                                                 </div>
-                                                <span class="roboto-light d-inline-block">Llegada al aeropuerto Los Garzones en Montería, Cordoba, y traslado vía terrestre</span>
+                                                <span class="roboto-light d-inline-block">Llegada al aeropuerto Los
+                                                    Garzones en Montería, Cordoba, y traslado vía terrestre</span>
                                             </li>
-                                            
+
                                             <div class="d-flex justify-content-around mb-4">
                                                 <div class="text-center">
                                                     <div class="d-flex">
@@ -893,13 +886,14 @@
                                                     <img src="/img/icono-flecha-azul.svg" alt="">
                                                 </div>
                                                 <span class="roboto-light d-inline-block">
-                                                    hasta Planeta Rica y luego al corregimiento de la Granjita, en el municipio de Pueblo Nuevo.
+                                                    hasta Planeta Rica y luego al corregimiento de la Granjita, en el
+                                                    municipio de Pueblo Nuevo.
                                                 </span>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-12 col-md-6 item-terrestre">
                                     <div class="item-terrestre__title d-flex align-items-center ml-4 my-3">
                                         <img src="/img/via_terrestre.svg" alt="" class="mr-3">
@@ -908,7 +902,8 @@
                                     <div class="oc-box-dato p-3">
                                         <div class="item-terrestre_01">
                                             <span
-                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Montería - Planeta Rica</span>
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Montería
+                                                - Planeta Rica</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
                                                     <div class="d-flex">
@@ -942,7 +937,8 @@
 
                                         <div class="item-terrestre_02 mt-3">
                                             <span
-                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Planeta Rica -  Corr. La Granjita</span>
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Planeta
+                                                Rica - Corr. La Granjita</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
                                                     <div class="d-flex">
@@ -976,7 +972,8 @@
 
                                         <div class="item-terrestre_03 mt-3">
                                             <span
-                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Pueblo Nuevo – Corr. La Granjita</span>
+                                                class="oc-box-dato__badge badge oc-bg-gray text-light p-1 px-2 d-block">Pueblo
+                                                Nuevo – Corr. La Granjita</span>
                                             <div class="row align-items-center mt-2">
                                                 <div class="col-12 col-md-5">
                                                     <div class="d-flex">
@@ -1013,12 +1010,16 @@
                                 <div class="col-12 my-3 item-viaje">
                                     <div class="row justify-content-center align-items-center">
                                         <div class="col-12">
-                                            <div class="d-flex justify-content-center flex-column flex-md-row align-items-center text-center">
-                                                <p class="m-0 mr-3">Recuerda solicitar el ingreso y tramitar los formatos</p>
-                                                <a href="http://gi.ocensa.com.co/ORG_TAL/SitePages/SOLICITUDES%20VIAJES.aspx" target="_blank" class="oc-btn oc-btn__green m-0">
+                                            <div
+                                                class="d-flex justify-content-center flex-column flex-md-row align-items-center text-center">
+                                                <p class="m-0 mr-3">Recuerda solicitar el ingreso y tramitar los
+                                                    formatos</p>
+                                                <a href="http://gi.ocensa.com.co/ORG_TAL/SitePages/SOLICITUDES%20VIAJES.aspx"
+                                                    target="_blank" class="oc-btn oc-btn__green m-0">
                                                     <span> Agenda tu viaje </span>
 
-                                                    <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2 mt-1"></span>
+                                                    <span
+                                                        class="flecha-ocensa flecha-derecha flecha-blanca ml-2 mt-1"></span>
                                                 </a>
                                             </div>
                                         </div>
