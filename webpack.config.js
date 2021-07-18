@@ -265,6 +265,12 @@ module.exports = {
         }),
 
         // Córdoba
+        new HtmlWebpackPlugin({
+            filename: 'cordoba/cordoba.html',
+            template: './src/cordoba/cordoba.handlebars',
+            minify: false,
+            //templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+        }),
 
         // Estación La Granjita
         new HtmlWebpackPlugin({

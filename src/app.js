@@ -1117,6 +1117,10 @@ import "./img/sucre/svg editables/encabezado-widget.png";
 import "./img/sucre/svg editables/encabezado-widget-2.png";
 import "./img/sucre/svg editables/encabezado-widget-3.png";
 
+// Mapa Cordoba
+import "./img/Cordoba/mapa/mapa-cordoba.jpg";
+import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
