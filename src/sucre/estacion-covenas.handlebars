@@ -2,7 +2,9 @@
 
 <div id="top"></div>
 
-{{>../widgets-galeria/widget-galeria-foto__miraflores-almacenamiento}}
+{{>../widgets-galeria/widget-galeria-foto__covenas-almacenamiento}}
+
+{{>../widgets-galeria/widget-galeria-foto__covenas-bombeo}}
 
 {{>../partials/header title="Sucre - Estación Coveñas" classPage="oc-estaciones oc-boy-miraflores oc-est-boyaca"}}
 
@@ -216,10 +218,15 @@
     </section>
 
     <!-- Section 03 -->
-    <section class="oc-widgets-section mt-4" id="wdg-section-03-miraflores">
+        <section class="oc-widgets-section mt-4" id="wdg-section-03-miraflores">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-12">
+                <div class="col-12 col-md-12 d-none d-md-block">
+                    {{>../partials/widget-almacenamiento-covenas}}
+                </div>
+
+                <!-- Item mobile -->
+                <div class="col-12 col-md-12 d-md-none">
                     <div class="oc-card-widget oc-widget-template wdg-almacenamiento wdg-almacenamiento-caucasia"
                         id="wdg-almacenamiento-caucasia">
                         <div class="oc-widget-template__top-bar oc-bg-blue-light">
@@ -236,121 +243,119 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="cont-alm-co row">
-                            <div class="item-01 col">
-                                <div class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
-                                    <div class="position-absolute cont-wid-al-co">
-                                        <img src="/img/encabezado-widget.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                        <div class="cont-alm-co">
+                            <div class="oc-slick-widget__alm-covenas oc-slick-theme_2">
+                                <div class="item-01 line-right-co">
+                                    <div
+                                        class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
+                                        <div class="position-absolute cont-wid-al-co">
+                                            <img src="/img/encabezado-widget.png" alt="">
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanques_grandes.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">420.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanque_mediano.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">350.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
-                                        </div>
+                                        <span class="badge d-block m-auto">Crudo Mezcla</span>
                                     </div>
                                 </div>
-                                <div>
-                                    <span class="badge d-block m-auto">Tanque de relevo y almacenamiento<br>
-                                        temporal
-                                        para ODC </span>
-                                </div>
-                            </div>
-                            <div class="item-02-cont col">
-                                <div class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
-                                    <div class="position-absolute cont-wid-al-co">
-                                        <img src="/img/encabezado-widget-2.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                <div class="item-02-cont line-right-co">
+                                    <div
+                                        class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
+                                        <div class="position-absolute cont-wid-al-co">
+                                            <img src="/img/encabezado-widget-2.png" alt="">
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanques_grandes.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">550.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanque_mediano.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">420.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanque_mediano.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">350.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
+                                        <span class="badge d-block m-auto">Crudo Pesado</span>
+                                    </div>
+                                </div>
+                                <div class="item-03">
+                                    <div
+                                        class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
+                                        <div class="position-absolute cont-wid-al-co">
+                                            <img src="/img/encabezado-widget-3.png" alt="" class="img-enca">
+                                        </div>
+                                        <div>
+                                            <div
+                                                class="item-02 d-flex flex-column align-items-center justify-content-center">
+                                                <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
+                                                <p class="roboto-bold">Capacidad</p>
+                                                <span class="roboto-medium c-blue-light">35.000</span>
+                                                <p class="roboto-bold">BARRILES</p>
+                                                <img src="/img/wdg-arrow-down.svg" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
-                                        </div>
+                                        <span class="badge d-block m-auto">Relevos de crudos</span>
                                     </div>
-                                </div>
-                                <div>
-                                    <span class="badge d-block m-auto">Tanque de relevo y almacenamiento<br>
-                                        temporal
-                                        para ODC </span>
-                                </div>
-                            </div>
-                            <div class="item-03 col">
-                                <div class="cont-alm-vas d-flex align-items-center justify-content-center position-relative">
-                                    <div class="position-absolute cont-wid-al-co">
-                                        <img src="/img/encabezado-widget-3.png" alt="" class="img-enca">
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="item-02 d-flex flex-column align-items-center justify-content-center">
-                                            <img src="/img/tanque_pequeno.svg" alt="" class="item-02__img">
-                                            <p class="roboto-bold">Capacidad</p>
-                                            <span class="roboto-medium c-blue-light">100.000</span>
-                                            <p class="roboto-bold">BARRILES</p>
-                                            <img src="/img/wdg-arrow-down.svg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="badge d-block m-auto">Tanque de relevo y almacenamiento<br>
-                                        temporal
-                                        para ODC </span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 text-center mt-2">
-                                            <div
-                                                class="d-flex align-items-center justify-content-center buttons-end mt-3 mb-4">
-                                                <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                                    data-widget="#widget-galeria-foto__vasconia-almacenamiento">
-                                                    <span>Ver fotos</span>
-                                                    <img src="/img/camara.svg" alt="" class="ml-2"></button>
-                                                <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                                    data-widget="#widget-galeria-foto__porvenir-almacenamiento">
-                                                    <span>Ver video</span>
-                                                    <img src="/img/video.svg" alt="" class="ml-2"></button>
-                                            </div>
+                            <div class="d-flex align-items-center justify-content-center buttons-end mt-3 mb-4">
+                                <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
+                                    data-widget="#widget-galeria-foto__covenas-almacenamiento">
+                                    <span>Ver fotos</span>
+                                    <img src="/img/camara.svg" alt="" class="ml-2"></button>
+                                <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
+                                    data-widget="#widget-galeria-foto__porvenir-almacenamiento">
+                                    <span>Ver video</span>
+                                    <img src="/img/video.svg" alt="" class="ml-2"></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
+        </div>
     </section>
 
     <!-- Section 04 -->
@@ -547,7 +552,7 @@
                             </div>
                             <div class="oc-porvenir__modal-button mt-2">
                                 <button class="oc-btn oc-btn__gray oc-widget-galeria__link"
-                                    data-widget="#widget-galeria-foto__porvenir-bombeo">
+                                    data-widget="#widget-galeria-foto__covenas-bombeo">
                                     <span>Ver fotos</span>
                                     <img src="/img/icon-camara.svg" alt="" class="ml-2">
                                 </button>
