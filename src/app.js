@@ -1151,6 +1151,21 @@ import "./img/Cordoba/img/modal-item-morrosquillo.jpg";
 import "./img/Cordoba/svg editables/territorio_ventanas_cultura.svg";
 import "./img/Cordoba/img/cultura-cordoba.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
+//Modales Sucre
+import "./img/sucre/img/depto-sucre.png";
+import "./img/sucre/img/terminal_covenas.jpg";
+import "./img/sucre/img/municipio-covenas.png";
+import "./img/sucre/img/tleu2_1.jpeg";
+import "./img/sucre/img/tlu2_2.jpeg";
+import "./img/sucre/img/clima-sucre.jpg";
+import "./img/sucre/img/hidrografia-sucre.jpg";
+import "./img/sucre/img/fauna-sucre.png";
+import "./img/sucre/img/pnn_corales_rosario.jpg";
+import "./img/sucre/img/pnn_corales_profundidad.jpg";
+import "./img/sucre/img/ecosistemas-sucre.jpg";
+import "./img/sucre/img/fauna_2_sucre.png";
+import "./img/sucre/img/golfo_morrosquillo.jpeg";
+
 //Territorio Sucre
 import "./img/sucre/img/img-esta-ct.png";
 import "./img/sucre/img/img-estamos-sucre1.png";

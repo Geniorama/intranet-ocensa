@@ -24,7 +24,50 @@
     </section>
 
     <section class="oc-mapa oc-mapa-sucre position-relative">
+        {{!-- Modal Map --}}
+
+        <!-- Modal Departamento Sucre -->
+        {{>../modals/sucre/depto_sucre}}
+
+        <!-- Modal Terminal Maritimo Coveñas -->
+        {{>../modals/sucre/ter_covenas}}
+
+        <!-- Modal Municipio Coveñas -->
+        {{>../modals/sucre/mun_covenas}}
+
+        <!-- Modal Estacion TLU2 -->
+        {{>../modals/sucre/est_tlu2}}
+
+        <!-- Modal Clima -->
+        {{>../modals/sucre/clima}}
+
+        <!-- Modal Hidrografia -->
+        {{>../modals/sucre/hidrografia}}
+
+        <!-- Modal Fauna -->
+        {{>../modals/sucre/fauna}}
+
+        <!-- Modal Parque Nacional Natural Corales del Rosario y de San Bernardo -->
+        {{>../modals/sucre/parque_nal_corales}}
+
+        <!-- Modal Parque Nacional Natural Corales Profundidad -->
+        {{>../modals/sucre/parque_nal_corales_prof}}
+
+        <!-- Modal Ecosistemas -->
+        {{>../modals/sucre/ecosistema}}
+
+        <!-- Modal Golfo de Morrosquillo -->
+        {{>../modals/sucre/ter-golfo-morrosquillo}}
+
+        <!-- Modal Ecoturismo y pesca en el Golfo de Morrosquillo -->
+        {{>../modals/sucre/comunidades-ecoturismo}}
         
+        <!-- Modal Reactivación de hoteles y restaurantes en el Golfo de Morrosquillo -->
+        {{>../modals/sucre/comunidades-reactivacion}}
+
+        <!-- Modal Reactivación de hoteles y restaurantes en el Golfo de Morrosquillo -->
+        {{>../modals/sucre/comunidades-vecindad}}
+
 
         <div class="oc-mapa__container">
             <img src="/img/mapa-sucre-lineas.png" alt="" class="oc-mapa__line">
@@ -69,7 +112,7 @@
             </div>
 
             <!--Buena Vecindad: seguridad con enfoque social-->
-            <div class="oc-mapa__location-modals oc-point-154 oc-mapa__purple" data-target="#comunidades-reactivacion">
+            <div class="oc-mapa__location-modals oc-point-154 oc-mapa__purple" data-target="#comunidades-vecindad-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -88,7 +131,7 @@
             </div>
             
             <!--Ecosistemas Manglares-->
-            <div class="oc-mapa__location-modals oc-point-155 oc-mapa__green" data-target="#parque-nal-paramillo">
+            <div class="oc-mapa__location-modals oc-point-155 oc-mapa__green" data-target="#ecosistema-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -107,7 +150,7 @@
             </div>
 
             <!--Coveñas-->
-            <div class="oc-mapa__location-modals oc-point-156 oc-mapa__orange" data-target="#mun-puerto-berrio">
+            <div class="oc-mapa__location-modals oc-point-156 oc-mapa__orange" data-target="#mun-covenas">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -126,7 +169,7 @@
             </div>
 
             <!--Ecoturismo Golfo de Morrosquillo-->
-            <div class="oc-mapa__location-modals oc-point-157 oc-mapa__purple" data-target="#comunidades-reactivacion">
+            <div class="oc-mapa__location-modals oc-point-157 oc-mapa__purple" data-target="#comunidades-ecoturismo-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -145,7 +188,7 @@
             </div>
 
             <!--Reactivar hoteles y restaurantes-->
-            <div class="oc-mapa__location-modals oc-point-158 oc-mapa__purple" data-target="#comunidades-reactivacion">
+            <div class="oc-mapa__location-modals oc-point-158 oc-mapa__purple" data-target="#comunidades-reactivacion-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -164,7 +207,7 @@
             </div>
 
             <!--Fauna-->
-            <div class="oc-mapa__location-modals oc-point-159 oc-mapa__green" data-target="#parque-nal-paramillo">
+            <div class="oc-mapa__location-modals oc-point-159 oc-mapa__green" data-target="#fauna-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -183,7 +226,7 @@
             </div>
 
             <!--Hidrografía-->
-            <div class="oc-mapa__location-modals oc-point-160 oc-mapa__blue" data-target="#hidrografia-antioquia">
+            <div class="oc-mapa__location-modals oc-point-160 oc-mapa__blue" data-target="#hidrografia-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -203,7 +246,7 @@
 
             <!--Golfo de Morrosquillo-->
             <div class="oc-mapa__location-modals oc-point-161 oc-mapa__blue oc-mapa__location-modals-02"
-                data-target="#mun-remedios">
+                data-target="#ter-golfo-morrosquillo">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -222,7 +265,7 @@
             </div>
 
             <!--Clima-->
-            <div class="oc-mapa__location-modals oc-point-162 oc-mapa__green" data-target="#clima-antioquia">
+            <div class="oc-mapa__location-modals oc-point-162 oc-mapa__green" data-target="#clima-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -261,7 +304,7 @@
 
             <!--Parque Nacional Natural Corales De Profundidad-->
             <div class="oc-mapa__location-modals oc-point-164 oc-mapa__green oc-mapa__location-modals-02"
-                data-target="#mun-remedios">
+                data-target="#parque-nal-corales-prof">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -281,7 +324,7 @@
 
             <!--Parque Nacional Natural Islas Corales del Rosario y San Bernardo-->
             <div class="oc-mapa__location-modals oc-point-165 oc-mapa__green oc-mapa__location-modals-02"
-                data-target="#mun-remedios">
+                data-target="#parque-nal-corales">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -300,7 +343,7 @@
             </div>
 
             <!--SUCRE-->
-            <div class="oc-mapa__location-modals oc-point-166 oc-mapa__orange" data-target="#depto-antioquia">
+            <div class="oc-mapa__location-modals oc-point-166 oc-mapa__orange" data-target="#depto-sucre">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -312,7 +355,7 @@
             </div>
 
             <!--Terminal Coveñas-->
-            <div class="oc-mapa__location-modals oc-point-167 oc-mapa__yellow" data-target="#el-porvenir">
+            <div class="oc-mapa__location-modals oc-point-167 oc-mapa__yellow" data-target="#ter-covenas">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__info-item">
                         <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">
@@ -325,7 +368,7 @@
             </div>
 
             <!--TLU2-->
-            <div class="oc-mapa__location-modals oc-point-168 oc-mapa__yellow" data-target="#el-porvenir">
+            <div class="oc-mapa__location-modals oc-point-168 oc-mapa__yellow" data-target="#est_tlu2">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__info-item">
                         <img src="/img/icon-plus.svg" alt="" class="oc-mapa__more">

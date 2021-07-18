@@ -1,0 +1,43 @@
+.oc-index-cordoba {
+  background-color: white !important;
+}
+
+.oc-index-cordoba .oc-img-header-estaciones__icon-estacion {
+  height: auto;
+}
+
+.oc-index-cordoba .oc-mapa__stat {
+  position: relative;
+  top: unset;
+  max-width: 800px;
+  margin: auto;
+}
+
+.oc-index-cordoba .oc-mapa__stat-item-seg .oc-tramo-03::before {
+  content: "3";
+}
+
+.oc-index-cordoba .oc-mapa__stat-item-seg .oc-tramo-04::before {
+  content: "4";
+}
+
+.oc-index-cordoba #mapExt-antioquia {
+  position: absolute;
+  left: 430px;
+  bottom: 70px;
+}
+
+.oc-index-cordoba #mapExt-antioquia .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
+
+.oc-index-cordoba #mapExt-sucre {
+  position: absolute;
+  top: 216px;
+  right: 166px;
+}
+
+.oc-index-cordoba #mapExt-sucre .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=cordoba.css.map */
