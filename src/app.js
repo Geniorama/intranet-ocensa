@@ -1128,6 +1128,12 @@ import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
 import "./img/sucre/mapa/mapa-sucre.jpg";
 import "./img/sucre/mapa/mapa-sucre-lineas.png";
 
+//Territorio Sucre
+import "./img/sucre/img/img-esta-ct.png";
+import "./img/sucre/img/img-estamos-sucre1.png";
+import "./img/sucre/img/img-estamos-sucre2.png";
+import "./img/sucre/img/img-estamos-sucre3.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
