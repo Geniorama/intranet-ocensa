@@ -2,8 +2,8 @@
     "submenuData" : [
         {
             "menuName": "Córdoba",
-            "dataTarget": "/antioquia/antioquia.html",
-            "menuId": "oc-index-antioquia"
+            "dataTarget": "/cordoba/cordoba.html",
+            "menuId": "oc-index-cordoba"
         },
 
         {
