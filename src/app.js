@@ -1071,7 +1071,6 @@ import "./img/Cordoba/img/comunidades_loma_piedra_2.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_3.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_4.jpg";
 
-<<<<<<< HEAD
 // Estación La Granjita
 import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_1_granjita.jpg";
 import "./img/cordoba/estacion-la-granjita/LINKS/img/slide_2_granjita.jpg";
@@ -1086,7 +1085,6 @@ import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bo
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/12-icon-bombeo/bombeo-grap-3.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_trabajadores_en_estacion_granjita.svg";
 import "./img/cordoba/estacion-la-granjita/LINKS/svg editables/imag_demografico_mujeres_y_hombres_granjita.svg";
-=======
 //Estacion Coveñas
 import "./img/sucre/img/slide_1-co.jpg";
 import "./img/sucre/img/slide_2-co.jpg";
@@ -1111,7 +1109,10 @@ import "./img/sucre/svg editables/encabezado-widget.png";
 import "./img/sucre/svg editables/encabezado-widget-2.png";
 import "./img/sucre/svg editables/encabezado-widget-3.png";
 
->>>>>>> feature/estacion-cove
+// Mapa Cordoba
+import "./img/Cordoba/mapa/mapa-cordoba.jpg";
+import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
