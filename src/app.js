@@ -1128,6 +1128,21 @@ import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
 import "./img/sucre/mapa/mapa-sucre.jpg";
 import "./img/sucre/mapa/mapa-sucre-lineas.png";
 
+//Modales Sucre
+import "./img/sucre/img/depto-sucre.png";
+import "./img/sucre/img/terminal_covenas.jpg";
+import "./img/sucre/img/municipio-covenas.png";
+import "./img/sucre/img/tleu2_1.jpeg";
+import "./img/sucre/img/tlu2_2.jpeg";
+import "./img/sucre/img/clima-sucre.jpg";
+import "./img/sucre/img/hidrografia-sucre.jpg";
+import "./img/sucre/img/fauna-sucre.png";
+import "./img/sucre/img/pnn_corales_rosario.jpg";
+import "./img/sucre/img/pnn_corales_profundidad.jpg";
+import "./img/sucre/img/ecosistemas-sucre.jpg";
+import "./img/sucre/img/fauna_2_sucre.png";
+import "./img/sucre/img/golfo_morrosquillo.jpeg";
+
 //Territorio Sucre
 import "./img/sucre/img/img-esta-ct.png";
 import "./img/sucre/img/img-estamos-sucre1.png";
