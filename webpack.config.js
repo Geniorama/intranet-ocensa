@@ -285,7 +285,7 @@ module.exports = {
             filename: 'sucre/sucre.html',
             template: './src/sucre/sucre.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
         }),
 
 
