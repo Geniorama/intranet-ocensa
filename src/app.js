@@ -1128,6 +1128,30 @@ import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
 import "./img/sucre/mapa/mapa-sucre.jpg";
 import "./img/sucre/mapa/mapa-sucre-lineas.png";
 
+// Territorio Córdoba
+import "./img/Cordoba/img/cordoba_slide.jpg";
+import "./img/Cordoba/svg editables/mapa_slide.svg";
+import "./img/Cordoba/svg editables/icons_group_map_cordoba.svg";
+import "./img/Cordoba/img/territorio_cordoba_la_granjita.jpg";
+import "./img/Cordoba/img/departamento_cordoba.jpg";
+import "./img/Cordoba/img/comunidades_loma_piedra_3.jpg";
+import "./img/Cordoba/svg editables/territorio_ventanas_departamento_cordoba.svg";
+import "./img/Cordoba/img/municipio_pueblo_nuevo.jpg";
+import "./img/Cordoba/img/ecosistema_1_cordoba.jpg";
+import "./img/Cordoba/img/ecosistema_2_cordoba.jpg";
+import "./img/Cordoba/svg editables/territorio_ventanas_fauna_2.svg";
+import "./img/Cordoba/img/fauna_1_cordoba.jpg";
+import "./img/Cordoba/img/fauna_2_cordoba.jpg";
+import "./img/Cordoba/svg editables/territorio_especies_mamiferos.svg";
+import "./img/Cordoba/svg editables/territorio_especies_aves.svg";
+import "./img/Cordoba/img/hidrografia-cordoba.jpg";
+import "./img/Cordoba/img/clima-cordoba.jpg";
+import "./img/Cordoba/svg editables/territorio_modal_golfo.svg";
+import "./img/Cordoba/img/modal-item-morrosquillo.jpg";
+import "./img/Cordoba/svg editables/territorio_ventanas_cultura.svg";
+import "./img/Cordoba/img/cultura-cordoba.jpg";
+import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

@@ -23490,3 +23490,162 @@ p, span {
   left: 572px;
   top: 509px;
 }
+
+.oc-mapa-sucre {
+  padding-top: 5em;
+}
+.oc-mapa-sucre .oc-mapa__indicator {
+  top: 0;
+}
+.oc-mapa-sucre .oc-mapa__line {
+  top: 47px;
+  right: 140px;
+  width: 273px;
+}
+.oc-mapa-sucre .oc-mapa__name-point span {
+  line-height: 1em;
+}
+.oc-mapa-sucre .oc-mapa__location-modals-02 .oc-mapa__name-point {
+  padding: 0;
+  padding-left: 0.5em;
+}
+.oc-mapa-sucre .oc-mapa__location-modals-02 .oc-mapa__img-icon {
+  margin-left: 0.5em;
+}
+.oc-mapa-sucre .oc-point-152 {
+  left: 325px;
+  top: 227px;
+}
+.oc-mapa-sucre .oc-point-152 .oc-mapa__name-point {
+  left: -57px;
+}
+.oc-mapa-sucre .oc-point-153 {
+  left: 368px;
+  top: 368px;
+}
+.oc-mapa-sucre .oc-point-154 {
+  left: 386px;
+  top: 477px;
+}
+.oc-mapa-sucre .oc-point-155 {
+  left: 470px;
+  top: 510px;
+}
+.oc-mapa-sucre .oc-point-156 {
+  left: 479px;
+  top: 391px;
+}
+.oc-mapa-sucre .oc-point-157 {
+  left: 540px;
+  top: 447px;
+}
+.oc-mapa-sucre .oc-point-158 {
+  left: 540px;
+  top: 562px;
+}
+.oc-mapa-sucre .oc-point-159 {
+  left: 693px;
+  top: 640px;
+}
+.oc-mapa-sucre .oc-point-160 {
+  left: 693px;
+  top: 300px;
+}
+.oc-mapa-sucre .oc-point-161 {
+  left: 919px;
+  top: 378px;
+}
+.oc-mapa-sucre .oc-point-161 .oc-mapa__name-point {
+  left: -100px;
+}
+.oc-mapa-sucre .oc-point-162 {
+  left: 1002px;
+  top: 488px;
+}
+.oc-mapa-sucre .oc-point-163 {
+  left: 1124px;
+  top: 424px;
+}
+.oc-mapa-sucre .oc-point-163 .oc-mapa__name-point {
+  left: -42px;
+}
+.oc-mapa-sucre .oc-point-164 {
+  left: 886px;
+  top: 21px;
+}
+.oc-mapa-sucre .oc-point-164 .oc-mapa__name-point {
+  left: -152px;
+  width: 184px;
+}
+.oc-mapa-sucre .oc-point-165 {
+  left: 924px;
+  top: 72px;
+}
+.oc-mapa-sucre .oc-point-165 .oc-mapa__name-point {
+  left: -202px;
+  width: 235px;
+}
+.oc-mapa-sucre .oc-point-166 {
+  left: 997px;
+  top: 162px;
+}
+.oc-mapa-sucre .oc-point-166:hover .oc-mapa__icon {
+  opacity: 1;
+}
+.oc-mapa-sucre .oc-point-167 {
+  left: 263px;
+  top: 272px;
+}
+.oc-mapa-sucre .oc-point-168 {
+  left: 433px;
+  top: 191px;
+}
+.oc-mapa-sucre .oc-point-169 {
+  left: 530px;
+  top: 136px;
+}
+.oc-mapa-sucre .oc-point-170 {
+  left: 721px;
+  top: 540px;
+  display: block;
+  line-height: 0.5em;
+}
+.oc-mapa-sucre .oc-point-171 {
+  left: 329px;
+  top: 365px;
+}
+
+.oc-index-cordoba {
+  background-color: white !important;
+}
+.oc-index-cordoba .oc-img-header-estaciones__icon-estacion {
+  height: auto;
+}
+.oc-index-cordoba .oc-mapa__stat {
+  position: relative;
+  top: unset;
+  max-width: 800px;
+  margin: auto;
+}
+.oc-index-cordoba .oc-mapa__stat-item-seg .oc-tramo-03::before {
+  content: "3";
+}
+.oc-index-cordoba .oc-mapa__stat-item-seg .oc-tramo-04::before {
+  content: "4";
+}
+.oc-index-cordoba #mapExt-antioquia {
+  position: absolute;
+  left: 430px;
+  bottom: 70px;
+}
+.oc-index-cordoba #mapExt-antioquia .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}
+.oc-index-cordoba #mapExt-sucre {
+  position: absolute;
+  top: 216px;
+  right: 166px;
+}
+.oc-index-cordoba #mapExt-sucre .oc-map__ext-city__button-text {
+  margin-left: 20px;
+}

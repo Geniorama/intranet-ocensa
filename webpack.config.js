@@ -269,7 +269,7 @@ module.exports = {
             filename: 'cordoba/cordoba.html',
             template: './src/cordoba/cordoba.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-cordoba.json')
         }),
 
         // Estación La Granjita

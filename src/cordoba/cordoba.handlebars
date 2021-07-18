@@ -11,20 +11,62 @@
 <main class="oc-content py-0 py-md-5" id="main-cordoba">
     <section class="pb-md-5 py-0">
         {{>../partials/header-estaciones
-        img="/img/1_inicio_antioquia.jpg"
+        img="/img/cordoba_slide.jpg"
         estacion="Córdoba"
-        imgMap="/img/icon-map-antioquia.svg"
-        imgIcons="/img/icons-group-map-antioquia.svg"
+        imgMap="/img/mapa_slide.svg"
+        imgIcons="/img/icons_group_map_cordoba.svg"
         }}
     </section>
     <section class="cont-intro-territorio mb-5">
         <div class="container">
-            {{>../partials/intro-territorio-antioquia}}
+            {{>../partials/intro-territorio-cordoba}}
         </div>
     </section>
 
     <section class="oc-mapa oc-mapa-cordoba position-relative">
-        
+        {{!-- Modal Map --}}
+
+        {{!-- Modal Departamento Córdoba --}}
+        {{>../modals/cordoba/depto_cordoba}}
+
+        {{!-- Modal La Granjita --}}
+        {{>../modals/cordoba/la_granjita}}
+
+        {{!-- Modal Municipio Pueblo Nuevo --}}
+        {{>../modals/cordoba/mun_pueblo_nuevo}}
+
+        {{!-- Modal Ecosistema Córdoba --}}
+        {{>../modals/cordoba/ecosistema}}
+
+        {{!-- Modal Fauna Córdoba --}}
+        {{>../modals/cordoba/fauna}}
+
+        {{!-- Modal Hidrografía Córdoba --}}
+        {{>../modals/cordoba/hidrografia}}
+
+        {{!-- Modal Clima Córdoba --}}
+        {{>../modals/cordoba/clima}}
+
+        {{!-- Modal Parque Nal Páramillo Córdoba --}}
+        {{>../modals/antioquia/parque_nal_paramillo}}
+
+        {{!-- Modal Golfo Morrosquillo --}}
+        {{>../modals/cordoba/golfo_morrosquillo}}
+
+        {{!-- Modal Cultura Cordoba --}}
+        {{>../modals/cordoba/cultura}}
+
+        {{!-- Modal Comunidades Sinergia --}}
+        {{>../modals/cordoba/comunidades_sinergia}}
+
+        {{!-- Modal Comunidades Reactivación --}}
+        {{>../modals/cordoba/comunidades_reactivacion}}
+
+        {{!-- Modal Comunidades Buena vecindad --}}
+        {{>../modals/cordoba/comunidades_buena_vecindad}}
+
+        {{!-- Modal Comunidades Los Peces --}}
+        {{>../modals/cordoba/comunidades_los_peces}}
 
         <div class="oc-mapa__container">
             <img src="/img/mapa-cordoba-linea.png" alt="" class="oc-mapa__line">
@@ -33,7 +75,7 @@
 
             
             <!--Ecosistemas-->
-            <div class="oc-mapa__location-modals oc-point-125 oc-mapa__green" data-target="">
+            <div class="oc-mapa__location-modals oc-point-125 oc-mapa__green" data-target="#ecosistema-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -70,7 +112,7 @@
             </div>
 
             <!--Cultura-->
-            <div class="oc-mapa__location-modals oc-point-127 oc-mapa__purple" data-target="">
+            <div class="oc-mapa__location-modals oc-point-127 oc-mapa__purple" data-target="#cultura-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -89,7 +131,7 @@
             </div>
 
             <!--Fauna-->
-            <div class="oc-mapa__location-modals oc-point-128 oc-mapa__green" data-target="">
+            <div class="oc-mapa__location-modals oc-point-128 oc-mapa__green" data-target="#fauna-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -108,7 +150,7 @@
             </div>
 
             <!--Hidrografía-->
-            <div class="oc-mapa__location-modals oc-point-129 oc-mapa__blue" data-target="">
+            <div class="oc-mapa__location-modals oc-point-129 oc-mapa__blue" data-target="#hidrografia-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -184,7 +226,7 @@
             </div>
 
             <!--Clima-->
-            <div class="oc-mapa__location-modals oc-point-133 oc-mapa__green" data-target="">
+            <div class="oc-mapa__location-modals oc-point-133 oc-mapa__green" data-target="#clima-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -203,7 +245,7 @@
             </div>
 
             <!--Pueblo Nuevo-->
-            <div class="oc-mapa__location-modals oc-point-134 oc-mapa__orange" data-target="">
+            <div class="oc-mapa__location-modals oc-point-134 oc-mapa__orange" data-target="#mun-pueblo-nuevo">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -222,7 +264,7 @@
             </div>
 
             <!--Peces en Loma de Piedra -->
-            <div class="oc-mapa__location-modals oc-point-135 oc-mapa__purple" data-target="">
+            <div class="oc-mapa__location-modals oc-point-135 oc-mapa__purple" data-target="#comunidades-los-peces">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -241,7 +283,7 @@
             </div>
 
             <!--Buena Vecindad-->
-            <div class="oc-mapa__location-modals oc-point-136 oc-mapa__purple" data-target="">
+            <div class="oc-mapa__location-modals oc-point-136 oc-mapa__purple" data-target="#comunidades-buena-vecindad">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -260,7 +302,7 @@
             </div>
 
             <!--Reactivar hoteles y restaurantes -->
-            <div class="oc-mapa__location-modals oc-point-137 oc-mapa__purple" data-target="">
+            <div class="oc-mapa__location-modals oc-point-137 oc-mapa__purple" data-target="#comunidades-reactivacion">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -280,7 +322,7 @@
 
             <!--Sinergia verde con pescadores-->
             <div class="oc-mapa__location-modals oc-point-138 oc-mapa__purple oc-mapa__location-modals-02"
-                data-target="">
+                data-target="#comunidades-sinergia">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -337,7 +379,7 @@
 
             <!--Golfo de Morrosquillo-->
             <div class="oc-mapa__location-modals oc-point-141 oc-mapa__blue oc-mapa__location-modals-02"
-                data-target="">
+                data-target="#golfo-morrosquillo">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -413,7 +455,7 @@
 
             <!--Parque Nacional Natural Paramillo-->
             <div class="oc-mapa__location-modals oc-point-145 oc-mapa__green oc-mapa__location-modals-02"
-                data-target="">
+                data-target="#parque-nal-paramillo">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -432,7 +474,7 @@
             </div>      
 
             <!--CÓRDOBA-->
-            <div class="oc-mapa__location-modals oc-point-146 oc-mapa__orange" data-target="">
+            <div class="oc-mapa__location-modals oc-point-146 oc-mapa__orange" data-target="#depto-cordoba">
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
                 <span class="oc-radar"></span>
@@ -444,7 +486,7 @@
             </div>
 
             <!--LA GRANJITA-->
-            <div class="oc-mapa__location-modals oc-point-147 oc-mapa__yellow-02" data-target="">
+            <div class="oc-mapa__location-modals oc-point-147 oc-mapa__yellow-02" data-target="#est-la-granjita">
                 <div class="oc-mapa__name-point-yellow">
                     <div class="oc-mapa__img-icon">
                         <img src="/img/icon-yellow.svg" alt="">
@@ -491,21 +533,19 @@
 
             {{!-- Otros oleoductos --}}
             <div class="oc-map__info-aditional">
-                <h5 class="oc-map__info-aditional__title">OTROS OLEODUCTOS</h5>
+                <h5 class="oc-map__info-aditional__title">OTRO OLEODUCTO</h5>
                 <ul class="oc-map__info-aditional__list">
                     <li><span class="item-number">1</span> Oleoducto de Colombia</li>
-                    <li><span class="item-number">2</span> Oleoducto Vasconia Barrancabermeja</li>
-                    <li><span class="item-number">3</span> Oleoducto Vasconia V26 Barrancabermeja</li>
                 </ul>
             </div>
 
-            {{!-- Button Boyacá --}}
-            {{>../partials/map-ext-city city="BOYACÁ" buttonText="Regresar recorrido" btnIzquierda="true"
-            id="mapExt-boyaca" buttonLink="/boyaca/boyaca.html"}}
+            {{!-- Button Antioquia --}}
+            {{>../partials/map-ext-city city="ANTIOQUIA" buttonText="Regresar recorrido" btnIzquierda="true"
+            id="mapExt-antioquia" buttonLink="/antioquia/antioquia.html"}}
 
-            {{!-- Button Cordoba --}}
-            {{>../partials/map-ext-city city="CÓRDOBA" buttonText="Continuar recorrido" btnIzquierda="true"
-            id="mapExt-cordoba" buttonLink="#"}}
+            {{!-- Button Sucre --}}
+            {{>../partials/map-ext-city city="SUCRE" buttonText="Continuar recorrido" btnIzquierda="true"
+            id="mapExt-sucre" buttonLink="/sucre/sucre.html"}}
         </div>
     </section>
 
@@ -513,58 +553,46 @@
     <div class="container">
         <div class="oc-mapa__stat mt-4 flex-column">
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <div class="oc-mapa__stat-header mb-3 mb-md-0 mt-2">
                         <img src="/img/icon-segmentos.svg" alt="">
                         <h5>Segmentos</h5>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="oc-mapa__stat-item-seg">
-                        <div class="oc-tramo oc-tramo-04">
-                            <p>Tramo</p>
-                            <span class="roboto-light">Vasconia - Chiquillo</span>
-                        </div>
-                        <div class="oc-distancia">
-                            <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">106</span> km</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="oc-mapa__stat-item-seg">
-                        <div class="oc-tramo oc-tramo-02">
-                            <p>Tramo</p>
-                            <span class="roboto-light">Chiquillo - Caucasia</span>
-                        </div>
-                        <div class="oc-distancia">
-                            <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">184</span> km</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <div class="oc-mapa__stat-item-seg">
                         <div class="oc-tramo oc-tramo-03">
                             <p>Tramo</p>
-                            <span class="roboto-light">Caucasia - Granjita</span>
+                            <span class="roboto-light">Caucasia - La Granjita</span>
                         </div>
                         <div class="oc-distancia">
                             <p>Distancia</p>
-                            <span class="roboto-light"><span class="roboto-medium number">33</span> km</span>
+                            <span class="roboto-light"><span class="roboto-medium number">146</span> km</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="oc-mapa__stat-item-seg">
+                        <div class="oc-tramo oc-tramo-04">
+                            <p>Tramo</p>
+                            <span class="roboto-light">La Granjita - Coveñas</span>
+                        </div>
+                        <div class="oc-distancia">
+                            <p>Distancia</p>
+                            <span class="roboto-light"><span class="roboto-medium number">120</span> km</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row align-items-center">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <div class="oc-mapa__stat-header mb-0">
                         <img src="/img/icon-altura.svg" alt="">
                         <h5>Altura</h5>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <div class="oc-mapa__stat-item-altura">
                         <span class="arrow">
                             <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387"
@@ -579,32 +607,17 @@
                         <p>Chiquillo </p><span class="number">454 </span><span class="date">msnm</span>
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="oc-mapa__stat-item-altura">
-                        <span class="arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="4.633" height="8.387"
-                                viewBox="0 0 4.633 8.387">
-                                <path id="Trazado_11919" data-name="Trazado 11919"
-                                    d="M416,919.7l3.572,3.572L416,926.843" transform="translate(-415.377 -919.078)"
-                                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="0.879" />
-                            </svg>
-
-                        </span>
-                        <p>Caucasia </p><span class="number">150 </span><span class="date">msnm</span>
-                    </div>
-                </div>
             </div>
 
         </div>
     </div>
 
     <section class="oc-section-galeria" id="galeria-terr-antioquia">
-        {{>../partials/galeria-territorio-antioquia}}
+        {{>../partials/galeria-territorio-cordoba}}
     </section>
     <section class="oc-section-estamos">
         <div class="container">
-            {{>../partials/estamos-section-antioquia}}
+            {{>../partials/estamos-section-cordoba}}
         </div>
     </section>
 </main>
