@@ -269,7 +269,7 @@ module.exports = {
             filename: 'cordoba/cordoba.html',
             template: './src/cordoba/cordoba.handlebars',
             minify: false,
-            //templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
         // Estación La Granjita
@@ -278,6 +278,14 @@ module.exports = {
             template: './src/cordoba/estacion-la-granjita.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-cordoba.json')
+        }),
+
+        // Sucre
+        new HtmlWebpackPlugin({
+            filename: 'sucre/sucre.html',
+            template: './src/sucre/sucre.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),
 
 

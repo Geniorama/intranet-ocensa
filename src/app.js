@@ -1124,6 +1124,10 @@ import "./img/sucre/img/galeria_sistema_bombeo_2-wf.jpg";
 import "./img/Cordoba/mapa/mapa-cordoba.jpg";
 import "./img/Cordoba/mapa/mapa-cordoba-linea.png";
 
+// Mapa Sucre
+import "./img/sucre/mapa/mapa-sucre.jpg";
+import "./img/sucre/mapa/mapa-sucre-lineas.png";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
