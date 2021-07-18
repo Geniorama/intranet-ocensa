@@ -1151,6 +1151,11 @@ import "./img/Cordoba/img/modal-item-morrosquillo.jpg";
 import "./img/Cordoba/svg editables/territorio_ventanas_cultura.svg";
 import "./img/Cordoba/img/cultura-cordoba.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
+//Territorio Sucre
+import "./img/sucre/img/img-esta-ct.png";
+import "./img/sucre/img/img-estamos-sucre1.png";
+import "./img/sucre/img/img-estamos-sucre2.png";
+import "./img/sucre/img/img-estamos-sucre3.png";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
