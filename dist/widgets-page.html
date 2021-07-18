@@ -1,123 +1,66 @@
-<head><link href="css/app.css" rel="stylesheet"></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module build failed (from ./node_modules/handlebars-loader/index.js):
-  Error: Partial './../widgets-galeria/widget-galeria-foto__coveñas-almacenamiento' not found
-  
-  - index.js:291 tryExtension
-    [intranet-ocensa]/[handlebars-loader]/index.js:291:27
-  
-  - index.js:299 
-    [intranet-ocensa]/[handlebars-loader]/index.js:299:11
-  
-  - index.js:241 next
-    [intranet-ocensa]/[handlebars-loader]/index.js:241:20
-  
-  - index.js:257 
-    [intranet-ocensa]/[handlebars-loader]/index.js:257:20
-  
-  - Resolver.js:213 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:213:14
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - UnsafeCachePlugin.js:44 
-    [intranet-ocensa]/[enhanced-resolve]/lib/UnsafeCachePlugin.js:44:7
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - DescriptionFilePlugin.js:67 
-    [intranet-ocensa]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:67:43
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - RootPlugin.js:37 
-    [intranet-ocensa]/[enhanced-resolve]/lib/RootPlugin.js:37:38
-  
-  
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - DescriptionFilePlugin.js:67 
-    [intranet-ocensa]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:67:43
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - DirectoryExistsPlugin.js:27 
-    [intranet-ocensa]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:27:15
-  
-  - CachedInputFileSystem.js:85 
-    [intranet-ocensa]/[enhanced-resolve]/lib/CachedInputFileSystem.js:85:15
-  
-  
-  - Error: Partial './../widgets-galeria/widget-galeria-foto__coveñas-almacenamiento' not found
-  
-  - ModuleBuildError: Module build failed (from ./node_modules/handlebars-loader/index.js):
-  
-  - Error: Partial './../widgets-galeria/widget-galeria-foto__coveñas-almacenamiento' not found
-  
-  - index.js:291 tryExtension
-    [intranet-ocensa]/[handlebars-loader]/index.js:291:27
-  
-  - index.js:299 
-    [intranet-ocensa]/[handlebars-loader]/index.js:299:11
-  
-  - index.js:241 next
-    [intranet-ocensa]/[handlebars-loader]/index.js:241:20
-  
-  - index.js:257 
-    [intranet-ocensa]/[handlebars-loader]/index.js:257:20
-  
-  - Resolver.js:213 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:213:14
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - UnsafeCachePlugin.js:44 
-    [intranet-ocensa]/[enhanced-resolve]/lib/UnsafeCachePlugin.js:44:7
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - DescriptionFilePlugin.js:67 
-    [intranet-ocensa]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:67:43
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-  - RootPlugin.js:37 
-    [intranet-ocensa]/[enhanced-resolve]/lib/RootPlugin.js:37:38
-  
-  
-  
-  - Resolver.js:285 
-    [intranet-ocensa]/[enhanced-resolve]/lib/Resolver.js:285:5
-  
-  
-</pre><script src="js/bundle.js"></script>
+<head><link href="css/app.css" rel="stylesheet"></head><div class="container py-4">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="oc-card-widget oc-widget-template wdg-publicaciones h-auto enlaces-fav-inc publi-inc-2" id="enlaces-fav-inc">
+                <div class="oc-widget-template__top-bar oc-bg-gray">
+                    <div class="oc-widget-template__top-bar__title">
+                        <img src="/img/icon_perfil_usuario_publicaciones.svg" alt="">
+                        <span>Enlaces favoritos</span>
+                    </div>
+                    <div class="oc-widget-template__top-bar__right d-none">
+                        <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                        <button class="oc-button-menu">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="oc-widget-template__body p-3 text-center m-0" id="publicaciones-inc">
+                    <div class="oc-widget-template__body__box-gray p-3 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img src="/img/enlaces_rapidos.svg" alt="" class="img-publicaciones-inc mt-2">
+            
+                        <p class="mt-5 mb-4 text-publi-inc">Para acceder al enlace <br><span class="roboto-c-bold">necesitas conexión a la VPN</span></p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="" class="wdg-publicaciones__agregar text-center d-block">Continuar</a>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            
+            </div>        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="oc-card-widget oc-widget-template wdg-publicaciones h-auto publi-inc-2" id="publi-inc-2">
+                <div class="oc-widget-template__top-bar oc-bg-gray">
+                    <div class="oc-widget-template__top-bar__title">
+                        <img src="/img/icon_perfil_usuario_publicaciones.svg" alt="">
+                        <span>Publicaciones</span>
+                    </div>
+                    <div class="oc-widget-template__top-bar__right d-none">
+                        <button class="oc-button-close"><img src="/img/button-close.svg" alt=""></button>
+                        <button class="oc-button-menu">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="oc-widget-template__body p-3 text-center m-0" id="publicaciones-inc">
+                    <div class="oc-widget-template__body__box-gray p-3 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <img src="/img/publicaciones-inc-2.svg" alt="" class="img-publicaciones-inc mt-2">
+            
+                        <p class="mt-5 mb-4 text-publi-inc">Este documento <br><span class="roboto-c-bold">no es público</span></p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="" class="wdg-publicaciones__agregar text-center d-block">Continuar</a>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            
+            </div>        </div>
+    </div>
+</div><script src="js/bundle.js"></script>
