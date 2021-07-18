@@ -251,8 +251,8 @@ module.exports = {
 
         //Estacion coveñas           
         new HtmlWebpackPlugin({
-            filename: 'sucre/estacion-coveñas.html',
-            template: './src/sucre/estacion-coveñas.handlebars',
+            filename: 'sucre/estacion-covenas.html',
+            template: './src/sucre/estacion-covenas.handlebars',
             minify: false,
             templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
         }),

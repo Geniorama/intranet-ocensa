@@ -113,11 +113,49 @@
             color: white !important
             width: 90%
 
+    .line-right-co
+        position: relative
+        &::before
+            position: absolute
+            content: ''
+            width: 1px
+            height: 300px
+            background-color: #95A6B1
+            top: 20px
+            right: 0px
+
     #wdg-section-03-miraflores .oc-card-widget
         height: 415px !important
 
     .cont-alm-vas
         .img-enca
             margin-top: 40px
+
+@include media-breakpoint-down(sm)
+    #main-suc-cove .como-llegar-1 .oc-box-dato
+        width: 100% !important
+        height: auto !important
+
+    #main-suc-cove #wdg-section-08-mir .oc-card-widget
+        height: auto !important
+
+    .item-aerea__title
+        margin-bottom: 3.5em !important
+
+    .oc-miraflores-block
+        display: flex !important
+        flex-direction: column !important
+        justify-content: center !important
+        align-items: center !important
+
+    .terres-chi .oc-box-dato
+        padding: 1em !important
+    
+    #wdg-distancia .oc-widget-template__body
+        padding: 1.5em !important
             
-                    
+    #main-suc-cove .cont-alm-co .item-02
+        margin: 80px 10px 0px 10px
+    
+    #main-suc-cove #wdg-section-03-miraflores .oc-card-widget
+        height: auto !important
