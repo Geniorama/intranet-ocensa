@@ -254,7 +254,7 @@ module.exports = {
             filename: 'sucre/estacion-covenas.html',
             template: './src/sucre/estacion-covenas.handlebars',
             minify: false,
-            templateParameters: require('./src/sumenuEstaciones/submenu-antioquia.json')
+            templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
         }),
 
         // Widgets page

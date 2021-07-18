@@ -1,0 +1,15 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Sucre",
+            "dataTarget": "/sucre/sucre.html",
+            "menuId": "oc-index-sucre"
+        },
+
+        {
+            "menuName": "Estación Coveñas",
+            "dataTarget": "/sucre/estacion-covenas.html",
+            "menuId": "oc-suc-covenas"
+        }
+    ]
+}

@@ -32,3 +32,7 @@ $('.oc-index-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'ac
 // Cordoba Perfil Oleoducto
 $('.oc-est-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active')
 $('.oc-index-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active')
+
+// Sucre Perfil Oleoducto
+$('.oc-est-sucre .oc-recorrido__mapa #Componente_133_4').attr('class', 'active')
+$('.oc-index-sucre .oc-recorrido__mapa #Componente_133_4').attr('class', 'active')

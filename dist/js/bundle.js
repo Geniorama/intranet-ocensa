@@ -24998,7 +24998,10 @@ jquery_default()('.oc-est-antioquia .oc-recorrido__mapa #Componente_131_4').attr
 jquery_default()('.oc-index-antioquia .oc-recorrido__mapa #Componente_131_4').attr('class', 'active'); // Cordoba Perfil Oleoducto
 
 jquery_default()('.oc-est-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active');
-jquery_default()('.oc-index-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active');
+jquery_default()('.oc-index-cordoba .oc-recorrido__mapa #Componente_132_4').attr('class', 'active'); // Sucre Perfil Oleoducto
+
+jquery_default()('.oc-est-sucre .oc-recorrido__mapa #Componente_133_4').attr('class', 'active');
+jquery_default()('.oc-index-sucre .oc-recorrido__mapa #Componente_133_4').attr('class', 'active');
 // CONCATENATED MODULE: ./src/modules/PerfilOleductoHeader.js
 
 jquery_default()('.oc-img-header__button-sistema').click(function (e) {
