@@ -1094,7 +1094,7 @@ import "./img/cordoba/estacion-la-granjita/LINKS/img/galeria_sistema_bombeo-gran
 import "./img/cordoba/estacion-la-granjita/LINKS/img/galeria_sistema_bombeo_2-granjita.jpg";
 
 //Estacion Coveñas
-import "./img/sucre/img/slide_1-co.jpg";
+import "./img/sucre/img/slide_1-co.png";
 import "./img/sucre/img/slide_2-co.jpg";
 import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_tanqueros TLU.svg";
 import "./img/sucre/svg editables/1-icon-la-terminal/la_terminal_presion_disminuye.svg";
