@@ -1175,6 +1175,14 @@ import "./img/sucre/img/img-estamos-sucre1.png";
 import "./img/sucre/img/img-estamos-sucre2.png";
 import "./img/sucre/img/img-estamos-sucre3.png";
 
+// Documentos La Belleza
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Analisis de riesgo en el trabajo.xlsx';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Formato de ingreso facilidades sector 2.xls';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Ingreso de materiales.docx';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Ingreso de personal fin de semana.xls';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Permisos de trabajo V3 anexo Covid-19.pdf';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Requerimientos mínimos para inicio de labores en campo.xlsx';
+import './docs/documentos-santander/widget-formatos ingreso-la belleza/Requisitos para ingreso de vehiculos.xlsx';
 
 var scroll = new SmoothScroll('a[href*="#"]');
 

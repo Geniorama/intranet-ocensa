@@ -26969,6 +26969,20 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var img_estamos_sucre2 = (__webpack_require__.p + "img/img-estamos-sucre2.png");
 // CONCATENATED MODULE: ./src/img/sucre/img/img-estamos-sucre3.png
 /* harmony default export */ var img_estamos_sucre3 = (__webpack_require__.p + "img/img-estamos-sucre3.png");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Analisis de riesgo en el trabajo.xlsx
+/* harmony default export */ var Analisis_de_riesgo_en_el_trabajo = (__webpack_require__.p + "docs/Analisis de riesgo en el trabajo.xlsx");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Formato de ingreso facilidades sector 2.xls
+/* harmony default export */ var Formato_de_ingreso_facilidades_sector_2 = (__webpack_require__.p + "docs/Formato de ingreso facilidades sector 2.xls");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Ingreso de materiales.docx
+/* harmony default export */ var Ingreso_de_materiales = (__webpack_require__.p + "docs/Ingreso de materiales.docx");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Ingreso de personal fin de semana.xls
+/* harmony default export */ var Ingreso_de_personal_fin_de_semana = (__webpack_require__.p + "docs/Ingreso de personal fin de semana.xls");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Permisos de trabajo V3 anexo Covid-19.pdf
+/* harmony default export */ var Permisos_de_trabajo_V3_anexo_Covid_19 = (__webpack_require__.p + "docs/Permisos de trabajo V3 anexo Covid-19.pdf");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Requerimientos mínimos para inicio de labores en campo.xlsx
+/* harmony default export */ var Requerimientos_m_nimos_para_inicio_de_labores_en_campo = (__webpack_require__.p + "docs/Requerimientos mínimos para inicio de labores en campo.xlsx");
+// CONCATENATED MODULE: ./src/docs/documentos-santander/widget-formatos ingreso-la belleza/Requisitos para ingreso de vehiculos.xlsx
+/* harmony default export */ var Requisitos_para_ingreso_de_vehiculos = (__webpack_require__.p + "docs/Requisitos para ingreso de vehiculos.xlsx");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -28019,6 +28033,14 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
  //Territorio Sucre
+
+
+
+
+ // Documentos La Belleza
+
+
+
 
 
 
