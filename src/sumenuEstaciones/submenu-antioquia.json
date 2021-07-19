@@ -8,7 +8,7 @@
 
         {
             "menuName": "Estación Chiquillo",
-            "dataTarget": "#",
+            "dataTarget": "/antioquia/estacion-chiquillo.html",
             "menuId": "oc-ant-chiquillo"
         },
 

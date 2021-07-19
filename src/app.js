@@ -1063,6 +1063,9 @@ import "./img/antioquia/estacion-chiquillo/img/chiquillo-bombeo-popup.jpg";
 import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_1.jpg";
 import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_2.jpg";
 import "./img/antioquia/estacion-chiquillo/img/galeria_sistema_bombeo_3.jpg";
+import "./img/antioquia/estacion-chiquillo/img/slide-1-chi-edit.jpg";
+import "./img/antioquia/estacion-chiquillo/img/personal_1_odilio_rivera@2x.png";
+import "./img/antioquia/estacion-chiquillo/img/personal_2_breighner_cuesta@2x.png";
 
 
 //Noticia Cordoba
