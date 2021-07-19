@@ -26837,8 +26837,8 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var galeria_sistema_bombeo_granjita = (__webpack_require__.p + "img/galeria_sistema_bombeo-granjita.jpg");
 // CONCATENATED MODULE: ./src/img/cordoba/estacion-la-granjita/LINKS/img/galeria_sistema_bombeo_2-granjita.jpg
 /* harmony default export */ var galeria_sistema_bombeo_2_granjita = (__webpack_require__.p + "img/galeria_sistema_bombeo_2-granjita.jpg");
-// CONCATENATED MODULE: ./src/img/sucre/img/slide_1-co.jpg
-/* harmony default export */ var slide_1_co = (__webpack_require__.p + "img/slide_1-co.jpg");
+// CONCATENATED MODULE: ./src/img/sucre/img/slide_1-co.png
+/* harmony default export */ var slide_1_co = (__webpack_require__.p + "img/slide_1-co.png");
 // CONCATENATED MODULE: ./src/img/sucre/img/slide_2-co.jpg
 /* harmony default export */ var slide_2_co = (__webpack_require__.p + "img/slide_2-co.jpg");
 // CONCATENATED MODULE: ./src/img/sucre/svg editables/1-icon-la-terminal/la_terminal_tanqueros TLU.svg
