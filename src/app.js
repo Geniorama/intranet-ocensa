@@ -1154,6 +1154,8 @@ import "./img/Cordoba/img/modal-item-morrosquillo.jpg";
 import "./img/Cordoba/svg editables/territorio_ventanas_cultura.svg";
 import "./img/Cordoba/img/cultura-cordoba.jpg";
 import "./img/Cordoba/img/comunidades_loma_piedra_1.jpg";
+import "./img/Cordoba/img/vmodal-la-granjita-slide-1.jpg";
+
 //Modales Sucre
 import "./img/sucre/img/depto-sucre.png";
 import "./img/sucre/img/terminal_covenas.jpg";
@@ -1183,6 +1185,12 @@ import './docs/documentos-santander/widget-formatos ingreso-la belleza/Ingreso d
 import './docs/documentos-santander/widget-formatos ingreso-la belleza/Permisos de trabajo V3 anexo Covid-19.pdf';
 import './docs/documentos-santander/widget-formatos ingreso-la belleza/Requerimientos mínimos para inicio de labores en campo.xlsx';
 import './docs/documentos-santander/widget-formatos ingreso-la belleza/Requisitos para ingreso de vehiculos.xlsx';
+
+
+//Imágenes ajustes
+import './img/sucre/svg editables/icon-map-sucre.svg';
+import './img/sucre/svg editables/icons-group-map-sucre.svg';
+import './img/sucre/img/cover-sucre.jpg';
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -1793,7 +1801,13 @@ function addIconMenu(iconclass, svgicon){
 if(screen.width > 991.98){
     // Sticky menu nosotros
     $(window).scroll(function() {
-        if ($(window).scrollTop() > 580) {
+        let pos_scroll = 600
+
+        if($('.oc-img-header__sistema').is(':visible')){
+            pos_scroll = 1000
+        }
+
+        if ($(window).scrollTop() > pos_scroll) {
           $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").fadeIn();//.fadeOut();
           $(".oc-index-est .oc-header__desktop .oc-submenu-gen").fadeIn();
         } else {
@@ -1895,14 +1909,21 @@ $('.oc-mapa__location-modals').click(function(e) {
 
     let target = $(this).attr('data-target')
 
+    console.log(target)
+
     $(target).css('display', 'flex').hide().fadeIn();
     $('.oc-est-modal__body').scrollTop(0)
-    disableScroll()
-    $('.oc-est-modal__body__slider').slick('refresh')
-    $('.oc-est-modal__head__right__close-button').click(function(e) {
-        $('.oc-custom-modal-map').fadeOut()
-        enableScroll()
-    })
+
+    if(target.length > 1){
+        disableScroll()
+        $('.oc-est-modal__body__slider').slick('refresh')
+        $('.oc-est-modal__head__right__close-button').click(function(e) {
+            $('.oc-custom-modal-map').fadeOut()
+            enableScroll()
+        })
+    }
+    
+    
 })
 
 

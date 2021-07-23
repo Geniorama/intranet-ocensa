@@ -10,6 +10,12 @@
             "menuName": "Estación Coveñas",
             "dataTarget": "/sucre/estacion-covenas.html",
             "menuId": "oc-suc-covenas"
+        },
+
+        {
+            "menuName": "TLU2",
+            "dataTarget": "#",
+            "menuId": "oc-suc-tlu2"
         }
     ]
 }
