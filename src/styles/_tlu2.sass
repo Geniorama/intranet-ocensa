@@ -1,0 +1,51 @@
+#main-suc-tlu2
+    #wdg-la-estacion-tlu2
+        .name-est
+            color: #505D6C !important
+            font-size: 14px !important
+        .number-large
+            font-size: 20px !important
+        .bph
+            font-size: 14px !important
+        .cap-tr
+            font-size: 9px !important
+    .oc-slick-widget__gestion-tlu2, .oc-slick-widget__operacion-tlu2
+        .oc-box-dato
+            min-height: 300px
+            img
+                width: 65px !important
+                margin: 15px auto
+            .roboto-regular
+                font-size: 14px !important
+        .oc-slick-arrow__next
+            right: -20px
+        .oc-slick-arrow__prev
+            left: -20px
+    
+    .oc-slick-widget__operacion-tlu2
+        .oc-box-dato
+            background-color: white !important
+        .slick-dots
+            li
+                border-color: $green_co !important
+                &.slick-active
+                    background-color: $green_co !important
+
+@include media-breakpoint-up(md)
+    #main-suc-tlu2
+        #wdg-section-02
+            .oc-card-widget
+                height: 100%
+        .oc-slick-widget__operacion-tlu2
+            .dato-line-right
+                border-radius: 0px !important
+                border-right: 1px solid rgba(#707070 , .3)
+
+@include media-breakpoint-down(md)
+    #main-suc-tlu2
+        .wdg-operacion
+            margin-bottom: 2em
+        .oc-slick-widget__gestion-tlu2, .oc-slick-widget__operacion-tlu2
+            .oc-box-dato
+                min-height: 250px
+    
