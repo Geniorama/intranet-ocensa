@@ -1,0 +1,38 @@
+.oc-sistema-gen
+    &__cont
+        display: flex
+        justify-content: space-around
+    &__item
+        display: flex
+        background-color: #F2F2F2 !important
+        border-radius: 20px
+        width: 32%
+        padding: 1em .5em
+    &__number
+        span
+            color: #00AF00 !important
+            font-size: 30px !important
+            font-family: 'lato-bold' !important
+            padding-left: .5em
+            display: block
+            margin-bottom: .2em
+    &__text
+        p
+            color: #505D6C !important
+        .variant
+            font-family: 'roboto-light' !important
+            margin-bottom: 0
+            font-size: 13px !important
+        .variant-02
+            margin-bottom: .5em
+@include media_breakpoint_down(sm)
+    .oc-sistema-gen
+        &__cont
+            display: block
+        &__item
+            width: 100%
+            margin-bottom: 1em
+        &__cont-img
+            width: 20%
+        &__cont-text
+            width: 80%

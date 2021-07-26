@@ -1224,6 +1224,15 @@ import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_ic
 import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_loading_master.svg';
 import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_tres_embarcaciones.svg';
 
+// Widget Sistema Generacion
+import './img/caja-widgets/widget-sistema-generacion-item-01.svg';
+import './img/caja-widgets/widget-sistema-generacion-item-02.svg';
+import './img/caja-widgets/widget-sistema-generacion-item-03.svg';
+import './img/caja-widgets/sistemas_generacion_icono_menu.svg';
+import './img/caja-widgets/widget-datos-line.svg';
+import './img/caja-widgets/datos_icono_menu.svg';
+import './img/caja-widgets/mobile-datos-line.svg';
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
