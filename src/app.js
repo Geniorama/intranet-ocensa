@@ -1192,6 +1192,16 @@ import './img/sucre/svg editables/icon-map-sucre.svg';
 import './img/sucre/svg editables/icons-group-map-sucre.svg';
 import './img/sucre/img/cover-sucre.jpg';
 
+
+// Widget Sistema Generacion
+import './img/caja-widgets/widget-sistema-generacion-item-01.svg';
+import './img/caja-widgets/widget-sistema-generacion-item-02.svg';
+import './img/caja-widgets/widget-sistema-generacion-item-03.svg';
+import './img/caja-widgets/sistemas_generacion_icono_menu.svg';
+import './img/caja-widgets/widget-datos-line.svg';
+import './img/caja-widgets/datos_icono_menu.svg';
+import './img/caja-widgets/mobile-datos-line.svg';
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
