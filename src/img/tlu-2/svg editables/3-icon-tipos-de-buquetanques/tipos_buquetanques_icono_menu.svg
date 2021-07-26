@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#98A6B0;}
+	.st2{fill:none;}
+	.st3{fill:#4C9F2E;}
+	.st4{fill:#94D040;}
+	.st5{fill:none;stroke:#00A800;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#95A6B1;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st7{fill:none;stroke:#00A800;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#95A6B1;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="BASE" class="st0">
+	<rect x="-2.23" y="-2.74" class="st1" width="51.47" height="51.47"/>
+</g>
+<g id="Capa_1">
+	<g>
+		<rect y="0" class="st2" width="47" height="47"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<polyline class="st9" points="40.38,32.58 43.43,24.73 41.24,24.73 39.17,26.26 18.65,26.26 16.23,24.24 3.11,22.56 8.38,32.58 
+									"/>
+				<path class="st9" d="M33.36,26.31V23.2c0-1.59,1.29-2.88,2.88-2.88h0c1.59,0,2.88,1.29,2.88,2.88v3.06"/>
+				<path class="st9" d="M27.61,26.26V23.2c0-1.59,1.29-2.88,2.88-2.88h0c1.59,0,2.88,1.29,2.88,2.88v3.11"/>
+				<path class="st9" d="M21.85,26.31V23.2c0-1.59,1.29-2.88,2.88-2.88h0c1.59,0,2.88,1.29,2.88,2.88v3.06"/>
+				<g>
+					<path class="st9" d="M7.12,13.17c0.24,0.53,0.26,1.12,0.09,1.63c-0.19,0.57-0.61,1.06-1.19,1.33c-1.12,0.51-2.45,0.02-2.97-1.1
+						s-0.02-2.45,1.1-2.97S6.61,12.04,7.12,13.17z"/>
+					<path class="st9" d="M9.16,12.82h1.92c0.17,0,0.31,0.17,0.31,0.37v1.34h1.89c0.36,0,0.65,0.29,0.65,0.65v1.61H12.2h-0.55H9.51"
+						/>
+					<polyline class="st9" points="16.03,23.86 16.03,16.79 9.11,16.79 					"/>
+					<line class="st9" x1="5.73" y1="18.45" x2="5.73" y2="22.08"/>
+				</g>
+				<line class="st9" x1="41" y1="29.84" x2="7.14" y2="29.84"/>
+			</g>
+			<line class="st9" x1="10.58" y1="20.32" x2="6.7" y2="20.32"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path class="st9" d="M23.55,35.14c2.57,0,2.57-2.56,5.15-2.56c2.58,0,2.58,2.56,5.15,2.56s2.58-2.56,5.15-2.56"/>
+					<path class="st9" d="M8.12,32.58c2.57,0,2.57,2.56,5.14,2.56c2.57,0,2.57-2.56,5.15-2.56c2.57,0,2.57,2.56,5.14,2.56"/>
+				</g>
+				<g>
+					<path class="st9" d="M2.97,35.14c2.58,0,2.58-2.56,5.15-2.56"/>
+				</g>
+				<g>
+					<path class="st9" d="M39,32.58c2.57,0,2.57,2.56,5.14,2.56"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

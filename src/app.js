@@ -1192,6 +1192,15 @@ import './img/sucre/svg editables/icon-map-sucre.svg';
 import './img/sucre/svg editables/icons-group-map-sucre.svg';
 import './img/sucre/img/cover-sucre.jpg';
 
+//Tlu2
+import "./img/tlu-2/svg editables/3-icon-tipos-de-buquetanques/tipos_buquetanques_icono_menu.svg";
+import "./img/tlu-2/svg editables/3-icon-tipos-de-buquetanques/tipos_buquetanques_panamax_vlcc.svg";
+import "./img/tlu-2/svg editables/3-icon-tipos-de-buquetanques/icon-linea-1.svg";
+import "./img/tlu-2/svg editables/4-icon-anclaje/anclaje_icono_menu.svg";
+import "./img/tlu-2/svg editables/4-icon-anclaje/anclaje_calado.svg";
+import "./img/tlu-2/svg editables/4-icon-anclaje/linea-corta.svg";
+import "./img/tlu-2/svg editables/4-icon-anclaje/anclaje_360.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
