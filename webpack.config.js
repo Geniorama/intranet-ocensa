@@ -288,6 +288,14 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
         }),
 
+        // TLU2
+        new HtmlWebpackPlugin({
+            filename: 'sucre/tlu2.html',
+            template: './src/sucre/tlu2.handlebars',
+            minify: false,
+            templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
+        }),
+
 
         // CSS
         new MiniCssExtractPlugin({

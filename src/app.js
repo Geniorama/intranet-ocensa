@@ -1192,6 +1192,30 @@ import './img/sucre/svg editables/icon-map-sucre.svg';
 import './img/sucre/svg editables/icons-group-map-sucre.svg';
 import './img/sucre/img/cover-sucre.jpg';
 
+// TLU2
+import './img/sucre/tlu2/links/img/slide_1_tlu2.jpg';
+import './img/sucre/tlu2/links/img/slide_2_tlu2.jpg';
+import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_icono_menu.svg';
+import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_cargue_tanqueros.svg';
+import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_puntos_transferencia.svg';
+import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_tanqueros TLU.svg';
+import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_oleoducto_submarino.svg';
+import './img/sucre/tlu2/links/img/mapa_ubicacion-tlu2.jpg';
+import './img/sucre/tlu2/links/svg editables/2-icon-ubicacion/ubicacion-dist-tlu2.svg';
+
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_circuito cerrado.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_cuarto_control.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_detectores.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_estacion__meteorologica.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_icono_menu.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_sistema_alarmas.svg';
+import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_sistema_monitoreo.svg';
+import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_equipo_buceo.svg';
+import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_equipo_conectores.svg';
+import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_icono_menu.svg';
+import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_loading_master.svg';
+import './img/sucre/tlu2/links/svg editables/8-icon-la-operacion/la_operacion_tres_embarcaciones.svg';
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
@@ -2383,6 +2407,80 @@ $('.oc-slick-almacenamiento-granjita').slick({
 // Slick Gestión Ambiental La Granjita
 $('.oc-slick-widget__gestion-granjita').slick({
     slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: false,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings:{
+                slidesToShow: 1,
+                dots: true
+            }
+        }
+    ]
+})
+
+// Slick Gestión Ambiental La TLU2
+$('.oc-slick-widget__gestion-tlu2').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: false,
+    prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_85" data-name="Componente 85" transform="translate(0.392 0.392)">
+            <g id="Grupo_13271" data-name="Grupo 13271">
+                <circle id="Elipse_2235" data-name="Elipse 2235" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="#fff" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11719" data-name="Trazado 11719" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    nextArrow: `<button class='oc-slick-arrow oc-slick-arrow__next'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
+            <g id="Componente_84" data-name="Componente 84" transform="translate(21.479 21.479) rotate(180)">
+            <g id="Grupo_13272" data-name="Grupo 13272">
+                <circle id="Elipse_2236" data-name="Elipse 2236" cx="10.543" cy="10.543" r="10.543" transform="translate(0)" fill="none" stroke="#505d6c" stroke-miterlimit="10" stroke-width="0.785"/>
+                <path id="Trazado_11720" data-name="Trazado 11720" d="M4.075,8.151,0,4.075,4.075,0" transform="translate(7.858 6.468)" fill="none" stroke="#505d6c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.355"/>
+            </g>
+            </g>
+        </svg>
+    </button>`,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings:{
+                slidesToShow: 1,
+                dots: true
+            }
+        }
+    ]
+})
+
+// Slick Operación TLU2
+$('.oc-slick-widget__operacion-tlu2').slick({
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
     infinite: false,
