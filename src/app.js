@@ -2463,6 +2463,7 @@ $('.oc-slick-widget__gestion-tlu2').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    dots: true,
     infinite: false,
     prevArrow: `<button class='oc-slick-arrow oc-slick-arrow__prev'>
         <svg xmlns="http://www.w3.org/2000/svg" width="21.871" height="21.871" viewBox="0 0 21.871 21.871">
