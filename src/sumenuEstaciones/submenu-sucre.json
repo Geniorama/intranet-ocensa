@@ -14,7 +14,7 @@
 
         {
             "menuName": "TLU2",
-            "dataTarget": "#",
+            "dataTarget": "/sucre/tlu2.html",
             "menuId": "oc-suc-tlu2"
         }
     ]
