@@ -27023,6 +27023,8 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var mapa_ubicacion_tlu2 = (__webpack_require__.p + "img/mapa_ubicacion-tlu2.jpg");
 // CONCATENATED MODULE: ./src/img/sucre/tlu2/links/svg editables/2-icon-ubicacion/ubicacion-dist-tlu2.svg
 /* harmony default export */ var ubicacion_dist_tlu2 = (__webpack_require__.p + "img/ubicacion-dist-tlu2.svg");
+// CONCATENATED MODULE: ./src/img/sucre/tlu2/links/svg editables/6-icon-datos/datos_icono_menu.svg
+/* harmony default export */ var datos_icono_menu = (__webpack_require__.p + "img/datos_icono_menu.svg");
 // CONCATENATED MODULE: ./src/img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_circuito cerrado.svg
 /* harmony default export */ var sistemas_seguridad_circuito_cerrado = (__webpack_require__.p + "img/sistemas_seguridad_circuito cerrado.svg");
 // CONCATENATED MODULE: ./src/img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_cuarto_control.svg
@@ -27058,7 +27060,7 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 // CONCATENATED MODULE: ./src/img/caja-widgets/widget-datos-line.svg
 /* harmony default export */ var widget_datos_line = (__webpack_require__.p + "img/widget-datos-line.svg");
 // CONCATENATED MODULE: ./src/img/caja-widgets/datos_icono_menu.svg
-/* harmony default export */ var datos_icono_menu = (__webpack_require__.p + "img/datos_icono_menu.svg");
+/* harmony default export */ var caja_widgets_datos_icono_menu = (__webpack_require__.p + "img/datos_icono_menu.svg");
 // CONCATENATED MODULE: ./src/img/caja-widgets/mobile-datos-line.svg
 /* harmony default export */ var mobile_datos_line = (__webpack_require__.p + "img/mobile-datos-line.svg");
 // CONCATENATED MODULE: ./src/app.js
@@ -28137,6 +28139,7 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
  // TLU2
+
 
 
 

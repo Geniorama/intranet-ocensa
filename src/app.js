@@ -1210,6 +1210,7 @@ import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_tanq
 import './img/sucre/tlu2/links/svg editables/1-icon-la-monoboya/la_monoboya_oleoducto_submarino.svg';
 import './img/sucre/tlu2/links/img/mapa_ubicacion-tlu2.jpg';
 import './img/sucre/tlu2/links/svg editables/2-icon-ubicacion/ubicacion-dist-tlu2.svg';
+import './img/sucre/tlu2/links/svg editables/6-icon-datos/datos_icono_menu.svg';
 
 import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_circuito cerrado.svg';
 import './img/sucre/tlu2/links/svg editables/7-icon-sistemas-seguridad/sistemas_seguridad_cuarto_control.svg';
