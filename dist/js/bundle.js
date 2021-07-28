@@ -27077,6 +27077,10 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var Gestion_Ambiental_licencia_ambiental_R952_ocensa = (__webpack_require__.p + "docs/licencia-ambiental-R952-ocensa.pdf");
 // CONCATENATED MODULE: ./src/docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/plan-manejo-ambiental-ocensa.pdf
 /* harmony default export */ var Gestion_Ambiental_plan_manejo_ambiental_ocensa = (__webpack_require__.p + "docs/plan-manejo-ambiental-ocensa.pdf");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-vasconia/img/almacenamiento/vasconia-almacenamiento.jpg
+/* harmony default export */ var vasconia_almacenamiento = (__webpack_require__.p + "img/vasconia-almacenamiento.jpg");
+// CONCATENATED MODULE: ./src/img/boyaca/estacion-vasconia/img/bombeo/vasconia-bombeo.jpg
+/* harmony default export */ var vasconia_bombeo = (__webpack_require__.p + "img/vasconia-bombeo.jpg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -28189,6 +28193,9 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+
+
+ //Fotos faltantes vasconia
 
 
 
