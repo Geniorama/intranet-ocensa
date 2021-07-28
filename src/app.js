@@ -1243,6 +1243,10 @@ import "./docs/documentos-casanare/Gestion Ambiental-cusiana/Gestion Ambiental/p
 import "./docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/licencia-ambiental-R952-ocensa.pdf";
 import "./docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/plan-manejo-ambiental-ocensa.pdf";
 
+//Fotos faltantes vasconia
+import "./img/boyaca/estacion-vasconia/img/almacenamiento/vasconia-almacenamiento.jpg";
+import "./img/boyaca/estacion-vasconia/img/bombeo/vasconia-bombeo.jpg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
