@@ -1234,6 +1234,15 @@ import './img/caja-widgets/widget-datos-line.svg';
 import './img/caja-widgets/datos_icono_menu.svg';
 import './img/caja-widgets/mobile-datos-line.svg';
 
+//Formatos de ingreso
+import "./docs/documentos-antioquia/Formatos-de-ingreso-caucasia/GDE-F-067 AUTORIZACIÓN PARA EL INGRESO EN HORARIO LABORAL.xlsx";
+import "./docs/documentos-antioquia/Formatos-de-ingreso-caucasia/GDE-F-076 Autorización Ingreso y Salida Elementos_EQUIPOS_OCENSA (1).xlsx";
+import "./docs/documentos-antioquia/Formatos-de-ingreso-caucasia/GDE-F-070 Permiso para el ingreso de vehículos a instalaciones de Ecopetrol.xlsx";
+import "./docs/documentos-casanare/Gestion Ambiental-cusiana/Gestion Ambiental/licencia-ambiental-R952-ocensa.pdf";
+import "./docs/documentos-casanare/Gestion Ambiental-cusiana/Gestion Ambiental/plan-manejo-ambiental-ocensa.pdf";
+import "./docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/licencia-ambiental-R952-ocensa.pdf";
+import "./docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/plan-manejo-ambiental-ocensa.pdf";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
