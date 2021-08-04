@@ -50,6 +50,12 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
+            filename: 'ayuda.html',
+            template: './src/ayuda.handlebars',
+            minify: false
+        }),
+
+        new HtmlWebpackPlugin({
             filename: 'single-noticias.html',
             template: './src/single-noticias.handlebars',
             minify: false

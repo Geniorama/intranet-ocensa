@@ -1247,6 +1247,9 @@ import "./docs/documentos-casanare/Gestion Ambiental-porvenir/Gestion Ambiental/
 import "./img/boyaca/estacion-vasconia/img/almacenamiento/vasconia-almacenamiento.jpg";
 import "./img/boyaca/estacion-vasconia/img/bombeo/vasconia-bombeo.jpg";
 
+//Ayuda
+import "./img/ayuda/imag-ayuda.jpg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
