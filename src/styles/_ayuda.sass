@@ -43,3 +43,40 @@
             &-link, &-info
                 font-family: 'roboto-bold', sans-serif !important
                 color: #505D6C !important
+
+.oc-videos-ayuda
+    padding-top: 5em
+    padding-bottom: 3em
+    &__title
+        display: flex
+        align-items: center
+        img
+            width: 45px
+            margin-right: .4em
+        h3
+            color: #042B67 !important
+            font-size: 25px
+            font-family: 'roboto-regular' !important
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                bottom: -5px
+                width: 43px
+                height: 3px
+                left: 0
+                background-color: #19A500 !important
+    &__cont
+        margin-top: 3em
+    &__item
+        margin-bottom: 2em
+    &__name-video
+        font-family: 'roboto-regular' !important
+        margin-top: .5em
+        font-size: 18px
+
+@include media-breakpoint-down(sm)
+    .oc-videos-ayuda
+        &__item
+            iframe
+                height: 200px

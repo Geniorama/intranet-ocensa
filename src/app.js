@@ -1253,6 +1253,7 @@ import "./img/ayuda/icon-celular.svg";
 import "./img/ayuda/icon-correo.svg";
 import "./img/ayuda/icon-telefono.svg";
 import "./img/ayuda/icon-ws.svg";
+import "./img/ayuda/icon-tutorial.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
