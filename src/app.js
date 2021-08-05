@@ -1249,6 +1249,10 @@ import "./img/boyaca/estacion-vasconia/img/bombeo/vasconia-bombeo.jpg";
 
 //Ayuda
 import "./img/ayuda/imag-ayuda.jpg";
+import "./img/ayuda/icon-celular.svg";
+import "./img/ayuda/icon-correo.svg";
+import "./img/ayuda/icon-telefono.svg";
+import "./img/ayuda/icon-ws.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
