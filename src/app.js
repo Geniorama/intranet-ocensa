@@ -1254,6 +1254,7 @@ import "./img/ayuda/icon-correo.svg";
 import "./img/ayuda/icon-telefono.svg";
 import "./img/ayuda/icon-ws.svg";
 import "./img/ayuda/icon-tutorial.svg";
+import "./img/ayuda/logo_footer_linkedin.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
