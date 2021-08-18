@@ -68,8 +68,7 @@
                     top: calc( 50% - 4.5px )
                     border-radius: 50%
             &__item-number
-                position: absolute
-                background-color: #F2F2F2 !important
+                margin: 5px
                 span
                     color: #979FA8 !important
                     display: block
@@ -78,16 +77,15 @@
                     line-height: 1em
                 &__text
                     font-size: 10px !important
-                &:nth-child(4)
-                    right: 85px
-                &:nth-child(3)
-                    left: 230px
-                &:nth-child(2)
-                    left: 32px
             &__sect-1
-                width: 82%
+                width: 100%
                 &__data
-                    width: 90%
+                    width: 100%
+                    padding: 0 30px
+                    &__dist-text
+                        position: absolute
+                        left: 0
+                        bottom: 17px
             &__sect-2
                 width: 18%
                 .oc-box-dato
@@ -128,6 +126,34 @@
                 top: -30px
         .oc-porvenir__personal::before
             background-color: white !important
+    .oc-dist-linea-corchete
+        display: block
+        width: 200px
+        border-bottom: 1px solid #707070
+        margin-bottom: 5px
+        margin-top: 10px
+        position: relative
+        &__texto
+            margin: -12px 0
+            color: #505D6C !important
+            font-family: 'roboto-bold', sans-serif !important
+            font-size: 15px
+        &::after
+            content: ''
+            position: absolute
+            left: 0
+            bottom: 0
+            height: 8px
+            width: 1px
+            background-color: #707070
+        &::before
+            content: ''
+            position: absolute
+            right: 0
+            bottom: 0
+            height: 8px
+            width: 1px
+            background-color: #707070
     
 @include media_breakpoint_down(sm)
     #main-boy-soraca
@@ -136,17 +162,21 @@
                 width: 150px
         .wdg-distancia__mobile
             position: relative
-            .oc-box-dato
+            .item-01 .oc-box-dato
                 position: relative
+                background-color: white !important
                 p
                     font-size: 15px !important
                     color: #505D6C !important
+                .col-7
+                    background-color: #F2F2F2
+                    padding: 10px 0
             .div-linea-mobile
                 width: 1px
-                height: 67%
+                height: 75%
                 position: absolute
                 border-right: 1px dashed #505D6C !important
-                left: 40px
+                left: 30px
                 top: 110px
                 display: inline-block
                 z-index: 1
@@ -158,6 +188,6 @@
                 border-radius: 50%
                 position: absolute
                 top: calc( 50% - 5px )
-                left: 19px
+                left: 10px
                 background-color: white !important
                 z-index: 2
