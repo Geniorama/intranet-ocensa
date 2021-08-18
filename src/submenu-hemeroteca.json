@@ -1,0 +1,21 @@
+{
+    "submenuData" : [
+        {
+            "menuName": "Boletín RED",
+            "dataTarget": "#",
+            "menuId": "oc-hemeroteca"
+        },
+
+        {
+            "menuName": "ONDA",
+            "dataTarget": "#",
+            "menuId": "oc-onda"
+        },
+
+        {
+            "menuName": "A mano alzada",
+            "dataTarget": "#",
+            "menuId": "oc-mano-alzada"
+        }
+    ]
+}

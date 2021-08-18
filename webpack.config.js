@@ -58,7 +58,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'hemeroteca.html',
             template: './src/hemeroteca.handlebars',
-            minify: false
+            minify: false,
+            templateParameters: require('./src/submenu-hemeroteca.json')
         }),
 
         new HtmlWebpackPlugin({

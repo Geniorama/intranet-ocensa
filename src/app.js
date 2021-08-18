@@ -1259,6 +1259,7 @@ import "./img/ayuda/logo_footer_linkedin.svg";
 //Hemeroteca
 import "./img/hemeroteca/fondo-header-h.jpg";
 import "./img/hemeroteca/icon_hemeroteca.svg";
+import "./img/hemeroteca/img-portada-boletin.png";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
@@ -1878,9 +1879,11 @@ if(screen.width > 991.98){
         if ($(window).scrollTop() > pos_scroll) {
           $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").fadeIn();//.fadeOut();
           $(".oc-index-est .oc-header__desktop .oc-submenu-gen").fadeIn();
+          $(".oc-hemeroteca .oc-header__desktop .oc-submenu-gen").fadeIn();
         } else {
             $(".oc-nosotros .oc-header__desktop .oc-submenu-gen").hide();//.fadeIn();
             $(".oc-index-est .oc-header__desktop .oc-submenu-gen").hide();
+            $(".oc-hemeroteca .oc-header__desktop .oc-submenu-gen").hide();
         }
     });
 

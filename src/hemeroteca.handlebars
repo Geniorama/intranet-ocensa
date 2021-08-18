@@ -1,6 +1,6 @@
 {{!-- Ancla --}}
 <div id="top"></div>
-{{>partials/header classPage="oc-ayuda" title="Hemeroteca"}}
+{{>partials/header classPage="oc-hemeroteca"}}
 
 <div class="d-none d-md-block oc-menu-lateral">
     {{>partials/menu-lateral}}
@@ -9,20 +9,26 @@
 {{>partials/menu-principal}}
 
 <main class="oc-content py-0 py-md-5" id="oc-hemeroteca">
-    <section class="oc-razon oc-panels__item" id="nuestra-razon-de-ser">
-        <div class="oc-razon__subheader" id="subheader-ayuda">
-            {{>partials/header-hemeroteca title="Hemeroteca" img="/img/fondo-header-h.jpg" icon="/img/icon_hemeroteca.svg"}}
+    <section class="pb-md-5 py-0" id="oc-header-hemeroteca">
+        <div class="oc-razon__subheader">
+            {{>partials/header-hemeroteca title="Hemeroteca" img="/img/fondo-header-h.jpg"
+            icon="/img/icon_hemeroteca.svg"}}
         </div>
     </section>
     <section class="text-hemero-left">
-        <div class="row">
-            <div class="col-12 col-md-7">
-                <a href="#" class="button-boletin"> Boletin 01 →</a>
-                <h2 class="title-boletin">Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam nonumy</h2>
-                <p class="text-boletin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero<br> eos et accusam et justo duo dolores et ea rebum. Stet clita kasd consetetur.</p>
-                <a href="#" class="view-boletin">Leer más<span class="arrow-html"> →</span></a>
-                <p class="title-contenidos">Contenidos</p>
-                <ul class="oc-est-modal__body__desc__list" style="font-family: 'helvetica-light', sans-serif !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <a href="#" class="button-boletin"> Boletin 01 →</a>
+                    <h2 class="title-boletin">Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam
+                        nonumy</h2>
+                    <p class="text-boletin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod<br> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero<br> eos et accusam et justo duo dolores et ea rebum. Stet clita kasd consetetur.</p>
+                    <a href="#" class="view-boletin">Leer más<span class="arrow-html"> →</span></a>
+                    <p class="title-contenidos">Contenidos</p>
+                    <ul class="oc-est-modal__body__desc__list"
+                        style="font-family: 'helvetica-light', sans-serif !important;">
                         <li><a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing</a></li>
                         <li><a href="#">Consetetur sadipscing elitr, sed diam nonumy</a></li>
                         <li><a href="#">Lorem ipsum dolor sit amet, consetetur</a></li>
@@ -31,9 +37,79 @@
                         <li><a href="#">Lorem ipsum dolor sit amet, consetetur sadipscing</a></li>
                         <li><a href="#">Consetetur sadipscing elitr, sed diam nonumy</a></li>
                     </ul>
+                </div>
+                <div class="col-12 col-md-5">
+                    <a href="#" class="oc-boletin">
+                        <img src="/img/img-portada-boletin.png" alt="" class="oc-boletin__img">
+                    </a>
+                </div>
             </div>
-            <div class="col-12 col-md-5">
+            <div class="oc-boletin__other">
+                <div class="row">
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-12 col-md-3">
+                        {{>partials/item-boletin img="/img/img-portada-boletin.png" edicion="Edición 10" date="10 / 03 /
+                        2021"}}
+                    </div>
+                </div>
             </div>
+
+            <nav aria-label="Page navigation example" class="mt-5 mb-5">
+                <ul class="pagination justify-content-center align-items-center">
+                    <li class="page-item"><a class="page-link number-page active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link number-page" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link number-page" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link d-flex align-items-center justify-content-center" href="#">
+                            <span class="next-notice d-none d-md-block">Boletines anteriores</span>
+                            <span class="html-arrow right-arrow"> →</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </section>
 </main>

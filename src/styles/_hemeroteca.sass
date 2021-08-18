@@ -1,44 +1,99 @@
+.oc-hemeroteca
+    .oc-submenu-gen
+        display: none
 #oc-hemeroteca
+    .oc-submenu-gen
+        display: block
+    .oc-img-header
+        height: 40vh
     .icon-hemeroteca
         width: 50px
         height: 50px
     .text-hemero-left
         padding-top: 100px
-        padding-left: 40px
         .button-boletin
             padding: .3em 1.5em
-            background-color: #19A500
+            background-color: #19A500 !important
             color: white
             text-decoration: none
             border-radius: 30px
-            font-family: 'roboto-regular', sans-serif
-            font-size: 25px
+            font-family: 'roboto-regular', sans-serif !important
+            font-size: 25px !important
         .title-boletin
-            font-family: 'cabin-regular', sans-serif
-            font-size: 30px
+            font-family: 'cabin-regular', sans-serif !important
+            font-size: 30px !important
             padding-top: 30px
         .text-boletin
-            font-family: 'roboto-light', sans-serif
-            font-size: 14px
+            font-family: 'roboto-light', sans-serif !important
+            font-size: 14px !important
             padding-top: 20px
-            color: #505D6C
+            color: #505D6C !important
         .view-boletin
-            font-family: 'roboto-regular', sans-serif
+            font-family: 'roboto-regular', sans-serif !important
             font-size: 15px
-            color: #012969
+            color: #012969 !important
             text-decoration: none
             transition: all .4s
             .arrow-html
-                color: #19A500
+                color: #19A500 !important
             &:hover
-                color: #19A500
+                color: #19A500 !important
         .title-contenidos
-            font-family: 'cabin-regular', sans-serif
-            font-size: 20px
-            color: #042B67
+            font-family: 'cabin-regular', sans-serif !important
+            font-size: 20px !important
+            color: #042B67 !important
             padding-top: 30px
         .oc-est-modal__body__desc__list
             li
+                margin-bottom: .7em
                 a
                     text-decoration: underline
-                    color: #505D6C
+                    color: #505D6C !important
+    .oc-img-header__title-s
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            bottom: -10px
+            left: 0
+            height: 5px
+            width: 84px
+            background: #19A500
+    .oc-boletin
+        &__img
+            width: 100%
+            height: auto
+            transition: all .5s
+            transform: translateY(0px)
+        &:hover img
+            transform: translateY(-7px)
+        &__other
+            margin-top: 5em
+        &__item
+            padding: 0 .2em 4em .2em
+            display: block
+            &:hover
+                text-decoration: none
+            &:hover img
+                transform: translateY(-7px)
+        &__item-img
+            width: 100%
+            height: auto
+            transition: $tr
+            transform: translateY(0px)
+        &__footer
+            margin-top: 1em
+            display: flex
+            justify-content: space-between
+        &__edicion
+            font-size: 18px !important
+            color: #000 !important
+            font-family: 'roboto-regular' !important
+        &__date
+            font-size: 15px !important
+            color: #042B67 !important
+            font-family: 'roboto-regular' !important
+    .pagination
+        .active
+            border-radius: 50%
+
