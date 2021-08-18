@@ -1,0 +1,26 @@
+<div class="oc-img-header__sistema">
+    {{>perfil-recorrido-casanare}}
+</div>
+<div class="oc-img-header">
+    <div class="oc-img-header__cont-button text-center">
+        <button class="oc-img-header__button-sistema oc-bg-green">
+            <span class="oc-img-header__button-sistema__text">Ver Sistema Ocensa</span>
+            <span class="oc-img-header__button-sistema__arrow">
+                <img src="/img/sistema-arrow-down.svg" alt="">
+            </span>
+        </button>
+    </div>
+    {{#if video}}
+    <video class="oc-img-header__video d-none d-lg-block" src="{{video}}" autoplay muted loop></video>
+    {{/if}}
+    <img src="{{img}}" alt="" class="oc-img-header__img d-lg-none">
+    <div class="oc-img-header__caption">
+        <img src="{{icon}}" alt="" class="icon-hemeroteca">
+        <h1 class="oc-img-header__title-p">Nosotros</h1>
+        <h2 class="oc-img-header__title-s">{{title}}</h2>
+    </div>
+</div>
+
+<div class="oc-nosotros-submenu">
+    {{>submenu itemsSubmenu="{{itemsSumenu}}"}}
+</div>

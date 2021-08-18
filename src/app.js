@@ -1256,6 +1256,10 @@ import "./img/ayuda/icon-ws.svg";
 import "./img/ayuda/icon-tutorial.svg";
 import "./img/ayuda/logo_footer_linkedin.svg";
 
+//Hemeroteca
+import "./img/hemeroteca/fondo-header-h.jpg";
+import "./img/hemeroteca/icon_hemeroteca.svg";
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
