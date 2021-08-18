@@ -56,6 +56,12 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
+            filename: 'hemeroteca.html',
+            template: './src/hemeroteca.handlebars',
+            minify: false
+        }),
+
+        new HtmlWebpackPlugin({
             filename: 'single-noticias.html',
             template: './src/single-noticias.handlebars',
             minify: false
