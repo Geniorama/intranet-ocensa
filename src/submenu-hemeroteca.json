@@ -2,8 +2,8 @@
     "submenuData" : [
         {
             "menuName": "Boletín RED",
-            "dataTarget": "#",
-            "menuId": "oc-hemeroteca"
+            "dataTarget": "/hemeroteca.html",
+            "menuId": "oc-index-hemeroteca"
         },
 
         {

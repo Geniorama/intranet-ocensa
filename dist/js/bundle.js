@@ -25021,9 +25021,10 @@ jquery_default()('.oc-img-header__button-sistema').click(function (e) {
 
 var SubMenu_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
 var est_page = document.querySelector('.oc-estaciones');
+var hem_page = document.querySelector('.oc-hemeroteca');
 
-function activeItemsEst() {
-  var targetEst = jquery_default()('.oc-estaciones');
+function activeItemsEst(pageCl) {
+  var targetEst = jquery_default()(pageCl);
   jquery_default()('.oc-tabs__item').each(function (index) {
     var idNav = jquery_default()(this).attr('id');
 
@@ -25033,7 +25034,11 @@ function activeItemsEst() {
   });
 }
 
-if (est_page == null) {
+if (est_page) {
+  activeItemsEst('.oc-estaciones');
+} else if (hem_page) {
+  activeItemsEst('.oc-hemeroteca');
+} else {
   jquery_default()('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
   jquery_default()('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
   jquery_default()('.oc-index-casanare .oc-nosotros-submenu .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active');
@@ -25059,8 +25064,6 @@ if (est_page == null) {
       jquery_default()(this).addClass('active');
     });
   });
-} else {
-  activeItemsEst();
 }
 // CONCATENATED MODULE: ./src/modules/WidgetProyectos.js
 

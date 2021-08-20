@@ -5,9 +5,10 @@ var scroll = new SmoothScroll('a[href*="#"]');
 
 
 const est_page = document.querySelector('.oc-estaciones')
+const hem_page = document.querySelector('.oc-hemeroteca')
 
-function activeItemsEst(){
-    let targetEst = $('.oc-estaciones')
+function activeItemsEst(pageCl){
+    let targetEst = $(pageCl)
 
     $('.oc-tabs__item').each(function( index ) {
         let idNav = $(this).attr('id')
@@ -17,7 +18,11 @@ function activeItemsEst(){
     });
 }
 
-if(est_page == null){
+if(est_page){
+    activeItemsEst('.oc-estaciones')
+} else if(hem_page) {
+    activeItemsEst('.oc-hemeroteca')
+} else {
     $('.oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
 
     $('#oc-nosotros .oc-submenu-gen__cont-nav .nav .nav-link').first().addClass('active')
@@ -56,8 +61,7 @@ if(est_page == null){
     
         })
     });
-} else {
-    activeItemsEst()
+    
 }
 
 
