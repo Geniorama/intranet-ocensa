@@ -27101,6 +27101,10 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var icon_hemeroteca = (__webpack_require__.p + "img/icon_hemeroteca.svg");
 // CONCATENATED MODULE: ./src/img/hemeroteca/img-portada-boletin.png
 /* harmony default export */ var img_portada_boletin = (__webpack_require__.p + "img/img-portada-boletin.png");
+// CONCATENATED MODULE: ./src/img/widget-boletin/icon_hemeroteca.svg
+/* harmony default export */ var widget_boletin_icon_hemeroteca = (__webpack_require__.p + "img/icon_hemeroteca.svg");
+// CONCATENATED MODULE: ./src/img/widget-boletin/img-portada-boletin-01.png
+/* harmony default export */ var img_portada_boletin_01 = (__webpack_require__.p + "img/img-portada-boletin-01.png");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -28230,6 +28234,9 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
 
 
 
+ //Widget Boletin
+
+
 
 var app_scroll = new smooth_scroll_polyfills_min_default.a('a[href*="#"]');
 
@@ -28247,6 +28254,15 @@ if (screen.width > 575.98) {
   });
 }
 
+jquery_default()('.oc-slick-widget__boletin').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: true,
+  infinite: false,
+  prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_85\" data-name=\"Componente 85\" transform=\"translate(0.392 0.392)\">\n            <g id=\"Grupo_13271\" data-name=\"Grupo 13271\">\n                <circle id=\"Elipse_2235\" data-name=\"Elipse 2235\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"#fff\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11719\" data-name=\"Trazado 11719\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>",
+  nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21.871\" height=\"21.871\" viewBox=\"0 0 21.871 21.871\">\n            <g id=\"Componente_84\" data-name=\"Componente 84\" transform=\"translate(21.479 21.479) rotate(180)\">\n            <g id=\"Grupo_13272\" data-name=\"Grupo 13272\">\n                <circle id=\"Elipse_2236\" data-name=\"Elipse 2236\" cx=\"10.543\" cy=\"10.543\" r=\"10.543\" transform=\"translate(0)\" fill=\"none\" stroke=\"#505d6c\" stroke-miterlimit=\"10\" stroke-width=\"0.785\"/>\n                <path id=\"Trazado_11720\" data-name=\"Trazado 11720\" d=\"M4.075,8.151,0,4.075,4.075,0\" transform=\"translate(7.858 6.468)\" fill=\"none\" stroke=\"#505d6c\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n            </g>\n            </g>\n        </svg>\n    </button>"
+});
 jquery_default()('.oc-slick-example').slick({
   prevArrow: "<button class='oc-slick-arrow oc-slick-arrow__prev'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_283\" data-name=\"Trazado 283\" d=\"M183.786,483.837l-4.075-4.075,4.075-4.075\" transform=\"translate(-178.533 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
   nextArrow: "<button class='oc-slick-arrow oc-slick-arrow__next'>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"6.918\" height=\"11.481\" viewBox=\"0 0 6.918 11.481\">\n            <path id=\"Trazado_273\" data-name=\"Trazado 273\" d=\"M821.129,475.686l4.075,4.075-4.075,4.075\" transform=\"translate(-819.464 -474.021)\" fill=\"none\" stroke=\"#19a500\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.355\"/>\n        </svg>\n    </button>",
