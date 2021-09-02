@@ -35,9 +35,19 @@
         .oc-header
             .oc-submenu-gen
                 display: none
+
+// Tablet Header Estaciones
+@include media-breakpoint-down(md)
+    .oc-img-header-estaciones
+        height: auto
+        .oc-img-header__img
+            min-height: 430px   
 @include media-breakpoint-down(sm)
     .oc-img-header-estaciones
+        height: 80vh
         &__caption
             left: 2em !important
         &__title-p
             font-size: 55px !important
+    .oc-img-header__img
+            min-height: auto !important

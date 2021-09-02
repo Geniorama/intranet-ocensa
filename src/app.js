@@ -1448,7 +1448,7 @@ $('.oc-slick-galeria-territorio').slick({
     arrows: true,
     responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             arrows: false,
             dots: true,
@@ -1634,15 +1634,15 @@ $('.oc-slick-estamos').slick({
     arrows: false,
     responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             arrows: false,
             dots: true,
-            slidesToShow: 1
+            slidesToShow: 2
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 577,
           settings: {
             arrows: false,
             dots: true,
