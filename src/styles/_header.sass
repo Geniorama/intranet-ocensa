@@ -118,13 +118,16 @@
         background-color: #BEBEBE !important
 
 .oc-general-index
-    .oc-header__cont
-        padding: 0 !important
     .oc-header__widgets-info
         cursor: pointer
         display: block
         img, span
             visibility: visible
+@include media-breakpoint-up(lg)
+    .oc-general-index
+        .oc-header__cont
+            padding: 0 !important
+
 @include media-breakpoint-up(md)
     .oc-header__logo
         transform: translateX(20px)
