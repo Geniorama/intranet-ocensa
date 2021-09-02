@@ -2190,7 +2190,7 @@ $('.oc-slick-almacenamiento-2').slick({
     arrows: true,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {
               dots: true,
               slidesToShow: 1

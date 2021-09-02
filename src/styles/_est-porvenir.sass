@@ -203,7 +203,7 @@
                 object-fit: cover
                 margin-right: .6em
 .wdg-personal-porvenir
-    height: 100% !important
+    height: 100%
 
 .wdg-clima-porvenir
     height: 305px !important
@@ -248,10 +248,11 @@
         .bombeo-porv
             .oc-box-dato
                 height: 253px
-
-@include media-breakpoint-down(sm)
+@include media-breakpoint-down(md)
     .wdg-personal-porvenir
         height: auto !important
+
+@include media-breakpoint-down(sm)
     .oc-cas-porvenir
         .wdg-banner__info__km
             max-width: 200px
