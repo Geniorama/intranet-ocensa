@@ -97,7 +97,14 @@
 
 #main-boyaca
     background-color: white
-@include media_breakpoint_down(sm)
+
+@include media-breakpoint-only(md)
+    .oc-index-boyaca
+        .oc-tramo
+            &::before
+                top: 34px
+
+@include media-breakpoint-down(sm)
     .oc-index-boyaca
         .oc-mapa__stat
             &-header
