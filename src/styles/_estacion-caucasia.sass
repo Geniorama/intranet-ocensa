@@ -117,9 +117,6 @@
     #bombeo-caucasia
         .bom-cau
             padding: 2em !important
-
-    #dist-aerea-cau .number-minutes
-        margin-left: 65px !important
     
     #dist-aerea-cau
         .cus-res-1
@@ -155,3 +152,7 @@
     .oc-ant-cau
         #wdg-personal, #wdg-demografico, #cus-wdg-ubicacion, #wdg-distancia
             margin-top: 2em
+
+@include media-breakpoint-down(sm)
+    #dist-aerea-cau .number-minutes
+        margin-left: 65px !important
