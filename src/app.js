@@ -2298,7 +2298,15 @@ $('.oc-slick-almacenamiento-miraflores').slick({
     arrows: true,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 769,
+            settings: {
+              dots: true,
+              slidesToShow: 2
+            }
+        },
+
+        {
+            breakpoint: 579,
             settings: {
               dots: true,
               slidesToShow: 1

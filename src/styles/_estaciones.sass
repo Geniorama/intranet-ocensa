@@ -518,9 +518,11 @@
     img
         margin: auto
 
-@include media_breakpoint_down(md)
-    .oc-card-widget
-        height: auto !important
+@include media-breakpoint-only(md)
+    .oc-estaciones .oc-slick-widget__slider .item img
+        height: 100%
+        object-fit: cover
+@include media-breakpoint-down(md)
     .wdg-distancia
         margin-bottom: 2em
     .wdg-distancia-divider
