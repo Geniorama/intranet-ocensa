@@ -32,6 +32,8 @@
                 &.slick-active
                     background-color: $green_co !important
 
+
+
 @include media-breakpoint-up(md)
     #main-suc-tlu2
         #wdg-section-02, #wdg-section-04, #wdg-section-05
@@ -41,6 +43,10 @@
             .dato-line-right
                 border-radius: 0px !important
                 border-right: 1px solid rgba(#707070 , .3)
+    
+@include media-breakpoint-only(md)
+    .woc-card-widget, #wdg-sistema-gen, #wdg-la-estacion-tlu2, #wdg-section-03 .oc-widget-template
+        height: auto !important
 
 @include media-breakpoint-down(md)
     #main-suc-tlu2
