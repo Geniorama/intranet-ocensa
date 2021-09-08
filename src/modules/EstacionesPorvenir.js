@@ -52,7 +52,7 @@ $('.oc-slick-widget__gestion').slick({
     </button>`,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 769,
             settings:{
                 slidesToShow: 1,
                 dots: true
