@@ -1267,6 +1267,8 @@ import "./img/widget-boletin/img-portada-boletin-01.png";
 
 // Boletín
 import "./img/boletin/icon-boletin-green.svg";
+import "./img/boletin/img-operation-boletin.png";
+
 //Pagina Boletin
 import "./img/boletin/desktop_otra_seccion_1.jpg";
 
