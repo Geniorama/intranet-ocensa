@@ -309,6 +309,15 @@ module.exports = {
             templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
         }),
 
+        // BOLETÍN RED
+        new HtmlWebpackPlugin({
+            filename: 'boletin-red.html',
+            template: './src/boletin-red.handlebars',
+            minify: false,
+            // templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
+        }),
+
+
 
         // CSS
         new MiniCssExtractPlugin({

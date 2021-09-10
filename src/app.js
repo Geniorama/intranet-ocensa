@@ -1265,6 +1265,9 @@ import "./img/hemeroteca/img-portada-boletin.png";
 import "./img/widget-boletin/icon_hemeroteca.svg";
 import "./img/widget-boletin/img-portada-boletin-01.png";
 
+// Boletin red
+import "./img/boletin/img/desktop_opinion_2.jpg";
+import "./img/boletin/icons/boletin-play-video.svg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
