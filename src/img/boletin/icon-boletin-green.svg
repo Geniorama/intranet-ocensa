@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Grupo_19321" data-name="Grupo 19321" transform="translate(-231 -860)">
+    <circle id="Elipse_2641" data-name="Elipse 2641" cx="26" cy="26" r="26" transform="translate(231 860)" fill="#00c48f"/>
+    <g id="Grupo_18506" data-name="Grupo 18506" transform="translate(-269 -67)">
+      <g id="Grupo_18505" data-name="Grupo 18505" transform="translate(511 937)">
+        <g id="Elipse_2599" data-name="Elipse 2599" transform="translate(0 0)">
+          <circle id="Elipse_2644" data-name="Elipse 2644" cx="4.002" cy="4.002" r="4.002" fill="none"/>
+          <circle id="Elipse_2645" data-name="Elipse 2645" cx="3.202" cy="3.202" r="3.202" transform="translate(0.8 0.8)" fill="none" stroke="#fff" stroke-width="1.643" opacity="0.55"/>
+        </g>
+        <g id="Grupo_18503" data-name="Grupo 18503" transform="translate(2.658 1.925)">
+          <path id="Trazado_18032" data-name="Trazado 18032" d="M9.178,13.97V30.285a5.106,5.106,0,0,0,5.107,5.107H22.4l9.793-.021V5.885H16.406" transform="translate(-9.178 -5.885)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.417"/>
+        </g>
+        <path id="Trazado_18033" data-name="Trazado 18033" d="M15.574,22.911" transform="translate(-7.399 -6.299)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.819"/>
+        <g id="Grupo_18504" data-name="Grupo 18504" transform="translate(6.699 6.909)">
+          <path id="Trazado_18034" data-name="Trazado 18034" d="M13.863,24.525l4.331-7.248,5.58,5.286,4.155-10.4" transform="translate(-13.863 -11.732)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+          <path id="Trazado_18035" data-name="Trazado 18035" d="M26.405,13.287l3.524-1.624.954,3.719" transform="translate(-15.586 -11.663)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+        </g>
+        <line id="Línea_2334" data-name="Línea 2334" x2="13.913" transform="translate(7.391 23.161)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.351"/>
+        <line id="Línea_2335" data-name="Línea 2335" x2="13.913" transform="translate(7.391 27.488)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.351"/>
+      </g>
+    </g>
+  </g>
+</svg>
