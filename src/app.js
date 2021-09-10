@@ -1265,6 +1265,9 @@ import "./img/hemeroteca/img-portada-boletin.png";
 import "./img/widget-boletin/icon_hemeroteca.svg";
 import "./img/widget-boletin/img-portada-boletin-01.png";
 
+// Boletín
+import "./img/boletin/icon-boletin-green.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
