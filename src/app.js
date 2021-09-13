@@ -1268,6 +1268,7 @@ import "./img/widget-boletin/img-portada-boletin-01.png";
 // Boletin red
 import "./img/boletin/img/desktop_opinion_2.jpg";
 import "./img/boletin/icons/boletin-play-video.svg";
+import "./img/boletin/img/portada-boletin-1.jpg";
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
