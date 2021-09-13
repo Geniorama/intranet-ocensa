@@ -1,31 +1,30 @@
 .oc-card-notice__boletin
+    margin-bottom: 2rem
     .separator-title
-        width: 5%
+        width: 40px
         height: 1px
         margin: 2px 0
+        margin-bottom: 20px !important
     .etiqueta-tema
-        font-family: 'roboto-medium', sans-serif
+        font-family: 'roboto-medium', sans-serif !important
         font-size: 13px
         padding: .1em 1.5em .1em .1em
         color: white
     .title-bol
-        font-family: 'cabin-regular', sans-serif
+        font-family: 'cabin-regular', sans-serif !important
         font-size: 22px
-    .separator-title
-        width: 5%
-        height: 1px
-        margin: 2px 0   
+        margin-bottom: 0px !important
+    .link-title-bol
+        text-decoration: none
+        color: black !important
     .text-boletin
-        font-family: 'roboto-light', sans-serif
-        font-size: 16px
+        font-family: 'roboto-light', sans-serif !important
+        font-size: 16px !important
+        color: #505D6C !important
     .img-notice
         object-fit: cover
-    .img-notice-large
         width: 100%
-        height: 320px
-    .img-notice-small
-        width: 100%
-        height: 230px
+        height: auto
     &.notice-green
         .etiqueta-tema
             background-color: #00AF00
@@ -51,4 +50,7 @@
             background-color: #FAAD00
         .separator-title
             background-color: #FAAD00
-        
+    &.type-video
+        .oc-boletin-card__author__caption
+            display: flex
+            cursor: pointer
