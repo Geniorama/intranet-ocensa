@@ -27132,6 +27132,16 @@ jquery_default()('.oc-perfil-ocensa #wdg-grupos-trabajo #publicaciones-inc-02').
 /* harmony default export */ var desktop_video_1 = (__webpack_require__.p + "img/desktop_video_1.jpg");
 // CONCATENATED MODULE: ./src/img/boletin/icons/icon-section-video.svg
 /* harmony default export */ var icon_section_video = (__webpack_require__.p + "img/icon-section-video.svg");
+// CONCATENATED MODULE: ./src/img/boletin/img/mobile_opinion_2.jpg
+/* harmony default export */ var mobile_opinion_2 = (__webpack_require__.p + "img/mobile_opinion_2.jpg");
+// CONCATENATED MODULE: ./src/img/boletin/img/mobile_opinion_1.jpg
+/* harmony default export */ var mobile_opinion_1 = (__webpack_require__.p + "img/mobile_opinion_1.jpg");
+// CONCATENATED MODULE: ./src/img/boletin/img/mobile_video_1.jpg
+/* harmony default export */ var mobile_video_1 = (__webpack_require__.p + "img/mobile_video_1.jpg");
+// CONCATENATED MODULE: ./src/img/boletin/img/mobile_otra_seccion_1.jpg
+/* harmony default export */ var mobile_otra_seccion_1 = (__webpack_require__.p + "img/mobile_otra_seccion_1.jpg");
+// CONCATENATED MODULE: ./src/img/boletin/img/portada-boletin-mobile.jpg
+/* harmony default export */ var portada_boletin_mobile = (__webpack_require__.p + "img/portada-boletin-mobile.jpg");
 // CONCATENATED MODULE: ./src/app.js
 function app_createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = app_unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
@@ -28274,6 +28284,12 @@ function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) l
  //Pagina Boletin
 
 
+
+
+
+
+
+ // Boletin mobile
 
 
 

@@ -1,6 +1,10 @@
 <div class="oc-boletin-card__author {{#if video}} type-video {{/if}} mb-4">
     <a href="#" class="oc-boletin-card__author__box-image" {{#if video}}data-toggle="modal" data-target="#exampleModal"{{/if}}>
-        <img src="/img/desktop_opinion_2.jpg" class="oc-boletin-card__author__image" alt="">
+        <img src="{{image}}" class="oc-boletin-card__author__image {{#if responsive}} d-none d-lg-block {{/if}}" alt="">
+        {{!-- Image mobile --}}
+        {{#if responsive}}
+            <img src="{{image_mobile}}" class="oc-boletin-card__author__image d-lg-none" alt="">
+        {{/if}}
         {{#if video}}
         <div class="oc-boletin-card__author__caption">
             <img src="/img/boletin-play-video.svg" alt="">
