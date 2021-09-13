@@ -1,0 +1,35 @@
+.oc-element-title
+    display: flex
+    align-items: center
+    margin-bottom: 30px
+    &__icon
+        margin-right: 1em
+        img
+            width: 50px
+    &__text
+        width: 100%
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            width: 100%
+            height: 1px
+            bottom: -11px
+            left: 0
+            background-color: #96A6B0
+        h3
+            font-size: 27px !important
+            font-family: 'roboto-regular' !important
+            margin: 0
+    &__turqueise
+        h3
+            color: #00C48F
+    &__blue
+        h3
+            color: #184BF7
+    &__blue-light
+        h3
+            color: #37ABF4
+    &__yellow
+        h3
+            color: #FAAD00

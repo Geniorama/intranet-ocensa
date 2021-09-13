@@ -9,6 +9,14 @@
 {{>partials/menu-principal}}
 
 <main class="oc-content py-0 py-md-5" id="boletin-red">
+    {{!-- Modal video --}}
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <iframe src="https://player.vimeo.com/video/76979871?embedparameter=value" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
     <div class="oc-img-header__sistema">
         {{>partials/perfil-recorrido-casanare}}
     </div>
@@ -25,13 +33,13 @@
 
     <div class="container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-12 col-md-6">
+            <div class="col-6">
                 <a href="hemeroteca.html" class="oc-btn oc-btn-back ml-0">
                     <span class="flecha-ocensa flecha-izquierda flecha-verde mr-2"></span>
                     Ir a la Hemeroteca
                 </a>
             </div>
-            <div class="col-12 col-md-6 text-right">
+            <div class="col-6 text-right">
                 <span class="boletin-date roboto-medium">
                     25 junio al 1 julio  2021
                 </span>
@@ -39,16 +47,167 @@
         </div>
         
         {{!-- Portada --}}
-        <img src="/img/portada-boletin-1.jpg" alt="" class="img-fluid">
+        <div class="oc-portada-boletin mb-4">
+            {{>partials/oc-card-boletin-notice 
+                image_url="/img/portada-boletin-1.jpg" 
+                etiqueta="Etiqueta tema" 
+                titulo="Lorem ipsum dolor sit amet"
+                contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                texto_boton="Leer más"
+                link_boton="#"
+                color="green"
+            }}
+        </div>
 
-        <div class="row">
-            <div class="col-12 col-md-6">
-                {{>partials/boletin-card-author}}
+        <section>
+            {{>partials/element-title-boletin 
+                color="turqueise" 
+                title="Otra sección" 
+                icon="/img/icon-otra-seccion.svg"
+            }}
+            <div class="row">
+            <div class="col-12 col-lg-6">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_otra_seccion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="turqueise"
+                }}
             </div>
-            <div class="col-12 col-md-6">
-                {{>partials/boletin-card-author}}
+            <div class="col-12 col-lg-6">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_otra_seccion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="turqueise"
+                }}
+            </div>
+            <div class="col-12 col-lg-4">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_otra_seccion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="turqueise"
+                }}
+            </div>
+            <div class="col-12 col-lg-4">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_otra_seccion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="turqueise"
+                }}
+            </div>
+            <div class="col-12 col-lg-4">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_otra_seccion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="turqueise"
+                }}
             </div>
         </div>
+        </section>
+
+        {{!-- Gif o imagen --}}
+        <section class="py-3 mb-4">
+            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto">
+        </section>
+
+        {{!-- Operaciones --}}
+        <section>
+            {{>partials/element-title-boletin 
+                color="blue" 
+                title="Operaciones" 
+                icon="/img/icon-operaciones.svg"
+            }}
+
+            {{>partials/element-operation-boletin
+            }}
+
+            {{>partials/element-operation-boletin
+                order="flex-row-reverse"
+            }}
+        </section>
+
+        {{!-- Gif o imagen --}}
+        <section class="py-3 mb-4">
+            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto">
+        </section>
+
+        {{!-- Opinión --}}
+        <section>
+            {{>partials/element-title-boletin 
+                color="blue-light" 
+                title="Opinión" 
+                icon="/img/icon-opinion.svg"
+            }}
+
+            <div class="oc-portada-opinion mb-4">
+                {{>partials/oc-card-boletin-notice 
+                    image_url="/img/desktop_opinion_1.jpg" 
+                    etiqueta="Etiqueta tema" 
+                    titulo="Lorem ipsum dolor sit amet"
+                    contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                    texto_boton="Leer más"
+                    link_boton="#"
+                    color="blue-light"
+                }}
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    {{>partials/boletin-card-author}}
+                </div>
+                <div class="col-12 col-lg-6">
+                    {{>partials/boletin-card-author}}
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            {{>partials/element-title-boletin 
+                color="yellow" 
+                title="Video" 
+                icon="/img/icon-section-video.svg"
+            }}
+
+            {{>partials/oc-card-boletin-notice 
+                image_url="/img/desktop_video_1.jpg" 
+                etiqueta="Etiqueta tema" 
+                titulo="Lorem ipsum dolor sit amet"
+                contenido= "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi."
+                texto_boton="Leer más"
+                link_boton="#"
+                color="yellow"
+                video="true"
+            }}
+
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    {{>partials/boletin-card-author video="true"}}
+                </div>
+                <div class="col-12 col-lg-6">
+                    {{>partials/boletin-card-author video="true"}}
+                </div>
+            </div>
+
+        </section>
     </div>
 </main>
 

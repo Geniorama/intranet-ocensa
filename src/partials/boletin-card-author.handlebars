@@ -1,9 +1,11 @@
-<div class="oc-boletin-card__author type-video">
-    <a href="#" class="oc-boletin-card__author__box-image">
+<div class="oc-boletin-card__author {{#if video}} type-video {{/if}} mb-4">
+    <a href="#" class="oc-boletin-card__author__box-image" {{#if video}}data-toggle="modal" data-target="#exampleModal"{{/if}}>
         <img src="/img/desktop_opinion_2.jpg" class="oc-boletin-card__author__image" alt="">
+        {{#if video}}
         <div class="oc-boletin-card__author__caption">
             <img src="/img/boletin-play-video.svg" alt="">
         </div>
+        {{/if}}
     </a>
     <div class="oc-boletin-card__author__desc">
         <div class="oc-boletin-card__author__desc__cont">

@@ -1269,6 +1269,19 @@ import "./img/widget-boletin/img-portada-boletin-01.png";
 import "./img/boletin/img/desktop_opinion_2.jpg";
 import "./img/boletin/icons/boletin-play-video.svg";
 import "./img/boletin/img/portada-boletin-1.jpg";
+// Boletín
+import "./img/boletin/icon-boletin-green.svg";
+import "./img/boletin/img-operation-boletin.png";
+
+//Pagina Boletin
+import "./img/boletin/desktop_otra_seccion_1.jpg";
+import "./img/boletin/icons/icon-otra-seccion.svg";
+import "./img/boletin/icons/icon-operaciones.svg";
+import "./img/boletin/icons/icon-opinion.svg";
+import "./img/boletin/img/desktop_opinion_1.jpg";
+import "./img/boletin/img/desktop_video_1.jpg";
+import "./img/boletin/icons/icon-section-video.svg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
