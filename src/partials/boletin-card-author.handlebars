@@ -1,6 +1,10 @@
 <div class="oc-boletin-card__author {{#if video}} type-video {{/if}} mb-4">
     <a href="#" class="oc-boletin-card__author__box-image" {{#if video}}data-toggle="modal" data-target="#exampleModal"{{/if}}>
-        <img src="/img/desktop_opinion_2.jpg" class="oc-boletin-card__author__image" alt="">
+        <img src="/img/desktop_opinion_2.jpg" class="oc-boletin-card__author__image {{#if responsive}} d-none d-lg-block {{/if}}" alt="">
+        {{!-- Image mobile --}}
+        {{#if responsive}}
+            <img src="/img/mobile_opinion_2.jpg" class="oc-boletin-card__author__image d-lg-none" alt="">
+        {{/if}}
         {{#if video}}
         <div class="oc-boletin-card__author__caption">
             <img src="/img/boletin-play-video.svg" alt="">
@@ -13,7 +17,7 @@
             Lorem ipsum dolor sit amet.
             </h5>
             <p class="oc-boletin-card__author__desc__par roboto-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolorem officia?
+                Lorem ipsum dolor sit amet ipsum sit lorem.
             </p>
         </div>
         <div>

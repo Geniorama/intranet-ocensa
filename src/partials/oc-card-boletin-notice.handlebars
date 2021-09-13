@@ -1,6 +1,9 @@
 <div class="oc-card-notice__boletin notice-{{color}} {{#if video}}type-video{{/if}}" id="card-notice-boletin">
     <a href="#" class="position-relative d-block" {{#if video}}data-toggle="modal" data-target="#exampleModal"{{/if}}>
-        <img src="{{image_url}}" alt="" class="mb-3 d-block img-notice img-notice-large">
+        <img src="{{image_url}}" alt="" class="mb-3 d-none d-lg-block img-notice">
+        {{#if image_url_responsive}}
+            <img src="{{image_url_responsive}}" alt="" class="mb-3 d-lg-none img-notice">
+        {{/if}}
         {{#if video}}
             <div class="oc-boletin-card__author__caption">
                 <img src="/img/boletin-play-video.svg" alt="">

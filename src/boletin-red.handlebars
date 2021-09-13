@@ -56,6 +56,7 @@
                 texto_boton="Leer más"
                 link_boton="#"
                 color="green"
+                image_url_responsive="/img/portada-boletin-mobile.jpg"
             }}
         </div>
 
@@ -75,6 +76,7 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="turqueise"
+                    image_url_responsive="/img/mobile_otra_seccion_1.jpg"
                 }}
             </div>
             <div class="col-12 col-lg-6">
@@ -86,6 +88,7 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="turqueise"
+                    image_url_responsive="/img/mobile_otra_seccion_1.jpg"
                 }}
             </div>
             <div class="col-12 col-lg-4">
@@ -97,6 +100,7 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="turqueise"
+                    image_url_responsive="/img/mobile_otra_seccion_1.jpg"
                 }}
             </div>
             <div class="col-12 col-lg-4">
@@ -108,6 +112,7 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="turqueise"
+                    image_url_responsive="/img/mobile_otra_seccion_1.jpg"
                 }}
             </div>
             <div class="col-12 col-lg-4">
@@ -119,6 +124,7 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="turqueise"
+                    image_url_responsive="/img/mobile_otra_seccion_1.jpg"
                 }}
             </div>
         </div>
@@ -126,7 +132,8 @@
 
         {{!-- Gif o imagen --}}
         <section class="py-3 mb-4">
-            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto">
+            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto d-none d-lg-block">
+            <img src="https://via.placeholder.com/380x227" alt="" class="img-fluid m-auto d-lg-none">
         </section>
 
         {{!-- Operaciones --}}
@@ -147,7 +154,8 @@
 
         {{!-- Gif o imagen --}}
         <section class="py-3 mb-4">
-            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto">
+            <img src="https://via.placeholder.com/1200x283" alt="" class="img-fluid m-auto d-none d-lg-block">
+            <img src="https://via.placeholder.com/380x227" alt="" class="img-fluid m-auto d-lg-none">
         </section>
 
         {{!-- Opinión --}}
@@ -167,15 +175,16 @@
                     texto_boton="Leer más"
                     link_boton="#"
                     color="blue-light"
+                    image_url_responsive="/img/mobile_opinion_1.jpg"
                 }}
             </div>
 
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    {{>partials/boletin-card-author}}
+                    {{>partials/boletin-card-author responsive="true"}}
                 </div>
                 <div class="col-12 col-lg-6">
-                    {{>partials/boletin-card-author}}
+                    {{>partials/boletin-card-author responsive="true"}}
                 </div>
             </div>
         </section>
@@ -196,14 +205,19 @@
                 link_boton="#"
                 color="yellow"
                 video="true"
+                image_url_responsive="/img/mobile_video_1.jpg"
             }}
 
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    {{>partials/boletin-card-author video="true"}}
+                    {{>partials/boletin-card-author 
+                        video="true"
+                    }}
                 </div>
                 <div class="col-12 col-lg-6">
-                    {{>partials/boletin-card-author video="true"}}
+                    {{>partials/boletin-card-author 
+                        video="true"
+                    }}
                 </div>
             </div>
 

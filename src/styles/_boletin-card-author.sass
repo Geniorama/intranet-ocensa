@@ -46,8 +46,12 @@
 
 @include media-breakpoint-down(md)
     .oc-boletin-card__author
-        flex-direction: column
-    .oc-boletin-card__author__box-image, .oc-boletin-card__author__desc
-        width: 100%
-    .oc-boletin-card__author__image
-        height: auto !important
+        &.type-video
+            flex-direction: column
+            .oc-boletin-card__author__box-image
+                width: 100%
+            .oc-boletin-card__author__desc
+                width: 100%
+            .oc-boletin-card__author__image
+                max-height: 173px
+                height: auto
