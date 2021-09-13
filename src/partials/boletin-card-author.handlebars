@@ -1,9 +1,9 @@
 <div class="oc-boletin-card__author {{#if video}} type-video {{/if}} mb-4">
     <a href="#" class="oc-boletin-card__author__box-image" {{#if video}}data-toggle="modal" data-target="#exampleModal"{{/if}}>
-        <img src="/img/desktop_opinion_2.jpg" class="oc-boletin-card__author__image {{#if responsive}} d-none d-lg-block {{/if}}" alt="">
+        <img src="{{image}}" class="oc-boletin-card__author__image {{#if responsive}} d-none d-lg-block {{/if}}" alt="">
         {{!-- Image mobile --}}
         {{#if responsive}}
-            <img src="/img/mobile_opinion_2.jpg" class="oc-boletin-card__author__image d-lg-none" alt="">
+            <img src="{{image_mobile}}" class="oc-boletin-card__author__image d-lg-none" alt="">
         {{/if}}
         {{#if video}}
         <div class="oc-boletin-card__author__caption">
@@ -14,11 +14,11 @@
     <div class="oc-boletin-card__author__desc">
         <div class="oc-boletin-card__author__desc__cont">
             <h5 class="oc-boletin-card__author__desc__title">
-            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, neque.
             </h5>
             <hr class="oc-boletin-card__author__desc__line">
-            <p class="oc-boletin-card__author__desc__par roboto-regular">
-                Lorem ipsum dolor sit amet ipsum sit lorem.
+            <p class="oc-boletin-card__author__desc__par roboto-regular {{#if video}} d-none{{/if}}">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolorem officia?
             </p>
         </div>
         <div>
