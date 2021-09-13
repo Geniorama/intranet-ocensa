@@ -1282,6 +1282,13 @@ import "./img/boletin/img/desktop_opinion_1.jpg";
 import "./img/boletin/img/desktop_video_1.jpg";
 import "./img/boletin/icons/icon-section-video.svg";
 
+// Boletin mobile
+import "./img/boletin/img/mobile_opinion_2.jpg";
+import "./img/boletin/img/mobile_opinion_1.jpg";
+import "./img/boletin/img/mobile_video_1.jpg";
+import "./img/boletin/img/mobile_otra_seccion_1.jpg";
+import "./img/boletin/img/portada-boletin-mobile.jpg";
+
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
