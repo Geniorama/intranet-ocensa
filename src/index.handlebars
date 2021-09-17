@@ -161,7 +161,40 @@
 
                 <div class="oc-multimedia__cont">
                     <div class="oc-multimedia__cont-item oc-multimedia__imagenes">
-                        <p>Imagenes</p>
+                        <section>
+                            <div class="row d-none d-lg-flex">
+                                <div class="col-12 col-lg-8">
+                                    {{>partials/fav-widget-multimedia image="true"}}
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    {{>partials/fav-widget-multimedia image="true" boxStyle="style-2"}}
+                                    {{>partials/fav-widget-multimedia image="true" boxStyle="style-2"}}
+                                    {{>partials/fav-widget-multimedia image="true" boxStyle="style-2"}}
+
+                                     <div class="text-center">
+                                        <a href="#" class="oc-btn oc-bg-green">
+                                            Ver todas las imagenes
+                                            <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="d-lg-none d-block">
+                                <div class="oc-slick-widget-multimedia oc-slick-theme_2">
+                                    <div class="slick-item">
+                                        {{>partials/fav-widget-multimedia image="true"}}
+                                    </div>
+                                    <div class="slick-item">
+                                        {{>partials/fav-widget-multimedia image="true"}}
+                                    </div>
+                                    <div class="slick-item">
+                                        {{>partials/fav-widget-multimedia image="true"}}
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                     <div class="oc-multimedia__cont-item oc-multimedia__videos">
                         <section>
@@ -187,20 +220,53 @@
                             <div class="d-lg-none d-block">
                                 <div class="oc-slick-widget-multimedia oc-slick-theme_2">
                                     <div class="slick-item">
-                                        <img src="http://via.placeholder.com/1920x400" alt="">
+                                        {{>partials/fav-widget-multimedia video="true"}}
                                     </div>
                                     <div class="slick-item">
-                                        <img src="http://via.placeholder.com/1920x400" alt="">
+                                        {{>partials/fav-widget-multimedia video="true"}}
                                     </div>
                                     <div class="slick-item">
-                                        <img src="http://via.placeholder.com/1920x400" alt="">
+                                        {{>partials/fav-widget-multimedia video="true"}}
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     <div class="oc-multimedia__cont-item oc-multimedia__podcast">
-                        <p>Podcast</p>
+                        <section>
+                            <div class="row d-none d-lg-flex">
+                                <div class="col-12 col-lg-8">
+                                    {{>partials/fav-widget-multimedia audio="true"}}
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    {{>partials/fav-widget-multimedia audio="true" boxStyle="style-2"}}
+                                    {{>partials/fav-widget-multimedia audio="true" boxStyle="style-2"}}
+                                    {{>partials/fav-widget-multimedia audio="true" boxStyle="style-2"}}
+
+                                     <div class="text-center">
+                                        <a href="#" class="oc-btn oc-bg-green">
+                                            Ver todos los podcast
+                                            <span class="flecha-ocensa flecha-derecha flecha-blanca ml-2"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="d-lg-none d-block">
+                                <div class="oc-slick-widget-multimedia oc-slick-theme_2">
+                                    <div class="slick-item">
+                                         {{>partials/fav-widget-multimedia audio="true"}}
+                                    </div>
+                                    <div class="slick-item">
+                                         {{>partials/fav-widget-multimedia audio="true"}}
+                                    </div>
+                                    <div class="slick-item">
+                                         {{>partials/fav-widget-multimedia audio="true"}}
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
