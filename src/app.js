@@ -1291,6 +1291,11 @@ import "./img/boletin/img/portada-boletin-mobile.jpg";
 import "./img/boletin/img/mobile_video_opinion_2.jpg";
 
 
+// Widget Multimedia
+import "./img/widgets-ocensa/img-widget-multimedia/img/widget_multimedia_desktop_1.jpg"
+import "./img/widgets-ocensa/img-widget-multimedia/icons/wdg-icon-multi-video.svg"
+
+
 var scroll = new SmoothScroll('a[href*="#"]');
 
 if (screen.width > 575.98) {
