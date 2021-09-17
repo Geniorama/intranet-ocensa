@@ -38,6 +38,7 @@ import "./modules/WidgetProyectos";
 import "./modules/Perfil";
 import "./modules/WidgetPublicacion";
 import "./modules/WidgetGrupoTrabajo";
+import "./modules/WidgetMultimedia";
 
 // Images
 import "./img/logo-red.svg";
@@ -1289,6 +1290,9 @@ import "./img/boletin/img/mobile_video_1.jpg";
 import "./img/boletin/img/mobile_otra_seccion_1.jpg";
 import "./img/boletin/img/portada-boletin-mobile.jpg";
 import "./img/boletin/img/mobile_video_opinion_2.jpg";
+
+//Widget multimedia
+import "./img/widget-multimedia/icon-multimedia.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
