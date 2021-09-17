@@ -24578,10 +24578,12 @@ if (navbar) {
     });
   });
   $('.oc-multimedia__cont-item:first').show();
-  $('.oc-multimedia__item').click(function (event) {
+  $('.oc-multimedia__item').on('click', function (event) {
+    event.preventDefault();
     index = $(this).index();
     $('.oc-multimedia__cont-item').hide();
     $('.oc-multimedia__cont-item').eq(index).show();
+    $('.oc-slick-widget-multimedia').slick('refresh');
   });
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(0)))
