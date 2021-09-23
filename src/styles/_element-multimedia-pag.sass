@@ -1,0 +1,93 @@
+#oc-element-multimedia-pag
+    .oc-fav-wdg-multimedia__title
+        font-size: 20px !important
+    .oc-dates-noticias__view-comments
+        cursor: pointer
+        .close-comments
+            display: none
+        &.active
+            .open-comments
+                display: none
+            .close-comments
+                display: block
+    .oc-dates-notices__btn-comments
+        span
+            color: #505D6C
+            font-size: 15px !important
+            font-family: 'roboto-c-regular' !important
+//MULTIMEDIA IMAGES
+.oc-multimedia__images
+    .variant-02
+        .oc-dates-noticias__view-comments
+            display: none !important
+
+//MULTIMEDIA VIDEOS
+.oc-multimedia__video
+    .variant-02
+        .oc-dates-noticias__view-comments
+            display: none !important
+
+//MULTIMEDIA PODCAST
+.oc-multimedia__podcast
+    .variant-02
+        .oc-dates-noticias__view-comments
+            display: none !important
+
+.oc-mult-comments
+    background-color: #EEF1F2 !important
+    margin-top: 2em
+    padding: 2em
+    &.closed
+        display: none
+    &__form
+        position: relative
+    &__input
+        width: 100%
+        height: 33px
+        border: 1px solid #E4E4E4 !important
+        border-radius: 10px
+        padding-left: .7em
+        font-family: 'roboto-light' !important
+        font-size: 13px !important
+    &__file
+        position: absolute
+        right: 44px
+        width: 46px
+        opacity: 0
+        height: 33px
+        cursor: pointer
+    &__cont-submit
+        position: absolute
+        right: 0
+        top: 0
+        &:hover path
+            stroke: #24A31A
+        &:hover line
+            stroke: #24A31A
+    &__submit
+        position: absolute
+        right: 0
+        width: 45px
+        opacity: 0
+        height: 33px
+    &__img-submit
+        position: absolute
+        right: 15px
+        top: 6px
+        line, path
+            transition: $tr
+    &__cont-file
+        position: absolute
+        top: 0
+        right: 0
+        cursor: pointer
+        &:hover path
+            stroke: #24A31A
+        &:hover circle
+            stroke: #24A31A
+    &__img-file
+        position: absolute
+        right: 51px
+        top: 6px
+        line, path
+            transition: $tr

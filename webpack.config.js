@@ -317,6 +317,28 @@ module.exports = {
             // templateParameters: require('./src/sumenuEstaciones/submenu-sucre.json')
         }),
 
+        // MULTIMEDIA
+        new HtmlWebpackPlugin({
+            filename: 'multimedia/imagenes.html',
+            template: './src/multimedia/imagenes.handlebars',
+            minify: false,
+            //templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'multimedia/videos.html',
+            template: './src/multimedia/videos.handlebars',
+            minify: false,
+            //templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'multimedia/podcast.html',
+            template: './src/multimedia/podcast.handlebars',
+            minify: false,
+            //templateParameters: require('./src/sumenuEstaciones/submenu-casanare.json')
+        }),
+
 
 
         // CSS

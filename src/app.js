@@ -39,6 +39,7 @@ import "./modules/Perfil";
 import "./modules/WidgetPublicacion";
 import "./modules/WidgetGrupoTrabajo";
 import "./modules/WidgetMultimedia";
+import "./modules/WidgetCommentsMultimedia";
 
 // Images
 import "./img/logo-red.svg";
@@ -1296,8 +1297,12 @@ import "./img/widget-multimedia/icon-multimedia.svg";
 
 
 // Widget Multimedia
-import "./img/widgets-ocensa/img-widget-multimedia/img/widget_multimedia_desktop_1.jpg"
-import "./img/widgets-ocensa/img-widget-multimedia/icons/wdg-icon-multi-video.svg"
+import "./img/widgets-ocensa/img-widget-multimedia/img/widget_multimedia_desktop_1.jpg";
+import "./img/widgets-ocensa/img-widget-multimedia/icons/wdg-icon-multi-video.svg";
+
+// Multimeadia Pag
+import "./img/multimedia/img/view-coments.svg";
+import "./img/multimedia/img/view-coments-02.svg";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');
