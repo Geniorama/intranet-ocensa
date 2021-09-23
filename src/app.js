@@ -1303,6 +1303,8 @@ import "./img/widgets-ocensa/img-widget-multimedia/icons/wdg-icon-multi-video.sv
 // Multimeadia Pag
 import "./img/multimedia/img/view-coments.svg";
 import "./img/multimedia/img/view-coments-02.svg";
+import "./img/multimedia/img/avatar-comments-mult.png";
+import "./img/multimedia/img/figure-comments.png";
 
 
 var scroll = new SmoothScroll('a[href*="#"]');

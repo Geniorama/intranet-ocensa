@@ -33,6 +33,7 @@
         .oc-dates-noticias__view-comments
             display: none !important
 
+//COMENTS
 .oc-mult-comments
     background-color: #EEF1F2 !important
     margin-top: 2em
@@ -41,6 +42,7 @@
         display: none
     &__form
         position: relative
+        width: 100%
     &__input
         width: 100%
         height: 33px
@@ -91,3 +93,120 @@
         top: 6px
         line, path
             transition: $tr
+    &__group
+        border-bottom: 1px solid #C8D1D6
+        padding: .5em 0 1em 0
+    &__item
+        margin-top: .6em
+        display: flex
+        &.oc-p-comments
+            h5
+                font-size: 15px !important
+            p
+                font-size: 13px !important
+        &.oc-s-comments
+            h5
+                font-size: 13px !important
+            p
+                font-size: 11px !important
+            .oc-avatar
+                width: 70%
+        &.oc-t-comments
+            margin-left: 45px
+            h5
+                font-size: 13px !important
+            p
+                font-size: 11px !important
+            .oc-avatar
+                width: 70%
+        
+    &__avatar
+        width: 54px
+        text-align: right
+        img
+            width: 90%
+    &__info
+        width: 100%
+        padding-left: .5em
+        margin-top: .8em
+        h5
+            color: #000000 !important
+            font-family: 'roboto-c-regular' !important
+            margin: 0
+        p
+            color: #505D6C !important
+            font-family: 'roboto-light' !important
+            margin-bottom: .7em
+    &__cont-icons
+        display: flex
+        justify-content: space-between
+    &__icons
+        display: flex
+        .oc-date
+            font-size: 13px !important
+            font-family: 'roboto-c-italic' !important
+            color: #505D6C !important
+            padding-right: .7em
+            border-right: 1px solid #505D6C
+            height: 20px
+        .oc-comment
+            font-size: 13px !important
+            font-family: 'roboto-c-italic' !important
+            color: #505D6C !important
+            padding-left: .7em
+            border-left: 1px solid #505D6C
+            height: 20px
+        .oc-dates-noticias__comments
+            svg
+                width: 20px
+                path
+                    transition: $tr
+            span
+                font-size: 12px !important
+                color: #706F6F !important
+                font-family: 'roboto-medium' !important
+            &:hover path
+                fill: #042B67
+        .oc-dates-noticias__like
+            svg
+                width: 15px
+                path
+                    transition: $tr
+            span
+                font-size: 12px !important
+                color: #706F6F !important
+                font-family: 'roboto-medium' !important
+            &:hover path
+                fill: #042B67
+        .oc-dates-noticias__share
+            margin-left: .7em
+            svg
+                width: 15px
+                circle, line
+                    transition: $tr
+            span
+                font-size: 12px !important
+                color: #706F6F !important
+                font-family: 'roboto-medium' !important
+            &:hover circle
+                stroke: #042B67
+            &:hover line
+                stroke: #042B67
+    &__more-comments
+        span
+            font-size: 13px !important
+            font-family: 'roboto-c-regular' !important
+            color: #505D6C !important
+    &__form
+        &.oc-form-comments
+            margin-left: .5em
+            .oc-mult-comments__form-name
+                position: absolute
+                font-size: 11px !important
+                color: #505D6C !important
+                font-family: 'roboto-bold' !important
+                top: 9px
+                left: 10px
+            .oc-mult-comments__input
+                font-size: 11px !important
+                padding-left: 98px
